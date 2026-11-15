@@ -1,0 +1,2260 @@
+[
+ {
+  "id": "cs-shooting-wish",
+  "kind": "pitfall",
+  "title": "Shooting is not in any engine: offer the sword or the dodge instead",
+  "text": "Creators often ask for guns, bows or blasters. No genre can shoot: battle has a melee sword (in MR the right controller is the sword), tactics captures by moving, runner only walks. Say so kindly and offer the closest buildable thing: a battle option where enemies walk in and are struck up close, or a runner where red hazard rings are the 'shots' to dodge.",
+  "use_when": "the brief mentions shooting, guns, lasers, arrows, a sniper or a shooting gallery",
+  "do": [
+   "Name the limit in one friendly line, then offer battle with the sword",
+   "Reframe 'shots' as red hazard rings or rain rings to step out of",
+   "Keep the sci-fi or space theme the creator wanted"
+  ],
+  "avoid": [
+   "Writing 'aim and fire' or 'collect ammo' in mechanics",
+   "Key art showing a gun or a muzzle flash"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-inventory-wish",
+  "kind": "pitfall",
+  "title": "No inventory or collecting items: use ordered checkpoints as the 'collection'",
+  "text": "Wishes like 'pick up keys', 'collect 10 gems' or 'open your bag' need an inventory that no engine has. In a runner, each checkpoint label can be the thing collected ('Find the jade key'), touched in a fixed order, and the score already rewards each one with +100. In tactics, the targets captured in order play the same role.",
+  "use_when": "the brief asks for items, keys, gems, loot, a backpack, power-ups or upgrades",
+  "do": [
+   "Turn each wanted item into a checkpoint label in story order",
+   "Use the score (+100 per checkpoint) as the collection count",
+   "Use tactics targets as 'treasures to capture in order'"
+  ],
+  "avoid": [
+   "Promising free-order collecting or carrying items between levels",
+   "HUD rows for keys, ammo or bag slots"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-npc-dialogue-wish",
+  "kind": "pitfall",
+  "title": "No NPC conversations: put the story on the intro card and checkpoint labels",
+  "text": "Players cannot talk to characters and characters cannot answer. A 'talk to the village elder' idea becomes a still elder model beside the route plus a checkpoint label like 'Bring the lantern to the elder'. The story itself lives on the intro card (2-4 sentences) and in the order of the checkpoint labels.",
+  "use_when": "the brief wants talking characters, quests given by NPCs, dialogue choices or a guide who speaks",
+  "do": [
+   "Write the story as 2-4 intro-card sentences",
+   "Make each NPC a scenery model next to a labelled checkpoint",
+   "Let the label carry the line the NPC would have said"
+  ],
+  "avoid": [
+   "Dialogue trees, choices or branching endings",
+   "Storyboard panels where the player 'asks' or 'answers' someone"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-voice-chat-wish",
+  "kind": "pitfall",
+  "title": "No voice chat or in-game talking: let real voices do it",
+  "text": "There is no voice chat in any mode. In MR this rarely matters: players in a shared floor session stand in the same real room and can simply talk, and spectators can call out hints. For remote friends, offer an online race with the live leaderboard instead of conversation.",
+  "use_when": "the brief asks for voice chat, team radio, walkie-talkie play or talking to remote friends",
+  "do": [
+   "In MR co-located play, design moments where players naturally shout to each other",
+   "Offer a race with a live leaderboard for remote friends",
+   "Give spectators a cheering role from the side"
+  ],
+  "avoid": [
+   "Rules that depend on hearing a remote teammate",
+   "Puzzles that need one player to describe something to another over the game"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-crafting-wish",
+  "kind": "pitfall",
+  "title": "No crafting, building or base upgrades during play",
+  "text": "Crafting, building a base or combining items is not something any engine runs. Creative players can still get expression: in tactics they plan their own path to capture targets, and in a runner the route order and the race time show their skill. The creator, not the player, is the builder of the Land.",
+  "use_when": "the brief asks players to craft, build, farm, cook recipes or upgrade gear",
+  "do": [
+   "Offer tactics as the 'planning and creating a solution' option",
+   "Present the creator's own Land editing as the building part",
+   "Use a farm or kitchen theme as scenery around a runner route"
+  ],
+  "avoid": [
+   "Mechanics like 'combine wood and stone' or 'build your tower'",
+   "Promising saved progress or upgrades between sessions"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "expression"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-joystick-movement-mr",
+  "kind": "pitfall",
+  "title": "No joystick, teleport or flying movement in MR",
+  "text": "In MR the player walks with their own legs on the real floor; there is no stick movement, teleport, jump or flight. Ideas like 'fly over the city' or 'run a 200 m track' must shrink to the real floor size. Use the void floor or tall scenery below to give the feeling of height while the player still walks a real route.",
+  "use_when": "an MR brief asks for flying, driving, jumping, a long track or a map bigger than the real floor",
+  "do": [
+   "Fit the whole route inside width_m x depth_m minus 0.6 m edges",
+   "Fake height with the void floor and scenery below",
+   "Use PC if the creator really needs a big world to roam"
+  ],
+  "avoid": [
+   "Writing 'move with the thumbstick' in rules",
+   "A route longer than the floor allows"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": [
+    "first-time-vr"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-running-in-mr",
+  "kind": "pitfall",
+  "title": "Do not design for running in MR battle or runner",
+  "text": "Players in passthrough must walk, not sprint: real walls, furniture and people are near, and the battle engine is built so the player steps out of red rings rather than runs. Time limits that can only be beaten by running push players to unsafe speeds. Set time limits so a calm walk finishes with about 20-30 percent spare time.",
+  "use_when": "a design uses tight time limits, 'sprint', chase scenes or races in an MR space",
+  "do": [
+   "Set timeLimit from walking pace (about 0.7-1 m per second plus stops) with spare time",
+   "Reward accuracy (no hazard hits) as much as speed",
+   "Write 'walk, do not run' in the rules"
+  ],
+  "avoid": [
+   "Chase themes where something runs after the player",
+   "A 60 s limit on a route that needs 70 s of walking"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "first-time-vr"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-reskin-options",
+  "kind": "pitfall",
+  "title": "Three options that are reskins of one idea",
+  "text": "A pirate course, a jungle course and a space course with the same loop are one game in three skins, and the checks reject them. The 3 options must use 3 different genres (battle, tactics, runner) and any two must differ on at least 2 of the axes aesthetic, loop, social and route. Change the core activity first, then the look.",
+  "use_when": "drafting the 3 options and they share a loop, route or social mode",
+  "do": [
+   "Give each option its own genre and core loop",
+   "Vary social mode (solo, race, together) and route shape across options",
+   "Let the theme follow the brief but the play differ"
+  ],
+  "avoid": [
+   "Same core_loop text in two options",
+   "Only changing theme and lighting between options"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice; Luminate and design fixation studies, CHI 2024"
+ },
+ {
+  "id": "cs-small-room-genres",
+  "kind": "pitfall",
+  "title": "Under 3 m on a side, battle and tactics do not fit in MR",
+  "text": "When the MR space is under 3 m on its shortest side, only runner fits; battle needs room to step out of rings and tactics needs a board with walkable squares. All 3 options are then runners, so they must differ through loop, social mode, route shape and aesthetic instead of genre.",
+  "use_when": "an MR brief has width_m or depth_m under 3",
+  "do": [
+   "Make all 3 options runners and vary loop (tour, dodge, story)",
+   "Vary route (loop, out-and-back, zigzag) and feelings",
+   "Offer PC as an alternative if the creator wants battle"
+  ],
+  "avoid": [
+   "Proposing a battle or tactics option for a 2.5 x 4 m room",
+   "Three runners that only differ in theme"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-same-scores",
+  "kind": "pitfall",
+  "title": "All options scored the same",
+  "text": "Giving every option 4/4/4/4 hides the real trade-offs and gives the creator nothing to choose on. Use the whole 1-5 scale and tie each score to a brief or venue fact in scores_why, for example mr_fit 2 because a tactics board squeezed into a 3 x 3 m room makes squares only about 0.3 m wide.",
+  "use_when": "writing scores for the 3 options",
+  "do": [
+   "Let at least two options differ in at least one score",
+   "Name the fact behind each score in scores_why",
+   "Set confidence to low for untested combos"
+  ],
+  "avoid": [
+   "5 everywhere",
+   "scores_why lines like 'good fit' with no fact"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-too-many-checkpoints-small",
+  "kind": "pitfall",
+  "title": "Too many checkpoints in a small room",
+  "text": "A 3 x 3 m living room has only about 1.8 m of usable side after the 0.6 m edge margin, which allows 3-4 checkpoints spaced roughly 0.8-1.2 m apart. Eight checkpoints there would sit on top of each other and players would bump the walls. Count checkpoints from the usable floor: small rooms 3-6, halls 4-8, courts 4-10.",
+  "use_when": "a runner for a room under about 5 m on its short side",
+  "do": [
+   "Use 3-4 checkpoints under about 3.7 m, 3-6 under about 6 m",
+   "Make the route a loop so it can be walked twice",
+   "Replay value from time, not from more stops"
+  ],
+  "avoid": [
+   "8-10 checkpoints in a bedroom",
+   "Stops closer than the minimum spacing"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-hazard-on-spawn",
+  "kind": "pitfall",
+  "title": "Hazards on or right next to the spawn or a checkpoint",
+  "text": "A red hazard circle at the start sends a player back before they have learned anything, and one touching a checkpoint makes it unfair to reach. Keep the spawn clear (about 0.8 m in small rooms, 1.2 m in halls, 1.5 m on courts) and keep a gap between each hazard edge and every stop (0.4, 0.7 or 1 m by size).",
+  "use_when": "placing hazards in a runner layout brief",
+  "do": [
+   "Put the first hazard after checkpoint 1 or 2",
+   "Place hazards between stops, beside the straight line, so they are dodgeable",
+   "Keep hazard radius small in small rooms (about 0.35-0.45 m)"
+  ],
+  "avoid": [
+   "A hazard on the first step",
+   "A hazard covering the whole corridor so it cannot be passed"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-dark-theme-daylight",
+  "kind": "pitfall",
+  "title": "Dark, spooky or neon themes in bright daylight",
+  "text": "Outdoor noon sun washes out glow, emissive colour and dark scenes in passthrough, so a haunted night theme in a sunny garden looks flat and grey. Outdoors by day choose bright, high-contrast themes with noon or morning lighting; keep spooky, neon and night for indoor spaces or after dark.",
+  "use_when": "an outdoor MR venue in daytime with a dark, spooky, glow or neon theme request",
+  "do": [
+   "Pick noon or morning lighting with saturated scenery outdoors",
+   "Move the spooky version to the evening slot or indoors",
+   "Tell the creator why in one line"
+  ],
+  "avoid": [
+   "Spooky or neon lighting for an outdoor 2 pm event",
+   "Key art promising glowing effects under the sun"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-scary-young-kids",
+  "kind": "pitfall",
+  "title": "Scary content for young children",
+  "text": "Children under about 8 in a headset cannot look away from a fright as easily as on a screen, and a scare can make them run into real walls. For young kids avoid ghosts that loom, sudden appearances and spooky lighting; use friendly creatures, toys, candy or farm themes with morning or default light. Keep any 'danger' cartoonish, such as puddles or sleeping dragons.",
+  "use_when": "players include young children or a family with small kids",
+  "do": [
+   "Use friendly themes and soft lighting",
+   "Frame hazards as silly (mud, sticky jam)",
+   "Ask the creator about the youngest player age"
+  ],
+  "avoid": [
+   "Thai ghost models for a kindergarten",
+   "Jump scares or chase stories"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice; Yamada-Rice et al. 2017 on children and VR"
+ },
+ {
+  "id": "cs-text-heavy-hud",
+  "kind": "pitfall",
+  "title": "Text-heavy HUD",
+  "text": "A HUD with paragraphs, many counters or a quest log cannot be read while walking, and in MR text floating in view hides real obstacles. Keep 2-4 HUD items, short and numeric, such as timer, score and next checkpoint label; put the story on the intro card before play.",
+  "use_when": "writing the prototype hud and flow",
+  "do": [
+   "Limit the HUD to timer, score, next goal and (battle) health",
+   "Use checkpoint labels of 2-5 words",
+   "Move story to the intro card"
+  ],
+  "avoid": [
+   "Mission text panels during play",
+   "More than 6 HUD items"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "kids"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-boss-chapter-1",
+  "kind": "pitfall",
+  "title": "Boss fight at the start of a battle",
+  "text": "The battle engine runs chapters first and the boss at the end, and players need the early chapters to learn the sword and the step-out rings. A boss in chapter 1 skips the learning and ends the arc too early. Chapter 1 is a few grunts only, the middle chapters add shields and rain, and the boss closes the game.",
+  "use_when": "planning battle chapters or a storyboard that opens with the boss",
+  "do": [
+   "Chapter 1: 2-4 grunts, no rain",
+   "Add shield then beast in later chapters",
+   "Put the boss in the climax storyboard panel"
+  ],
+  "avoid": [
+   "Boss intro in the first minute",
+   "All enemy kinds in the first chapter"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice; Csikszentmihalyi 1990 Flow"
+ },
+ {
+  "id": "cs-beast-chapter-1",
+  "kind": "pitfall",
+  "title": "Beast enemy in the first chapter",
+  "text": "The beast is big and charges, and the check rejects it in chapter 1. Early chapters should teach one thing at a time: grunts to learn striking, then shields to learn hitting from the side, then a beast once players can step aside. In MR keep each chapter at 6 enemies or fewer; on PC up to 9.",
+  "use_when": "writing the battle config chapters",
+  "do": [
+   "Grunts only in chapter 1",
+   "Introduce beast in chapter 3 or later",
+   "MR chapters: at most 6 enemies"
+  ],
+  "avoid": [
+   "A beast in chapters[0]",
+   "8 enemies in one MR chapter"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-guard-beat-fast-mr",
+  "kind": "pitfall",
+  "title": "Tactics guards moving too fast in MR",
+  "text": "In MR the player has to walk onto a real square, which takes much longer than a mouse click, so guards must move every 3 s or slower. A 1.5 s beat is fine on PC but impossible to read while walking. The first board should also have at most 2 guards.",
+  "use_when": "setting tactics board beats and guard counts",
+  "do": [
+   "MR: beat 3-3.5 s",
+   "PC: beat can start at 2.5 s and drop to 1.5 s on later boards",
+   "First board 0-2 guards, then build up"
+  ],
+  "avoid": [
+   "Beat under 3 s in MR",
+   "3 or 4 guards on board 1"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-unsolvable-board",
+  "kind": "pitfall",
+  "title": "Do not design an exact or impossible tactics board",
+  "text": "The tactics engine builds each board from counts (piece, targets, guards, cracks, tables, beat) and proves it can be solved. The AI cannot place squares by hand, and intents like 'a trick board no one can solve' or 'trap the player' are not possible. Express difficulty with counts and piece choice instead.",
+  "use_when": "the creator wants a specific puzzle layout, a trap board or an 'impossible' level",
+  "do": [
+   "Raise difficulty with more guards, cracks and targets, or a harder piece",
+   "Use the board story line to set the mood",
+   "Rook or queen boards feel easier; knight boards feel trickier"
+  ],
+  "avoid": [
+   "Describing exact square coordinates",
+   "Promising a board that cannot be won"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-storyboard-no-climax",
+  "kind": "pitfall",
+  "title": "Storyboard without a climax",
+  "text": "A storyboard of 'start, walk, walk, end' shows no peak and is rejected. Panels go in play order, the first is the start, each beat is used once, and one panel is the climax: the boss, the last board with the most guards, or the final hazard run before the portal. Put the climax where spectators can see it.",
+  "use_when": "writing the prototype storyboard",
+  "do": [
+   "Use start, middle, climax, end (or start, climax, end)",
+   "Make the climax the hardest or most visual moment",
+   "Say what the player physically does in the climax"
+  ],
+  "avoid": [
+   "Two middle panels and no climax",
+   "Climax hidden in a corner away from the audience"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice; Fullerton, Game Design Workshop"
+ },
+ {
+  "id": "cs-key-art-ui-text",
+  "kind": "pitfall",
+  "title": "Key art prompt with text, logos or UI",
+  "text": "The picture maker draws the key art from an English prompt, and asking for a title, score, health bar or logo produces garbled letters and a fake-looking image. Describe one moment of real play: camera, player view, what is on screen, setting, light. For MR say it is seen through a headset with the real room visible and only the floor changed. End with 'no text, logos or interface'.",
+  "use_when": "writing key_art.prompt or art.prompt_style",
+  "do": [
+   "Write prompts in English only",
+   "Describe one frame within the engine's abilities",
+   "Add 'no text, logos or UI' at the end"
+  ],
+  "avoid": [
+   "Game title or Thai text in the picture",
+   "Showing mechanics the engine lacks, like guns or chat bubbles"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-route-crowded-corner",
+  "kind": "pitfall",
+  "title": "Route crowded into one corner",
+  "text": "Routes the model writes often bunch the checkpoints in one corner and leave most of the floor empty, which wastes the space and makes players collide. Spread stops across the whole area using the full width and depth, keep each pair inside the spacing range for the room size, and keep 0.6 m from every edge.",
+  "use_when": "writing a layout brief or route for a runner",
+  "do": [
+   "Name the route shape (loop, zigzag, spiral) across the whole floor",
+   "Visit all four quarters of the area",
+   "Keep stops 1.2-4 m apart in small rooms, 1.8-6 m in halls, 2.5-9 m on courts"
+  ],
+  "avoid": [
+   "All checkpoints within 2 m of each other",
+   "A route hugging one wall"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-spectator-tasks",
+  "kind": "pitfall",
+  "title": "Giving spectators tasks inside the play area",
+  "text": "Spectators cannot see the virtual floor and anyone stepping onto the play area is a collision risk for players in headsets. Never ask spectators to hold props, stand as gates or walk the route. Give them roles from outside the boundary: cheer, call out hints, watch the leaderboard on a screen, or take the next turn.",
+  "use_when": "writing spectator_view or spectator_plan",
+  "do": [
+   "Keep spectators on one marked side outside the area",
+   "Place a key moment (hazard dodge, finish portal) facing them",
+   "Offer a leaderboard screen for races"
+  ],
+  "avoid": [
+   "'Parents stand on the checkpoints'",
+   "Games where a spectator must touch the player"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "Reeves et al. 2005, Designing the spectator experience (CHI)"
+ },
+ {
+  "id": "cs-thai-sacred-sites",
+  "kind": "pitfall",
+  "title": "Sacred places and religious objects as game props",
+  "text": "Thai temples, Buddha images, monks and stupas carry deep respect; using a Buddha image as a hazard, a target to capture, a boss or something to step on or strike is offensive. Temple scenery can appear as respectful background far from the action, but never as something hit, captured or trampled. Prefer folklore spirits, nature, markets or fantasy kingdoms for game action.",
+  "use_when": "a Thai theme involving temples, Buddha images, monks or religious ceremonies",
+  "do": [
+   "Keep temple models as distant decor, upright and undamaged",
+   "Use folklore or invented creatures for enemies and hazards",
+   "Ask about cultural rules in the constraints question"
+  ],
+  "avoid": [
+   "A Buddha image as a checkpoint to touch or a boss",
+   "Hazards placed on temple steps or stupas",
+   "Monks as enemies"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-thai-royal-symbols",
+  "kind": "pitfall",
+  "title": "Royal symbols and real national figures in a game",
+  "text": "Royal emblems, portraits of the royal family, the royal crown and similar symbols are protected by law and custom in Thailand, so they must not appear as props, prizes, enemies or jokes. A 'kingdom' theme should use an invented fantasy court with its own made-up crest and characters.",
+  "use_when": "a Thai brief about kings, palaces, royal history or national pride",
+  "do": [
+   "Invent a fictional kingdom name and crest",
+   "Use generic fantasy palace scenery",
+   "Keep historical themes respectful and non-violent"
+  ],
+  "avoid": [
+   "Real royal emblems or portraits",
+   "A real king as a boss or a chess piece to capture"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-brand-ip-copy",
+  "kind": "pitfall",
+  "title": "Recreating a named existing game, its characters or its look",
+  "text": "Briefs often say 'make it like' a famous game, cartoon or film. Never recreate a named existing game, its characters, logos, levels or signature look. Take the abstract feeling the creator loves (fast dodging, cosy exploring, block-like style) and build an original world with invented names on our engine.",
+  "use_when": "a brief names an existing game, franchise, character or film as the model",
+  "do": [
+   "Ask what they love about it (pace, mood, challenge)",
+   "Invent original names, creatures and setting",
+   "Use our low-poly catalogue themes"
+  ],
+  "avoid": [
+   "Reusing a franchise's character names or costumes",
+   "Key art prompts that name a real game or studio"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-long-event-sessions",
+  "kind": "pitfall",
+  "title": "Long sessions at events with queues",
+  "text": "At a booth or mall activation a 15-minute game means a queue of 40 minutes for the fifth family and headsets sitting idle during setup. Aim for 3-5 minutes of play per turn, a one-screen intro and a clear finish. Races of 2-6 players at once raise throughput if the floor is large enough.",
+  "use_when": "the venue is an event, booth, fair or mall with people waiting",
+  "do": [
+   "Set session_minutes 3-5 and timeLimit around 120-240 s",
+   "Use a race for many players at once on large floors",
+   "Keep rules to 2-3 lines"
+  ],
+  "avoid": [
+   "10+ minute experiences at a booth",
+   "Multi-chapter battles with long boss fights in a queue setting"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "first-time-vr",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-ignoring-obstacles",
+  "kind": "pitfall",
+  "title": "Ignoring real obstacles in the space",
+  "text": "A pillar, sofa, tree or table inside the floor is real and invisible to the route unless named. Ask about obstacles in the interview, write them in the brief, and route around them with at least 1.2 m clear walking width and nothing placed on them. Better still, use them: a pillar becomes the 'tree' the route circles.",
+  "use_when": "the venue has furniture, pillars, trees or any fixed object inside the floor",
+  "do": [
+   "Record obstacles in the brief explicitly or as 'none'",
+   "Route around obstacles with margin",
+   "Theme the obstacle as part of the world"
+  ],
+  "avoid": [
+   "Checkpoints placed on a real table",
+   "A straight route line through a pillar"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-look-up-while-walking",
+  "kind": "pitfall",
+  "title": "Tasks that need looking up while walking",
+  "text": "Players in passthrough need to see the floor and the people near them. Putting the next goal high in the sky, or asking them to read signs above head height while walking fast, causes trips and collisions. Keep labels and goals at chest height or on the floor, and put sky-high scenery only where players stand still.",
+  "use_when": "placing checkpoints, labels or key scenery in an MR layout",
+  "do": [
+   "Keep goals and labels between knee and eye height",
+   "Put tall hero pieces at the edge, viewed from a stop"
+  ],
+  "avoid": [
+   "Dragons to 'chase' across the ceiling",
+   "Labels only readable by looking straight up"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "seniors",
+    "kids"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-sudden-scares-run",
+  "kind": "pitfall",
+  "title": "Sudden scares that make players run",
+  "text": "A jump scare in passthrough can send a player backwards into a wall or another person. Even in a horror event, build dread with lighting, slow-moving scenery and story, and keep the route clear so a startled step is safe. Never place a scare near the area edge.",
+  "use_when": "a horror or haunted brief in MR",
+  "do": [
+   "Use the spooky or night preset and slow reveals",
+   "Keep 1.2 m clear and 0.6 m from edges at frightening spots",
+   "Warn in the rules that it is a scary walk"
+  ],
+  "avoid": [
+   "Things that leap at the player",
+   "A scare right at a wall or corner"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "narrative"
+   ],
+   "players": [
+    "teens"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-void-floor-misuse",
+  "kind": "pitfall",
+  "title": "Void floor for beginners, kids or seniors",
+  "text": "The void floor turns the real floor into a bottomless drop with scenery below. It is dramatic but can cause vertigo, freezing or anxiety, especially for first-time VR players, young kids and seniors. Use it only for adults or teens who ask for thrill, in short sessions, and offer a normal floor version.",
+  "use_when": "considering the void floor option",
+  "do": [
+   "Reserve void floor for thrill-seeking teens and adults",
+   "Keep sessions short and the route simple",
+   "Mention vertigo in risks"
+  ],
+  "avoid": [
+   "Void floor at a seniors' centre or kindergarten",
+   "Void floor with tight time pressure"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation"
+   ],
+   "players": [
+    "first-time-vr",
+    "seniors",
+    "kids"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-race-small-room",
+  "kind": "pitfall",
+  "title": "Races and many players in small rooms",
+  "text": "Under about 4 x 4 m there is room for 1-2 players only; four people walking the same small floor at once will collide. A 'race' there should be turn-based: each player walks alone and the online race leaderboard compares times. Save simultaneous races of up to 6 for floors over 10 x 10 m.",
+  "use_when": "a small room brief asks for a party race or a group game",
+  "do": [
+   "Turn-based time trial with leaderboard",
+   "Others watch and cheer from outside",
+   "Shared floor only for 2 players who can see each other"
+  ],
+  "avoid": [
+   "4 simultaneous players in a living room",
+   "Two lanes in a 3 m wide room"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-pc-venue-questions",
+  "kind": "pitfall",
+  "title": "Asking about room size for a PC game",
+  "text": "On PC there is no real room. Asking for floor size, obstacles or indoor light wastes interview turns and can leak into wrong fields. Once the creator says computer, skip the environment question and do not set venue, width_m, depth_m or indoor; spend the turns on players, feelings and session instead.",
+  "use_when": "the platform is pc",
+  "do": [
+   "Skip the venue question",
+   "Treat spectators as friends watching the screen",
+   "Use PC themes: dark, ice, lava, forest, neon, desert"
+  ],
+  "avoid": [
+   "Setting width_m for a PC game",
+   "MR safety rules in PC rules text"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "gamers"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-too-many-questions",
+  "kind": "pitfall",
+  "title": "Asking questions whose answer changes nothing",
+  "text": "Every extra question delays the creator; the interview should take 4-7 questions and never more than 9. Skip anything with a sensible default (session 5 minutes, solo play for one player, default lighting) and write the default into the brief. Ask only what would change the 3 options, like floor size or the youngest player's age. Never ask for personal data such as names, schools, phone numbers or photos; age range and group size are enough.",
+  "use_when": "deciding the next interview question",
+  "do": [
+   "Default session_minutes and play_mode when unanswered",
+   "Combine environment facts into at most 2 questions",
+   "Stop when platform, concept, players, feelings and environment are known"
+  ],
+  "avoid": [
+   "Asking about colours before knowing the floor size",
+   "A tenth question",
+   "Asking for a school name or children's photos"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice; Kuhn et al. 2023 CLAM on clarifying questions"
+ },
+ {
+  "id": "cs-time-limit-range",
+  "kind": "pitfall",
+  "title": "Time limits outside 30-3600 seconds or written in minutes",
+  "text": "game.timeLimit is seconds between 30 and 3600, or null. Writing 5 (meaning minutes) gives a 5-second game and is rejected. For a calm walk set it from route length; for submission or relaxing games use null so no one is rushed.",
+  "use_when": "filling game.timeLimit in the build step",
+  "do": [
+   "Convert minutes to seconds (3 min = 180)",
+   "Use null for relaxing or kids' games"
+  ],
+  "avoid": [
+   "timeLimit 5 meaning 5 minutes",
+   "A limit so tight only running beats it"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-living-room-family",
+  "kind": "example",
+  "title": "Family living room 3 x 3 m: a gentle loop runner",
+  "text": "Brief: 'Something for my kids (6 and 9) in our living room, about 3 x 3 m, sofa on one side.' Decisions: MR; at exactly 3 m a side all three genres are allowed, but battle and tactics are cramped (tactics squares only about 0.3 m), so runner leads and the other two score low on mr_fit with honest reasons; 1 player at a time, turn-based with the online leaderboard for sibling rivalry; feelings discovery and submission; friendly toy or candy theme with default lighting; 3-4 checkpoints on a small loop, 1-2 tiny hazards after checkpoint 2; sofa listed as obstacle and kept outside the route. If the room were under 3 m, all 3 options would be runners. Key spectator moment: the portal faces the sofa where parents sit.",
+  "use_when": "a family plays in a small home living room",
+  "do": [
+   "Runner as the lead, 3-4 checkpoints, loop route",
+   "Take turns and compare times",
+   "Session about 3 minutes, timeLimit null"
+  ],
+  "avoid": [
+   "Scoring a cramped tactics board as a 5 for mr_fit",
+   "Spooky themes for a 6-year-old"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [
+    "discovery",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-school-hall-8x8",
+  "kind": "example",
+  "title": "School class in an 8 x 8 m hall: three genres for 30 students",
+  "text": "Brief: 'Grade 5 class of 30, school hall about 8 x 8, one hour.' Decisions: MR, medium space, 2-4 players at once while others watch from one side; feelings challenge and fellowship. Options: a runner race of 2 lanes with 5-7 checkpoints themed as a science journey; a tactics board on the floor (squares about 0.85 m) where classmates call out hints; a battle with grunts only in early chapters. Turns of 3-4 minutes so every student plays. Key moment: the finish portal on the audience side.",
+  "use_when": "a teacher brings a whole class to a hall",
+  "do": [
+   "3-4 minute turns, 2-4 players at once",
+   "Audience line along one wall",
+   "Leaderboard on a projector"
+  ],
+  "avoid": [
+   "One 15-minute solo session",
+   "Students waiting inside the play area"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "kids",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-songkran-outdoor-booth",
+  "kind": "example",
+  "title": "Songkran outdoor booth at noon: bright water festival runner",
+  "text": "Brief: 'งานสงกรานต์ บูธกลางแจ้ง อยากได้เกมสนุก ๆ คนต่อคิวเยอะ' (Songkran outdoor booth, lots of people queueing). Decisions: MR outdoors at noon so noon lighting and bright water, flower and festival scenery, no dark or glow themes; 5 x 5 m floor, 1-2 players; 3-minute turns, timeLimit 150 s; 5 checkpoints like 'Pour water for luck', hazards themed as slippery puddles. Avoid temple or Buddha images as props; keep it a festive street. Key moment: the last hazard dodge right in front of the queue.",
+  "use_when": "a Thai festival event outdoors in daylight",
+  "do": [
+   "Noon lighting, saturated colours",
+   "Short turns for throughput",
+   "Respectful festive theme"
+  ],
+  "avoid": [
+   "Spooky lighting under the sun",
+   "Real headsets near water splashes without cover"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-haunted-night-teens",
+  "kind": "example",
+  "title": "Haunted night event for teens: slow-dread story walk",
+  "text": "Brief: 'Halloween night event for high schoolers, indoor hall 10 x 12 m, they want it scary.' Decisions: MR indoors at night, spooky lighting; original folklore spirits as scenery standing beside the route; runner with 6-8 checkpoints telling a ghost story, hazards as cursed ground; dread from lighting and slow reveals, no jump scares, nothing near the walls. Battle option: enemies walk in slowly from the edges, chapter 1 grunts only. Key moment: the final portal reveal facing the audience.",
+  "use_when": "teens want a horror experience at an evening event",
+  "do": [
+   "Spooky or night preset indoors",
+   "Story in checkpoint labels",
+   "Clear 1.2 m route and calm pace"
+  ],
+  "avoid": [
+   "Jump scares that make players run",
+   "Sacred religious objects as horror props"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "sensation",
+    "narrative"
+   ],
+   "players": [
+    "teens"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-kindergarten",
+  "kind": "example",
+  "title": "Kindergarten 5 x 5 m playroom: one tiny adventure",
+  "text": "Brief: 'Kids aged 4-5, a playroom, teachers help.' Decisions: MR, short 2-minute turns with headsets fitted by teachers; feelings discovery and submission; farm or friendly animal theme, morning or default lighting; runner with 4 big, clearly spaced checkpoints ('Say hi to the cow'), no hazards or only one soft one, timeLimit null. One child at a time, others sit on a mat outside the area. Key moment: each child reaches the portal near the mat and classmates clap.",
+  "use_when": "very young children play with adult supervision",
+  "do": [
+   "No time limit, almost no hazards",
+   "Friendly animals, bright light",
+   "Teachers outside the area as spotters"
+  ],
+  "avoid": [
+   "Battle or chase themes",
+   "Long text on the intro card"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice; Yamada-Rice et al. 2017 on children and VR"
+ },
+ {
+  "id": "cs-seniors-centre",
+  "kind": "example",
+  "title": "Seniors' centre: a calm garden walk with stops",
+  "text": "Brief: 'Elderly group, community room 6 x 8 m, many never used VR.' Decisions: MR indoors with studio or morning light; runner with 5 checkpoints spaced 2-3 m apart on a gentle loop, no hazards or very few, timeLimit null; theme a flower garden or old market; no void floor; seated rest chairs outside the area; labels at chest height. Tactics option with a rook (straight walks) and a 3.5 s beat for those who like puzzles. Key moment: arriving at the portal beside their friends.",
+  "use_when": "older adults or first-time VR users with mobility limits",
+  "do": [
+   "No time pressure, wide spacing",
+   "Familiar calm themes",
+   "Rook board, 3.5 s beat for puzzle fans"
+  ],
+  "avoid": [
+   "Void floor or dark lighting",
+   "Battle with fast grunts"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "submission",
+    "discovery"
+   ],
+   "players": [
+    "seniors",
+    "first-time-vr"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-pc-gamers",
+  "kind": "example",
+  "title": "Gamers at a PC: battle, tactics and a speedrun runner",
+  "text": "Brief: 'For gamer friends on a computer, they like hard stuff.' Decisions: PC, no venue fields; feelings challenge and expression. Options: battle with the lava theme, chapter 1 grunts, later shields, beast and rain, up to 9 enemies per chapter, then a boss; tactics with a knight first board at 2 guards and later boards at 1.5-2 s beats; a WASD runner speedrun with tight timeLimit and hazards. Scores differ: battle highest fun, tactics highest expression. Spectators are friends watching the screen and the leaderboard.",
+  "use_when": "experienced players on PC who want challenge",
+  "do": [
+   "Use the PC theme list",
+   "Ramp difficulty across chapters and boards",
+   "Leaderboard for bragging"
+  ],
+  "avoid": [
+   "Asking for room size",
+   "Beast or 3+ guards at the start"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": [
+    "gamers"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-museum-dinosaurs",
+  "kind": "example",
+  "title": "Museum education about dinosaurs: a timeline walk",
+  "text": "Brief: 'พิพิธภัณฑ์อยากให้เด็กเรียนรู้เรื่องไดโนเสาร์' (a museum wants kids to learn about dinosaurs). Decisions: MR in a 7 x 9 m gallery space, indoor default lighting; runner with 6 checkpoints in time order ('Meet the long-neck', 'Find the egg nest'), dinosaur models beside each stop as vignettes, hazards as tar pits; 4-minute turns; story told by labels. Tactics option: the player is a bishop crossing a fossil dig. Key moment: a giant dinosaur model at the end, visible to parents behind the rope line.",
+  "use_when": "an education or museum brief about a learning topic",
+  "do": [
+   "Checkpoint order = learning order",
+   "Big models beside, not on, the route",
+   "Short labels with one fact each"
+  ],
+  "avoid": [
+   "Long reading panels during play",
+   "Dinosaur 'chase' scenes"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-mall-brand-activation",
+  "kind": "example",
+  "title": "Brand activation in a mall: original mascot world, 3-minute race",
+  "text": "Brief: 'A snack brand wants a booth in the mall atrium, 8 x 10 m, lots of shoppers.' Decisions: MR indoors, neon or studio lighting; original candy-world scenery and invented characters, no copying of famous games or mascots not owned by the brand; runner race of 2-4 players, 5-6 checkpoints, timeLimit 180 s; leaderboard on a screen facing the walkway. Battle option: 3 short chapters with grunts as snack crumbs. Key moment: the finish portal facing the shoppers.",
+  "use_when": "a commercial booth in a busy mall with passers-by",
+  "do": [
+   "Short turns and a public leaderboard",
+   "Original designs or brand-owned assets only",
+   "Finish facing the crowd"
+  ],
+  "avoid": [
+   "Recreating another company's game",
+   "Spectators pulled into the area for photos mid-game"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-fortal-court-race-6",
+  "kind": "example",
+  "title": "Fortal court 14 x 22 m: 6-player two-lane race",
+  "text": "Brief: 'Race for 6 friends at the Fortal court.' Decisions: venue fortal-court, indoor steady light so neon or spooky works; runner race with 8-10 checkpoints spaced 2.5-9 m, two lanes or a long zigzag using the full 22 m, hazards between stops; live leaderboard on the wall screen; spectators along the long side. Battle option for 2-3 players in their own space; tactics board squares at 1 m. Key moment: last hazard and portal near the spectator side.",
+  "use_when": "a group race at the Fortal court",
+  "do": [
+   "Use the whole court length",
+   "Leaderboard on the wall screen",
+   "Up to 6 players at once"
+  ],
+  "avoid": [
+   "Ignoring the 4 doors along one wall",
+   "Placing stops within 0.6 m of walls"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-rooftop-sunset",
+  "kind": "example",
+  "title": "Rooftop at sunset: city skyline as backdrop",
+  "text": "Brief: 'A rooftop bar event at sunset, open floor 6 x 6 m, adults.' Decisions: MR outdoors at evening, evening lighting; the real skyline becomes the 'edge of the world', so low scenery in front keeps the view; runner loop with 5 checkpoints and a slow pace; battle option with enemies coming in from the parapet side but stopping well inside; no void floor near real edges. Key moment: the final checkpoint faces the sunset where guests sit.",
+  "use_when": "an outdoor elevated venue with a great view",
+  "do": [
+   "Evening lighting, keep scenery low",
+   "Keep 0.6 m plus extra margin from parapets",
+   "Use the view in environment_fit"
+  ],
+  "avoid": [
+   "Void floor on a real rooftop",
+   "Tall props hiding the skyline"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "sensation",
+    "submission"
+   ],
+   "players": [
+    "adults"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-tiny-room-2x2",
+  "kind": "example",
+  "title": "Tiny 2 x 2 m room: three different runners",
+  "text": "Brief: 'I only have a 2 x 2 m space in my bedroom.' Decisions: MR, under 3 m so all 3 options are runners; usable side is tiny, so 3-4 checkpoints spaced about 0.5-1 m, hazards radius about 0.35 m or none; options differ on loop and route: a story out-and-back, a tour loop played twice, a dodge zigzag with one hazard. Solo, 2 minutes. Suggest PC for battle or tactics if the creator wants them.",
+  "use_when": "a very small MR space",
+  "do": [
+   "Runner only, 3-4 checkpoints",
+   "Vary loop, route and feeling between options",
+   "Offer PC as an alternative"
+  ],
+  "avoid": [
+   "Battle or tactics options",
+   "More than one player"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission",
+    "narrative"
+   ],
+   "players": [
+    "solo"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-chess-club",
+  "kind": "example",
+  "title": "Chess club: walk-on boards with rising pieces",
+  "text": "Brief: 'Our chess club wants to be the pieces.' Decisions: MR in a 6 x 8 m room so the 6 x 8 board fits with squares about 0.8 m; tactics as the lead option: boards from rook to bishop to knight to queen, targets 2 then up to 5, first board 1-2 guards, beat 3-3.5 s; time race with leaderboard. Contrast options: a runner of 'opening moves' as checkpoints and a battle where pieces walk in. Key moment: capturing the last target while members shout move hints from the side.",
+  "use_when": "players who already love chess",
+  "do": [
+   "Tactics first, guards on a slow beat",
+   "Increase difficulty by counts and piece",
+   "Spectators call hints from outside"
+  ],
+  "avoid": [
+   "Beat under 3 s in MR",
+   "Exact board layouts by hand"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": [
+    "groups",
+    "adults"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-birthday-party",
+  "kind": "example",
+  "title": "Birthday party in a garden: treasure walk race by turns",
+  "text": "Brief: 'วันเกิดลูก 8 ขวบ จัดที่สนามหญ้าบ้าน ช่วงบ่าย เพื่อน 10 คน' (8-year-old's birthday, home lawn, afternoon, 10 friends). Decisions: MR outdoors daytime, noon lighting, bright candy or pirate theme; lawn 6 x 6 m with a tree listed as an obstacle and circled by the route; runner with 5 checkpoints as 'treasure' labels, 2 hazards as sticky jam; 2 kids at a time, 3-minute turns, leaderboard. Key moment: blowing-out-candles style finish portal near the cake table.",
+  "use_when": "a children's birthday party",
+  "do": [
+   "Turns of 2 players, 3 minutes",
+   "Bright daytime theme",
+   "Tree as part of the route"
+  ],
+  "avoid": [
+   "Spooky light outdoors",
+   "10 kids on the floor at once"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-office-team-building",
+  "kind": "example",
+  "title": "Office team-building: shared floor together mode",
+  "text": "Brief: 'Team-building for 12 office staff, meeting room cleared to 9 x 9 m.' Decisions: MR indoors, studio lighting; 'together' runner on a shared floor where 3-4 colleagues see each other's avatars and must all reach checkpoints, 6-7 stops; tactics option as a team relay where each person plays one board and the team's total time counts; battle option with players back to back. Real talking replaces voice chat. Key moment: the team finish with everyone watching.",
+  "use_when": "a corporate group wants teamwork",
+  "do": [
+   "Shared floor or relay of boards",
+   "Talking happens in the real room",
+   "Score the team, not the individual"
+  ],
+  "avoid": [
+   "Voice chat or role-play dialogue",
+   "Long single-player sessions"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-chiang-mai-market",
+  "kind": "example",
+  "title": "Tourist night market in Chiang Mai: lantern walk",
+  "text": "Brief: 'Booth at a Chiang Mai night market for tourists, 5 x 6 m, evening.' Decisions: MR outdoors after dark so night lighting and glowing lanterns work; original Lanna-inspired market and lantern scenery, no temple objects as props; runner of 5 checkpoints ('Light the lantern'), hazards as puddles; 3-minute turns, multilingual-friendly short labels; intro card short. Key moment: the final lantern release checkpoint facing the walkway.",
+  "use_when": "an evening tourist market booth",
+  "do": [
+   "Night lighting after dark",
+   "Respectful local theme",
+   "Short turns, short labels"
+  ],
+  "avoid": [
+   "Buddha images or monks as props",
+   "Long story text tourists cannot read"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "discovery"
+   ],
+   "players": [
+    "first-time-vr",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-rainy-season-indoor",
+  "kind": "example",
+  "title": "Rainy season move indoors: a classroom swap",
+  "text": "Brief: 'It was going to be outside but it rains every afternoon, now a classroom 6 x 7 m with desks pushed aside.' Decisions: MR indoors, stacked desks listed as obstacles and kept outside the area; indoor light means spooky or neon themes now become possible; runner 5-6 checkpoints with a storm or jungle theme, battle with rain rings fitting the season, tactics squares about 0.75 m. Key moment: battle rain chapter in front of the doorway where classmates watch.",
+  "use_when": "the venue changed from outdoors to indoors",
+  "do": [
+   "Re-ask floor size and obstacles",
+   "Revisit lighting for indoors",
+   "Use rain as a theme in battle chapters"
+  ],
+  "avoid": [
+   "Keeping the outdoor noon plan",
+   "Ignoring the stacked desks"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle",
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "sensation",
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-solo-relaxation",
+  "kind": "example",
+  "title": "Solo relaxation after work: slow zen walk",
+  "text": "Brief: 'I just want to relax alone at home, 4 x 5 m spare room.' Decisions: MR, solo, submission and sensation; runner loop with 4-5 checkpoints like 'Breathe by the pond', no hazards, timeLimit null; ice, garden or morning lighting; tactics option with a rook and slow 3.5 s beat as a quiet puzzle; battle option clearly marked as the energetic one. 5-10 minutes. Spectators none.",
+  "use_when": "a single adult wants a calm experience",
+  "do": [
+   "No time limit, few or no hazards",
+   "Soft lighting",
+   "Slow tactics as a quiet alternative"
+  ],
+  "avoid": [
+   "Leaderboards and countdowns",
+   "Void floor"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "submission",
+    "sensation"
+   ],
+   "players": [
+    "solo",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-vague-fun-game",
+  "kind": "example",
+  "title": "'Make a fun game' with no details: what to resolve first",
+  "text": "Brief: 'ทำเกมสนุก ๆ ให้หน่อย' (make a fun game). Resolve in order: platform (headset or computer), who plays and how many, the top 1-3 feelings, then for MR the floor size, indoor or outdoor and spectators. With those five facts the engine choices follow: floor size sets genres and checkpoint counts, light sets lighting presets, age sets theme and hazards. Use defaults for session (5 minutes) and play mode (solo).",
+  "use_when": "a brief is a single vague sentence",
+  "do": [
+   "Ask platform first",
+   "Ask size before theme",
+   "Write defaults into the brief"
+  ],
+  "avoid": [
+   "Proposing options before knowing the floor",
+   "Asking about colours first"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice; Kuhn et al. 2023 CLAM on clarifying questions"
+ },
+ {
+  "id": "cs-vague-space-game",
+  "kind": "example",
+  "title": "'A space adventure' in a 10 x 10 m hall",
+  "text": "Brief: 'Space adventure for teens, hall 10 x 10.' Decisions: MR indoor, neon or night lighting; options: runner story through 7 planet checkpoints with meteor hazards; battle on the neon theme where alien grunts walk in and the right controller is the energy sword (no blasters); tactics where the player is a queen crossing a space station board. Axes differ on loop, social and route. Key moment: the battle boss or the portal near the audience side.",
+  "use_when": "a sci-fi theme where creators may expect shooting",
+  "do": [
+   "Sword instead of guns",
+   "Neon indoors",
+   "Three genres, three loops"
+  ],
+  "avoid": [
+   "Laser guns or ships to fly",
+   "Three planet-themed runners"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle",
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "fantasy",
+    "challenge"
+   ],
+   "players": [
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-pc-classroom-lab",
+  "kind": "example",
+  "title": "Computer lab lesson: PC tactics as a logic lesson",
+  "text": "Brief: 'Grade 8 computer lab, 40 minutes, teach logical thinking.' Decisions: PC, no venue; tactics leads: 4 boards rising from rook to knight, first board 1 guard, later beats 2-2.5 s, board stories about a logic quest; runner WASD option as a warm-up; battle option for the last 10 minutes as a reward. Class leaderboard on the projector. Students in pairs: one plays, one advises.",
+  "use_when": "a school using desktop computers",
+  "do": [
+   "Tactics boards as lesson steps",
+   "Pair play for discussion",
+   "Leaderboard on projector"
+  ],
+  "avoid": [
+   "MR safety talk for a PC game",
+   "Hard first board"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-pc-fantasy-story",
+  "kind": "example",
+  "title": "PC story fan: a short fantasy saga across three genres",
+  "text": "Brief: 'I want a fantasy story game on my computer, not too hard.' Decisions: PC, narrative and fantasy; runner option as a story walk with 8 labelled checkpoints in a forest theme; battle option in forest theme with 3 short chapters (grunts, then shields, then boss) and a named original boss; tactics option with a knight crossing a castle board story by story. Easy settings: few enemies per chapter, slow beats. Storyboard climax = boss or last board.",
+  "use_when": "a PC player who wants story over difficulty",
+  "do": [
+   "Narrative in intro card and labels",
+   "Gentle difficulty ramp",
+   "Original boss name and lore"
+  ],
+  "avoid": [
+   "Dialogue with NPCs",
+   "Hard boss in chapter 1"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle",
+    "tactics"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": [
+    "solo"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-first-time-vr-expo",
+  "kind": "example",
+  "title": "Tech expo with first-time VR visitors: a 2-minute taster",
+  "text": "Brief: 'At a tech expo, most visitors have never worn a headset, booth 6 x 6 m.' Decisions: MR indoors, studio lighting; runner with 4-5 checkpoints and one hazard, timeLimit null or 150 s, intro of 2 lines; battle option with only 2-3 grunts per chapter and 3 chapters; staff spotter outside the edge. Session 2-3 minutes. Key moment: the first sword strike or the finish, seen from the aisle.",
+  "use_when": "most players are new to VR at a public event",
+  "do": [
+   "Very short, very clear rules",
+   "One new idea at a time",
+   "Staff spotter outside"
+  ],
+  "avoid": [
+   "Void floor or spooky scares",
+   "Many enemy kinds"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "sensation",
+    "submission"
+   ],
+   "players": [
+    "first-time-vr"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-pillar-hall",
+  "kind": "example",
+  "title": "Hall with two pillars: make the pillars part of the world",
+  "text": "Brief: 'Community hall 12 x 12 m but there are two big pillars in the middle.' Decisions: MR; obstacles recorded in the brief; runner route as a figure-eight looping around both pillars with 1.2 m clear width, pillars themed as ancient tree trunks with scenery kept off them; battle arena on the free half; tactics board fitted to the clear side only. Key moment: the hazard dodge between the pillars where the audience looks in.",
+  "use_when": "a venue with fixed obstacles inside the floor",
+  "do": [
+   "Route around obstacles with margin",
+   "Theme the obstacle",
+   "Fit boards and arenas to the clear part"
+  ],
+  "avoid": [
+   "A straight line through a pillar",
+   "Board squares overlapping a pillar"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle",
+    "tactics"
+   ],
+   "feelings": [
+    "discovery"
+   ],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cs-couple-date",
+  "kind": "example",
+  "title": "Two players at home: shared floor date night",
+  "text": "Brief: 'Me and my partner, living room cleared 4 x 4 m.' Decisions: MR, 2 players together on a shared floor (they see each other's avatars and the real room), 4-5 checkpoints on a loop, gentle hazards; evening lighting indoors; battle option where they take turns and compare chapters; tactics option as a team where one walks and one advises from the sofa. 5 minutes per round.",
+  "use_when": "a pair of adults at home",
+  "do": [
+   "Shared floor for 2",
+   "Turn-taking for battle",
+   "One plays, one advises for tactics"
+  ],
+  "avoid": [
+   "Races of 2 at once in 4 x 4 m with crossing routes",
+   "Long sessions without rest"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle",
+    "tactics"
+   ],
+   "feelings": [
+    "fellowship",
+    "submission"
+   ],
+   "players": [
+    "adults"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-fitness-challenge",
+  "kind": "example",
+  "title": "Fitness-minded adults: an active battle with rain rings",
+  "text": "Brief: 'Gym members want something active, studio 7 x 7 m.' Decisions: MR indoors; battle as the lead with 5 chapters building from grunts to shields to beast, rain from chapter 3, max 6 enemies each, then a boss; stepping out of rings and swinging gives real exercise without running; runner option as an interval walk with timeLimit; tactics as a cool-down puzzle. Spectators watch movements through the glass wall.",
+  "use_when": "players want physical activity",
+  "do": [
+   "Battle steps and swings for exercise",
+   "Rain rings later",
+   "Rest between chapters"
+  ],
+  "avoid": [
+   "Sprinting or jumping",
+   "More than 6 enemies per MR chapter"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle",
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "sensation",
+    "challenge"
+   ],
+   "players": [
+    "adults"
+   ]
+  },
+  "source": "Mueller & Isbister 2014, Movement-based game guidelines (CHI)"
+ },
+ {
+  "id": "cs-thai-folklore-adults",
+  "kind": "example",
+  "title": "Thai folklore for adults: original spirits, respectful setting",
+  "text": "Brief: 'ผีไทยแต่ไม่อยากให้ลบหลู่' (Thai ghosts but not disrespectful). Decisions: MR indoors at night, spooky lighting; use the catalogue's Thai ghost models as standing scenery beside a village route, with invented spirit names; temples only as distant background, never touched or stepped on; runner with 6 story checkpoints, battle where spirits walk in and are sent away with the sword. No Buddha images, monks or sacred rituals as game parts. Key moment: dawn finish at the portal.",
+  "use_when": "a Thai ghost or folklore theme",
+  "do": [
+   "Invented spirits and village settings",
+   "Temples as distant decor only",
+   "Story told by labels"
+  ],
+  "avoid": [
+   "Monks as enemies",
+   "Sacred objects as targets"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "narrative",
+    "sensation"
+   ],
+   "players": [
+    "adults",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-car-park-event",
+  "kind": "example",
+  "title": "Car park evening event 20 x 25 m: big race",
+  "text": "Brief: 'Evening event in an empty car park, 20 x 25 m, lots of teens.' Decisions: MR outdoors after dark, night or neon lighting; large space rules: runner race for up to 6 players with 8-10 checkpoints 2.5-9 m apart in two lanes; painted lines and lamp posts noted as obstacles; leaderboard on a portable screen. Battle and tactics run in a separate fenced section. Key moment: finish portal under the main lights where the crowd stands.",
+  "use_when": "a very large open outdoor floor at night",
+  "do": [
+   "Large-space spacing",
+   "Lamp posts as obstacles",
+   "Finish near the crowd"
+  ],
+  "avoid": [
+   "Daytime glow themes",
+   "Players crossing each other's lanes"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle",
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cs-garden-morning-kids",
+  "kind": "example",
+  "title": "Garden in the morning: dinosaur egg hunt walk",
+  "text": "Brief: 'Saturday morning in the garden, 7 x 8 m, kids 7-10, two trees.' Decisions: MR outdoors, morning lighting, bright dinosaur and jungle scenery; trees as obstacles circled by a loop route; runner with 6 checkpoints ('Find the blue egg'), 2 hazards as mud pits; tactics option with a rook on a 'nest board'; battle option with grunts as playful raptors in 3 short chapters. 2 kids at a time.",
+  "use_when": "kids playing outdoors in morning light",
+  "do": [
+   "Morning light, bright colours",
+   "Trees as features",
+   "Gentle hazards"
+  ],
+  "avoid": [
+   "Night or spooky light",
+   "Beast in chapter 1"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [
+    "discovery",
+    "fantasy"
+   ],
+   "players": [
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cs-combine-options",
+  "kind": "example",
+  "title": "Creator asks to combine two options",
+  "text": "Brief follow-up: 'I like the dinosaur look of option 1 and the race of option 2.' Decisions: keep the named parts (dinosaur theme and race social mode), keep it buildable, and still return 3 different options, for example a dinosaur runner race, a dinosaur battle with a leaderboard time, and a dinosaur tactics board race. Each still uses a different genre and differs on at least 2 axes.",
+  "use_when": "the creator requests a remix of earlier options",
+  "do": [
+   "Keep the parts they named",
+   "Give 3 ways to combine them",
+   "Keep genres different"
+  ],
+  "avoid": [
+   "Returning one merged option",
+   "Dropping what they asked for"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ }
+]

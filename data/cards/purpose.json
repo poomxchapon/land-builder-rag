@@ -1,0 +1,2684 @@
+[
+ {
+  "id": "pu-ask-purpose",
+  "kind": "question",
+  "title": "Ask what the game is FOR before what it looks like (วัตถุประสงค์)",
+  "text": "Many creators are teachers, brands, HR teams or parents who need the game to do a job. Early in the interview, ask one question: what should be different for players after they play (they know a fact order, they remember a brand, they talked to colleagues, they relaxed)? The answer picks the genre, session length and whether there is a race far more than the theme does.",
+  "use_when": "the concept mentions a school, a client, an event, a team, a lesson, a booth or a goal beyond fun",
+  "do": [
+   "Offer choices like: teach something, promote a brand, bring a team together, a party, relax, move more",
+   "Write the purpose into the concept line of the brief",
+   "Let the purpose decide play_mode and session_minutes when the creator did not"
+  ],
+  "avoid": [
+   "Asking about the purpose after the options are already drawn",
+   "Treating a learning or brand brief like a pure fun brief"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-purpose-serves-play",
+  "kind": "principle",
+  "title": "The purpose must ride on the core loop, not on top of it",
+  "text": "A purpose game works when the thing the player does again and again is itself the lesson, the message or the bonding. If the purpose lives only on the intro card while play is unrelated, players remember the play and forget the purpose. Check each option: if you deleted the theme, would the purpose still be present in what the player does?",
+  "use_when": "checking any option for a learning, brand, team or wellbeing brief",
+  "do": [
+   "Map the purpose onto checkpoint order, tactics capture order or battle chapters",
+   "State in mechanics how the loop carries the purpose"
+  ],
+  "avoid": [
+   "A fun race with a fact screen at the end",
+   "A brand logo pasted onto an unrelated game"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Bruckman 1999, Can Educational Be Fun? (GDC); design practice"
+ },
+ {
+  "id": "pu-edu-checkpoint-sequence",
+  "kind": "principle",
+  "title": "Ordered checkpoints teach sequences (ลำดับเหตุการณ์)",
+  "text": "The runner forces checkpoints to be touched in order, so it is a natural teacher of anything that has a correct order: a life cycle, a process, a timeline, steps of an experiment. Give each checkpoint one short fact label in the true order, 4-8 stops, 1.5-3 m apart. Walking the order with the body helps it stick, and the order is the content, not decoration.",
+  "use_when": "the learning topic has stages, steps, eras or a fixed order",
+  "do": [
+   "One fact per label, 2-6 words",
+   "Put a scenery model that shows the stage beside each stop",
+   "Use a loop route when the topic is a cycle, a line when it has a start and an end"
+  ],
+  "avoid": [
+   "Putting two facts on one label",
+   "Using checkpoints for a topic that has no order (e.g. a list of animals)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-life-cycle",
+  "kind": "example",
+  "title": "Life cycle walk: butterfly, frog or rice plant",
+  "text": "A life cycle maps perfectly onto a loop runner. Butterfly: 'Tiny egg on a leaf', 'Caterpillar eats', 'Chrysalis rests', 'Butterfly flies', back to the leaf. Rice for Thai schools: 'Seed soaks', 'Seedling grows', 'Plant in paddy', 'Rice flowers', 'Golden harvest'. 4-6 stops in a loop, morning lighting, a big model of each stage beside its stop, hazards as hungry birds or dry cracked mud.",
+  "use_when": "a primary science lesson on growth, life cycles or farming",
+  "do": [
+   "Use a loop route so the end meets the start",
+   "Make each stage model large and clearly different",
+   "Keep timeLimit null for under-8s"
+  ],
+  "avoid": [
+   "A straight line that hides the cycle",
+   "Scary predators chasing young children"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-thai-history-timeline",
+  "kind": "example",
+  "title": "Thai history timeline by eras, not by kings",
+  "text": "For Thai history, make checkpoints eras in order: 'Ban Chiang pottery', 'Sukhothai script', 'Ayutthaya trade port', 'Thonburi', 'Rattanakosin city'. Show each era with buildings, boats, crafts and markets as scenery. Do not put real royal figures, portraits or royal symbols in the game; teach through places, objects and daily life, which is also easier to show in low-poly.",
+  "use_when": "a social studies or Thai history lesson, or a heritage museum brief",
+  "do": [
+   "Use eras and everyday objects as the labels",
+   "Let the teacher name the people in the debrief",
+   "5-6 stops in a line from oldest to newest"
+  ],
+  "avoid": [
+   "Royal portraits, royal emblems or kings as characters",
+   "Battles between real historical armies as a battle option"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-solar-system",
+  "kind": "example",
+  "title": "Solar system walk: planets in order from the Sun",
+  "text": "Spawn at the Sun and place 8 checkpoints, one per planet, Mercury to Neptune, so the order is learned with the feet. The real distances cannot fit any room, so space the stops evenly (1.5-3 m) and say on the intro card that the spacing is not to scale; a teacher can show real scale later. Night lighting indoors makes the planets pop; hazards as asteroid patches between Mars and Jupiter teach the belt's position.",
+  "use_when": "a science lesson about planets or space for ages 7-14",
+  "do": [
+   "One planet name plus one fact per label ('Mars: red dust')",
+   "Hazards as the asteroid belt between stops 4 and 5",
+   "State that distances are not to scale"
+  ],
+  "avoid": [
+   "Implying the planets are evenly spaced in reality",
+   "More than 10 checkpoints (add the Moon in the story instead)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-geography-journey",
+  "kind": "example",
+  "title": "Geography as a journey: river, regions or a trade route",
+  "text": "Geography works when the route is a real journey in miniature: the Chao Phraya from the northern rivers to the Gulf, or a trip through Thailand's regions north to south. Each checkpoint is a place in travel order with a landmark-type model (mountains, rice plains, a port, islands). The room's long side can stand for north to south so players feel direction.",
+  "use_when": "a geography lesson about a river, a country's regions or a route",
+  "do": [
+   "Align the route with a real compass direction if the teacher wants",
+   "Use landscape models more than buildings"
+  ],
+  "avoid": [
+   "Real maps with text in the scenery",
+   "Placing sacred sites as checkpoints"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-english-vocab",
+  "kind": "pattern",
+  "title": "English vocabulary walk: one word per checkpoint with a picture model",
+  "text": "For Thai learners of English, each checkpoint label is one English word from a topic set (fruit, jobs, weather, prepositions) and a clear model of it stands beside the stop. Order can follow a story ('Wake up', 'Brush teeth', 'Eat breakfast', 'Walk to school') so the words are used in context. Players cannot type or answer in the game, so the teacher asks the class to say the words before and after.",
+  "use_when": "an English or foreign language lesson for kids or teens",
+  "do": [
+   "Use a daily-routine or story order so words connect",
+   "Pick 5-8 words per game, picture-clear models",
+   "Set lang to en for the labels, keep the teacher's notes in Thai"
+  ],
+  "avoid": [
+   "Promising spelling tests or typed answers in game",
+   "Abstract words that no model can show"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-maths-patterns",
+  "kind": "pattern",
+  "title": "Maths through movement: tactics pieces and number-sequence labels",
+  "text": "Tactics pieces are maths made visible: the rook moves in lines, the bishop in diagonals, the knight in an L of 2 and 1 squares. A board where the player must plan a capture order teaches counting squares, coordinates and planning. In a runner, checkpoint labels can be a number pattern ('2', '4', '8', '16') so the next stop is a prediction the class makes aloud before the player walks.",
+  "use_when": "a maths lesson on patterns, shapes, coordinates or logical steps",
+  "do": [
+   "Use the knight board for older kids, the rook for younger",
+   "Ask spectators to predict the next number"
+  ],
+  "avoid": [
+   "Arithmetic drills with typed answers",
+   "Boards too hard for the age (more than 4 targets for under-10s)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-tactics-planning",
+  "kind": "principle",
+  "title": "Tactics boards teach planning and algorithms",
+  "text": "A tactics board is a small algorithm: a fixed set of rules, a goal (capture targets in order) and obstacles (guards on a beat, cracked squares). Solving it means planning steps ahead, testing, and fixing a plan after a mistake, which is the core of computational thinking. Ask the player to say the plan out loud before stepping, then compare plan and result in the debrief.",
+  "use_when": "a computing, logic or problem-solving lesson",
+  "do": [
+   "Start with 2 targets and one slow guard, then a second board with 3-4 targets",
+   "Have a partner outside the area write the planned moves"
+  ],
+  "avoid": [
+   "Fast guards that turn planning into reflexes",
+   "Only one board, so no chance to apply what was learned"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-chess-beginners",
+  "kind": "pattern",
+  "title": "Teaching chess piece moves: one piece per board, simple to complex",
+  "text": "To teach how pieces move, give one piece per board in this order: rook (lines), bishop (diagonals), queen (both), knight (the L, hardest). The first board of each piece has no guards, only targets, so the player just learns the move; the second adds one guard to show attacked squares. In MR the body learns the shape of the move, which beginners often forget on a small board.",
+  "use_when": "a chess club, a school chess intro or parents teaching kids chess",
+  "do": [
+   "Name the piece and its move in the goal line",
+   "Save the knight for last"
+  ],
+  "avoid": [
+   "Starting with the knight",
+   "Guards on the very first board of a new piece"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-immune-battle",
+  "kind": "example",
+  "title": "Battle as metaphor: germs vs the immune system",
+  "text": "The battle engine can teach a defence story: the player is a white blood cell, grunts are fast small germs, shield enemies are germs with a tough coat that must be hit from the side, the beast is a big infection, and the boss is the final wave. Chapter titles can teach stages ('The cut', 'The alarm', 'The big fight'). In the debrief, the teacher says where the metaphor is not true (cells do not use swords).",
+  "use_when": "a health or biology lesson about germs, the body's defence or hygiene",
+  "do": [
+   "Name each enemy kind after a real germ type",
+   "Dark or neon theme indoors for an inside-the-body look",
+   "Spell out the limits of the metaphor in the debrief"
+  ],
+  "avoid": [
+   "Gory body imagery for young kids",
+   "Teaching that medicine is a sword (no medical claims)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-metaphor-accuracy",
+  "kind": "pitfall",
+  "title": "A battle metaphor that teaches a wrong idea",
+  "text": "Metaphors stick, including the wrong parts. If recycling is taught as 'slash the plastic monsters', kids may learn that waste disappears when you hit it. Before using battle for a lesson, list what each element stands for and check one wrong lesson it could teach; if the wrong lesson is the main takeaway, choose a runner where the correct order of actions is the content instead.",
+  "use_when": "battle is proposed for an education or awareness brief",
+  "do": [
+   "Write the mapping: enemy = what, chapter = what, boss = what",
+   "Prefer a runner for process topics (sorting, recycling steps)"
+  ],
+  "avoid": [
+   "Violence as the answer to social topics",
+   "Enemies that represent people or groups"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-misconception-hazards",
+  "kind": "pattern",
+  "title": "Hazards as common wrong ideas",
+  "text": "Hazards can carry labels, so they can stand for misconceptions: on a solar system walk a red circle labelled 'Sun goes round Earth', on a food chain walk 'Plants eat soil'. Stepping in one costs 25 points and sends the player back, a gentle way to mark a wrong idea without quizzes. Keep it to 2-3 such hazards and discuss them in the debrief.",
+  "use_when": "a learning runner where the topic has known misconceptions",
+  "do": [
+   "2-3 labelled hazards, beside the route not on it",
+   "Short labels the class can read from the side"
+  ],
+  "avoid": [
+   "Hazards on the only path (forcing failure)",
+   "Mocking language in labels"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-quiz-wish",
+  "kind": "pitfall",
+  "title": "No quizzes, typed answers or multiple choice in any engine",
+  "text": "Teachers often ask for questions with answers. No engine can show a question and accept an answer, and routes are fixed, so there are no branching 'pick the right door' paths. Offer instead: the correct answer order as checkpoints, wrong ideas as labelled hazards, and the teacher asking questions out loud before and after play. The game is the experience; the quiz happens in the room.",
+  "use_when": "the brief mentions quiz, questions, test, answer, exam or choose the right answer",
+  "do": [
+   "Say kindly that the game cannot ask questions",
+   "Turn the answers into the checkpoint order",
+   "Suggest a 2-minute verbal or paper quiz after play"
+  ],
+  "avoid": [
+   "Promising answer buttons, text input or branching routes",
+   "Rules like 'pick the correct gate'"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pu-edu-learning-objective",
+  "kind": "principle",
+  "title": "Write one observable learning objective",
+  "text": "A learning game needs one objective phrased as something you can see a student do afterwards: 'put the 5 rice stages in order', 'name 6 planets from the Sun', 'explain why the knight jumps'. Avoid 'understand' or 'learn about'. The objective decides the checkpoint labels, and it becomes the thing you check in the debrief.",
+  "use_when": "any education brief, before writing checkpoint labels",
+  "do": [
+   "Use verbs like order, name, sort, explain, predict",
+   "Keep one objective per Land"
+  ],
+  "avoid": [
+   "Three objectives in one 4-minute game",
+   "Vague goals like 'have fun with science'"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-age-bands",
+  "kind": "heuristic",
+  "title": "Learning games by age band",
+  "text": "Ages 5-7: 4-5 checkpoints, labels of 1-3 words with picture-clear models, no time limit, no tactics guards. Ages 8-10: 5-7 checkpoints, short fact labels, tactics with rook or bishop and one slow guard. Ages 11-14: up to 8-10 checkpoints, cause-and-effect labels, tactics with knight or queen, battle as a metaphor. For MR, follow the headset maker's minimum age (Meta sets 10+ for Quest, with a parent-managed account); younger classes play on PC.",
+  "use_when": "an education brief where the players' age is known",
+  "do": [
+   "Check the headset age rule before choosing MR for young classes",
+   "Scale label length with reading level"
+  ],
+  "avoid": [
+   "The same design for 6-year-olds and 13-year-olds",
+   "MR headsets for children under the maker's minimum age"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "Meta Quest safety and age guidance; design practice"
+ },
+ {
+  "id": "pu-edu-debrief",
+  "kind": "pattern",
+  "title": "Debrief after play: the learning happens in the talk",
+  "text": "Experience becomes learning when people reflect on it. Plan a 3-5 minute debrief with three questions: What happened, in order? Why was it in that order? Where is that true in real life? Players and watchers answer together. Put the debrief in the flow of the prototype so the teacher plans time for it.",
+  "use_when": "any education, team-building or museum brief",
+  "do": [
+   "Add a debrief step to the prototype flow",
+   "Use the checkpoint labels as the discussion list"
+  ],
+  "avoid": [
+   "Ending the lesson when the last player takes the headset off",
+   "Debrief longer than the play"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "teens",
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "Kolb 1984, Experiential Learning; design practice"
+ },
+ {
+  "id": "pu-edu-just-in-time-facts",
+  "kind": "principle",
+  "title": "Give each fact at the moment it is used",
+  "text": "Good games teach by putting information exactly where and when the player needs it, not in a manual first. In a learning Land, that means the fact sits on the checkpoint label the player is walking to, and the scenery beside it shows it. Keep the intro card for the story and goal only, and never put a reading wall before play.",
+  "use_when": "deciding where facts go in a learning game",
+  "do": [
+   "Facts on labels and in scenery",
+   "Intro card: 2-4 sentences of story and the goal"
+  ],
+  "avoid": [
+   "A long text intro full of facts",
+   "Facts no player sees because they are only in the rules list"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "Gee 2003, What Video Games Have to Teach Us About Learning and Literacy"
+ },
+ {
+  "id": "pu-edu-curriculum-fit",
+  "kind": "heuristic",
+  "title": "Which school topics fit the engines and which do not",
+  "text": "Fits well: sequences (life cycles, history eras, steps of a recipe or experiment), ordered lists (planets, food chains, journeys), movement rules and planning (tactics), defence or struggle stories (battle as metaphor). Fits poorly: open debate, reading comprehension, essays, arithmetic drills, anything that needs an answer typed or chosen. For poor fits, propose a game as the hook and keep the core task in class.",
+  "use_when": "a teacher names a subject and the AI must judge if a game helps",
+  "do": [
+   "Name the fit honestly in options",
+   "Offer the closest fitting angle of the topic"
+  ],
+  "avoid": [
+   "Forcing a reading or debate topic into a runner",
+   "Promising the game covers a whole unit"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-class-rotation",
+  "kind": "pattern",
+  "title": "Class rotation: 30 students, few headsets, everyone busy",
+  "text": "With 2-4 headsets and 30 students, run stations: players in the area, a watching group with a simple sheet (write the checkpoint order you see, spot the hazards), and a group doing a related paper task. Turns of 3-4 minutes and a race of 2-4 players keep the queue moving; a full class rotation takes about 30-40 minutes. Watchers see bodies, so the sheet asks about what bodies do (where did she turn back?).",
+  "use_when": "a school class larger than the number of headsets",
+  "do": [
+   "Session 3-4 minutes, race mode, leaderboard on a screen",
+   "Give watchers an observation task outside the area"
+  ],
+  "avoid": [
+   "10-minute turns with 26 students waiting",
+   "Watcher tasks inside the play area"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "fellowship",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-edu-science-fair",
+  "kind": "example",
+  "title": "Science fair or school project: students design the Land",
+  "text": "At a science fair, the learning can be in making the game: a student team picks a process, writes the checkpoint order and hazards, and explains each design decision on a poster. Visitors play a 2-minute runner and the team explains why each stop is where it is. The AI should help the students reason (why this order, why this hazard) rather than design it all for them.",
+  "use_when": "students are the creators, for a fair, a club or a project grade",
+  "do": [
+   "Ask the students for the order and explain why each choice matters",
+   "Keep sessions at 2 minutes for fair visitors"
+  ],
+  "avoid": [
+   "Deciding everything so the students learn nothing",
+   "Long runs that block the booth"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "expression",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-museum-companion",
+  "kind": "principle",
+  "title": "A museum game sends visitors back to the real objects",
+  "text": "In a museum, the game should not replace the exhibits; it should make visitors look harder at them. Base each checkpoint on a real object in the nearby gallery ('Find the bronze drum'), and end the story with an invitation to go and see the real one. In MR passthrough, an exhibit visible beyond the edge of the play area can be the backdrop of the finish.",
+  "use_when": "a museum, gallery or heritage centre brief",
+  "do": [
+   "Use exhibit names as labels",
+   "Close the story with 'see the real one in hall 2'",
+   "Face the finish toward a real exhibit if it is outside the area"
+  ],
+  "avoid": [
+   "Copying the whole exhibition into the game",
+   "Play area that includes cases or fragile objects"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-heritage-craft-process",
+  "kind": "example",
+  "title": "Heritage craft as a process walk: Lanna umbrella or lacquerware",
+  "text": "Local crafts are perfect sequences. Bo Sang umbrella making: 'Cut the bamboo', 'Make the ribs', 'Stretch the saa paper', 'Paint the flowers', 'Dry in the sun'. Each stop shows the tool or the half-made object, so visitors learn the steps and the effort. Morning or noon lighting, warm wood and paper colours, one hazard as a wet paint puddle.",
+  "use_when": "a heritage, craft village or cultural centre brief in northern Thailand",
+  "do": [
+   "Ask a craftsperson to check the order",
+   "Show tools and half-made items as scenery"
+  ],
+  "avoid": [
+   "Inventing steps that are not real",
+   "Turning a craft into a battle"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "adults",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-heritage-legend-framing",
+  "kind": "heuristic",
+  "title": "Local legends: tell them as legends, keep them respectful",
+  "text": "Local legends (a guardian spirit of a mountain, a city founding tale) make great narrative runners, but players should know it is a legend, not history. Say 'the old story says' on the intro card. Use original character designs, avoid making revered spirits into enemies or hazards, and ask a local guide or museum staff to check the telling.",
+  "use_when": "a heritage brief built on folklore or a founding story",
+  "do": [
+   "Frame as 'the legend tells'",
+   "Revered figures as scenery or guides, never enemies"
+  ],
+  "avoid": [
+   "Battle against a revered spirit",
+   "Presenting a legend as fact in a school lesson"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": [
+    "families",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-library-story-walk",
+  "kind": "example",
+  "title": "Library reading programme: walk the story of a book",
+  "text": "A library can turn a book's plot into a runner: each checkpoint is a key moment in story order, and the finish invites the reader to the shelf where the book lives. Use public-domain tales or the library's own original stories, or get permission for a published book's names and look. Calm indoor lighting and 5-6 stops; kids who read the book first will recognise the order.",
+  "use_when": "a library, reading club or book week event",
+  "do": [
+   "Plot points as labels in order",
+   "End with 'find the book on shelf B'"
+  ],
+  "avoid": [
+   "Copying a famous book's characters without permission",
+   "Long passages of book text in the game"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-brand-goal-question",
+  "kind": "question",
+  "title": "Brand activation: which success goal matters most?",
+  "text": "Brand clients mean different things by success: dwell time at the booth, a photo moment people share, high throughput (players per hour), a leaderboard with prizes, or one clear message remembered. Each pulls the design a different way (throughput means 2-minute turns, dwell means watchable races, message means story labels). Ask the creator to pick the top one.",
+  "use_when": "a brand, product, mall or sponsor booth brief",
+  "do": [
+   "Offer choices: many players, long crowd watching, photos, prizes, a message",
+   "Write the chosen goal into constraints"
+  ],
+  "avoid": [
+   "Optimising for everything at once",
+   "Assuming the client wants a long immersive story"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-brand-throughput-math",
+  "kind": "heuristic",
+  "title": "Booth throughput: players per hour = headsets x 60 / (turn + changeover)",
+  "text": "Changeover (fit headset, 20-second brief, clean, reset) takes about 1-2 minutes. With 4 headsets, a 3-minute turn and 2-minute changeover give 4 x 60 / 5 = 48 players per hour; a 2-minute turn gives 60. If the client expects 500 players a day over 8 hours, that needs about 60 per hour, so 2-minute turns. Do this maths before choosing session length.",
+  "use_when": "an event or booth where the number of players matters",
+  "do": [
+   "Ask the expected visitors per day",
+   "Choose session_minutes from the maths",
+   "Use timeLimit to enforce the turn"
+  ],
+  "avoid": [
+   "5-minute games at a booth that needs 60 players per hour",
+   "Forgetting changeover time"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-brand-logo-placement",
+  "kind": "pattern",
+  "title": "Brand look without ads inside gameplay",
+  "text": "Carry the brand through the world, not through billboards: use the brand palette for the floor and props, make the finish portal area in brand colours, and design an original world that fits the brand's values (fresh, playful, premium). Avoid pop-up ads, slogans on every prop and logo text in key art. Logos belong on the booth, the queue sign and the leaderboard screen, where people read them.",
+  "use_when": "a brand wants its identity in the game",
+  "do": [
+   "Use the brand palette in the prototype palette",
+   "Put the logo on the physical booth and screen",
+   "One brand hero object as scenery at most"
+  ],
+  "avoid": [
+   "Logo text in the key art prompt",
+   "Products as obstacles or hazards"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-brand-product-not-hazard",
+  "kind": "pitfall",
+  "title": "Never make the product a hazard or an enemy",
+  "text": "If a drink can is a hazard players must avoid, or a snack is an enemy to slash, the game tells players to avoid the product. Make the product the goal or the reward: a giant model at the finish, checkpoint labels that follow the product's story ('Pick the fresh leaves'), or the theme of the world. Hazards should be the problem the product solves (thirst, dull days), shown as neutral things.",
+  "use_when": "a brand brief where products might appear in the game",
+  "do": [
+   "Product as the finish or hero scenery",
+   "Hazards as the problem, not the product"
+  ],
+  "avoid": [
+   "Products as enemies, hazards or things to destroy",
+   "Competitor products in any role"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-brand-one-message",
+  "kind": "principle",
+  "title": "One brand message per game",
+  "text": "A 2-3 minute game can carry one message, not five. Pick one sentence the client wants remembered and build the story card (2-4 sentences) and the checkpoint labels around it, for example a coffee brand's 'from mountain farm to cup' becomes 5 stops in that order. Extra messages go on the booth, not in the game.",
+  "use_when": "the client lists many messages, features or products",
+  "do": [
+   "Ask for the one sentence to remember",
+   "Make the checkpoint order tell that sentence"
+  ],
+  "avoid": [
+   "Every checkpoint naming a different product feature",
+   "Rules text used as advertising"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-brand-photo-moment",
+  "kind": "pattern",
+  "title": "The photo moment happens outside the headset",
+  "text": "Spectators and cameras see bodies, not the game, so the shareable moment is real: the player's victory pose at the finish, a friend's reaction, the leaderboard screen with their nickname. Put the finish portal where a photo spot with the brand backdrop sits behind the player, and let staff take the photo (with consent) after the turn. A screen showing the player's view helps the photo tell the story.",
+  "use_when": "a brand or event brief that wants social media photos",
+  "do": [
+   "Finish facing the photo backdrop",
+   "Screen with the leaderboard or player's view next to the photo spot"
+  ],
+  "avoid": [
+   "Expecting players to take photos inside the headset",
+   "Photos of minors without parent consent"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "fellowship",
+    "expression"
+   ],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-brand-leaderboard-prize",
+  "kind": "pattern",
+  "title": "Leaderboard prizes that stay fair and keep people coming",
+  "text": "A prize leaderboard draws repeat visits but can make late visitors feel they cannot win. Reset the board every hour or every session block and give a prize per block; use nicknames or team colours, never real names or phone numbers. Everyone plays the same Land with the same timeLimit so scores compare. Announce the current top score so the queue has a target.",
+  "use_when": "a booth with prizes for top scores",
+  "do": [
+   "Hourly or daily resets",
+   "Nicknames only on screen",
+   "Same Land and timeLimit for all"
+  ],
+  "avoid": [
+   "One all-day board where the morning winner can never be beaten",
+   "Collecting personal data in the game for prizes"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": [
+    "groups",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-brand-queue-design",
+  "kind": "heuristic",
+  "title": "Design the queue: watching is the trailer",
+  "text": "The queue is where people decide to stay. Place it along the side where the players' turns and the finish are visible, show the leaderboard and a short looped video of the player's view, and give a 3-rule card people can read in 20 seconds. Pre-brief in the queue so the in-headset time is all play.",
+  "use_when": "an event booth with queues",
+  "do": [
+   "Queue faces the play area and the screen",
+   "Rules in 3 short lines with pictures"
+  ],
+  "avoid": [
+   "Queue behind a wall where nothing can be seen",
+   "Explaining rules only after the headset is on"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-brand-staff-operation",
+  "kind": "heuristic",
+  "title": "Staff operation plan for an event booth",
+  "text": "Plan staff before the event: about 1 staff per 2 headsets to fit, brief and spot players, plus 1 person on the queue. A spotter stands at the edge to stop players drifting out of the area. Write a 3-line script for staff (welcome, the goal, the safety rule) and a reset step between turns (restart Land, wipe headset, check the floor is clear).",
+  "use_when": "any staffed booth, event or activation",
+  "do": [
+   "Put the staff script in the build notes",
+   "Name a spotter position on the sketch"
+  ],
+  "avoid": [
+   "One person running 4 headsets and the queue",
+   "No reset step so the next player starts mid-game"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-brand-privacy",
+  "kind": "principle",
+  "title": "No personal data in the game, even for brand leads",
+  "text": "The game should never ask for names, phone numbers, emails, schools or photos. Leaderboards use nicknames or team colours. If a brand wants leads, that happens outside the game, on the client's own form with clear consent, and is not a condition for playing. This also keeps children safe at public events.",
+  "use_when": "a brand or event wants data, sign-ups or contact details",
+  "do": [
+   "Nicknames or colours on boards",
+   "Say lead collection is the client's separate, consent-based step"
+  ],
+  "avoid": [
+   "Asking players for contact details to play",
+   "Showing children's names on a public screen"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-team-race-or-together",
+  "kind": "question",
+  "title": "Team-building: compete or cooperate? (ทีมบิลดิ้ง)",
+  "text": "Ask what the HR team wants people to feel: competing teams (energy, rivalry, good for sales teams) or one team together (trust, communication, good for new or mixed teams). Race mode with a leaderboard serves rivalry; shared-floor together mode or a relay where the team's total time counts serves cooperation. A mix (teams race each other, members cooperate inside a team) suits most groups.",
+  "use_when": "a corporate, HR or staff event brief",
+  "do": [
+   "Offer: teams against teams, everyone together, or a mix",
+   "Score teams, not individuals"
+  ],
+  "avoid": [
+   "Individual rankings that embarrass the slowest colleague",
+   "Assuming every office loves competition"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-team-relay-total-time",
+  "kind": "pattern",
+  "title": "Relay of short boards: every member plays, the team total counts",
+  "text": "Split the team so each person plays one 1-2 minute turn: a tactics board or a short runner section, and the team's summed time or score goes on the board. Everyone contributes once, nobody carries the team alone, and teammates outside the area can call out plans. Use 3-4 boards of rising difficulty so the team chooses who plays which.",
+  "use_when": "team-building with groups of 4-8 per team",
+  "do": [
+   "Let the team assign players to boards (planning is the point)",
+   "Show team totals on a screen"
+  ],
+  "avoid": [
+   "One star player doing all the turns",
+   "Boards so hard that a member fails publicly"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-team-callouts",
+  "kind": "pattern",
+  "title": "Teammates outside the area become the navigators",
+  "text": "There is no voice chat, so make real talking the teamwork: the player in the headset sees the world, and teammates outside see the body and the screen with the player's view, calling out 'next stop is left' or 'guard moves next beat'. Communication becomes the game. Keep callers outside the play area behind a line on the floor.",
+  "use_when": "team-building, families or classes where watchers should help",
+  "do": [
+   "Screen with the player's view facing the callers",
+   "A floor line callers stay behind"
+  ],
+  "avoid": [
+   "Callers walking into the area to point",
+   "Voice chat features in the rules"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "adults",
+    "groups",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-team-mixed-fitness",
+  "kind": "heuristic",
+  "title": "Mixed-ability teams: walking pace, no running, optional effort",
+  "text": "Office groups mix ages, fitness levels and comfort with VR. Design for walking pace (no running in MR), checkpoints 2-3 m apart, few or slow hazards, and battle chapters without rain for the first round. Let each person choose their role: player, caller or scorekeeper. The goal is that the least sporty person enjoys it.",
+  "use_when": "corporate groups with mixed ages and fitness",
+  "do": [
+   "Gentle first round, harder optional second",
+   "Offer non-headset roles"
+  ],
+  "avoid": [
+   "Physical challenges that reward the fittest",
+   "Fast guard beats or beast enemies in round one"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "adults",
+    "groups",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-team-debrief",
+  "kind": "pattern",
+  "title": "Team debrief: link the play to how the team works",
+  "text": "End team-building with a 10-minute talk: What helped us? What did the callers do that worked? Where did we lose time? What would we do differently in round 3? Link one answer to real work (how we hand over tasks). Without this, it was a fun break; with it, the team names a behaviour to keep.",
+  "use_when": "corporate or club team-building",
+  "do": [
+   "3-4 open questions in the build notes",
+   "Use the leaderboard as a discussion prompt, not a judgement"
+  ],
+  "avoid": [
+   "Ranking individuals in the debrief",
+   "Skipping the debrief because time ran out"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "Kolb 1984, Experiential Learning; design practice"
+ },
+ {
+  "id": "pu-team-opt-out-roles",
+  "kind": "pitfall",
+  "title": "Forcing everyone into a headset",
+  "text": "Some people cannot or do not want to wear a headset (motion sickness, glasses, pregnancy, anxiety, make-up). If the only way to join is to play, they sit out and the event fails its purpose. Design roles that need no headset: caller, plan writer, scorekeeper, judge of the best victory pose. Mention these roles in the options.",
+  "use_when": "team, school or family events where everyone should take part",
+  "do": [
+   "List 2-3 non-headset roles",
+   "Make opting out normal, not a confession"
+  ],
+  "avoid": [
+   "Pressuring hesitant people to play",
+   "Team scores that punish teams with fewer players"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "adults",
+    "groups",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-party-birthday-star",
+  "kind": "example",
+  "title": "Birthday party: the birthday child is the star of the story",
+  "text": "Let the birthday child choose the theme from 3 (dinosaurs, space, candy) and write the story around them ('Help the dino find the giant cake'). With 8-12 kids and 2 headsets, use 2-minute turns in pairs so everyone plays twice in an hour, and give the birthday child the first and the final run. The finish is the cake model, and the real cake comes right after.",
+  "use_when": "a birthday party at home, a venue or a garden",
+  "do": [
+   "Theme chosen by the birthday child",
+   "2-minute turns, everyone gets the same number",
+   "Celebrate every finish, not only the winner"
+  ],
+  "avoid": [
+   "Using the child's real name or photo in the game",
+   "Ranking guests so someone cries at their own friend's party"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fantasy",
+    "fellowship"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-family-day-cross-gen",
+  "kind": "example",
+  "title": "Family day: grandparents and grandchildren play together",
+  "text": "On a shared floor in together mode, a grandparent and a grandchild walk the same Land and see each other's avatars. Use a gentle runner: checkpoints 2.5-3 m apart, no time limit, 1-2 hazards, studio or morning light, no void floor. Labels can invite talk ('Grandma's old market', 'Feed the buffalo'), so the older player tells stories while the child leads.",
+  "use_when": "a family event, company family day or community day with mixed ages",
+  "do": [
+   "Together mode, no time limit",
+   "Labels that invite memories and talk",
+   "Wide clear route for slower walkers"
+  ],
+  "avoid": [
+   "Races that pit grandparents against kids",
+   "Void floor or fast hazards"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "seniors",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-family-pc-home",
+  "kind": "example",
+  "title": "Family game night at home on PC: take turns on a tactics board",
+  "text": "On PC, a family can share one computer: tactics boards become a puzzle the family solves together, one person on the keyboard while the others plan out loud. Use 3-4 boards of rising difficulty and let a different family member drive each one. Runner Lands with WASD suit a quick turn for each person, with the time board making a friendly family challenge.",
+  "use_when": "a family that will play on a home computer",
+  "do": [
+   "Rotate who drives each board",
+   "Choose bright cheerful themes"
+  ],
+  "avoid": [
+   "Battle themes too dark for young siblings",
+   "Very hard boards that only the oldest child can solve"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-calm-no-pressure",
+  "kind": "principle",
+  "title": "A calm game removes pressure: no timer, no race, few hazards",
+  "text": "For relaxation (submission), take away the things that create pressure: timeLimit null, solo or together mode instead of race, 0-2 hazards placed well off the route, and no leaderboard on display. The score still exists in the engine, so say on the intro card that there is no rush. The player's own pace is the design.",
+  "use_when": "a brief about relaxing, unwinding, a break, calm or mindfulness",
+  "do": [
+   "timeLimit null",
+   "Solo or together mode",
+   "Hazards off the main walking line or none"
+  ],
+  "avoid": [
+   "Race mode or a public leaderboard",
+   "Hazards every 2 m"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "adults",
+    "seniors",
+    "solo"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-calm-tour-route",
+  "kind": "pattern",
+  "title": "Calm tour route: wide loop, long sightlines, gentle labels",
+  "text": "A relaxation runner is a tour: a wide loop with stops 2.5-3 m apart, open sightlines so the next checkpoint is always visible, and nature or garden scenery with slow animated rides (a turning windmill, floating lanterns). Labels are gentle invitations, not orders: 'Rest by the pond', 'Watch the clouds', 'Listen to the bamboo'. Morning or evening lighting gives soft colour.",
+  "use_when": "designing the route and labels for a calm game",
+  "do": [
+   "Loop route with 5-6 spacious stops",
+   "Invitation-style labels",
+   "Morning or evening lighting"
+  ],
+  "avoid": [
+   "Tight zig-zags and dense props",
+   "Neon flashing or night horror lighting"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission",
+    "sensation"
+   ],
+   "players": [
+    "adults",
+    "seniors",
+    "solo"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-calm-sound-feel",
+  "kind": "heuristic",
+  "title": "Gentle mood without a soundtrack setting",
+  "text": "The engine's game settings have no music track, so do not promise a soundtrack. Create the calm feel visually: soft lighting presets, slow-moving scenery, open space, soft palette (sage, sand, sky blue). If the venue wants music, it can play quiet music on its own speakers in the real room, which players in passthrough hear naturally.",
+  "use_when": "a relaxation brief that asks for calming music or sound",
+  "do": [
+   "Say the venue can play its own quiet music",
+   "Carry mood with light, slow motion and colour"
+  ],
+  "avoid": [
+   "Promising in-game music, breathing audio guides or narration"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "adults",
+    "seniors"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pu-calm-no-medical-claims",
+  "kind": "pitfall",
+  "title": "No health or therapy claims for calm games",
+  "text": "A calm walk can feel restful, but the game must not claim to treat stress, anxiety, depression, pain or any condition. Describe it as 'a quiet walk in a garden world', not therapy. If a clinic or therapist uses it, they decide how it fits their practice. Avoid words like heal, cure, therapy or reduces anxiety in titles, stories and pitches.",
+  "use_when": "wellbeing, clinic, spa, elderly care or mental health briefs",
+  "do": [
+   "Describe the experience, not an outcome",
+   "Leave clinical framing to professionals"
+  ],
+  "avoid": [
+   "'Reduces stress by 40%'",
+   "'Therapy game' in the title"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "adults",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-calm-sensory-friendly",
+  "kind": "heuristic",
+  "title": "Sensory-friendly sessions: predictable and easy to stop",
+  "text": "For players who are sensitive to busy input (some autistic players, anxious first-timers, older adults), design for predictability: show the route from the spawn, no void floor, no sudden appearing models, soft lighting, few props, no time limit. Tell them before play that lifting the headset or saying stop ends it any time. A quiet hour at an event helps.",
+  "use_when": "sensory-friendly sessions, special needs groups or very nervous first-time players",
+  "do": [
+   "Full route visible from spawn",
+   "Explain how to stop before play",
+   "Studio or morning lighting"
+  ],
+  "avoid": [
+   "Void floor, scares, flashing neon",
+   "Crowded noisy booth placement"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "adults",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-fit-walking-distance",
+  "kind": "heuristic",
+  "title": "Estimate walking distance honestly from the route",
+  "text": "Distance walked is about the sum of the gaps between stops: 7 checkpoints 2.5 m apart plus spawn and portal is roughly 20 m, so a single runner lap is short. A 10 x 10 m route with 10 stops 3 m apart is about 30-35 m. One step is about 0.75 m, so 1,000 steps needs about 750 m, which is many rounds. Frame runner fitness as gentle movement, not a workout.",
+  "use_when": "a fitness or step-goal brief for a runner",
+  "do": [
+   "Calculate metres from the sketch",
+   "Offer several rounds if the goal is more distance"
+  ],
+  "avoid": [
+   "Promising step counts or calories",
+   "Claiming a 3-minute walk is exercise"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": [
+    "adults",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-fit-no-running-mr",
+  "kind": "principle",
+  "title": "Movement goals in MR still mean walking, never running",
+  "text": "In passthrough MR, running risks collisions and falls even in a cleared space, and headsets slip. Effort comes from more walking, turning, stepping out of rings, squatting to see low details, and arm swings in battle, not speed. Set time limits generous enough that a brisk walk wins.",
+  "use_when": "fitness, sport or high-energy briefs in MR",
+  "do": [
+   "Time limits that a brisk walk can beat",
+   "Effort from steps, turns and swings"
+  ],
+  "avoid": [
+   "Sprint challenges",
+   "Time limits only runners can meet"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle",
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "adults",
+    "teens"
+   ]
+  },
+  "source": "Meta VR comfort and MR design guidelines; design practice"
+ },
+ {
+  "id": "pu-fit-battle-intervals",
+  "kind": "pattern",
+  "title": "MR battle as interval movement: chapters are sets, gaps are rest",
+  "text": "Battle in MR is the most physical genre: the controller is the sword and red rings make players step. Treat each chapter as a set of 45-90 seconds and the gap between chapters as rest. Add rain rings in middle chapters for extra stepping, and keep the boss short. A 3-4 chapter game makes about 5 minutes of real movement.",
+  "use_when": "a fitness, active play or energetic adults brief",
+  "do": [
+   "3-4 chapters with rising effort",
+   "Rain in middle chapters, not the first"
+  ],
+  "avoid": [
+   "Back-to-back chapters with no breather",
+   "Beasts in chapter 1"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": [
+    "adults",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-fit-safety",
+  "kind": "heuristic",
+  "title": "Active play safety: heat, sweat, breaks and spotters",
+  "text": "Active headset play warms people fast. Keep active turns to 5-10 minutes, offer water, add breaks between rounds, and use wipeable face covers. Outdoors at noon in Thailand, heat and glare add up, so prefer evenings or shade. A spotter watches the area edge, and swinging arms need 1 m of clear space around each player.",
+  "use_when": "fitness or high-energy sessions, especially outdoors or with many rounds",
+  "do": [
+   "Short turns and breaks",
+   "Clear 1 m around swinging players",
+   "Shade or evening for outdoor sessions"
+  ],
+  "avoid": [
+   "30-minute non-stop sessions",
+   "Two battle players within arm reach"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [],
+   "players": [
+    "adults",
+    "teens",
+    "seniors"
+   ]
+  },
+  "source": "Meta VR comfort and safety guidelines; design practice"
+ },
+ {
+  "id": "pu-fit-tracking-wish",
+  "kind": "pitfall",
+  "title": "No step counting, heart rate or calorie tracking",
+  "text": "The engines track checkpoints, hazards, time and score, not steps, heart rate or calories. Do not promise fitness stats in the HUD. If the purpose is a step goal, use the score and finish time as the progress measure, and suggest players use their own phone or watch if they want steps.",
+  "use_when": "the brief asks for calories, steps, heart rate or fitness tracking",
+  "do": [
+   "Use time and score as progress",
+   "Suggest personal devices for steps"
+  ],
+  "avoid": [
+   "Fitness stats in the HUD",
+   "Health claims about calories burned"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "adults"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pu-tour-chiang-mai",
+  "kind": "example",
+  "title": "Chiang Mai city promotion: a journey through the old city",
+  "text": "A tourism runner can walk the old city as a journey: 'Enter at Tha Phae Gate', 'Cross the moat', 'Lanna wooden house', 'Sunday walking street', 'Khao soi stall', 'Lanterns over the river'. Use Lanna-style buildings, the moat and lanterns as scenery, and the mountain on the skyline as a silhouette. Keep temples as respectful backdrop scenery, never checkpoints to stomp or hazards.",
+  "use_when": "a tourism office, hotel lobby or city promotion booth for Chiang Mai",
+  "do": [
+   "Real place names as labels",
+   "Evening lighting for lanterns",
+   "End by pointing visitors to the real places"
+  ],
+  "avoid": [
+   "Temples or Buddha images as props to step on",
+   "Sacred sites as hazards"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "sensation"
+   ],
+   "players": [
+    "first-time-vr",
+    "families",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-tour-teaser",
+  "kind": "principle",
+  "title": "A tourism game is a teaser for the real place",
+  "text": "The purpose of a tourism game is that players want to go. Show a short taste of 5-6 places, not the whole city, and end the story with a real-world invitation ('The lanterns are real: see them at the river tonight'). Staff can hand a paper map after the turn. A game that feels complete leaves no reason to visit.",
+  "use_when": "tourism, hotel, airport or city promotion briefs",
+  "do": [
+   "Pick 5-6 highlights",
+   "Close the story with a real place to visit"
+  ],
+  "avoid": [
+   "Rebuilding a whole city in one Land",
+   "Fantasy elements that confuse what is real"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery"
+   ],
+   "players": [
+    "first-time-vr",
+    "adults",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-tour-multilingual",
+  "kind": "heuristic",
+  "title": "International visitors: picture-first, very short labels",
+  "text": "Tourist booths get visitors who read neither Thai nor much English. The game text is in one lang (th or en), so make labels 1-3 words, choose English for mixed tourist crowds, and let the scenery carry the meaning (a lantern, a noodle bowl, a gate). Staff demonstrate with gestures, and the 3 rules have pictures on the booth sign.",
+  "use_when": "festival, airport, hotel or tourist attraction booths",
+  "do": [
+   "lang en for international crowds",
+   "Labels 1-3 words",
+   "Picture rules sign at the queue"
+  ],
+  "avoid": [
+   "Long story text",
+   "Puns or idioms that do not translate"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery"
+   ],
+   "players": [
+    "first-time-vr",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-tour-festival-booth",
+  "kind": "example",
+  "title": "Festival booth: Yi Peng and Loy Krathong evening walk",
+  "text": "During Yi Peng and Loy Krathong in Chiang Mai, an evening booth can run a lantern and krathong walk: 5 checkpoints in festival order ('Fold the banana leaf', 'Add flowers and candle', 'Light the lantern', 'Make a wish', 'Float on the river'), evening or night lighting, water and lantern scenery. Outdoor at night, glow reads well. 2-minute turns for big crowds.",
+  "use_when": "a festival booth in November in northern Thailand",
+  "do": [
+   "Evening lighting outdoors after dark",
+   "Festival steps as labels in order",
+   "2-minute turns"
+  ],
+  "avoid": [
+   "Mocking or trivialising the rituals",
+   "Fire hazards themed as lanterns burning people"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "first-time-vr",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-comp-same-course",
+  "kind": "principle",
+  "title": "Fair competition: everyone plays the identical Land",
+  "text": "Competition is only fair if every player faces the same thing. Use one fixed Land, the same timeLimit and the same lighting for all heats, and do not change the layout during the event. Tactics boards are already built and proven solvable by code, so every board has a fair answer. Change only between event days, and announce it.",
+  "use_when": "leaderboards, tournaments, school competitions or prize events",
+  "do": [
+   "Freeze the Land before the event",
+   "Same rules card for all"
+  ],
+  "avoid": [
+   "Editing hazards mid-tournament",
+   "Different layouts for different heats"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "gamers",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-comp-repeatability",
+  "kind": "heuristic",
+  "title": "Repeatable skill: practice run, then scored runs",
+  "text": "Competitive games need a skill that grows with tries: a route with a faster line around hazards, or a tactics board with a shorter capture path. Give first-timers one practice run that is not scored, then 2-3 scored runs with the best counting. This keeps the board about skill, not about who already played before.",
+  "use_when": "tournaments and return-visitor leaderboards",
+  "do": [
+   "One unscored practice for newcomers",
+   "Best of 2-3 scored runs"
+  ],
+  "avoid": [
+   "Single runs where first-time players are always last",
+   "Courses with no better line to learn"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "gamers",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-comp-heats-bracket",
+  "kind": "pattern",
+  "title": "Event tournament: heats of 2-6 racers, then a final",
+  "text": "In race mode each player walks their own copy of the Land with a live leaderboard, so heats of 2-6 run side by side if the space allows. Run 3-minute heats through the day, keep a top-scores board, and hold a final at a fixed time when the crowd is biggest. The final is the spectator moment: put the finish portals on the crowd side.",
+  "use_when": "a competition at an event, mall or school fair",
+  "do": [
+   "Heat size fitted to the floor size",
+   "A scheduled final on the big screen"
+  ],
+  "avoid": [
+   "Knockout brackets so long that players wait an hour",
+   "Finals in a space the crowd cannot see"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "gamers",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-access-wheelchair",
+  "kind": "heuristic",
+  "title": "Wheelchair users in MR: wide route, gentle turns, larger stops",
+  "text": "A seated player in a wheelchair can play an MR runner because the headset tracks their position as they roll. Make the route at least 1.5 m wide with no tight turns, stops 2.5-3 m apart, few hazards placed away from the turning circle, and a smooth floor without cables. Tactics squares of 1 m are tight for wheelchairs; prefer the runner or a PC game.",
+  "use_when": "a player or group includes wheelchair users or people who need to sit",
+  "do": [
+   "Route 1.5 m wide, smooth floor",
+   "Few hazards, no tight zig-zags",
+   "PC as an equal alternative"
+  ],
+  "avoid": [
+   "Tactics boards with small squares",
+   "Battle with rain rings for seated players"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": [
+    "adults",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-access-seated-pc",
+  "kind": "default",
+  "title": "Seated play default: offer PC as a full version, not a lesser one",
+  "text": "When players must stay seated (bed-bound, limited stamina, a hospital ward, an office desk), PC is the natural platform: all three genres work with mouse and keyboard. Present it as the full game, with the same story and Land, so seated players are not given a smaller experience.",
+  "use_when": "the brief mentions seated players, limited mobility or no space to walk",
+  "do": [
+   "Same story and theme on PC",
+   "Tactics for players who prefer slow thinking"
+  ],
+  "avoid": [
+   "Calling the PC version a 'lite' version"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [],
+   "players": [
+    "seniors",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-access-low-vision",
+  "kind": "heuristic",
+  "title": "Low vision and colour blindness: contrast and shapes",
+  "text": "Hazards are red circles, so pick a ground colour that is not red, brown or green (sand, pale grey, blue) so they stand out for red-green colour blind players. Use studio or noon lighting indoors, large and simple scenery shapes, and checkpoints with clear tall markers nearby. Avoid fog, night or neon when players have low vision.",
+  "use_when": "players include older adults, low-vision or colour-blind players, or the brief asks for accessibility",
+  "do": [
+   "High-contrast palette with a neutral floor",
+   "Bright lighting presets",
+   "Big simple landmark models"
+  ],
+  "avoid": [
+   "Green or brown floors under red hazards",
+   "Night, spooky or neon for low vision"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [],
+   "players": [
+    "seniors",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-access-simple-language",
+  "kind": "heuristic",
+  "title": "Simple language for labels, rules and story",
+  "text": "Write for the weakest reader in the group (young kids, second-language players, people with learning disabilities): labels of 2-4 words, verb first ('Find the boat'), rules of 3 short lines, story of 2-3 short sentences with everyday words. Picture-clear scenery repeats what the label says, so reading is a help, not a gate.",
+  "use_when": "kids, mixed-language groups, special education or any accessibility brief",
+  "do": [
+   "Verb-first labels of 2-4 words",
+   "3 rules maximum"
+  ],
+  "avoid": [
+   "Idioms, jokes that need culture knowledge, long sentences",
+   "Meaning that lives only in text"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "seniors",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-access-special-education",
+  "kind": "example",
+  "title": "Special education class: one small success, repeated",
+  "text": "For a special education class, aim for a guaranteed success: a short runner of 4 checkpoints in a 4 x 4 m space, no hazards or one well off the route, no time limit, bright lighting and a big friendly finish. A teacher or aide stays at the edge and can talk the student through. Playing the same Land twice builds confidence; the second run is often the joyful one.",
+  "use_when": "special needs schools, inclusion programmes or therapy-adjacent groups",
+  "do": [
+   "4 checkpoints, no time limit",
+   "Same Land replayed",
+   "Aide at the edge talking"
+  ],
+  "avoid": [
+   "Scores shown as rankings",
+   "New layouts every turn"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission",
+    "fellowship"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-measure-education",
+  "kind": "heuristic",
+  "title": "Playtest a learning game: can they do the objective after?",
+  "text": "Check learning, not just enjoyment. After play, give players the checkpoint facts on paper cards shuffled and ask them to put them in order (2 minutes); compare with a group who did not play, or with a quick check before play. Also watch: do players read labels aloud, do watchers argue about the order? If they enjoy it but cannot order the cards, the facts are decoration.",
+  "use_when": "planning test_questions for an education prototype",
+  "do": [
+   "A 2-minute card sort after play",
+   "Note who reads labels aloud"
+  ],
+  "avoid": [
+   "Measuring only 'did they like it'",
+   "Testing with adults when the players are 8"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-measure-brand",
+  "kind": "heuristic",
+  "title": "Playtest a brand activation: count, time and watch",
+  "text": "Measure what the client cares about: players per hour, average queue length, how long passers-by stop to watch (dwell), photos taken at the photo spot, repeat players, and whether players can say the brand message in one sentence afterwards. Count over a fixed 30 minutes and compare with the throughput maths.",
+  "use_when": "test_questions or a pilot for a brand or event booth",
+  "do": [
+   "Tally players and watchers per 30 minutes",
+   "Ask 5 players to say the message back"
+  ],
+  "avoid": [
+   "Collecting personal data to measure",
+   "Judging success only by the client's feeling"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-measure-team",
+  "kind": "heuristic",
+  "title": "Playtest team-building: watch the talking, not the score",
+  "text": "For a team game the evidence is communication: how often teammates call to the player, whether quiet members speak, whether the team changes its plan between rounds, and whether everyone had a role. Note laughter and high-fives. A great score with silent teammates means the game did not do its job.",
+  "use_when": "test_questions for a corporate or club team game",
+  "do": [
+   "Count callouts per round",
+   "Note who has no role"
+  ],
+  "avoid": [
+   "Using only the leaderboard as success",
+   "Ignoring people who sat out"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-measure-calm",
+  "kind": "heuristic",
+  "title": "Playtest a calm game: do players slow down and look around?",
+  "text": "Signs of a working relaxation game: players walk slower on the second half than the first, stop to look at scenery, turn their heads, and take the headset off smiling rather than rushing out. Ask one question after: on 1-5, how calm do you feel now compared to before? If players hurry to the portal, something (a timer, a hazard, the score) is still pushing them.",
+  "use_when": "test_questions for a submission or wellbeing prototype",
+  "do": [
+   "Time each half of the route",
+   "Ask a 1-5 calm rating, no medical scales"
+  ],
+  "avoid": [
+   "Measuring speed or score as success",
+   "Clinical questionnaires without a professional"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "adults",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-measure-fitness",
+  "kind": "heuristic",
+  "title": "Playtest active play: effort, safety and willingness to repeat",
+  "text": "For movement games, observe minutes of active play, how many chapters or rounds players finish, near-misses at the area edge, and whether players want another go. A simple effort question after play (on 1-10, how hard did that feel?) shows if it is too easy or too much. Any near-miss with a wall or another player means the layout needs more clearance.",
+  "use_when": "test_questions for a fitness or active battle prototype",
+  "do": [
+   "Ask a 1-10 effort rating",
+   "Log every near-miss at the edge"
+  ],
+  "avoid": [
+   "Pushing players to keep going when tired",
+   "Measuring calories"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "adults",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-measure-tourism-museum",
+  "kind": "heuristic",
+  "title": "Playtest tourism and museum games: do they go to the real thing?",
+  "text": "The best evidence that a museum or tourism game worked is behaviour after the headset: visitors walk to the related exhibit, ask staff where the real place is, take a map, or name a place they want to visit. Count these over a session. If visitors leave the booth and go elsewhere, the game was a ride, not a doorway.",
+  "use_when": "test_questions for museum, heritage or tourism prototypes",
+  "do": [
+   "Count visitors who ask or go to the real place",
+   "Note which checkpoint they mention"
+  ],
+  "avoid": [
+   "Counting only number of players",
+   "Surveys that ask for contact details"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery"
+   ],
+   "players": [
+    "families",
+    "first-time-vr",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-measure-competition",
+  "kind": "heuristic",
+  "title": "Playtest a competition: is it fair and worth repeating?",
+  "text": "Check that scores spread out (not everyone the same, not one runaway winner), that newcomers improve on their second run, and that nobody complains a heat was unfair. Watch return rate: do players rejoin the queue to beat their score? Many ties mean the course needs a skill line; one dominant player with huge gaps means a beginner board is needed.",
+  "use_when": "test_questions for a leaderboard or tournament design",
+  "do": [
+   "Compare first and second runs",
+   "Track rejoin rate"
+  ],
+  "avoid": [
+   "Judging by the top score only",
+   "Changing the course mid-test"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "gamers",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pu-measure-family-access",
+  "kind": "heuristic",
+  "title": "Playtest family and inclusive games: did everyone play and enjoy?",
+  "text": "For families, parties and accessibility briefs, success is inclusion: every person who wanted to play finished at least once, the youngest and oldest both smiled, helpers (parents, aides) needed to step in rarely, and nobody was left watching all session. Note who needed help and where on the route; that spot needs a wider path, a simpler label or a removed hazard.",
+  "use_when": "test_questions for family, party, senior or accessibility prototypes",
+  "do": [
+   "Note finish rate by age group",
+   "Mark on the sketch where help was needed"
+  ],
+  "avoid": [
+   "Testing only with fit adults",
+   "Counting only the winner"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "seniors",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ }
+]

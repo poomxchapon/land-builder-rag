@@ -1,0 +1,9 @@
+The knowledge cards (data/cards, data/index.json), the fact rules (data/facts.json), the graph (data/graph.json)
+and the evaluation data (eval/) are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Copyright (c) 2026 Fortal Interactive
+
+You may share and adapt them for any purpose, including commercially, as long as you give appropriate credit,
+link to the license, and indicate if changes were made.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode

@@ -1,0 +1,2781 @@
+[
+ {
+  "id": "sp-passthrough-real-world",
+  "kind": "principle",
+  "title": "In MR the player sees the real place, only the floor is replaced",
+  "text": "Quest 3 passthrough shows the real walls, people, sky and light; the engine only swaps the floor for the Land's ground and stands models on it at 1:1 scale. Design every option as a layer on top of a real place, not as a sealed virtual world. Ask what is around the floor, because that is half of what the player will see.",
+  "use_when": "Any MR brief, before proposing themes or scenery.",
+  "do": [
+   "Ask what surrounds the floor (walls, windows, sky, trees, people)",
+   "Describe in environment_fit what the player sees beyond the floor"
+  ],
+  "avoid": [
+   "Promising a fully enclosed fantasy world in MR",
+   "Ignoring the real ceiling or sky in the key art prompt"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-one-to-one-scale",
+  "kind": "principle",
+  "title": "Everything stands at real 1:1 scale on the real floor",
+  "text": "A 1 m model in the Land is 1 m tall in the room, next to real furniture and people. A 4 m dragon in a 3 m high living room clips through the ceiling visually, while the same dragon on a car park looks huge and right. Size hero pieces against the real ceiling height and the floor size, not against an imagined world.",
+  "use_when": "Choosing hero pieces and prop sizes for an indoor or small venue.",
+  "do": [
+   "Keep indoor hero pieces under about 2.5 m tall unless the ceiling is high",
+   "Use tall pieces outdoors or in halls"
+  ],
+  "avoid": [
+   "Huge models in low rooms",
+   "Tiny props in a 20 m car park where they disappear"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-walls-as-world-edge",
+  "kind": "pattern",
+  "title": "Use the real walls as the edge of the world",
+  "text": "Players can see the real walls, so make them part of the fiction: the fortress wall, the edge of the island, the end of the map. Place the route so it turns before the walls with at least 0.6 m to spare, and put low edge scenery near the walls so the change from virtual floor to real wall feels intended.",
+  "use_when": "Indoor venues with visible walls on most sides.",
+  "do": [
+   "Name the walls in the story (the castle wall, the ice cliff)",
+   "Line the edges with low scenery that frames the real wall"
+  ],
+  "avoid": [
+   "Routes that point players straight at a wall at speed",
+   "Fighting the walls with scenery that pretends they are not there"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-skyline-backdrop",
+  "kind": "pattern",
+  "title": "A real skyline or garden becomes the backdrop for free",
+  "text": "On a rooftop, car park or garden the real sky, trees and buildings fill the view above the floor. Pick themes that agree with them: a city skyline suits sci-fi or heroes, trees suit forest, dinosaurs or farm, open sky suits pirates or islands. Put the finish portal so players face the best view when they arrive.",
+  "use_when": "Outdoor venues with a visible horizon.",
+  "do": [
+   "Match the theme to what is on the horizon",
+   "Face the finish towards the best real view"
+  ],
+  "avoid": [
+   "Space or underwater themes in bright midday outdoors",
+   "Facing the finish at a blank wall or a parked car"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-crowd-as-audience",
+  "kind": "pattern",
+  "title": "Turn the real crowd into the in-game audience",
+  "text": "In a hall or at an event, the people standing around are visible in passthrough. Frame them as the arena audience, the villagers or the race fans. The story can say the crowd is watching your trial, which makes cheers feel part of the game and makes players perform for them.",
+  "use_when": "Events, halls and booths where spectators stand around the play area.",
+  "do": [
+   "Mention the watching crowd in the intro story",
+   "Put the finish facing the spectators"
+  ],
+  "avoid": [
+   "Stories where the player is alone in an empty world while 30 people are visible",
+   "Asking the crowd to do in-game tasks"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "expression"
+   ],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-void-floor-risk",
+  "kind": "pitfall",
+  "title": "The void floor is dramatic but makes people dizzy",
+  "text": "The void floor turns the real floor into a bottomless drop with scenery below. It is a strong wow moment but triggers fear of heights, slower walking and discomfort, especially for first-time VR players and seniors. Use it for short, slow sections with confident adults, never for kids or races.",
+  "use_when": "When a creator asks for heights, sky islands or falling scenery.",
+  "do": [
+   "Offer it only for adults or experienced players",
+   "Keep the route short and slow when the void is on",
+   "Warn on the intro card"
+  ],
+  "avoid": [
+   "Void floor in races or timed runs",
+   "Void floor for kids 6-9, seniors or first-time VR"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": [
+    "first-time-vr",
+    "seniors",
+    "kids"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-vr-only-decor",
+  "kind": "heuristic",
+  "title": "Mark backdrop pieces VR only so they vanish in MR",
+  "text": "Decor can be flagged VR only so it is hidden in MR and shown only in full VR. Use it for walls, ceilings, skies and tall backdrops that would otherwise float through the real room or block the view of real walls and people. Floor-level scenery stays visible on both.",
+  "use_when": "A Land that will be played both in MR and in full VR.",
+  "do": [
+   "Flag backdrop walls and ceiling pieces VR only",
+   "Keep floor-level scenery visible in MR"
+  ],
+  "avoid": [
+   "Tall backdrops that overlap real walls in MR"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-no-free-locomotion",
+  "kind": "pitfall",
+  "title": "There is no joystick movement in MR, the route must fit the real floor",
+  "text": "In MR players move only by walking, so the whole route, every checkpoint and the portal must lie inside the real empty floor. A creator who wants a long journey gets it through loops, zig-zags and story labels, not distance. Offer a spiral or out-and-back route instead of teleporting or scrolling worlds.",
+  "use_when": "When the creator imagines a big world or a long trip in a small space.",
+  "do": [
+   "Use loops, spirals or zig-zags to lengthen the walk",
+   "Make each checkpoint label a new place in the story"
+  ],
+  "avoid": [
+   "Promising teleport, flying or joystick movement in MR",
+   "Routes longer than the floor allows"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-venue-living-room",
+  "kind": "example",
+  "title": "Living room: small, furniture, 1-2 players",
+  "text": "A typical cleared living room gives 3 x 3 to 4 x 5 m of floor, with sofas, tables and a TV at the edges and warm indoor light. It fits 1-2 players, a short loop of 4-5 checkpoints and small props. Family members watch from the sofa. Cosy themes (toys, candy, farm, small dragons) fit better than epic battles.",
+  "use_when": "The creator plays at home.",
+  "do": [
+   "Ask them to measure the empty floor after pushing furniture back",
+   "Use small props and a short loop",
+   "Make the sofa side the audience side"
+  ],
+  "avoid": [
+   "Races or 4 players at once",
+   "Routes that pass within 0.6 m of a glass table"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "families",
+    "kids",
+    "solo"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-venue-classroom",
+  "kind": "example",
+  "title": "Classroom: desks to move, a class watching",
+  "text": "A classroom is about 7 x 8 m but desks fill it; after pushing them aside the clear floor is often 4 x 6 m. Light is steady fluorescent, good for colour. 1-3 students play while 25-35 watch, so turn taking and spectator moments matter more than length. Learning themes (Thai history, planets, animals) with checkpoint labels as facts work well.",
+  "use_when": "A teacher or school group plans to play in a classroom.",
+  "do": [
+   "Ask for the clear floor after desks move, not the room size",
+   "Keep plays to 2-3 minutes so the whole class gets a turn",
+   "Use checkpoint labels as short facts"
+  ],
+  "avoid": [
+   "Long solo plays while 30 students wait",
+   "Assuming the whole room is empty"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-venue-hall",
+  "kind": "example",
+  "title": "Hall or function room: big, indoor, good for groups",
+  "text": "A school or hotel hall often gives 12 x 20 m or more of clear floor with steady light and sometimes a stage. It supports races of up to 6 players, long routes and two lanes. Lights can often be dimmed, which makes spooky and neon themes possible. Spectators stand along the sides or sit on the stage.",
+  "use_when": "Events in a school hall, hotel ballroom or community hall.",
+  "do": [
+   "Ask whether lights can be dimmed",
+   "Plan two lanes or a race",
+   "Put the finish in front of the stage or seating"
+  ],
+  "avoid": [
+   "Using only a small corner of a big hall",
+   "Routes that cross the doors people walk through"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-venue-gym",
+  "kind": "example",
+  "title": "Sports hall or gym: court lines, echo, wide floor",
+  "text": "A gym or futsal court gives 15 x 25 m or more of flat floor with painted lines. Light is bright and even. Basketball hoops and wall bars stand at the edges, and benches give spectators a clear view. It suits races, sports or hero themes and long routes.",
+  "use_when": "Playing in a school gym, sports hall or covered court.",
+  "do": [
+   "Use the court lines to align lanes",
+   "Seat spectators on the benches along one long side"
+  ],
+  "avoid": [
+   "Routes under hoops or near wall bars",
+   "Ignoring the echo when planning loud spectator moments"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-venue-garden",
+  "kind": "example",
+  "title": "Garden or lawn: daylight, trees, uneven ground",
+  "text": "A garden offers 5 x 8 m up to large lawns, but grass is uneven, there are trees, paths and garden furniture, and daylight washes out glow. Players walk slower on grass. Bright themes (farm, dinosaurs, pirates, candy) fit; dark or neon themes do not. Trees inside the floor must be listed as obstacles and the route kept away from them.",
+  "use_when": "Outdoor play in a garden, park or school field.",
+  "do": [
+   "Ask about trees, slopes, holes and sprinklers",
+   "Use noon or morning lighting",
+   "Choose bright, saturated themes"
+  ],
+  "avoid": [
+   "Spooky or neon themes at midday",
+   "Hazards that need quick steps on wet grass"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-venue-car-park",
+  "kind": "example",
+  "title": "Car park: huge and flat, but traffic and sun",
+  "text": "An empty car park gives 20 x 30 m or more of flat hard floor, ideal for long routes, two lanes and 6-player races. The risks are cars, kerbs, drains, strong sun and heat. Only use it when it is closed to traffic. Big hero pieces read well against open sky.",
+  "use_when": "Large outdoor events or tests in a car park.",
+  "do": [
+   "Confirm it is closed to cars and fenced or staffed",
+   "Keep routes off kerbs and drains",
+   "Play in the evening or in shade for comfort"
+  ],
+  "avoid": [
+   "Assuming the whole car park is safe",
+   "Dark themes in midday sun"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "teens",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-venue-rooftop",
+  "kind": "example",
+  "title": "Rooftop: skyline view, wind and edges",
+  "text": "A rooftop gives a dramatic city skyline but has parapets, vents, wind and sun. Keep the route at least 2 m from any roof edge or low railing, much more than the usual 0.6 m, because a player stepping back cannot see what is behind. Sci-fi, heroes or night city themes work best in the evening.",
+  "use_when": "The creator wants to play on a building rooftop.",
+  "do": [
+   "Keep 2 m or more from roof edges and railings",
+   "Use evening or night lighting for city themes",
+   "Face the finish at the skyline"
+  ],
+  "avoid": [
+   "Void floor on a rooftop",
+   "Hazards that push players backwards towards an edge"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "adults",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-venue-mall-atrium",
+  "kind": "example",
+  "title": "Mall atrium: crowds, bright light, passers-by",
+  "text": "A mall atrium offers about 8 x 12 m with bright mixed light, shiny floors, escalators and a constant crowd of passers-by. It is good for brand events and showing off, but people may walk into the area. Put a barrier or staff around it, keep plays short (2-3 minutes) and design big visible moments for the crowd.",
+  "use_when": "Promotional events in shopping malls.",
+  "do": [
+   "Ask for a barrier or rope around the floor",
+   "Keep plays to 2-3 minutes",
+   "Put the leaderboard screen facing the walkway"
+  ],
+  "avoid": [
+   "Dark themes under skylights",
+   "Long plays with a queue of shoppers"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "families",
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-venue-event-booth",
+  "kind": "example",
+  "title": "Event booth: 3 x 3 to 6 x 6 m and a fast queue",
+  "text": "Exhibition booths usually give 3 x 3, 3 x 6 or 6 x 6 m of floor with strong show lighting and noise. Most players are first-time VR and want a quick taste, so 90 seconds to 3 minutes per play with a clear goal works best. The booth lives on throughput and on how fun it looks from the aisle.",
+  "use_when": "Trade shows, game shows and expos.",
+  "do": [
+   "Design for 2-3 minute plays",
+   "Face the key moments to the aisle",
+   "Plan queue entertainment on a screen"
+  ],
+  "avoid": [
+   "5 minute plays that stall the queue",
+   "Routes that cross the booth entrance"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-venue-fortal-court",
+  "kind": "example",
+  "title": "Fortal court: 14 x 22 m, steady light, 2-6 players",
+  "text": "The Fortal court (XR Arena, Chiang Mai) is an indoor 14 x 22 m floor with walls on all sides, painted court lines, 4 doors along one long wall and steady indoor light. Staff and families watch along one long side and a wall screen can show the leaderboard. It fits long routes, races, two lanes and spooky or neon themes.",
+  "use_when": "The creator plays at the Fortal court (venue fortal-court).",
+  "do": [
+   "Use the preset instead of asking for size",
+   "Put key moments along the spectator long side",
+   "Show the race leaderboard on the wall screen"
+  ],
+  "avoid": [
+   "Routes through the doors on the long wall",
+   "Asking the creator to measure the court"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-size-under-3",
+  "kind": "genre-rule",
+  "title": "Under 3 x 3 m only the runner genre fits",
+  "text": "If either side of the MR space is under 3 m, battle and tactics do not fit: enemies need room to walk in from the edges and the 6 x 8 board needs squares a person can step on. All 3 options must then be runners that differ in theme, route and feeling instead. The builder checks this.",
+  "use_when": "MR brief with width or depth below 3 m.",
+  "do": [
+   "Make all 3 options runners with different loops and moods",
+   "Use 3-4 checkpoints"
+  ],
+  "avoid": [
+   "Proposing battle or tactics in a 2 x 3 m room"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-size-small",
+  "kind": "heuristic",
+  "title": "Under 4 x 4 m: 1-2 players, a short loop, no race",
+  "text": "A floor under 4 x 4 m is a small play area: plan 1-2 players, a short loop of 4-5 checkpoints and small props. A live race needs parallel space and does not fit, so offer a solo time attack with a leaderboard instead. From about 3.7 m on the shortest side the builder's small rules apply (3-6 checkpoints, 1.2-4 m between stops, 8-30 objects); below that the tiny-room rules take over.",
+  "use_when": "Small MR floors such as a living room or booth.",
+  "do": [
+   "Plan a loop or figure-eight of 4-5 checkpoints",
+   "Offer a solo time attack instead of a race"
+  ],
+  "avoid": [
+   "Live races with 3 or more players",
+   "Big hero pieces that eat the floor"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-size-medium",
+  "kind": "heuristic",
+  "title": "4 x 4 to 10 x 10 m: 1-4 players, loops and zig-zags",
+  "text": "Medium floors such as a cleared classroom or a small hall fit 1-4 players, loops or zig-zags and 5-7 checkpoints. When the usable side is 5-10 m the builder expects 1.8-6 m between stops, a 1.2 m clear circle around the spawn and 15-50 objects. Shared floor play works well with 2-3 players.",
+  "use_when": "Medium MR floors.",
+  "do": [
+   "Use 5-7 checkpoints 1.8-6 m apart",
+   "Pick loop or zig-zag routes"
+  ],
+  "avoid": [
+   "Two-lane races under 8 m wide",
+   "Checkpoints closer than 1.8 m"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-size-large",
+  "kind": "heuristic",
+  "title": "Over 10 x 10 m: up to 6 players, long routes, races",
+  "text": "When the usable side is 10 m or more (for example the 14 x 22 m Fortal court) the builder uses large rules: 4-10 checkpoints 2.5-9 m apart, a 1.5 m clear circle around the spawn and 20-80 objects. This is where races, two lanes and hub-and-spoke routes shine. Fill the space with 3-12 vignettes so long walks do not feel empty.",
+  "use_when": "Halls, courts, gyms and car parks.",
+  "do": [
+   "Use 7-10 checkpoints 2.5-9 m apart",
+   "Offer races or two lanes",
+   "Place vignettes along the longer legs"
+  ],
+  "avoid": [
+   "Huddling a short loop in one corner",
+   "Stops more than 9 m apart with nothing between"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-usable-side",
+  "kind": "principle",
+  "title": "Judge size by the shortest side minus 1.2 m",
+  "text": "The builder measures the usable floor as the shortest side minus 0.6 m on each edge. A 4 x 8 m space is really 2.8 m usable, which counts as small, not medium. Always reason from the shortest side, because the route must turn inside it.",
+  "use_when": "Any time a size rule is applied.",
+  "do": [
+   "Subtract 1.2 m from the shortest side before choosing rules",
+   "Mention the usable size in environment_fit"
+  ],
+  "avoid": [
+   "Using the long side or the area to pick a size class"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-tiny-room",
+  "kind": "heuristic",
+  "title": "A shortest side under 3.7 m triggers the tiny-room rules",
+  "text": "The builder subtracts the 0.6 m edge margin on both sides, so any floor whose shortest side is under about 3.7 m has less than 2.5 m usable and gets tiny rules: 3-4 checkpoints, stops spaced about 45 percent of the usable side (at least 0.5 m), hazard radius 0.35 m, a 0.6 m spawn circle, 2-4 vignettes and 8-20 objects. A 3.5 x 5 m bedroom is tiny, not small. Plan a tight circuit where the story labels and one hero piece carry the experience.",
+  "use_when": "The shortest side of the MR floor is between 2 and 3.7 m.",
+  "do": [
+   "Check the shortest side against 3.7 m before choosing a checkpoint count",
+   "Plan 3-4 checkpoints in a tight circle around one hero piece"
+  ],
+  "avoid": [
+   "Planning 5 or more checkpoints for a 3 x 4 m room",
+   "Hazards that force side steps toward furniture"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "submission"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-edge-clearance",
+  "kind": "principle",
+  "title": "Keep everything at least 0.6 m from the edge of the floor",
+  "text": "Players overshoot targets, swing arms and step backwards. Keep checkpoints, hazards, the portal and the route at least 0.6 m inside the edge of the measured floor, and more next to glass, stairs or roof edges. The builder applies 0.6 m by default.",
+  "use_when": "Placing any marker in MR.",
+  "do": [
+   "Treat the outer 0.6 m as a no-go strip",
+   "Add extra margin near glass, stairs and drops"
+  ],
+  "avoid": [
+   "Checkpoints on the edge of the floor",
+   "Hazards that make players step outward"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-walking-corridor",
+  "kind": "principle",
+  "title": "Keep a 1.2 m corridor clear along the walking route",
+  "text": "Players walk the straight lines from spawn through the checkpoints in order to the portal. No object may stand within 0.6 m plus half its footprint of those lines, which gives a 1.2 m corridor. Arches and gates can sit on the line only if marked walkThrough. This keeps players from flinching at virtual props they think are solid.",
+  "use_when": "Dressing the route with scenery.",
+  "do": [
+   "Line props along the sides of the corridor",
+   "Use walkThrough arches to frame the path"
+  ],
+  "avoid": [
+   "Rocks or trees on the walking line",
+   "Narrow gaps between props players must squeeze through"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-real-obstacles",
+  "kind": "principle",
+  "title": "Real obstacles inside the floor must stay off the route",
+  "text": "A pillar, tree or table inside the floor is a real thing players can hit. List it in obstacles, keep the route and markers well away from it (at least 0.6 m plus a margin) and consider dressing it with a virtual piece of the same footprint, such as a rock around a pillar, so it reads as part of the world.",
+  "use_when": "The creator mentions a pillar, tree, table or other fixed object.",
+  "do": [
+   "Ask for each obstacle and roughly where it is",
+   "Route around it and dress it as a landmark"
+  ],
+  "avoid": [
+   "Placing a checkpoint beside a pillar",
+   "Pretending the obstacle is not there"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-paces-to-metres",
+  "kind": "default",
+  "title": "Convert paces to metres: 1 pace is about 0.75 m",
+  "text": "Many creators do not know the size in metres. Ask them to walk the empty floor and count normal steps: 1 adult pace is about 0.75 m (a child's pace is shorter, about 0.5 m). 6 paces by 8 paces is about 4.5 x 6 m. Round down, never up.",
+  "use_when": "The creator does not know the floor size in metres.",
+  "do": [
+   "Offer count your steps as a quick-reply choice",
+   "Round the result down to the nearest half metre"
+  ],
+  "avoid": [
+   "Rounding up",
+   "Using a child's step count with the adult conversion"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-unknown-size-default",
+  "kind": "default",
+  "title": "If the size is unknown, assume a small floor and say so",
+  "text": "If the creator cannot give the size even in paces, assume the safe case: a 3 x 3 m floor indoors, 1-2 players, a short loop. Write the assumption into the brief and tell the creator the game can scale up if they later measure a bigger space. Guessing big risks routes that run into walls.",
+  "use_when": "The creator does not know or skips the size question.",
+  "do": [
+   "Assume 3 x 3 m indoors",
+   "Write the assumption into the brief",
+   "Ask once more with paces as an option"
+  ],
+  "avoid": [
+   "Guessing a large floor",
+   "Finishing the interview without any size for a space venue"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-size-question-choices",
+  "kind": "question",
+  "title": "Ask for the empty floor, not the room",
+  "text": "Rooms include furniture; the play area is only the floor that is clear. Ask how big the empty floor you can walk on is, and offer quick choices such as about 3 x 3 m, 5 x 5 m, 10 x 10 m or bigger, and I will count my steps. The answer changes genre, player count and route, so it is required for a space venue.",
+  "use_when": "Interview step about the environment.",
+  "do": [
+   "Offer 4-5 size choices plus a paces option",
+   "Explain in why that size decides how many can play"
+  ],
+  "avoid": [
+   "Asking for room size only",
+   "Skipping the size question"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-checkpoint-spacing",
+  "kind": "heuristic",
+  "title": "Space checkpoints so players walk, not shuffle",
+  "text": "Stops too close together make players shuffle in place; too far apart and the walk feels empty. The builder checks 1.2-4 m between stops on small floors, 1.8-6 m on medium and 2.5-9 m on large. Aim for the middle of the range and vary it so the route has rhythm.",
+  "use_when": "Placing checkpoints in the layout brief.",
+  "do": [
+   "Aim for the middle of the spacing range",
+   "Alternate a short and a long leg"
+  ],
+  "avoid": [
+   "Equal spacing everywhere",
+   "Several stops at the minimum distance in a row"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-hazard-placement",
+  "kind": "heuristic",
+  "title": "Hazards sit on the route but leave room to step around",
+  "text": "Hazards are red circles that send the player back to the last checkpoint. In MR the player must see them early and step around them without leaving the corridor. Keep hazards at least the builder's gap from each other (0.4 m small, 0.7 m medium, 1 m large floors) and away from the edge, so the dodge is never toward a wall.",
+  "use_when": "Adding hazards to an MR route.",
+  "do": [
+   "Place hazards where the dodge is toward open floor",
+   "Give 2-3 m of sight line before each hazard"
+  ],
+  "avoid": [
+   "Hazards just after a sharp turn",
+   "Hazards that force a step into the edge margin"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-spawn-clearance",
+  "kind": "principle",
+  "title": "Keep the spawn clear so players start calmly",
+  "text": "Players put the headset on at the spawn and take a moment to adjust. The builder keeps a clear circle around it: 0.8 m on small floors, 1.2 m medium, 1.5 m large. Put the spawn near the entrance and the staff side so helpers can reach players quickly.",
+  "use_when": "Choosing where the spawn goes.",
+  "do": [
+   "Put the spawn near the staff and entrance",
+   "Face the spawn toward the first checkpoint"
+  ],
+  "avoid": [
+   "Spawning players facing a wall",
+   "Props inside the spawn circle"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-light-daylight-washout",
+  "kind": "heuristic",
+  "title": "Bright daylight washes out glow and dark themes",
+  "text": "In sun, passthrough is bright and virtual glow, neon and dark colours look faded. Outdoors in daylight choose bright, saturated themes with strong silhouettes and the noon or morning preset. Save spooky and neon for indoors or after dark.",
+  "use_when": "Outdoor or window-lit venues in daytime.",
+  "do": [
+   "Pick noon or morning lighting",
+   "Use bold colours and big shapes"
+  ],
+  "avoid": [
+   "Neon or spooky themes at midday",
+   "Small glowing markers as the only cue"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-light-indoor-steady",
+  "kind": "heuristic",
+  "title": "Steady indoor light keeps colours readable",
+  "text": "Halls, classrooms and the Fortal court have even artificial light, so most themes read well. The studio or default presets match it; spooky and neon work if the room lights can be dimmed. Ask whether the lights can be changed, because it opens darker themes.",
+  "use_when": "Indoor venues.",
+  "do": [
+   "Ask whether lights can be dimmed",
+   "Use studio or default when the lights stay on"
+  ],
+  "avoid": [
+   "Assuming a dark room the venue cannot provide"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-light-night",
+  "kind": "heuristic",
+  "title": "After dark, spooky, neon and night presets shine",
+  "text": "Outdoors after sunset or in a dimmed hall, glow and dark palettes pop and spooky or neon themes feel strong. But passthrough gets grainy in low light and players see real obstacles less well, so keep some room light on, widen clearances and slow the pace.",
+  "use_when": "Night events, evening outdoor play or dimmed halls.",
+  "do": [
+   "Use night, spooky or neon presets",
+   "Keep some real light so tracking and safety work",
+   "Widen corridors and slow the route"
+  ],
+  "avoid": [
+   "Pitch dark rooms where tracking fails",
+   "Fast timed routes at night"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-light-preset-by-venue",
+  "kind": "default",
+  "title": "Default lighting preset by venue",
+  "text": "Garden or car park at midday: noon. Morning outdoor events: morning. Sunset rooftop or garden: evening. Living room or classroom with lights on: default or studio. Hall or court with dimmable lights: spooky or neon for dark themes, studio otherwise. Outdoors after dark: night. Pick the preset that agrees with the real light the player will see.",
+  "use_when": "Choosing the lighting field in options or build.",
+  "do": [
+   "Match the preset to the real light and time",
+   "Explain the pick in environment_fit"
+  ],
+  "avoid": [
+   "Night preset in a sunlit garden",
+   "Noon preset in a dim hall"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-light-time-of-day",
+  "kind": "question",
+  "title": "Ask when it will be played, not only where",
+  "text": "The same garden is a bright dino park at 11:00 and a ghost trail at 19:00. Ask the time of day for any venue with windows or open sky; it decides the lighting preset and which themes are possible. Offer quick choices: morning, midday, evening, night, indoors without windows.",
+  "use_when": "Interview, outdoor or window-lit venues.",
+  "do": [
+   "Ask time of day together with indoor or outdoor",
+   "Record it in time_of_day"
+  ],
+  "avoid": [
+   "Choosing a dark theme before knowing the time"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-light-windows-glare",
+  "kind": "pitfall",
+  "title": "Sun patches from windows fade colours on part of the route",
+  "text": "A room can have even light except where sunlight falls through a window, and that patch moves over the day. Inside it, virtual colours and hazard circles fade while the rest of the route looks fine, so a player can walk into a hazard they did not see. Ask where the sun falls at play time and keep hazards and checkpoints out of that patch, or close the curtains.",
+  "use_when": "Indoor venues with large windows, especially east or west facing.",
+  "do": [
+   "Ask where direct sun falls at the planned time",
+   "Keep hazards out of sunlit patches"
+  ],
+  "avoid": [
+   "A hazard right in a sunbeam",
+   "Assuming the light at the test visit matches the event time"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-safe-no-running",
+  "kind": "principle",
+  "title": "Design for walking, never running",
+  "text": "Players in headsets misjudge real distances and may miss small real objects. Time limits and races must be beatable at a brisk walk. In battle the player steps out of rings, never sprints. Write walk, do not run into the rules of every race.",
+  "use_when": "Any timed, race or battle design in MR.",
+  "do": [
+   "Set time limits a walking player can beat",
+   "Add walk, do not run to the rules"
+  ],
+  "avoid": [
+   "Time limits that need sprinting",
+   "Hazards that need a jump or lunge"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-safe-no-sudden-scares",
+  "kind": "principle",
+  "title": "No sudden scares that make people run",
+  "text": "A jump scare makes people step back or bolt, and in MR that can mean a wall or a person. Build horror with slow dread: dim light, Thai ghost scenery seen from far away, story labels. Keep scary pieces beside the route and visible early, never popping up in front of a player.",
+  "use_when": "Spooky or horror themes.",
+  "do": [
+   "Use slow reveals and atmosphere",
+   "Place scary models beside the path, visible early"
+  ],
+  "avoid": [
+   "Monsters appearing right in front of the player",
+   "Scares near walls or edges"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "seniors"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-safe-no-looking-up",
+  "kind": "principle",
+  "title": "No tasks that need looking up while walking fast",
+  "text": "Looking up while walking hides the floor and real obstacles and causes trips. Put checkpoint labels and targets at chest to eye height. Tall scenery is fine to admire while standing still at a checkpoint.",
+  "use_when": "Placing labels, targets and hero pieces.",
+  "do": [
+   "Keep interactive things between knee and eye height",
+   "Put tall wow pieces near stops, not mid-leg"
+  ],
+  "avoid": [
+   "Targets high above the route",
+   "Labels that must be read while looking up"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-seated-alternative",
+  "kind": "pattern",
+  "title": "Offer a seated or standing-still way to play",
+  "text": "Some players cannot or should not walk around: limited mobility, some seniors, a tiny room. The PC platform serves seated players, and in MR battle the player mostly stands in place and steps out of rings. Mention the alternative so the creator can include everyone.",
+  "use_when": "Players with limited mobility or very small spaces.",
+  "do": [
+   "Suggest the PC version for seated players",
+   "Keep MR battle steps small"
+  ],
+  "avoid": [
+   "Designs that assume everyone can walk 50 m"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "seniors"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-motion-sickness",
+  "kind": "heuristic",
+  "title": "Avoid motion sickness: the floor must stay still",
+  "text": "In MR the player walks for real, so the main sickness risks are a bottomless floor and anything that moves the world instead of the player. Keep the floor stable, avoid the void floor for sensitive players, and use animated rides as scenery, never as something players stand on. Fast spins to find the next checkpoint also cause discomfort, so keep the next stop roughly ahead.",
+  "use_when": "Constraints mention motion sickness, or players are new to VR.",
+  "do": [
+   "Keep the next checkpoint within a 90 degree turn",
+   "Use animated rides as scenery only"
+  ],
+  "avoid": [
+   "Void floor for sensitive players",
+   "Routes with many 180 degree turns"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": [
+    "first-time-vr"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-session-length",
+  "kind": "default",
+  "title": "Default session length: about 4 minutes in MR",
+  "text": "Most MR walking plays feel complete in 3-5 minutes and stay comfortable. First-time players and events want 2-3 minutes; a home game with keen adults can run 8-10 minutes across chapters. If the creator does not say, use 4 minutes and write it into the brief.",
+  "use_when": "Session length is unknown.",
+  "do": [
+   "Default to 4 minutes",
+   "Use 2-3 minutes for events and young kids"
+  ],
+  "avoid": [
+   "15 minute single plays in a headset",
+   "No time cap at a queue event"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-fatigue",
+  "kind": "heuristic",
+  "title": "Plan rest breaks between chapters for long sessions",
+  "text": "Heat, headset weight and eye strain build up over time, faster in warm venues. If the whole experience runs over 10 minutes, split it into chapters of 3-4 minutes with a short break in which the player can lift the headset or sit down. In battle, the chapter by chapter structure gives natural break points before the boss; in runner, the intro card of a second Land can act as one.",
+  "use_when": "The creator wants a long session or repeated plays by the same person.",
+  "do": [
+   "Add a break after every 3-4 minute chapter",
+   "Put the hardest part right after a break, not at the end of a long stretch"
+  ],
+  "avoid": [
+   "One continuous 20 minute play",
+   "A boss fight after 12 minutes without a break"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-kids-headset-weight",
+  "kind": "heuristic",
+  "title": "Quest 3 is heavy for small children: keep their plays short",
+  "text": "The headset weighs around half a kilo, which is a lot for a young child's neck, and the fit is loose on small faces. For kids 6-9 keep plays to 2-3 minutes, avoid long periods of looking down, and have a helper adjust the strap. Check the manufacturer's age guidance for the venue.",
+  "use_when": "Players include young children.",
+  "do": [
+   "Cap plays at 2-3 minutes for under-10s",
+   "Plan an adult helper per child"
+  ],
+  "avoid": [
+   "10 minute plays for 6 year olds",
+   "Designs that need long head tilts"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-hygiene-turnover",
+  "kind": "heuristic",
+  "title": "At events plan hygiene and turnover between players",
+  "text": "Each change of player needs wiping the face pad, fitting the strap and a short briefing, about 60-90 seconds. Plan the play length and throughput around it. Disposable face covers and a second headset that alternates keep the queue moving.",
+  "use_when": "Public events with many players.",
+  "do": [
+   "Budget 60-90 s between players",
+   "Suggest two headsets that alternate"
+  ],
+  "avoid": [
+   "Forgetting changeover time in throughput estimates"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-heat-outdoor",
+  "kind": "pitfall",
+  "title": "Hot outdoor venues overheat players and headsets",
+  "text": "In midday Thai sun, headsets overheat and players sweat into the face pad, and sunlight falling into the lenses can damage the screens. Prefer shade, morning or evening times, and outdoor plays of 2-3 minutes. Store headsets lens-down in the shade between players.",
+  "use_when": "Outdoor daytime venues in hot weather.",
+  "do": [
+   "Suggest shade or morning or evening play",
+   "Shorten outdoor plays to 2-3 minutes"
+  ],
+  "avoid": [
+   "Long midday sessions in direct sun",
+   "Leaving headsets lens-up in the sun"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-guardian-boundary",
+  "kind": "heuristic",
+  "title": "Draw the headset boundary on the floor that was measured",
+  "text": "The game only knows the size the creator gave; on site, the safety net is the boundary drawn in the headset. Tell the creator to clear the floor first, then draw the boundary on that same floor, so the Land, its 0.6 m margin and the boundary all match. If the drawn boundary is smaller than the brief, rebuild with the smaller size rather than playing past it.",
+  "use_when": "Before the first play at a new venue.",
+  "do": [
+   "Clear the floor, then draw the boundary",
+   "Rebuild if the boundary is smaller than the brief"
+  ],
+  "avoid": [
+   "Playing a Land bigger than the drawn boundary"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-spotter-for-groups",
+  "kind": "pattern",
+  "title": "One spotter watches the floor during group plays",
+  "text": "On a shared floor players see each other's avatars but still misjudge distance, and real people may wander in. One staff member or parent stands at the edge with a clear view of the whole floor, ready to call stop. Design routes that flow in one direction so players never walk toward each other head-on.",
+  "use_when": "Shared floor play or events with several players at once.",
+  "do": [
+   "Plan one spotter per floor at the edge",
+   "Make routes flow in one direction"
+  ],
+  "avoid": [
+   "Routes where two players cross head-on",
+   "Spotters standing inside the play area"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-players-kids-6-9",
+  "kind": "heuristic",
+  "title": "Kids 6-9: short, bright, forgiving, few words",
+  "text": "Young children read slowly, scare easily and tire fast. Use 2-3 minute plays, 4-6 checkpoints with labels of 2-4 words, few hazards, no time limit or a generous one, bright high-contrast colours and friendly themes (animals, candy, toys). In tactics use slow guards (4 s or more) or a board with one guard.",
+  "use_when": "Players are young children.",
+  "do": [
+   "Labels of 2-4 words",
+   "Generous or no time limit",
+   "Bright, friendly themes"
+  ],
+  "avoid": [
+   "Spooky themes",
+   "Long intro text",
+   "Void floor"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery",
+    "submission",
+    "fantasy"
+   ],
+   "players": [
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-players-kids-10-12",
+  "kind": "heuristic",
+  "title": "Kids 10-12: give real challenge and a score to beat",
+  "text": "Older children want to win and to beat their friends. They read short sentences, handle hazards and a time limit, and love leaderboards. Mild spooky themes such as cute Thai ghosts work. Keep plays 3-4 minutes and let the challenge rise across checkpoints.",
+  "use_when": "Players are 10-12 years old, for example a school class.",
+  "do": [
+   "Add a time limit and a leaderboard",
+   "Raise hazard density toward the end"
+  ],
+  "avoid": [
+   "Babyish themes",
+   "Real horror"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "kids",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-players-teens",
+  "kind": "heuristic",
+  "title": "Teens: competition, style and showing off",
+  "text": "Teens care about looking cool to the friends watching and beating each other. Races, leaderboards, neon and hero themes, tactics guards at 3 s and battle bosses fit. Keep text short and let them restart quickly.",
+  "use_when": "Players are teenagers.",
+  "do": [
+   "Offer a race or leaderboard",
+   "Use bold neon or hero themes"
+  ],
+  "avoid": [
+   "Childish story text",
+   "Slow tutorials"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": [
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-players-adults",
+  "kind": "heuristic",
+  "title": "Adults at home or with friends: longer, harder, a bit of nostalgia",
+  "text": "Adults who choose to play (a game night, a team outing, a birthday) are past the novelty and want a real game: 6-10 minutes across chapters, a time limit that bites, a leaderboard among friends. Themes that call back to childhood (pirates, dinosaurs, toys) or local legends land well. They are self-conscious in front of colleagues, so avoid poses or moves that look silly and let the competition be the show.",
+  "use_when": "Adult players who have tried VR before or play for a social occasion.",
+  "do": [
+   "Offer chapters and a tight time limit",
+   "Use nostalgic or local-legend themes"
+  ],
+  "avoid": [
+   "Childish story text",
+   "Moves that make adults look silly in front of colleagues"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "fellowship",
+    "fantasy"
+   ],
+   "players": [
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-players-seniors",
+  "kind": "heuristic",
+  "title": "Seniors: steady floor, slow pace, large clear text",
+  "text": "Older players may have balance or vision limits. Keep the floor stable (no void), no time limit or a generous one, wide corridors, large high-contrast labels and calm themes (temples, gardens, history). Offer the PC version for anyone unsteady on their feet.",
+  "use_when": "Players include seniors or grandparents.",
+  "do": [
+   "No void floor, no time pressure",
+   "Large high-contrast labels",
+   "Offer a seated alternative"
+  ],
+  "avoid": [
+   "Fast hazards",
+   "Low-contrast dark themes"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "narrative",
+    "discovery"
+   ],
+   "players": [
+    "seniors"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-players-families",
+  "kind": "pattern",
+  "title": "Mixed-age families: one route, two levels of challenge",
+  "text": "A family group can have a 6 year old and a grandparent at once. Design for the youngest: short, bright, safe. Older players chase the time bonus and avoid hazard penalties while kids simply finish. Shared floor play lets a parent walk beside a child.",
+  "use_when": "Family groups with mixed ages.",
+  "do": [
+   "Shared floor so a parent can walk beside the child",
+   "Speed bonus as an optional challenge"
+  ],
+  "avoid": [
+   "Difficulty tuned for teens",
+   "Scary themes"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "discovery"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-players-first-time-vr",
+  "kind": "heuristic",
+  "title": "First-time VR players need a calm first minute",
+  "text": "First-timers spend the first 30-60 seconds looking around and checking that the floor is really there. Put the first checkpoint close and in plain view, no hazards before it, and save the wow for the second half. Keep the intro card to 2 sentences.",
+  "use_when": "Events or briefs where most players have never used VR.",
+  "do": [
+   "First checkpoint 2-3 m ahead in plain view",
+   "No hazard before checkpoint 2"
+  ],
+  "avoid": [
+   "Tight time limits from the start",
+   "Void floor"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-players-gamers",
+  "kind": "heuristic",
+  "title": "Experienced gamers want depth and mastery",
+  "text": "Players used to VR or games read the rules fast and look for mastery. Give tighter time limits, denser hazards, tactics boards with 3 s guards and a strict capture order, or battle chapters mixing shield and beast enemies with rain. The leaderboard keeps them replaying.",
+  "use_when": "Players are gamers or VR regulars.",
+  "do": [
+   "Tighter limits and more hazards",
+   "A leaderboard for replay"
+  ],
+  "avoid": [
+   "Long tutorials",
+   "Only easy content"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics",
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-players-school-class",
+  "kind": "pattern",
+  "title": "School classes: many turns, everyone watches",
+  "text": "With 30 students and 1-2 headsets, the game is mostly watched. Plays of about 2 minutes, a class leaderboard on a projector and checkpoint labels that teach a fact give the watchers a role: they learn and cheer. Use team names so turns feel fair and no personal data is shown.",
+  "use_when": "Classroom or school event briefs.",
+  "do": [
+   "2 minute plays",
+   "Leaderboard on the projector",
+   "Facts as checkpoint labels"
+  ],
+  "avoid": [
+   "5 minute plays",
+   "Student names on the leaderboard (use team names)"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "groups",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-players-tourists",
+  "kind": "heuristic",
+  "title": "Tourists: local culture, little text, quick to understand",
+  "text": "Tourists may not read Thai and often play only once. Use visual storytelling and very short labels, Thai temples, ghosts or local legends as scenery, and a 2-3 minute play. The experience should be photo worthy for the friends watching.",
+  "use_when": "Tourist venues or visitors from abroad.",
+  "do": [
+   "Minimal text, strong visuals",
+   "Local culture themes"
+  ],
+  "avoid": [
+   "Long story cards",
+   "Jokes that depend on the language"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery",
+    "sensation"
+   ],
+   "players": [
+    "adults",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-players-limited-mobility",
+  "kind": "heuristic",
+  "title": "Limited mobility: smaller loops, no stepping tasks, or PC",
+  "text": "For wheelchair users or people who cannot walk far, long MR routes and battle ring dodges exclude them. Offer the PC platform, or a small runner loop with wide flat corridors of 1.5 m and no hazards that need side steps. Ask what they need without asking for medical details.",
+  "use_when": "The brief mentions wheelchairs, injuries or limited mobility.",
+  "do": [
+   "Offer the PC version",
+   "Wide corridors and no hazard steps"
+  ],
+  "avoid": [
+   "Asking for medical details",
+   "Ring dodges as the only mechanic"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-text-amount",
+  "kind": "heuristic",
+  "title": "Keep in-headset text short: labels under 5 words",
+  "text": "Text in a headset is harder to read than on a phone, and walking players only glance at it. Keep checkpoint labels to 2-5 words, the goal to one line and the story card to 2-4 short sentences. Young players and tourists need even less.",
+  "use_when": "Writing labels, goals and story text.",
+  "do": [
+   "Labels of 2-5 words",
+   "Story of 2-4 sentences"
+  ],
+  "avoid": [
+   "Paragraph labels",
+   "Rules lists over 4 items"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-colour-contrast",
+  "kind": "heuristic",
+  "title": "High contrast colours for markers, more for kids and seniors",
+  "text": "Markers must read against both the virtual floor and the real light. Hazards are red, so keep the floor palette away from red and orange. Pair light floors with dark props or the reverse, and avoid low-contrast palettes for kids, seniors and daylight venues.",
+  "use_when": "Choosing the palette and floor theme.",
+  "do": [
+   "Keep the floor away from red tones",
+   "Check the palette for daylight readability"
+  ],
+  "avoid": [
+   "Red or orange floors that hide hazards",
+   "Grey on grey palettes"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-guard-beat-by-age",
+  "kind": "heuristic",
+  "title": "Tactics guard beat by player: 4-5 s for kids, 3 s for gamers",
+  "text": "In tactics guards move every 3 s or slower. Walking onto a square in MR takes time, so for kids, seniors and first-timers use 4-5 s per beat and few guards; gamers and teens can handle 3 s. A beat that is too fast turns planning into panic and tempts people to rush.",
+  "use_when": "Designing tactics boards in MR.",
+  "do": [
+   "Slow the beat for young or new players",
+   "Use fewer guards on the first board"
+  ],
+  "avoid": [
+   "Beats under 3 s",
+   "Many guards on the first board"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "seniors",
+    "first-time-vr"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-time-limit-by-player",
+  "kind": "default",
+  "title": "Set time limits from walking speed and player type",
+  "text": "Estimate the walk: a brisk adult covers about 1 m per second plus a few seconds at each checkpoint. Give kids and first-timers about double that walking time, adults 1.5 times, gamers 1.2 times. Or leave the limit off and let the time bonus reward speed.",
+  "use_when": "Setting timeLimit.",
+  "do": [
+   "Estimate route length, then apply the multiplier",
+   "Leave it null for relaxed or family games"
+  ],
+  "avoid": [
+   "Limits based on running speed"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-spec-bodies-not-game",
+  "kind": "principle",
+  "title": "Spectators see bodies, not the game",
+  "text": "People watching from the side see players walk, turn, step and react, but not the virtual floor. Design moments with visible body language: a sidestep around a hazard, a pause at a checkpoint, arms raised at the portal. A screen with the leaderboard gives them the rest.",
+  "use_when": "Any MR design with an audience.",
+  "do": [
+   "Plan 1-2 visible body moments",
+   "Describe spectator_view honestly"
+  ],
+  "avoid": [
+   "Assuming spectators understand what the player sees"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "expression"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-spec-key-moments-side",
+  "kind": "pattern",
+  "title": "Put key moments on the spectator side",
+  "text": "Find where people stand and place a hazard dodge and the finish portal on that side, 1.5-3 m from them and inside the edge margin. They then see faces and reactions instead of backs. The layout brief must say which side the spectators are on.",
+  "use_when": "Placing the finish and highlight hazards.",
+  "do": [
+   "Finish portal facing the audience",
+   "One hazard on the spectator side"
+  ],
+  "avoid": [
+   "Finish in the far corner",
+   "Key moments with the player's back to the crowd"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-spec-leaderboard-screen",
+  "kind": "pattern",
+  "title": "Show the race leaderboard on a screen",
+  "text": "A TV or projector with the live leaderboard turns watchers into fans and gives the queue a reason to stay. Place it where spectators and the queue can both see it, not where players in headsets walk toward it.",
+  "use_when": "Races, events, classes, the Fortal court wall screen.",
+  "do": [
+   "Put the screen beside the queue",
+   "Use nicknames or team names"
+  ],
+  "avoid": [
+   "Real names or personal data on screen"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-spec-cheering-hints",
+  "kind": "pattern",
+  "title": "Let parents and friends cheer and call out hints",
+  "text": "Spectators can shout left or one more. Design moments where a hint helps: a checkpoint behind a prop, a hazard the player has not noticed yet. This creates fellowship without any spectator task inside the area.",
+  "use_when": "Family or friend groups watching.",
+  "do": [
+   "Place one checkpoint so it is fun to call out",
+   "Mention cheering in spectator_plan"
+  ],
+  "avoid": [
+   "Spectators walking into the area to help"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-spec-never-inside",
+  "kind": "principle",
+  "title": "Never give spectators a task inside the play area",
+  "text": "Anyone standing on the floor is a real obstacle that players cannot see as part of the game. Spectator roles stay outside the edge: cheering, watching the screen, choosing the next player.",
+  "use_when": "Any design that involves spectators.",
+  "do": [
+   "Keep spectator roles outside the boundary"
+  ],
+  "avoid": [
+   "A friend standing at a checkpoint",
+   "Spectators holding props on the floor"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-spec-queue-entertainment",
+  "kind": "pattern",
+  "title": "Entertain the queue at events",
+  "text": "At booths the queue is the next set of players and the crowd that draws others in. Show the leaderboard or a looping trailer on a screen and let the queue watch players react. A short 2-3 minute play keeps the wait short.",
+  "use_when": "Events, booths and malls with a queue.",
+  "do": [
+   "Leaderboard or trailer on a screen facing the queue",
+   "Keep plays short"
+  ],
+  "avoid": [
+   "A queue that faces a blank wall"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-group-race-vs-shared",
+  "kind": "heuristic",
+  "title": "Race or shared floor: pick by space and goal",
+  "text": "In a race each player walks their own copy and sees a live leaderboard; in a shared floor players see each other's avatars. Races feel competitive, but players on the same real floor can still collide, so they need a large floor or players taking turns. Shared floor suits families and teamwork.",
+  "use_when": "Choosing play_mode with more than one player.",
+  "do": [
+   "Race on large floors or as turns",
+   "Shared floor for families and teamwork"
+  ],
+  "avoid": [
+   "Simultaneous races on a small floor"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-group-player-count",
+  "kind": "default",
+  "title": "Cap players at once by area: about 8 square metres each",
+  "text": "When several people share one real floor (a shared-floor game or a simultaneous race), each walking player needs about 6-10 square metres to move without bumping into others. Divide the floor area by 8 and round down, then cap at 6: a 4 x 5 m floor fits 2, a 7 x 7 m floor fits 6 on paper but 4 is safer with hazards to dodge. More people than that means turns, not a bigger group.",
+  "use_when": "Setting group_size for a shared-floor or simultaneous MR game.",
+  "do": [
+   "Divide the floor area by 8 square metres and round down",
+   "Lower the count if the route has many hazards"
+  ],
+  "avoid": [
+   "Filling the floor to the cap with kids who move unpredictably",
+   "Counting floor area that is inside the 0.6 m edge margin"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-group-two-lanes",
+  "kind": "pattern",
+  "title": "Two mirrored lanes for a fair side-by-side race",
+  "text": "On floors over about 8 m wide, split the floor into two mirrored lanes with at least a 1 m gap so two players race at once without crossing. Spectators love seeing them side by side, and mirrored lanes keep the race fair.",
+  "use_when": "Two-player races in halls, courts or car parks.",
+  "do": [
+   "Mirror the checkpoints exactly",
+   "Keep a 1 m buffer between lanes"
+  ],
+  "avoid": [
+   "Lanes that cross",
+   "Lanes on floors under 8 m wide"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-group-turn-taking",
+  "kind": "pattern",
+  "title": "Turns plus an all-day leaderboard replace live races at busy events",
+  "text": "When more people want to play than the floor can hold, let them play one or two at a time and compete on a leaderboard that runs all day. A player who finished can come back to see if they still lead, and the next player knows the score to beat before putting the headset on. Reset the board at a fixed time and announce the leader.",
+  "use_when": "Events and classes with more players than space.",
+  "do": [
+   "Run one leaderboard across the whole day",
+   "Tell each player the score to beat before they start"
+  ],
+  "avoid": [
+   "Holding people back to race everyone at once",
+   "Leaderboards with real names"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-group-throughput",
+  "kind": "heuristic",
+  "title": "Estimate throughput: players per hour",
+  "text": "Players per hour = 60 / (play minutes + changeover minutes) x headsets. A 3 minute play with a 1.5 minute changeover on 2 headsets gives about 26 players per hour. Use this to set the play length the event can afford.",
+  "use_when": "Event planning with a target number of players.",
+  "do": [
+   "Ask how many people are expected",
+   "Shorten plays if throughput is too low"
+  ],
+  "avoid": [
+   "Ignoring changeover time"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-pc-no-room",
+  "kind": "principle",
+  "title": "On PC skip every question about the real room",
+  "text": "A PC game has no real floor, so do not ask about size, surroundings, obstacles or venue, and do not set venue, width_m, depth_m or indoor. Spend those questions on players, feelings and session instead.",
+  "use_when": "The creator chooses platform pc.",
+  "do": [
+   "Skip the environment questions",
+   "Ask more about players and feelings"
+  ],
+  "avoid": [
+   "Asking for floor size on PC"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-pc-friends-watching",
+  "kind": "pattern",
+  "title": "On PC, friends watch the screen, not the body",
+  "text": "PC spectators see the same screen as the player, so they understand everything that happens. Loud visual feedback on hits, checkpoints and the finish makes watching fun, and hot-seat turns with a leaderboard work well for friends.",
+  "use_when": "PC games played with friends nearby.",
+  "do": [
+   "Make hits and checkpoints visually loud",
+   "Offer hot-seat turns"
+  ],
+  "avoid": [
+   "Designing body-language moments that only matter in MR"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-pc-controls",
+  "kind": "heuristic",
+  "title": "PC players expect WASD, mouse look and quick restarts",
+  "text": "On PC the runner is played with WASD and battle uses a third person sword with a 3-hit combo and a dash. Players expect standard controls, instant restarts and tighter challenge than in MR, because nobody walks a real floor. Routes can be longer and hazards denser than in MR.",
+  "use_when": "PC options and build.",
+  "do": [
+   "Keep standard WASD and mouse",
+   "Tighten timing compared to MR"
+  ],
+  "avoid": [
+   "Copying MR walking time limits to PC",
+   "Custom control schemes"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "gamers"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "sp-pc-no-mr-safety",
+  "kind": "heuristic",
+  "title": "Ideas too intense for MR belong on PC",
+  "text": "On PC nobody walks a real floor, so a fast pace, darker and scarier themes, dense hazards and dramatic heights are safe. When the creator wants something that breaks an MR safety rule (sprinting, jump scares, a long void walk), say why it is unsafe in a headset and offer PC as the home for that idea, or a gentle MR version alongside it.",
+  "use_when": "The creator asks for speed, scares or heights that MR cannot do safely.",
+  "do": [
+   "Explain the MR safety reason in one line",
+   "Offer the PC platform for the intense version"
+  ],
+  "avoid": [
+   "Porting intense PC ideas straight into MR",
+   "Refusing the idea without an alternative"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-venue-noise",
+  "kind": "pitfall",
+  "title": "Loud venues drown out game sound: make every cue visual",
+  "text": "Events, malls, gyms and halls are loud, and music or a crowd covers headset audio. Any cue that matters (a hazard, the next checkpoint, the time running out) must also be visible: the red hazard circle, the checkpoint label, the timer. Treat sound as a bonus layer, and remember the crowd can be the soundtrack: cheering at the finish is part of the show.",
+  "use_when": "Events, malls, gyms or anywhere with music or a crowd.",
+  "do": [
+   "Make every important cue visible",
+   "Put the finish where the crowd can cheer"
+  ],
+  "avoid": [
+   "Story told only through audio",
+   "Warnings that are only a sound"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-outdoor-rain-wind",
+  "kind": "pitfall",
+  "title": "Rain and wind outdoors need a covered fallback",
+  "text": "Quest headsets are not waterproof, and wet grass or tiles become slippery. Wind blows hair into faces, moves loose decorations and can push light barriers onto the floor. For any outdoor plan ask about a covered fallback (a tent, a porch, an indoor room) and design a version of the Land that fits it.",
+  "use_when": "Outdoor venues, especially in the rainy season.",
+  "do": [
+   "Ask for a covered fallback space and its size",
+   "Keep loose barriers and banners well outside the floor"
+  ],
+  "avoid": [
+   "Playing in drizzle",
+   "Outdoor-only plans in the rainy season"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-floor-surfaces",
+  "kind": "heuristic",
+  "title": "The real floor surface changes how fast players can walk",
+  "text": "Players feel the real floor under the virtual one. Smooth tiles and court floors allow a brisk walk; carpet is safe but rugs with edges catch feet; grass is uneven and slower; polished stone can be slippery in socks. Ask what the floor is, remove rugs and cables, and lengthen time limits on grass or carpet.",
+  "use_when": "Any MR venue, before setting time limits and hazard density.",
+  "do": [
+   "Ask what the floor surface is",
+   "Remove rugs and cables from the floor",
+   "Add time on grass or thick carpet"
+  ],
+  "avoid": [
+   "Tight time limits on grass",
+   "Playing in socks on polished floors"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-tracking-loss",
+  "kind": "pitfall",
+  "title": "Low light, mirrors and glass walls can break headset tracking",
+  "text": "The headset tracks itself with its cameras. Very dark rooms, large mirrors, glass walls, and plain featureless floors or walls can make it lose its place, so the virtual floor drifts or freezes. Keep the room moderately lit, cover big mirrors, and keep the route away from glass walls, which players also may not see in passthrough.",
+  "use_when": "Dim venues, dance studios with mirrors, glass shopfronts or atriums.",
+  "do": [
+   "Keep some room light on",
+   "Cover large mirrors",
+   "Keep 1 m or more from glass walls"
+  ],
+  "avoid": [
+   "Pitch dark spooky rooms",
+   "Routes along a mirror wall or glass shopfront"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-kids-with-parents",
+  "kind": "pattern",
+  "title": "Young kids play with a parent at the edge or as a second player",
+  "text": "A child of 6-9 often wants a parent close. Either the parent stands at the edge as the spotter and calls out hints, or the parent wears a second headset and plays on a shared floor beside the child. A parent walking on the floor without a headset is a real obstacle the child may not expect, so avoid that.",
+  "use_when": "Families with young children.",
+  "do": [
+   "Offer a shared floor so a parent can play beside the child",
+   "Or put the parent at the edge as the spotter"
+  ],
+  "avoid": [
+   "A parent walking on the floor without a headset",
+   "Races between a parent and a small child on one floor"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-wheelchair-users",
+  "kind": "heuristic",
+  "title": "Wheelchair users in MR need wide turns and labels at seated eye height",
+  "text": "A wheelchair needs about 1.5 m to turn around, so make the corridor at least 1.5 m wide and leave a 1.5 m circle at each checkpoint and at sharp turns. A seated player's eyes are about 1.2 m above the floor, so keep labels and targets low. Choose a smooth hard floor, no hazards that need side steps, and no void floor.",
+  "use_when": "A wheelchair user will play in MR.",
+  "do": [
+   "Make corridors and turns 1.5 m wide",
+   "Keep labels at seated eye height",
+   "Use a smooth hard floor"
+  ],
+  "avoid": [
+   "Hazards that need side steps",
+   "Thick carpet or grass"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-cultural-venues",
+  "kind": "heuristic",
+  "title": "Temples, schools and museums need respectful themes",
+  "text": "In a temple ground, a school or a museum, the theme must fit the place: no ghosts or horror on temple grounds, no violence-themed battle in a primary school, quiet play near prayer halls or classrooms in session. Ask the host about rules on photos, shoes, sound and opening times, and lean on discovery and narrative themes that tell the place's own story.",
+  "use_when": "Venues with cultural, religious or educational rules.",
+  "do": [
+   "Ask the host about rules and quiet hours",
+   "Use the place's own story as the theme"
+  ],
+  "avoid": [
+   "Thai ghost themes on temple grounds",
+   "Loud play near prayer halls or classes"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "groups",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "sp-nearby-drops",
+  "kind": "pitfall",
+  "title": "Stairs, stage edges and ponds near the floor need extra margin",
+  "text": "The 0.6 m edge margin assumes a flat wall or open floor beyond the edge. If the floor ends at stairs, a stage edge, a pond, a pool or a balcony, keep everything at least 2 m away from that side and point the route away from it, because a player stepping backwards cannot see it.",
+  "use_when": "The floor borders stairs, a stage edge, water or a drop.",
+  "do": [
+   "Ask what is just beyond each edge",
+   "Keep 2 m from drops and water"
+  ],
+  "avoid": [
+   "Hazards that make players step back toward a drop",
+   "Finishing on a stage edge"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-safety-briefing",
+  "kind": "pattern",
+  "title": "Give every player a 30 second safety briefing",
+  "text": "Before the headset goes on, tell each player three things: walk, do not run; the boundary will appear if you get close to the edge; take the headset off or raise a hand to stop. At events the intro card can repeat walk, do not run in the rules list. It costs 30 seconds and prevents most accidents.",
+  "use_when": "Events, classes and first-time players.",
+  "do": [
+   "Brief walk-do-not-run, the boundary and how to stop",
+   "Repeat walk, do not run in the rules"
+  ],
+  "avoid": [
+   "Putting headsets on players with no briefing"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "groups",
+    "kids"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "sp-home-pets-doors",
+  "kind": "pitfall",
+  "title": "At home, close the doors and keep pets and small children off the floor",
+  "text": "In a living room the risks are not the walls but things that move: a dog, a toddler, a sibling walking through, a door that opens into the floor. Ask the creator to close doors, keep pets out and agree that nobody crosses the floor during play. Put the spawn on the side away from the door.",
+  "use_when": "Home play in a living room or bedroom.",
+  "do": [
+   "Close doors and keep pets out",
+   "Spawn away from the door"
+  ],
+  "avoid": [
+   "Routes that pass a door that opens inward"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "families"
+   ]
+  },
+  "source": "design practice"
+ }
+]

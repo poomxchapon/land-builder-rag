@@ -1,0 +1,3035 @@
+[
+ {
+  "id": "cu-thai-ghost-tone-scale",
+  "kind": "heuristic",
+  "title": "Thai ghosts / ผีไทย: set the scare level by age before picking a spirit",
+  "text": "The same Thai spirit can be cute or terrifying, so pick the tone from the players first. Kids 6-9: round, big-eyed, glowing friends who are lost or hungry and need help home, morning or evening light, no gore, no faces close to the camera. Teens 13-17: eerie but not gory, spooky or night lighting, slow reveals at the side of the route, never a jump scare that makes a walking player run. Adults: folklore atmosphere and story, still no blood or organs, because the scenery is low-poly and gore reads as cheap rather than scary.",
+  "use_when": "any brief that mentions Thai ghosts, ผี, haunted or spooky with Thai culture",
+  "do": [
+   "Ask or infer the youngest player before choosing a spirit",
+   "Kids: frame every ghost as someone to help",
+   "Teens: let ghosts stand beside the route and turn as you pass",
+   "Keep ghosts 1.5 m or more from the walking line in MR"
+  ],
+  "avoid": [
+   "Gore, entrails or blood at any age",
+   "Sudden scares that make a headset player run",
+   "Using the scariest spirit as the first thing kids see"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "adults",
+    "families"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cu-mae-nak",
+  "kind": "pattern",
+  "title": "Mae Nak / แม่นาค: the loyal ghost wife, a love story first",
+  "text": "Mae Nak of Phra Khanong is a tale of a wife who waits for her husband even after death, so the strongest hook is love and loyalty, not horror. The catalog has her stilt house, canal banks, rowboats, a swinging cradle, a lullaby note marker and the famous long arm reaching for a dropped lime. For kids, the route can be \"Help Mae Nak find the limes before dawn\" with a lullaby at each checkpoint; for teens, the long arm reaching across the canal makes a great side spectacle beside a hazard. End at dawn with the portal so the story closes gently.",
+  "use_when": "a Thai ghost runner or story where a famous named folk spirit is wanted",
+  "do": [
+   "Use canal, stilt house and cradle vignettes along a riverside route",
+   "Checkpoint labels that follow the story (cradle, lime tree, canal, dawn)",
+   "Lighting evening for kids, spooky for teens"
+  ],
+  "avoid": [
+   "Recreating the look or scenes of a specific Mae Nak film or series",
+   "Referencing her real shrine or turning worship into score",
+   "Making her a boss that is beaten up"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-krasue",
+  "kind": "pattern",
+  "title": "Krasue / กระสือ: the floating glowing head, toned without gore",
+  "text": "The krasue is a floating woman's head trailing glowing organs, which is too graphic as told. In low-poly, show only the head and a soft glowing ribbon trail (the catalog has green-glow, pink-coil and flying-trail versions plus a Krasue Queen boss). For kids it is a shy night-light spirit that drifts over the rice fields; for teens its trail can mark where a hazard is, and the Krasue Queen works as a battle boss name in a dark theme. Keep the trail abstract light, never organs.",
+  "use_when": "a brief wants a famous scary Thai ghost, a night-time glow or a battle boss with Thai flavour",
+  "do": [
+   "Describe the trail as a glowing ribbon in prompts",
+   "Use night or spooky lighting so the glow reads",
+   "Pair with rice fields, banana groves and village huts"
+  ],
+  "avoid": [
+   "Drawing entrails, blood or a severed neck",
+   "Krasue in daylight outdoors where the glow vanishes",
+   "Putting the floating head at eye level right on the route"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "sensation",
+    "fantasy"
+   ],
+   "players": [
+    "teens",
+    "adults",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-phi-pop",
+  "kind": "pitfall",
+  "title": "Phi Pop / ผีปอบ: never design a \"find the possessed villager\" game",
+  "text": "In folklore the phi pop possesses a person and eats their insides, and real villagers, often older women, have been accused of being phi pop and driven out of their homes. So a game where players accuse or hunt a villager hidden in a crowd repeats a real harm. Use the catalog's old-woman and old-man phi pop as clearly supernatural, comic-grumpy spirits who steal snacks from the kitchen, and make the player return the snacks, not punish anyone.",
+  "use_when": "a brief mentions ผีปอบ, possession or a hidden-monster-among-villagers idea",
+  "do": [
+   "Make phi pop obviously a ghost (glow, float), never an ordinary villager",
+   "Kids: snack-stealing grump, players carry snacks home along the route",
+   "Keep eating and organ details off screen"
+  ],
+  "avoid": [
+   "Accusation or witch-hunt mechanics",
+   "Elderly women as the default monster look",
+   "Gore about eaten organs"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-nang-tani",
+  "kind": "pattern",
+  "title": "Nang Tani / นางตานี: the banana-tree lady as a gentle guide",
+  "text": "Nang Tani lives in wild banana trees and is usually told as a beautiful, mostly harmless spirit in green, which makes her one of the best Thai ghosts for children and families. The catalog has the Tani banana-tree lady plus young, fruiting and tattered banana clumps, a firefly tree and glow mushrooms. Build a banana grove route where she points the way: each checkpoint is a banana clump with a soft glow, and the portal is a moonlit clearing. Evening lighting keeps faces friendly; night makes the green glow pop indoors.",
+  "use_when": "a family or kids brief that wants Thai folklore without fear",
+  "do": [
+   "Banana grove vignettes 1.5 m beside the route",
+   "Labels like \"Follow the green light\"",
+   "Use her as the guide on the intro card"
+  ],
+  "avoid": [
+   "Turning her into a seductive figure for kids",
+   "Cutting down banana trees as a goal",
+   "Spooky lighting for under-8s"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-phi-am",
+  "kind": "heuristic",
+  "title": "Phi Am / ผีอำ: the sleep-pressure ghost needs care with bedrooms",
+  "text": "Phi Am is the spirit that sits on a sleeper's chest, the folk name for sleep paralysis, which is a real frightening experience for many people. For teens and adults, a haunted-house interior (the catalog has teak beds with mosquito nets, wardrobes ajar, rocking chairs, dust-sheet sofas and the Phi Am shadow sitter) makes a strong spooky runner indoors at night. For kids, skip the bedroom setting and show Phi Am as a sleepy heavy shadow who just wants a pillow, placed in a garden, not over a bed.",
+  "use_when": "a haunted house, bedroom or sleep-themed ghost idea",
+  "do": [
+   "Teens: interior route room by room with spooky lighting",
+   "Keep the shadow sitter as scenery, not jumping out",
+   "Kids: move it outdoors and make it sleepy and comic"
+  ],
+  "avoid": [
+   "A bed scene where the player lies down or is pinned",
+   "Bedroom horror for under-10s",
+   "Text that describes real sleep paralysis symptoms"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "narrative"
+   ],
+   "players": [
+    "teens",
+    "adults",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-pret-hungry-ghost",
+  "kind": "pattern",
+  "title": "Pret / เปรต: the tall hungry ghost works as a \"feed them\" goal",
+  "text": "Pret are very tall hungry ghosts with tiny mouths from Buddhist teaching about greed, and Thai children know them from temple murals. The playful, respectful angle is generosity: the catalog has tall and hunched pret, a Pret King boss, a pret-mouth target hoop and trays of throw food (rice balls, khanom krok, sticky rice). A runner where each checkpoint \"feeds\" a pret turns them from scary to sad-and-helped. In battle, Pret King can be a dark-theme boss name, but the line should be \"send them to rest\", not mockery of the teaching.",
+  "use_when": "a ghost theme for kids or a battle boss with a Thai folk name",
+  "do": [
+   "Checkpoints as feeding stops with food props in vignettes",
+   "Keep the pret 2 m or more from the line, they are 3 m tall",
+   "Frame the end as the ghosts finally full and at peace"
+  ],
+  "avoid": [
+   "Recreating temple murals of the hell realms",
+   "Food thrown at elders or monks",
+   "Gags about the teaching itself"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-phi-ta-khon",
+  "kind": "pattern",
+  "title": "Phi Ta Khon / ผีตาโขน: a joyful ghost parade, not a horror theme",
+  "text": "Phi Ta Khon is a festival in Dan Sai, Loei (usually around June or July), where people wear bright masks made from rice-steaming baskets and coconut-tree bases and dance through town. It is colourful, noisy and merry, so treat it as a parade theme: the catalog has a Phi Ta Khon festival mask figure and a mask jack-o-lantern. A runner that follows a parade street with banners and dancing mask figures beside the route suits families at noon or evening light, since the colours survive daylight.",
+  "use_when": "a festival, parade or Isan theme, or \"Thai ghosts but fun\"",
+  "do": [
+   "Treat masks as festival art: bright, many colours, lined along the route",
+   "Label checkpoints as parade stops",
+   "Use noon or evening; the theme survives outdoor light"
+  ],
+  "avoid": [
+   "Spooky lighting and horror framing",
+   "Inventing fake ritual meanings for the masks",
+   "Calling it Halloween"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "fellowship",
+    "expression"
+   ],
+   "players": [
+    "families",
+    "kids",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-khamot-wisps",
+  "kind": "pattern",
+  "title": "Phi Khamot / ผีโขมด: will-o-wisps as the kindest guide lights",
+  "text": "Khamot are floating lights in the dark fields that lead travellers astray in folklore. Flip it into a guide: the catalog has orb, flame and trio wisps plus firefly clusters and fog bands. A wisp hovering above each checkpoint gives first-time VR kids a target they can see from far away without reading text. The light reads only in night or spooky lighting indoors, or evening at a dim venue.",
+  "use_when": "a night route for young or first-time players who need visual wayfinding",
+  "do": [
+   "Put a wisp above each checkpoint at 1.6-2 m height",
+   "Use fog bands only beside the route, not hiding hazards",
+   "Story line: \"the lights lead you home\""
+  ],
+  "avoid": [
+   "Wisps that lead into hazards as a trick for kids",
+   "Glow themes outdoors at noon",
+   "More than one wisp colour meaning different things"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "first-time-vr",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-ghosts-sent-home-not-killed",
+  "kind": "principle",
+  "title": "In battle, Thai spirits are sent to rest, not killed",
+  "text": "Thai ghost stories usually end with a spirit being calmed, given merit or let go, so slashing ghosts to death feels off to many Thai players and parents. Keep the battle engine as it is (grunts, shields, beasts, a boss) but write the chapter lines and boss intro as releasing restless spirits before dawn: \"Calm the wandering spirits\", \"Free the Pret King\". The verbs change the meaning with no change to mechanics.",
+  "use_when": "a battle game with Thai ghosts as enemies",
+  "do": [
+   "Use dark or forest theme with lines about calming or freeing",
+   "Final chapter: dawn, the boss is set free",
+   "Boss names from folklore types, or invented"
+  ],
+  "avoid": [
+   "Chapter lines like \"Kill the ghosts\"",
+   "Monks, temple objects or sacred amulets as weapons in the story",
+   "Gloating victory text over a spirit"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "narrative",
+    "challenge"
+   ],
+   "players": [
+    "families",
+    "teens",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-himmapan-overview",
+  "kind": "pattern",
+  "title": "Himmapan forest / ป่าหิมพานต์: a golden mythic sky world",
+  "text": "The Himmapan is the mythical forest of Thai art, full of hybrid creatures, which gives a fantasy world that is clearly Thai without touching anything sacred. The catalog has a full set: golden gates and sky portals, floating islands with golden salas and spires, lotus platforms, naga bridges, kinnaree, golden swans, white elephants and golden-leaf trees. It suits a runner as a \"journey through the sky forest\" or a void-floor dramatic finale, and the gold reads in daylight, so noon and morning work outdoors.",
+  "use_when": "a fantasy theme that should feel Thai, elegant, or for tourists",
+  "do": [
+   "Name the realm and its creatures in the story",
+   "Use golden gate arches as checkpoint frames",
+   "Morning or evening light for warm gold"
+  ],
+  "avoid": [
+   "Putting Buddha images or temple chedis on the islands",
+   "Mixing in royal regalia as treasure",
+   "Too many gold props so hazards stop standing out"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "fantasy",
+    "sensation",
+    "discovery"
+   ],
+   "players": [
+    "families",
+    "adults",
+    "kids"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cu-naga",
+  "kind": "heuristic",
+  "title": "Naga / พญานาค: a revered guardian, use as rails and allies, not a slain boss",
+  "text": "Naga serpents guard temple stairs and rivers and are honoured as protectors, especially in the Mekong region and Isan, where many people believe in them sincerely. Use naga as bridge railings, stair rails and gates (the catalog has naga-railed bridges, naga-head newels and a sweeping naga tail) and as a friendly guide in the story. If a battle needs a water serpent foe, invent a different creature (a \"river wyrm\" or \"mud eel\") with its own look rather than defeating a naga.",
+  "use_when": "a water, river or Himmapan theme, or a serpent enemy is wanted",
+  "do": [
+   "Naga railing along a bridge section of the route",
+   "Story: the naga guards the river and lets you cross",
+   "Invent a non-naga serpent for any enemy role"
+  ],
+  "avoid": [
+   "A naga as the defeated boss",
+   "Stepping on naga heads as hazards",
+   "Joke or cute-dumb naga for adults in Isan"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "adults",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-garuda",
+  "kind": "pitfall",
+  "title": "Garuda / ครุฑ: a Himmapan bird is fine, the state emblem pose is not",
+  "text": "The garuda is a great half-bird hero of Himmapan art, but in Thailand a red and gold garuda with spread wings and raised arms is the royal and state emblem, seen on official buildings and documents. A game must not use that emblem look on badges, banners, prizes or as an enemy. If a creator wants a garuda, show it as a flying creature in the sky or perched far away, in a different pose and colour scheme, and never on a crest.",
+  "use_when": "a brief asks for garuda, a bird hero or a \"Thai kingdom\" crest",
+  "do": [
+   "Garuda flying in the background sky or on a distant island",
+   "Invent the kingdom crest (a lotus, a star lantern)",
+   "Choose a different colour mix from red and gold"
+  ],
+  "avoid": [
+   "The spread-wing red-gold emblem pose anywhere",
+   "Garuda as an enemy or captured target",
+   "Garuda logo on the game title"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-kinnaree",
+  "kind": "pattern",
+  "title": "Kinnaree / กินรี: graceful bird-maidens for gates and dance moments",
+  "text": "Kinnaree are half-woman half-swan dancers of grace and beauty, known from Thai classical dance. The catalog has flying kinnaree, a circling pair, a kinnaree wing gate and a bird-maiden dancer. Use them as the gatekeepers of checkpoints (wings open as you approach) and as the sensation moment for spectators. Keep the costume graceful and covered, a cultural art form, and avoid sexualised poses.",
+  "use_when": "a Himmapan, dance, elegant or \"beautiful Thai\" theme",
+  "do": [
+   "A kinnaree gate at the climax checkpoint facing spectators",
+   "Pair with lotus ponds and golden swans",
+   "Morning or evening light"
+  ],
+  "avoid": [
+   "Revealing or sexualised designs",
+   "Kinnaree as monsters or grunts",
+   "Using real dancers' photos as reference faces"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "fantasy"
+   ],
+   "players": [
+    "families",
+    "adults",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-singha-guardians",
+  "kind": "pattern",
+  "title": "Singha / สิงห์: guardian lions that frame the start and finish",
+  "text": "Stone singha lions guard gateways in Thai and Lanna temples and palaces, which makes them natural markers for the start and the portal. The catalog has a stone singha guardian and a winged lion guardian statue. Place a pair either side of the spawn or the finish portal, facing outwards, 1.5 m clear of the walking line. On a tactics board story they can be the two \"watchers\" at the edge of a courtyard, but never pieces to capture.",
+  "use_when": "framing the entrance or finish of a Thai or Lanna themed game",
+  "do": [
+   "Pairs, symmetric, at spawn or portal",
+   "Use as scenery outside the board in tactics",
+   "Combine with lanterns and tung banners"
+  ],
+  "avoid": [
+   "Singha as enemies or hazards",
+   "Placing them on the route where players brush past",
+   "Using a real brand's lion logo"
+  ],
+  "tags": {
+   "phase": [
+    "build",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-songkran",
+  "kind": "pattern",
+  "title": "Songkran / สงกรานต์: Thai New Year water festival, 13-15 April",
+  "text": "Songkran is the Thai New Year, 13 to 15 April, the hottest time of year, known for water fights in the streets (Chiang Mai's moat is famous) and the gentle custom of pouring scented water over elders' hands for blessing. In a runner, checkpoints can be \"Splash station\" stops along a street with water jars, buckets, flower garlands and a moat bank, hazards as slippery puddles. Show the elder blessing as a calm vignette, not a joke. Noon and morning lighting fit the bright, sunny mood.",
+  "use_when": "a festival theme in March or April, a water theme, or a Thai New Year event",
+  "do": [
+   "Street route with water jar and garland vignettes",
+   "Hazards as puddles or slippery tiles",
+   "A calm blessing vignette near the end"
+  ],
+  "avoid": [
+   "Splashing monks or elders as gags",
+   "Spooky or night lighting",
+   "Promising water-gun shooting (the engine cannot shoot)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "sensation"
+   ],
+   "players": [
+    "families",
+    "kids",
+    "groups",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-songkran-no-real-water",
+  "kind": "pitfall",
+  "title": "Songkran in MR: the water must stay virtual",
+  "text": "Creators planning a Songkran booth sometimes want real water play next to the game. Quest 3 headsets and controllers are not waterproof, and wet floors make walking players slip. Keep all water in the virtual scene, place the booth away from street water fights, and use a covered, dry floor; suggest spectators throw cheers, not water.",
+  "use_when": "an MR booth during Songkran or a water-play request",
+  "do": [
+   "Ask where the booth is relative to water play",
+   "Dry, covered floor and a towel station",
+   "Virtual splash moments at checkpoints"
+  ],
+  "avoid": [
+   "Real water guns near players",
+   "Outdoor booth on a wet street",
+   "Water props on the real floor"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "cu-loy-krathong",
+  "kind": "pattern",
+  "title": "Loy Krathong / ลอยกระทง: float a light on the river",
+  "text": "Loy Krathong falls on the full moon of the 12th Thai lunar month, usually in November, when people float krathong (banana-trunk rafts with flowers, a candle and incense) on rivers to thank the water and let go of bad luck. It is calm and pretty, so the runner fits submission and narrative: walk a riverside route, each checkpoint lights a lantern, and the portal is the water's edge where you \"float your wish\". Night lighting indoors makes candles glow; the catalog has lotus lanterns, lily pads, piers and a krathong lantern.",
+  "use_when": "a festival theme in November, a calm couples or family experience, or a river theme",
+  "do": [
+   "Riverside or canal route, portal at the water edge",
+   "Labels as wishes or thanks",
+   "Night lighting indoors, evening outdoors"
+  ],
+  "avoid": [
+   "Fast race or harsh hazards that break the calm",
+   "Foam krathong props (the culture now prefers natural ones)",
+   "Mixing in Halloween wording in November"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission",
+    "narrative",
+    "sensation"
+   ],
+   "players": [
+    "families",
+    "adults",
+    "seniors",
+    "solo"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-yi-peng-lanterns",
+  "kind": "pattern",
+  "title": "Yi Peng / ยี่เป็ง: Lanna lantern night in Chiang Mai",
+  "text": "Yi Peng is the Lanna festival held at the same full moon as Loy Krathong, famous in Chiang Mai for hanging lanterns (khom fai), star lanterns and sky lanterns (khom loi). A lantern trail runner is the natural fit: the route winds under Lanna hexagon and star lanterns, each checkpoint lights one, and the finale releases a sky lantern above the portal for spectators to see. Sky lanterns are now restricted for fire safety, so show them as a virtual-only moment and never suggest releasing real ones at the venue.",
+  "use_when": "a Chiang Mai, Lanna or lantern brief, especially October to November",
+  "do": [
+   "Lanterns hung above or beside the route, never at head height on it",
+   "One rising virtual lantern as the climax",
+   "Night or evening lighting"
+  ],
+  "avoid": [
+   "Real sky lantern release or open flames",
+   "Temple ordination areas as the setting",
+   "Too many lights so hazards disappear"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "narrative",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-chiang-mai-flower-festival",
+  "kind": "pattern",
+  "title": "Chiang Mai Flower Festival: floats and gardens, early February",
+  "text": "The Chiang Mai Flower Festival takes place on the first weekend of February with a parade of flower-covered floats and big flower displays in the park, during the cool, dry season. It makes a bright daytime theme: a garden route with giant flowers, a float parade of animal shapes, bougainvillea and marigold bushes. The catalog's garden set (giant daisy and flower-head platforms, petal pennants, bluebell lamps) works with Lanna lanterns on top. Noon or morning lighting is ideal and survives outdoors.",
+  "use_when": "a spring, garden or Chiang Mai daytime event, January to February",
+  "do": [
+   "Float-shaped vignettes beside a parade route",
+   "Petal-pennant flags as checkpoints",
+   "Gentle, family pacing with few hazards"
+  ],
+  "avoid": [
+   "Night lighting that hides the colours",
+   "Copying a real company's sponsored float logo",
+   "Pollen and bee hazards for very young kids without care"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "discovery",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "seniors",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-vegetarian-festival",
+  "kind": "pitfall",
+  "title": "Vegetarian Festival / เทศกาลกินเจ: use the food and flags, not the piercing rites",
+  "text": "The Vegetarian (Jay) Festival runs nine days in the ninth Chinese lunar month (September to October), famous in Phuket and Bangkok's Chinatown, with yellow flags marked with the red character for jay, white clothing, vegetarian food stalls and firecrackers. Some processions include self-piercing by spirit mediums, which is sacred to devotees and too graphic for a game. Use the yellow-flag street food market as the theme: stalls, lanterns and a parade street, with no piercing, blood or trance figures.",
+  "use_when": "a brief mentions กินเจ, Jay, Phuket festival or a yellow-flag food market",
+  "do": [
+   "Yellow flags and food stalls along a street route",
+   "Checkpoints as stalls to visit",
+   "Evening lighting for lanterns"
+  ],
+  "avoid": [
+   "Pierced faces, blades or fire-walking scenes",
+   "Making spirit mediums into monsters",
+   "Meat props in a vegetarian festival scene"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-bun-bang-fai",
+  "kind": "pattern",
+  "title": "Bun Bang Fai / บุญบั้งไฟ: Isan rocket festival, May",
+  "text": "Bun Bang Fai is held in Isan (Yasothon is the best known) in May, before the rains, when villages build and launch home-made bamboo rockets to call the rain. It suits a high-energy theme: a runner through rice fields where each checkpoint \"loads a rocket\", and the finale launches one over the portal. The catalog has a bamboo rocket (bang fai) launcher, buffalo carts, rice granaries and sugar palms. Some parades include rude jokes and phallic props, so leave those out for family games.",
+  "use_when": "an Isan theme, a festival in April to May, or a launch-and-celebrate climax",
+  "do": [
+   "Rice-field route with rocket launcher vignette at the end",
+   "Noon or evening lighting",
+   "Spectator moment: the virtual launch"
+  ],
+  "avoid": [
+   "Phallic or rude parade props",
+   "Players near real fireworks",
+   "Rockets as projectiles players fire (no shooting)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "groups",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-chinese-new-year-thailand",
+  "kind": "pattern",
+  "title": "Chinese New Year in Thailand / ตรุษจีน: red lanterns and lion dance streets",
+  "text": "Chinese New Year (January or February) is big in Bangkok's Yaowarat, in Phuket and in many Thai-Chinese homes: red lanterns, gold, red envelopes, oranges, lion and dragon dances and firecrackers. A runner down a lantern-lit market street (round Chinese paper lanterns, shophouses, fruit stalls) with the dragon or lion dancers beside the route makes a cheerful family theme. Keep ancestor altars and shrines as quiet background, not interactive props.",
+  "use_when": "a January to February event, a Thai-Chinese community, or a red-and-gold festive theme",
+  "do": [
+   "Red lantern strings above the route edge",
+   "Checkpoints as \"collect luck\" stops (oranges, red envelopes)",
+   "Evening or night lighting"
+  ],
+  "avoid": [
+   "Ancestor altars or joss offerings as hazards",
+   "Accents or costumes that mock Chinese people",
+   "Real firecrackers near the play area"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "sensation"
+   ],
+   "players": [
+    "families",
+    "kids",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-festival-after-the-date",
+  "kind": "heuristic",
+  "title": "After a festival date, rename the theme instead of dropping it",
+  "text": "A festival theme feels stale or wrong the day after the event, but the art is still useful. Rename it: Songkran becomes a \"water splash festival\", Loy Krathong and Yi Peng become a \"lantern river night\", Christmas becomes a \"winter village\" after 26 December, Halloween becomes a \"ghost night\" or \"spirit festival\" after 31 October. Keep the props, change the title, story and labels, and remove the dated wording from the intro card.",
+  "use_when": "a brief or event that runs past a festival's date, or a long-running booth",
+  "do": [
+   "Check the event dates against the festival date",
+   "Swap dated words in title, story, labels",
+   "Keep the scenery and palette"
+  ],
+  "avoid": [
+   "Festival names in titles after the day",
+   "Countdown or \"tonight\" wording for a multi-week event",
+   "Rebuilding the whole scene just to rename it"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-night-market",
+  "kind": "pattern",
+  "title": "Thai night market / ตลาดกลางคืน: stalls, lights and a winding walk",
+  "text": "A Thai night market is rows of stalls under string lights, with food smoke, music and crowds, which maps neatly onto a runner: the route winds between stall vignettes and each checkpoint is a stall to visit (\"Buy the meatball skewer\", \"Find the lantern seller\"). The catalog has market stalls, sweets stalls, cloth stalls, fruit stalls with parasols, lantern posts and paper lantern strings. Night or evening lighting gives the right glow; hazards can be spilled ice or a puddle.",
+  "use_when": "a market, food, tourist or Chiang Mai evening theme",
+  "do": [
+   "Stalls as vignettes 1 m or more beside the route",
+   "Labels as shopping errands",
+   "Night lighting indoors, evening outdoors"
+  ],
+  "avoid": [
+   "Stalls on the route that players walk into",
+   "Real shop or brand names on signs",
+   "Crowded corners where two lanes cross"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "discovery",
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-floating-market",
+  "kind": "pattern",
+  "title": "Floating market / ตลาดน้ำ: boats, canals and fruit",
+  "text": "Floating markets sell fruit, noodles and flowers from small wooden boats on canals, a classic central-Thailand image. The catalog's lotus city set has bobbing longtail fruit boats, flower boats, a sampan with a frog vendor, piers with pavilions, canal banks and mooring poles. Lay the route along the canal bank with boats drifting beside it; the canal itself can be a void-floor drop in VR, or simply water scenery in MR with a plank bridge to cross. Morning lighting fits, since markets open at dawn.",
+  "use_when": "a water, canal, food or central Thai theme",
+  "do": [
+   "Route along the bank with one bridge crossing",
+   "Boats as moving scenery beside the path",
+   "Morning light, colourful fruit"
+  ],
+  "avoid": [
+   "Asking players to \"step into a boat\" in MR",
+   "Hazards placed on the bridge itself",
+   "Overdressing so the canal is not readable"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "seniors",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-rice-fields",
+  "kind": "pattern",
+  "title": "Rice fields / ทุ่งนา: open green paddies with village life",
+  "text": "Rice paddies are the heart of rural Thailand: flat green squares, raised earth paths between them, a wooden hut, buffalo, scarecrows and a rice granary. The raised paths form a natural grid, which fits a tactics board story (\"cross the paddies without waking the scarecrows\") as well as a calm runner. The catalog has rice granaries, buffalo carts, haystacks, scarecrows with ngob hats, sticky-rice baskets and banana trees. Morning or noon light suits daytime farm life; at night it becomes the stage for krasue and khamot stories.",
+  "use_when": "a countryside, farm, Isan or calm daylight theme",
+  "do": [
+   "Tactics: describe the board as paddies and earth paths",
+   "Runner: zig-zag along paddy edges",
+   "Buffalo and huts as vignettes"
+  ],
+  "avoid": [
+   "Showing poverty as a joke",
+   "Buffalo as enemies",
+   "Too uniform, add huts and trees for landmarks"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "submission",
+    "discovery"
+   ],
+   "players": [
+    "families",
+    "seniors",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-mountain-mist-doi",
+  "kind": "heuristic",
+  "title": "Doi Suthep mountain feel: mist and forest, not the temple",
+  "text": "Creators in Chiang Mai often want \"Doi Suthep\", the mountain west of the city. Its sacred temple, golden chedi and naga staircase are a pilgrimage site, so do not recreate them as a game level. Capture the mountain feel instead: misty forest, mossy boulders, winding stone steps, viewpoint over a city of lights, cool morning air. Use fog wisps beside the route, old conifers and stepping stones, and a viewpoint portal at the top facing spectators.",
+  "use_when": "a brief asks for Doi Suthep, a mountain, a Chiang Mai landmark or a misty forest",
+  "do": [
+   "Mountain path route that climbs in a spiral",
+   "Morning lighting with fog wisps",
+   "A viewpoint finale over a distant city"
+  ],
+  "avoid": [
+   "Recreating the real chedi or temple stairs",
+   "Climbing real stairs in MR",
+   "Monks on the route as scenery"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "sensation",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "adults",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-old-city-moat-walls",
+  "kind": "pattern",
+  "title": "Old city moat and walls / คูเมือง: a square city with corner bastions",
+  "text": "Chiang Mai's old city is a square ringed by a moat and old brick walls with gates and corner bastions, and many Thai towns have similar old walls. This shape makes a loop route around a walled square, with each gate as a checkpoint and the corner bastions as landmarks. The catalog has brick city walls, bastions with banners, a city gate, laterite plaza tiles and lamp posts. Invent the city's name (as in \"Phayakburi\") rather than copying a real gate's sign.",
+  "use_when": "a Chiang Mai, old town or \"kingdom\" theme, or a loop route",
+  "do": [
+   "Four gates as four checkpoints on a loop",
+   "Moat as water scenery outside the route",
+   "Evening lighting, lanterns on walls"
+  ],
+  "avoid": [
+   "Real gate names on signs",
+   "Walls placed where they hide spectators' view",
+   "Royal crests on banners"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-lanna-style",
+  "kind": "style",
+  "title": "Lanna style / ล้านนา: northern Thai teak, kalae and star lanterns",
+  "text": "Lanna is the old northern kingdom centred on Chiang Mai, with its own look: dark teak houses on stilts, crossed kalae boards on the gable tips, tung banners (long hanging flags), hexagon and star paper lanterns, woven bamboo, sticky-rice baskets and red, gold and deep green accents. In low-poly, lean on silhouettes: steep stacked roofs, long tung banners, a lantern line. It is warm and welcoming, and tourists recognise it, so it fits both a family runner and an elegant tactics courtyard.",
+  "use_when": "a northern Thai, Chiang Mai or \"Thai but not Bangkok\" visual direction",
+  "do": [
+   "Name the style \"Lanna-inspired\" in prompts",
+   "Tung banners as checkpoint flags",
+   "Star lanterns hung at the route edge"
+  ],
+  "avoid": [
+   "Mixing in central Thai palace roofs and calling it Lanna",
+   "Temple ordination halls as the main building",
+   "Hill-community costumes as decoration"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-temple-backdrop-only",
+  "kind": "genre-rule",
+  "title": "Temples: distant backdrop only, never part of the action",
+  "text": "Temple scenery (chedis, halls, bell towers) can set the mood of a Thai world, but it must stay respectful. Keep any temple model at the far edge of the scene as backdrop, not on the route, not inside a battle arena, not as a tactics target or board feature, and never a hazard. Prefer ruined, generic or invented structures (a ruined bell chedi in an ancient forest) over anything that looks like a real active temple, and never build an interior with altars.",
+  "use_when": "any Thai theme where temple models are tempting",
+  "do": [
+   "Place temple models 3 m or more outside the route",
+   "Prefer invented ruins and pavilions",
+   "Use them for skyline, not interaction"
+  ],
+  "avoid": [
+   "Battle enemies spawning from a temple",
+   "Checkpoints on temple steps",
+   "Temple interiors, altars or Buddha images"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-spirit-houses-offerings",
+  "kind": "heuristic",
+  "title": "Spirit houses and offerings: scenery to respect, never hazards",
+  "text": "Most Thai homes and shops have a spirit house (san phra phum) with daily offerings, and many players treat them seriously. The catalog has spirit houses, garlands, bai si towers, incense, fruit platters and even pig-head offerings. Place them as quiet vignettes beside the route, perhaps marking the start as \"the guardian of this land\", but never as hazards, things to kick, targets to capture, or score pickups.",
+  "use_when": "a Thai village, house or ghost theme that uses offering props",
+  "do": [
+   "A spirit house vignette near the spawn as a welcome",
+   "Keep offerings upright, tidy and clear of the route",
+   "Story: the guardian spirit blesses the journey"
+  ],
+  "avoid": [
+   "Knocking over or stepping on offerings",
+   "Offering food as collectible points",
+   "Pig heads in kids' scenes"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-sacred-objects-pickups",
+  "kind": "pitfall",
+  "title": "Yantra, amulets and takrut: keep them invented and off the floor",
+  "text": "Yantra cloths, takrut scrolls and amulets are sacred to many Thai people, who wear and bless them. The catalog includes floating yantra and takrut pickups, which are acceptable when the patterns are clearly invented fantasy runes and they float at checkpoints. Do not place them on the floor to be stepped on, do not copy a real monastery's yantra design, and do not make amulets a gacha or loot reward.",
+  "use_when": "a design that uses yantra, amulet or talisman props",
+  "do": [
+   "Floating at checkpoint height (1.2-1.6 m)",
+   "Invented patterns in prompts (\"fantasy rune cloth\")",
+   "A few as story items, not dozens"
+  ],
+  "avoid": [
+   "Floor hazards shaped as yantra",
+   "Copies of real sak yant designs",
+   "Amulets as random loot"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-street-food-stall",
+  "kind": "pattern",
+  "title": "Thai street food stall: an errand route kids and tourists love",
+  "text": "Thai street food is a shared pride and an easy hook for any visitor: noodle carts, grilled meatball skewers, khanom krok in a dimpled pan, sticky rice in a woven basket, iced drinks in plastic bags. A runner where each checkpoint is \"the next order\" gives a clear goal and a fun finish (\"Serve the hungry ghost\" or \"Bring dinner home\"). The catalog has charcoal stoves, woks, skewers, khanom krok, sticky rice balls and coconut carts.",
+  "use_when": "a food theme, a tourist booth, or kids who need a simple goal",
+  "do": [
+   "Checkpoint labels as orders (\"Grab the khanom krok\")",
+   "Stall vignettes with stove and parasol",
+   "Evening lighting for cooking smoke and lamps"
+  ],
+  "avoid": [
+   "Real restaurant or vendor names",
+   "Jokes about tourists being sick from food",
+   "Hazards shaped as food"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "fellowship"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-mango-sticky-rice",
+  "kind": "example",
+  "title": "Mango sticky rice / ข้าวเหนียวมะม่วง: a gather-the-ingredients runner",
+  "text": "Mango sticky rice is sweet sticky rice with coconut milk and ripe mango, a favourite in the hot season (March to May). It gives a neat story loop for kids: four checkpoints gather the parts in order (mango tree, sticky-rice basket, coconut cart, the plate), the portal is the shared dessert table. The catalog has mango trees with fruit, sticky-rice baskets, young coconuts and toke dining trays. Noon or morning light keeps the yellow and white bright.",
+  "use_when": "a short kids or family runner with a food goal",
+  "do": [
+   "Order the checkpoints like a recipe",
+   "Keep 4-5 checkpoints for under-8s",
+   "Finish at a table vignette spectators can see"
+  ],
+  "avoid": [
+   "Long text describing the recipe",
+   "Rotten or gross food gags",
+   "Dark lighting"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-muay-thai-theme",
+  "kind": "pitfall",
+  "title": "Muay Thai / มวยไทย: theme the world, the engine still swings a sword",
+  "text": "Muay Thai is a national pride and a natural \"battle\" request, but the battle engine is a sword (PC: 3-hit combo and dash; MR: the right controller is the sword), with no punches, kicks or clinch. Offer a Muay Thai camp as the world and story (ring ropes, sandbags, tyres, training camp boards) with the sword battle, or a training-camp runner where checkpoints are drills. Treat the wai khru dance and the mongkhon headband as respected traditions shown in the intro, never as hazards or loot.",
+  "use_when": "a brief asks for Muay Thai, boxing, kicking or punching",
+  "do": [
+   "Say kindly that the engine swings a sword, not fists",
+   "Offer krabi krabong (Thai sword art) as the honest fit",
+   "Runner alternative: a training-camp route"
+  ],
+  "avoid": [
+   "Promising punch or kick detection",
+   "Mocking the wai khru",
+   "Stepping over or kicking a mongkhon prop"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "fantasy"
+   ],
+   "players": [
+    "teens",
+    "adults",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-krabi-krabong-sword",
+  "kind": "pattern",
+  "title": "Krabi krabong / กระบี่กระบอง: the Thai sword art fits the battle engine",
+  "text": "Krabi krabong is a traditional Thai martial art with swords, staffs and shields, shown at cultural festivals and in historical dramas. It matches the battle engine honestly: the player holds a sword, shields block from the front, and a beast charges. Write the chapters as a warrior training to defend a walled old town, use forest or desert theme for a sun-baked field, and give the boss an invented name, not a real historical king or hero.",
+  "use_when": "a Thai warrior, historical or \"Muay Thai but battle\" brief",
+  "do": [
+   "Story: train in a warrior camp, defend the town gate",
+   "Shield foes as the training partner chapter",
+   "Desert or forest theme"
+  ],
+  "avoid": [
+   "Real historical kings or national heroes as characters",
+   "Battles against neighbouring nations",
+   "Royal regalia as the boss reward"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "challenge"
+   ],
+   "players": [
+    "teens",
+    "adults",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-elephants-respect",
+  "kind": "genre-rule",
+  "title": "Elephants / ช้าง: free and gentle, no riding, no chains, no tricks",
+  "text": "Elephants are the national animal of Thailand and beloved, and elephant tourism has moved away from riding, chains and circus tricks towards sanctuaries. Show elephants walking free in a forest, bathing in a river or as the gentle white elephant of Himmapan stories (the catalog has a white-elephant fountain, an island elephant and an elephant fruit merchant). Never put players on an elephant's back, never show hooks or chains, and never make an elephant a battle enemy or hazard.",
+  "use_when": "any theme with elephants, jungle, Thailand tourism or Himmapan",
+  "do": [
+   "Elephants as calm scenery beside the route",
+   "Story: help a lost baby elephant back to the herd",
+   "Spectator moment: elephant spray at the finish"
+  ],
+  "avoid": [
+   "Riding seats, chains, hooks or performances",
+   "Elephants as beasts in battle",
+   "Painted elephants for selfies"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-region-isan",
+  "kind": "style",
+  "title": "Isan (northeast Thailand) / อีสาน: rice, festivals and khaen music",
+  "text": "Isan is the large northeastern region with strong Lao-Thai culture: rice fields and sugar palms, sticky rice in woven baskets, wooden stilt houses, buffalo, khaen pipe music, mor lam songs, the Bun Bang Fai rocket festival and Phi Ta Khon in Loei. It is warm, lively and proud. Show it as cheerful and resourceful, with the music and festivals as the energy, not as \"poor countryside\".",
+  "use_when": "a brief mentions Isan, Lao-Thai culture, mor lam or the northeast",
+  "do": [
+   "Rice-field and village vignettes, festival finale",
+   "Music stage props for a mor lam party",
+   "Noon or evening lighting"
+  ],
+  "avoid": [
+   "Poverty or accent jokes",
+   "Mixing Lanna lanterns in as \"Isan\"",
+   "Naga as an enemy (deeply believed in the Mekong region)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "sensation"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-region-south-islands",
+  "kind": "style",
+  "title": "Southern Thailand / ภาคใต้: islands, longtail boats and old towns",
+  "text": "The south is limestone islands, turquoise water, white beaches, longtail boats with ribbons on the bow, coconut palms, coral reefs and Phuket's Sino-Portuguese old town shophouses in pastel colours. It fits sunny noon runners (island hopping on plank bridges), an underwater reef world, or a pastel old-town street. The south is also home to Muslim communities, so mosques are backdrop with the same care as temples, and food scenes should not assume pork everywhere.",
+  "use_when": "a beach, island, Phuket, reef or southern Thailand theme",
+  "do": [
+   "Island-hopping route with plank and rope bridges",
+   "Pastel shophouses for an old-town street",
+   "Noon lighting outdoors"
+  ],
+  "avoid": [
+   "Religious buildings in the action area",
+   "Pork props in a scene meant for a Muslim community",
+   "Tsunami disaster as a theme"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "submission",
+    "sensation"
+   ],
+   "players": [
+    "families",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-region-central-river",
+  "kind": "style",
+  "title": "Central Thailand: river life, canals and ancient brick ruins",
+  "text": "Central Thailand is the Chao Phraya river plain: stilt houses over canals, floating markets, rice, and the brick ruins of old capitals with tree roots and leaning chedis. Ruined brick and laterite walls, broken pavilions and a giant bodhi tree give an \"ancient lost city\" feeling that is Thai without being an active temple. Keep any Buddha head in tree roots out: it is a famous real image that is sacred, not decoration.",
+  "use_when": "a canal, river, \"ancient Thai city\" or adventure-ruins brief",
+  "do": [
+   "Ruined laterite walls and leaning chedis as distant scenery",
+   "Canal bank routes with plank bridges",
+   "Evening light on brick"
+  ],
+  "avoid": [
+   "The Buddha head in tree roots",
+   "Climbing ruins as checkpoints",
+   "Treasure-looting framing at real heritage sites"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "adults",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-hill-communities-respect",
+  "kind": "genre-rule",
+  "title": "Hill communities: no costumes as decoration, no \"exotic\" spectacle",
+  "text": "Northern Thailand is home to many highland peoples (Karen, Hmong, Akha, Lahu, Lisu and others) with their own languages, dress and beliefs. Do not use their clothing, faces or rituals as costumes, enemies, scenery \"natives\" or tourist spectacle, and never reference neck rings or other dress as a curiosity. If a creator wants a mountain-village feel, use terraced fields, mist, bamboo bridges and generic wooden houses; if a community wants its own story told, it should be designed with them.",
+  "use_when": "a northern mountain, trekking or \"hill tribe\" theme request",
+  "do": [
+   "Use landscape (terraces, mist, bamboo) for the mountain feel",
+   "Suggest working with the community for their own stories",
+   "Invented characters with no specific ethnic dress"
+  ],
+  "avoid": [
+   "\"Hill tribe\" costumes or masks as props",
+   "Neck-ring or traditional dress as a gag",
+   "Highland villagers as enemies or background extras"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-buddha-images-never-props",
+  "kind": "genre-rule",
+  "title": "Buddha images: never props, targets, enemies or floor decor",
+  "text": "Buddha images are deeply sacred in Thailand; even tattoos or decor showing the Buddha cause offence, and placing one low or near feet is disrespectful. In FortalLand a Buddha image must never appear as scenery, a checkpoint, a hazard, a tactics target, a boss or a collectible, in any genre. If a creator asks for one, explain kindly and offer a lotus, a golden bodhi tree, a lantern or an invented guardian spirit instead.",
+  "use_when": "any brief that mentions Buddha, a temple game or a \"holy statue\"",
+  "do": [
+   "Replace with lotus, bodhi tree or lantern symbols",
+   "Explain the reason in one friendly line",
+   "Check key art prompts do not include a seated Buddha"
+  ],
+  "avoid": [
+   "Buddha heads, statues or murals anywhere in the scene",
+   "\"Collect the golden Buddhas\"",
+   "Buddha images in key art backgrounds"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-monks-never-enemies",
+  "kind": "genre-rule",
+  "title": "Monks and novices: never enemies, jokes or hazards",
+  "text": "Monks are highly respected in Thai society; women traditionally avoid touching them and people bow when meeting them. A monk or novice must not be an enemy, a comic character, a hazard, a chaser or a spectator gag. Most game stories need none; if a wise helper is wanted, use an invented hermit (ruesi-like but named and dressed as a fantasy sage), an old forest spirit or a talking animal instead.",
+  "use_when": "a story needs a wise helper, or a brief mentions monks or temple life",
+  "do": [
+   "Use a fantasy sage, owl elder or kind spirit as the guide",
+   "Keep saffron robes out of character designs",
+   "If monks appear in a real-event backdrop, keep them distant and calm"
+  ],
+  "avoid": [
+   "Monk enemies, zombie monks or ghost monks",
+   "Monks in silly poses or chasing players",
+   "Saffron robes on a villain"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-royal-symbols-substitute",
+  "kind": "heuristic",
+  "title": "Royal symbols are off-limits: build an invented fantasy court",
+  "text": "Royal portraits, crowns, regalia, the royal garuda, royal flags, royal barges and the names of real kings or queens are protected by Thai law and custom and must not appear as props, prizes, characters, enemies or jokes. A \"kingdom\", \"palace\" or \"prince\" story should use an invented realm with its own name, crest (a lotus, a star lantern, a white elephant) and fictional characters with no resemblance to real royals, and the palace architecture should be fantasy, not a copy of a real palace.",
+  "use_when": "a brief mentions a king, palace, prince, princess or kingdom",
+  "do": [
+   "Invent the realm name and a non-royal crest",
+   "Fantasy palace from Himmapan or sky-palace models",
+   "Characters as heroes, not monarchs"
+  ],
+  "avoid": [
+   "Crowns or regalia as a final treasure",
+   "Real palace look-alikes",
+   "Yellow royal-day colours with crests as a theme"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-head-feet-etiquette",
+  "kind": "heuristic",
+  "title": "Head high, feet low: place respected things above foot level",
+  "text": "In Thai etiquette the head is the highest part of the body and the feet the lowest, so pointing feet at, or stepping over, respected things is rude. In MR the player's feet are the main interaction with the virtual floor: hazards and floor decals sit where people step. So never put faces of elders, spirit houses, lotus symbols, national flags or sacred patterns on floor tiles or hazards; place them as raised scenery beside the route and keep the floor to neutral ground, tiles and water.",
+  "use_when": "designing floor decals, hazards or tactics squares in a Thai theme",
+  "do": [
+   "Floor = ground, tiles, water, leaves",
+   "Respected symbols raised at 1 m or higher, beside the route",
+   "Hazards as puddles, cracks, thorns or fire"
+  ],
+  "avoid": [
+   "Flags or faces as floor tiles",
+   "Lotus or yantra decals that players step on",
+   "Spirit houses at floor level on the route"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-castles-knights",
+  "kind": "pattern",
+  "title": "Castles and knights: a generic storybook kingdom",
+  "text": "A castle is the easiest theme for UK players and kids everywhere: towers, keeps, gatehouses, banners and a drawbridge. The catalog has round and octagonal towers, a castle keep, gatehouse, wall bastions, a banner hall and a throne dais. It fits all three genres: a battle defending the castle gate (forest theme), a tactics board as the castle courtyard (knight piece first, naturally), or a runner from the gatehouse to the throne. Keep crests invented and avoid any famous film castle or royal family.",
+  "use_when": "a medieval, knight, princess or UK heritage theme",
+  "do": [
+   "Tactics: the knight piece in a courtyard story",
+   "Runner: gate, bridge, hall, tower, throne as checkpoints",
+   "Invented heraldry (a fox, a star)"
+  ],
+  "avoid": [
+   "A famous animated film castle silhouette",
+   "Real royal coats of arms",
+   "Crusades or religious war framing"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-halloween-uk",
+  "kind": "pattern",
+  "title": "Halloween: pumpkins, witches and friendly frights, late October",
+  "text": "Halloween on 31 October is big in the UK and US and growing in Thailand: pumpkins, witches, black cats, bats, skeletons and trick-or-treat sweets. The catalog has a large party set (jack-o-lanterns, cauldrons, witch hats, bat bunting, candy bowls, sheet ghosts, cute skeletons) and a witch marsh world. For kids, keep it \"spooky cute\" in evening light; for teens and adults, spooky or night lighting indoors. Battle fits a dark theme with sheet-ghost chapters and a witch boss.",
+  "use_when": "an event in October or a spooky-cute party theme",
+  "do": [
+   "Use spooky-cute for families, dark-eerie for teens",
+   "Trick-or-treat checkpoints (\"Fill the candy bag\")",
+   "Indoor or after-dark venues for glow"
+  ],
+  "avoid": [
+   "Running it past 31 October with the Halloween name",
+   "Gore, real weapons or horror-film killers",
+   "Mixing Thai sacred items into the party props"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "sensation",
+    "fellowship"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-halloween-thai-events-cutoff",
+  "kind": "genre-rule",
+  "title": "Thai events: no Halloween wording from 1 November",
+  "text": "For Fortal events in Thailand the team stops using the word Halloween (ฮาโลวีน) in titles, intro cards, labels and promo from 1 November, even when the event runs on into November. The ghost content itself can stay: rename it as a \"ghost night\", \"spirit festival\", \"Thai ghost party\" or a Loy Krathong lantern night, and replace jack-o-lantern wording with lanterns. Check the event dates first whenever a brief has a spooky or pumpkin theme.",
+  "use_when": "a Thai event or booth that runs after 31 October with a spooky theme",
+  "do": [
+   "Check the event dates in the interview",
+   "Rename to ghost night or spirit festival",
+   "Swap pumpkin wording for lanterns"
+  ],
+  "avoid": [
+   "\"Halloween\" in any title or label after 31 October",
+   "Countdown to Halloween text in November",
+   "Removing all ghosts when only the word must go"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-christmas",
+  "kind": "pattern",
+  "title": "Christmas: a winter village with gifts, 1-26 December",
+  "text": "Christmas fits December events in the UK and Thai malls alike: snowy pines, cabins, sleighs, gifts, lantern posts with wreaths and hot cocoa. The catalog's frost vale set has penguins, polar bears, a red sleigh, a frost elk, gift piles and glowing igloos. A runner \"deliver the gifts before morning\" with one gift stop per checkpoint is simple and cheerful. Keep it secular and generic: an invented gift-giver or animal helpers rather than a branded Santa design, and drop the name after 26 December.",
+  "use_when": "an event in December or a winter gift theme",
+  "do": [
+   "Gift delivery checkpoints in a village loop",
+   "Evening or night lighting for lights and glow",
+   "Penguin or elk helpers as guides"
+  ],
+  "avoid": [
+   "A drinks brand's Santa look",
+   "Nativity scenes as game props",
+   "Christmas wording in January"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "narrative",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-bonfire-night",
+  "kind": "pattern",
+  "title": "Bonfire Night (UK), 5 November: fireworks, not effigies",
+  "text": "Bonfire Night (Guy Fawkes Night) on 5 November is a UK tradition of bonfires and fireworks in parks on cold, dark evenings. A runner across a dark field with a virtual bonfire glow and a fireworks finale over the portal fits families. The tradition includes burning a \"guy\" effigy, which is uncomfortable for kids and a burning human figure is not something to put in a game; show fireworks and toffee-apple stalls instead.",
+  "use_when": "a UK event in early November or a fireworks theme",
+  "do": [
+   "Night lighting, fireworks finale above the portal",
+   "Sparkler and toffee-apple stall vignettes",
+   "Keep the virtual bonfire 3 m or more from the route"
+  ],
+  "avoid": [
+   "Burning effigies",
+   "Fireworks as projectiles players fire",
+   "Real sparklers or fire at the venue"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "kids",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-seaside-pier",
+  "kind": "pattern",
+  "title": "British seaside pier: boardwalk, carnival rides and gulls",
+  "text": "The British seaside pier is a long boardwalk over the sea with arcades, carousels, candy floss and fish and chips. It is a perfect out-and-back or lanes runner: walk out along the pier with ride vignettes either side, and the portal at the end over the sea. The catalog's carnival set has bulb-lit boardwalks, carousels, popcorn stands, cotton-candy carts, ticket booths and ferris wheels. Noon lighting for a sunny day, evening for the bulb lights.",
+  "use_when": "a UK seaside, summer or funfair theme",
+  "do": [
+   "Out-and-back route along a boardwalk",
+   "Rides as moving scenery beside the lane",
+   "Gulls and bunting for landmarks"
+  ],
+  "avoid": [
+   "A real pier's name or arcade brand",
+   "Void-floor sea drop for first-time players",
+   "Gambling machines as props for kids"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "fellowship",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "kids",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-generic-london-city",
+  "kind": "heuristic",
+  "title": "London-like city: generic big-city icons, invented names",
+  "text": "A UK city theme reads quickly with a few generic icons: a clock tower, red buses, black cabs, terraced houses, a river with bridges, rain and umbrellas. Use a clock tower and a river bridge from the catalog and keep it \"a London-like city\" with an invented name, so it stays original and does not need landmark permissions. A rainy evening palette with street lamps suits a runner chase through streets, and the river bridge makes a great midpoint checkpoint.",
+  "use_when": "a UK, London or city adventure brief",
+  "do": [
+   "Invent the city name and the street names",
+   "Clock tower and bridge as landmarks",
+   "Evening lighting with street lamps"
+  ],
+  "avoid": [
+   "Exact replicas of named landmarks as the main set",
+   "Real shop or transport logos",
+   "Royal guards or palace as characters"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-egyptian-ruins",
+  "kind": "pattern",
+  "title": "Ancient Egypt-inspired ruins: sand, sun and scarabs",
+  "text": "Desert ruins with sandstone blocks, obelisks, scarabs and sun discs make a bright adventure theme that survives daylight outdoors. The catalog's desert set has rotating sundials, scarabs rolling sand balls, sandworms, sliding stone blocks, mosaic plazas and sun banners, and the battle engine has a desert theme with the brightest base light. Use invented gods and pharaohs; avoid mummies of real people or tomb-looting framing, and do not label mixed ancient styles as Egyptian.",
+  "use_when": "a desert, pyramid, archaeology or adventure brief",
+  "do": [
+   "Battle: desert theme, sand-beast as the beast",
+   "Runner: dig site to sun gate",
+   "Noon lighting outdoors"
+  ],
+  "avoid": [
+   "Real pharaoh names or real mummies",
+   "Mixing Maya and Egyptian art under one label",
+   "Treasure theft as the goal for a museum client"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-sun-temple-ruins",
+  "kind": "heuristic",
+  "title": "Jungle sun-temple ruins: invent the culture, do not blend real ones",
+  "text": "The catalog's sun set (stepped pyramids, glyph steles, jaguar statues, macaw perches, cenote islands) is inspired by Mesoamerican ruins. Present it as an invented jungle civilisation with its own name, not as \"Aztec\" or \"Maya\", and do not mix it with Egyptian or Thai sacred art in one world. Avoid sacrifice imagery; the hook is lost jungle discovery, so discovery feelings and a winding runner fit best, with forest lighting and green glows.",
+  "use_when": "a jungle ruins or \"ancient civilisation\" adventure brief",
+  "do": [
+   "Name the invented civilisation in the story",
+   "Discovery runner with glyph steles as checkpoints",
+   "Pair with jungle and waterfall scenery"
+  ],
+  "avoid": [
+   "Human sacrifice scenes",
+   "Labelling real cultures inaccurately",
+   "Blending three ancient cultures into one"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-norse",
+  "kind": "pattern",
+  "title": "Norse-inspired: longhouses, frost and runes, invented",
+  "text": "A Norse-inspired world uses fjords, snowy pines, longhouses, forges, dragon-headed ships and runes. The catalog's frost vale, forge and dragon sets cover it, and the battle engine's ice and lava themes suit a \"frost giant\" or \"forge dragon\" story. Use invented runes and invented gods or heroes; some real runes and symbols have been used by hate groups, so do not copy runic symbols or rune lines from real sources.",
+  "use_when": "a viking, frost, dragon or forge adventure brief",
+  "do": [
+   "Battle: ice theme with a frost-beast boss",
+   "Invented rune shapes in prompts",
+   "Longship and forge vignettes"
+  ],
+  "avoid": [
+   "Real runes or symbols copied as decoration",
+   "Named characters from a famous comic or film version",
+   "Gore and raiding of villages"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "fantasy",
+    "challenge"
+   ],
+   "players": [
+    "teens",
+    "gamers",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-japanese-inspired",
+  "kind": "heuristic",
+  "title": "Japanese-inspired: torii, sakura and dojo, generic and respectful",
+  "text": "The catalog's ninja set has torii arches, pagoda islands, sakura trees, stone toro lanterns, koi ponds, red bridges, taiko pads and a moon-gate portal, which makes a calm or action theme. Torii and shrines are religious sites in Japan, so use torii as the gate of an invented world, not a real shrine, and never as a hazard. Avoid stereotyped accents, the rising-sun flag and recreating a famous ninja anime's headbands or villages.",
+  "use_when": "a Japanese, ninja, sakura or dojo theme",
+  "do": [
+   "Torii as checkpoint frames, moon gate as the portal",
+   "Sakura and koi for a calm runner",
+   "Invent the village name"
+  ],
+  "avoid": [
+   "The rising-sun flag",
+   "A specific anime's symbols or characters",
+   "Shrine buildings as battle arenas"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle",
+    "tactics"
+   ],
+   "feelings": [
+    "fantasy",
+    "submission",
+    "challenge"
+   ],
+   "players": [
+    "teens",
+    "families",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-dinosaurs-museum",
+  "kind": "pattern",
+  "title": "Dinosaurs and museums: discovery with a roar",
+  "text": "Dinosaurs are loved by kids in every country and work for museums, schools and malls. The library has dinosaur island creatures and jungle scenery (tree ferns, ginkgo, monkey-puzzle trees, cliffs). A museum client usually wants learning: a runner where each checkpoint is a dinosaur with a one-line fact, finishing at a big skeleton or nest. In battle, a dinosaur can be the beast, but for young kids keep dinosaurs as giants to watch, not chasers.",
+  "use_when": "a museum, school, science or dinosaur brief",
+  "do": [
+   "One short fact per checkpoint label",
+   "Big dinosaur as the spectator moment at the finish",
+   "Forest or noon lighting"
+  ],
+  "avoid": [
+   "Film-franchise park logos, gates or jeeps",
+   "Chase scenes that make kids run in MR",
+   "Long text panels"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "discovery",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-space",
+  "kind": "pattern",
+  "title": "Space: stations, planets and warp portals",
+  "text": "Space reads instantly at any age and suits neon or night lighting indoors. The catalog's space set has neon gantries, glass tube bridges, docking plazas, ringed planets, hologram arrows, UFO beams and a neon warp portal. Runner: a mission across a station with system checks as checkpoints; battle: neon theme with robot grunts; void floor: a walk across space for confident teens. Invent agencies, ships and aliens, and avoid real space agency logos.",
+  "use_when": "a sci-fi, space, astronaut or STEM brief",
+  "do": [
+   "Mission-check labels (\"Fix the oxygen\")",
+   "Neon or night lighting indoors",
+   "Planets as far backdrop"
+  ],
+  "avoid": [
+   "Famous film starships or helmets",
+   "Real agency logos",
+   "Void floor for first-timers"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "discovery",
+    "sensation",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-pirates",
+  "kind": "pattern",
+  "title": "Pirates: treasure islands and harbour towns, kid-friendly",
+  "text": "Pirates suit kids and families: ships, docks, treasure chests, parrots, cannons and colonial harbour towns. The catalog has a deep pirate collection (ships, docks, fort walls, harbour towns by day and night, octopus tentacles, rocking decks). A treasure-map runner where each checkpoint is a map clue is a classic; tactics can be a ship deck board. Keep it comic adventure, invent the captain, and avoid famous film pirate looks.",
+  "use_when": "a pirate, treasure, harbour or sea adventure brief",
+  "do": [
+   "Treasure-map clue labels",
+   "Harbour town vignettes beside the route",
+   "Noon or evening lighting"
+  ],
+  "avoid": [
+   "A famous film pirate captain look",
+   "Real-world piracy or violence on ships",
+   "Walking the plank as a punishment gag"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [
+    "discovery",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-toys",
+  "kind": "pattern",
+  "title": "Toy room: giant toys at shrink-ray scale",
+  "text": "A toy world makes the player tiny among giant toys: spinning tops, jack-in-the-boxes, toy trains, dominoes, building-block bridges and a music-box carousel are all in the catalog. It is bright and safe for young kids and works in daylight. A tactics board as a giant chessboard on a bedroom floor is a natural fit. Keep toys generic: no famous brick, doll or figure brands.",
+  "use_when": "young kids, a living-room space or a playful tactics board",
+  "do": [
+   "Shrunk-down story (\"you got shrunk\")",
+   "Building-block bridges for the route",
+   "Studio or noon lighting"
+  ],
+  "avoid": [
+   "Branded bricks, dolls or action figures",
+   "Creepy-doll horror for kids",
+   "Clutter that hides hazards"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "fantasy",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-candy",
+  "kind": "pattern",
+  "title": "Candy land: sweets, cakes and gummies",
+  "text": "Candy worlds are joyful and readable for under-10s: lollipops, gummy bears, donuts, cakes, cookie stepping stones and candy-cane lamps are in the catalog. They fit birthday parties and family malls. Hazards can be sticky jam puddles; battle can be the neon or forest theme with gummy grunts. Keep the colours saturated but use red only for hazards, and avoid branded sweets.",
+  "use_when": "a kids party, birthday or cheerful theme",
+  "do": [
+   "Bake-a-cake checkpoint story",
+   "Hazards as jam or melted chocolate",
+   "Noon or studio lighting"
+  ],
+  "avoid": [
+   "Real candy brands",
+   "Red sweets near red hazard rings",
+   "Overeating jokes"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "submission",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-ice-frost",
+  "kind": "pattern",
+  "title": "Ice and frost: crystal palaces and auroras",
+  "text": "Ice worlds are calm, clean and cool: ice palaces, crystal spires, frozen ponds, aurora ribbons and snowy pines. The battle engine has an ice theme for a frost-beast story, and the frost vale set brings friendly animals. Ice is a great escape theme in hot Thai months (March to May) and a natural Christmas-to-February theme in the UK. Pale blues wash out at noon outdoors, so prefer indoor or evening.",
+  "use_when": "a winter, frozen, \"cool down\" or crystal brief",
+  "do": [
+   "Battle: ice theme, frost-beast boss",
+   "Aurora as the finale for spectators",
+   "Indoor lighting so pale blues read"
+  ],
+  "avoid": [
+   "A famous animated ice-queen look",
+   "Slippery-floor wording that makes MR players nervous",
+   "All-white scenes where hazards vanish"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-music",
+  "kind": "pattern",
+  "title": "Music world: piano bridges and drum stages",
+  "text": "A music world turns instruments into the set: piano-key bridges, guitar fretboard decks, giant snare-drum plazas, metronome arms and golden-note save stands. It suits concerts, schools and festivals, and can carry Thai flavour by adding a khaen or ranat-shaped stage prop in the story. Neon lighting gives a concert feel indoors. Avoid famous band names and song titles.",
+  "use_when": "a music, concert, school or party brief",
+  "do": [
+   "Each checkpoint is a note of a tune",
+   "Stage vignettes facing spectators",
+   "Neon lighting indoors"
+  ],
+  "avoid": [
+   "Real band names or song lyrics",
+   "Loud sudden sounds as scares",
+   "Promising rhythm-game hit detection"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "expression"
+   ],
+   "players": [
+    "teens",
+    "kids",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-farm",
+  "kind": "pattern",
+  "title": "Farm: barns, tractors and friendly animals",
+  "text": "A farm is gentle and familiar in both the UK (barns, tractors, hay bales) and Thailand (rice, buffalo, chickens). The catalog's farm set has windmills, hay bales, scarecrows, tractors, sprinklers, pecking hens and patchwork-field platforms. A morning runner \"wake up the farm\" is great for kindergartens and seniors, with very soft hazards. Keep animals as friends, not enemies.",
+  "use_when": "very young players, seniors or a calm daylight theme",
+  "do": [
+   "Morning lighting, 4-5 checkpoints",
+   "Animal vignettes as landmarks",
+   "Gentle hazards such as mud puddles"
+  ],
+  "avoid": [
+   "Slaughter or meat production scenes",
+   "Animals as battle enemies",
+   "Fast time limits for seniors"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "seniors",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-jungle",
+  "kind": "pattern",
+  "title": "Jungle: vines, waterfalls and hidden ruins",
+  "text": "The jungle works across cultures and covers both Thai forests and adventure stories: banyan trees, bamboo, ferns, vine curtains, river stones, rock arches and waterfalls. The battle engine has a forest theme (greens and warm torchlight) for a friendly adventure. Combine with gentle wildlife (birds, monkeys) and keep elephants as calm scenery. A discovery runner with hidden vignettes behind vines suits explorers.",
+  "use_when": "an adventure, nature or exploration brief",
+  "do": [
+   "Battle: forest theme",
+   "Vine curtains as walk-through scenery beside the route",
+   "Waterfall as the finale"
+  ],
+  "avoid": [
+   "Tribal-people stereotypes as jungle \"natives\"",
+   "Dense props that hide hazards",
+   "Animals as cruel enemies"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "fantasy"
+   ],
+   "players": [
+    "families",
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-underwater",
+  "kind": "pattern",
+  "title": "Underwater reef: coral, jellyfish and sunken ships",
+  "text": "An underwater reef is magical and calming: coral arches, kelp, jellyfish lifts, giant clams, pufferfish, sunken-ship decks and a whirlpool portal are in the reef set. It fits southern Thailand stories and ocean-awareness themes for schools (\"clean the reef\" checkpoints). Night lighting makes glowing kelp and jellyfish shine indoors. Avoid drowning or shark-attack framing for young players.",
+  "use_when": "an ocean, reef, island or environment brief",
+  "do": [
+   "Reef-cleaning or \"find the turtle\" story",
+   "Glowing kelp lamps along the route",
+   "Calm pacing, few hazards"
+  ],
+  "avoid": [
+   "Drowning, shark-attack or diving-danger stories",
+   "A famous animated fish",
+   "Void floor described as deep water for nervous players"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission",
+    "discovery",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-robots",
+  "kind": "pattern",
+  "title": "Robots and factories: neon battles and conveyor runs",
+  "text": "Robots are the best enemy theme for kids who should not fight \"living\" things: hitting a robot feels harmless. The battle engine's neon theme fits a robot factory; the robot set adds robot arms, stamping presses, conveyors, laser gates, drones and robot dogs. In a runner, a factory with sweeping lasers as hazards and \"reboot the core\" checkpoints gives a clear tech story. Invent the robots; avoid famous film robots.",
+  "use_when": "kids who want fighting without violence, a tech or STEM theme",
+  "do": [
+   "Battle: neon theme, robot grunts, mech beast boss",
+   "Runner: factory with laser-gate visuals",
+   "Indoor neon lighting"
+  ],
+  "avoid": [
+   "Famous film robots or transforming cars",
+   "Robots that look like real people",
+   "Laser visuals in bright daylight where they vanish"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-superheroes-generic",
+  "kind": "pitfall",
+  "title": "Superheroes: invent the hero, never a comic-book IP",
+  "text": "Kids often ask for a specific famous superhero. Explain kindly that FortalLand only makes original heroes, and offer an invented hero with a power that the engine shows well: a storm hammer, an arc shield or a nova gauntlet (all in the catalog's hero-tech set). Let the creator name the hero and pick its colours, so it feels theirs. Avoid any costume, symbol or name pattern that copies the big comic universes.",
+  "use_when": "a brief names a famous superhero or comic universe",
+  "do": [
+   "Offer the creator naming and colour choice",
+   "Use hero-tech display pedestals as checkpoints",
+   "Battle in neon theme as a city defender"
+  ],
+  "avoid": [
+   "Famous costumes, logos or chest symbols",
+   "A hammer or shield that copies a famous design",
+   "Real celebrities as heroes"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "expression"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-thai-calendar-months",
+  "kind": "default",
+  "title": "Thai festival calendar: which themes fit which month",
+  "text": "January to February: Chinese New Year and the Chiang Mai Flower Festival (first weekend of February), in the cool season; March to May: hot season, Songkran (13-15 April), mango sticky rice and Bun Bang Fai rockets in May. June to July: Phi Ta Khon in Loei; September to October: Vegetarian Festival, rainy season (go indoors) and Halloween up to 31 October. November: Loy Krathong and Yi Peng at the full moon of the 12th lunar month, with no Halloween wording; December: Christmas in malls and the New Year countdown. Lunar festivals move every year, so check the exact dates.",
+  "use_when": "choosing a seasonal theme for a Thai event date",
+  "do": [
+   "Match the theme to the event month",
+   "Check lunar festival dates for the year",
+   "Rename themes after their date"
+  ],
+  "avoid": [
+   "Songkran theme in December",
+   "Halloween wording in November",
+   "Assuming lunar festivals fall on the same day every year"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-uk-calendar-months",
+  "kind": "default",
+  "title": "UK calendar and daylight: which themes fit which month",
+  "text": "UK seasons shape both theme and light. Winter (December to February) gets dark around 16:00, so night themes work even outdoors in late afternoon; Christmas fits 1-26 December. Spring (March to May) suits gardens and Easter-style egg hunts (keep it secular). Summer (June to August) stays light until about 21:00, so dark themes outdoors fail; seaside and festivals fit. Autumn: harvest, Halloween (31 October) and Bonfire Night (5 November).",
+  "use_when": "a UK event, or a creator who lists a month and an outdoor venue",
+  "do": [
+   "Use the sunset time to pick outdoor lighting",
+   "Seaside in summer, ghosts in October",
+   "Bonfire Night just after Halloween"
+  ],
+  "avoid": [
+   "Night themes outdoors on a June evening",
+   "Religious Easter scenes as props",
+   "Halloween branding after 31 October for Thai teams"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-thai-seasons-weather",
+  "kind": "heuristic",
+  "title": "Thai seasons decide indoor or outdoor play",
+  "text": "Thailand has a hot season (March to May, often above 35 C), a rainy season (June to October, sudden heavy storms) and a cool, dry season (November to February), the best time for outdoor events. In the north, February to April also brings smoke haze from field burning, so outdoor play in Chiang Mai can be unhealthy then. Headsets overheat in direct sun. Use outdoor themes from November to February and plan indoor venues for the rest.",
+  "use_when": "an outdoor Thai venue or a creator who mentions a month",
+  "do": [
+   "Ask the month for outdoor briefs",
+   "Cool season for outdoor events",
+   "Shade, water and short sessions in hot months"
+  ],
+  "avoid": [
+   "Midday outdoor sessions in April",
+   "Outdoor plans in Chiang Mai haze season without a backup",
+   "Rainy-season events with no cover"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-fit-battle-enemies",
+  "kind": "heuristic",
+  "title": "Themes that make good battle enemies",
+  "text": "The battle engine needs foes the player is happy to hit: robots (neon), lava or forge creatures (lava), frost beasts (ice), restless spirits sent to rest (dark), mummies or sand beasts (desert), goblin-like forest critters (forest). Map grunts to small foes, shields to armoured foes and the beast to the big one: robot drones, shield bots and a mech; imps, armoured golems and a lava beast. Avoid real animals people love, real peoples, monks or sacred beings as enemies.",
+  "use_when": "choosing the theme and boss of a battle option",
+  "do": [
+   "Pick one of the six engine themes, then write story to match",
+   "Match grunt/shield/beast to small/armoured/big",
+   "Invent boss names"
+  ],
+  "avoid": [
+   "Elephants, naga or monks as foes",
+   "Real nationalities or ethnic groups as enemies",
+   "Human soldiers for young kids"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cu-fit-tactics-boards",
+  "kind": "heuristic",
+  "title": "Themes that suit a tactics board",
+  "text": "A 6 x 8 tactics board needs a setting where a grid feels natural: a castle courtyard with stone tiles, a marble palace plaza, a rice-paddy field of earth paths, a market of stall rows, a floating market canal grid, a toy-room floor, a ship deck. Guards become castle sentries, scarecrows, market watchmen or toy soldiers; tables become stalls or haystacks. Keep sacred places off the board: a Lanna-style pavilion courtyard is fine, a temple courtyard is not.",
+  "use_when": "writing the story and board names of a tactics option",
+  "do": [
+   "Name the grid in the story (\"the courtyard tiles\")",
+   "Guards as sentries or scarecrows",
+   "Tables as stalls, haystacks or crates"
+  ],
+  "avoid": [
+   "Temple courtyards or sacred objects as squares or targets",
+   "Themes with no natural grid (open sky, ocean waves)",
+   "Real royal palaces"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cu-fit-runner-routes",
+  "kind": "heuristic",
+  "title": "Themes that suit a runner route",
+  "text": "Runner themes need a path that makes sense to walk: a lantern trail, a market street, a parade, a canal bank, a pier, a mountain path, a castle tour, a treasure map. Choose a theme whose checkpoints can be named in a sequence (stall 1 to 5, gate to throne, recipe steps). Lantern trails and markets suit night; parades, piers and farms suit noon; ghost villages suit spooky.",
+  "use_when": "choosing the theme and route shape of a runner option",
+  "do": [
+   "Pick a theme with a natural order of stops",
+   "Match lighting to the theme and venue",
+   "Name each checkpoint to tell the theme"
+  ],
+  "avoid": [
+   "A theme with no path (a single room scene)",
+   "Night themes outdoors in daylight",
+   "Labels that do not follow the theme"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "cu-inspired-not-copied",
+  "kind": "genre-rule",
+  "title": "Inspired-by is fine, recreating a named IP is not",
+  "text": "Creators often say \"like\" a famous game, film or cartoon. Being inspired by a feeling, a genre or a public-domain myth is fine; copying a named game, film, character, logo, level, costume or distinctive look is not. Thai folklore spirits, Greek myth and Himmapan creatures are traditional and free to use, but a specific film's version of them (its costume, scenes or title) is owned. Always ask what the creator loves about the reference and build that feeling in an original world.",
+  "use_when": "a brief names an existing game, film, cartoon, character or brand",
+  "do": [
+   "Ask what they love about it (speed, cuteness, spookiness)",
+   "Use traditional folklore, not a film's version",
+   "Invent names for the world and characters"
+  ],
+  "avoid": [
+   "Character names or look-alikes from films and games",
+   "Brand logos on props",
+   "A level layout copied from a famous game"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-original-twist-recipe",
+  "kind": "heuristic",
+  "title": "Make an original twist in three moves",
+  "text": "To turn a reference into something original: (1) change the who: a different species, age or role (a gecko knight instead of a famous hero), (2) change the where: move it into a Thai or invented setting (a ninja story in a Lanna rice valley), (3) change the why: a new goal (bring the lanterns home, not save the princess). Combining two unrelated themes, such as Himmapan plus space or pirates plus floating market, often gives a fresh world the library still covers.",
+  "use_when": "the options phase needs a fresh theme or a creator wants \"like X but ours\"",
+  "do": [
+   "Change at least two of who, where and why",
+   "Combine two catalog themes for a fresh mix",
+   "Give the twist a one-line pitch"
+  ],
+  "avoid": [
+   "A reskin with the same characters and names",
+   "Combining themes the catalog does not cover",
+   "Mixing sacred symbols into a mash-up"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "expression",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "cu-real-people-likeness",
+  "kind": "pitfall",
+  "title": "No real people: celebrities, influencers, politicians or royals",
+  "text": "Creators sometimes want a famous singer, footballer, YouTuber or politician in their game. Using a real person's face, name or likeness needs their permission and can be defamatory or illegal (and royals are fully off-limits in Thailand). Offer an invented character with a similar vibe (a \"rock star cat\", a \"football robot\") and let the creator design it.",
+  "use_when": "a brief mentions a real celebrity, influencer, politician or the creator's friends by name",
+  "do": [
+   "Offer an invented character with the same vibe",
+   "Let the creator pick its name and colours",
+   "Keep real names out of prompts and labels"
+  ],
+  "avoid": [
+   "Real faces or names in key art prompts",
+   "Politicians as enemies or jokes",
+   "Classmates or teachers as characters"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "expression"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ }
+]

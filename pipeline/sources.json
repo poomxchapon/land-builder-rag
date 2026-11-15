@@ -1,0 +1,109 @@
+{
+ "_about": "The sources the cards were distilled from. The source files themselves are not published (studio documents); only the distilled cards are.",
+ "sources": [
+  {
+   "id": "gdd-battle-ground",
+   "type": "pdf",
+   "title": "Fortal Battle Ground: MR 3v3 territory control GDD v1.0",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "game design document"
+  },
+  {
+   "id": "gdd-phygital-ex1",
+   "type": "pdf",
+   "title": "Fortal phygital game GDD, example 1 (course material)",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "game design document"
+  },
+  {
+   "id": "gdd-battle-ground-casual",
+   "type": "pdf",
+   "title": "Fortal Battle Ground casual mode GDD, example 2 (course material)",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "game design document"
+  },
+  {
+   "id": "brief-phygital-assignment",
+   "type": "pdf",
+   "title": "Design assignment: a phygital game for LED floor and projection",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "design brief"
+  },
+  {
+   "id": "venue-xr-arena",
+   "type": "pdf",
+   "title": "FORTAL XR Arena catalogue 2026 (a real MR venue and its games)",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "venue catalogue"
+  },
+  {
+   "id": "gdd-territory-war",
+   "type": "doc",
+   "title": "Territory War: LED floor game GDD",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "game design document"
+  },
+  {
+   "id": "gdd-digging-game",
+   "type": "doc",
+   "title": "Digging Game: phone-controlled party game GDD",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "game design document"
+  },
+  {
+   "id": "guide-xrdev",
+   "type": "doc",
+   "title": "Fortal XR dev guide: WebXR Quest MR rules, safety, comfort, performance",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "studio practice guide"
+  },
+  {
+   "id": "research-landbuilder",
+   "type": "doc",
+   "title": "Land Builder research notes: AI-assisted game design literature",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "literature notes"
+  },
+  {
+   "id": "proj-deepspace",
+   "type": "project",
+   "title": "Deepspace: Unity LED floor + UWB tracking game project",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "Unity project"
+  },
+  {
+   "id": "proj-pc-battle",
+   "type": "project",
+   "title": "Land Builder PC battle engine (Vite + three.js template)",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "web game project"
+  },
+  {
+   "id": "proj-pc-tactics",
+   "type": "project",
+   "title": "Land Builder PC tactics engine (Vite + three.js template)",
+   "author": "Fortal Interactive",
+   "year": 2026,
+   "kind": "web game project"
+  },
+  {
+   "id": "conv-designs",
+   "type": "conversation",
+   "title": "Land Builder design sessions (creator and AI)",
+   "author": "Land Builder users and simulated creators",
+   "year": 2026,
+   "kind": "design conversation"
+  }
+ ]
+}

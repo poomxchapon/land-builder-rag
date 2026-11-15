@@ -1,0 +1,456 @@
+{
+ "built": "2026-11-06T11:15:36.657Z",
+ "questions": 60,
+ "method": "synthetic QA (Kimi), answer span must appear in a retrieved chunk",
+ "rows": [
+  {
+   "variant": "chunks-128.json",
+   "max_tokens": 128,
+   "header": true,
+   "chunks": 1347,
+   "avg_tokens": 96,
+   "hit1": 0.6,
+   "hit5": 0.817,
+   "mrr10": 0.7,
+   "tokens_for_top5": 478,
+   "miss": [
+    "ทำไมโหมดสนาม LED Floor จึงยกเลิกระบบเกราะของ Unit ทุกตัว?",
+    "What are the default grid dimensions for the game?",
+    "ในตัวอย่างการตั้งค่า แต่ละด่านจะมีศัตรูประเภท grunt กี่ตัว?",
+    "ในเกม Territory War จะตัดสินทีมผู้ชนะเมื่อหมดเวลาอย่างไร?",
+    "เกมแบบ Casual สำหรับครอบครัวและกลุ่มเพื่อนควรมีรอบการเล่นสั้นเพียงใด"
+   ]
+  },
+  {
+   "variant": "chunks-320-nohead.json",
+   "max_tokens": 320,
+   "header": false,
+   "chunks": 581,
+   "avg_tokens": 222,
+   "hit1": 0.633,
+   "hit5": 0.933,
+   "mrr10": 0.741,
+   "tokens_for_top5": 1108,
+   "miss": [
+    "โหมด Tournament รองรับผู้เล่นกี่คนและใช้รูปแบบการแข่งขันแบบใด",
+    "ในตัวอย่างการตั้งค่า แต่ละด่านจะมีศัตรูประเภท grunt กี่ตัว?",
+    "ในเกม Territory War จะตัดสินทีมผู้ชนะเมื่อหมดเวลาอย่างไร?",
+    "How should the tracker handle a player's position when a new UWB position is rejected?"
+   ]
+  },
+  {
+   "variant": "chunks.json",
+   "max_tokens": 320,
+   "header": true,
+   "chunks": 581,
+   "avg_tokens": 222,
+   "hit1": 0.633,
+   "hit5": 0.917,
+   "mrr10": 0.753,
+   "tokens_for_top5": 1108,
+   "miss": [
+    "โหมด Tournament รองรับผู้เล่นกี่คนและใช้รูปแบบการแข่งขันแบบใด",
+    "ในตัวอย่างการตั้งค่า แต่ละด่านจะมีศัตรูประเภท grunt กี่ตัว?",
+    "ในเกม Territory War จะตัดสินทีมผู้ชนะเมื่อหมดเวลาอย่างไร?"
+   ]
+  },
+  {
+   "variant": "chunks-640.json",
+   "max_tokens": 640,
+   "header": true,
+   "chunks": 327,
+   "avg_tokens": 383,
+   "hit1": 0.533,
+   "hit5": 0.8,
+   "mrr10": 0.643,
+   "tokens_for_top5": 1913,
+   "miss": [
+    "Soldier Minion จะ Spawn ออกมากี่ตัวและบ่อยแค่ไหน?",
+    "ทำไมโหมดสนาม LED Floor จึงยกเลิกระบบเกราะของ Unit ทุกตัว?",
+    "Which technology should I use for the game’s 3D rendering?",
+    "What are the default grid dimensions for the game?",
+    "โหมด Tournament รองรับผู้เล่นกี่คนและใช้รูปแบบการแข่งขันแบบใด"
+   ]
+  },
+  {
+   "variant": "chunks-1000.json",
+   "max_tokens": 1000,
+   "header": true,
+   "chunks": 245,
+   "avg_tokens": 501,
+   "hit1": 0.4,
+   "hit5": 0.767,
+   "mrr10": 0.539,
+   "tokens_for_top5": 2505,
+   "miss": [
+    "Soldier Minion จะ Spawn ออกมากี่ตัวและบ่อยแค่ไหน?",
+    "ทำไมโหมดสนาม LED Floor จึงยกเลิกระบบเกราะของ Unit ทุกตัว?",
+    "Which technology should I use for the game’s 3D rendering?",
+    "ถ้าออกแบบกิจกรรม VR สำหรับกลุ่มปาร์ตี้ที่ต้องการความเป็นส่วนตัว ควรเลือกห้องวีไอพีซึ่งมีจำนวนกี่ห้อง?",
+    "ไฟล์ใดกำหนดกติกาเวลาเล่นใน Mixed Reality ที่ให้ผู้เล่นเดินจริงบนพื้น?"
+   ]
+  }
+ ],
+ "qa": [
+  {
+   "chunk": "gdd-territory-war#7",
+   "source": "gdd-territory-war",
+   "question": "When is a tile captured after a player enters it?",
+   "answer_quote": "Tile captured on entry"
+  },
+  {
+   "chunk": "gdd-battle-ground#2",
+   "source": "gdd-battle-ground",
+   "question": "ในเกม Fortal Battle Ground ทีมจะชนะการแข่งขันได้อย่างไร?",
+   "answer_quote": "เมื่อหมดเวลา ทีมที่มีพื้นที่สีมากกว่าจะเป็น ผู้ชนะ"
+  },
+  {
+   "chunk": "gdd-battle-ground-casual#2",
+   "source": "gdd-battle-ground-casual",
+   "question": "Soldier Minion จะ Spawn ออกมากี่ตัวและบ่อยแค่ไหน?",
+   "answer_quote": "ทุกๆ 10 วินาที Soldier Minion จะ Spawn ออกมา 5 ตัว"
+  },
+  {
+   "chunk": "gdd-phygital-ex1#7",
+   "source": "gdd-phygital-ex1",
+   "question": "ในเกมงูแบบสองผู้เล่น ผู้เล่นจะตายเมื่อเกิดเงื่อนไขใด",
+   "answer_quote": "ชนหาตัวเอง หรือ หางคนอื่นจะตาย"
+  },
+  {
+   "chunk": "venue-xr-arena#12",
+   "source": "venue-xr-arena",
+   "question": "Fortal Studio มีระบบใดช่วยผู้สร้างเกมหรือวิดีโอวางช็อต?",
+   "answer_quote": "มีระบบ AI Director ช่วยวางช็อต"
+  },
+  {
+   "chunk": "brief-phygital-assignment#2",
+   "source": "brief-phygital-assignment",
+   "question": "ถ้าออกแบบเกมสำหรับหนึ่งเลน พื้น LED ควรมีกริดขนาดเท่าไรและแต่ละช่องมีขนาดอย่างไร?",
+   "answer_quote": "10 × 20 ช่อง (แต่ละช่องขนาด 30cm × 30cm)"
+  },
+  {
+   "chunk": "proj-deepspace#78",
+   "source": "proj-deepspace",
+   "question": "What startup validation result should a multiplayer game require for its player roster and configuration?",
+   "answer_quote": "exactly requested stable slots or a clear startup error"
+  },
+  {
+   "chunk": "research-landbuilder#45",
+   "source": "research-landbuilder",
+   "question": "Which LLM agent could I study for synthesizing 3D game scenes as Blender code?",
+   "answer_quote": "SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code"
+  },
+  {
+   "chunk": "guide-xrdev#18",
+   "source": "guide-xrdev",
+   "question": "เมื่อผู้เล่นกดปุ่มค้างไว้ตอนถอดแว่น เกมควรทำอย่างไรเพื่อไม่ให้เกมเดินเองหลังกลับเข้าเล่น?",
+   "answer_quote": "resume ต้อง \"เห็นปล่อย → กดใหม่\""
+  },
+  {
+   "chunk": "proj-pc-battle#7",
+   "source": "proj-pc-battle",
+   "question": "ถ้าต้องการทดสอบเกม Mixed Reality บน Quest 3 ผ่าน WebXR ต้องใช้โปรโตคอลใด และมีข้อยกเว้นอย่างไร",
+   "answer_quote": "WebXR ต้องใช้ **https** (ยกเว้น localhost)"
+  },
+  {
+   "chunk": "gdd-digging-game#4",
+   "source": "gdd-digging-game",
+   "question": "เหตุใด baseSpeed ในการคำนวณความเร็วขุดจึงกำหนดเป็น 0?",
+   "answer_quote": "0 (ไม่ขยับ = ไม่ขุด)"
+  },
+  {
+   "chunk": "proj-pc-tactics#10",
+   "source": "proj-pc-tactics",
+   "question": "ในโหมด Mixed Reality ผู้เล่นต้องยืนบนช่องที่เดินได้นานเท่าไรจึงจะเดินหมาก?",
+   "answer_quote": "ค้างไว้ประมาณ 0.35 วินาที = เดินหมาก"
+  },
+  {
+   "chunk": "gdd-battle-ground-casual#5",
+   "source": "gdd-battle-ground-casual",
+   "question": "ทำไมโหมดสนาม LED Floor จึงยกเลิกระบบเกราะของ Unit ทุกตัว?",
+   "answer_quote": "เพื่อให้ Striker โจมตีได้ง่าย"
+  },
+  {
+   "chunk": "conv-designs#115",
+   "source": "conv-designs",
+   "question": "ถ้าย้ายโต๊ะออกแต่เก็บโซฟาไว้ข้าง ๆ เป็นที่นั่งดู พื้นที่สำหรับเล่นเกมจะเหลือประมาณเท่าไร?",
+   "answer_quote": "เหลือพื้นที่เล่นประมาณ 3.5 x 4 เมตร"
+  },
+  {
+   "chunk": "gdd-phygital-ex1#3",
+   "source": "gdd-phygital-ex1",
+   "question": "การผสมอุปกรณ์แบบใดที่เหมาะสำหรับออกแบบเกมพื้นฐานและเกมฝึกสมอง?",
+   "answer_quote": "C1: Floor + Projector (Single Lane)"
+  },
+  {
+   "chunk": "brief-phygital-assignment#5",
+   "source": "brief-phygital-assignment",
+   "question": "ในเกม Lava Escape ควรกำหนดช่วงเวลาเตือนก่อนพื้นกลายเป็นลาวาไว้นานเท่าไร",
+   "answer_quote": "ช่วงเวลาแจ้งเตือนจะมีระยะเวลา 3-5 วินาที"
+  },
+  {
+   "chunk": "gdd-battle-ground#12",
+   "source": "gdd-battle-ground",
+   "question": "การยิงของ Striker เปลี่ยนสีพื้น LED ได้โดยตรงเป็นเวลานานเท่าใด?",
+   "answer_quote": "เป็นระยะเวลา 15 วินาที"
+  },
+  {
+   "chunk": "gdd-digging-game#7",
+   "source": "gdd-digging-game",
+   "question": "Which technology should I use for the game’s 3D rendering?",
+   "answer_quote": "Three.js\n 3D Rendering"
+  },
+  {
+   "chunk": "venue-xr-arena#1",
+   "source": "venue-xr-arena",
+   "question": "ถ้าต้องการไปสำรวจงานออกแบบเกมที่ FORTAL XR Arena เชียงใหม่ สนามเปิดทุกวันเวลาใด",
+   "answer_quote": "เปิดทุกวัน 12.00–20.00 น."
+  },
+  {
+   "chunk": "research-landbuilder#48",
+   "source": "research-landbuilder",
+   "question": "Which 2011 survey should I consult for a taxonomy of search-based procedural content generation?",
+   "answer_quote": "Search-Based Procedural Content Generation: A Taxonomy and Survey"
+  },
+  {
+   "chunk": "gdd-territory-war#10",
+   "source": "gdd-territory-war",
+   "question": "What are the default grid dimensions for the game?",
+   "answer_quote": "GRID_WIDTH: 10,\n GRID_HEIGHT: 6,"
+  },
+  {
+   "chunk": "guide-xrdev#22",
+   "source": "guide-xrdev",
+   "question": "ถ้าต้องการให้ตัวละครแฟลชแยกกันเมื่อโดนตี มีกฎเรื่อง material อย่างไร?",
+   "answer_quote": "ห้าม share material ข้ามตัวละครถ้าจะแฟลชแยก"
+  },
+  {
+   "chunk": "proj-deepspace#17",
+   "source": "proj-deepspace",
+   "question": "Why does editing Assets/Json/UWBConfig.json fail to change the loaded UWB configuration?",
+   "answer_quote": "a conflicting copy, not this loader's selected path"
+  },
+  {
+   "chunk": "proj-pc-battle#5",
+   "source": "proj-pc-battle",
+   "question": "ฉันต้องกำหนดบทบอสเองในการตั้งค่า chapters หรือไม่",
+   "answer_quote": "บทสุดท้ายเป็นบอสเสมอ (“Face <ชื่อบอส>”) ไม่ต้องใส่เอง"
+  },
+  {
+   "chunk": "gdd-phygital-ex1#4",
+   "source": "gdd-phygital-ex1",
+   "question": "ใน Casual Mode ควรออกแบบผลลัพธ์อย่างไรเมื่อผู้เล่นทำผิด เพื่อให้เกมยังสนุกและเล่นต่อได้?",
+   "answer_quote": "ผิดไม่จบเกม แค่หักคะแนน"
+  },
+  {
+   "chunk": "proj-pc-tactics#33",
+   "source": "proj-pc-tactics",
+   "question": "What mouth scale should I use for the character’s shocked expression?",
+   "answer_quote": "s.mouth.scale.set(1.3, 1.6, 1)"
+  },
+  {
+   "chunk": "gdd-battle-ground#27",
+   "source": "gdd-battle-ground",
+   "question": "ถ้าบอสเดินไปถึงแถวสุดท้ายของฝั่งตรงข้ามได้ ท่า Gigantic Smash จะเปลี่ยนสีพื้นสนามกี่เปอร์เซ็นต์และเป็นสีของทีมใด?",
+   "answer_quote": "เปลี่ยนสีพื้นสนาม 90% เป็นสีของทีมเราแบบสุ่มทันที"
+  },
+  {
+   "chunk": "gdd-battle-ground-casual#6",
+   "source": "gdd-battle-ground-casual",
+   "question": "Meteor Bomb มีคูลดาวน์นานแค่ไหนสำหรับการใช้เคลียร์เวฟศัตรู?",
+   "answer_quote": "Cooldown: 30 วินาที"
+  },
+  {
+   "chunk": "gdd-territory-war#4",
+   "source": "gdd-territory-war",
+   "question": "How does the neutral zone behave in Divided Mode?",
+   "answer_quote": "Neutral zone (columns 4-5) = BLOCKED"
+  },
+  {
+   "chunk": "conv-designs#96",
+   "source": "conv-designs",
+   "question": "เกมวันเกิดที่เล่นกับเพื่อน ๆ ที่บ้านนี้ออกแบบสำหรับเด็กอายุเท่าไรและมีผู้เล่นประมาณกี่คน?",
+   "answer_quote": "players หลานอายุ 8 ขวบ กับเพื่อน ๆ ราว 6 คน"
+  },
+  {
+   "chunk": "gdd-digging-game#11",
+   "source": "gdd-digging-game",
+   "question": "โหมด Tournament รองรับผู้เล่นกี่คนและใช้รูปแบบการแข่งขันแบบใด",
+   "answer_quote": "รองรับ 4-8 คน แข่งแบบ bracket"
+  },
+  {
+   "chunk": "brief-phygital-assignment#6",
+   "source": "brief-phygital-assignment",
+   "question": "เมื่อจบเกมแล้ว HP ที่เหลือของทั้งสองทีมเท่ากัน ผลการแข่งขันควรเป็นอย่างไร?",
+   "answer_quote": "HP ที่เหลือเท่ากันจะเสมอ"
+  },
+  {
+   "chunk": "venue-xr-arena#7",
+   "source": "venue-xr-arena",
+   "question": "ถ้าออกแบบกิจกรรม VR สำหรับกลุ่มปาร์ตี้ที่ต้องการความเป็นส่วนตัว ควรเลือกห้องวีไอพีซึ่งมีจำนวนกี่ห้อง?",
+   "answer_quote": "ห้องส่วนตัว 2 ห้อง (VIP Room 1 และ 2)"
+  },
+  {
+   "chunk": "guide-xrdev#7",
+   "source": "guide-xrdev",
+   "question": "ในโหมด MR ฉันควรตั้งค่า renderOrder ของโมเดลสแกนสนามจริงเป็นเท่าใด เพื่อให้เขียน depth ก่อนวัตถุอื่น?",
+   "answer_quote": "renderOrder = -10"
+  },
+  {
+   "chunk": "research-landbuilder#9",
+   "source": "research-landbuilder",
+   "question": "Under what conditions can choice overload affect a non-expert choosing between game concepts?",
+   "answer_quote": "complex options, a hard task, uncertain preferences"
+  },
+  {
+   "chunk": "proj-deepspace#43",
+   "source": "proj-deepspace",
+   "question": "Why shouldn’t I use UwbRigBuilder.cs as a complete live rig builder for my tracking game?",
+   "answer_quote": "It does not create/wire LinkTrack receiver/manager."
+  },
+  {
+   "chunk": "proj-pc-battle#4",
+   "source": "proj-pc-battle",
+   "question": "ในตัวอย่างการตั้งค่า แต่ละด่านจะมีศัตรูประเภท grunt กี่ตัว?",
+   "answer_quote": "\"foes\": [{ \"kind\": \"grunt\", \"n\": 3 }]"
+  },
+  {
+   "chunk": "proj-pc-tactics#4",
+   "source": "proj-pc-tactics",
+   "question": "ไฟล์ใดกำหนดกติกาเวลาเล่นใน Mixed Reality ที่ให้ผู้เล่นเดินจริงบนพื้น?",
+   "answer_quote": "src/xr/mrPlay.js กติกาเวลาเล่นใน MR (เดินจริงบนพื้น)"
+  },
+  {
+   "chunk": "conv-designs#133",
+   "source": "conv-designs",
+   "question": "ทำไมการออกแบบเกมซอมบี้หวาดผวาในแว่น MR จึงต้องคำนึงถึงสภาพแสงจริงของห้องตอนเล่น?",
+   "answer_quote": "แสงแดดจ้าจะกลืนสีเข้มและแสงเรืองของฉากสยองขวัญ"
+  },
+  {
+   "chunk": "gdd-phygital-ex1#5",
+   "source": "gdd-phygital-ex1",
+   "question": "ในเกม Territory War จะตัดสินทีมผู้ชนะเมื่อหมดเวลาอย่างไร?",
+   "answer_quote": "ทีมที่ยึดพื้นที่มากกว่าชนะ"
+  },
+  {
+   "chunk": "gdd-battle-ground#24",
+   "source": "gdd-battle-ground",
+   "question": "Minion Portal จะปล่อย Soldier Minion ออกมากี่ตัวและบ่อยแค่ไหน?",
+   "answer_quote": "Soldier Minion จ านวน 3 ตัวทุกๆ 15 วินาที"
+  },
+  {
+   "chunk": "brief-phygital-assignment#1",
+   "source": "brief-phygital-assignment",
+   "question": "เกมแบบ Casual สำหรับครอบครัวและกลุ่มเพื่อนควรมีรอบการเล่นสั้นเพียงใด",
+   "answer_quote": "รอบการเล่นสั้น (2-5 นาที)"
+  },
+  {
+   "chunk": "venue-xr-arena#5",
+   "source": "venue-xr-arena",
+   "question": "เหตุใดเกมปาร์ตี้บนพื้น LED จึงเหมาะกับผู้เล่นทุกวัย?",
+   "answer_quote": "เหมาะกับทุกวัย เข้าใจกติกาในไม่กี่วินาที"
+  },
+  {
+   "chunk": "gdd-battle-ground-casual#4",
+   "source": "gdd-battle-ground-casual",
+   "question": "ปืนของผู้เล่น Striker สามารถใช้ได้ในโหมดใดเท่านั้น?",
+   "answer_quote": "ปืนจะใช้ได้ Assault Mode เท่านั้น"
+  },
+  {
+   "chunk": "gdd-territory-war#8",
+   "source": "gdd-territory-war",
+   "question": "What dimensions should the game grid have in the game screen HUD?",
+   "answer_quote": "GAME GRID 10x6"
+  },
+  {
+   "chunk": "guide-xrdev#10",
+   "source": "guide-xrdev",
+   "question": "ในโหมด co-op แบบ host-authoritative ผู้เล่นฝั่ง guest ต้องจัดการ simulation และสถานะเกมอย่างไร",
+   "answer_quote": "guest ห้าม step sim เอง แค่ apply snapshot ทับ state"
+  },
+  {
+   "chunk": "research-landbuilder#12",
+   "source": "research-landbuilder",
+   "question": "How many design pillars should the AI include when prototyping my game?",
+   "answer_quote": "a logline and 3 design pillars"
+  },
+  {
+   "chunk": "proj-deepspace#151",
+   "source": "proj-deepspace",
+   "question": "How should the tracker handle a player's position when a new UWB position is rejected?",
+   "answer_quote": "holdLastPositionWhenRejected (bool = true)"
+  },
+  {
+   "chunk": "gdd-digging-game#6",
+   "source": "gdd-digging-game",
+   "question": "Which rounds are played before the final result screen appears?",
+   "answer_quote": "Repeat for Round 2, 3"
+  },
+  {
+   "chunk": "conv-designs#47",
+   "source": "conv-designs",
+   "question": "Why should I consider visitors’ age and VR experience when designing a calm headset experience?",
+   "answer_quote": "Age and VR experience decide how gentle the opening must be"
+  },
+  {
+   "chunk": "gdd-battle-ground#29",
+   "source": "gdd-battle-ground",
+   "question": "Minion จะสร้างความเสียหายใส่กันเองไม่ได้เมื่อพลังโจมตีเป็นอย่างไรเมื่อเทียบกับ Armor ของอีกฝ่าย?",
+   "answer_quote": "ถ้าพลังโจมตีเท่ากับหรือน้อยกว่า Armor จะสร้างความเสียหายไม่ได้"
+  },
+  {
+   "chunk": "gdd-battle-ground-casual#1",
+   "source": "gdd-battle-ground-casual",
+   "question": "เงื่อนไขใดที่ใช้ตัดสินทีมผู้ชนะเมื่อหมดเวลาการแข่งขัน?",
+   "answer_quote": "เมื่อหมดเวลา ทีมที่มีพื้นที่สีมากกว่าจะเป็น ผู้ชนะ"
+  },
+  {
+   "chunk": "proj-pc-battle#1",
+   "source": "proj-pc-battle",
+   "question": "เกมแนว Story Battle ที่มีการฟันดาบสามจังหวะและหลบด้วย dash นี้สร้างด้วยเทคโนโลยีใด",
+   "answer_quote": "three.js + Vite"
+  },
+  {
+   "chunk": "gdd-phygital-ex1#6",
+   "source": "gdd-phygital-ex1",
+   "question": "ในเกม Lava Escape ควรให้คะแนนหรือหักคะแนนผู้เล่นอย่างไรเมื่อรอดจากลาวาและเมื่อโดนลาวา?",
+   "answer_quote": "ถ้าผู้เล่นไม่โดนลาวาจะได้รับ 10 คะแนน ถ้าโดนลาวาจะโดนหัก 10 คะแนน"
+  },
+  {
+   "chunk": "proj-pc-tactics#6",
+   "source": "proj-pc-tactics",
+   "question": "ค่า beat ใช้กำหนดอะไรในการออกแบบด่าน และมีช่วงค่าที่รองรับเท่าไร?",
+   "answer_quote": "วินาทีต่อการเดินของศัตรู | 1.5–3.5"
+  },
+  {
+   "chunk": "brief-phygital-assignment#3",
+   "source": "brief-phygital-assignment",
+   "question": "ในเกม Lava Escape ช่วงเวลาแจ้งเตือนก่อนที่พื้นจะกลายเป็นลาวามีระยะเวลานานเท่าไร?",
+   "answer_quote": "ช่วงเวลาแจ้งเตือนจะมีระยะเวลา 3-5 วินาที"
+  },
+  {
+   "chunk": "gdd-digging-game#3",
+   "source": "gdd-digging-game",
+   "question": "ในโหมด Best of 3 ผู้เล่นต้องชนะกี่รอบจึงจะเป็นผู้ชนะ?",
+   "answer_quote": "ใครชนะ 2 ใน 3 เป็นผู้ชนะ"
+  },
+  {
+   "chunk": "venue-xr-arena#8",
+   "source": "venue-xr-arena",
+   "question": "ถ้าออกแบบจุดพักในอารีนาให้ผู้เล่นเติมพลังและนั่งดูเพื่อนเล่นต่อ ควรมีอาหารและเครื่องดื่มอะไรบ้าง",
+   "answer_quote": "ไก่ทอด เฟรนช์ฟรายส์ ของทานเล่น และเครื่องดื่ม"
+  },
+  {
+   "chunk": "gdd-territory-war#3",
+   "source": "gdd-territory-war",
+   "question": "How many columns wide should the game grid be?",
+   "answer_quote": "10 columns (0-9)"
+  },
+  {
+   "chunk": "guide-xrdev#11",
+   "source": "guide-xrdev",
+   "question": "งบ poly และจำนวน mesh ของบอสบน Quest ที่เคยผ่านการทดสอบแล้วควรกำหนดไว้อย่างไร?",
+   "answer_quote": "บอส ≤ 40 mesh / 6k tris"
+  }
+ ]
+}

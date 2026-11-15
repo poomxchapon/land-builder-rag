@@ -1,0 +1,2029 @@
+{
+ "built": "2026-11-13T11:01:28.306Z",
+ "method": "engine fact cards (pitfall, default, genre-rule, question); tags give platform/genre/phase; Kimi wrote the triggers, code-checked",
+ "n": 92,
+ "facts": [
+  {
+   "id": "cs-shooting-wish",
+   "title": "Shooting is not in any engine: offer the sword or the dodge instead",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "shoot",
+    "gun",
+    "laser",
+    "arrow",
+    "sniper",
+    "ยิง",
+    "ปืน",
+    "เลเซอร์",
+    "ธนู",
+    "ซุ่มยิง"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "cs-inventory-wish",
+   "title": "No inventory or collecting items: use ordered checkpoints as the 'collection'",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "words": [
+    "collect",
+    "item",
+    "key",
+    "gem",
+    "loot",
+    "upgrade",
+    "เก็บ",
+    "ไอเทม",
+    "กุญแจ",
+    "อัปเกรด"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "cs-npc-dialogue-wish",
+   "title": "No NPC conversations: put the story on the intro card and checkpoint labels",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "words": [
+    "talk",
+    "dialogue",
+    "npc",
+    "quest",
+    "speak",
+    "พูด",
+    "คุย",
+    "บทสนทนา",
+    "เควส"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "cs-voice-chat-wish",
+   "title": "No voice chat or in-game talking: let real voices do it",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "voice chat",
+    "radio",
+    "walkie",
+    "remote friend",
+    "แชทเสียง",
+    "วิทยุ",
+    "วอล์กกี้",
+    "คุยกับเพื่อน"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "cs-crafting-wish",
+   "title": "No crafting, building or base upgrades during play",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "craft",
+    "build a base",
+    "farm",
+    "cook",
+    "upgrade",
+    "สร้างฐาน",
+    "คราฟต์",
+    "ทำฟาร์ม",
+    "ทำอาหาร",
+    "อัปเกรด"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "cs-small-room-genres",
+   "title": "Under 3 m on a side, battle and tactics do not fit in MR",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "options"
+   ],
+   "side_max_m": 3,
+   "priority": 3
+  },
+  {
+   "id": "cs-too-many-checkpoints-small",
+   "title": "Too many checkpoints in a small room",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "options",
+    "build"
+   ],
+   "side_max_m": 5,
+   "priority": 3
+  },
+  {
+   "id": "cs-hazard-on-spawn",
+   "title": "Hazards on or right next to the spawn or a checkpoint",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "build"
+   ],
+   "words": [
+    "hazard",
+    "red circle",
+    "obstacle",
+    "trap",
+    "อันตราย",
+    "วงแดง",
+    "สิ่งกีดขวาง",
+    "กับดัก"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "cs-dark-theme-daylight",
+   "title": "Dark, spooky or neon themes in bright daylight",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "neon",
+    "dark",
+    "spooky",
+    "horror",
+    "ghost",
+    "glow",
+    "night",
+    "นีออน",
+    "มืด",
+    "ผี",
+    "สยอง",
+    "เรืองแสง"
+   ],
+   "dark": false,
+   "priority": 2,
+   "all": true,
+   "edited": "by hand: daylight AND a dark theme word, measured 13 false hits as OR"
+  },
+  {
+   "id": "cs-beast-chapter-1",
+   "title": "Beast enemy in the first chapter",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "cs-guard-beat-fast-mr",
+   "title": "Tactics guards moving too fast in MR",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "cs-unsolvable-board",
+   "title": "Do not design an exact or impossible tactics board",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "words": [
+    "layout",
+    "puzzle",
+    "trap",
+    "impossible",
+    "place square",
+    "exact board",
+    "เลย์เอาต์",
+    "ปริศนา",
+    "กับดัก",
+    "วางช่อง"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "cs-key-art-ui-text",
+   "title": "Key art prompt with text, logos or UI",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "prototype"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "cs-route-crowded-corner",
+   "title": "Route crowded into one corner",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "cs-race-small-room",
+   "title": "Races and many players in small rooms",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "options"
+   ],
+   "words": [
+    "race",
+    "party",
+    "group",
+    "multiplayer",
+    "แข่ง",
+    "ปาร์ตี้",
+    "กลุ่ม",
+    "หลายคน"
+   ],
+   "side_max_m": 4,
+   "priority": 3
+  },
+  {
+   "id": "cs-pc-venue-questions",
+   "title": "Asking about room size for a PC game",
+   "kind": "pitfall",
+   "platform": [
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "interview"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "cs-time-limit-range",
+   "title": "Time limits outside 30-3600 seconds or written in minutes",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-battle-chapter1-grunts-only",
+   "title": "Chapter one is grunts only, and never a beast",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-battle-mr-six-cap",
+   "title": "In MR a battle chapter holds at most 6 enemies",
+   "kind": "genre-rule",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-battle-pc-nine-cap",
+   "title": "On PC a battle chapter holds at most 9 enemies, and 9 is a peak",
+   "kind": "genre-rule",
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-battle-boss-fixed",
+   "title": "The boss is one fixed fight: you choose only its name and intro line",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-battle-boss-wish-pitfall",
+   "title": "When the creator asks for a special boss, offer name, intro and theme",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "dragon",
+    "robot",
+    "laser",
+    "flying",
+    "shoot",
+    "unique boss",
+    "มังกร",
+    "หุ่นยนต์",
+    "เลเซอร์",
+    "บิน"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "gn-battle-mr-space-min",
+   "title": "MR battle needs at least 3 x 3 m of empty floor",
+   "kind": "genre-rule",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "options"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-battle-mr-no-running",
+   "title": "MR battle: the controller is the sword and the feet only step",
+   "kind": "genre-rule",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-battle-pc-controls",
+   "title": "PC battle: 3-hit combo and a dash are the whole move set",
+   "kind": "genre-rule",
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-battle-what-not-to-promise",
+   "title": "Battle has no items, no co-op and no second weapon",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "power-up",
+    "upgrade",
+    "co-op",
+    "shoot",
+    "inventory",
+    "พลังเสริม",
+    "อัปเกรด",
+    "เล่นร่วม",
+    "ยิง",
+    "คลังของ"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "gn-battle-scoring",
+   "title": "Battle score rules to write into the game card",
+   "kind": "default",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "gn-tactics-guard-ramp",
+   "title": "Guards ramp from at most 2 on board 1 to at most 4",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-tactics-guard-kinds-auto",
+   "title": "You choose how many guards, not which pieces they are",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "gn-tactics-mr-beat-floor",
+   "title": "In MR guards move every 3 s or slower, so ramp with other knobs",
+   "kind": "genre-rule",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "gn-tactics-mr-square-size",
+   "title": "MR board squares are fitted to the floor, up to 1 m",
+   "kind": "genre-rule",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "side_min_m": 0.01,
+   "priority": 2
+  },
+  {
+   "id": "gn-tactics-king-final",
+   "title": "The king is the last target on the final board only",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 1
+  },
+  {
+   "id": "gn-tactics-colour-language",
+   "title": "Tactics teaches itself through floor colours",
+   "kind": "default",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "gn-tactics-pvp-pitfall",
+   "title": "Tactics is not two-player chess: offer the time race instead",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "pvp",
+    "two-player",
+    "ai chess",
+    "chess opponent",
+    "co-op",
+    "สองผู้เล่น",
+    "หมากรุกคอม",
+    "ai หมากรุก",
+    "เล่นร่วม",
+    "ผู้เล่นคอม"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "gn-runner-checkpoints-by-size",
+   "title": "Checkpoint count and spacing follow the room size",
+   "kind": "genre-rule",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "options",
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-runner-scoring",
+   "title": "Runner score rules to write into the game card",
+   "kind": "default",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "gn-runner-chase-pitfall",
+   "title": "Runner has no enemies: turn a chase wish into hazards and a clock",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "chase",
+    "monster",
+    "combat",
+    "shoot",
+    "ไล่ล่า",
+    "มอนสเตอร์",
+    "ต่อสู้",
+    "ยิง"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "gn-runner-collect-pitfall",
+   "title": "Runner has no pickups: collecting is checkpoints in order",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "collect",
+    "gather",
+    "find",
+    "gem",
+    "pickup",
+    "เก็บ",
+    "รวบรวม",
+    "ค้นหา",
+    "อัญมณี"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "gn-runner-tiny-room",
+   "title": "Under 3 x 3 m in MR, all three options are runners",
+   "kind": "genre-rule",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "options"
+   ],
+   "side_max_m": 3,
+   "priority": 3
+  },
+  {
+   "id": "gn-runner-pc",
+   "title": "PC runner: WASD walking, no room limits, same rules",
+   "kind": "genre-rule",
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "options",
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "gn-cross-no-hybrid",
+   "title": "One game is one genre: do not merge battle, tactics and runner",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "options",
+    "build"
+   ],
+   "words": [
+    "combine genres",
+    "merge",
+    "hybrid",
+    "multiple genres",
+    "รวมแนว",
+    "ผสมแนว",
+    "ไฮบริด"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "gn-make-battle-defense-readable-on-the",
+   "title": "Make battle defense readable on the ground",
+   "kind": "genre-rule",
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "words": [
+    "controls",
+    "telegraph",
+    "onboarding",
+    "combo",
+    "dash",
+    "การควบคุม",
+    "สัญญาณเตือน",
+    "การเริ่มต้น",
+    "คอมโบ",
+    "พุ่ง"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "gn-anchor-mr-sword-combat-to-the",
+   "title": "Anchor MR sword combat to the body and real floor",
+   "kind": "genre-rule",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "words": [
+    "layout",
+    "arena",
+    "room-scale",
+    "pc sword",
+    "headset",
+    "เลย์เอาต์",
+    "สนาม",
+    "ห้อง",
+    "ชุดหูฟัง",
+    "ดาบพีซี"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "gn-start-desktop-melee-movement-at-5",
+   "title": "Start desktop melee movement at 5.2 metres per second",
+   "kind": "default",
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "words": [
+    "movement",
+    "run speed",
+    "timing",
+    "prototype",
+    "dash cooldown",
+    "การเคลื่อนที่",
+    "ความเร็ว",
+    "จังหวะ",
+    "ต้นแบบ",
+    "คูลดาวน์"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "gn-prove-tactics-boards-solvable",
+   "title": "Prove every tactics board is solvable and fairly started",
+   "kind": "genre-rule",
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "words": [
+    "generate",
+    "solvable",
+    "ordered-capture",
+    "moving guards",
+    "layout",
+    "สร้างกระดาน",
+    "พิสูจน์",
+    "ยึดตามลำดับ",
+    "ยามเคลื่อนที่",
+    "กระดาน"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "gn-build-tactics-around-ordered-captures-and",
+   "title": "Build tactics around ordered captures and safe squares",
+   "kind": "genre-rule",
+   "platform": [],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "gn-telegraph-danger-and-legal-moves-directly",
+   "title": "Telegraph danger and legal moves directly on the board",
+   "kind": "genre-rule",
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "words": [
+    "guard timing",
+    "movement choices",
+    "readability",
+    "telegraph",
+    "overlay",
+    "จังหวะยาม",
+    "การเลือกเดิน",
+    "ความอ่านง่าย",
+    "สัญญาณเตือน",
+    "การแสดงผล"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "gn-rank-progress-before-speed-and-make",
+   "title": "Rank progress before speed and make hits cost time",
+   "kind": "genre-rule",
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "words": [
+    "scoring",
+    "leaderboard",
+    "failure feedback",
+    "replay",
+    "multi-board",
+    "คะแนน",
+    "กระดานผู้นำ",
+    "ความล้มเหลว",
+    "เล่นซ้ำ",
+    "หลายกระดาน"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-do-not-rely-on-a-screen",
+   "title": "Do not rely on a screen HUD in MR",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "words": [
+    "objective",
+    "timer",
+    "hud",
+    "เป้าหมาย",
+    "จับเวลา",
+    "เอชยูดี"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "pt-ka-no-ui",
+   "title": "No HUD, score or words in the key art",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "key art",
+    "key_art",
+    "คีย์อาร์ต",
+    "ภาพหน้าปก"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-ka-mr-no-fake-walls",
+   "title": "MR key art must not replace the real walls or sky",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "castle",
+    "space",
+    "ocean",
+    "ปราสาท",
+    "อวกาศ",
+    "ทะเล",
+    "มหาสมุทร"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-sb-battle-beats",
+   "title": "Battle storyboard: first wave, mixed wave, boss, victory",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "storyboard",
+    "สตอรี่บอร์ด"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-sb-tactics-beats",
+   "title": "Tactics storyboard: read the board, first capture, beat the guards, last target",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "storyboard",
+    "สตอรี่บอร์ด"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-sb-runner-beats",
+   "title": "Runner storyboard: spawn view, first hazard, final stretch, portal",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "storyboard",
+    "สตอรี่บอร์ด"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-hud-battle",
+   "title": "Battle HUD: health, chapter, enemies left, score",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "hud",
+    "เอชยูดี"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-hud-tactics",
+   "title": "Tactics HUD: board number, targets captured, guard beat, timer",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "hud",
+    "เอชยูดี"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-hud-runner",
+   "title": "Runner HUD: checkpoint count, score, timer, next label",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "hud",
+    "เอชยูดี"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-sk-arena",
+   "title": "Battle sketch: arena with player start in the middle, spawn edges as danger",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "sketch",
+    "สเก็ตช์"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-sk-board",
+   "title": "Tactics sketch: board shape with start corner and goal on the far side",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "sketch",
+    "สเก็ตช์"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-sk-route",
+   "title": "Runner sketch: route with 3-12 path points in walking order",
+   "kind": "genre-rule",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "sketch",
+    "สเก็ตช์"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-rev-impossible-ask",
+   "title": "When a comment asks for a mechanic the engine lacks, offer the nearest one",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "shoot",
+    "pick up",
+    "key",
+    "ยิง",
+    "ปืน",
+    "หยิบ",
+    "เก็บ",
+    "กุญแจ"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pt-proto-genre-honesty",
+   "title": "Do not let the theme stretch the genre in the prototype",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "prototype"
+   ],
+   "words": [
+    "pirate",
+    "dragon",
+    "theme",
+    "themed",
+    "โจรสลัด",
+    "มังกร",
+    "ธีม"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "pu-edu-quiz-wish",
+   "title": "No quizzes, typed answers or multiple choice in any engine",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "quiz",
+    "question",
+    "test",
+    "answer",
+    "exam",
+    "choose the right",
+    "แบบทดสอบ",
+    "คำถาม",
+    "คำตอบ",
+    "สอบ"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "pu-fit-tracking-wish",
+   "title": "No step counting, heart rate or calorie tracking",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "calorie",
+    "steps",
+    "step count",
+    "heart rate",
+    "fitness tracking",
+    "แคลอรี่",
+    "ก้าว",
+    "นับก้าว",
+    "อัตราการเต้น",
+    "ฟิตเนส"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "sp-no-free-locomotion",
+   "title": "There is no joystick movement in MR, the route must fit the real floor",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "big world",
+    "long journey",
+    "long trip",
+    "open world",
+    "teleport",
+    "โลกกว้าง",
+    "โลกเปิด",
+    "การเดินทางไกล",
+    "เดินทางยาว",
+    "วาร์ป"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "sp-size-under-3",
+   "title": "Under 3 x 3 m only the runner genre fits",
+   "kind": "genre-rule",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "options"
+   ],
+   "side_max_m": 3,
+   "priority": 3
+  },
+  {
+   "id": "sp-light-preset-by-venue",
+   "title": "Default lighting preset by venue",
+   "kind": "default",
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "phase": [
+    "options",
+    "build"
+   ],
+   "always": true,
+   "priority": 1
+  },
+  {
+   "id": "st-label-safe-verbs",
+   "title": "Safe label verbs: actions done just by arriving",
+   "kind": "default",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "st-feel-fellowship-words",
+   "title": "Fellowship words must not promise teamwork the engine lacks",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "words": [
+    "fellowship",
+    "together",
+    "teamwork",
+    "cooperat",
+    "shared",
+    "ร่วมกัน",
+    "ด้วยกัน",
+    "ทีม",
+    "ความสามัคคี"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "st-env-vr-only-decor",
+   "title": "Story props that a label names cannot be VR-only",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "build"
+   ],
+   "words": [
+    "vr only",
+    "vr-only",
+    "vr เท่านั้น",
+    "เฉพาะ vr"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "st-pitfall-label-promises-mechanic",
+   "title": "Labels that promise mechanics: open, carry, shoot, choose",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "th-flow-battle-ramp",
+   "title": "Default battle chapter ramp",
+   "kind": "default",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "th-flow-tactics-ramp",
+   "title": "Default tactics board ramp",
+   "kind": "default",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "phase": [
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "th-flow-no-adaptive-difficulty",
+   "title": "There is no adaptive difficulty, so design the curve",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "skill level",
+    "different skill",
+    "all ages",
+    "easy for kids",
+    "hard for adults",
+    "beginners and",
+    "ทักษะ",
+    "ทุกวัย",
+    "ง่ายสำหรับเด็ก",
+    "ยากสำหรับผู้ใหญ่"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "th-core-loop-per-genre",
+   "title": "The native core loop of each genre",
+   "kind": "default",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "phase": [
+    "options",
+    "build"
+   ],
+   "always": true,
+   "priority": 2
+  },
+  {
+   "id": "th-juice-is-fixed",
+   "title": "Juice comes from the engine, the designer controls staging",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "options",
+    "build"
+   ],
+   "words": [
+    "effect",
+    "explosion",
+    "particle",
+    "screen shake",
+    "custom sound",
+    "feedback",
+    "เอฟเฟกต์",
+    "ระเบิด",
+    "อนุภาค",
+    "เสียง"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "un-missing-fact-floor-size",
+   "title": "MR floor size is never guessed: ask in metres or paces",
+   "kind": "question",
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "phase": [
+    "interview"
+   ],
+   "missing": "width_m",
+   "priority": 3
+  },
+  {
+   "id": "un-conflict-race-in-small-room",
+   "title": "A race wish in a small MR room: offer timed turns with a leaderboard",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "race",
+    "แข่ง"
+   ],
+   "side_max_m": 4,
+   "priority": 3
+  },
+  {
+   "id": "un-impossible-shooting",
+   "title": "Shooting wish: offer the sword arena or a dodge course",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "shoot",
+    "gun",
+    "blaster",
+    "ยิง",
+    "ปืน"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "un-impossible-npc-talk",
+   "title": "NPC conversation wish: tell the story through the intro card and checkpoint labels",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "words": [
+    "npc",
+    "dialog",
+    "talk to",
+    "conversation",
+    "quest giver",
+    "พูดคุย",
+    "บทสนทนา",
+    "เอ็นพีซี",
+    "ชาวบ้าน",
+    "เควส"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "un-impossible-inventory-crafting",
+   "title": "Inventory or crafting wish: turn collecting into ordered checkpoints",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "collect",
+    "inventory",
+    "bag",
+    "craft",
+    "recipe",
+    "ingredient",
+    "เก็บ",
+    "ช่องเก็บของ",
+    "กระเป๋า",
+    "คราฟ"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "un-impossible-free-locomotion-mr",
+   "title": "Flying, driving or joystick movement in MR: the player walks",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "fly",
+    "drive",
+    "ride",
+    "swim",
+    "teleport",
+    "joystick",
+    "บิน",
+    "ขับ",
+    "ขี่",
+    "เทเลพอร์ต"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "un-impossible-voice-chat",
+   "title": "Voice chat or team messaging: use the shared floor and the real room",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "chat",
+    "messaging",
+    "voice call",
+    "team communication",
+    "talk to teammates",
+    "แชท",
+    "ส่งข้อความ",
+    "คุยกับเพื่อน",
+    "สื่อสารในทีม"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "un-impossible-player-builds",
+   "title": "Players building or decorating during play: put expression elsewhere",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner"
+   ],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "build",
+    "paint",
+    "decorate",
+    "customise",
+    "customize",
+    "place object",
+    "สร้าง",
+    "วาด",
+    "ตกแต่ง",
+    "ปรับแต่ง"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "un-hidden-assumption-spectators-see",
+   "title": "Hidden assumption: spectators can see the game",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "parents",
+    "audience",
+    "crowd",
+    "stage",
+    "spectator",
+    "ผู้ปกครอง",
+    "พ่อแม่",
+    "ผู้ชม",
+    "คนดู",
+    "เวที"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "un-hidden-assumption-dark-outdoors",
+   "title": "Hidden assumption: a dark theme will look dark outdoors at noon",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "words": [
+    "neon",
+    "dark",
+    "spooky",
+    "horror",
+    "ghost",
+    "glow",
+    "night",
+    "นีออน",
+    "มืด",
+    "ผี",
+    "สยอง",
+    "เรืองแสง"
+   ],
+   "dark": false,
+   "priority": 2,
+   "outdoor": true,
+   "all": true,
+   "edited": "by hand: outdoors AND daylight AND a dark theme word (the generated dark:true was backwards)"
+  },
+  {
+   "id": "un-hidden-assumption-empty-floor",
+   "title": "Hidden assumption: the whole room is empty floor",
+   "kind": "pitfall",
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "phase": [
+    "interview"
+   ],
+   "words": [
+    "room size",
+    "living room",
+    "classroom",
+    "home",
+    "room is",
+    "ขนาดห้อง",
+    "ห้องนั่งเล่น",
+    "ห้องเรียน",
+    "บ้าน",
+    "ห้องกว้าง"
+   ],
+   "priority": 3
+  },
+  {
+   "id": "un-default-lighting",
+   "title": "Default lighting: match the real light, not the theme wish",
+   "kind": "default",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "interview",
+    "options",
+    "build"
+   ],
+   "always": true,
+   "priority": 1
+  },
+  {
+   "id": "un-default-constraints",
+   "title": "Default constraints: comfort and safety rules always apply",
+   "kind": "default",
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "phase": [
+    "interview"
+   ],
+   "always": true,
+   "priority": 3
+  },
+  {
+   "id": "un-conflict-long-story-short-session",
+   "title": "A long story in a 3-minute session: tell it in 5 beats",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "words": [
+    "epic",
+    "saga",
+    "long story",
+    "booth",
+    "3-minute",
+    "short session",
+    "มหากาพย์",
+    "เรื่องยาว",
+    "บูธ",
+    "3 นาที"
+   ],
+   "priority": 2
+  },
+  {
+   "id": "un-question-spectators",
+   "title": "Ask who watches and from where, with 'nobody' as a choice",
+   "kind": "question",
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "phase": [
+    "interview"
+   ],
+   "missing": "spectators",
+   "priority": 2
+  },
+  {
+   "id": "un-word-realistic",
+   "title": "'Realistic' or 'สมจริง': the art is always stylized, so find what should feel real",
+   "kind": "pitfall",
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "phase": [
+    "interview",
+    "prototype"
+   ],
+   "words": [
+    "realistic",
+    "real",
+    "lifelike",
+    "สมจริง"
+   ],
+   "priority": 2
+  }
+ ]
+}

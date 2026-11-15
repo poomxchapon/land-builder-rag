@@ -1,0 +1,3220 @@
+[
+ {
+  "id": "un-design-is-reducing-uncertainty",
+  "kind": "principle",
+  "title": "Design means turning open questions into decided facts",
+  "text": "Every brief field starts as unknown, and the interview exists to move as many fields as possible to decided before options are proposed. A field is decided when the engine could act on it without guessing: a number of metres, a play mode, a list of MDA feelings, a lighting preset. Treat each question as buying certainty on the field that would change the design most. Whatever is still open at the end must be written down as an assumption, not hidden.",
+  "use_when": "At every interview turn, when choosing what to ask next.",
+  "do": [
+   "Keep a mental list of brief fields as decided, assumed or unknown",
+   "Ask about the unknown field with the biggest effect on the 3 options",
+   "Write leftover unknowns into the brief as explicit assumptions"
+  ],
+  "avoid": [
+   "Proposing options while platform or MR floor size is still unknown",
+   "Treating a vague answer like 'fun' as a decided field"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-value-of-information",
+  "kind": "heuristic",
+  "title": "Ask the question whose answer splits the options most",
+  "text": "The best next question is the one where different answers would lead to clearly different game concepts. Platform and MR floor size split everything (genre list, route, player count), so they come first. Player age splits theme and difficulty. Colour preference or checkpoint names rarely change the concept, so do not spend a question on them. If every plausible answer leads to the same 3 options, skip the question and use a default.",
+  "use_when": "Deciding between two candidate questions with only a few questions left.",
+  "do": [
+   "Imagine 2-3 likely answers and check if the options would change",
+   "Prefer questions that change genre, route, player count or theme",
+   "Leave cosmetic details to the prototype comments"
+  ],
+  "avoid": [
+   "Asking about colours, names or music during the interview",
+   "Asking a question just because it is next on the list"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-question-budget",
+  "kind": "heuristic",
+  "title": "Spend the 4-7 question budget on facts that cannot be defaulted",
+  "text": "Treat the interview as a budget: about 4-7 questions, never more than 9. Platform, players, feelings and (MR) floor size each need a question unless already answered; that is usually 4-5. The 1-3 remaining questions go to whichever optional field has no safe default for this creator, such as spectators at an event or brand rules for a sponsor. Session length, lighting and difficulty almost always fall back to defaults instead.",
+  "use_when": "Counting how many questions are left and what to spend them on.",
+  "do": [
+   "Count required fields still open",
+   "Spend spare questions on fields with no safe default for this creator"
+  ],
+  "avoid": [
+   "Using spare questions on session length or lighting",
+   "Running out of budget before the MR floor size is known"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-one-question-per-turn",
+  "kind": "pattern",
+  "title": "One question per turn, with one decision inside it",
+  "text": "Each turn asks exactly one question so the creator can answer by tapping a choice. Combining 'how many players and how old' makes choices impossible to list and answers hard to read. If two facts form one measurement, such as floor width and depth, ask them together with size choices like '3 x 3 m', '5 x 5 m', '10 x 10 m or more'.",
+  "use_when": "Writing the question text for the next interview turn.",
+  "do": [
+   "Ask one thing and make the choices answer exactly that",
+   "Combine only facts that form one measurement or one picture"
+  ],
+  "avoid": [
+   "Two questions joined with 'and' in one turn",
+   "Choices that answer only half of the question"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-choices-cover-the-space",
+  "kind": "pattern",
+  "title": "Give 3-6 choices that are distinct and cover the likely answers",
+  "text": "Tappable choices are the main way novice creators answer, so they must be distinct and together cover most real answers. Each choice should lead to a different design, otherwise merge them. Include a middle choice and, when a default exists, a 'not sure, pick for me' choice. The creator can still type freely, so the list does not need to be exhaustive.",
+  "use_when": "Writing the choices array for any interview question.",
+  "do": [
+   "Make each choice lead to a different design consequence",
+   "Include 'Not sure, pick for me' when a default exists",
+   "Use concrete numbers in choices (3 min, 5 x 5 m, 2 players)"
+  ],
+  "avoid": [
+   "Near-duplicate choices like 'fun' and 'enjoyable'",
+   "More than 6 choices",
+   "Only extreme choices with no middle"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-multi-vs-single-select",
+  "kind": "heuristic",
+  "title": "Use multi-select only when several answers can be true at once",
+  "text": "Set multi to true for feelings (top 1-3 MDA aesthetics), surroundings and constraints, because several can apply together. Set multi to false for platform, floor size, play mode, session length and age band, because one answer drives the design. For feelings, say 'pick up to 3' in the question, since picking all 8 tells you nothing.",
+  "use_when": "Deciding the multi flag of an interview question.",
+  "do": [
+   "multi false for platform, size, play mode, session length",
+   "multi true for feelings, constraints and surroundings, with a cap of 3 for feelings"
+  ],
+  "avoid": [
+   "Multi-select for platform",
+   "Letting the creator tick all 8 feelings without asking which matters most"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fantasy",
+    "narrative",
+    "challenge",
+    "fellowship",
+    "discovery",
+    "expression",
+    "submission"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-why-line-teaches",
+  "kind": "pattern",
+  "title": "The why-line teaches one design idea in one sentence",
+  "text": "Each question carries a one-line why that tells the creator what the answer will change, so they learn how designers think. Good why-lines name a consequence: 'Floor size decides how many checkpoints fit and whether a race is safe.' Bad why-lines restate the question or flatter. Over 5 questions the creator should learn that space, players and feelings drive a design.",
+  "use_when": "Writing the why field for any interview question.",
+  "do": [
+   "Name the concrete design consequence of the answer",
+   "Keep it under about 20 words",
+   "Match the creator's language and level"
+  ],
+  "avoid": [
+   "'So I can make the best game for you'",
+   "Jargon like MDA or core loop without explanation for novices"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Fullerton, Game Design Workshop"
+ },
+ {
+  "id": "un-never-ask-personal-data",
+  "kind": "pitfall",
+  "title": "Never ask for names, schools, photos, phone numbers or addresses",
+  "text": "Many creators are children or teachers, and personal data is not needed to design a game. Ask for age bands and group types ('7-10 year olds', 'a school class of 30'), never a school or child's name. If the creator volunteers personal details, do not copy them into the brief; keep only the design fact. Describe a venue by kind and size ('a classroom 8 x 6 m'), not its address.",
+  "use_when": "Asking about players or venue, or when the creator types personal details.",
+  "do": [
+   "Ask for age bands, group types and counts",
+   "Strip names and places from the brief, keep the design facts"
+  ],
+  "avoid": [
+   "'What is your name?' or 'Which school?'",
+   "Asking for a photo of the room",
+   "Copying a child's name into the story"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-stop-condition",
+  "kind": "heuristic",
+  "title": "Stop asking once platform, concept, players, feelings and the MR floor are decided",
+  "text": "The interview is done when platform, concept, players, feelings and, for MR, floor size and indoor or outdoor are known. Session length, play mode, lighting and constraints may be defaulted. Continuing past this point costs patience and rarely changes the 3 options. A good interview ends in 4-7 questions; at 9 you must stop and default the rest.",
+  "use_when": "After each answer, before writing the next question.",
+  "do": [
+   "Check the required fields after each answer",
+   "Default the optional fields and mark them as assumed",
+   "Move to the summary as soon as the required fields are set"
+  ],
+  "avoid": [
+   "Asking about checkpoint names or colours before stopping",
+   "Going to options without the MR floor size"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-summary-readback",
+  "kind": "pattern",
+  "title": "Read the brief back in 2-3 sentences that expose assumptions",
+  "text": "The summary is the last cheap chance to catch a misunderstanding. Restate what the creator said in their words, then name what you assumed, for example 'I assumed about 3 minutes per play and a solo game; tell me if you want a race.' A creator corrects a wrong assumption far more easily when it is named than when it is buried. Keep it short so it is actually read.",
+  "use_when": "Writing the summary when the interview is done.",
+  "do": [
+   "Lead with who plays, where and how it should feel",
+   "Name every defaulted field in one clause",
+   "Invite a one-tap correction"
+  ],
+  "avoid": [
+   "A summary that only repeats what the creator said",
+   "Hiding defaults so the options look certain"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-vague-goal-make-it-fun",
+  "kind": "heuristic",
+  "title": "'Make it fun' or 'สนุกๆ' means the feelings are still unknown",
+  "text": "'Fun' is not a design goal because every MDA aesthetic is fun to someone. Treat it as an empty feelings field and ask which kind of fun with plain choices: 'a hard challenge', 'a story', 'exploring and finding secrets', 'racing friends', 'relaxing and easy'. Ask for the top 1-3. Different picks lead to different genres, so this question has high value.",
+  "use_when": "The creator says fun, enjoyable, just a good game, or the Thai words for fun.",
+  "do": [
+   "Translate MDA names into everyday words in the choices",
+   "Ask for the top 1-3 with multi true",
+   "Store the English MDA names in the brief"
+  ],
+  "avoid": [
+   "Writing 'fun' into the feelings field",
+   "Assuming fun means challenge"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fantasy",
+    "narrative",
+    "challenge",
+    "fellowship",
+    "discovery",
+    "expression",
+    "submission"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA; Koster, A Theory of Fun"
+ },
+ {
+  "id": "un-missing-fact-group-size",
+  "kind": "question",
+  "title": "Missing group size: ask how many play at the same time",
+  "text": "Group size decides play mode (solo, race, together), route width and, in MR, whether the floor is big enough. Creators often say 'kids' or 'my friends' without a number, or confuse total visitors with players at once. Ask 'How many people play at the same time?' with choices 1, 2, 3-4, 5-6. For events, total visitors affect session length, not group size.",
+  "use_when": "Players are described but the number at once is unknown.",
+  "do": [
+   "Ask 'at the same time' explicitly",
+   "Offer 1, 2, 3-4, 5-6 as choices",
+   "Cap MR players by floor size (under 4 x 4 m: 1-2)"
+  ],
+  "avoid": [
+   "Treating '30 students' as 30 players at once",
+   "Planning a 6-player race in a living room"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-missing-fact-floor-size",
+  "kind": "question",
+  "title": "MR floor size is never guessed: ask in metres or paces",
+  "text": "In MR the empty floor is the whole game board; its size decides genre (under 3 x 3 m only runner fits), checkpoint count and player count. Ask for the width and depth of the empty floor, not the whole room. Offer choices like 'small room 3 x 3 m', 'classroom 6 x 8 m', 'hall 10 x 10 m or more', and accept paces (1 pace is about 0.75 m). If the creator does not know, ask them to pace it.",
+  "use_when": "Platform is MR and width_m or depth_m is unknown.",
+  "do": [
+   "Ask for the empty floor only",
+   "Convert paces at 0.75 m each",
+   "Round down when the creator is unsure"
+  ],
+  "avoid": [
+   "Defaulting to a 10 x 10 m floor",
+   "Using a room size that includes sofas and tables"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-conflict-scary-for-young-kids",
+  "kind": "pattern",
+  "title": "Scary but for 5-year-olds: offer spooky-cute, not fear",
+  "text": "A wish for 'scary' with players under about 8 is a conflict between feeling and audience. Resolve it toward the audience: a spooky-cute theme (friendly ghosts, glowing lanterns, cartoon pumpkins), evening rather than spooky lighting, no sudden scares, and labels that make the child the brave hero. Name the trade-off openly and offer a slightly spookier option for older siblings.",
+  "use_when": "Feelings or theme say scary, horror or ghosts while players are young kids.",
+  "do": [
+   "Name the conflict kindly in one line",
+   "Offer spooky-cute with friendly ghosts and warm light",
+   "Frame hazards as playful, not threatening"
+  ],
+  "avoid": [
+   "Jump scares or dark void floors for young children",
+   "Refusing the theme outright"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "Meta VR comfort and MR design guidelines; design practice"
+ },
+ {
+  "id": "un-conflict-relaxing-and-hard",
+  "kind": "pattern",
+  "title": "Relaxing but challenging: shape the session, do not average it",
+  "text": "When a creator picks both submission and challenge, medium difficulty everywhere often satisfies neither. Give a calm opening and a harder ending, or let one of the three options lean each way. In a runner, the first 3 checkpoints can be hazard-free and the last 2 dense with hazards and a time bonus. Ask which feeling should win if only one could.",
+  "use_when": "Feelings include both submission and challenge.",
+  "do": [
+   "Ask which feeling wins if only one is possible",
+   "Easy start, hard finish",
+   "Let options lean different ways"
+  ],
+  "avoid": [
+   "Making every part medium difficulty",
+   "Dropping one of the two feelings silently"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-conflict-race-in-small-room",
+  "kind": "pitfall",
+  "title": "A race wish in a small MR room: offer timed turns with a leaderboard",
+  "text": "Several players walking fast in under 4 x 4 m is unsafe, but the feeling behind a race is usually competition, not a shared floor. Offer the online race where each player walks their own copy, one at a time in the room, with a live leaderboard on a screen for friends watching. It keeps competition and fellowship while only one person walks.",
+  "use_when": "Creator wants a race but the MR floor is under 4 x 4 m.",
+  "do": [
+   "Explain the safety reason in one line",
+   "Offer turn-based timed runs with a leaderboard",
+   "Make the waiting friends the cheering audience"
+  ],
+  "avoid": [
+   "Two or more players walking fast in a small room",
+   "Dropping competition completely"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "Meta MR safety guidelines; FortalLand engine"
+ },
+ {
+  "id": "un-impossible-shooting",
+  "kind": "pitfall",
+  "title": "Shooting wish: offer the sword arena or a dodge course",
+  "text": "No genre can shoot. When a creator asks for guns, blasters or shooting, look for the feeling underneath: action and power. Offer battle, where in MR the right controller is the sword and enemies walk in from the edges, or a runner where hazards are 'laser beams' to dodge. Say clearly 'there is no shooting, but you can slash with a sword', so the creator is not surprised later.",
+  "use_when": "Creator mentions shooting, guns, blasters, or the Thai words for shoot or gun.",
+  "do": [
+   "Say kindly that shooting is not available",
+   "Offer battle with the sword or a dodge runner",
+   "Keep the theme (sci-fi, space) they wanted"
+  ],
+  "avoid": [
+   "Promising a blaster with a sword engine underneath",
+   "Silently ignoring the wish"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-impossible-npc-talk",
+  "kind": "pitfall",
+  "title": "NPC conversation wish: tell the story through the intro card and checkpoint labels",
+  "text": "There are no NPC conversations or dialogue choices. A creator who wants to 'talk to the villagers' usually wants narrative. Offer the story on the intro card, checkpoint labels written as story beats ('Wake the old monk', 'Return the lantern'), and a character model placed at each checkpoint as a silent storyteller. State the limit and the alternative in one line.",
+  "use_when": "Creator wants talking characters, dialogue or quests given by NPCs.",
+  "do": [
+   "Map dialogue beats to 4-10 checkpoint labels",
+   "Place a character model at each story checkpoint",
+   "Write the setup in the intro story"
+  ],
+  "avoid": [
+   "Promising characters that answer back",
+   "Labels that imply choices the player cannot make"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-impossible-inventory-crafting",
+  "kind": "pitfall",
+  "title": "Inventory or crafting wish: turn collecting into ordered checkpoints",
+  "text": "The engine has no inventory and no crafting. 'Collect ingredients and cook' becomes checkpoints touched in order with labels like 'Pick the mango', 'Grab the sticky rice', 'Cook at the stove', and the +100 per checkpoint shows progress. Be honest that items are not held or combined; the labels tell it.",
+  "use_when": "Creator mentions collecting items, a bag, crafting or recipes.",
+  "do": [
+   "Use checkpoint order as the recipe order",
+   "Use labels to name each item",
+   "Show progress with the score"
+  ],
+  "avoid": [
+   "Promising a bag or item menu",
+   "Free-order collecting, since checkpoints are touched in order"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-impossible-free-locomotion-mr",
+  "kind": "pitfall",
+  "title": "Flying, driving or joystick movement in MR: the player walks",
+  "text": "In MR players move only with their own legs. A wish to fly a dragon can become a void floor with scenery far below so walking feels like gliding above it; driving can become a racetrack walked on foot. Mention comfort: void floors are dramatic and dizzy, so avoid them for first-time VR players and young kids. If free movement is essential, suggest the PC platform.",
+  "use_when": "Creator wants flying, driving, riding, swimming or teleporting in MR.",
+  "do": [
+   "Offer walking with a themed floor or a void floor",
+   "Warn about dizziness with void for beginners",
+   "Suggest PC if free movement is essential"
+  ],
+  "avoid": [
+   "Promising joystick or vehicle movement in MR",
+   "Void floor for first-time VR kids"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "sensation"
+   ],
+   "players": [
+    "first-time-vr",
+    "kids"
+   ]
+  },
+  "source": "Meta VR comfort guidelines; FortalLand engine"
+ },
+ {
+  "id": "un-impossible-voice-chat",
+  "kind": "pitfall",
+  "title": "Voice chat or team messaging: use the shared floor and the real room",
+  "text": "There is no voice chat or in-game messaging. In MR players share the real room, so they can simply talk and point, and the shared floor mode shows each other's avatars. For players in different places, offer a race with a live leaderboard. Fellowship then comes from real people nearby, which MR does better than chat.",
+  "use_when": "Creator asks for voice chat, team chat or communication features.",
+  "do": [
+   "Point out that co-located players can talk for real",
+   "Offer shared floor or race with a leaderboard"
+  ],
+  "avoid": [
+   "Promising team chat or pings",
+   "Puzzles that need remote players to talk"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-impossible-player-builds",
+  "kind": "pitfall",
+  "title": "Players building or decorating during play: put expression elsewhere",
+  "text": "Players cannot place objects or build during play. Expression can come from tactics boards where players plan their own path, from chasing a personal best on a leaderboard, or from the creator designing the land itself. If the creator is a kid who wants to build, point out that they are the builder: the game they design is their creation.",
+  "use_when": "Creator wants players to build, paint, decorate or customise during play.",
+  "do": [
+   "Offer tactics planning or leaderboard bragging",
+   "Frame the creator's own design as the building part"
+  ],
+  "avoid": [
+   "Promising build modes or avatar customisation",
+   "Ignoring the expression wish"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "expression"
+   ],
+   "players": [
+    "kids",
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-hidden-assumption-spectators-see",
+  "kind": "pitfall",
+  "title": "Hidden assumption: spectators can see the game",
+  "text": "Creators often imagine parents watching the dragon, but in MR people outside the headset see only bodies walking and reacting. Surface this when spectators are mentioned and plan for it: a leaderboard on a wall screen, a key dodge near the audience side, and the finish portal where the crowd can cheer. Write the spectator plan into the brief.",
+  "use_when": "Creator mentions parents, an audience, a crowd or a stage.",
+  "do": [
+   "Tell the creator spectators see bodies, not the virtual floor",
+   "Ask where spectators stand",
+   "Place key moments on their side"
+  ],
+  "avoid": [
+   "Visual spectacle aimed at spectators who cannot see it",
+   "Giving spectators tasks inside the play area"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-hidden-assumption-dark-outdoors",
+  "kind": "pitfall",
+  "title": "Hidden assumption: a dark theme will look dark outdoors at noon",
+  "text": "Creators picture night or neon themes but plan to play in a sunny garden. Passthrough shows real daylight, which washes out glow and dark scenes. When the theme is dark and the venue is outdoors, ask the time of day. In daytime, offer a bright version of the theme (sunny temple fair instead of haunted temple) or suggest playing indoors or after dark.",
+  "use_when": "Theme is spooky, neon or night and the MR venue is outdoors.",
+  "do": [
+   "Ask the time of day",
+   "Offer a daylight-readable version of the theme",
+   "Use noon or morning lighting outdoors in daytime"
+  ],
+  "avoid": [
+   "Night or neon lighting in midday sun",
+   "Assuming the headset darkens the real sky"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine; Meta MR design guidelines"
+ },
+ {
+  "id": "un-hidden-assumption-empty-floor",
+  "kind": "pitfall",
+  "title": "Hidden assumption: the whole room is empty floor",
+  "text": "People give the room size, not the empty floor. A 5 x 5 m living room with a sofa and table may have only 3 x 3 m clear. After size, ask about obstacles with choices like 'nothing inside', 'a table or sofa', 'a pillar', 'trees'. Write obstacles into the brief and keep the 1.2 m walking route and 0.6 m edge margin around them.",
+  "use_when": "Creator gives a room size for MR, especially homes and classrooms.",
+  "do": [
+   "Ask what is inside the floor after the size",
+   "Subtract furniture from the usable size",
+   "Write obstacles or 'none' in the brief"
+  ],
+  "avoid": [
+   "Laying a route over a real sofa",
+   "Taking room size as play size"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta MR safety guidelines; FortalLand engine"
+ },
+ {
+  "id": "un-hidden-assumption-creator-is-player",
+  "kind": "pitfall",
+  "title": "Hidden assumption: the creator is the player",
+  "text": "A creator describing what they like may be designing for someone else entirely: a parent for a 6-year-old, a teacher for a class, an organiser for strangers. Before feelings, make sure you know who plays; if the creator says 'I love hard games' but players are first-time families, design for the families and mention the gap. If the creator is the player, preferences and audience are the same and one question is saved.",
+  "use_when": "Creator states personal tastes before saying who plays.",
+  "do": [
+   "Ask who plays before trusting taste as the feelings field",
+   "Name the gap when taste and audience differ"
+  ],
+  "avoid": [
+   "Designing a hard game for a family booth because the organiser likes hard games"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "families",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-adventure",
+  "kind": "heuristic",
+  "title": "'Adventure' or 'ผจญภัย': story, exploring, or danger",
+  "text": "'Adventure' can mean a story journey (narrative: a quest told through checkpoint labels), exploring a world (discovery: hub and spokes, hidden scenery), or facing danger (challenge: hazards, or chapters and a boss in battle). Ask 'What is the best moment of the adventure?' with choices 'finding secret places', 'a story with an ending', 'beating a big monster'. That single answer picks the genre lean.",
+  "use_when": "Concept uses adventure, quest, journey, or the Thai words for adventure.",
+  "do": [
+   "Ask for the best moment, not a definition",
+   "Map answers to discovery, narrative or challenge"
+  ],
+  "avoid": [
+   "Assuming adventure means combat",
+   "Writing 'adventure' as a feeling"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "discovery",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-challenge",
+  "kind": "heuristic",
+  "title": "'Challenge' or 'ท้าทาย': body skill, speed, or thinking",
+  "text": "A challenge can be body skill (battle: stepping out of red rings, slashing enemies), speed (a timed runner with a leaderboard), or thinking (a tactics board solved in order while avoiding guards). Ask 'What should be hard?' with choices 'moving and dodging', 'beating the clock or friends', 'figuring out the right path'. Each answer points to a different genre.",
+  "use_when": "Creator says challenge, hard, difficult, or the Thai words for these.",
+  "do": [
+   "Ask what should be hard",
+   "Map to battle, runner race, or tactics"
+  ],
+  "avoid": [
+   "Making everything faster and calling it challenge",
+   "Hard puzzles for first-time VR players with no ramp"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "Csikszentmihalyi 1990, Flow; design practice"
+ },
+ {
+  "id": "un-word-cute",
+  "kind": "heuristic",
+  "title": "'Cute' or 'น่ารัก': the look, the mood, or easy play",
+  "text": "'Cute' can describe the art (candy, toys, round animals, pastel palette), the mood (gentle, nothing scary), or a hidden request for easy play for small kids. Ask 'Cute like...?' with choices 'candy and toys', 'baby animals and farm', 'soft and easy to play'. The art reading changes theme only; the easy reading changes hazards and session length, so it matters which one.",
+  "use_when": "Creator says cute, adorable, kawaii, or the Thai words for cute.",
+  "do": [
+   "Separate the look from the difficulty",
+   "Offer theme families from the model library (candy, toys, farm)"
+  ],
+  "avoid": [
+   "Assuming cute means babyish for teens",
+   "Only changing colours when they meant easy"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-epic",
+  "kind": "heuristic",
+  "title": "'Epic' or 'อลังการ': scale, a boss climax, or spectacle",
+  "text": "'Epic' usually means big scale (huge scenery models, a long route, the void floor drop), a climax (battle chapters ending in a boss), or wow visuals (dramatic lighting). Ask 'What makes it epic for you?' with choices 'giant monsters and places', 'a big final boss', 'wow light and views'. Check the venue: void floors and night lighting need indoor or dark conditions and experienced players.",
+  "use_when": "Creator says epic, huge, legendary, or the Thai words for grand.",
+  "do": [
+   "Ask which part should feel big",
+   "Match to scenery scale, boss chapter or lighting"
+  ],
+  "avoid": [
+   "Adding everything at once and cluttering the route",
+   "Void floor for first-time VR kids"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fantasy",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-exciting",
+  "kind": "heuristic",
+  "title": "'Exciting' or 'ตื่นเต้น': speed, suspense, or surprise",
+  "text": "Excitement can come from speed (time limit, race, dense hazards), suspense (spooky lighting, a slow approach to a boss), or surprise (scenery revealed around corners). Ask 'Exciting like...?' with choices 'racing the clock', 'creepy and tense', 'surprises around every corner'. In MR there are no sudden scares that make people run, so suspense must stay walkable.",
+  "use_when": "Creator says exciting, thrilling, or the Thai words for exciting.",
+  "do": [
+   "Ask which kind of excitement",
+   "Keep MR suspense walk-safe"
+  ],
+  "avoid": [
+   "Jump scares in MR",
+   "Making it exciting only by shortening the time limit"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "Meta MR safety guidelines; design practice"
+ },
+ {
+  "id": "un-word-scary",
+  "kind": "heuristic",
+  "title": "'Scary' or 'น่ากลัว': spooky-fun, tense, or real horror",
+  "text": "Ask how scary with choices 'spooky but fun', 'creepy and tense', 'really scary (teens and adults only)'. The answer sets lighting (evening, spooky or night), which ghost models are used, and whether hazards are framed as threats. Combine with age: real horror is only for teens and adults, and even then no sudden scares in MR because players may run.",
+  "use_when": "Creator says scary, horror, haunted, ghosts, or the Thai words for scary.",
+  "do": [
+   "Ask the intensity level",
+   "Check it against player age",
+   "Build dread with light and scenery, not startles"
+  ],
+  "avoid": [
+   "Real horror with kids or families",
+   "Startle effects in MR"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fantasy",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "adults"
+   ]
+  },
+  "source": "Meta MR safety guidelines; design practice"
+ },
+ {
+  "id": "un-word-easy",
+  "kind": "heuristic",
+  "title": "'Easy' or 'ง่ายๆ': easy to play, easy to understand, or quick to make",
+  "text": "'Easy' can mean low difficulty (few hazards, no time limit), rules a first-timer understands in 10 seconds, or a quick project for the creator. Ask 'Easy for whom?' with choices 'players who never used VR', 'very young kids', 'I want to finish quickly'. Difficulty readings change hazards; the quick-project reading suggests fewer checkpoints and a simple loop.",
+  "use_when": "Creator says easy, simple, not complicated, or the Thai words for easy.",
+  "do": [
+   "Ask who it should be easy for",
+   "Translate to hazard count, rule count or route simplicity"
+  ],
+  "avoid": [
+   "Removing all challenge when they meant simple rules",
+   "Assuming they mean themselves"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "first-time-vr",
+    "kids",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-like-famous-game",
+  "kind": "heuristic",
+  "title": "'Like Minecraft' or 'like Roblox': find which part they mean",
+  "text": "Naming a famous game is a shortcut, not a spec, and those games use mechanics the engine lacks (building, shooting, open worlds). Ask 'What part of it do you love most?' with choices tied to buildable features: 'the blocky look', 'racing friends', 'exploring', 'fighting monsters'. Never copy names, characters or logos; borrow the feeling and a theme family.",
+  "use_when": "Creator references a known game, film or show.",
+  "do": [
+   "Ask which part they love",
+   "Map it to a genre, theme or feeling",
+   "Use original names and library models"
+  ],
+  "avoid": [
+   "Promising the original game's mechanics",
+   "Using trademarked names or characters"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-educational",
+  "kind": "heuristic",
+  "title": "'Educational' or 'ได้ความรู้' / 'สื่อการสอน': facts, a sequence, or planning skill",
+  "text": "Teachers ask for learning games. Readings: facts shown at checkpoint labels and the intro card, a process walked in order such as the water cycle (checkpoints as steps), or logical thinking (tactics boards). Ask 'What should students remember or be able to do?' with choices 'some facts', 'steps in the right order', 'think and plan'.",
+  "use_when": "Creator is a teacher or says learning or educational.",
+  "do": [
+   "Ask for the learning outcome",
+   "Use checkpoint order for processes",
+   "Keep labels under about 5 words"
+  ],
+  "avoid": [
+   "Long text on checkpoints that walking players cannot read",
+   "Quiz mechanics the engine lacks"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery",
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-thai-style",
+  "kind": "heuristic",
+  "title": "'Thai style' or 'แบบไทยๆ': temple, village, folklore, or festival",
+  "text": "Thai style can mean temple and palace architecture, village and farm life, folklore and ghosts, or festivals like Loy Krathong and Songkran. Ask 'Which Thai world?' with those four choices. Each picks a different model set and mood, and temples and ghosts bring cultural care rules.",
+  "use_when": "Concept says Thai or Thai style.",
+  "do": [
+   "Ask which Thai world",
+   "Pick matching models from the library",
+   "Apply temple and ghost care rules when relevant"
+  ],
+  "avoid": [
+   "Mixing sacred temple items with hazards",
+   "A generic pan-Asian look"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-wow",
+  "kind": "heuristic",
+  "title": "'Wow' or 'ว้าว' is sensation: views, light, or scale",
+  "text": "A creator wanting wow wants the sensation aesthetic. The engine delivers it through scale (huge scenery), light (neon, evening, night presets) and the void floor drop. Ask 'What should make players say wow?' with choices 'a huge creature or building', 'glowing lights', 'the floor dropping away'. Check light conditions: glow needs indoors or night.",
+  "use_when": "Creator says wow, amazing, or the Thai words for stunning.",
+  "do": [
+   "Pick one wow moment and stage it as a reveal",
+   "Check lighting against the venue"
+  ],
+  "avoid": [
+   "Spreading wow evenly so nothing stands out",
+   "Void floor for first-time VR players"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA; design practice"
+ },
+ {
+  "id": "un-word-together",
+  "kind": "heuristic",
+  "title": "'Play together' or 'เล่นด้วยกัน': race, shared floor, or taking turns",
+  "text": "Together can mean competing (online race with a leaderboard), sharing one space and seeing each other (shared floor with avatars), or a family taking turns while the others watch. Ask 'How should they play together?' with choices 'race each other', 'walk the same world at once', 'take turns and cheer'. The answer sets play_mode and safety spacing.",
+  "use_when": "Creator says together, with friends, family play, or the Thai words for together.",
+  "do": [
+   "Map to race, together, or solo turns with spectators",
+   "Check floor size for simultaneous walkers"
+  ],
+  "avoid": [
+   "Assuming together means everyone walking at once in a small room"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-default-session-minutes",
+  "kind": "default",
+  "title": "Default session length: 3 minutes at events, 5 at home or in class",
+  "text": "If session length is not given, use about 3 minutes for events and pop-ups where a queue waits, and 5 minutes for homes, classrooms and private play. First-time VR players and kids under 8 do best with short headset sessions. State it: 'I assumed about 3 minutes so the queue keeps moving; tell me if players can stay longer.'",
+  "use_when": "session_minutes is unknown when the interview stops.",
+  "do": [
+   "Set 3 for events, 5 otherwise",
+   "State the assumption in the summary"
+  ],
+  "avoid": [
+   "Defaulting to 15-minute sessions",
+   "Spending a question when the venue already implies the answer"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "kids",
+    "families"
+   ]
+  },
+  "source": "Meta VR comfort guidelines; design practice"
+ },
+ {
+  "id": "un-default-play-mode",
+  "kind": "default",
+  "title": "Default play mode follows group size and floor size",
+  "text": "If play mode is unknown: one player means solo; 2-4 players on an MR floor over 4 x 4 m means together (shared floor), or race if challenge was picked with fellowship; any group on a floor under 4 x 4 m means solo turns with a leaderboard. On PC, solo unless friends were mentioned. State the choice so the creator can switch it.",
+  "use_when": "play_mode is unknown and group size is known.",
+  "do": [
+   "Derive from group size, floor size and feelings",
+   "Prefer race when challenge and fellowship were both picked"
+  ],
+  "avoid": [
+   "Defaulting to race in a small room",
+   "Asking about play mode when the group is 1"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "groups",
+    "solo"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-default-lighting",
+  "kind": "default",
+  "title": "Default lighting: match the real light, not the theme wish",
+  "text": "If lighting was not discussed, choose from the venue: outdoors in daytime use noon or morning, indoors with steady light use default or studio, an indoor dark hall or evening event can use spooky, neon or night. Mention it only if it conflicts with the theme. On PC, pick the preset that best fits the theme mood.",
+  "use_when": "Choosing a lighting preset without an instruction from the creator.",
+  "do": [
+   "Read indoor and time_of_day first",
+   "Flag any conflict between theme and real light"
+  ],
+  "avoid": [
+   "Neon lighting outdoors at noon",
+   "Spending an interview question on lighting"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-default-difficulty",
+  "kind": "default",
+  "title": "Default difficulty: gentle start, one harder peak",
+  "text": "When difficulty is not specified, assume first-timers: the first 1-2 checkpoints or the first chapter have no hazards, hazards are spaced so a walking adult can step around them, and one climax is harder. For gamers or teens who picked challenge, raise hazard density and add a time limit. State 'I made it gentle at first; it is easy to make harder later.'",
+  "use_when": "Players' skill or the difficulty wish is unknown.",
+  "do": [
+   "Start gentle and ramp to one peak",
+   "Raise difficulty only for challenge plus experienced players"
+  ],
+  "avoid": [
+   "Uniform high difficulty",
+   "No ramp for first-time VR players"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "submission"
+   ],
+   "players": [
+    "first-time-vr",
+    "gamers"
+   ]
+  },
+  "source": "Csikszentmihalyi 1990, Flow"
+ },
+ {
+  "id": "un-default-constraints",
+  "kind": "default",
+  "title": "Default constraints: comfort and safety rules always apply",
+  "text": "If the creator lists no constraints, still write the standing ones into the brief: no sudden scares, a clear 1.2 m route, 0.6 m from the edge, nothing that needs looking up while walking fast, and no void floor for first-time players unless asked. Add age-based ones such as no real horror under 13. The creator should not have to ask for safety.",
+  "use_when": "constraints is empty when the interview ends.",
+  "do": [
+   "Write standing safety constraints explicitly",
+   "Add age-based constraints from the players field"
+  ],
+  "avoid": [
+   "Leaving constraints empty",
+   "Asking 'any constraints?' with no choices"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "first-time-vr"
+   ]
+  },
+  "source": "Meta MR safety guidelines; FortalLand engine"
+ },
+ {
+  "id": "un-default-vr-experience",
+  "kind": "default",
+  "title": "Default VR experience: first-time for public, schools and families",
+  "text": "If VR experience was not asked, assume first-time for events, schools, families and seniors, and some experience only for gamers or a creator who owns a Quest. First-time means short sessions, simple rules and no void floor. It is a safe default because experienced players still enjoy a clear game, while beginners suffer in a hard one.",
+  "use_when": "vr_experience is unknown.",
+  "do": [
+   "Default to first-time for public audiences",
+   "State it in the summary"
+  ],
+  "avoid": [
+   "Assuming gamer comfort for a school class"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "families",
+    "seniors",
+    "kids"
+   ]
+  },
+  "source": "Meta VR comfort guidelines"
+ },
+ {
+  "id": "un-default-concept-from-feelings",
+  "kind": "default",
+  "title": "Missing concept: propose a theme from feelings and players, not a blank",
+  "text": "Some creators know who plays and how it should feel but have no theme ('anything is fine'). Do not spend more questions; pick 3 different themes from the model library that suit the players and feelings and let each option carry one. The option pick then resolves the theme. Say the themes were AI suggestions.",
+  "use_when": "concept is empty or 'anything' after players and feelings are known.",
+  "do": [
+   "Let the 3 options carry 3 themes",
+   "Mark the concept as AI-suggested"
+  ],
+  "avoid": [
+   "Repeating 'what theme?' questions",
+   "One theme in three options"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-never-default-platform",
+  "kind": "principle",
+  "title": "Never default the platform",
+  "text": "MR and PC are different games: MR needs a real floor, walking and passthrough rules; PC has mouse and keyboard and no room. Guessing wrong wastes the whole design. If the creator has not said, ask in the first or second question with choices 'Quest headset walking a real floor', 'computer game', 'not sure'. If 'not sure', explain the difference in one line and ask again.",
+  "use_when": "platform is unknown.",
+  "do": [
+   "Ask platform early",
+   "Explain MR vs PC in plain words if unsure"
+  ],
+  "avoid": [
+   "Assuming MR because the product is about headsets",
+   "Proposing options before platform is set"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-never-default-mr-floor",
+  "kind": "principle",
+  "title": "Never default MR floor size, indoor or outdoor, or obstacles",
+  "text": "Real-space facts are safety facts: a guessed size can place a route through a wall or a table. Width, depth and indoor must come from the creator, and obstacles must be asked, with 'nothing inside' as a choice. If the creator cannot answer now, keep the brief open and say the game cannot be laid out until they measure or pace it.",
+  "use_when": "An MR brief is missing width_m, depth_m, indoor or obstacles.",
+  "do": [
+   "Ask, or ask them to pace it",
+   "Accept 'none' for obstacles only from the creator"
+  ],
+  "avoid": [
+   "Inventing a typical room size",
+   "Guessing indoors or outdoors from the theme"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta MR safety guidelines; FortalLand engine"
+ },
+ {
+  "id": "un-state-assumption-format",
+  "kind": "pattern",
+  "title": "State each assumption as value, reason and how to change it",
+  "text": "Assumptions are only useful if the creator can see and override them. Use one short form: 'I assumed 3 minutes because it is an event; tell me if players can stay longer.' Put it in the summary and repeat key ones in the prototype flow. Never present an assumption as something the creator said.",
+  "use_when": "Writing any defaulted value into the summary, options or prototype.",
+  "do": [
+   "Value, reason and override hint in one clause",
+   "Group several assumptions into one sentence"
+  ],
+  "avoid": [
+   "Presenting defaults as facts",
+   "Listing assumptions as technical field names"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-decision-provenance",
+  "kind": "pattern",
+  "title": "Track who decided each item: said, chose, inferred, or assumed",
+  "text": "Each brief value has a source: the creator said it in their own words, the creator chose it from offered choices, the AI inferred it from a card or a related answer, or the AI assumed a default. Said values are firmest; chosen values are firm but shaped by the choice list; inferred and assumed values must be shown back for confirmation. Never overwrite a said value with an inference.",
+  "use_when": "Building or updating the brief after each answer.",
+  "do": [
+   "Remember the source for every field",
+   "Surface inferred and assumed items in the summary"
+  ],
+  "avoid": [
+   "Treating an inference as the creator's decision",
+   "Overwriting creator-said values with defaults"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-confidence-levels",
+  "kind": "heuristic",
+  "title": "Confidence: high when stated, medium when inferred, low when assumed",
+  "text": "Use three levels. High: the creator stated or chose it and it fits the rest. Medium: inferred from a strong clue (a school class implies 7-12 year olds and many players). Low: a default with no clue. Option confidence should drop when key fields are low, and low fields are the first things to check in the prototype test_questions.",
+  "use_when": "Setting the confidence of options or deciding what to verify.",
+  "do": [
+   "Lower option confidence when players or feelings are assumed",
+   "Turn low-confidence fields into test_questions"
+  ],
+  "avoid": [
+   "High confidence on options built on defaults",
+   "Never reporting confidence"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-inference-from-clue",
+  "kind": "heuristic",
+  "title": "Infer a field only from a strong clue, and say so",
+  "text": "Some answers imply others: 'my 6-year-old's birthday party' implies kids, families, first-time VR and watching parents. Fill these in as inferred and mention them in the next why-line or the summary instead of asking separately. Do not infer from weak clues, such as guessing age from a theme; adults love dinosaurs too.",
+  "use_when": "An answer strongly implies another brief field.",
+  "do": [
+   "Fill obvious implications and mark them inferred",
+   "Confirm them in the summary instead of a new question"
+  ],
+  "avoid": [
+   "Inferring age from the theme",
+   "Silent inferences the creator never sees"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-surface-assumptions-in-options",
+  "kind": "pattern",
+  "title": "Each option names the assumption it depends on most",
+  "text": "If an option only works under an assumed fact, say so in its risks: 'Assumes 4 players at once; with 6 the route gets crowded.' The creator then picks with eyes open and sees which uncertainty matters. Options built on firm facts can carry higher confidence.",
+  "use_when": "Writing risks and confidence for each option.",
+  "do": [
+   "Name the key assumption in risks",
+   "Tie confidence to how many assumed facts the option uses"
+  ],
+  "avoid": [
+   "Hiding a fragile assumption inside a confident pitch"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-surface-assumptions-in-prototype",
+  "kind": "pattern",
+  "title": "Show remaining assumptions inside the prototype so comments can fix them",
+  "text": "The prototype is where the creator sees the game, so remaining uncertainty should be visible there: the assumed session length in the flow ('0:00' to '3:00'), the assumed play mode in the HUD (leaderboard or not), and the riskiest assumption in test_questions. A creator who sees a 3:00 finish will say if they wanted 10 minutes.",
+  "use_when": "Writing the prototype while some brief fields are assumed.",
+  "do": [
+   "Make assumed values visible in flow and HUD",
+   "Turn the riskiest assumption into a test question"
+  ],
+  "avoid": [
+   "Burying assumptions only in the brief JSON"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-resolve-via-prototype-comments",
+  "kind": "heuristic",
+  "title": "Leave low-stakes uncertainty for prototype comments",
+  "text": "Not everything must be settled in the interview. Cosmetic choices (palette, checkpoint names, music mood, exact theme details) are cheaper to settle by showing a prototype and letting the creator react, and reactions to a picture are more reliable than answers to abstract questions. Keep the interview for facts that change the genre or the safety of the layout.",
+  "use_when": "Deciding whether to ask now or show it in the prototype.",
+  "do": [
+   "Defer visual and naming choices to the prototype",
+   "Ask now only for structural and safety facts"
+  ],
+  "avoid": [
+   "Interview questions about colours",
+   "Deferring floor size to the prototype"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Fullerton, Game Design Workshop; design practice"
+ },
+ {
+  "id": "un-creator-decision-is-final",
+  "kind": "principle",
+  "title": "The creator decides; the AI mirrors and recommends",
+  "text": "The AI proposes and argues but never overrides a creator decision except for safety and engine limits. If the creator picks the option the AI scored lower, build it well. If a choice conflicts with safety (6 walkers in a small room), explain once, offer the safe version, then follow their decision within what is safe.",
+  "use_when": "Creator picks something the AI would not have picked.",
+  "do": [
+   "Explain trade-offs once, then follow the choice",
+   "Hold firm only on safety and engine limits"
+  ],
+  "avoid": [
+   "Re-arguing a decided item every turn",
+   "Quietly changing the creator's pick"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-change-log-between-versions",
+  "kind": "pattern",
+  "title": "When revising, say what changed and what stayed",
+  "text": "After a creator comment, the revised prototype should say in one line what changed and confirm what was kept: 'Made the boss bigger and the lighting neon; kept the route, story and 3-minute flow.' This keeps decisions traceable and reassures the creator that unmentioned parts were not lost.",
+  "use_when": "Producing a revised prototype or option after comments.",
+  "do": [
+   "List changes and keeps briefly",
+   "Keep unmentioned fields identical"
+  ],
+  "avoid": [
+   "Regenerating everything from scratch",
+   "Silent changes to the story or route"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-closest-buildable-alternative",
+  "kind": "principle",
+  "title": "For an impossible wish, find the feeling and offer the closest buildable thing",
+  "text": "Every impossible request hides a feeling: shooting means power and action, flying means freedom and wow, NPC chat means story. Name the limit in one line, then offer 1-2 buildable ways to reach the same feeling. The creator keeps the heart of their idea, and trust grows because nothing is promised that cannot be built.",
+  "use_when": "Any request for a mechanic the engine does not have.",
+  "do": [
+   "Say the limit plainly and kindly",
+   "Name the feeling behind the wish",
+   "Offer 1-2 buildable alternatives"
+  ],
+  "avoid": [
+   "A flat 'no'",
+   "Promising it and hoping the builder can fake it"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA; design practice"
+ },
+ {
+  "id": "un-conflict-priority-order",
+  "kind": "heuristic",
+  "title": "When wishes conflict, resolve in order: safety, audience, venue, feeling, theme",
+  "text": "Safety rules always win, then the audience's needs (age, VR experience), then what the real venue allows (size, light), then the chosen feelings, then theme details. Example: a neon theme in an outdoor noon garden for kids keeps the kids safe, uses a daylight version of the theme, and keeps the feeling. Explain which wish bent so the creator can change it.",
+  "use_when": "Two or more brief items cannot all be satisfied.",
+  "do": [
+   "Apply the priority order",
+   "Explain which wish bent and why"
+  ],
+  "avoid": [
+   "Serving the theme at the cost of safety",
+   "Not telling the creator what was sacrificed"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-conflict-many-players-tiny-space",
+  "kind": "pitfall",
+  "title": "Many players, small floor: rotate players, never shrink safety margins",
+  "text": "A class of 30 with a 4 x 4 m clear floor cannot have everyone walking. Offer 1-2 players at a time, 2-3 minute sessions, and the rest watching a leaderboard or cheering. Do not shrink the 1.2 m route or the 0.6 m edge margin to fit more people.",
+  "use_when": "Group size exceeds what the MR floor allows at once.",
+  "do": [
+   "Compute players at once from floor size",
+   "Use short sessions and a leaderboard for the waiting group"
+  ],
+  "avoid": [
+   "Crowding players onto one floor",
+   "Cutting safety margins"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "kids"
+   ]
+  },
+  "source": "Meta MR safety guidelines"
+ },
+ {
+  "id": "un-conflict-long-story-short-session",
+  "kind": "pitfall",
+  "title": "A long story in a 3-minute session: tell it in 5 beats",
+  "text": "Creators sometimes want an epic saga for an event booth. Compress it: a 2-4 sentence intro card, 5-7 checkpoint labels as story beats, and a finish that pays off the setup. Offer a longer home version with 8-10 checkpoints if the story matters more than queue speed.",
+  "use_when": "The narrative wish is big but the session is short.",
+  "do": [
+   "Fit the story into intro, labels and finish",
+   "Offer a longer variant if time allows"
+  ],
+  "avoid": [
+   "Text walls on the intro card",
+   "More than 10 checkpoints"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-same-option-three-skins",
+  "kind": "pitfall",
+  "title": "Do not hide uncertainty behind 3 skins of one idea",
+  "text": "When the brief is thin, it is tempting to give three similar options. That hides the open question. Instead let each option take a different reading of the uncertain part (adventure as discovery, as narrative, as challenge), in 3 different genres. The creator's pick then resolves the uncertainty.",
+  "use_when": "Writing options from a brief with an ambiguous feeling or concept.",
+  "do": [
+   "Map each reading of the ambiguity to one option",
+   "Use different genres and axes"
+  ],
+  "avoid": [
+   "Three runners with different colours",
+   "Options that differ only in theme"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-conflict-brand-vs-audience",
+  "kind": "pitfall",
+  "title": "Brand wants the product everywhere, players want a game: one hero moment",
+  "text": "Brand creators may ask for the product on every checkpoint. Too much placement turns a game into an ad and players disengage. Offer one hero moment (the product as the finish portal setting or the boss arena centrepiece) plus brand colours in the palette. Explain the trade-off and let the brand choose.",
+  "use_when": "A brand creator asks for heavy product placement.",
+  "do": [
+   "Offer one hero placement and brand colours",
+   "Explain why less placement keeps players engaged"
+  ],
+  "avoid": [
+   "Product on every checkpoint",
+   "Inventing logos or slogans"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-novice-creator",
+  "kind": "heuristic",
+  "title": "Novice creator: plain words, examples in choices, no jargon",
+  "text": "Most creators have never designed a game. Use everyday words ('race friends', not 'fellowship'), put concrete examples inside choices, and keep why-lines short. Offer a 'pick for me' choice on non-safety questions. Novices answer pictures and examples better than abstract categories.",
+  "use_when": "Creator writes short or vague answers, or says they are new to this.",
+  "do": [
+   "Use everyday language and examples",
+   "Offer 'pick for me' where defaults exist"
+  ],
+  "avoid": [
+   "MDA terms or 'core loop' in questions",
+   "Long multi-part questions"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Fullerton, Game Design Workshop; design practice"
+ },
+ {
+  "id": "un-experienced-creator",
+  "kind": "heuristic",
+  "title": "Experienced creator: accept precise specs, ask only the gaps",
+  "text": "A creator who speaks in mechanics and numbers ('6 checkpoints, 90 second limit, race mode') has already resolved much uncertainty. Accept their values, skip covered questions, and spend the rest on venue and audience facts they may have missed, often spectators and obstacles. Show trade-offs directly and use the terms they use.",
+  "use_when": "Creator uses design vocabulary or gives exact specs.",
+  "do": [
+   "Fill fields from their spec at once",
+   "Ask only the gaps"
+  ],
+  "avoid": [
+   "Re-asking what they already specified",
+   "Over-explaining basics"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "gamers",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-kid-creator",
+  "kind": "heuristic",
+  "title": "Kid creator designing for themselves: short, playful, decisive",
+  "text": "Children often design for themselves and friends. Keep questions very short, use playful choices, accept big imagination and map it to buildable pieces. For MR, phrase floor and safety questions so a grown-up can help ('Ask a grown-up to count steps across the room').",
+  "use_when": "The creator writes like a child or says they are a kid.",
+  "do": [
+   "Very short questions with playful choices",
+   "Invite a grown-up for measuring",
+   "Turn wild ideas into checkpoints and scenery"
+  ],
+  "avoid": [
+   "Personal questions",
+   "Crushing an idea without an alternative"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-teacher-creator",
+  "kind": "heuristic",
+  "title": "Teacher creator: ask the learning outcome and how the class rotates",
+  "text": "Teachers need a game that teaches something and works for a whole class. The two most valuable questions are the learning outcome and how many play at once versus how many wait. Default short sessions (2-3 minutes) and a leaderboard or watching role for waiting students. Never ask about individual students.",
+  "use_when": "Creator is a teacher or mentions a class or lesson.",
+  "do": [
+   "Ask the learning outcome",
+   "Plan rotation for a whole class",
+   "Keep checkpoint labels short and factual"
+  ],
+  "avoid": [
+   "Asking for the school name",
+   "Forgetting the students who are waiting"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-event-organiser-creator",
+  "kind": "heuristic",
+  "title": "Event organiser: queue speed, spectators and very few rules",
+  "text": "Event and booth organisers care about queue speed, a game that explains itself in seconds, and something the crowd can watch. Default 2-3 minute sessions, 1-2 rules, a leaderboard on a screen, and key moments on the audience side. Ask visitors per hour only if session length is unclear.",
+  "use_when": "Creator mentions an event, booth, festival, mall or pop-up.",
+  "do": [
+   "Default short sessions and few rules",
+   "Plan for spectators and a leaderboard"
+  ],
+  "avoid": [
+   "Long narrative sessions at a busy booth",
+   "Rules that need staff to explain"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "families",
+    "first-time-vr",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-brand-creator",
+  "kind": "heuristic",
+  "title": "Brand creator: ask brand rules once, early, and store them as constraints",
+  "text": "A brand or sponsor brings rules: colours, product presence, words to avoid, audience age. Ask once for must-haves and must-nots with choices like 'brand colours', 'product appears in the game', 'no competitor themes', 'nothing scary'. Store them as constraints. Do not invent logos; scenery uses library models and the palette can follow brand colours.",
+  "use_when": "Creator represents a company, product or sponsor.",
+  "do": [
+   "Ask brand must-haves and must-nots",
+   "Store them in constraints",
+   "Use brand colours in the palette"
+  ],
+  "avoid": [
+   "Inventing logos or slogans",
+   "Discovering brand rules only at the prototype"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-cultural-thai-ghosts-for-kids",
+  "kind": "pitfall",
+  "title": "Thai ghosts for kids: friendly versions only, and check first",
+  "text": "Thai folk ghosts such as Krasue or Pret can genuinely frighten Thai children who grew up with the stories. For kids, use friendly cartoon versions, warm lighting, and story roles where the ghost is helped or befriended. Ask the creator whether ghosts are fine for these children before using them.",
+  "use_when": "A Thai ghost theme with kids or families.",
+  "do": [
+   "Ask if ghosts are fine for these kids",
+   "Use friendly ghost roles and warm light"
+  ],
+  "avoid": [
+   "Scary ghost models near young children",
+   "Ghosts as chasing threats"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-cultural-temple-respect",
+  "kind": "pitfall",
+  "title": "Temples and Buddha images: never hazards, enemies or things to step on",
+  "text": "Temple themes are popular, but sacred items must be treated with respect. Never make a Buddha image, a monk or a sacred object a hazard, an enemy, or something on the walking floor that players step over. Use temples as backdrops and destinations, and keep Buddha images out of play unless the creator wants a respectful tour.",
+  "use_when": "Theme includes temples, wat, Buddha images or monks.",
+  "do": [
+   "Use temples as backdrops and respectful checkpoints",
+   "Ask the creator about sensitivities"
+  ],
+  "avoid": [
+   "Hazards or enemies next to sacred items",
+   "Sacred images at foot level on the route"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-vague-comment-cooler",
+  "kind": "heuristic",
+  "title": "'Make it cooler' or 'เท่กว่านี้': look, action, or scale",
+  "text": "'Cooler' usually means a stronger look (lighting, palette, hero scenery), more action (more hazards, a time limit, a tougher boss), or bigger scale (giant models, the void drop). Offer these three as quick choices, or change the one most likely from the chosen feelings and say which you changed.",
+  "use_when": "Creator comments 'cooler', 'more badass' or the Thai equivalent on a prototype.",
+  "do": [
+   "Offer look, action or scale as choices",
+   "Change one dimension and name it"
+  ],
+  "avoid": [
+   "Changing everything at once",
+   "Changing the route when they meant visuals"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-vague-comment-not-wow",
+  "kind": "heuristic",
+  "title": "'Not very wow' or 'ไม่ค่อยว้าว': add one stronger reveal moment",
+  "text": "This comment means sensation lacks a peak. Pick one moment, usually the climax panel or the finish portal, and make it bigger: a giant hero model revealed around a turn, a lighting change at the boss, or a void drop at the end for experienced players. Keep everything else and point to the changed panel.",
+  "use_when": "Creator says it is visually flat, not wow, or too ordinary.",
+  "do": [
+   "Strengthen one reveal moment",
+   "Name which panel changed"
+  ],
+  "avoid": [
+   "Adding scenery everywhere until the route is cluttered",
+   "Rewriting the story"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-vague-comment-boring",
+  "kind": "heuristic",
+  "title": "'Boring' or 'น่าเบื่อ': find whether pacing, choice or stakes is missing",
+  "text": "Boredom has three common causes: nothing changes over time (pacing), the player has nothing to decide (choice), or nothing is at risk (stakes). Fix with a ramp of hazards across the session, a planning element such as a tactics board, or a time limit and leaderboard. If the comment is general, ask which part felt boring.",
+  "use_when": "Creator calls the prototype boring or slow.",
+  "do": [
+   "Ask which part felt boring",
+   "Add pacing, choice or stakes in that part"
+  ],
+  "avoid": [
+   "Only adding decoration",
+   "Making it hard for first-time players"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "Koster, A Theory of Fun; design practice"
+ },
+ {
+  "id": "un-vague-comment-too-hard",
+  "kind": "heuristic",
+  "title": "'Too hard' or 'ยากไป': lower one difficulty lever, not all",
+  "text": "Difficulty has levers: hazard count and spacing, time limit, guard speed on a tactics board (keep 3 s or slower), enemy count per battle chapter. Lower the lever the comment points to, or the one that hurts first-timers most, usually the time limit. Keep the climax so the game still has a peak.",
+  "use_when": "Creator or a playtester says it is too hard.",
+  "do": [
+   "Change one lever and say which",
+   "Keep one harder moment"
+  ],
+  "avoid": [
+   "Removing all hazards",
+   "Changing the theme"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "submission"
+   ],
+   "players": [
+    "first-time-vr",
+    "kids"
+   ]
+  },
+  "source": "Csikszentmihalyi 1990, Flow"
+ },
+ {
+  "id": "un-vague-comment-more-thai",
+  "kind": "heuristic",
+  "title": "'Make it more Thai': change scenery, labels and palette, keep mechanics",
+  "text": "This is a theme comment. Add or swap Thai library models (temples, village, festival props), Thai-flavoured checkpoint labels, and a palette with gold, red and deep green, and leave route, genre and rules untouched. Apply the temple respect rules.",
+  "use_when": "Creator asks for more Thai flavour after seeing a prototype.",
+  "do": [
+   "Change scenery, labels and palette",
+   "Keep the route and mechanics"
+  ],
+  "avoid": [
+   "Changing the genre",
+   "Sacred items as hazards"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-keep-unmentioned",
+  "kind": "principle",
+  "title": "Change what the comment names, keep everything it does not",
+  "text": "A creator who comments on the boss did not ask to change the route, story or palette. Keep all unmentioned parts exactly, because they are implicitly approved. If a requested change forces another (a bigger boss arena needs more space), say so in one line.",
+  "use_when": "Applying any comment to a prototype.",
+  "do": [
+   "Change only the named parts",
+   "Explain any forced side effect"
+  ],
+  "avoid": [
+   "Regenerating the whole prototype",
+   "Renaming characters the creator liked"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-comment-to-concrete-change",
+  "kind": "pattern",
+  "title": "Turn each comment into a concrete engine-level change",
+  "text": "Map every comment to something the builder can do: a lighting preset, checkpoint count or labels, hazard count and placement, time limit, scenery models, play mode. 'More spooky' becomes spooky lighting and ghost lantern models; 'longer' becomes 2 more checkpoints and a 5-minute flow. Write the mapping so the creator sees exactly what will change.",
+  "use_when": "Interpreting any prototype comment.",
+  "do": [
+   "Name the engine field that changes",
+   "Use numbers (2 more checkpoints, a 60 s limit)"
+  ],
+  "avoid": [
+   "Vague promises like 'more atmosphere'",
+   "Changes outside the engine's abilities"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-ask-once-on-ambiguous-comment",
+  "kind": "heuristic",
+  "title": "If a comment has two very different readings, ask one quick question",
+  "text": "Most comments can be applied with a stated interpretation, but some split badly: 'make it bigger' can mean bigger models or a longer route, which affects safety in MR. When readings lead to very different builds, ask one tappable question; when they are close, apply the likely one and say so.",
+  "use_when": "A comment is ambiguous and its readings diverge.",
+  "do": [
+   "Ask once with 2-4 choices when readings diverge",
+   "Otherwise apply and state the interpretation"
+  ],
+  "avoid": [
+   "A question for every comment",
+   "Guessing on a safety-relevant comment"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-playtest-questions-from-uncertainty",
+  "kind": "pattern",
+  "title": "Write test_questions from the biggest remaining uncertainty",
+  "text": "The prototype's test_questions should target what is still uncertain, not what is known. If difficulty for 6-year-olds was assumed, ask 'Can a 6-year-old step out of the rings in time?' If daylight readability is a risk, ask 'Are the red hazards visible in afternoon sun?' This carries design as uncertainty reduction into real play.",
+  "use_when": "Writing test_questions for the prototype.",
+  "do": [
+   "Pick the 2-4 riskiest assumptions",
+   "Phrase each as an observable yes or no question"
+  ],
+  "avoid": [
+   "Generic 'Is it fun?'",
+   "Questions about things already decided"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Fullerton, Game Design Workshop; design practice"
+ },
+ {
+  "id": "un-question-feelings-plain",
+  "kind": "question",
+  "title": "Ask feelings with plain, picture-like choices",
+  "text": "Instead of MDA names, write choices like 'Wow, beautiful sights' (sensation), 'Be a hero or a monster' (fantasy), 'A story with an ending' (narrative), 'Hard, needs skill' (challenge), 'Play with friends' (fellowship), 'Find secrets' (discovery), 'Show off a high score' (expression), 'Relax, easy fun' (submission). Offer the 6 most relevant to the concept and ask for up to 3.",
+  "use_when": "Asking the feelings question.",
+  "do": [
+   "Translate MDA into plain choices",
+   "Ask for up to 3 with multi true"
+  ],
+  "avoid": [
+   "Showing English MDA terms to Thai novices",
+   "All 8 when the concept rules some out"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fantasy",
+    "narrative",
+    "challenge",
+    "fellowship",
+    "discovery",
+    "expression",
+    "submission"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+ },
+ {
+  "id": "un-question-players-age",
+  "kind": "question",
+  "title": "Ask age as bands that change the design",
+  "text": "Use bands where design rules change: 'under 7', '7-12', 'teens', 'adults', 'mixed families', 'seniors'. Each band shifts scariness limits, hazard spacing, label length and session length. Do not ask exact ages or names.",
+  "use_when": "The players field is unknown or only says 'people'.",
+  "do": [
+   "Use design-relevant age bands",
+   "Include mixed families when relevant"
+  ],
+  "avoid": [
+   "Exact ages",
+   "Bands that do not change the design"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "teens",
+    "adults",
+    "families",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-question-spectators",
+  "kind": "question",
+  "title": "Ask who watches and from where, with 'nobody' as a choice",
+  "text": "In MR, spectators shape where key moments go. Ask 'Who watches from the side?' with choices 'parents', 'friends waiting their turn', 'passers-by', 'nobody'. If someone watches, ask or assume the side they stand on so the finish and a key dodge face them. Skip this on PC.",
+  "use_when": "MR brief with unknown spectators, especially events and families.",
+  "do": [
+   "Include 'nobody'",
+   "Note the side they stand on"
+  ],
+  "avoid": [
+   "Asking it on PC",
+   "Designing for spectators who do not exist"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-question-not-sure-handling",
+  "kind": "pattern",
+  "title": "When the creator says 'not sure', default or narrow, never repeat",
+  "text": "A 'not sure' or 'up to you' answer is information: the creator does not care strongly or lacks the knowledge. For defaultable fields, apply the default and state it. For required fields like MR floor size, narrow with familiar comparisons ('About a classroom? A living room? A badminton court?'). Never ask the identical question twice.",
+  "use_when": "Creator taps or types not sure, up to you, or the Thai equivalents.",
+  "do": [
+   "Default optional fields",
+   "Reframe required fields with familiar comparisons"
+  ],
+  "avoid": [
+   "Repeating the same question",
+   "Treating 'up to you' as a firm decision on a safety fact"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-question-free-text-answer",
+  "kind": "heuristic",
+  "title": "Read free-typed answers for several fields at once",
+  "text": "Creators often type more than was asked: 'my class of 25 kids, in the gym after lunch'. Extract every field it covers (players, group size, venue, indoor, time of day) and skip those questions, then ask about the most valuable remaining gap. Confirm the extracted facts in the next why-line or the summary.",
+  "use_when": "Creator types a long free answer instead of tapping a choice.",
+  "do": [
+   "Extract all fields mentioned",
+   "Skip questions already answered"
+  ],
+  "avoid": [
+   "Asking about what they just told you",
+   "Ignoring details outside the current question"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-pc-skip-space-questions",
+  "kind": "heuristic",
+  "title": "On PC, skip real-space questions and spend the budget on players and feelings",
+  "text": "When the platform is PC there is no real room: floor size, indoor, obstacles, venue and spectator side are not asked and not set. Use the saved questions to sharpen the genre: what kind of challenge, how long, solo or with friends watching the screen.",
+  "use_when": "platform is pc.",
+  "do": [
+   "Skip venue, size, obstacles and indoor",
+   "Ask about the kind of challenge and session instead"
+  ],
+  "avoid": [
+   "Asking floor size for a PC game",
+   "Setting width_m on PC"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-question-order-by-dependency",
+  "kind": "heuristic",
+  "title": "Order questions so early answers prune later ones",
+  "text": "Ask platform first because PC removes all space questions. Ask players before feelings because age limits what feelings fit (no real horror for 6-year-olds). Ask the MR floor before session and play mode because size caps players at once. A good order often lets the interview finish in 4-5 questions.",
+  "use_when": "Planning the sequence of the interview.",
+  "do": [
+   "Platform, then players, then feelings, then space",
+   "Skip whatever earlier answers already settled"
+  ],
+  "avoid": [
+   "Asking session length before knowing the venue",
+   "Asking feelings before players"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-example-full-vague-brief",
+  "kind": "example",
+  "title": "Worked example: 'a fun ghost game for my kid's party' resolved in 5 questions",
+  "text": "Start (typed in Thai): 'a fun ghost game for my kid's birthday'. Inferred: kids, families, first-time VR, parents watching. Q1 platform: MR. Q2 age band: 5-7. Q3 how scary: 'spooky but fun' (resolves the conflict). Q4 floor: living room 4 x 5 m, with Q5 obstacles: a sofa on one side, so 4 x 3.5 m usable. Defaults stated: 3 minutes, solo turns with a leaderboard, evening lighting indoors, no sudden scares.",
+  "use_when": "A brief starts with several vague words and a child audience.",
+  "do": [
+   "Infer from strong clues",
+   "Resolve the conflict with a scale question",
+   "State all defaults in the summary"
+  ],
+  "avoid": [
+   "Asking more than 7 questions",
+   "Using real horror"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fantasy",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-for-all-ages",
+  "kind": "heuristic",
+  "title": "'Fun for everyone' or 'เล่นได้ทุกวัย': mixed ages playing together, or a wide public audience",
+  "text": "'For everyone' can mean a family where a 6-year-old and a grandparent play the same session, or a public booth where any single visitor of any age walks in. For mixed groups, design the floor for the youngest and add an optional harder layer (time bonus, leaderboard) for older players. For a wide public, pick the safest settings: first-time VR, no void floor, 3 minutes, 1-2 rules. Ask 'Will different ages play at the same time, or one visitor at a time?'",
+  "use_when": "Creator says for everyone, all ages, family-friendly, or the Thai for all ages.",
+  "do": [
+   "Design difficulty for the youngest likely player",
+   "Add an optional score layer for older players"
+  ],
+  "avoid": [
+   "Averaging difficulty so it suits nobody",
+   "Scary themes for an all-ages audience"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "kids",
+    "seniors",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-intense-action",
+  "kind": "heuristic",
+  "title": "'มันส์' or 'action-packed': fighting, high pace, or head-to-head",
+  "text": "The Thai word in the title means intense, energetic fun. It can mean constant action (battle with many grunts per chapter and falling warning rings), high pace with no pauses (a runner with a tight time limit and checkpoints close together), or the buzz of competing live (race mode with a leaderboard the crowd watches). Ask 'What makes it intense?' with choices 'slashing lots of enemies', 'non-stop rushing', 'beating friends'. In MR, intensity comes from density and timing, never from running.",
+  "use_when": "Creator says action-packed, hype, intense, or the Thai word for it.",
+  "do": [
+   "Ask which source of intensity",
+   "Raise density and tempo, keep walking pace"
+  ],
+  "avoid": [
+   "Making MR players run",
+   "Long story pauses in an action brief"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "Swink, Game Feel; Meta MR safety guidelines"
+ },
+ {
+  "id": "un-word-relaxing",
+  "kind": "heuristic",
+  "title": "'Relaxing' or 'ชิลๆ': no pressure, beautiful stroll, or light easy goals",
+  "text": "'Chill' points to the submission aesthetic, but it can mean no failure pressure (no hazards, no time limit), a beautiful walk to look at (sensation: a scenic route with evening or morning light), or a small casual goal (touch 5 friendly checkpoints). Ask 'Chill like...?' with choices 'a pretty walk', 'easy goals, no losing', 'calm with a little surprise'. A tour or explore loop on the runner usually fits; battle rarely does.",
+  "use_when": "Creator says relaxing, chill, calm, or the Thai word for chill.",
+  "do": [
+   "Remove time limits and most hazards",
+   "Invest in scenery and light along a loop"
+  ],
+  "avoid": [
+   "Adding a boss to a chill brief",
+   "A void floor, which is not relaxing for many"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission",
+    "sensation",
+    "discovery"
+   ],
+   "players": [
+    "seniors",
+    "families",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-competitive",
+  "kind": "heuristic",
+  "title": "'Competitive' or 'แข่งกัน': live race, best time, or best score",
+  "text": "Competition can be a live race against people in the room or online (race mode), a personal best against the clock (time limit plus leaderboard), or a score fight where fewer hazard hits wins (score: checkpoint +100, hazard -25). Ask 'Who do they compete against?' with choices 'each other at the same time', 'the clock', 'the high score of the day'. Tactics boards also race on time with a leaderboard.",
+  "use_when": "Creator says competitive, versus, race, or the Thai word for compete.",
+  "do": [
+   "Pick live race, timed run or score as the frame",
+   "Show the leaderboard on a screen for spectators"
+  ],
+  "avoid": [
+   "Live races in a floor under 4 x 4 m",
+   "Competition with no visible ranking"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship",
+    "expression"
+   ],
+   "players": [
+    "teens",
+    "gamers",
+    "groups"
+   ]
+  },
+  "source": "Caillois 1961, Man, Play and Games (agon); FortalLand engine"
+ },
+ {
+  "id": "un-word-story",
+  "kind": "heuristic",
+  "title": "'With a story' or 'มีเรื่องราว': a goal with a reason, a journey of beats, or a twist",
+  "text": "'A story' can be light (a clear reason for the goal on the intro card: 'Return the lost lanterns'), a journey of beats (every checkpoint label is a story step leading to an ending), or a reveal (the finish or boss changes what the player thought). Ask 'How much story?' with choices 'just a reason to play', 'a story step at every stop', 'a surprise ending'. The engine tells stories only through the intro, labels, scenery and the finish.",
+  "use_when": "Creator says story, plot, narrative, or the Thai words for it.",
+  "do": [
+   "Ask how much story",
+   "Use intro card, labels and scenery as the only story channels"
+  ],
+  "avoid": [
+   "Promising cutscenes or dialogue",
+   "Long intro text players will skip"
+  ],
+  "tags": {
+   "phase": [
+    "interview"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine; design practice"
+ },
+ {
+  "id": "un-word-realistic",
+  "kind": "pitfall",
+  "title": "'Realistic' or 'สมจริง': the art is always stylized, so find what should feel real",
+  "text": "Everything is stylized low-poly, flat shaded, so photoreal looks are not possible. 'Realistic' usually means believable scale (models at true 1:1 size, a house that is house-sized), real physical effort (walking the real floor in MR already gives this), or a real place or process (a local market, a real temple layout, the real order of steps). Say the style limit in one line, then ask which kind of real matters.",
+  "use_when": "Creator says realistic, real, lifelike, or the Thai word for realistic.",
+  "do": [
+   "State that the art is stylized low-poly",
+   "Offer believable scale, real walking or a real-world sequence"
+  ],
+  "avoid": [
+   "Promising photoreal graphics",
+   "Copying a real brand's building or logo"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "narrative",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-word-ip-reference",
+  "kind": "pitfall",
+  "title": "'Like Pokemon', 'like Fortnite', 'like Roblox': borrow the feeling, never the IP",
+  "text": "Famous franchise names point to a feeling: Pokemon to cute creatures and discovery, Fortnite to competing and bright action, Roblox to playful blocky worlds. The engine cannot copy their mechanics (no creature catching, no shooting, no building), and their characters, names and logos are owned by others. Ask what part they love, then offer original creatures from the model library, a race or battle for competition, and a bright toy-like theme. Write original names in the brief and prototype.",
+  "use_when": "Creator names a franchise, its characters, or asks to use them.",
+  "do": [
+   "Name the limit kindly: we make our own characters",
+   "Map the loved part to a genre and theme"
+  ],
+  "avoid": [
+   "Franchise names, characters or logos in labels or key art",
+   "Promising catching, shooting or building"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-word-unique",
+  "kind": "heuristic",
+  "title": "'Something new' or 'แปลกใหม่': new place, new twist on the room, or new rule",
+  "text": "Novelty can come from an unusual theme (an underwater temple, a candy volcano), from using the real space in a surprising way (the real walls as the edge of a cliff, the void floor under a classroom), or from an unusual combination of engine rules (a tactics board as a heist). Ask 'New in what way?' with choices 'a world nobody has seen', 'surprise the room itself', 'a twist in how you play'. Never solve novelty with mechanics the engine lacks.",
+  "use_when": "Creator says unique, original, never seen before, or the Thai word for novel.",
+  "do": [
+   "Ask where the novelty should live",
+   "Use the real surroundings as a source of surprise in MR"
+  ],
+  "avoid": [
+   "Inventing new mechanics to be novel",
+   "Novelty that confuses first-time players"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery",
+    "sensation",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-vague-comment-looks-plain",
+  "kind": "heuristic",
+  "title": "'Looks plain' or 'ดูธรรมดา': add a hero piece and contrast, not clutter",
+  "text": "Plainness is usually a missing focal point or flat colour, not too few objects. Add one hero piece seen from the spawn (a giant statue, a dragon, a tower), raise palette contrast between the floor and the route, and group decor into 2-3 vignettes along the route. In MR, keep the 1.2 m route clear while adding. Say which of these you changed.",
+  "use_when": "Creator says the prototype looks plain, ordinary, or the Thai equivalent.",
+  "do": [
+   "Add one hero piece visible from the spawn",
+   "Increase contrast between route and ground",
+   "Group decor into vignettes"
+  ],
+  "avoid": [
+   "Scattering more props everywhere",
+   "Blocking the walking route"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-vague-comment-scarier",
+  "kind": "heuristic",
+  "title": "'Make it scarier' or 'อยากให้น่ากลัวกว่านี้': darker mood and dread, within age and safety",
+  "text": "First check the players: for kids, scarier should mean spookier, not frightening. Levers: lighting preset from evening to spooky or night (only indoors or after dark in MR), scarier Thai ghost or haunted models along the route, a darker palette, and story labels that build dread toward the finish. No sudden scares and nothing that makes players run.",
+  "use_when": "Creator asks for more scary after seeing a prototype.",
+  "do": [
+   "Check player age first",
+   "Change lighting, models, palette or labels and name which"
+  ],
+  "avoid": [
+   "Jump scares in MR",
+   "Night lighting outdoors in daylight"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fantasy",
+    "narrative"
+   ],
+   "players": [
+    "teens",
+    "adults",
+    "kids"
+   ]
+  },
+  "source": "Meta MR safety guidelines; FortalLand engine"
+ },
+ {
+  "id": "un-vague-comment-colours",
+  "kind": "heuristic",
+  "title": "'The colours are not nice' or 'สีไม่สวย': ask which way, then change the palette only",
+  "text": "Colour complaints can mean too dull, too loud, wrong mood, or not matching a brand. Offer 3-4 alternative palettes as tappable choices (warm, cool, pastel, high contrast), each with 4-6 named colours, or ask 'More bright, more soft, or more dark?'. Change only the palette and the lighting preset if needed; keep the route, story and scenery. In MR outdoors, keep enough contrast for sunlight.",
+  "use_when": "Creator dislikes the colours of the prototype.",
+  "do": [
+   "Offer 3-4 palette alternatives",
+   "Change only palette and maybe lighting"
+  ],
+  "avoid": [
+   "Changing the theme or models for a colour comment",
+   "Low-contrast pastel for outdoor daylight"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "un-comment-can-kids-play",
+  "kind": "pattern",
+  "title": "'Can kids play this?' or 'เด็กจะเล่นได้ไหม': answer with a checklist, then adjust",
+  "text": "Treat this as a concern, not a change request. Check and report: rules fit in 1-2 short lines, checkpoint labels under about 5 words, hazards spaced for small steps, no time limit or a generous one, session 3 minutes or less for under-8s, no scary or void moments, and the route clear by 1.2 m. Fix any item that fails and say which ones, and add a playtest question like 'Can a 6-year-old finish without help?'",
+  "use_when": "Creator asks whether children can play the prototype.",
+  "do": [
+   "Run the kid checklist and report each item",
+   "Fix failing items and add a playtest question"
+  ],
+  "avoid": [
+   "Just answering yes",
+   "Making it babyish when the kids are 10-12"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "families",
+    "first-time-vr"
+   ]
+  },
+  "source": "Meta VR comfort guidelines; design practice"
+ },
+ {
+  "id": "un-vague-comment-too-long",
+  "kind": "heuristic",
+  "title": "'Too long' or 'ยาวไป': cut checkpoints or chapters, keep the climax",
+  "text": "Length comes from checkpoint count, route length, the time limit, and battle chapters. Cut from the middle: remove 1-2 middle checkpoints or one chapter, shorten the route, and keep the opening and the climax. Update the flow so the new session length is visible ('ends at 2:30'). If 'too long' meant the intro text, shorten the story to 2 sentences instead.",
+  "use_when": "Creator says the game or intro is too long.",
+  "do": [
+   "Ask or infer: the play or the text",
+   "Cut middle content, keep start and climax",
+   "Show the new length in the flow"
+  ],
+  "avoid": [
+   "Cutting the finish or boss",
+   "Fewer than 4 checkpoints in a runner"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "un-vague-comment-confusing",
+  "kind": "heuristic",
+  "title": "'Confusing' or 'งงๆ': find whether the goal, the order, or the danger is unclear",
+  "text": "Players get lost in three ways: they do not know the goal (fix the goal line and intro to one sentence), they do not know where to go next (fix checkpoint order with a clearer route shape and visible next stop), or they do not understand what hurts them (make hazards look like hazards and say so in the rules). Ask which part was confusing if unclear, and simplify rules to 1-3 lines.",
+  "use_when": "Creator or playtester says it is confusing or hard to understand.",
+  "do": [
+   "Locate the confusion: goal, order or danger",
+   "Shorten rules to 1-3 lines"
+  ],
+  "avoid": [
+   "Adding more text to explain",
+   "Adding features to fix confusion"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "kids",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ }
+]

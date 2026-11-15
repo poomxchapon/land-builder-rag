@@ -1,0 +1,3314 @@
+[
+ {
+  "id": "pt-pal-temple-night-festival",
+  "kind": "palette",
+  "title": "Thai temple night festival: gold, deep indigo, lantern orange",
+  "text": "Palette: #1f1b4d night indigo, #d4a017 temple gold, #f28c28 lantern orange, #2e8b57 banyan green, #e0262b hazard red. Reads best indoors or after dark: the gold and lantern orange glow against indigo. In MR daylight the indigo turns grey and the gold looks flat, so switch the lighting preset to evening and lean on gold rather than glow. The hazard colour #e0262b (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A Thai temple fair, wat at night, merit-making festival, naga and temple scenery",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-himmaphan, Thai temples from Thai Halloween",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fantasy",
+    "narrative"
+   ],
+   "players": [
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-songkran-water",
+  "kind": "palette",
+  "title": "Songkran water fight: splash cyan, white, sunny yellow",
+  "text": "Palette: #19b5e6 splash cyan, #f7f7f2 powder white, #ffd23f sunny yellow, #ff6fa8 flower pink, #d7263d hazard red. Made for MR daylight outdoors: high-value cyan and yellow survive bright sun, and white reads as wet stone. Indoors under warm light it still works but tone the white to cream so it does not glare in the headset. The hazard colour #d7263d (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A Songkran, water, summer splash or beach festival brief, especially outdoor and noon",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-village, ow-reef props, bazaar stalls",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-loy-krathong",
+  "kind": "palette",
+  "title": "Loy Krathong lanterns: river navy, candle amber, banana-leaf green",
+  "text": "Palette: #0f2a44 river navy, #ffb547 candle amber, #5c9e31 banana leaf, #f4e3b1 lotus cream, #ff3b30 hazard red. An indoor or night palette: amber lights only read against the dark navy. Outdoors at noon the amber looks like plain yellow, so for daytime venues raise the cream and green and treat the lanterns as shapes, not light. The hazard colour #ff3b30 (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A floating lantern, river, krathong, calm night or wish-making story",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-lotuscity, ow-garden, Thai temple scenery",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "narrative",
+    "sensation"
+   ],
+   "players": [
+    "families",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-thai-ghost",
+  "kind": "palette",
+  "title": "Thai ghost spooky: moss green, bone white, incense purple",
+  "text": "Palette: #1b2a1f night moss, #e8e2cf bone white, #6b3fa0 incense purple, #9fd36b ghost-light green, #ff2e2e hazard red. Only for indoors or after dark: the dark moss base disappears in daylight and the ghost-light green needs shadow to glow. Bone white keeps silhouettes readable so it stays fun rather than truly scary for kids. The hazard colour #ff2e2e (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A Thai ghost story (phi krasue, phi pop, haunted temple), Halloween-style but Thai",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: Thai Halloween ghosts, ow-witchmarsh",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative",
+    "challenge"
+   ],
+   "players": [
+    "teens",
+    "adults",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-candy",
+  "kind": "palette",
+  "title": "Candy land: bubblegum pink, mint, lemon, chocolate",
+  "text": "Palette: #ff8fc7 bubblegum, #8ef0c8 mint, #fff07a lemon, #6b3e26 chocolate, #e4002b cherry hazard. Works in both MR daylight and indoors because all tones are light and saturated. The chocolate brown gives the dark anchor that pastels need, otherwise the frame looks washed out. The hazard colour #e4002b (cherry hazard) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A sweet, cute, candy or dessert world for young kids",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-candy, ow-carnival",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "sensation",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-ice-cave",
+  "kind": "palette",
+  "title": "Ice cave: glacier blue, frost white, deep cobalt",
+  "text": "Palette: #a8e6ff glacier blue, #f2fbff frost white, #1d3f8f deep cobalt, #7a5cff aurora violet, #ff4d2e ember hazard. Indoors it looks crisp; in strong MR daylight the pale blues and white merge into one glare, so add the cobalt to big shapes (rocks, ice walls). The warm hazard is the only warm colour, which makes danger pop hard. The hazard colour #ff4d2e (ember hazard) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "An ice, snow, frozen kingdom or winter theme, including the battle ice theme",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-ice, ow-frostvale",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "sensation",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-lava-forge",
+  "kind": "palette",
+  "title": "Lava forge: basalt black, molten orange, iron grey",
+  "text": "Palette: #1e1a1d basalt, #ff7a00 molten orange, #5a5f66 iron grey, #ffd166 spark yellow, #00c2ff cool hazard cyan. Because the whole theme is red and orange, the hazard flips to cyan so it does not drown. Strong indoors and at night; in daylight keep basalt as large ground shapes so the orange has contrast. The hazard colour #00c2ff (cool hazard cyan) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A lava, volcano, forge or dragon lair theme, including the battle lava theme",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-forge, ow-dragon",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation",
+    "fantasy"
+   ],
+   "players": [
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-neon-city",
+  "kind": "palette",
+  "title": "Neon city: midnight, magenta, electric cyan",
+  "text": "Palette: #0b0c1f midnight, #ff2bd6 neon magenta, #17e9ff electric cyan, #a6ff00 acid lime, #ff3131 hazard red. Needs a dark room or night: neon only exists against black. In MR daylight this palette fails completely, so offer the herotech or robot daytime look instead. Separate hazard red from magenta by making hazards pulse. The hazard colour #ff3131 (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A cyberpunk, neon, futuristic city or rave brief, including the battle neon theme",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-herotech, ow-robot, neon lighting preset",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "challenge"
+   ],
+   "players": [
+    "teens",
+    "gamers",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-jungle-dino",
+  "kind": "palette",
+  "title": "Jungle dinosaur: canopy green, mud brown, fern lime",
+  "text": "Palette: #2f6b2f canopy green, #7a5230 mud brown, #b8e04a fern lime, #f2c14e amber sun, #e63946 hazard red. Good in MR daylight in a garden or park: the greens extend real grass and trees. Indoors it can feel dark, so lift with fern lime and amber. Red hazard is strongly complementary to green and reads instantly. The hazard colour #e63946 (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A dinosaur, jungle, expedition or lost world theme",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: Dino Island creatures, ow-mushroom, jungle nature",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery",
+    "fantasy",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-pirate-cove",
+  "kind": "palette",
+  "title": "Pirate cove: sea teal, sand, weathered wood, sail white",
+  "text": "Palette: #0f8b8d sea teal, #f2d49b sand, #8b5a2b old wood, #fafaf0 sail white, #d62828 hazard red. An all-rounder: sand and white hold up in daylight, teal and wood give depth indoors. Avoid adding red flags or barrels; keep red for hazards and use gold instead for treasure. The hazard colour #d62828 (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A pirate, treasure hunt, island or ship brief",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-pirate, ow-reef",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery",
+    "fantasy",
+    "fellowship"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-toy-room",
+  "kind": "palette",
+  "title": "Toy room: primary blue, block yellow, play green, cream",
+  "text": "Palette: #2b6cff block blue, #ffc93c block yellow, #3ccf6e play green, #fff6e5 nursery cream, #ff1f3d hazard red. Built for a real living room or classroom indoors: primary colours look like real toys under room light. In daylight it still reads. Classic toy red is left out so the hazard red stays unique. The hazard colour #ff1f3d (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A toy world, shrinking into a playroom, kids in a small home space",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-toy, ow-clockwork",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "expression",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-space-station",
+  "kind": "palette",
+  "title": "Space station: hull white, deep space, signal orange",
+  "text": "Palette: #e9eef5 hull white, #101828 deep space, #3a86ff console blue, #ff9f1c signal orange, #ff1744 hazard red. Hull white keeps it readable in daylight MR, deep space only shows under the void floor or VR-only decor. Indoors the console blue glows nicely. Keep signal orange for goals and portals and red only for danger. The hazard colour #ff1744 (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A space, rocket, moon base or sci-fi station brief",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-space, ow-robot, void floor with stars",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery",
+    "sensation",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-desert-ruins",
+  "kind": "palette",
+  "title": "Desert ruins: dune gold, terracotta, oasis turquoise",
+  "text": "Palette: #e8c07d dune gold, #c0623b terracotta, #2ec4b6 oasis turquoise, #5b4636 shadow brown, #9b5de5 curse violet hazard. Daylight friendly: warm sand tones match a sunny real floor. Terracotta is close to red, so the hazard becomes curse violet, which no desert prop uses. Indoors add turquoise accents to avoid an all-beige frame. The hazard colour #9b5de5 (curse violet hazard) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A desert, tomb, lost ruins or archaeology theme, including the battle desert theme",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-desert, ow-ruins, ow-sun",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery",
+    "narrative",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-underwater",
+  "kind": "palette",
+  "title": "Underwater reef: ocean blue, coral, kelp, bubble white",
+  "text": "Palette: #0a4f8f ocean blue, #ff7f6e coral, #2a9d8f kelp, #e6fbff bubble white, #ffdd00 jellyfish yellow hazard. Best indoors with the night or spooky preset darkened toward blue. Coral is pinkish red, so hazards use jellyfish yellow which pops on blue. In daylight lift the blue a step or the floor looks like a dark hole. The hazard colour #ffdd00 (jellyfish yellow hazard) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "An ocean, reef, mermaid or submarine theme",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-reef, ow-pirate",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery",
+    "submission",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-farm",
+  "kind": "palette",
+  "title": "Happy farm: grass green, barn red, hay yellow, sky blue",
+  "text": "Palette: #6cc04a grass, #b23a48 barn red, #f4d35e hay, #8ecae6 sky blue, #ff00a8 hazard magenta. Daylight hero: matches real gardens and lawns. A farm needs red barns, so hazards switch to magenta, which never appears on a farm, so no one confuses a barn with a warning ring. The hazard colour #ff00a8 (hazard magenta) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A farm, animals, harvest or countryside brief for young players",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-farm, ow-village, ow-garden",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "fellowship"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-music-stage",
+  "kind": "palette",
+  "title": "Music stage: stage black, spotlight gold, beat purple",
+  "text": "Palette: #141414 stage black, #ffcc33 spotlight gold, #8a2be2 beat purple, #00e5a0 equalizer green, #ff2a2a hazard red. An indoor show palette, matches a hall with a crowd. In daylight swap stage black for a deep purple ground so the floor does not read as a hole. Red hazards should pulse on the beat to separate them from stage lights. The hazard colour #ff2a2a (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A concert, rhythm, dance or music festival theme",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-music, ow-carnival",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "expression",
+    "fellowship"
+   ],
+   "players": [
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-haunted-school",
+  "kind": "palette",
+  "title": "Haunted school: chalkboard green, locker grey, flickering yellow",
+  "text": "Palette: #22372b chalkboard, #8a9099 locker grey, #f6e27f flicker yellow, #4a2c5e shadow plum, #ff3030 hazard red. Indoors only, ideally a real classroom or corridor at dusk. Desaturated base plus one flicker yellow makes it eerie without being gory. In daylight the greys blend into a real school floor, so give the path a yellow edge. The hazard colour #ff3030 (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A haunted school, Thai school ghost story, classroom mystery for teens",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: Thai Halloween ghosts, ow-library",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "challenge",
+    "fantasy"
+   ],
+   "players": [
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-forest-spirits",
+  "kind": "palette",
+  "title": "Forest spirits: mossy teal, firefly lime, bark, mist lilac",
+  "text": "Palette: #2c6e63 mossy teal, #d4ff5a firefly lime, #5a3d2b bark, #c9b8ff mist lilac, #ff4040 hazard red. Gentle and magical in both lights: fireflies glow indoors, lilac and teal stay soft in daylight. Good for calm discovery games. Keep red rare so it reads as the only unfriendly thing in the forest. The hazard colour #ff4040 (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A gentle forest, nature spirits, mushrooms or fairy story",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-mushroom, ow-garden, ow-witchmarsh",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery",
+    "submission",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-sky-isles",
+  "kind": "palette",
+  "title": "Sky islands: cloud white, sky azure, grass lime, sunset peach",
+  "text": "Palette: #ffffff cloud white, #4fb3ff azure, #9be15d island grass, #ffb38a sunset peach, #e3170a hazard red. The natural partner of the void floor: islands over a bottomless sky. Bright enough for daylight MR. Under the void floor keep hazards on solid ground and clearly red so players never confuse the drop with a hazard. The hazard colour #e3170a (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A floating islands, sky kingdom, flying or Olympus theme",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-skyisles, ow-olympus",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-dark-battle",
+  "kind": "palette",
+  "title": "Dark arena battle: charcoal, steel blue, bone, blood-orange tells",
+  "text": "Palette: #232129 charcoal, #4b6584 steel blue, #e6dfd3 bone, #7d5ba6 shadow violet, #ff3d1f warning red-orange. For the battle dark theme indoors. Enemies in bone and steel, ground in charcoal, and the feet-ring warnings in one hot red-orange. Under daylight MR lift charcoal to steel so enemies on the edges stay visible. The hazard colour #ff3d1f (warning red-orange) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A battle game with the dark theme, fantasy dungeon or knight brief",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: battle theme dark, ow-ninja, ow-ruins",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "fantasy"
+   ],
+   "players": [
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-chess-marble",
+  "kind": "palette",
+  "title": "Tactics board: ivory and slate squares, gold piece, guard red",
+  "text": "Palette: #f1ece1 ivory square, #58606b slate square, #e0b13a player gold, #2f80ed target blue, #e5383b guard red. A board must read before it looks pretty: light and dark squares differ strongly in value, the player piece is gold, targets are blue, attacked squares are red. Works in daylight because the contrast is in value, not glow. The hazard colour #e5383b (guard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "Any tactics board where squares, targets and guard threats must be read at a glance",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: any theme around the board edge, kept out of the squares",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-carnival",
+  "kind": "palette",
+  "title": "Carnival fair: carousel teal, mustard, plum, popcorn cream",
+  "text": "Palette: #1aa6a6 carousel teal, #f2b134 mustard, #6a2c70 plum, #fff3d6 popcorn cream, #ff1e1e hazard red. Carnival art loves red and white stripes, which would fight the hazards, so stripes become teal and cream. Bright enough for an outdoor fair in daylight, rich under evening lights. The hazard colour #ff1e1e (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "A fair, circus, carnival or theme park brief",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-carnival, animated rides, ow-bazaar",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fellowship",
+    "expression"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-daylight-safe-rule",
+  "kind": "palette",
+  "title": "MR daylight rule: pick high-value colours, no glow, darkest tone above 25% brightness",
+  "text": "Palette: #3d5a80 daylight dark anchor, #98c1d9 soft sky, #e0fbfc pale, #ee6c4d warm accent, #d00000 hazard red. Outdoors at noon the headset passthrough is very bright, so very dark colours look grey and emissive glow vanishes. Use a dark anchor no darker than about #3d5a80 and let shape and value contrast do the work. The hazard colour #d00000 (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "MR game played outdoors or by big windows in daytime, any theme",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: any; prefer noon or morning lighting presets",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-style-chunky-toy",
+  "kind": "style",
+  "title": "Chunky toy low-poly: rounded blocks, big heads, soft light",
+  "text": "A friendly low-poly look with chunky proportions, very few facets and soft ambient light. Reads as safe and playful for kids, and big shapes stay legible in a headset at 2-5 m. Ready prompt_style: \"chunky toy-like low-poly, rounded blocky shapes, big-headed cute characters, soft ambient light, gentle shadows, bright cheerful mood\".",
+  "use_when": "Kids, families, toy, candy or farm themes",
+  "do": [
+   "Copy the prompt_style line into art.prompt_style",
+   "Pair with candy, toy or farm palettes"
+  ],
+  "avoid": [
+   "Thin spiky details that break the toy feel"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-style-heroic-fantasy",
+  "kind": "style",
+  "title": "Heroic fantasy low-poly: sharp facets, rim light, epic scale",
+  "text": "Sharper facets, taller silhouettes and a warm rim light give a heroic, adventure feel. Good for battle and boss moments where the enemy should feel big. Ready prompt_style: \"heroic fantasy low-poly, sharp angular facets, strong warm rim light, dramatic scale, epic adventure mood\".",
+  "use_when": "Battle games, boss fights, knights, dragons, teens and gamers",
+  "do": [
+   "Copy the prompt_style line into art.prompt_style",
+   "Make the boss 2-3 times player height in key art"
+  ],
+  "avoid": [
+   "Gritty realism or gore"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "challenge"
+   ],
+   "players": [
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-style-diorama-tabletop",
+  "kind": "style",
+  "title": "Diorama tabletop low-poly: tilt-shift, clean board, miniature feel",
+  "text": "Looks like a painted miniature game on a table. Ideal for tactics, where the board must read as a grid of squares and the pieces as figurines. Ready prompt_style: \"miniature diorama low-poly, clean tabletop board, figurine-like pieces, soft tilt-shift depth of field, crisp grid\".",
+  "use_when": "Tactics boards, puzzle games, top-down presentation",
+  "do": [
+   "Copy the prompt_style line into art.prompt_style",
+   "Keep the board fully in frame"
+  ],
+  "avoid": [
+   "Heavy fog or bloom that hides squares"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-style-spooky-cute",
+  "kind": "style",
+  "title": "Spooky-cute low-poly: big eyes, purple shadows, warm windows",
+  "text": "Ghosts and monsters with round shapes and big eyes, lit by moonlight and warm lanterns. Spooky without real horror, safe for 6-12 year olds and families. Ready prompt_style: \"spooky-cute low-poly, round friendly ghosts with big eyes, purple moonlit shadows, warm lantern glow, playful eerie mood\".",
+  "use_when": "Thai ghost or Halloween themes with kids or mixed families",
+  "do": [
+   "Copy the prompt_style line into art.prompt_style",
+   "Show the ghost smiling or surprised, not attacking"
+  ],
+  "avoid": [
+   "Blood, skulls in close-up, jump-scare faces"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-style-thai-ornate",
+  "kind": "style",
+  "title": "Thai ornate low-poly: gilded roofs, naga curves simplified to facets",
+  "text": "Thai temple and Himmapan forms (layered roofs, chofa, naga) reduced to bold low-poly shapes with gold accents. Keeps cultural details respectful and readable. Ready prompt_style: \"Thai ornate low-poly, layered temple roofs with gold trim, simplified naga and Himmapan creatures, warm festive light, respectful cultural mood\".",
+  "use_when": "Thai culture, temple, Himmapan creatures, festivals",
+  "do": [
+   "Copy the prompt_style line into art.prompt_style",
+   "Show the Buddha image only respectfully in the background or not at all"
+  ],
+  "avoid": [
+   "Using sacred images as enemies or hazards"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-style-neon-synth",
+  "kind": "style",
+  "title": "Neon synth low-poly: dark facets, emissive edges, glossy floor",
+  "text": "Dark faceted shapes with glowing edge lines and a reflective floor. Strong for night rhythm or sci-fi, but only works indoors or at night in MR. Ready prompt_style: \"neon synthwave low-poly, dark faceted geometry with glowing edges, glossy reflective floor, magenta and cyan light, energetic night mood\".",
+  "use_when": "Neon, cyber, music or sci-fi themes in a dark venue or on PC",
+  "do": [
+   "Copy the prompt_style line into art.prompt_style",
+   "Check the venue is indoors or after dark before choosing"
+  ],
+  "avoid": [
+   "Choosing it for an outdoor noon MR game"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "challenge"
+   ],
+   "players": [
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-style-storybook",
+  "kind": "style",
+  "title": "Storybook low-poly: soft pastel, painterly gradients, gentle sun",
+  "text": "Soft pastel colours and gentle light like a picture book. Suits narrative runners and calm discovery where the mood matters more than tension. Ready prompt_style: \"storybook low-poly, soft pastel colours, gentle painterly gradients on flat facets, warm afternoon sun, calm cozy mood\".",
+  "use_when": "Narrative or submission games, seniors, young kids, calm tours",
+  "do": [
+   "Copy the prompt_style line into art.prompt_style",
+   "Pair with forest spirits or Loy Krathong palettes"
+  ],
+  "avoid": [
+   "High contrast action lighting"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "seniors",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-style-arcade-bold",
+  "kind": "style",
+  "title": "Arcade bold low-poly: saturated primaries, hard shadows, punchy",
+  "text": "Saturated colours, hard sun shadows and simple outlines-free shapes. Reads from far away and looks great in daylight MR and on spectator screens. Ready prompt_style: \"bold arcade low-poly, saturated primary colours, hard sunny shadows, simple chunky shapes, energetic competitive mood\".",
+  "use_when": "Races, outdoor daytime MR, groups, competitive runners",
+  "do": [
+   "Copy the prompt_style line into art.prompt_style",
+   "Use for race games shown on a leaderboard screen"
+  ],
+  "avoid": [
+   "Muted greys that disappear in sunlight"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-style-frosted-crystal",
+  "kind": "style",
+  "title": "Frosted crystal low-poly: translucent-looking facets, cool light",
+  "text": "Ice and crystal shapes with pale gradients and a cool blue key light. Elegant for ice or magic themes; keep one warm accent so it does not look flat. Ready prompt_style: \"frosted crystal low-poly, pale icy faceted shapes, cool blue key light with a warm accent, sparkling clean mood\".",
+  "use_when": "Ice, crystal, winter, magic themes",
+  "do": [
+   "Copy the prompt_style line into art.prompt_style",
+   "Add one warm light source in the key art"
+  ],
+  "avoid": [
+   "All-white frames in daylight"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-style-always-lowpoly",
+  "kind": "principle",
+  "title": "Art style is always stylized low-poly, flat shaded: vary mood, not technique",
+  "text": "Every FortalLand game uses the same 1,900+ low-poly flat-shaded models, so the prototype art must promise exactly that. Vary the mood with palette, lighting preset and silhouette size, never with realistic, painted, pixel or anime styles that the build cannot match.",
+  "use_when": "Writing art.style and art.prompt_style for any prototype",
+  "do": [
+   "Start art.style with \"low-poly\" in lang",
+   "Describe mood words: cozy, eerie, epic, festive",
+   "Name the lighting preset you expect (noon, evening, spooky, neon)"
+  ],
+  "avoid": [
+   "\"Realistic\", \"photoreal\", \"cel-shaded anime\", \"pixel art\" in prompt_style",
+   "Promising textures or detail the catalog lacks"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-ka-mr-headset-view",
+  "kind": "pattern",
+  "title": "MR key art: first-person through the headset, real room visible, only the floor changed",
+  "text": "For MR the honest key art is the player view: a real room (walls, windows, people) with the game floor replacing only the real floor and low-poly objects standing on it. The code already adds the MR view line, so the prompt should describe the real room concretely (a school hall with windows, a living room sofa at the edge).",
+  "use_when": "key_art.prompt for any MR game",
+  "do": [
+   "Name 2 real room details from the brief environment",
+   "Put the game objects at 1-4 m distance on the floor",
+   "Include a hand or controller at the bottom edge only if needed, kept simple"
+  ],
+  "avoid": [
+   "Virtual sky, walls or ceilings replacing the real room",
+   "Showing the player flying or running"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-ka-mr-spectator-shot",
+  "kind": "pattern",
+  "title": "MR alternative: over-the-shoulder of a player in the real room",
+  "text": "A third-person shot of a person wearing a headset in the real space, with the virtual floor and objects drawn around them, explains MR to people who have never tried it. Use it when the brief stresses spectators or families watching.",
+  "use_when": "MR games for events, first-time VR players, or where the creator must pitch to others",
+  "do": [
+   "Show one player from behind at waist height, 2-3 m away",
+   "Show spectators at the edge of the frame, outside the play area"
+  ],
+  "avoid": [
+   "More than 2 players in frame, FLUX blends faces and limbs",
+   "Visible text on the headset"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-ka-pc-battle-camera",
+  "kind": "pattern",
+  "title": "PC battle key art: low third-person behind the hero mid-combo",
+  "text": "Camera 2-3 m behind and slightly above the sword hero, the boss or a beast charging in from the far side, a red warning ring on the ground between them. One clear action pose (sword swing or dash) sells the 3-hit combo and dash in one frame.",
+  "use_when": "key_art.prompt for a PC battle game",
+  "do": [
+   "Describe one hero, one big enemy and at most 3 small grunts in the distance",
+   "Name the theme ground (ice, lava, forest)"
+  ],
+  "avoid": [
+   "Crowds of enemies, FLUX merges them into mush",
+   "Guns, bows or magic bolts the engine lacks"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-ka-mr-battle-camera",
+  "kind": "pattern",
+  "title": "MR battle key art: player view, controller as sword, enemies walking in from the room edge",
+  "text": "Show the player view in the real room: a low-poly sword where the right controller would be, 2-3 grunts or a shield enemy walking slowly in from the wall side, a red ring glowing at the player's feet. This is exactly what the MR battle engine does, so the picture does not overpromise.",
+  "use_when": "key_art.prompt for an MR battle game",
+  "do": [
+   "Enemies 2-4 m away at the real floor edge",
+   "Red ring near the bottom of the frame"
+  ],
+  "avoid": [
+   "Enemies jumping from the ceiling or walls",
+   "Player running or leaping"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-ka-tactics-top-view",
+  "kind": "pattern",
+  "title": "Tactics key art: high three-quarter view of the whole 6 x 8 board",
+  "text": "A board game sells through its board. Use a high 45-60 degree view showing the whole board, the player piece (knight, rook...) as a large figurine, 1-2 guard pieces and a glowing target square. In MR show the board lying on the real floor of the room.",
+  "use_when": "key_art.prompt for a tactics game on PC or MR",
+  "do": [
+   "Say \"6 by 8 checkered board seen from a high angle\"",
+   "Name the player piece type",
+   "One target clearly highlighted"
+  ],
+  "avoid": [
+   "Close-ups where the grid is not visible",
+   "Asking FLUX for exact square counts; accept roughly a board"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-ka-runner-camera",
+  "kind": "pattern",
+  "title": "Runner key art: looking down the route toward the portal",
+  "text": "Put the camera at walking height looking along the route: a checkpoint marker close, one red hazard circle on the path, and the glowing portal at the far end framed by theme scenery. The eye travels the route the way the player will.",
+  "use_when": "key_art.prompt for a runner on PC or MR",
+  "do": [
+   "One leading line (path) from bottom to the portal",
+   "One hazard and one checkpoint, no more"
+  ],
+  "avoid": [
+   "A route shown from too high, it reads as a map not a game",
+   "Many hazards that make it look impossible"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-ka-moment-that-sells",
+  "kind": "heuristic",
+  "title": "Pick the climax moment, not the start screen",
+  "text": "Only one picture is drawn, so draw the storyboard climax: the boss turning, the last target captured, the portal opening. A start-of-game picture looks empty and sells nothing.",
+  "use_when": "Choosing what key_art.prompt shows",
+  "do": [
+   "Copy the climax panel action into the prompt",
+   "Write the caption as a short exciting line in lang"
+  ],
+  "avoid": [
+   "Menus, title cards or lobby scenes",
+   "The quiet tutorial area"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-ka-flux-limits",
+  "kind": "pitfall",
+  "title": "FLUX schnell draws text, hands and crowds badly: design around them",
+  "text": "FLUX schnell is fast but garbles letters, fuses fingers and melts groups of more than 2-3 characters. Keep prompts to one hero subject, few secondary shapes, no readable signs, and hands either hidden or holding a simple object.",
+  "use_when": "Writing any key_art.prompt",
+  "do": [
+   "Max 1 main character and 3 minor ones",
+   "Say \"blank sign\" or omit signs",
+   "Use big simple props instead of detailed hands"
+  ],
+  "avoid": [
+   "Scoreboards, banners with words, logos",
+   "Close-up hands, dancing groups, crowds"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-ka-prompt-order",
+  "kind": "heuristic",
+  "title": "Key art prompt order: camera, subject, action, setting, light",
+  "text": "The code appends the view, the low-poly style and the palette, so the prompt itself should be 1-3 sentences in this order: camera angle, main subject, what happens, setting, light. 40-90 English words is enough; longer prompts dilute the subject.",
+  "use_when": "Writing key_art.prompt text",
+  "do": [
+   "Example: \"Low angle behind a small knight, a giant ice beast charges across a frozen arena, a red warning ring glows between them, cold blue dusk light.\""
+  ],
+  "avoid": [
+   "Repeating the style or palette (code adds it)",
+   "Thai words in the prompt, it is checked and rejected"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-ka-no-ui",
+  "kind": "pitfall",
+  "title": "No HUD, score or words in the key art",
+  "text": "The picture is an in-game moment without interface, so health bars, timers and titles stay out of key_art.prompt. HUD is listed separately in hud. Words in the prompt make FLUX draw fake letters, which look broken and cannot be translated.",
+  "use_when": "Any key art that mentions score, timers or titles",
+  "do": [
+   "Describe the HUD in hud only",
+   "Convey score with visual objects (a glowing target, a portal)"
+  ],
+  "avoid": [
+   "\"with the title FortalLand at the top\"",
+   "\"score 300 shown\""
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-ka-mr-no-fake-walls",
+  "kind": "pitfall",
+  "title": "MR key art must not replace the real walls or sky",
+  "text": "Only the floor changes in MR, so a key art with a fantasy sky or castle walls around the player promises something the headset will never show. Big scenery should stand on the floor and be lower than the real room, or be marked VR only.",
+  "use_when": "MR prototypes with grand themes (castle, space, ocean)",
+  "do": [
+   "Put towers or trees on the floor inside the room",
+   "Let the real ceiling or sky stay visible"
+  ],
+  "avoid": [
+   "Full fantasy skyboxes",
+   "Underwater fog filling the whole room"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-title-rules",
+  "kind": "heuristic",
+  "title": "Titles: 1-3 words, sayable in Thai and English, one concrete image",
+  "text": "A good title is short enough to shout across a venue and names one concrete thing: \"Lantern Run\", \"Naga Gate\", \"Ice Knight\". Thai players should be able to say the English or the Thai version without awkward sounds. Avoid generic words like \"Adventure\", \"Quest\", \"World\" on their own.",
+  "use_when": "Writing prototype.title",
+  "do": [
+   "Noun + verb or adjective + noun",
+   "Check it is under 16 characters",
+   "Offer a Thai form that keeps the same image"
+  ],
+  "avoid": [
+   "\"Super Fun Adventure Game\"",
+   "Puns that only work in one language",
+   "Brand names you do not own"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-title-examples",
+  "kind": "example",
+  "title": "Title examples that work bilingually",
+  "text": "Examples: \"Krathong Glow\", \"Ghost Market Dash\", \"Knight of Ice\", \"Tuk-Tuk Rush\", \"Dino Steps\", \"Temple Chess\". Each names the theme and hints at the verb in 2-3 words.",
+  "use_when": "Needing inspiration for a title in th or en",
+  "do": [
+   "Mirror the core loop verb (dash, steps, guard, catch)"
+  ],
+  "avoid": [
+   "Copying existing game or film titles"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-logline-formula",
+  "kind": "heuristic",
+  "title": "Logline: you are X, you do Y, because Z is fun",
+  "text": "One sentence: who the player is, what they physically do, and the hook. \"You are the last lantern keeper, walking the night river to relight 6 krathongs before the ghosts drift in.\" It must describe the real verb of the genre (walk, step out of rings, swing, move like a knight).",
+  "use_when": "Writing prototype.logline",
+  "do": [
+   "Include a number (6 lanterns, 3 chapters, 90 seconds)",
+   "Use the genre verb"
+  ],
+  "avoid": [
+   "Abstract taglines (\"an unforgettable journey\")",
+   "Verbs the engine lacks (shoot, build, talk)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pillars-good-vs-vague",
+  "kind": "principle",
+  "title": "Pillars must be testable choices, not adjectives",
+  "text": "A pillar is a rule every part must serve, so it must be able to reject ideas. \"Every danger is seen 2 seconds before it hits\" rejects instant traps; \"Fun and exciting\" rejects nothing. Write 3 pillars: one for feeling, one for play, one for the real space or players.",
+  "use_when": "Writing the 3 prototype.pillars",
+  "do": [
+   "Good: \"Kids can finish without reading\"",
+   "Good: \"Spectators see every big moment\"",
+   "Good: \"Always one step from safety\""
+  ],
+  "avoid": [
+   "Vague: \"Beautiful graphics\", \"Immersive\", \"Fun for everyone\"",
+   "3 pillars that all say the same thing"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Schell, The Art of Game Design"
+ },
+ {
+  "id": "pt-pillars-by-feeling",
+  "kind": "pattern",
+  "title": "Derive one pillar from each top MDA feeling in the brief",
+  "text": "Map the brief feelings to concrete pillars: challenge becomes \"Fail fast, retry in 3 seconds\"; fellowship becomes \"Friends race side by side and see each other\"; discovery becomes \"Every checkpoint reveals a new view\"; submission becomes \"No way to lose, only to be faster\"; narrative becomes \"Each checkpoint is one line of the story\".",
+  "use_when": "Turning brief.feelings into pillars",
+  "do": [
+   "Keep the MDA word out of the pillar, write the behaviour"
+  ],
+  "avoid": [
+   "Pillars unrelated to the brief feelings"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "fellowship",
+    "discovery",
+    "submission",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+ },
+ {
+  "id": "pt-sb-battle-beats",
+  "kind": "genre-rule",
+  "title": "Battle storyboard: first wave, mixed wave, boss, victory",
+  "text": "Start: 2-3 slow grunts walk in, the player learns to swing. Middle: a shield enemy plus grunts, the player must hit from the side, rain rings fall. Climax: the boss or beast charges, the player steps out of a red ring and lands the combo. End: the arena calms, score and time shown.",
+  "use_when": "Writing storyboard panels for a battle game",
+  "do": [
+   "player_does in MR: swing, turn, step out of a ring",
+   "player_does on PC: 3-hit combo, dash"
+  ],
+  "avoid": [
+   "A beast in the first chapter (checked)",
+   "MR players running or dodging by sprinting"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sb-tactics-beats",
+  "kind": "genre-rule",
+  "title": "Tactics storyboard: read the board, first capture, beat the guards, last target",
+  "text": "Start: the player sees the board, their piece and 1-2 guards, and plans the first move. Middle: they capture targets in order while counting guard beats. Climax: the last target sits next to an attacked square and must be taken on the right beat. End: the board clears, time goes on the leaderboard.",
+  "use_when": "Writing storyboard panels for a tactics game",
+  "do": [
+   "player_does in MR: walk onto a square",
+   "Mention the piece type in every panel"
+  ],
+  "avoid": [
+   "More than 2 guards on board 1 (checked)",
+   "Real-time chasing, guards move on a beat of 3 s or slower"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sb-runner-beats",
+  "kind": "genre-rule",
+  "title": "Runner storyboard: spawn view, first hazard, final stretch, portal",
+  "text": "Start: the player sees the first checkpoint and the story card. Middle: hazards appear between checkpoints, touching one sends them back. Climax: the last checkpoint and the most dramatic view (void drop, big creature). End: the portal, the score with time bonus.",
+  "use_when": "Writing storyboard panels for a runner",
+  "do": [
+   "Tie each panel to a checkpoint label",
+   "player_does: walk to, step around, touch"
+  ],
+  "avoid": [
+   "Jumping, climbing or collecting items",
+   "Climax in a corner spectators cannot see"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sb-player-does-verbs",
+  "kind": "heuristic",
+  "title": "player_does uses the body verb, not the story verb",
+  "text": "Captions tell the story (\"The ghost queen wakes\"); player_does says what the body does (\"steps left out of the red ring and swings twice\"). Creators judge buildability from player_does, so keep it physical and possible.",
+  "use_when": "Filling storyboard[].player_does",
+  "do": [
+   "MR: walk, turn, step, swing, stop",
+   "PC: move with WASD, click to attack, dash"
+  ],
+  "avoid": [
+   "\"Defeats the queen\" without saying how",
+   "Verbs like shoot, pick up, talk"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sb-three-vs-four",
+  "kind": "heuristic",
+  "title": "Use 3 panels for 2-3 minute games, 4 for longer",
+  "text": "Short sessions have no real middle: start, climax, end is honest. Games of 4 minutes or more need a middle panel to show the twist or difficulty step. Each panel needs its own beat and one must be the climax.",
+  "use_when": "Deciding storyboard length",
+  "do": [
+   "3 panels: start, climax, end",
+   "4 panels: start, middle, climax, end"
+  ],
+  "avoid": [
+   "Two middle panels or no climax (checked)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sb-mr-spectator-beat",
+  "kind": "heuristic",
+  "title": "In MR put the climax where the audience can see it",
+  "text": "Spectators see bodies, not the game, so the climax should be a big body action (turning to face the boss, a wide step out of a ring, walking through the portal) placed on the side nearest the audience zone.",
+  "use_when": "MR storyboards with spectators in the brief",
+  "do": [
+   "Say in the caption where the audience is",
+   "Match the climax position to the sketch zone"
+  ],
+  "avoid": [
+   "Climax in the far corner",
+   "Tiny hand-only actions at the climax"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "sensation"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-hud-battle",
+  "kind": "genre-rule",
+  "title": "Battle HUD: health, chapter, enemies left, score",
+  "text": "A battle player needs four facts: how much health is left, which chapter of how many, how many enemies remain, and the score. On PC add a dash cooldown. Keep it to 4-5 items.",
+  "use_when": "Writing hud for a battle game",
+  "do": [
+   "Health hearts or bar",
+   "Chapter 2/4",
+   "Enemies left",
+   "Score"
+  ],
+  "avoid": [
+   "Mana, ammo or inventory slots the engine lacks"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-hud-tactics",
+  "kind": "genre-rule",
+  "title": "Tactics HUD: board number, targets captured, guard beat, timer",
+  "text": "Tactics play is planning on a beat, so the HUD shows the board (1/5), captured targets in order (2/4), a guard beat indicator that ticks before guards move, and the race timer for the leaderboard.",
+  "use_when": "Writing hud for a tactics game",
+  "do": [
+   "Board 1/5",
+   "Targets 2/4 in order",
+   "Guard beat ring",
+   "Timer"
+  ],
+  "avoid": [
+   "Move history lists or text-heavy hints"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-hud-runner",
+  "kind": "genre-rule",
+  "title": "Runner HUD: checkpoint count, score, timer, next label",
+  "text": "The runner engine tracks checkpoints in order, score (+100 checkpoint, -25 hazard, +300 finish) and optional time limit. Show checkpoint 3/6, the next checkpoint label as the story line, score and timer. In a race add live position.",
+  "use_when": "Writing hud for a runner",
+  "do": [
+   "Checkpoint 3/6",
+   "Next: \"Feed the dragon\"",
+   "Score",
+   "Timer or time left"
+  ],
+  "avoid": [
+   "Lives counters, the engine resets to the last checkpoint instead"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-hud-kids-minimal",
+  "kind": "heuristic",
+  "title": "Kids HUD: 2 items, icons not numbers",
+  "text": "For players under 9, show at most 2 HUD items as icons: progress (lit lanterns 3 of 6) and one danger cue. Numbers, timers and scores can live on the spectator screen for parents instead.",
+  "use_when": "hud when the brief players are young kids",
+  "do": [
+   "Progress as icons",
+   "Move score to the end screen"
+  ],
+  "avoid": [
+   "Timers counting down for small kids",
+   "Text instructions in the HUD"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-hud-mr-placement",
+  "kind": "heuristic",
+  "title": "MR HUD stays low and few: nothing that needs looking up while walking",
+  "text": "In passthrough the HUD floats in view, so keep it to 2-4 items near the lower edge or on the wrist. Players walking must keep their eyes on the floor. Big messages appear only when the player is standing still (start, chapter break, end).",
+  "use_when": "MR hud lists",
+  "do": [
+   "2-4 items",
+   "Flash major info at stops"
+  ],
+  "avoid": [
+   "Long text, minimaps, top-of-view elements"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "pt-flow-runner-2min",
+  "kind": "example",
+  "title": "Runner flow, 2 minutes, 5 checkpoints",
+  "text": "0:00 story card and first view. 0:10 checkpoint 1, an easy straight. 0:30 first hazard pair. 0:50 checkpoint 3 with the best view. 1:20 tight zig-zag hazard. 1:40 last checkpoint. 1:50 portal and score. Short loops suit spaces under 4 x 4 m.",
+  "use_when": "Runner sessions of 2 minutes or small MR spaces",
+  "do": [
+   "About 20 s between checkpoints"
+  ],
+  "avoid": [
+   "More than 6 checkpoints in 2 minutes"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-flow-runner-5min",
+  "kind": "example",
+  "title": "Runner flow, 5 minutes, 8 checkpoints with a twist",
+  "text": "0:00 intro card. 0:15 checkpoints 1-2 teach hazards. 1:30 checkpoint 3, story turn. 2:30 checkpoints 4-5, denser hazards. 3:30 the dramatic view (void floor section or big creature). 4:20 checkpoint 8. 4:40 portal, score and time bonus. 4:50 leaderboard.",
+  "use_when": "Runner sessions of 4-6 minutes in medium or large spaces",
+  "do": [
+   "Put a calm stretch after the hardest part"
+  ],
+  "avoid": [
+   "Same hazard density the whole time"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-flow-battle-3min",
+  "kind": "example",
+  "title": "Battle flow, 3 minutes, 3 chapters and a boss",
+  "text": "0:00 title and stance tip. 0:10 chapter 1: 3 grunts. 0:50 chapter 2: grunts plus a shield. 1:40 chapter 3: rain rings start. 2:20 boss or beast. 2:50 victory and score.",
+  "use_when": "Battle games in MR or PC around 3 minutes",
+  "do": [
+   "MR: at most 6 enemies per chapter (checked)",
+   "5-10 s breather between chapters"
+  ],
+  "avoid": [
+   "A beast in chapter 1 (checked)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-flow-battle-8min",
+  "kind": "example",
+  "title": "Battle flow, 8 minutes, 5 chapters for PC players",
+  "text": "0:00 intro. 0:20 ch1 grunts. 1:30 ch2 shields. 2:45 ch3 first beast. 4:00 ch4 rain plus mixed. 5:30 ch5 hard mix up to 9 enemies. 6:45 boss. 7:40 results. Long battles fit PC better than MR, where arms tire after about 4-5 minutes of swinging.",
+  "use_when": "Long battle sessions, mostly PC gamers",
+  "do": [
+   "Offer a shorter MR variant"
+  ],
+  "avoid": [
+   "8-minute MR sword sessions for first-time VR players"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "gamers"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "pt-flow-tactics-5min",
+  "kind": "example",
+  "title": "Tactics flow, 5 minutes, 4 boards",
+  "text": "0:00 rules card with the piece moves. 0:20 board 1: 2 targets, 1 guard. 1:20 board 2: 3 targets, 2 guards. 2:40 board 3: new piece, cracked squares. 3:50 board 4: guards on a faster beat. 4:45 time to leaderboard.",
+  "use_when": "Tactics sessions around 5 minutes",
+  "do": [
+   "Change the piece or one rule per board"
+  ],
+  "avoid": [
+   "More than 2 guards on board 1 (checked)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-flow-tactics-2min",
+  "kind": "example",
+  "title": "Tactics flow, 2 minutes, 2 boards for events",
+  "text": "0:00 show the knight move on the floor. 0:15 board 1: 2 targets, 1 guard. 1:00 board 2: 3 targets, 2 guards. 1:50 time on the leaderboard. Short and repeatable for queues at events.",
+  "use_when": "Event booths with queues, first-time players",
+  "do": [
+   "Keep the same piece for both boards"
+  ],
+  "avoid": [
+   "New rules in the last board of a short session"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "first-time-vr",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-flow-timestamps",
+  "kind": "heuristic",
+  "title": "Flow steps every 20-60 seconds, ending with results",
+  "text": "Write 4-8 flow steps from 0:00 to the end, roughly every 20-60 s, including the intro card at 0:00 and the results or leaderboard as the last step. The last timestamp should match brief.session_minutes within 15 s.",
+  "use_when": "Writing prototype.flow for any genre",
+  "do": [
+   "Format t as \"m:ss\"",
+   "One sentence per step"
+  ],
+  "avoid": [
+   "A flow that ends at the climax with no results",
+   "Steps longer than 2 minutes"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-flow-mr-first-time",
+  "kind": "heuristic",
+  "title": "First-time VR players: add 15-20 s of standing still at the start",
+  "text": "People new to headsets need a moment to look around and trust the floor. Start the flow with 15-20 s where nothing threatens them, then introduce the first verb.",
+  "use_when": "MR flows when brief.vr_experience is low",
+  "do": [
+   "0:00 look around, 0:15 first task"
+  ],
+  "avoid": [
+   "Enemies or hazards in the first 10 s"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "seniors",
+    "kids"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "pt-sk-arena",
+  "kind": "genre-rule",
+  "title": "Battle sketch: arena with player start in the middle, spawn edges as danger",
+  "text": "Draw a battle as shape \"arena\": start at the centre (0.5, 0.5), danger zones at the edges where enemies walk in (r 0.1-0.15), the boss zone on the far side, and the audience zone outside the edge where people stand.",
+  "use_when": "sketch for any battle game",
+  "do": [
+   "start (0.5,0.5)",
+   "danger at 2-3 edges",
+   "boss at (0.5, 0.15)",
+   "audience at y 0.95"
+  ],
+  "avoid": [
+   "Zones in the centre ring where the player stands"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sk-board",
+  "kind": "genre-rule",
+  "title": "Tactics sketch: board shape with start corner and goal on the far side",
+  "text": "Draw tactics as shape \"board\": start at a near corner (about 0.2, 0.85), targets as story zones, guards as danger zones, the last target as the goal near the far side. In MR add the audience beside the long edge.",
+  "use_when": "sketch for any tactics game",
+  "do": [
+   "Use small r (0.05-0.08) so zones look like squares"
+  ],
+  "avoid": [
+   "A route path; boards do not need one"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sk-route",
+  "kind": "genre-rule",
+  "title": "Runner sketch: route with 3-12 path points in walking order",
+  "text": "Draw a runner as shape \"route\" with a path of at least 3 points (checked) in walking order, start at the first point, goal (portal) at the last, danger zones on the path between, story zones at key checkpoints. Keep points 0.08 inside the square edge for the 0.6 m safety margin.",
+  "use_when": "sketch for any runner",
+  "do": [
+   "Loop: return near start",
+   "Zig-zag: alternate x 0.2 and 0.8"
+  ],
+  "avoid": [
+   "Fewer than 3 path points",
+   "Path along the very edge of the square"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sk-audience-mr",
+  "kind": "heuristic",
+  "title": "MR audience zone sits outside the play area on the side the brief names",
+  "text": "Put the audience zone where real spectators will be (a long wall, a doorway, chairs), just outside the play area, and bend the route or arena so the climax happens on that side. Never place audience inside the walking area.",
+  "use_when": "MR sketches when the brief has spectators",
+  "do": [
+   "audience x or y at 0.95-1.0",
+   "Climax zone within 0.3 of it"
+  ],
+  "avoid": [
+   "Audience in the middle of the floor",
+   "Hazards right next to the audience edge"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-sk-pc-audience",
+  "kind": "heuristic",
+  "title": "PC sketches skip the audience zone",
+  "text": "On PC spectators watch the screen, so there is no audience place in the level. Use the zones for start, goal or boss, danger and story only.",
+  "use_when": "sketch for a PC game",
+  "do": [
+   "Spend the zone budget on story spots"
+  ],
+  "avoid": [
+   "Audience zones on PC levels"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sk-zone-budget",
+  "kind": "heuristic",
+  "title": "Sketch with 4-8 zones: one start, one goal or boss, the rest earn their place",
+  "text": "Up to 10 zones are allowed but 4-8 read best. Every zone kind tells the creator something: start, goal or boss (both required by the check), 1-3 danger, 1-2 story, 1 audience in MR.",
+  "use_when": "Any prototype sketch",
+  "do": [
+   "Name zones in lang with the story word (\"Ghost Gate\")"
+  ],
+  "avoid": [
+   "10 tiny zones that clutter the plan",
+   "Missing start or goal (checked)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sk-small-room",
+  "kind": "heuristic",
+  "title": "Small MR room under 4 x 4 m: one loop, big zones",
+  "text": "In a living room or small classroom the sketch is a tight loop of 4-5 points with large zones (r 0.15-0.25), because a 3 m room only fits about 4 steps per side. Only runner fits below 3 m.",
+  "use_when": "MR sketches for small spaces",
+  "do": [
+   "Loop path of 4-5 points"
+  ],
+  "avoid": [
+   "Long zig-zags in tiny rooms",
+   "Battle or tactics under 3 x 3 m (checked)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-qt-observable",
+  "kind": "principle",
+  "title": "Good playtest questions are observable and specific",
+  "text": "Ask what you can see happen, with a threshold: \"Do 4 of 5 first-time players step out of the first red ring within 2 seconds?\" Bad questions ask for opinions (\"Is it fun?\") that players answer politely and that do not tell you what to change.",
+  "use_when": "Writing prototype.test_questions",
+  "do": [
+   "Name the player group, the moment and a number",
+   "One question per pillar"
+  ],
+  "avoid": [
+   "\"Did you like it?\"",
+   "\"Is the art good?\""
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Fullerton, Game Design Workshop"
+ },
+ {
+  "id": "pt-qt-battle",
+  "kind": "example",
+  "title": "Battle playtest questions",
+  "text": "Examples: \"Do players turn to face enemies coming from behind within 3 seconds?\", \"How many players get hit by the first rain ring?\", \"Do MR players stop swinging from arm tiredness before the boss?\", \"Does the shield enemy make players walk around it?\"",
+  "use_when": "test_questions for battle",
+  "do": [
+   "Watch arm fatigue in MR"
+  ],
+  "avoid": [
+   "Asking players to rate difficulty 1-10 only"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-qt-tactics",
+  "kind": "example",
+  "title": "Tactics playtest questions",
+  "text": "Examples: \"Can a first-time player say how a knight moves after board 1?\", \"How many players step on an attacked square on board 2?\", \"Do players stop and count the guard beat or rush?\", \"Does anyone walk off the board edge in MR?\"",
+  "use_when": "test_questions for tactics",
+  "do": [
+   "Count mistakes per board"
+  ],
+  "avoid": [
+   "\"Was the puzzle clever?\""
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-qt-runner",
+  "kind": "example",
+  "title": "Runner playtest questions",
+  "text": "Examples: \"Do players find checkpoint 2 without help?\", \"How many hazards hit per run, and where?\", \"Do players read the checkpoint labels aloud?\", \"Does anyone hesitate at the void floor edge longer than 3 seconds?\"",
+  "use_when": "test_questions for runner",
+  "do": [
+   "Mark where hazards hit on the sketch"
+  ],
+  "avoid": [
+   "\"Was the story interesting?\""
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-qt-kids",
+  "kind": "example",
+  "title": "Playtest questions for kids",
+  "text": "Examples: \"Can a 7-year-old finish without an adult explaining?\", \"Does any child look scared or stop moving at the ghost?\", \"Do kids point and tell parents what they see?\" Watch faces and bodies, kids rarely say they are confused.",
+  "use_when": "test_questions when players are kids",
+  "do": [
+   "Watch with a parent present"
+  ],
+  "avoid": [
+   "Asking kids for written feedback"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-qt-spectators",
+  "kind": "example",
+  "title": "Playtest questions for spectators and groups",
+  "text": "Examples: \"Do spectators cheer or call out at the climax?\", \"Can parents tell who is winning from the leaderboard screen?\", \"Do waiting players watch or look at phones?\" The audience is part of the MR game.",
+  "use_when": "test_questions when the brief has spectators or a race",
+  "do": [
+   "Observe the audience zone too"
+  ],
+  "avoid": [
+   "Only questioning the player"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-qt-seniors-firsttime",
+  "kind": "example",
+  "title": "Playtest questions for seniors and first-time VR players",
+  "text": "Examples: \"Does anyone ask to stop in the first minute?\", \"Do players walk at normal pace or shuffle?\", \"How many reach for a real wall for balance?\" These reveal comfort problems before fun problems.",
+  "use_when": "test_questions for seniors or first-time VR",
+  "do": [
+   "Note pace and balance"
+  ],
+  "avoid": [
+   "Long sessions before comfort is checked"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "seniors",
+    "first-time-vr"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "pt-qt-bad-vs-good",
+  "kind": "pitfall",
+  "title": "Bad playtest questions and their good rewrites",
+  "text": "\"Is it too hard?\" becomes \"How many tries does board 2 take?\". \"Is the theme cool?\" becomes \"Do players name the theme without being told?\". \"Is MR fun?\" becomes \"Do players look around the room in the first 30 seconds?\"",
+  "use_when": "Reviewing test_questions before sending",
+  "do": [
+   "Rewrite every yes/no opinion into a count or a time"
+  ],
+  "avoid": [
+   "Leading questions (\"Wasn't the boss amazing?\")"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-rev-keep-rest",
+  "kind": "principle",
+  "title": "Revising from comments: change only what was asked, keep the rest word for word",
+  "text": "When the creator comments on a prototype, copy every field they did not mention unchanged and edit only the named parts. Rewriting everything makes them re-review and lose trust that their approved parts survive.",
+  "use_when": "A prototype request that includes creator comments",
+  "do": [
+   "List mentally which fields the comment touches",
+   "Keep title, pillars and palette unless named"
+  ],
+  "avoid": [
+   "Regenerating the whole prototype",
+   "Silently changing the genre"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-rev-ripple",
+  "kind": "heuristic",
+  "title": "Follow the ripple: one change may need its linked fields updated",
+  "text": "Some comments ripple: \"make it night\" changes palette, prompt_style and key art light; \"add a boss\" changes the storyboard climax, the sketch boss zone and the flow; \"make it 2 minutes\" shortens the flow and may drop the middle panel. Update the linked fields and nothing else.",
+  "use_when": "Applying a creator comment",
+  "do": [
+   "Map: mood to art and key_art, length to flow and storyboard, place to sketch"
+  ],
+  "avoid": [
+   "Updating the flow but leaving a 5-minute storyboard"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-rev-impossible-ask",
+  "kind": "pitfall",
+  "title": "When a comment asks for a mechanic the engine lacks, offer the nearest one",
+  "text": "If the creator asks to \"add shooting\" or \"let them pick up keys\", keep the prototype and swap in the closest buildable thing: shooting becomes the sword or stepping out of rings; keys become checkpoints labelled \"Key 1, Key 2\" in order. Say so kindly in the caption.",
+  "use_when": "Comments requesting unsupported mechanics",
+  "do": [
+   "Name the replacement in the changed panel"
+  ],
+  "avoid": [
+   "Promising the mechanic in the key art",
+   "Ignoring the comment"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-rev-new-picture",
+  "kind": "heuristic",
+  "title": "Change key_art.prompt only when the look or climax changed",
+  "text": "Each new key art costs a FLUX picture and the creator's attention. Rewrite key_art.prompt when the comment changes the theme, mood, palette, climax or platform; otherwise keep it identical so the same picture can be reused.",
+  "use_when": "Revisions where the picture may or may not need redrawing",
+  "do": [
+   "Keep the prompt string exactly the same when unchanged"
+  ],
+  "avoid": [
+   "Tiny wording edits that trigger a redraw"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-rev-too-scary",
+  "kind": "example",
+  "title": "Revision example: \"too scary for my 6-year-old\"",
+  "text": "Keep title, route and flow. Change art.mood to playful, prompt_style to spooky-cute, palette dark base up one step, key art to a smiling ghost, storyboard climax captions to surprise rather than threat, and add a test question about children stopping in fear.",
+  "use_when": "Comments that the prototype is too scary",
+  "do": [
+   "Soften the mood fields only"
+  ],
+  "avoid": [
+   "Removing the theme entirely when they only asked for softer"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-rev-daylight",
+  "kind": "example",
+  "title": "Revision example: \"we will play outside at noon now\"",
+  "text": "In MR an outdoor noon venue kills dark and neon looks. Keep the game and story; switch palette to a daylight-safe variant, lighting to noon, remove glow words from prompt_style, and redraw key art with sun and real sky visible. Mention the change in art.mood.",
+  "use_when": "MR revisions where the venue light changes",
+  "do": [
+   "Raise the darkest palette colour above about #3d5a80"
+  ],
+  "avoid": [
+   "Keeping a neon palette for noon outdoors"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-proto-consistency",
+  "kind": "principle",
+  "title": "Every prototype field must tell the same game",
+  "text": "Check that the logline verb appears in the storyboard, the climax appears in the key art, the HUD tracks what the flow describes, and the sketch zones match the storyboard places. A creator spots mismatches instantly and stops trusting the plan.",
+  "use_when": "Final check before replying with a prototype",
+  "do": [
+   "Read logline, climax panel and key art together"
+  ],
+  "avoid": [
+   "A boss in the storyboard but no boss zone in the sketch"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-proto-genre-honesty",
+  "kind": "pitfall",
+  "title": "Do not let the theme stretch the genre in the prototype",
+  "text": "A pirate tactics game is still a piece walking a 6 x 8 board; a dragon runner still walks checkpoints and avoids red circles. Theme dresses the engine, it does not add ships to sail or dragons to ride.",
+  "use_when": "Prototypes with strong themes",
+  "do": [
+   "Describe themed versions of real mechanics (guards as pirate crew)"
+  ],
+  "avoid": [
+   "Captions promising sailing, flying or riding"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-flow-battle-2min-mr",
+  "kind": "example",
+  "title": "Battle flow, 2 minutes, MR event version with 2 chapters and a beast",
+  "text": "0:00 look around, sword appears in the right hand. 0:15 chapter 1: 3 slow grunts from one wall. 0:50 chapter 2: grunts from two sides plus rain rings. 1:25 a beast charges in as the finale. 1:50 victory and score. Short enough for queues and for arms that tire fast in MR.",
+  "use_when": "MR battle at events, first-time VR players, sessions of about 2 minutes",
+  "do": [
+   "At most 6 enemies per chapter in MR (checked)",
+   "Use the beast only after chapter 1 (checked)"
+  ],
+  "avoid": [
+   "A full boss fight squeezed into 2 minutes with 4 chapters"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": [
+    "first-time-vr",
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-flow-battle-3min-pc",
+  "kind": "example",
+  "title": "Battle flow, 3 minutes, PC version with dash taught early",
+  "text": "0:00 hero intro and controls. 0:10 chapter 1: 4 grunts, learn the 3-hit combo. 0:45 chapter 2: 2 shields, learn to dash behind them. 1:30 chapter 3: up to 9 mixed enemies with rain. 2:20 boss. 2:50 score and time. PC players tolerate denser chapters than MR players.",
+  "use_when": "PC battle sessions around 3 minutes",
+  "do": [
+   "Teach one verb per chapter: combo, then dash"
+  ],
+  "avoid": [
+   "Introducing shields and rain in the same chapter"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "fantasy"
+   ],
+   "players": [
+    "gamers",
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-flow-runner-8min",
+  "kind": "example",
+  "title": "Runner flow, 8 minutes, 10 checkpoints in 3 acts",
+  "text": "0:00 story card. 0:20 act 1, checkpoints 1-3, open easy path. 2:30 act 2, checkpoints 4-7, hazard pairs and a story turn at 5. 5:00 calm view stretch, no hazards. 5:45 act 3, checkpoints 8-10, densest hazards or void floor. 7:30 portal. 7:45 score, time bonus, leaderboard. Needs a space over 10 x 10 m or PC.",
+  "use_when": "Long runner sessions, large venues or PC tours",
+  "do": [
+   "Use the maximum of 10 checkpoints",
+   "Plan one rest stretch at mid-session"
+  ],
+  "avoid": [
+   "8 minutes in a small room, players loop the same few metres"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-flow-tactics-8min",
+  "kind": "example",
+  "title": "Tactics flow, 8 minutes, 6 boards with a new piece every 2 boards",
+  "text": "0:00 rules card. 0:20 boards 1-2 with the rook: 2 then 3 targets, 1-2 guards. 2:30 boards 3-4 with the knight, cracked squares appear. 5:00 boards 5-6 with the queen, guards on a 3 s beat and tables blocking lines. 7:30 final time, leaderboard. Good for puzzle fans on PC or a calm MR hall.",
+  "use_when": "Long tactics sessions for players who enjoy planning",
+  "do": [
+   "Introduce one new piece or rule every 2 boards"
+  ],
+  "avoid": [
+   "Guards faster than every 3 s",
+   "Six boards of the same piece"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery",
+    "expression"
+   ],
+   "players": [
+    "gamers",
+    "adults"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-pal-classroom-learning",
+  "kind": "palette",
+  "title": "Classroom learning: chalk green, paper white, pencil yellow, ink blue",
+  "text": "Palette: #2f5d50 chalk green, #fbfaf5 paper white, #ffcf33 pencil yellow, #2d5bd1 ink blue, #e5262f hazard red. Made for a real classroom under fluorescent light, where everything stays readable. In daylight by windows the paper white can glare, so keep it on small props and use chalk green for the ground. The hazard colour #e5262f (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "Educational games for schools, quiz-style runners where checkpoints are lesson steps",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-library, ow-village",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "discovery",
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-office-teambuilding",
+  "kind": "palette",
+  "title": "Office team-building: slate, teal, warm coral, clean white",
+  "text": "Palette: #3c4a5c slate, #1fa59a team teal, #ff8a65 warm coral, #f5f7fa clean white, #d7191c hazard red. A calm grown-up palette for meeting rooms and lobbies under office light. Coral is warm but clearly lighter than the hazard red, so keep it on goals and team markers. In daylight it still reads well. The hazard colour #d7191c (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "Corporate team-building, adult groups, office events",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-herotech, ow-garden",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-beach-ocean",
+  "kind": "palette",
+  "title": "Tropical beach: lagoon turquoise, white sand, palm green, sunset coral",
+  "text": "Palette: #23c6c8 lagoon, #f6e7c1 white sand, #3f9b4f palm green, #ff8c69 sunset coral, #7b2cbf urchin purple hazard. Outdoor daylight friendly, like a real beach. Coral and sand are close to warm hazard colours, so hazards turn urchin purple, which stands out on sand and water alike. Indoors raise saturation a step. The hazard colour #7b2cbf (urchin purple hazard) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "Beach, island holiday, surfing or summer trip themes above water",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-pirate, ow-reef, ow-sun",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "discovery",
+    "sensation"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-autumn-harvest",
+  "kind": "palette",
+  "title": "Autumn harvest: maple orange, wheat gold, plum, pine",
+  "text": "Palette: #d9622b maple orange, #e8c35a wheat gold, #5e2750 plum, #2e5e4e pine, #00b4d8 frost cyan hazard. Warm all over, so a red hazard would hide among leaves; hazards become frost cyan. Pine and plum give the dark anchors. Works indoors and in soft daylight; at noon lift plum toward a lighter berry. The hazard colour #00b4d8 (frost cyan hazard) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "Harvest festival, autumn forest, rice harvest, thanksgiving-style themes",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-farm, ow-garden, ow-mushroom",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "discovery"
+   ],
+   "players": [
+    "families",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-rainy-season",
+  "kind": "palette",
+  "title": "Rainy season: storm grey, wet leaf green, umbrella yellow, puddle blue",
+  "text": "Palette: #5b6770 storm grey, #4caf50 wet leaf, #ffd400 umbrella yellow, #5fa8d3 puddle blue, #ff2d2d hazard red. Moody but not dark: grey sets the weather, yellow umbrellas guide the eye. Good indoors and on overcast days; on bright noon days the grey turns flat, so lean on yellow and green shapes. The hazard colour #ff2d2d (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "Thai rainy season, frogs and puddles, a cosy monsoon story",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-garden, ow-village, ow-witchmarsh",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-chinese-new-year",
+  "kind": "palette",
+  "title": "Chinese New Year in Thailand: lantern red, lucky gold, jade, ink black",
+  "text": "Palette: #c8102e lantern red, #f2c14e lucky gold, #00a86b jade, #1c1c1c ink black, #00e5ff electric cyan hazard. The festival is red by nature, so hazards must not be red: they become electric cyan, which appears nowhere in the decor. Rich indoors and at night like Yaowarat street lights; in daylight keep ink black small and let gold and jade carry contrast. The hazard colour #00e5ff (electric cyan hazard) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "Chinese New Year, Yaowarat street, dragon and lion dance themes",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-bazaar, ow-dragon, ow-lotuscity",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "fellowship",
+    "fantasy"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-pal-sports-day",
+  "kind": "palette",
+  "title": "School sports day: field green, team blue, team yellow, team purple",
+  "text": "Palette: #3fa34d field green, #1e63d6 team blue, #ffcc00 team yellow, #8e44ad team purple, #ff1a1a hazard red. Thai sports days use team colours; red is kept out of the teams so it can stay the hazard. Built for outdoor fields and gyms in daylight, where saturated primaries read from the stands. The hazard colour #ff1a1a (hazard red) is used only for danger so warning rings never blend into the decor.",
+  "use_when": "Sports day, team races, school competitions with colour teams",
+  "do": [
+   "Put the 5 hex values straight into art.palette and name them in lang",
+   "Scenery theme to pair: ow-village, ow-olympus, ow-carnival",
+   "Keep the hazard colour only on danger (rings, enemy tells, cracked squares)"
+  ],
+  "avoid": [
+   "Adding a second red or orange to the decor, it steals the warning signal"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "pt-ka-two-player-race",
+  "kind": "pattern",
+  "title": "Race or shared-floor key art: two players, side by side, one clear leader",
+  "text": "For an online race or shared floor show exactly 2 player avatars or 2 headset players, one a step ahead, both heading to the same checkpoint or portal. Two figures is the most FLUX schnell draws cleanly, and a visible leader sells competition in one frame.",
+  "use_when": "key_art.prompt for race or together play modes",
+  "do": [
+   "Give the two players different simple colours (blue and yellow)",
+   "Put the goal in the background between them"
+  ],
+  "avoid": [
+   "3 or more players, faces and limbs merge",
+   "Players touching or passing items, the engine has no hand-offs"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-sb-together-mode",
+  "kind": "pattern",
+  "title": "Together storyboard: shared floor where players see each other, not a team mechanic",
+  "text": "On a shared floor players walk the same course and see each other's avatars, but there is no shared score or hand-off. Write beats around that: start, players gather at spawn; middle, one waits for or calls out to the other near a hazard; climax, they reach the last checkpoint together; end, both portals and both scores.",
+  "use_when": "Storyboards for play_mode together",
+  "do": [
+   "Use calling out and waiting as the social verbs",
+   "Put both players in the climax panel"
+  ],
+  "avoid": [
+   "Promising carrying, combining items or team health",
+   "A climax only one player can reach"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "pt-hud-race-shared",
+  "kind": "heuristic",
+  "title": "Race HUD adds live position; shared-floor HUD adds nothing",
+  "text": "In a race each player walks their own copy, so add live position (2nd of 4) next to checkpoint count and timer, and mirror the leaderboard on a spectator screen. On a shared floor the other players are visible as avatars, so no extra HUD is needed.",
+  "use_when": "hud for race or together play modes",
+  "do": [
+   "Race: position, checkpoint 3/6, timer",
+   "Shared: the normal runner HUD"
+  ],
+  "avoid": [
+   "Friend lists, chat or team bars the engine does not have"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ }
+]

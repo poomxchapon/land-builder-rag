@@ -1,0 +1,3327 @@
+[
+ {
+  "id": "gn-battle-enemy-roles",
+  "kind": "principle",
+  "title": "Each battle enemy kind asks the player a different question",
+  "text": "The battle engine has exactly three enemy kinds. A grunt (3 health, fast) asks \"can you swing in time?\", a shield (5 health, blocks hits from the front) asks \"can you get to its side?\", and a beast (14 health, charges with a red ring at your feet, hits for 2) asks \"can you read the warning and move?\". Design each chapter around which question it asks, not around a body count.",
+  "use_when": "choosing the foes list of any battle chapter",
+  "do": [
+   "Name the question each chapter asks before picking numbers",
+   "Use shields to teach moving around a foe",
+   "Use a beast as the chapter centrepiece, not filler"
+  ],
+  "avoid": [
+   "Inventing other enemy kinds (archers, flyers, mages)",
+   "Treating all three kinds as interchangeable counts"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-chapter1-grunts-only",
+  "kind": "genre-rule",
+  "title": "Chapter one is grunts only, and never a beast",
+  "text": "The checker rejects a beast in chapter 1, and for good reason: the first chapter is where the player learns that a swing hits and a red ring hurts. Use 2 to 3 grunts and no rain. On PC this is a short warm-up; in MR it gives a first-time headset player time to find the controller-sword before anything charges.",
+  "use_when": "writing the first chapter of any battle game",
+  "do": [
+   "Chapter 1: 2-3 grunts, rain false",
+   "Make its line say what to do (\"Cut them down\")"
+  ],
+  "avoid": [
+   "A beast or rain in chapter 1",
+   "Opening with 5+ enemies to look exciting"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "first-time-vr",
+    "kids"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-one-new-thing",
+  "kind": "pattern",
+  "title": "Add one new thing per battle chapter",
+  "text": "A clear ramp introduces one new element per chapter: first grunts, then shields, then the first beast, then rain, then a mix. When two new things arrive together the player cannot tell what hurt them. The last chapter before the boss is the only place where everything mixes.",
+  "use_when": "ordering 4-6 battle chapters",
+  "do": [
+   "Write a one-word \"new thing\" next to each chapter while planning",
+   "Save the full mix for the chapter before the boss"
+  ],
+  "avoid": [
+   "Shield and beast debut in the same chapter",
+   "Rain arriving together with the first beast"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "Csikszentmihalyi 1990, Flow"
+ },
+ {
+  "id": "gn-battle-chapters-by-session",
+  "kind": "heuristic",
+  "title": "Pick the battle chapter count from the session length",
+  "text": "The engine takes 3 to 6 chapters and then adds the boss fight on its own. As a planning estimate, a chapter takes about 40 to 90 seconds and the boss 1.5 to 3 minutes, with a short pause between chapters. So 3 chapters fit a 3-5 minute event slot, 4-5 chapters fit 6-8 minutes, and 6 chapters suit 10 minutes or more for keen players. Confirm the real times in a playtest.",
+  "use_when": "the brief has session_minutes and the option is battle",
+  "do": [
+   "3 chapters for 3-5 min queues",
+   "4-5 chapters for 6-8 min",
+   "6 chapters only for 10+ min and keen players"
+  ],
+  "avoid": [
+   "6 chapters in a 4-minute event slot",
+   "Counting the boss as one of the 3-6 chapters"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "groups",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-battle-mr-six-cap",
+  "kind": "genre-rule",
+  "title": "In MR a battle chapter holds at most 6 enemies",
+  "text": "In MR the player stands in a real room, so the checker allows at most 6 enemies in a chapter (PC allows 9). Enemies also walk at about 60 percent of their PC speed in MR. Treat 4 as a normal MR chapter and 6 as the climax; more bodies around a real person feels crowded and makes rings hard to escape in a small room.",
+  "use_when": "writing battle chapters for platform mr",
+  "do": [
+   "Keep most MR chapters at 3-5 enemies",
+   "Use 6 only for the chapter before the boss"
+  ],
+  "avoid": [
+   "Copying a 9-enemy PC chapter into MR",
+   "Six enemies in a 3 x 3 m room"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-pc-nine-cap",
+  "kind": "genre-rule",
+  "title": "On PC a battle chapter holds at most 9 enemies, and 9 is a peak",
+  "text": "A PC chapter may list up to 3 foe entries, each with 1 to 6 of one kind, with a total of at most 9. Nine is a showpiece for the last chapter before the boss, when the player has learned all three kinds. A typical PC ramp is 3, 5, 3 (with the first beast), 5 with rain, then 7-9.",
+  "use_when": "writing battle chapters for platform pc",
+  "do": [
+   "Ramp totals like 3, 5, 3, 5, 8",
+   "Lower the count when a beast or rain joins"
+  ],
+  "avoid": [
+   "Every chapter at 9",
+   "More than 3 foe entries in one chapter"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "gamers"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-rain-usage",
+  "kind": "pattern",
+  "title": "Rain is a pressure chapter: fewer, weaker enemies under falling rings",
+  "text": "When a chapter has rain, warning rings keep dropping around the player (roughly one per second) for as long as enemies are alive. That already makes the chapter hard, so pair rain with 3 to 4 grunts and no beast. Use rain once in a short game and at most twice in a long one; it reads as a story moment (a storm, a curse, falling rocks, meteors).",
+  "use_when": "deciding which chapters get rain: true",
+  "do": [
+   "Pair rain with grunts only",
+   "Name the rain in the chapter line (\"Ash falls from the volcano\")",
+   "Place rain in the middle third"
+  ],
+  "avoid": [
+   "Rain in chapter 1",
+   "Rain plus a beast plus shields in one chapter",
+   "Rain in every chapter"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-rain-mr-caution",
+  "kind": "pitfall",
+  "title": "Rain in MR makes real people step often: size the room for it",
+  "text": "In MR there is no dash: the player escapes a ring by stepping out of it with their own feet. Rain chapters therefore mean many quick steps. In a 3 x 3 m room or with first-time headset players, either skip rain or use it once with at most 3 grunts. In 5 x 5 m or larger it works well and looks great to spectators.",
+  "use_when": "an MR battle in a small room or for first-time VR players",
+  "do": [
+   "Skip rain under 4 x 4 m",
+   "Use at most one rain chapter for first-time VR",
+   "Tell players to step, not run"
+  ],
+  "avoid": [
+   "Two rain chapters in a living room",
+   "Rain for seniors or young kids"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "first-time-vr",
+    "kids",
+    "seniors"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "gn-battle-boss-fixed",
+  "kind": "genre-rule",
+  "title": "The boss is one fixed fight: you choose only its name and intro line",
+  "text": "Every battle ends with the same boss behaviour: a large crowned warrior that slams red rings at the player, calls 2 grunts every few seconds, and gets faster with extra rings once below half health. The design only sets boss.name and boss.intro. Make the name and intro pay off the story the chapters told (\"The Frost Warden wakes. Break the ice crown.\").",
+  "use_when": "writing the boss of a battle game",
+  "do": [
+   "Foreshadow the boss in an earlier chapter line",
+   "Write the intro as a call to action",
+   "Keep the chapter before the boss below the cap, since the boss adds grunts"
+  ],
+  "avoid": [
+   "Promising a dragon that flies or breathes fire",
+   "Describing boss attacks the engine does not have"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "narrative",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-boss-wish-pitfall",
+  "kind": "pitfall",
+  "title": "When the creator asks for a special boss, offer name, intro and theme",
+  "text": "Creators often ask for \"a giant dragon boss\" or \"a robot boss with lasers\". The battle engine has one boss model and one behaviour. Say so kindly and offer what does change: the boss name, its intro line, the theme colours around it, and the story the chapters build toward it. A lava theme plus \"The Ember Tyrant\" carries much of the dragon feeling.",
+  "use_when": "the creator describes a boss with unique attacks, flying or shooting",
+  "do": [
+   "Offer name + intro + theme as the boss identity",
+   "Tell the creator plainly what the boss does"
+  ],
+  "avoid": [
+   "Promising a custom boss model or attack",
+   "Silently ignoring the wish"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-chapter-lines-story",
+  "kind": "pattern",
+  "title": "Chapter titles and lines tell the story in order",
+  "text": "Each chapter has a title and one line shown when it starts. Read in order, the titles should form a story: arrive, meet resistance, face the beast, survive the storm, break in, face the boss. Keep each line one sentence, present tense, with the place and the threat (\"The gate falls. Everything inside comes for you.\").",
+  "use_when": "writing chapter titles and lines",
+  "do": [
+   "Read all titles in a row: they should sound like a plot",
+   "One sentence per line, under about 12 words"
+  ],
+  "avoid": [
+   "Titles like \"Wave 1\", \"Wave 2\"",
+   "Lines that repeat the same sentence with different numbers"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-battle-line-as-hint",
+  "kind": "heuristic",
+  "title": "Let each chapter line carry the hint for its new enemy",
+  "text": "The line is the only text a player reads at the start of a chapter, so it doubles as the tutorial. For shields say to hit from the side, for a beast say to watch its red ring and strike after it charges, for rain say to keep moving. Players then learn the counter inside the story instead of from a rules screen.",
+  "use_when": "a chapter introduces shields, a beast or rain",
+  "do": [
+   "Shield line: \"hit them from the side\"",
+   "Beast line: \"watch the ring, step out, strike its back\"",
+   "Rain line: \"keep moving\""
+  ],
+  "avoid": [
+   "Pure flavour lines with no hint on a new threat",
+   "Long rule text in the line"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "first-time-vr"
+   ]
+  },
+  "source": "Schell, The Art of Game Design"
+ },
+ {
+  "id": "gn-battle-theme-by-mood",
+  "kind": "palette",
+  "title": "Battle themes and the mood each one carries",
+  "text": "The battle engine has six themes. dark is purple night and torches for gothic dread; ice is cold blues, calm and clean, for frost or winter stories; lava is red and orange danger for a volcano or forge. forest is greens and warm torchlight for friendly adventure; neon is magenta and cyan for an arcade or cyber party; desert is warm sand with the brightest base light, for ancient ruins or sun.",
+  "use_when": "choosing config.theme for a battle game",
+  "do": [
+   "Match the theme to the story world first",
+   "Use forest or desert for younger players"
+  ],
+  "avoid": [
+   "A theme name outside the six",
+   "dark for a cheerful kids story"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-theme-venue-light",
+  "kind": "heuristic",
+  "title": "In MR pick the battle theme by the real light",
+  "text": "In MR only the floor and the enemies are drawn; the real room stays visible. In a bright hall or daylight, dark and neon look washed out, while desert and ice (the lightest themes) stay readable. In a dim hall or after dark, neon, lava and dark glow and feel dramatic. Red rings must stay readable on the floor in every case.",
+  "use_when": "an MR battle and the brief says indoor/outdoor and time of day",
+  "do": [
+   "Bright venue: desert or ice",
+   "Dim venue: neon, lava or dark",
+   "Check ring readability in the prototype test questions"
+  ],
+  "avoid": [
+   "Neon in a sunny garden",
+   "Assuming the PC look carries into MR"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "gn-battle-kids-ramp",
+  "kind": "heuristic",
+  "title": "A battle ramp for kids: short, grunt-heavy, one beast late",
+  "text": "For ages about 6 to 11 use 3 or 4 chapters: grunts, then shields with grunts, then one beast with 1-2 grunts, then an easy final mix. Use rain at most once and keep totals at 3-5. The player has 10 health and heals 2 after each chapter, so a gentle ramp lets most kids reach the boss, which is the moment they talk about afterwards.",
+  "use_when": "players are kids or families and the option is battle",
+  "do": [
+   "3-4 chapters",
+   "Totals 3-5 per chapter",
+   "One beast, late",
+   "Friendly theme like forest or desert"
+  ],
+  "avoid": [
+   "Two beasts in one chapter for kids",
+   "Gothic dread themes for under-8s",
+   "Rain twice"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-battle-gamers-ramp",
+  "kind": "heuristic",
+  "title": "A battle ramp for gamers: 5-6 chapters with combined threats",
+  "text": "Gamers want the combinations: shields that block while a beast charges, rain over a grunt pack. Use 5 or 6 chapters, two rain chapters, and a final chapter at the cap (9 on PC, 6 in MR). The end score adds a bonus for finishing fast and for health left, so tell them that speed and clean play raise the score.",
+  "use_when": "players are gamers or teens who want a hard fight",
+  "do": [
+   "Combine shield + beast in the late chapters",
+   "Two rain chapters spread apart",
+   "Mention the time and health bonus in the rules"
+  ],
+  "avoid": [
+   "A flat ramp where chapter 5 equals chapter 2",
+   "Hiding how the score works"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": [
+    "gamers",
+    "teens"
+   ]
+  },
+  "source": "Ryan, Rigby & Przybylski 2006, PENS/SDT"
+ },
+ {
+  "id": "gn-battle-mr-space-min",
+  "kind": "genre-rule",
+  "title": "MR battle needs at least 3 x 3 m of empty floor",
+  "text": "The arena is fitted to the room minus about 0.5 m on each side, so a 3 x 3 m floor gives a 2 m fighting area: enough for grunts and shields, tight for a beast charge (its warning ring is about 2.8 m across). From 4 x 4 m a beast is comfortable; 5 x 5 m is the template default. Under 3 m on a side the checker only allows runner options.",
+  "use_when": "an MR brief where the floor size is known",
+  "do": [
+   "3-4 m: grunts and shields, at most one beast",
+   "4 x 4 m or more: full mix",
+   "Under 3 m: offer runner instead"
+  ],
+  "avoid": [
+   "Proposing battle for a 2.5 x 3 m room",
+   "Two beasts in a 3 x 3 m room"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-mr-no-running",
+  "kind": "genre-rule",
+  "title": "MR battle: the controller is the sword and the feet only step",
+  "text": "In MR the right controller holds the sword and a fast swing attacks; the player stands and steps, with no dash and no running. Enemies walk in slowly from the edges, and every threat is a red ring the player steps out of. Write rules and pitches around \"swing and step\": it is safe, and it is what spectators enjoy watching.",
+  "use_when": "pitching or writing rules for an MR battle",
+  "do": [
+   "Rules: \"Swing the right controller\", \"Step out of red rings\"",
+   "Pitch the player as standing their ground"
+  ],
+  "avoid": [
+   "Promising a dash in MR",
+   "Telling players to run or dodge-roll",
+   "Two-handed or shield blocking moves"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "sensation",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-pc-controls",
+  "kind": "genre-rule",
+  "title": "PC battle: 3-hit combo and a dash are the whole move set",
+  "text": "On PC the player moves with WASD, aims with the mouse, swings a 3-hit sword combo (the third hit deals double damage and reaches further) and dashes with Space or right click, which briefly dodges attacks. That is the full kit. Good PC chapters are about using the dash to leave a red ring and the third hit to finish a shield or beast.",
+  "use_when": "writing pitch, rules or storyboard for a PC battle",
+  "do": [
+   "Mention the dash in the beast chapter line",
+   "Show the third hit as the big moment in the storyboard"
+  ],
+  "avoid": [
+   "Promising magic, bows, blocking, jumping or pickups",
+   "Weapon upgrades between chapters"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": [
+    "gamers",
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-what-not-to-promise",
+  "kind": "pitfall",
+  "title": "Battle has no items, no co-op and no second weapon",
+  "text": "Creators often add upgrades, potions, a partner hero or a bow to a fight concept. The battle engine is one player, one sword, three enemy kinds, rain rings, one boss, health that refills by 2 after a chapter, and a score. Offer the closest real things: the heal between chapters as \"rest at the campfire\", score as bragging rights, spectators as the cheering party.",
+  "use_when": "the creator asks for power-ups, co-op, shooting or inventory in a battle game",
+  "do": [
+   "Reframe the chapter heal as a story rest",
+   "Offer the score for competition between friends taking turns"
+  ],
+  "avoid": [
+   "Promising co-op or online battles",
+   "Promising loot or upgrades"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-scoring",
+  "kind": "default",
+  "title": "Battle score rules to write into the game card",
+  "text": "Score comes from kills (grunt 50, shield 80, beast 400), 200 for each cleared chapter, and on a win a bonus for speed and for health left. Write two rules from this: \"Clear a chapter to heal 2 and gain 200\" and \"Finish fast with health left for a higher score\". It gives friends taking turns something to compare.",
+  "use_when": "writing game.rules for a battle game",
+  "do": [
+   "Mention the chapter heal and 200 bonus",
+   "Mention the speed and health bonus"
+  ],
+  "avoid": [
+   "Inventing combo multipliers or stars",
+   "Score rules that the engine does not count"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-mr-spectators",
+  "kind": "pattern",
+  "title": "MR battle spectators watch a real sword fight with no visible enemies",
+  "text": "People beside an MR battle see a person swinging, turning and stepping out of invisible rings. That is funny and dramatic, so give them a place outside the floor edge with at least 1 m extra for the swinging arm, and let them cheer each \"Chapter cleared\". The boss is the loudest moment; spectators can cheer the boss health going down if a screen mirrors the game.",
+  "use_when": "writing spectator_view or spectator_plan for an MR battle",
+  "do": [
+   "Spectators stand outside the edge plus 1 m",
+   "Invite cheering at chapter clears and the boss"
+  ],
+  "avoid": [
+   "Spectators inside the play area",
+   "Asking spectators to call out enemies they cannot see"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fellowship",
+    "sensation"
+   ],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "gn-battle-shield-chapter",
+  "kind": "pattern",
+  "title": "The shield chapter is the battle game's little puzzle",
+  "text": "Shields block hits from the front, so the player must get to their side. In MR this means stepping around a slow enemy, which feels clever and is easy to read. Use 2 to 3 shields with 1 to 2 grunts as distraction; more than 4 shields becomes a wall that frustrates new players.",
+  "use_when": "the second chapter of a battle game, or teaching flanking",
+  "do": [
+   "2-3 shields + 1-2 grunts",
+   "Line: \"Hit them from the side\""
+  ],
+  "avoid": [
+   "5-6 shields in one chapter",
+   "A shield chapter with rain before players know the trick"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-health-budget",
+  "kind": "heuristic",
+  "title": "Budget the player's 10 health across the run",
+  "text": "The player has 10 health, regains 2 after each chapter, and beast and boss hits cost 2 while grunt hits and rain cost 1. Many beasts or long rain chapters drain health before the boss, which ends runs at the wrong moment. Aim for a run where an average player arrives at the boss with about half health.",
+  "use_when": "balancing a 5-6 chapter battle or a hard ramp",
+  "do": [
+   "At most one beast per chapter before the final mix",
+   "Follow a rain chapter with a lighter one"
+  ],
+  "avoid": [
+   "Back-to-back beast chapters",
+   "Ending most runs before the boss"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-example-forest-kids",
+  "kind": "example",
+  "title": "Example battle plan: forest rescue for a family day (MR, 4 x 4 m)",
+  "text": "Theme forest; chapter 1 \"Goblins at the gate\": 3 grunts; chapter 2 \"The bark shields\": 2 shields, 1 grunt, line \"Step around them, hit their side\". Chapter 3 \"The mud boar\": 1 beast, 1 grunt, line \"Watch the ring, step out, strike\"; chapter 4 \"Acorn storm\": 3 grunts with rain. Boss \"The Thorn King\", intro \"He has the fox cub. Win it back.\" Every MR chapter stays at 4 or fewer.",
+  "use_when": "need a worked example of a kid-friendly MR battle config",
+  "do": [
+   "Copy the structure, change names to fit the brief"
+  ],
+  "avoid": [
+   "Copying the names verbatim for another brief"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-tactics-piece-teaches",
+  "kind": "principle",
+  "title": "Each tactics piece teaches a different way of seeing the board",
+  "text": "The knight jumps in an L over anything, so it teaches seeing hidden two-step paths. The bishop slides on diagonals and can only ever reach one colour, so it teaches routing around. The rook runs straight lines that tables stop, so it teaches lanes. The queen moves any way, so the board becomes a test of reading danger rather than finding a path.",
+  "use_when": "choosing the piece for each tactics board",
+  "do": [
+   "Say in the board story what the piece is good at",
+   "Vary the piece between boards"
+  ],
+  "avoid": [
+   "The same piece on every board",
+   "Promising a king or pawn as the player piece"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-piece-order",
+  "kind": "pattern",
+  "title": "A good tactics piece order: simple reading first, queen last",
+  "text": "The rook is the easiest piece to read (straight lines) and suits board 1 for kids and newcomers; the knight suits board 1 for puzzle lovers because its jump is a fun surprise. Put the bishop in the middle and the queen on the last board or two, where freedom meets the most guards. The build task asks for the pieces to vary.",
+  "use_when": "ordering 3-6 tactics boards",
+  "do": [
+   "Kids: rook, knight, bishop, queen",
+   "Puzzle fans: knight, bishop, rook, queen, queen"
+  ],
+  "avoid": [
+   "Opening with the queen",
+   "Bishop first for young kids"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-tactics-bishop-fewer-targets",
+  "kind": "heuristic",
+  "title": "Give bishop boards fewer targets",
+  "text": "A bishop zig-zags to reach anything, so each target costs more moves and more beats under guard pressure. Code still makes the board solvable, but 5 or 6 targets with a bishop feels slow. Use 3 to 4 targets on bishop boards and spend the extra difficulty on guards instead.",
+  "use_when": "a tactics board where the piece is bishop",
+  "do": [
+   "Bishop boards: 3-4 targets",
+   "Raise guards, not targets"
+  ],
+  "avoid": [
+   "6 targets with a bishop",
+   "A bishop board as the first board for kids"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-tactics-board-count",
+  "kind": "heuristic",
+  "title": "Pick the tactics board count from the session length",
+  "text": "The engine takes 3 to 6 boards. As a planning estimate a board takes about 45 seconds to 2 minutes on PC and longer in MR, where every move is a walk and guards wait at least 3 seconds. So 3 boards fit 3-5 minutes, 4-5 boards fit 6-10 minutes, and 6 boards suit a long session for puzzle fans. Confirm in a playtest.",
+  "use_when": "the brief has session_minutes and the option is tactics",
+  "do": [
+   "MR events: 3-4 boards",
+   "PC puzzle fans: 5-6 boards"
+  ],
+  "avoid": [
+   "6 MR boards for a 5-minute queue"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "groups",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-tactics-guard-ramp",
+  "kind": "genre-rule",
+  "title": "Guards ramp from at most 2 on board 1 to at most 4",
+  "text": "Each board has 0 to 4 guards, and the checker rejects more than 2 on the first board. Guards are the main difficulty knob because their attacked squares change every beat. A typical ramp is 1, 2, 2, 3, 4; for kids 0 or 1 guard on board 1 lets them learn how the piece moves before anything moves back.",
+  "use_when": "setting guards for a sequence of tactics boards",
+  "do": [
+   "Board 1: 0-2 guards (0-1 for kids)",
+   "Add one guard every board or two",
+   "Final board: 3-4"
+  ],
+  "avoid": [
+   "3 or more guards on board 1",
+   "Dropping from 4 guards back to 1 without a story reason"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "first-time-vr"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-guard-kinds-auto",
+  "kind": "pitfall",
+  "title": "You choose how many guards, not which pieces they are",
+  "text": "Code picks each guard's kind (rook, bishop or knight in rotation) and its patrol path when it builds the board. So a board story should not promise \"two knights guard the vault\" or \"a rook patrols the hall\". Describe guards by role in the story (\"the night watch\", \"palace guards\") and let the engine decide their moves.",
+  "use_when": "writing board stories or the prototype for a tactics game",
+  "do": [
+   "Call guards by story role",
+   "Describe the guard count, not the guard pieces"
+  ],
+  "avoid": [
+   "Naming specific guard pieces in board stories",
+   "Promising hand-placed patrol routes"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-beat-by-audience",
+  "kind": "heuristic",
+  "title": "Set the guard beat by who plays",
+  "text": "The beat is the seconds between guard moves (1.5 to 3.5). Slower is easier: there is time to look at the red and orange squares and plan. For kids or first-time players use 3 to 3.5 s throughout; casual adults on PC 2.5 to 3 s; puzzle fans on PC can end at 1.8 to 2 s. Shorten the beat by about 0.2 to 0.3 s per board at most.",
+  "use_when": "choosing beat values for tactics boards",
+  "do": [
+   "Kids: 3-3.5 s on every board",
+   "Gamers PC: start 2.8, end 1.8-2.0"
+  ],
+  "avoid": [
+   "Beat under 2 s on board 1",
+   "Big jumps like 3.0 to 1.5 between boards"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "adults",
+    "gamers"
+   ]
+  },
+  "source": "Csikszentmihalyi 1990, Flow"
+ },
+ {
+  "id": "gn-tactics-mr-beat-floor",
+  "kind": "genre-rule",
+  "title": "In MR guards move every 3 s or slower, so ramp with other knobs",
+  "text": "Players walk the board in MR, so the engine never lets guards move faster than every 3 s, whatever the plan says. In MR use beats of 3 to 3.5 s and make later boards harder with more guards, more cracked squares and more targets instead of a faster beat. A plan that relies on a 2 s beat for its climax will feel flat in a headset.",
+  "use_when": "a tactics game on platform mr",
+  "do": [
+   "MR beats: 3.0-3.5 s",
+   "Ramp with guards and cracks"
+  ],
+  "avoid": [
+   "Planning beat 2.0 as the MR climax",
+   "Telling MR players to hurry between beats"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "first-time-vr"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-mr-square-size",
+  "kind": "genre-rule",
+  "title": "MR board squares are fitted to the floor, up to 1 m",
+  "text": "The 6 x 8 board is scaled to the room: each square is the smaller of 1 m, width / 6 and depth / 8, and never below 0.5 m. A 6 x 8 m floor gives 1 m squares; 4.5 x 6 m gives 0.75 m; 3 x 4 m gives 0.5 m, where it is hard to stand clearly on one square. The player moves by standing on a legal square for about a third of a second.",
+  "use_when": "an MR tactics option and the floor size is known",
+  "do": [
+   "Prefer 4.5 x 6 m or more (0.75 m squares)",
+   "Score mr_fit lower when squares come out near 0.5 m",
+   "Run the 8-square side along the longer wall"
+  ],
+  "avoid": [
+   "Promising big squares in a small room",
+   "Tactics in a room under 3 x 3 m"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-mr-walk-safety",
+  "kind": "pitfall",
+  "title": "MR tactics: walk, never jump, and keep the board edge clear",
+  "text": "A queen or rook move can cross the whole board, which in a 6 x 8 m room is several metres of walking in a headset. With a guard beat ticking, players may hurry. Tell them in the rules to walk, keep 0.6 m clear beyond the board edge, keep spectators off the board, and remember that after a hit the player walks back to the start ring.",
+  "use_when": "writing rules or the spectator plan for MR tactics",
+  "do": [
+   "Rule: \"Walk onto a green ring, never jump\"",
+   "Keep a clear margin around the board",
+   "Mention walking back to the start ring after a hit"
+  ],
+  "avoid": [
+   "Encouraging a dash across the board",
+   "Real furniture left on the board area"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "first-time-vr",
+    "seniors"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "gn-tactics-race-leaderboard",
+  "kind": "pattern",
+  "title": "Tactics is a race on time with a leaderboard",
+  "text": "The run timer counts every board, each hit adds 5 seconds, and the player has 3 hearts. The leaderboard ranks by boards cleared, then by time, and asks for the next player's name, so it suits events where people take turns. Pitch it as \"fastest clean run wins\" and suggest showing the leaderboard on a screen for the queue.",
+  "use_when": "tactics for events, classes or friends taking turns",
+  "do": [
+   "Pitch \"fastest clean run\" as the goal",
+   "Rule: each hit adds 5 s",
+   "Show the leaderboard to the queue"
+  ],
+  "avoid": [
+   "Promising online head-to-head chess",
+   "Promising stars or unlocks"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "expression",
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-story-wrap",
+  "kind": "pattern",
+  "title": "Wrap each tactics board in one story line",
+  "text": "Every board has a one-line story, and the run reads as a plot when the lines connect: sneak in, cross the hall, reach the vault, face the king. Common wraps that fit the mechanics: a heist (targets are treasures, guards are watchmen), a rescue (targets are keys taken in order), a ghost hunt (targets are spirits to catch). The rules stay chess; only the words change.",
+  "use_when": "writing board stories and the game story for tactics",
+  "do": [
+   "Give the targets a story meaning",
+   "Make the last line the climax"
+  ],
+  "avoid": [
+   "Board lines that only describe the piece",
+   "Story beats that need new mechanics (doors that unlock, items to carry)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-tactics-tables-scene",
+  "kind": "pattern",
+  "title": "Tables come with seated characters: use them for indoor stories",
+  "text": "Each table blocks a square (sometimes two side by side) and has cartoon characters sitting at it who cheer when you capture. That suits stories set in a cafe, library, classroom, banquet or night market. Tables also block a rook or bishop guard's line, so they make safe shadows on the board.",
+  "use_when": "a tactics story set indoors or among people, or the board needs shelter from line attacks",
+  "do": [
+   "Use 2-4 tables in cafe or banquet stories",
+   "Mention tables as cover in the board story"
+  ],
+  "avoid": [
+   "Tables as hiding spots the player can enter",
+   "Describing tables as anything other than blocked squares"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-cracked-squares",
+  "kind": "pattern",
+  "title": "Cracked squares are fixed traps that hurt when you land",
+  "text": "A cracked square costs a heart when the player lands on it; it never moves. Use 0 to 1 on early boards and 3 to 4 later, and give them a story name: thin ice, lava cracks, broken tiles, cursed stones. Because they are static, cracks reward planning rather than timing, which balances boards where guards already add timing pressure.",
+  "use_when": "setting cracks for tactics boards",
+  "do": [
+   "Board 1: 0-1 cracks",
+   "Late boards: 3-4",
+   "Name the cracks in the story"
+  ],
+  "avoid": [
+   "4 cracks on board 1",
+   "Describing cracks that open or move"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-targets-count",
+  "kind": "heuristic",
+  "title": "Targets set the length of a board more than its difficulty",
+  "text": "Each board has 2 to 6 targets captured in number order. More targets mean more moves and more beats, so a longer board, but not much harder if guards are few. Use 3 targets early, 4 to 5 in the middle and up to 6 late, and keep target counts lower in MR where every move is a walk.",
+  "use_when": "setting targets per board",
+  "do": [
+   "Early: 3",
+   "Middle: 4-5",
+   "MR: rarely more than 5"
+  ],
+  "avoid": [
+   "6 targets on board 1",
+   "Using targets as the only difficulty knob"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-king-final",
+  "kind": "genre-rule",
+  "title": "The king is the last target on the final board only",
+  "text": "Setting king: true makes the last target of that board a king. Use it on the final board as the story climax (\"Take his guards, then take him\"), with the other targets as his court. A king earlier in the run spends the climax too soon, and a run without a king needs another strong final line.",
+  "use_when": "writing the final tactics board",
+  "do": [
+   "king: true on the last board",
+   "Final story line names the king"
+  ],
+  "avoid": [
+   "king: true on several boards",
+   "A king on board 1"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "narrative",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-target-piece-stakes",
+  "kind": "heuristic",
+  "title": "Escalate the target piece to show rising stakes",
+  "text": "target_piece sets how targets look: pawn, knight, bishop or rook. Targets do not move or fight back; the change is visual and narrative. Escalate across boards (pawns, then knights, then bishops, then rooks guarding the king) so players feel they are climbing toward the court.",
+  "use_when": "choosing target_piece across boards",
+  "do": [
+   "Pawns on board 1, rooks near the end"
+  ],
+  "avoid": [
+   "Saying stronger targets fight back",
+   "Random target pieces with no pattern"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-code-places",
+  "kind": "principle",
+  "title": "The AI chooses numbers; code places the board and proves it solvable",
+  "text": "For tactics the design gives each board a piece, a story line and counts (targets, guards, tables, cracks, beat, king). Code places everything and checks that every board can be solved. So never promise exact square positions, hand-made puzzle layouts or a specific trick in a prototype; promise the experience and the ramp.",
+  "use_when": "writing options, prototype sketch or build for tactics",
+  "do": [
+   "Describe each board as a feeling plus numbers",
+   "Sketch the board with zones, not exact squares"
+  ],
+  "avoid": [
+   "\"The target is on c5 behind the table\"",
+   "Promising a particular puzzle solution"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-colour-language",
+  "kind": "default",
+  "title": "Tactics teaches itself through floor colours",
+  "text": "Green rings show where you can move, orange numbered pieces are targets in order, red squares are attacked now, and light orange squares will be attacked after the next guard move. Board 1 should have few guards so players learn these colours. In rules, name the colours rather than chess terms, which helps kids and people who never played chess.",
+  "use_when": "writing rules for tactics, or players new to chess",
+  "do": [
+   "Rules in colours: green = move, red = danger",
+   "Mention the \"attacked next\" warning"
+  ],
+  "avoid": [
+   "Chess notation in rules",
+   "Assuming players know how pieces move"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": [
+    "kids",
+    "seniors",
+    "first-time-vr"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-difficulty-knobs",
+  "kind": "heuristic",
+  "title": "Turn one or two tactics knobs per board, not all five",
+  "text": "A tactics board has five knobs: beat, guards, cracks, tables and targets. Guards and beat change difficulty most, cracks add planning, tables can make it easier (shelter) or harder (blocked lines), and targets change length. Changing one or two per board makes the ramp readable; changing all at once makes a spike.",
+  "use_when": "planning a 4-6 board tactics ramp",
+  "do": [
+   "Write which knob changes on each board",
+   "Pair a new piece with an easier board"
+  ],
+  "avoid": [
+   "New piece + more guards + faster beat on one board",
+   "No change at all between boards"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "Schell, The Art of Game Design"
+ },
+ {
+  "id": "gn-tactics-pvp-pitfall",
+  "kind": "pitfall",
+  "title": "Tactics is not two-player chess: offer the time race instead",
+  "text": "Creators often imagine players playing chess against each other or against a computer opponent. In this engine one player is a piece, guards follow patrols on a beat, and targets wait to be taken. Offer turns on the same boards with the leaderboard (fastest clean run), or friends calling hints from the side.",
+  "use_when": "the creator asks for PvP chess, an AI chess opponent or co-op tactics",
+  "do": [
+   "Offer the leaderboard race",
+   "Offer friends calling hints"
+  ],
+  "avoid": [
+   "Promising online matches",
+   "Promising guards that chase the player intelligently"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "fellowship",
+    "challenge"
+   ],
+   "players": [
+    "groups",
+    "gamers"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-spectators",
+  "kind": "pattern",
+  "title": "Tactics spectators become the hint crowd",
+  "text": "In MR people beside the floor see a player stepping square to square and stopping to think. They cannot see the board, but with a screen mirroring the game or after watching a few runs they love to shout hints. Put the spectators along the long side, show the leaderboard there, and present it as a calm, social puzzle rather than an action game.",
+  "use_when": "spectator_view for tactics at events, classes or families",
+  "do": [
+   "Spectators on the long side of the board",
+   "Leaderboard on a screen nearby"
+  ],
+  "avoid": [
+   "Spectators walking onto the board to point",
+   "Promising spectators can see the board in MR without a screen"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-tactics-feelings-fit",
+  "kind": "heuristic",
+  "title": "Tactics serves challenge, discovery and expression, not sensation",
+  "text": "Tactics is slow and readable: the pleasure is finding a path (discovery), planning your own route (expression) and beating the clock (challenge). It is the best pick in a brief that mentions thinking, chess, puzzles, school or calm competition. It is the weakest pick for \"wow\", fast action or pure relaxation, so score fun honestly when the brief is sensation-led.",
+  "use_when": "mapping brief feelings to the tactics option",
+  "do": [
+   "Lead with tactics for puzzle, school and strategy briefs",
+   "Score it lower on fun for thrill-seeking briefs"
+  ],
+  "avoid": [
+   "Pitching tactics as an action spectacle"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery",
+    "expression"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+ },
+ {
+  "id": "gn-tactics-example-kids",
+  "kind": "example",
+  "title": "Example tactics plan: library heist for kids (MR, 5 x 7 m)",
+  "text": "Board 1: rook, \"Sneak past the reading tables\", 3 targets, 1 guard, 2 tables, 0 cracks, beat 3.5, target pawn. Board 2: knight, \"Hop over the book piles\", 3 targets, 1 guard, 2 tables, 1 crack, beat 3.5, target pawn. Board 3: bishop, \"Slip along the diagonals\", 3 targets, 2 guards, 1 crack, beat 3.2, target knight. Board 4: queen, \"Take the Librarian King's keys\", 4 targets, 3 guards, 2 cracks, beat 3.0, king true, target bishop.",
+  "use_when": "need a worked example of a gentle MR tactics ramp",
+  "do": [
+   "Keep MR beats at 3 s or more",
+   "Copy the shape, not the words"
+  ],
+  "avoid": [
+   "Reusing this story for an unrelated brief"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-route-loop",
+  "kind": "pattern",
+  "title": "Loop routes: the safe default for small and medium rooms",
+  "text": "A loop walks around the space and ends near the spawn, so the finish portal is where the queue and spectators already are. It uses the whole floor without crossing itself, which keeps the 1.2 m walking corridor simple. Use it for rooms under 4 x 4 m and as the default in 4 to 10 m spaces.",
+  "use_when": "choosing a runner route shape for a small or medium space",
+  "do": [
+   "End the loop with the portal near the audience",
+   "Keep the loop at least 0.6 m from the edge"
+  ],
+  "avoid": [
+   "A loop crammed into one corner",
+   "Crossing paths inside a small loop"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "submission"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-route-zigzag",
+  "kind": "pattern",
+  "title": "Zig-zag routes fill long rectangular rooms",
+  "text": "A zig-zag goes back and forth across the short side while moving down the long one, so every leg is about the room width. It suits classrooms, halls and courts, and gives natural spots for hazards in the middle of each leg. Keep turns at the ends at least 0.6 m from the walls.",
+  "use_when": "a rectangular space where one side is about 1.5 times the other or longer",
+  "do": [
+   "One checkpoint at each turn",
+   "Hazards mid-leg"
+  ],
+  "avoid": [
+   "Zig-zags with legs shorter than the stop spacing",
+   "Turning right at the wall"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-route-spiral",
+  "kind": "pattern",
+  "title": "Spiral routes build to a climax at the centre",
+  "text": "A spiral walks inward ring by ring, so the story naturally heads \"to the heart\" of something: the temple shrine, the dragon nest, the eye of the storm. Put the last checkpoint and the portal at the centre. It needs a fairly square space of about 5 x 5 m or more; in smaller rooms the inner turns get too tight.",
+  "use_when": "a square space and a story that goes deeper toward a goal",
+  "do": [
+   "Portal at the centre",
+   "Labels that move inward (\"outer wall\" to \"inner shrine\")"
+  ],
+  "avoid": [
+   "Spirals under 5 x 5 m",
+   "A spiral on a void floor for first-time players"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-route-lanes",
+  "kind": "pattern",
+  "title": "Two-lane routes suit big spaces and side-by-side play",
+  "text": "Two parallel lanes let two players walk the length of a large space at the same time and stay apart, which is clear for spectators along the long side. It needs over 10 x 10 m (for example the 14 x 22 m Fortal court). Keep at least 1.2 m clear for each lane plus a gap between them.",
+  "use_when": "a large space with 2 or more players at once",
+  "do": [
+   "Lanes along the long side, spectators parallel",
+   "Portal at the far end facing the crowd"
+  ],
+  "avoid": [
+   "Two lanes in a 6 m wide room",
+   "Lanes that cross"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-route-hub",
+  "kind": "pattern",
+  "title": "Hub-and-spoke routes: a central camp with trips outward",
+  "text": "A hub route returns to a centre between trips to the edges, like a village square with paths to the well, the forest and the temple. Checkpoints still go in order, so alternate: spoke, hub, spoke. It fits discovery and story briefs in medium and large square spaces, and a big hero model beside the hub anchors the whole Land.",
+  "use_when": "a discovery or story brief in a square medium or large space",
+  "do": [
+   "Alternate hub and spoke checkpoints",
+   "Hero scenery beside (not on) the hub"
+  ],
+  "avoid": [
+   "Hub routes in rooms under 5 x 5 m",
+   "Promising free choice of spoke order"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-route-out-back",
+  "kind": "pattern",
+  "title": "Out-and-back routes fit narrow spaces and corridors",
+  "text": "Out-and-back walks to the far end and returns, so it suits a long narrow garden path, a corridor or a strip of a car park. The turnaround is the story climax (the summit, the treasure), and the return leg can bring new hazards. Offset the return 1.2 m or more from the outward leg where the width allows, so walkers do not meet face to face.",
+  "use_when": "a long, narrow space (about 3 m wide or less)",
+  "do": [
+   "Climax checkpoint at the far end",
+   "Offset outward and return legs"
+  ],
+  "avoid": [
+   "Outward and return on the same line",
+   "Out-and-back in a square room where a loop fits better"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-checkpoint-labels",
+  "kind": "pattern",
+  "title": "Write checkpoint labels as short verb-first story beats",
+  "text": "Each checkpoint has a short label that tells the story. Write 2 to 4 words, verb first, saying what happens there: \"Feed the dragon\", \"Light the lantern\", \"Wake the guardian\". A label tells the player why they are walking, which turns a course into a story without any new mechanic.",
+  "use_when": "writing checkpoint labels for a runner layout brief",
+  "do": [
+   "Verb first, 2-4 words",
+   "Each label names a thing the scenery shows"
+  ],
+  "avoid": [
+   "\"Checkpoint 3\"",
+   "Labels longer than a short line",
+   "Labels promising actions the player cannot do (talk, pick up)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-label-arc",
+  "kind": "pattern",
+  "title": "Arrange checkpoint labels as a five-step story arc",
+  "text": "With 5 to 7 checkpoints, a simple arc reads well: setup (arrive), two rising steps, a twist (something goes wrong), the climax, then the portal as the way home. Example: \"Enter the temple\", \"Light the first candle\", \"Cross the spirit bridge\", \"The ghost awakes\", \"Return the bell\", then the portal. Place the scenery for each step beside its checkpoint.",
+  "use_when": "planning 5-7 checkpoints with a story",
+  "do": [
+   "Twist on the second-to-last or third-to-last stop",
+   "Climax just before the portal"
+  ],
+  "avoid": [
+   "All labels at the same emotional level",
+   "The climax on checkpoint 1"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "Schell, The Art of Game Design"
+ },
+ {
+  "id": "gn-runner-checkpoints-by-size",
+  "kind": "genre-rule",
+  "title": "Checkpoint count and spacing follow the room size",
+  "text": "Small spaces (under 4 x 4 m) use 4 to 5 checkpoints 1.2 to 4 m apart, and a very small room (about 2 x 3 m) only 3 to 4. Medium spaces (4 to 10 m) use 5 to 7, 1.8 to 6 m apart. Large spaces (over 10 m) use up to 10, 2.5 to 9 m apart. The layout checker enforces ranges like these, so plan within them.",
+  "use_when": "planning the checkpoint count for an MR runner",
+  "do": [
+   "Small: 4-5",
+   "Medium: 5-7",
+   "Large: up to 10"
+  ],
+  "avoid": [
+   "10 checkpoints in a living room",
+   "4 checkpoints spread across the Fortal court"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-hazard-placement",
+  "kind": "pattern",
+  "title": "Put hazards mid-leg, visible from the previous stop",
+  "text": "Hazards are red circles on the route between stops (about 0.45 m radius in small rooms, 0.6 m medium, 0.8 m large) and must keep a gap from every checkpoint (0.4, 0.7 and 1 m). Place them in the middle of a leg so the player sees one coming after touching a checkpoint and steps around it. Give each a story name like \"spirit puddle\" or \"lava crack\".",
+  "use_when": "placing hazards in a runner layout brief",
+  "do": [
+   "Mid-leg, in view of the last stop",
+   "Name each hazard in the story"
+  ],
+  "avoid": [
+   "Hazards right on top of a checkpoint",
+   "Hazards hidden behind a big model"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-hazard-count",
+  "kind": "heuristic",
+  "title": "Use hazards sparingly for kids, more for gamers",
+  "text": "A hazard sends the player back to the last checkpoint and costs 25 points, so it doubles a leg. For kids, families and seniors use 0 to 2 hazards on short legs. For teens and gamers use about one per leg on later legs. Avoid hazards right before the portal on long legs: being sent back at the finish feels unfair.",
+  "use_when": "deciding how many hazards a runner has",
+  "do": [
+   "Kids: 0-2 on short legs",
+   "Gamers: about one per later leg"
+  ],
+  "avoid": [
+   "A hazard on every leg for first-time VR",
+   "A hazard just before the portal on the longest leg"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "seniors",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-time-limit",
+  "kind": "heuristic",
+  "title": "Set a runner time limit from route length and walking speed",
+  "text": "The time limit is optional. Estimate the route length and divide by a walking speed: about 0.5 m/s for first-time headset users, kids or seniors, and about 1 m/s for confident players, then add 50 percent for reading labels and stepping around hazards. For young kids and relaxed tours skip the time limit; the finish time bonus already rewards speed.",
+  "use_when": "deciding game.timeLimit for a runner",
+  "do": [
+   "Compute length / speed x 1.5",
+   "No limit for kids and tours"
+  ],
+  "avoid": [
+   "A tight limit that makes people rush in a headset",
+   "A limit without testing the walk"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "seniors",
+    "first-time-vr",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-race-vs-together",
+  "kind": "heuristic",
+  "title": "Runner online modes: race for rivals, shared floor for togetherness",
+  "text": "In a race everyone walks their own copy of the Land with a live leaderboard, which suits friends and teens who want to compete. On a shared floor players see each other's avatars, which suits families and groups who want to walk the story together. Pick from the brief's play_mode and feelings: challenge points to race, fellowship to together.",
+  "use_when": "choosing the online mode for a runner",
+  "do": [
+   "challenge or rivals: race",
+   "fellowship or families: shared floor"
+  ],
+  "avoid": [
+   "Race for young kids with parents",
+   "Promising voice chat or teams"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-same-room-race",
+  "kind": "pitfall",
+  "title": "A race in one room puts real bodies on the same route",
+  "text": "Every racer walks the same route, so in one real room racers can walk into each other. Keep same-room races to large spaces (over 10 x 10 m) with a few players and staggered starts; or race across turns or different rooms, with the leaderboard comparing them. Under 4 x 4 m, do not race at all.",
+  "use_when": "a race in MR where several players share one floor",
+  "do": [
+   "Stagger starts by a checkpoint or two",
+   "Race across turns in small spaces"
+  ],
+  "avoid": [
+   "Simultaneous racing in a small or medium room",
+   "Promising contact-free racing without a plan"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "groups"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "gn-runner-void-floor",
+  "kind": "pitfall",
+  "title": "Void floor is dramatic but dizzying: use it with care",
+  "text": "The void floor turns the real floor into a bottomless drop with scenery below. It is a strong sensation moment for confident adults indoors, but it can make first-time headset users, kids and seniors freeze or feel unwell. Use it only with a slow walk, no time limit, no race, and say clearly at the start that the floor is solid.",
+  "use_when": "the brief asks for height, sky islands, space or \"wow\"",
+  "do": [
+   "Confident adults, indoors, no time limit",
+   "Tell players the real floor is solid"
+  ],
+  "avoid": [
+   "Void for first-time VR, kids or seniors",
+   "Void with a race or tight time limit",
+   "Void with a spiral route"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation"
+   ],
+   "players": [
+    "first-time-vr",
+    "kids",
+    "seniors",
+    "adults"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "gn-runner-lighting-by-venue",
+  "kind": "heuristic",
+  "title": "Pick the runner lighting preset from the real light",
+  "text": "Presets are noon, morning, evening, night, spooky, neon, studio and default. Outdoors in daylight use noon or morning, because glow and dark themes wash out. Indoors with steady light, studio or evening keep colours readable. Spooky, neon and night work best in a dark hall or after dark.",
+  "use_when": "choosing lighting for an MR runner",
+  "do": [
+   "Daylight: noon or morning",
+   "Dark hall or night: spooky, neon or night"
+  ],
+  "avoid": [
+   "Neon or spooky in a sunny garden",
+   "A preset name outside the list"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "gn-runner-scenery-themes",
+  "kind": "palette",
+  "title": "Pick a runner theme the scenery library really covers",
+  "text": "The runner dresses the route with 1,900+ low-poly models: Thai ghosts and temples, fantasy worlds, dinosaurs, pirates, toys, sci-fi, candy, ice, music, farm and animated rides. Choose a theme the library covers well and say it plainly in the layout brief (\"Thai temple at night with lanterns\"). Decor can be marked VR only so it is hidden in MR.",
+  "use_when": "choosing a theme for a runner option",
+  "do": [
+   "Name a library theme in the layout brief",
+   "Group scenery into vignettes beside the route"
+  ],
+  "avoid": [
+   "Themes the library lacks (a real brand, a specific film)",
+   "Scenery on the walking line"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fantasy",
+    "discovery",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-vignettes",
+  "kind": "pattern",
+  "title": "Dress the runner as vignettes beside a clear corridor",
+  "text": "Players walk the straight lines between stops, and nothing may stand within a 1.2 m corridor plus half the object's size. So scenery is grouped into small scenes beside the route (a dragon nest, a lantern stall), each tied to the checkpoint label next to it. Big pieces go to the edges and corners, small props line the route.",
+  "use_when": "writing the layout brief for a runner",
+  "do": [
+   "One vignette per checkpoint story beat",
+   "Big models at the edges",
+   "Arches only with walkThrough"
+  ],
+  "avoid": [
+   "Models on the walking line",
+   "Scenery clustered in one corner"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-spawn-portal",
+  "kind": "pattern",
+  "title": "Place the portal where spectators can see the finish",
+  "text": "The finish portal comes after the last checkpoint, and the finish is the moment spectators cheer. Put it on the side where people watch, with the last leg facing them. Keep the spawn clear (about 0.8 m in small rooms, 1.2 m medium, 1.5 m large) so players start without bumping into scenery.",
+  "use_when": "placing spawn and portal in an MR runner",
+  "do": [
+   "Portal on the spectator side",
+   "Clear space around the spawn"
+  ],
+  "avoid": [
+   "Portal in a far corner nobody can see",
+   "Spawn surrounded by props"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-scoring",
+  "kind": "default",
+  "title": "Runner score rules to write into the game card",
+  "text": "Score is fixed: each checkpoint +100, each hazard step -25, and the finish +300 plus a time bonus. Write the rules from this (\"Touch the stones in order\", \"Red circles send you back\", \"Reach the portal fast for a bonus\") and keep game.rules to 3 to 5 short lines. Do not add stars, coins or combos the engine does not count.",
+  "use_when": "writing game.rules for a runner",
+  "do": [
+   "3-5 short rules matching the real score",
+   "Name the story items in the rules"
+  ],
+  "avoid": [
+   "Invented collectibles or stars",
+   "Rules about combat or items"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-chase-pitfall",
+  "kind": "pitfall",
+  "title": "Runner has no enemies: turn a chase wish into hazards and a clock",
+  "text": "When a creator wants monsters chasing players in a walking course, the runner cannot move enemies. Offer the closest real things: hazards named as the monster's traps, a time limit framed as \"before the ghost wakes\", spooky lighting and still scenery beside the route. If real enemies matter, propose the battle genre as another option.",
+  "use_when": "the creator asks for chasing enemies, combat or shooting in a runner",
+  "do": [
+   "Hazards as the threat",
+   "Time limit as the pursuer",
+   "Offer battle as a separate option"
+  ],
+  "avoid": [
+   "Promising moving monsters on the course",
+   "Sudden scares that make people run"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-collect-pitfall",
+  "kind": "pitfall",
+  "title": "Runner has no pickups: collecting is checkpoints in order",
+  "text": "Creators often say \"collect 5 gems\". The runner has no inventory or free pickups, but checkpoints touched in order can be the collection: label them \"Take the red gem\", \"Take the blue gem\", and show the gems as scenery at each stop. Say plainly that they are collected in a set order.",
+  "use_when": "the brief asks to collect, find or gather items",
+  "do": [
+   "Label checkpoints as the items",
+   "Tell the creator the order is fixed"
+  ],
+  "avoid": [
+   "Promising free-order collection or an inventory",
+   "Hidden items with no checkpoint"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "kids"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-real-obstacles",
+  "kind": "genre-rule",
+  "title": "Route the runner around real obstacles in the room",
+  "text": "In MR the real floor is the play area, so pillars, tables or trees inside it must stay outside the walking route. Plan the route shape around them (a loop around a pillar, a zig-zag between two trees), keep 0.6 m clear of them and of the edge, and never place checkpoints or hazards against them. Mention each obstacle and its position in the layout brief.",
+  "use_when": "the brief lists obstacles inside an MR space",
+  "do": [
+   "Shape the route around obstacles",
+   "Name obstacles in the layout brief"
+  ],
+  "avoid": [
+   "Checkpoints next to a real pillar",
+   "Hiding a real obstacle behind virtual scenery"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "gn-runner-tiny-room",
+  "kind": "genre-rule",
+  "title": "Under 3 x 3 m in MR, all three options are runners",
+  "text": "Battle and tactics need at least 3 x 3 m, so a smaller MR room gets three runner options. Each still has to differ on at least 2 of the 4 axes: vary the route (loop vs out-and-back), the loop type (story vs dodge vs tour) and the social mode. Use 3 to 5 checkpoints, small props, and no race.",
+  "use_when": "an MR space under 3 m on a side",
+  "do": [
+   "Three runners that differ in route, loop and feeling",
+   "Small props only"
+  ],
+  "avoid": [
+   "A battle or tactics option in a 2 x 3 m room",
+   "Three runners that are skins of one idea"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [],
+   "players": [
+    "solo"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-pc",
+  "kind": "genre-rule",
+  "title": "PC runner: WASD walking, no room limits, same rules",
+  "text": "On PC the runner is played with WASD, with no real room. Skip venue and size questions and use the large-space ranges freely (up to 10 checkpoints). The void floor carries far less risk on a screen, so it can be the sensation hook here, and race or shared floor work the same online.",
+  "use_when": "a runner on platform pc",
+  "do": [
+   "Up to 10 checkpoints on longer routes",
+   "Void floor as a visual hook"
+  ],
+  "avoid": [
+   "Asking about room size for PC",
+   "Assuming PC adds jumping or combat"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-calm-tour",
+  "kind": "pattern",
+  "title": "A calm runner tour for seniors, young kids or relaxing briefs",
+  "text": "For submission and relaxed feelings, make the runner a guided walk: no hazards or one gentle one, no time limit, morning or studio lighting, wide spacing, and labels that point at beautiful scenery (\"Greet the elephants\", \"Ring the temple bell\"). It is often the most comfortable first headset experience.",
+  "use_when": "the brief mentions relaxing, seniors, toddlers, or first time in a headset",
+  "do": [
+   "0-1 hazards, no time limit",
+   "Labels that point at scenery"
+  ],
+  "avoid": [
+   "Void floor or spooky lighting",
+   "Race mode"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission",
+    "discovery"
+   ],
+   "players": [
+    "seniors",
+    "kids",
+    "first-time-vr"
+   ]
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+ },
+ {
+  "id": "gn-cross-three-genres-one-brief",
+  "kind": "principle",
+  "title": "Give each genre the part of the brief it serves best",
+  "text": "The 3 options must use 3 different genres, so let each show its strength: battle for sensation, fantasy and action challenge; tactics for thinking, planning and calm competition; runner for story, discovery and relaxed walking. Keep the same world from the brief in all three and change the verb: fight it, outwit it, explore it.",
+  "use_when": "writing the 3 options for any brief with a space of 3 x 3 m or more (or PC)",
+  "do": [
+   "Same world, three verbs",
+   "Lead each pitch with the feeling it serves"
+  ],
+  "avoid": [
+   "Three options with the same mood",
+   "Forcing a genre to do what another does better"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "challenge",
+    "narrative",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+ },
+ {
+  "id": "gn-cross-example-one-world",
+  "kind": "example",
+  "title": "One brief, three genres: \"Thai temple spirits\" for a school group",
+  "text": "Battle: \"Guardian of the Temple\", forest theme, 4 chapters of spirit grunts and shield-bearers, boss named \"The Rain Naga\". Tactics: \"Temple Steps\", 4 boards where the player is a rook, then knight, bishop and queen, taking candles in order past the night watch. Runner: \"Lantern Night\", a 6-checkpoint loop through Thai temple scenery with labels from \"Light the gate lantern\" to \"Ring the great bell\".",
+  "use_when": "need a worked example of three different-genre options from one brief",
+  "do": [
+   "Same story world in all three",
+   "Different route or social axis for each"
+  ],
+  "avoid": [
+   "Copying this example to an unrelated brief"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "challenge",
+    "narrative"
+   ],
+   "players": [
+    "groups",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-cross-stretch-with-story",
+  "kind": "principle",
+  "title": "Stretch a genre with story and theme, never with new mechanics",
+  "text": "What can change freely: titles, chapter and board lines, checkpoint labels, boss name and intro, theme, lighting and scenery. What cannot: the verbs. A battle cannot add shooting, a tactics board cannot add doors or keys that unlock, a runner cannot add enemies. Map each wish to the nearest real feature, say so in the option, and name the gap in risks.",
+  "use_when": "a brief wishes for something none of the genres does directly",
+  "do": [
+   "Map the wish to a real feature (rain as a meteor storm)",
+   "List the gap honestly in risks"
+  ],
+  "avoid": [
+   "Describing a mechanic the engine lacks",
+   "Hiding the gap from the creator"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-cross-wish-map",
+  "kind": "heuristic",
+  "title": "Common wishes and the real feature that answers each",
+  "text": "Shooting or magic: battle sword swings with a fiery theme; monsters to avoid: runner hazards or battle red rings; a treasure hunt or collecting: runner checkpoints or tactics targets, always in a set order. Sneaking: tactics guards and their red squares; things falling from the sky: battle rain. A giant final enemy: the battle boss with a custom name. Racing friends: runner race or the tactics leaderboard.",
+  "use_when": "translating a creator wish into one of the three genres",
+  "do": [
+   "Answer each wish with a named engine feature",
+   "Offer the genre that fits it best"
+  ],
+  "avoid": [
+   "Saying \"not possible\" without an alternative"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-cross-honest-mr-fit",
+  "kind": "heuristic",
+  "title": "Score mr_fit by how each genre uses this floor",
+  "text": "The same room fits the genres differently. A 3 x 3 m room is fine for a runner loop, tight for battle (about a 2 m fighting area) and poor for tactics (0.5 m squares). A 6 x 8 m hall fits tactics best (1 m squares) and battle well. Over 10 m the runner shines with long routes and races. Let these facts move the scores so the 3 options do not all score the same.",
+  "use_when": "scoring mr_fit for three options of different genres",
+  "do": [
+   "Write the square size or arena size in scores_why",
+   "Use the whole 1-5 scale"
+  ],
+  "avoid": [
+   "All three options at mr_fit 4",
+   "Ignoring that tactics squares shrink in small rooms"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-cross-no-hybrid",
+  "kind": "pitfall",
+  "title": "One game is one genre: do not merge battle, tactics and runner",
+  "text": "Creators sometimes ask for \"a walking course with sword fights, then a chess puzzle\". Each genre is its own engine, so one game cannot switch between them. Offer a combination inside one genre (a battle whose chapter lines tell the journey, a runner whose labels pose riddles), or suggest a series of separate games that share one story world.",
+  "use_when": "the creator asks to combine options of different genres into one game",
+  "do": [
+   "Offer three ways to combine within a genre",
+   "Offer a shared-world series"
+  ],
+  "avoid": [
+   "Promising a hybrid game",
+   "Mixing genre fields in one build plan"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-cross-pc-genres",
+  "kind": "heuristic",
+  "title": "On PC every genre fits, so pick by feeling and player skill",
+  "text": "With no room limits on PC, all three genres always fit. Battle shines for gamers and action (combo and dash), tactics for puzzle fans and classrooms (click to move, beats down to 1.5 s), runner for story and casual explorers (WASD). Choose the recommended option by the brief feelings and how used to games the players are.",
+  "use_when": "a PC brief deciding between the three options",
+  "do": [
+   "Recommend battle for action gamers",
+   "Recommend tactics for puzzle or school",
+   "Recommend runner for story and casual play"
+  ],
+  "avoid": [
+   "Asking about floor size for PC",
+   "Assuming MR limits on PC"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "narrative",
+    "discovery"
+   ],
+   "players": [
+    "gamers",
+    "kids",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-tactics-knight-board",
+  "kind": "pattern",
+  "title": "Knight boards: the jump over tables is the joy",
+  "text": "A knight moves in an L (two squares one way, one square across) and jumps over tables, guards and targets in between. Board 1 or 2 with a knight and 2 to 4 tables lets players discover that tables do not stop them, which feels like a secret. In MR one knight move is a walk of about 2.2 squares, roughly 1.1 to 2.2 m, so it stays short and safe.",
+  "use_when": "a board where the player is the knight",
+  "do": [
+   "Give knight boards 2-4 tables so the jump matters",
+   "Story line: \"Hop over the ...\""
+  ],
+  "avoid": [
+   "A knight board with no tables or cracks",
+   "Telling players the knight can be blocked by tables"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "discovery",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-bishop-board",
+  "kind": "pattern",
+  "title": "Bishop boards: diagonal walking and one colour only",
+  "text": "A bishop slides diagonally and stays on one square colour for the whole board, so half the board is unreachable. Code still places targets it can reach. In MR every diagonal square is about 1.4 times the walk of a straight square, so long bishop slides cross the room on a slant; tell players to look where they will stop before walking.",
+  "use_when": "a board where the player is the bishop, especially in MR",
+  "do": [
+   "Put the bishop in the middle of the run",
+   "Rule: \"You can only stand on one colour\""
+  ],
+  "avoid": [
+   "Bishop as the very first board for newcomers",
+   "Long diagonal slides in rooms under 4 x 5 m"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": [
+    "first-time-vr"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-rook-board",
+  "kind": "pattern",
+  "title": "Rook boards: straight lines that tables cut short",
+  "text": "A rook slides any distance in a straight line and stops before a table or piece. That is the easiest movement to read, so a rook with 0 to 1 guards and 1 to 2 tables makes a good first board. In MR a full rook slide can be up to 7 squares, so remind players they may stop on any green ring along the line.",
+  "use_when": "a first or teaching board, or the player is the rook",
+  "do": [
+   "Rook on board 1 for newcomers",
+   "1-2 tables so lines are cut short"
+  ],
+  "avoid": [
+   "A rook board with 4 guards early",
+   "Implying the rook must slide all the way"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "first-time-vr",
+    "seniors"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-queen-board",
+  "kind": "pattern",
+  "title": "Queen boards: many green rings, so the danger is reading",
+  "text": "The queen combines rook and bishop moves, so the board shows many green rings at once. The challenge moves from \"can I get there?\" to \"which of these squares is safe after the next beat?\". Use the queen on the last one or two boards with 3 to 4 guards and 2 to 4 cracks; on PC the beat can drop to about 2 s here.",
+  "use_when": "the final boards of a tactics run",
+  "do": [
+   "Queen with 3-4 guards",
+   "Story line that names the risk (\"So do your mistakes\")"
+  ],
+  "avoid": [
+   "Queen on board 1",
+   "Queen with 0 guards (no challenge at all)"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": [
+    "gamers",
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-read-guard-squares",
+  "kind": "heuristic",
+  "title": "Teach players to check the next-move warning before stepping",
+  "text": "A player loses a heart by landing on a red (attacked) square, by standing on an attacked square when guards move, or when a guard lands on them. The light orange squares show what will be attacked after the next guard move. So the winning habit is: pick a green ring that is neither red nor light orange, then move. Put this habit into the board 1 story line or a rule.",
+  "use_when": "writing rules and early board lines for tactics",
+  "do": [
+   "Rule: \"Before you step, check the orange squares\"",
+   "Board 1 with 1 guard so the warning is easy to see"
+  ],
+  "avoid": [
+   "Rules that only mention red squares",
+   "Fast beats before players learn the warning"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "first-time-vr"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-solo-time-attack",
+  "kind": "pattern",
+  "title": "Tactics solo: frame the run as beating your own best time",
+  "text": "The leaderboard is kept on the device that runs the game and shows the best finished time. At an event this becomes a shared ranking as people take turns on one device; at home it is a personal best to beat. Pitch solo play as a time attack (\"beat your best clean run\") and do not promise an online or worldwide ranking.",
+  "use_when": "tactics played alone at home or in a classroom",
+  "do": [
+   "Goal line: \"Clear every board as fast as you can\"",
+   "Mention that each hit adds 5 s"
+  ],
+  "avoid": [
+   "Promising a global online leaderboard",
+   "Promising prizes or unlocks for times"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": [
+    "solo",
+    "gamers"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-tactics-ramp-templates",
+  "kind": "example",
+  "title": "Tactics ramp templates for 3, 4 and 6 boards",
+  "text": "Three boards (MR events): rook 3 targets 1 guard 1 table 0 cracks beat 3.5; knight 3 targets 2 guards 2 tables 1 crack beat 3.5; queen 4 targets 3 guards 1 table 2 cracks beat 3.0, king true. Four boards (PC casual): rook 3/1/2/0 beat 3.0; knight 3/2/2/1 beat 2.8; bishop 4/2/1/2 beat 2.6; queen 4/3/2/3 beat 2.4, king true. Six boards (PC puzzle fans): knight 3/1, bishop 4/2, rook 4/2, knight 5/3, queen 5/3, queen 5/4 with king, beats from 2.8 down to 1.8 and cracks rising 0 to 4. Numbers are targets/guards/tables/cracks.",
+  "use_when": "need concrete board numbers for a tactics build",
+  "do": [
+   "Adapt the template to the brief, keep board 1 at 2 guards or fewer",
+   "Keep MR beats at 3 s or more"
+  ],
+  "avoid": [
+   "Copying the PC beats into MR"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "groups",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-tactics-board-mood-ratio",
+  "kind": "heuristic",
+  "title": "Set a board's mood with the ratio of tables to cracks",
+  "text": "You choose how many tables and cracks a board has, not where they go. Many tables and few cracks make a sheltered, busy room (a cafe, a library) where tables block guard lines. Few tables and many cracks make an open, dangerous field (a frozen lake, a lava floor). Match the ratio to the story line of that board.",
+  "use_when": "choosing tables and cracks for a board with a strong setting",
+  "do": [
+   "Cafe or library: 3-4 tables, 0-1 cracks",
+   "Ice or lava field: 0-1 tables, 3-4 cracks"
+  ],
+  "avoid": [
+   "Describing exact table or crack positions",
+   "A lava story with no cracks"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-battle-templates-3-4",
+  "kind": "example",
+  "title": "Battle chapter templates for 3 and 4 chapters (PC)",
+  "text": "Three chapters: grunt 3; shield 2 + grunt 2; beast 1 + grunt 3; then the boss. Four chapters: grunt 3; shield 3 + grunt 2; beast 1 + grunt 2; grunt 4 with rain; then the boss. Both stay well under the PC cap of 9 and introduce one new thing per chapter.",
+  "use_when": "need concrete foes for a short PC battle",
+  "do": [
+   "Rename chapters to fit the story",
+   "Keep the order of new things"
+  ],
+  "avoid": [
+   "Adding a beast to chapter 1",
+   "Using these counts in MR without checking the cap of 6"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-battle-templates-5-6",
+  "kind": "example",
+  "title": "Battle chapter templates for 5 and 6 chapters (PC)",
+  "text": "Five chapters: grunt 3; shield 3 + grunt 2; beast 1 + grunt 2; grunt 4 with rain; shield 2 + grunt 4 + beast 1. Six chapters: grunt 3; shield 3 + grunt 2; beast 1 + grunt 3; grunt 5 with rain; beast 2 + shield 2; shield 3 + grunt 4 + beast 2 (the full 9). Use six only for keen players and 10+ minute sessions.",
+  "use_when": "need concrete foes for a long PC battle",
+  "do": [
+   "Give the last chapter the biggest mix",
+   "Follow the rain chapter with a different threat"
+  ],
+  "avoid": [
+   "Two rain chapters in a row",
+   "More than 9 enemies in a chapter"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "gamers",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-battle-templates-mr",
+  "kind": "example",
+  "title": "Battle chapter templates for MR (cap of 6)",
+  "text": "Three chapters: grunt 2; shield 2 + grunt 1; beast 1 + grunt 2. Four chapters: grunt 3; shield 2 + grunt 2; beast 1 + grunt 2; grunt 3 with rain. Five chapters: add shield 2 + grunt 3 + beast 1 as the final mix (exactly 6). For six chapters insert beast 1 + shield 2 + grunt 1 before the final mix, and only in rooms of 5 x 5 m or more.",
+  "use_when": "need concrete foes for an MR battle",
+  "do": [
+   "Stay at 6 or fewer per chapter",
+   "Drop rain for first-time VR or rooms under 4 x 4 m"
+  ],
+  "avoid": [
+   "PC templates copied into MR",
+   "Two beasts in one MR chapter in a small room"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-battle-theme-enemy-names",
+  "kind": "palette",
+  "title": "Name the enemy kinds to fit the theme (the models stay the same)",
+  "text": "The theme changes the arena colours and light, but enemies keep the same look in every theme: bony warriors with glowing eyes, a shield-bearer, and a big beast. So rename them in chapter titles and lines with names that suit bones. dark: skeleton scouts, the shield wall, the war beast, cursed rain; ice: frost dead, ice-shield knights, the snow beast, hail; lava: ash soldiers, obsidian shields, the magma beast, falling embers. forest: bramble bones, bark shields, the mud boar, acorn storm; desert: tomb guards, sun shields, the sand beast, sandstorm; neon: glitch skeletons, firewall shields, the data beast, code rain.",
+  "use_when": "writing chapter titles and lines for a chosen battle theme",
+  "do": [
+   "Pick names from the theme row",
+   "Keep names that fit a bony warrior look"
+  ],
+  "avoid": [
+   "Promising enemy models that match the theme (robots, animals, ice golems)",
+   "Names that suggest flying or shooting enemies"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "gn-runner-hazard-gate",
+  "kind": "pattern",
+  "title": "Hazard gate: two circles with a clear gap between them",
+  "text": "Place two hazards side by side across a leg with a clear gap of at least 1 m between their edges, so the player walks through the middle like a gate. Frame it with a walkThrough arch or two posts beside the route and name it in the story (\"the spirit gate\"). It suits medium and large spaces; in small rooms one hazard is enough.",
+  "use_when": "a runner leg that needs a readable, fair challenge",
+  "do": [
+   "Gap of 1 m or more between the hazard edges",
+   "Keep the gap from every checkpoint (0.7 m medium, 1 m large)"
+  ],
+  "avoid": [
+   "A gate narrower than 1 m",
+   "Gates in rooms under 4 x 4 m"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-hazard-slalom",
+  "kind": "pattern",
+  "title": "Hazard slalom: alternate circles along one long leg",
+  "text": "On a leg of about 5 m or more, place 2 or 3 hazards alternately a little left and right of the straight line so the player weaves between them. It reads as a river of stepping stones or a field of lava cracks. Use it once per route, on the longest leg, and only for teens, adults and gamers; it is too fiddly for small kids in a headset.",
+  "use_when": "a long leg in a medium or large space for skilled players",
+  "do": [
+   "2-3 hazards, alternating sides",
+   "One slalom per route"
+  ],
+  "avoid": [
+   "Slaloms on short legs or in small rooms",
+   "A slalom right before the portal"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": [
+    "teens",
+    "adults",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "gn-runner-hazard-pinch",
+  "kind": "pattern",
+  "title": "Zig-zag pinch: a hazard on the inside of a turn",
+  "text": "On a zig-zag route, place one hazard on the inside of a turn, mid-way between two checkpoints, so players who cut the corner step in it and players who walk wide pass. It rewards looking ahead without adding a new rule. Keep the wide path at least 0.6 m from the edge of the area, and use it in medium or large rooms only.",
+  "use_when": "a zig-zag runner that needs a gentle skill test",
+  "do": [
+   "Hazard on the inside of the turn, not on the checkpoint",
+   "Leave the wide line clear of scenery"
+  ],
+  "avoid": [
+   "A pinch that forces players toward a wall",
+   "Pinches at every turn"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ }
+]

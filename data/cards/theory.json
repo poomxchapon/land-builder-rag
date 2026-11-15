@@ -1,0 +1,2162 @@
+[
+ {
+  "id": "th-mda-design-direction",
+  "kind": "principle",
+  "title": "Pick the aesthetic first, then the mechanics",
+  "text": "MDA says the designer builds mechanics, which create dynamics at play time, which the player feels as aesthetics; the player experiences it in the reverse order. So decide the target feeling from the brief first, then choose the genre and the knobs (enemy kinds, guard count, checkpoint labels) that produce it. If the brief has no feeling, infer one from the players and venue and write it down as an assumption.",
+  "use_when": "Any options or build step where the creator gave a theme but no feeling, or the mechanics are being chosen before the feeling.",
+  "do": [
+   "State the primary MDA aesthetic before listing mechanics",
+   "Trace each mechanic to the dynamic it creates and the feeling it serves",
+   "Write inferred feelings into the brief as assumptions the creator can correct"
+  ],
+  "avoid": [
+   "Starting from \"a game with a boss and rain\" and hoping a feeling appears",
+   "Listing all 8 aesthetics as goals"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-sensation",
+  "kind": "pattern",
+  "title": "Sensation: spectacle the body feels",
+  "text": "Sensation is pleasure of the senses: light, scale, motion and sound. In battle it comes from a big beast walking in, falling rain rings and a named boss reveal; in runner from the void floor, a dramatic lighting preset and hero scenery placed at the turn where the view opens; in tactics it is weakest, so carry it with theme and lighting. Put the biggest visual reveal at a moment when the player is standing still, not mid-dodge.",
+  "use_when": "The brief asks for \"wow\", \"beautiful\", \"epic\", or the venue is a showcase where first impressions matter.",
+  "do": [
+   "Use night, neon or spooky lighting indoors for glow-heavy looks",
+   "Stage one hero piece visible from the spawn",
+   "Give the boss a name and an intro line so the reveal lands"
+  ],
+  "avoid": [
+   "Choosing tactics as the main sensation option",
+   "Putting a spectacle reveal where the player must also dodge",
+   "Glow themes outdoors at noon (they wash out)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-fantasy",
+  "kind": "pattern",
+  "title": "Fantasy: give the player a role, not just a theme",
+  "text": "Fantasy is being someone else. The role must match what the body does: in MR battle the controller IS the sword, so \"you are the last knight of the temple\" fits the real swing; in tactics the player IS the chess piece, so \"you are the knight sent to free the captives\" fits walking L-shaped moves; in runner the player is a traveller, courier or explorer. Write the role into the intro story and echo it in labels so the fantasy holds from first to last second.",
+  "use_when": "The brief mentions being a character, a hero, an animal, or \"feel like you are in the movie\".",
+  "do": [
+   "Name the role in one line of the story card",
+   "Choose the genre whose physical action matches the role",
+   "Use checkpoint labels and chapter lines in the role's voice (\"Light the third lantern\")"
+  ],
+  "avoid": [
+   "Promising a role whose action the engine lacks (a wizard casting spells, a gunslinger shooting)",
+   "Generic labels like \"Checkpoint 3\" that break the role"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-narrative",
+  "kind": "pattern",
+  "title": "Narrative: tell the story through ordered beats",
+  "text": "Our engines have no dialogue, so story lives in the intro card (2-4 sentences), checkpoint labels touched in order, chapter titles and lines in battle, and each board's story line in tactics. Treat these as a beat sheet: setup, rising stakes, turn, climax, resolution. A 6-checkpoint runner can carry a complete three-act story if each label is a verb phrase that moves the plot.",
+  "use_when": "The brief asks for a story, a legend, a school lesson or a brand message told through play.",
+  "do": [
+   "Write labels as story verbs (\"Wake the guardian\", \"Cross the broken bridge\")",
+   "Map acts to checkpoints: act 1 = first 2, act 2 = middle, act 3 = last 1-2 plus portal",
+   "Make the final chapter or board the story's confrontation"
+  ],
+  "avoid": [
+   "Long story text the player must read while walking",
+   "Promising NPC conversations or branching dialogue",
+   "Labels that do not change from beat to beat"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle",
+    "tactics"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-challenge",
+  "kind": "pattern",
+  "title": "Challenge: an obstacle the player can master",
+  "text": "Challenge is pleasure in overcoming a hard thing through skill. In battle it comes from mixing enemy kinds (shield forces flanking, beast forces stepping aside) and adding rain; in tactics from more guards, a faster beat and longer capture orders; in runner from tighter hazard spacing and a time limit. Challenge needs a visible score or time, a fair failure and a reason to try again.",
+  "use_when": "The brief asks for hard, skill, competitive, or players are gamers or teens.",
+  "do": [
+   "Raise one variable per step (count, kind, speed, or spacing)",
+   "Show score or time so improvement is visible",
+   "Offer a race or leaderboard to give the challenge a social stake"
+  ],
+  "avoid": [
+   "Making it hard by hiding information",
+   "Raising every variable at once in the second chapter",
+   "Challenge for first-time VR seniors without a gentle first stage"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "gamers",
+    "teens"
+   ]
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-fellowship",
+  "kind": "pattern",
+  "title": "Fellowship: design moments that are shared",
+  "text": "Fellowship is play as a social framework. The engine gives three tools: race mode (everyone walks their own copy, live leaderboard), shared floor (players see each other's avatars) and spectators who see bodies, not the game. There is no voice chat or co-op mechanic, so fellowship comes from shared timing, comparing scores, cheering and calling hints. Put dodges and the finish where watchers can see them.",
+  "use_when": "The brief is a family, a class, friends or a party, or \"play together\" appears.",
+  "do": [
+   "Use race mode with the leaderboard on a wall screen for groups",
+   "Use shared floor when players are friends who want to see each other",
+   "Give spectators a role: cheer, call out the next target, watch the board"
+  ],
+  "avoid": [
+   "Promising teamwork mechanics like passing items or reviving each other",
+   "Putting the climax at the far side away from the audience",
+   "Putting spectators inside the play area"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-discovery",
+  "kind": "pattern",
+  "title": "Discovery: reward looking around",
+  "text": "Discovery is the pleasure of exploring and finding. In runner, use a hub or spiral route where vignettes sit beside the path and each checkpoint reveals a new view; in tactics, discovery is finding the capture path a piece can take, which each new piece reopens; in battle it is weakest. Pace reveals so something new appears every 20-40 seconds, and keep the walking line clear so looking around is safe.",
+  "use_when": "The brief says explore, secrets, curious, or the scenery theme itself is the attraction.",
+  "do": [
+   "Place vignettes beside the route, not on it",
+   "Introduce a new piece type each board in tactics",
+   "Let each checkpoint face a new view or vignette"
+  ],
+  "avoid": [
+   "A time limit so tight players cannot look around",
+   "Hiding checkpoints behind real obstacles",
+   "Asking players to look up while walking fast"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-expression",
+  "kind": "pattern",
+  "title": "Expression: let the player's style show",
+  "text": "Expression is self-discovery and showing off. The engine has no building or customisation in play, so expression comes from how a player solves things: their capture route in tactics, their line through hazards in runner, their swing style in battle seen by spectators. Make solutions plural (more than one valid path) and make the performance visible to watchers or a leaderboard.",
+  "use_when": "The brief says show off, creative, style, or \"let them do it their way\".",
+  "do": [
+   "Design tactics boards with 2 or more valid capture paths",
+   "Leave room in runner for a bold line versus a safe line",
+   "Stage the battle so the spectators see the player's swings"
+  ],
+  "avoid": [
+   "Promising avatar customisation, crafting or level editing in play",
+   "Single-solution puzzles labelled as expressive"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "expression"
+   ],
+   "players": [
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-submission",
+  "kind": "pattern",
+  "title": "Submission: easy, calm, low-stakes fun",
+  "text": "Submission is play as pastime: relaxing, no pressure. Use a runner with no time limit, few hazards (0-2, far from the line), a soft lighting preset such as morning or evening, and a loop route that returns near the start. In battle use only grunts in small numbers and no rain; in tactics use 0 guards and 2-3 targets. Failure should cost little.",
+  "use_when": "The brief says relax, chill, for grandparents, for small kids, or a waiting-room or lobby setting.",
+  "do": [
+   "Set timeLimit to null",
+   "Keep hazards away from the main line",
+   "Use gentle labels and a warm lighting preset"
+  ],
+  "avoid": [
+   "Adding a leaderboard that turns a calm walk into a race",
+   "Rain or beasts in a submission battle",
+   "Calling it relaxing but using a void floor"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "seniors",
+    "kids",
+    "first-time-vr",
+    "families"
+   ]
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-combine-three",
+  "kind": "heuristic",
+  "title": "At most 3 feelings, and one leads",
+  "text": "A design can serve 2-3 aesthetics, but one must be primary and decide trade-offs. Rank them: primary sets the genre and loop, secondary sets theme and story, third is a seasoning (lighting or spectator moment). When two knobs disagree, the primary wins. The options axes field holds only the primary, so choose it deliberately.",
+  "use_when": "The brief lists 3 or more feelings, or the design feels muddled.",
+  "do": [
+   "Rank the brief's feelings 1-2-3 and write the order",
+   "Use the primary in axes.aesthetic",
+   "Resolve every trade-off in favour of the primary"
+  ],
+  "avoid": [
+   "Treating all listed feelings as equal",
+   "Adding a fourth feeling during the build"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-pairs-that-work",
+  "kind": "heuristic",
+  "title": "Feeling pairs that reinforce each other",
+  "text": "Some aesthetics share mechanics and amplify each other: fantasy + sensation (a role plus spectacle, natural for battle), challenge + fellowship (a race with a leaderboard), discovery + narrative (a runner where each checkpoint reveals the next story beat), challenge + expression (tactics with several valid paths). Prefer these pairs when the brief allows a choice.",
+  "use_when": "Choosing a secondary feeling or combining parts of two options.",
+  "do": [
+   "Pair battle with fantasy + sensation",
+   "Pair tactics with challenge + expression",
+   "Pair runner with discovery + narrative or submission"
+  ],
+  "avoid": [
+   "Forcing a pair onto a genre that only serves one half"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "sensation",
+    "challenge",
+    "fellowship",
+    "discovery",
+    "narrative",
+    "expression"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-conflict-challenge-submission",
+  "kind": "pitfall",
+  "title": "Challenge and submission pull in opposite directions",
+  "text": "Challenge needs stakes, pressure and failure; submission needs calm and low cost of failure. One option cannot maximise both. If the brief lists both (common for \"families\"), split them: make the first half calm and the last chapter or board the challenge, or give the challenge only to those who opt into the race while the default is untimed.",
+  "use_when": "A brief asks for both \"hard\" and \"relaxing\", or a mixed-age group.",
+  "do": [
+   "Split across options: one calm, one challenging",
+   "Or ramp from submission to challenge within one game",
+   "Ask the creator which matters more if unclear"
+  ],
+  "avoid": [
+   "A medium-difficulty compromise that is boring for gamers and stressful for grandparents"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "submission"
+   ],
+   "players": [
+    "families"
+   ]
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research"
+ },
+ {
+  "id": "th-mda-conflict-narrative-race",
+  "kind": "pitfall",
+  "title": "Racing makes players skip the story",
+  "text": "In race mode players optimise for time, so they ignore labels, scenery and the intro card. Narrative and discovery suffer. If the brief wants story and competition, keep the story in very short labels (3-5 words) read at a glance, or choose a solo or shared-floor mode for the story option and keep the race for a different option.",
+  "use_when": "An option combines race or time limit with narrative or discovery.",
+  "do": [
+   "Keep labels short enough to read while walking",
+   "Put story weight on the intro card before the timer starts",
+   "Offer narrative and race in different options"
+  ],
+  "avoid": [
+   "Long labels in a race",
+   "Placing story vignettes that need stopping inside a timed route"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-mda-conflict-discovery-timer",
+  "kind": "pitfall",
+  "title": "Tight time limits kill exploration",
+  "text": "Discovery needs dwell time. A time limit under about 30 seconds per checkpoint turns looking around into wasted time. For a discovery option, set timeLimit to null or generous (at least 45 s per checkpoint), and give the time bonus only as an optional extra.",
+  "use_when": "A discovery or sensation option also has a time limit.",
+  "do": [
+   "Leave timeLimit null for discovery",
+   "If a limit is needed, allow 45+ seconds per checkpoint"
+  ],
+  "avoid": [
+   "A countdown on a tour-style route"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-flow-channel",
+  "kind": "principle",
+  "title": "Keep challenge just ahead of skill",
+  "text": "Flow happens when challenge matches skill and both rise together; too hard causes anxiety, too easy causes boredom. Skill grows during a session, so difficulty must climb too. Our engines have no adaptive difficulty, so the ramp is authored: each chapter, board or checkpoint stretch should be a little harder than the last, with the first one easy enough for the least experienced player in the brief.",
+  "use_when": "Setting chapter, board or hazard counts for any game.",
+  "do": [
+   "Design the first step for the weakest expected player",
+   "Raise difficulty a small step each stage",
+   "Tie the final step to the strongest expected player"
+  ],
+  "avoid": [
+   "A flat difficulty across all stages",
+   "A first stage tuned for gamers when the brief includes first-time VR players"
+  ],
+  "tags": {
+   "phase": [
+    "build",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "Csikszentmihalyi 1990, Flow: The Psychology of Optimal Experience"
+ },
+ {
+  "id": "th-flow-battle-ramp",
+  "kind": "default",
+  "title": "Default battle chapter ramp",
+  "text": "A safe 4-chapter battle in MR: chapter 1 is 2-3 grunts (learn the swing and ring-dodge), chapter 2 adds 1-2 shields (learn to hit from the side), chapter 3 adds rain with mixed grunts and shields, chapter 4 introduces 1 beast, then the boss. Stay at or under 6 enemies per chapter in MR (9 on PC). The engine rejects a beast in chapter 1.",
+  "use_when": "Writing chapters for a battle build.",
+  "do": [
+   "Introduce one new enemy kind or rain per chapter",
+   "Keep chapter 1 to grunts only",
+   "Save the beast for the second half"
+  ],
+  "avoid": [
+   "Beasts in chapter 1",
+   "More than 6 foes in an MR chapter",
+   "Rain and a new enemy kind introduced together"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "th-flow-tactics-ramp",
+  "kind": "default",
+  "title": "Default tactics board ramp",
+  "text": "Start board 1 with 0-1 guards, 2-3 targets and a slow beat (3-3.5 s); the engine rejects more than 2 guards on board 1. Then add one guard or one crack per board, lengthen the capture order to 4-5 and, on PC, tighten the beat toward 2 s. In MR keep the beat at 3 s or slower on every board because the player walks. Change the piece type every 1-2 boards so the player relearns movement.",
+  "use_when": "Writing boards for a tactics build.",
+  "do": [
+   "Board 1: 0-1 guard, 2-3 targets, beat 3.5",
+   "Add one guard or crack per board",
+   "Switch piece type to reset the puzzle space"
+  ],
+  "avoid": [
+   "A beat under 3 s in MR",
+   "Queen on board 1 (too many options to teach movement)",
+   "Changing piece and adding 2 guards on the same board"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "th-flow-runner-ramp",
+  "kind": "default",
+  "title": "Default runner hazard ramp",
+  "text": "Keep the stretch from spawn to checkpoint 1 and 2 free of hazards so players learn to walk in the headset and read the checkpoint order. Introduce a single hazard that is easy to see after checkpoint 2, then raise the count toward the last third, and keep the final stretch into the portal clear for a clean, visible finish. Hazards send players back to the last checkpoint, so later hazards cost more and should be fairer.",
+  "use_when": "Placing hazards along a runner route.",
+  "do": [
+   "No hazards before checkpoint 2",
+   "Most hazards in the middle to last third",
+   "Clear run into the portal"
+  ],
+  "avoid": [
+   "Hazards right at the spawn",
+   "A hazard right after a checkpoint that resets players into a loop"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-flow-sawtooth",
+  "kind": "pattern",
+  "title": "Sawtooth difficulty: rest after every peak",
+  "text": "Difficulty should climb in a sawtooth, not a straight line: each hard stage is followed by a slightly easier one that lets the player use their new skill with confidence, then the next peak is higher. In battle, follow a rain chapter with a smaller chapter before the boss; in tactics, follow a 3-guard board with a 2-guard board using a new piece.",
+  "use_when": "A game with 4 or more chapters, boards or stretches.",
+  "do": [
+   "Place a breather stage after each spike",
+   "Make each new peak higher than the previous one"
+  ],
+  "avoid": [
+   "Monotonic increase with no relief",
+   "A breather right before the climax that kills the build-up"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "Schell, The Art of Game Design"
+ },
+ {
+  "id": "th-flow-no-adaptive-difficulty",
+  "kind": "pitfall",
+  "title": "There is no adaptive difficulty, so design the curve",
+  "text": "Creators often ask for \"easy for kids, hard for adults\" in one game. The engine has no difficulty setting or dynamic adjustment. Offer instead: an authored ramp where the first half suits beginners, an optional race for those who want stakes, or separate options tuned for different groups.",
+  "use_when": "The brief wants one game to fit very different skill levels.",
+  "do": [
+   "Explain that the curve is fixed and authored",
+   "Use the early stages for beginners and the late stages for experts",
+   "Offer race mode as the opt-in challenge"
+  ],
+  "avoid": [
+   "Promising difficulty modes, handicaps or auto-scaling"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "th-onboarding-first-30s",
+  "kind": "heuristic",
+  "title": "The first 30 seconds teach the one verb",
+  "text": "In the first 30 seconds the player should do the core action once and succeed. In MR battle: one or two slow grunts and a single red ring. In tactics: a first target reachable in one move. In runner: the first checkpoint visible from the spawn, 1.5-3 m away. Headset newcomers spend their first moments adjusting to passthrough, so nothing in that window should punish them.",
+  "use_when": "Designing the opening of any game, especially for first-time VR players.",
+  "do": [
+   "Make the first checkpoint or target visible from the spawn",
+   "Guarantee a first success inside 30 s",
+   "Keep the first stage free of failure states"
+  ],
+  "avoid": [
+   "A hazard or beast in the opening",
+   "An intro card longer than 4 sentences"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "kids",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-teach-by-doing",
+  "kind": "principle",
+  "title": "The first stage is the tutorial",
+  "text": "There is no separate tutorial screen, and players will not read long rules in a headset. Teach by putting the player in a stage where the right action is obvious and the wrong one is cheap. Each later stage adds exactly one new element the player meets first in a safe form (a single shield, a single crack, a single hazard) before it appears under pressure.",
+  "use_when": "Any build; especially when rules are new for the players.",
+  "do": [
+   "Introduce each element alone first",
+   "Keep the rules list to 3 short lines",
+   "Let the stage design explain the rule"
+  ],
+  "avoid": [
+   "Writing rules for things players will learn by doing",
+   "Introducing a new element at the climax"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "kids"
+   ]
+  },
+  "source": "Koster 2004, A Theory of Fun for Game Design"
+ },
+ {
+  "id": "th-rule-of-threes",
+  "kind": "heuristic",
+  "title": "Rule of threes: introduce, develop, twist",
+  "text": "Use each new element three times: once alone so it is learned, once combined with something known so it is practised, and once in a twist or under pressure so it is mastered. A 4-chapter battle fits one new element per chapter with its three uses spread across the next chapters. Also cap lists at three: 3 pillars, 3 rules, 3 feelings.",
+  "use_when": "Planning when elements appear across chapters, boards or checkpoints.",
+  "do": [
+   "Plan three appearances for every new element",
+   "Cap the rules list at three main lines"
+  ],
+  "avoid": [
+   "Introducing an element and never using it again",
+   "Using a new element first in its hardest form"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-sdt-competence",
+  "kind": "principle",
+  "title": "Competence: let players feel themselves improve",
+  "text": "Self-determination research on games found that feeling competent strongly predicts enjoyment. Show progress (score, captured targets, chapter count), give clear success feedback, and make failure understandable so the next try is better. A short game that can be replayed and beaten faster serves competence better than a long one that is finished once.",
+  "use_when": "Any game, and especially for kids, newcomers and challenge briefs.",
+  "do": [
+   "Make progress visible on the HUD",
+   "Make each failure explain itself",
+   "Let a replay be measurably better (time, score)"
+  ],
+  "avoid": [
+   "Random-feeling failures",
+   "Hiding the score"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "first-time-vr"
+   ]
+  },
+  "source": "Ryan, Rigby & Przybylski 2006, The Motivational Pull of Video Games (PENS/SDT)"
+ },
+ {
+  "id": "th-sdt-autonomy",
+  "kind": "principle",
+  "title": "Autonomy: real choices inside a fixed structure",
+  "text": "Autonomy is the feeling of acting by choice. Our runner checkpoints are touched in order and tactics targets are captured in order, so autonomy must come from how, not what: the path between checkpoints, the moment to cross a guard's line, the route through a board, or the pace of a calm walk. Leave space between stops for two reasonable lines and say in the rules that any path is allowed.",
+  "use_when": "The brief wants freedom, or adults and gamers are the players.",
+  "do": [
+   "Leave 2 viable lines between checkpoints",
+   "Give tactics boards several routes to each target",
+   "Let the player choose when to step, not only where"
+  ],
+  "avoid": [
+   "Corridors with only one way through",
+   "Promising open-world freedom or free locomotion in MR"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "expression",
+    "discovery"
+   ],
+   "players": [
+    "adults",
+    "gamers"
+   ]
+  },
+  "source": "Ryan, Rigby & Przybylski 2006, The Motivational Pull of Video Games (PENS/SDT)"
+ },
+ {
+  "id": "th-sdt-relatedness",
+  "kind": "principle",
+  "title": "Relatedness: connect players to each other and to watchers",
+  "text": "Relatedness is feeling connected to others. In our engines it comes from race mode (comparing on a live leaderboard), shared floor (seeing each other), spectators cheering at visible moments, and a story that casts the group as one side. Even a solo game gains relatedness if the finish faces the audience and the score can be compared afterwards.",
+  "use_when": "Groups, families, classes or events with an audience.",
+  "do": [
+   "Face the finish toward the spectators",
+   "Use race mode for groups who know each other",
+   "Write the story so the group shares a goal"
+  ],
+  "avoid": [
+   "A solo game in a busy event with no visible finish",
+   "Mechanics that require talking (no voice chat)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "Ryan, Rigby & Przybylski 2006, The Motivational Pull of Video Games (PENS/SDT)"
+ },
+ {
+  "id": "th-sdt-need-by-player",
+  "kind": "heuristic",
+  "title": "Read which need the players lack most",
+  "text": "Different players arrive missing different needs. First-time VR players and small kids mostly need competence: a sure first win. Gamers and adults need autonomy: choices that matter. Families, classes and friends need relatedness: shared moments and comparison. Use the brief's players field to pick which need the recommended option should serve first.",
+  "use_when": "Choosing between options or deciding what the opening stage must deliver.",
+  "do": [
+   "Newcomers: guarantee competence early",
+   "Gamers: add choice and stakes",
+   "Groups: add race or shared floor and visible moments"
+  ],
+  "avoid": [
+   "Designing for the creator's taste instead of the stated players"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "kids",
+    "gamers",
+    "adults",
+    "groups",
+    "families"
+   ]
+  },
+  "source": "Ryan, Rigby & Przybylski 2006, The Motivational Pull of Video Games (PENS/SDT)"
+ },
+ {
+  "id": "th-caillois-agon",
+  "kind": "pattern",
+  "title": "Agon: fair competition",
+  "text": "Agon is competition where skill decides. It needs equal starting conditions and a clear measure. Race mode gives every player their own identical copy of the course plus a live leaderboard; tactics races on time with a leaderboard. Agon options suit gamers, teens and events with a screen.",
+  "use_when": "The brief wants competition, a contest or a tournament.",
+  "do": [
+   "Use race mode or time leaderboard",
+   "Keep the course identical for all",
+   "Show the leaderboard where spectators look"
+  ],
+  "avoid": [
+   "Competition where luck or hidden information decides",
+   "Agon for very young kids without a gentle mode"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "gamers",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "Caillois 1961, Man, Play and Games"
+ },
+ {
+  "id": "th-caillois-alea",
+  "kind": "pitfall",
+  "title": "Alea (chance) is weak in our engines",
+  "text": "Alea is play where chance decides: dice, loot, random draws. Our engines are authored and deterministic, with no random rewards or loot. If a creator wants luck or surprise, offer surprise through design instead: a reveal around a turn, a new piece each board, a boss with a dramatic intro, or rain chapters that add unpredictability of position. Say honestly that results depend on skill.",
+  "use_when": "The brief asks for luck, gacha, random prizes or a lottery feel.",
+  "do": [
+   "Offer authored surprises as the closest match",
+   "Explain that outcomes depend on skill"
+  ],
+  "avoid": [
+   "Promising random loot, drops or prize draws in the game"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "Caillois 1961, Man, Play and Games"
+ },
+ {
+  "id": "th-caillois-mimicry",
+  "kind": "pattern",
+  "title": "Mimicry: playing a part with the whole body",
+  "text": "Mimicry is make-believe, being someone else. MR is strong here because the body really moves: swinging the controller as a sword, walking as a chess piece, travelling a path as a pilgrim. Choose the role that matches the real motion and let spectators see the performance. This is Caillois' frame for the MDA fantasy aesthetic.",
+  "use_when": "Fantasy or role-play briefs, especially for kids and families.",
+  "do": [
+   "Match the role to the physical action",
+   "Stage the performance toward spectators"
+  ],
+  "avoid": [
+   "Roles whose signature action is unavailable (flying, shooting, spellcasting)"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "Caillois 1961, Man, Play and Games"
+ },
+ {
+  "id": "th-caillois-ilinx",
+  "kind": "pattern",
+  "title": "Ilinx: vertigo, used with care",
+  "text": "Ilinx is the pleasure of disturbed perception: dizziness, height, speed. The void floor turns the real floor into a bottomless drop, and a spiral route adds turning. It is the strongest wow in MR but can frighten or unsettle newcomers. Use it for teens and gamers, keep walking slow, avoid it for seniors and very young kids, and never combine it with a tight time limit.",
+  "use_when": "The brief wants thrill, height, scary-dramatic or \"make them gasp\".",
+  "do": [
+   "Use void floor for one standout option",
+   "Keep hazards few on a void floor",
+   "Warn in the intro card"
+  ],
+  "avoid": [
+   "Void floor with a race",
+   "Void floor for first-time VR seniors",
+   "Spinning spirals plus fast pace"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation"
+   ],
+   "players": [
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "Caillois 1961, Man, Play and Games"
+ },
+ {
+  "id": "th-caillois-map-options",
+  "kind": "heuristic",
+  "title": "Map 3 options to 3 different play types",
+  "text": "An easy way to make 3 options genuinely different is to let each lead with a different Caillois play type: one agon (a race or timed board), one mimicry (a role-heavy battle), one ilinx or calm paidia-style free play (a void-floor runner or a relaxed tour). This also fits the rule that the 3 options use 3 different genres.",
+  "use_when": "Generating the 3 options when the brief is open.",
+  "do": [
+   "Assign a play type to each option before writing it",
+   "Check that the play types differ"
+  ],
+  "avoid": [
+   "Three agon options with different themes"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Caillois 1961, Man, Play and Games"
+ },
+ {
+  "id": "th-koster-fun-is-learning",
+  "kind": "principle",
+  "title": "Fun is learning a pattern",
+  "text": "Koster argues that fun is the brain mastering a pattern, and boredom arrives when nothing is left to learn. Each chapter, board or stretch should contain something new to grasp: a new enemy kind, a new piece, a new hazard layout. When the pattern is fully mastered, end the game or change the pattern.",
+  "use_when": "Deciding how many stages to make and what each adds.",
+  "do": [
+   "Give each stage one new pattern",
+   "End the game soon after the last pattern is mastered"
+  ],
+  "avoid": [
+   "Repeating the same stage with more enemies only",
+   "Adding stages that teach nothing new"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "Koster 2004, A Theory of Fun for Game Design"
+ },
+ {
+  "id": "th-koster-end-before-grind",
+  "kind": "heuristic",
+  "title": "Stop before it becomes a grind",
+  "text": "Players remember a game that ends while they still want more. Prefer 3-4 strong stages over 6 thin ones. The engines allow up to 6 chapters or boards; use 5-6 only when the session is 8 minutes or more and each one teaches something new.",
+  "use_when": "Choosing chapter or board count.",
+  "do": [
+   "Default to 4 chapters or boards",
+   "Cut any stage that teaches nothing new"
+  ],
+  "avoid": [
+   "Filling to the maximum because it is allowed"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Koster 2004, A Theory of Fun for Game Design"
+ },
+ {
+  "id": "th-core-loop-one-verb",
+  "kind": "principle",
+  "title": "Name the core loop in one line with one verb",
+  "text": "The core loop is what the player does again and again. If it cannot be said in one line with one main verb, it is not clear enough to build or to choose between. Good: \"read the ring, step out, swing at the nearest enemy\". Bad: \"explore, fight, collect and solve puzzles\". The options schema requires each option to have its own core loop.",
+  "use_when": "Writing core_loop for an option.",
+  "do": [
+   "Write the loop as 2-3 steps of one cycle",
+   "Make each option's loop distinct"
+  ],
+  "avoid": [
+   "A list of activities instead of a cycle",
+   "The same loop with a different theme across options"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-core-loop-per-genre",
+  "kind": "default",
+  "title": "The native core loop of each genre",
+  "text": "Battle: watch enemies walk in, step out of red rings, swing to defeat them, survive the chapter. Tactics: read where guards attack, plan a legal move for your piece, walk onto the square, capture the next target. Runner: spot the next checkpoint, choose a line, avoid hazards, touch it. Theme and story change the meaning of the loop, not the loop itself. Start from the native loop and only reframe it.",
+  "use_when": "Turning a creator's idea into an option or build plan.",
+  "do": [
+   "Start from the genre's native loop",
+   "Reframe it with theme and labels"
+  ],
+  "avoid": [
+   "Describing a loop the engine cannot run (collecting items into an inventory, shooting)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "th-core-loop-nested",
+  "kind": "pattern",
+  "title": "Nest loops at three time scales",
+  "text": "A satisfying game has a moment loop (seconds: a step, a swing), a stage loop (a minute: clear a chapter, solve a board, reach a checkpoint) and a session loop (the whole play: beat the boss, finish the last board, reach the portal, then compare score). Make sure each has a clear end signal and that the session loop invites a replay.",
+  "use_when": "Checking whether a design has a satisfying rhythm.",
+  "do": [
+   "Name the moment, stage and session loops in the prototype flow",
+   "Give each loop a clear success signal"
+  ],
+  "avoid": [
+   "A session with only a moment loop and no stage goals"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-risk-reward-runner",
+  "kind": "pattern",
+  "title": "Risk and reward in the runner score",
+  "text": "The runner scores +100 per checkpoint, -25 per hazard and +300 plus a time bonus at the finish. A hazard also sends the player back to the last checkpoint, which costs time. So the real risk is time, and the reward is a shorter line. Place one or two hazards beside the shortest line between checkpoints so a bold player can save seconds and a careful player can walk around.",
+  "use_when": "Placing hazards in a race or time-limit runner.",
+  "do": [
+   "Put hazards beside the short line, leaving a longer safe line",
+   "Make the safe detour 1-2 m longer"
+  ],
+  "avoid": [
+   "Hazards that fully block the route (no choice, just a wall)",
+   "Hazards with no shorter line next to them (pure punishment)"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": [
+    "gamers",
+    "teens"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "th-risk-reward-tactics",
+  "kind": "pattern",
+  "title": "Risk and reward on the tactics board",
+  "text": "In tactics, guards attack squares on a beat. A short route through squares that are safe only between beats rewards timing; a longer route around attacked squares is safe but slower in a time race. Cracked squares and tables block paths and create those trade-offs. Design at least one board where the fastest path needs timing and a slower safe path exists.",
+  "use_when": "Designing boards 2 and later.",
+  "do": [
+   "Give one board a fast risky path and a slow safe path",
+   "Use cracks and tables to shape the two routes"
+  ],
+  "avoid": [
+   "Boards with only one path",
+   "Making the risky path the only path in MR with a fast beat"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-meaningful-choice",
+  "kind": "principle",
+  "title": "A choice is meaningful only if its result is visible and matters later",
+  "text": "Salen and Zimmerman describe meaningful play as actions whose outcomes are discernible (the player sees what happened) and integrated (it affects what comes next). Check every choice in the design: does the player see the result, and does it change score, time or position later? If not, it is decoration, not a choice.",
+  "use_when": "Reviewing an option's mechanics or a build plan.",
+  "do": [
+   "Show each choice's result immediately",
+   "Link choices to score, time or position"
+  ],
+  "avoid": [
+   "Choices that have no visible effect",
+   "Promising branching story the engine cannot run"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "expression"
+   ],
+   "players": []
+  },
+  "source": "Salen & Zimmerman 2004, Rules of Play"
+ },
+ {
+  "id": "th-dominant-strategy",
+  "kind": "pitfall",
+  "title": "A dominant strategy erases the choice",
+  "text": "If one line or tactic is always best, every player does it and the choice disappears. In runner, a hazard nobody needs to go near; in tactics, a route that is both shortest and safest; in battle, standing in one corner where rings never fall. Look for the always-best answer in each stage and add a cost to it.",
+  "use_when": "Reviewing a layout, board or chapter for depth.",
+  "do": [
+   "Ask \"what is always best here?\" for each stage",
+   "Give the best route a cost (a hazard, a guard beat, a crack)"
+  ],
+  "avoid": [
+   "Designs where the safest path is also the fastest"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics",
+    "battle"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "gamers"
+   ]
+  },
+  "source": "Salen & Zimmerman 2004, Rules of Play"
+ },
+ {
+  "id": "th-swink-response",
+  "kind": "principle",
+  "title": "Response: feedback must feel instant",
+  "text": "Swink describes game feel as real-time control, simulated space and polish. In MR the control is the player's own body, so the game must answer each action at once: a swing that hits, a checkpoint that lights the moment it is touched, a ring that clearly marks danger before it lands. A slow or missing response feels like the game ignored the player.",
+  "use_when": "Writing rules and HUD, or testing a prototype question about feel.",
+  "do": [
+   "Add a test question about whether feedback reads in time",
+   "Keep checkpoints large enough to touch without searching"
+  ],
+  "avoid": [
+   "Tiny targets that need exact placement while walking",
+   "Relying on text to confirm an action"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "Swink 2008, Game Feel"
+ },
+ {
+  "id": "th-juice-is-fixed",
+  "kind": "pitfall",
+  "title": "Juice comes from the engine, the designer controls staging",
+  "text": "The engines already provide their own hit and pickup effects; the designer cannot add new particles, screen shake or custom sounds through the build plan. The designer's juice levers are staging: lighting preset, hero scenery at key moments, animated rides, the boss intro line, chapter titles, and where the finish sits relative to the audience. Promise polish through those, not through new effects.",
+  "use_when": "A creator asks for more effects, explosions or custom feedback.",
+  "do": [
+   "Use lighting, hero pieces and animated rides for spectacle",
+   "Place key moments where they read best"
+  ],
+  "avoid": [
+   "Promising custom VFX, screen shake or new sound effects in the build plan"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "th-feedback-fair-failure",
+  "kind": "heuristic",
+  "title": "Failure must be readable and fair",
+  "text": "Players accept failure when they see why it happened and that they could have avoided it. Red rings warn before they land; guards attack on a regular beat; hazards are red circles on the route. Never place a hazard where it cannot be seen in time, never put a guard's attack on the square the player must land on with no alternative, and keep MR beats slow enough to react while walking.",
+  "use_when": "Checking difficulty spikes and test questions.",
+  "do": [
+   "Make every danger visible before it matters",
+   "Add a test question like \"Can a 7-year-old read the rings in time?\""
+  ],
+  "avoid": [
+   "Hazards placed right behind a turn",
+   "Unavoidable damage"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": [
+    "kids",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-goals-three-horizons",
+  "kind": "pattern",
+  "title": "Give short, mid and long goals at once",
+  "text": "Players stay engaged when a goal is always close: short (the next checkpoint, the next enemy, the next target, seconds away), mid (finish this chapter or board, about a minute) and long (beat the boss, reach the portal, top the leaderboard). The HUD and labels should always show the short goal; the intro card states the long one.",
+  "use_when": "Writing the goal line, HUD and labels.",
+  "do": [
+   "State the long goal on the intro card",
+   "Show the short goal on the HUD",
+   "Name chapters or boards for the mid goal"
+  ],
+  "avoid": [
+   "Only a long goal with nothing close",
+   "Hiding which checkpoint or target is next"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-goal-line",
+  "kind": "heuristic",
+  "title": "Write the goal line as one action and one end state",
+  "text": "The game card goal is read once, often in a headset. Make it one sentence with the action and the end state: \"Free the 4 captives, then reach the gate\", \"Survive 4 chapters and defeat the Ash King\", \"Capture the targets in order before the guards catch you\". Numbers help players plan.",
+  "use_when": "Writing game.goal in the build step.",
+  "do": [
+   "Use one sentence with a number if possible",
+   "Name the final thing (boss, portal, last target)"
+  ],
+  "avoid": [
+   "Vague goals like \"Have fun exploring\"",
+   "Goals with several clauses"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-pacing-tension-release",
+  "kind": "principle",
+  "title": "Alternate tension and release",
+  "text": "Interest curves rise and fall: a hook, a dip, rising peaks, the climax, then a short resolution. In battle, a chapter is tension and the gap before the next chapter title is release; in tactics, a hard board is tension and the next board's opening is release; in runner, hazard stretches are tension and open views at checkpoints are release. Plan release points as deliberately as peaks.",
+  "use_when": "Writing the prototype flow minute by minute.",
+  "do": [
+   "Mark tension and release in the flow timeline",
+   "Put a release beat right after the first peak"
+  ],
+  "avoid": [
+   "Constant pressure from start to end",
+   "A long calm middle with no build"
+  ],
+  "tags": {
+   "phase": [
+    "prototype"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "narrative",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "Schell, The Art of Game Design"
+ },
+ {
+  "id": "th-climax-placement",
+  "kind": "heuristic",
+  "title": "Place the climax in the last 20 percent",
+  "text": "The climax should come near the end, after the player has learned everything it tests: the boss after the last chapter, the final board with the king or the most guards, the last checkpoint stretch before the portal. In MR, stage it where spectators can see it. Keep one short beat after it (the portal, the score) so it lands.",
+  "use_when": "Choosing the climax panel and the end of the flow.",
+  "do": [
+   "Put the climax at about 80 percent of the session",
+   "Stage it facing the audience",
+   "Follow it with a short resolution"
+  ],
+  "avoid": [
+   "A climax in the middle and a long tail after",
+   "A climax that tests something never taught"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "narrative",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "Schell, The Art of Game Design"
+ },
+ {
+  "id": "th-earned-ending",
+  "kind": "heuristic",
+  "title": "An ending feels earned when it uses what was learned",
+  "text": "Endings feel earned when the final challenge combines skills the player built and the story pays off the opening promise. Make the last chapter mix the enemy kinds already met, the last board use the hardest piece the player already knows, and the last checkpoint label answer the intro story (\"Return the lantern to the temple\"). Reaching the portal or defeating the boss then means something.",
+  "use_when": "Writing the last chapter, board or checkpoint and the story card.",
+  "do": [
+   "Echo the intro story in the final label or boss name",
+   "Combine known elements in the finale"
+  ],
+  "avoid": [
+   "A new rule introduced at the end",
+   "An ending that ignores the opening story"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-formal-elements-checklist",
+  "kind": "question",
+  "title": "Fill the 8 formal elements before options",
+  "text": "Fullerton lists the formal elements every game has: players, objectives, procedures, rules, resources, conflict, boundaries and outcome. For a vague brief, check each one and fill the gaps with explicit defaults: players from group_size, objective from the genre, procedures from the native loop, boundaries from the venue size. If a missing element would change the options, ask; otherwise default and say so.",
+  "use_when": "The brief is short or vague and the interview is near its end.",
+  "do": [
+   "Check all 8 elements against the brief",
+   "Ask only about elements that change the options",
+   "Write defaults into the brief"
+  ],
+  "avoid": [
+   "Producing options while the objective or boundary is unknown",
+   "Asking about elements that have an obvious default"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Fullerton, Game Design Workshop"
+ },
+ {
+  "id": "th-formal-players-objectives",
+  "kind": "default",
+  "title": "Defaults for players and objectives",
+  "text": "Players: in MR under 4 x 4 m, 1-2 at once; 4-10 m, 1-4; over 10 m, up to 6. Interaction pattern follows play_mode: solo, race (multilateral competition on separate copies) or together (shared floor). Objective by genre: battle is defeat the boss after the chapters, tactics is capture targets in order on each board, runner is reach the portal after all checkpoints. Reframe the objective with story but keep the underlying form.",
+  "use_when": "The brief does not state how many play or what winning is.",
+  "do": [
+   "Derive player count from the floor size",
+   "Use the genre's native objective"
+  ],
+  "avoid": [
+   "More simultaneous MR players than the floor supports",
+   "Objectives the engine cannot check (collect 10 coins)"
+  ],
+  "tags": {
+   "phase": [
+    "interview",
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "groups",
+    "solo"
+   ]
+  },
+  "source": "Fullerton, Game Design Workshop"
+ },
+ {
+  "id": "th-formal-procedures-rules",
+  "kind": "heuristic",
+  "title": "Procedures are what players do, rules are what limits them",
+  "text": "Procedures are the actions (walk, swing, step out of rings, move as a piece). Rules limit them and define consequences (a hazard sends you back, a guard's attacked square is forbidden, targets must be taken in order). In the rules list, write the 2-4 limits a player could not guess from the scene, in the player's language, and skip procedures they learn by doing.",
+  "use_when": "Writing game.rules for the build.",
+  "do": [
+   "List only rules that cannot be seen",
+   "State consequences plainly (\"Step on red, back to the last checkpoint\")"
+  ],
+  "avoid": [
+   "Rules that describe obvious procedures",
+   "More than 6 rules"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Fullerton, Game Design Workshop"
+ },
+ {
+  "id": "th-formal-resources-boundaries",
+  "kind": "heuristic",
+  "title": "Resources and boundaries in a walking game",
+  "text": "Resources are what players manage: time (time limit, time bonus), health in battle, position and safe squares in tactics, and score. Boundaries are the edges of play: in MR the real floor minus 0.6 m from its edge, which also sets how many checkpoints fit (small rooms 3-6, medium 4-8, large 4-10). Name the scarce resource in each option; if nothing is scarce, there is no tension.",
+  "use_when": "Making mechanics concrete for an option or build.",
+  "do": [
+   "Name one scarce resource per option (time, health, safe squares)",
+   "Treat the real walls as the edge of the world"
+  ],
+  "avoid": [
+   "Inventory or currency resources (the engine has none)",
+   "Placing anything inside the 0.6 m edge margin"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "Fullerton, Game Design Workshop"
+ },
+ {
+  "id": "th-formal-conflict-outcome",
+  "kind": "heuristic",
+  "title": "Define conflict and outcome explicitly",
+  "text": "Conflict is what stops the player reaching the goal: enemies and rain in battle, guards and cracks in tactics, hazards and the clock in runner. Outcome is how it ends: win or lose, or a ranked score. Single-player walks with no conflict are tours, which is fine for submission but say so. Ranked outcomes (score, time) suit races; win or lose suits battle.",
+  "use_when": "Writing mechanics for an option or reviewing a build plan.",
+  "do": [
+   "Name the source of conflict in one phrase",
+   "Say whether the outcome is win/lose or ranked"
+  ],
+  "avoid": [
+   "A challenge option with no real conflict",
+   "An outcome nobody can see (no score, no finish)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Fullerton, Game Design Workshop"
+ },
+ {
+  "id": "th-options-differ-on-axes",
+  "kind": "principle",
+  "title": "Make options differ on at least 2 of 4 axes",
+  "text": "Each option sits on four axes: aesthetic (main MDA feeling), loop (explore, collect, race, story, escape, tour, dodge), social (solo, race, together) and route (loop, spiral, zigzag, lanes, hub, out-and-back). Any two options must differ on at least 2 axes and must use different genres. Choose the axis values first, then write the option, so difference is designed in rather than hoped for.",
+  "use_when": "Generating the 3 options.",
+  "do": [
+   "Fill a 3 x 4 grid of axis values before writing",
+   "Vary social mode across options when the brief allows",
+   "Use 3 different genres"
+  ],
+  "avoid": [
+   "Writing options first and fixing axes afterward",
+   "Three options with the same social mode and feeling"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "th-options-three-skins",
+  "kind": "pitfall",
+  "title": "Avoid 3 skins of one idea",
+  "text": "Design fixation makes designers repeat the first idea with surface changes, such as the same course themed as jungle, space and candy. These are not real options because the creator's decision does not change the game. A real choice changes what the player does, how it feels, or who they play with. If the core loops read the same with theme words removed, rewrite.",
+  "use_when": "Reviewing the 3 options before sending them.",
+  "do": [
+   "Remove theme words and compare the core loops",
+   "Change genre, loop and social mode between options"
+  ],
+  "avoid": [
+   "Options that differ only in theme, lighting or title"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "Jansson & Smith 1991, Design fixation"
+ },
+ {
+  "id": "th-options-scoring-honesty",
+  "kind": "heuristic",
+  "title": "Score options honestly and use the whole scale",
+  "text": "Scores (fun, mr_fit, players_fit, buildability, 1-5) are only useful if they differ and are tied to brief facts. A 5 means nothing to improve; most options should have at least one 3 or below. Each score_why must cite a fact (floor size, light, player age). Set confidence to low when the option depends on something untested, such as void floor with newcomers.",
+  "use_when": "Filling scores and scores_why for options.",
+  "do": [
+   "Cite a brief or venue fact in each score_why",
+   "Give each option a weakest score",
+   "Use low confidence for untested combinations"
+  ],
+  "avoid": [
+   "All options scoring 4-5 on everything",
+   "Scores with no stated reason"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-options-recommend",
+  "kind": "heuristic",
+  "title": "Recommend the option that serves the primary feeling and the players",
+  "text": "Recommend the option that best serves the brief's top feeling for the stated players in the real venue, not the most ambitious one. Tie-breaks: fits the venue and light better, safer for the least experienced player, simpler to build well. Say in one sentence which brief fact decided it. The creator chooses first, so the recommendation is a mirror, not a command.",
+  "use_when": "Setting recommend and recommend_why.",
+  "do": [
+   "Name the deciding brief fact",
+   "Prefer venue fit and player safety in ties"
+  ],
+  "avoid": [
+   "Recommending the flashiest option by default",
+   "Recommending an option with a low players_fit"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-options-safe-and-bold",
+  "kind": "heuristic",
+  "title": "Span the risk range: one safe, one bold",
+  "text": "A good set of 3 options spans risk: one safe option that clearly fits the brief, one bold option that stretches it (an unusual genre for the theme, a void floor, a race for a calm brief), and one in between. The bold option makes the creator think and often improves the final choice even when not picked. Mark the bold option's confidence honestly.",
+  "use_when": "Generating options when the brief is clear and a safe answer is obvious.",
+  "do": [
+   "Label which option is the bold one in its why",
+   "Keep the bold option buildable"
+  ],
+  "avoid": [
+   "Three safe variations",
+   "A bold option that breaks safety rules or engine limits"
+  ],
+  "tags": {
+   "phase": [
+    "options"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-session-1-min",
+  "kind": "default",
+  "title": "A 1-minute session",
+  "text": "One minute suits queues, booths and young kids. Use a runner with 4 checkpoints close together, or a battle with 3 short chapters of 2-3 grunts plus a boss; tactics needs more time per board, so use only 3 boards with 2 targets and 0-1 guard. The intro card must be 1-2 sentences. Consider timeLimit 60 s for a race.",
+  "use_when": "session_minutes is 1-2, or a high-throughput event.",
+  "do": [
+   "Minimum stage counts",
+   "One-sentence story",
+   "First success within 15 s"
+  ],
+  "avoid": [
+   "5+ chapters or boards",
+   "Long intro text"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-session-3-min",
+  "kind": "default",
+  "title": "A 3-minute session",
+  "text": "Three minutes is the default for events and first-time VR. Runner: 5-6 checkpoints with 2-4 hazards. Battle: 3-4 chapters with the boss. Tactics: 3-4 boards. There is room for one climax and one breather. For a race, timeLimit around 180 s gives a time bonus target.",
+  "use_when": "session_minutes is around 3, or not given for an event.",
+  "do": [
+   "Use this as the default when session length is unknown",
+   "Plan one breather and one climax"
+  ],
+  "avoid": [
+   "Cramming 6 boards into 3 minutes"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "first-time-vr",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-session-5-min",
+  "kind": "default",
+  "title": "A 5-minute session",
+  "text": "Five minutes fits a full arc with a sawtooth curve. Runner: 6-8 checkpoints in a medium or large space with a story told through every label. Battle: 4-5 chapters with rain introduced mid-way. Tactics: 4-5 boards with 2 piece changes. Headset comfort is fine at this length for most players.",
+  "use_when": "session_minutes is 4-6.",
+  "do": [
+   "Use 2 tension peaks before the climax",
+   "Introduce one new element per stage"
+  ],
+  "avoid": [
+   "A flat middle stretch"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-session-10-min",
+  "kind": "default",
+  "title": "A 10-minute session",
+  "text": "Ten minutes is long for walking MR: fatigue, battery and headset comfort matter, and seniors or kids may tire. Use the maximum stages (6 chapters or boards, 8-10 checkpoints only in a large space), add clear release beats, and keep the climax near minute 8. On PC this length is comfortable. If the space is small, warn that a long walk will loop repeatedly.",
+  "use_when": "session_minutes is 8 or more.",
+  "do": [
+   "Plan release beats every 2 minutes",
+   "Warn about headset fatigue for kids and seniors"
+  ],
+  "avoid": [
+   "10 minutes of constant challenge in MR",
+   "A 10-minute runner in a small room"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "adults",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-replay-time-attack",
+  "kind": "pattern",
+  "title": "Replay through time attack and the leaderboard",
+  "text": "The cheapest replay value is improvement: a fixed course and a clock. The runner time bonus and the tactics time race with a leaderboard both give players a reason to try again and beat their own time or a friend's. Keep the course short (1-3 minutes) so a retry costs little, and show the leaderboard where the queue can see it.",
+  "use_when": "The brief wants replayability, competition, or repeat visitors.",
+  "do": [
+   "Keep a replayable course to 1-3 minutes",
+   "Show the leaderboard on a screen in view of the queue"
+  ],
+  "avoid": [
+   "Long courses for time attack",
+   "Time attack for a calm submission brief"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "tactics"
+   ],
+   "feelings": [
+    "challenge",
+    "fellowship"
+   ],
+   "players": [
+    "gamers",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "th-replay-varied-stages",
+  "kind": "pattern",
+  "title": "Replay through variety across stages",
+  "text": "When players should come back for more content rather than a better time, vary the stages: different pieces and guard layouts across tactics boards, different enemy mixes and rain across battle chapters, varied views and vignettes along a runner route. Variety within one session also keeps first-time play fresh. Persistent unlocks are not available, so variety must live inside the game.",
+  "use_when": "The brief wants depth or repeat visits but not competition.",
+  "do": [
+   "Change piece type every 1-2 boards",
+   "Change the enemy mix every chapter",
+   "Give each runner stretch its own view"
+  ],
+  "avoid": [
+   "Promising unlocks, levels saved between visits or progression systems"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics",
+    "battle",
+    "runner"
+   ],
+   "feelings": [
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ }
+]

@@ -1,0 +1,2597 @@
+[
+ {
+  "id": "st-premise-one-sentence",
+  "kind": "principle",
+  "title": "Start from a one-sentence premise: you are X, you must Y, before Z",
+  "text": "Before writing any label, chapter or board line, write the premise as one sentence with a role, an action and a stake: \"You are the last lantern carrier and must relight 6 shrines before the ghosts wake.\" Every other line in the game should trace back to it. If the premise needs two sentences, the story is too big for a 1-8 minute play.",
+  "use_when": "the concept is chosen and you are about to write the story, labels or chapters",
+  "do": [
+   "Write role + action + stake in one sentence",
+   "Use the premise as sentence 1 or 2 of the intro card",
+   "Check each label against it: does this line serve the premise?"
+  ],
+  "avoid": [
+   "Premises that are only a setting (\"A spooky temple\")",
+   "Two goals at once (\"save the village and win the race and find the treasure\")"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "Schell, The Art of Game Design"
+ },
+ {
+  "id": "st-three-act-checkpoints",
+  "kind": "pattern",
+  "title": "Split checkpoints into three acts: arrive, trouble, triumph",
+  "text": "Map the checkpoint count onto a short three-act shape. With 4 checkpoints use 1-2-1, with 6 use 2-2-2, with 8 use 2-4-2, with 10 use 3-4-3. Act 1 labels set up the world and the task (\"Enter the reef\"), act 2 labels raise trouble (\"Swim past the eels\"), act 3 labels pay off (\"Wake the pearl queen\"). The portal is the curtain call, not a fourth act.",
+  "use_when": "writing 4-10 checkpoint labels for a runner with narrative as a feeling",
+  "do": [
+   "Decide the act split before writing labels",
+   "Put the hardest hazard in act 2 and the payoff label in act 3",
+   "Make the act 3 labels name the thing promised on the intro card"
+  ],
+  "avoid": [
+   "Ten labels at one emotional level",
+   "Using act 1 to explain backstory instead of moving"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-quest-chain",
+  "kind": "pattern",
+  "title": "Quest chain: each checkpoint makes the next one possible",
+  "text": "A quest chain links stops by cause: \"Wake the bell keeper\", \"Ring the old bell\", \"Open the river gate\", \"Free the boats\". Nothing is carried or unlocked by the engine; the checkpoint order already forces the sequence, so the words only need to imply that each step leads to the next. This makes 5-7 checkpoints feel like one task instead of a list.",
+  "use_when": "the brief wants a story with purpose and the route has 5-7 checkpoints",
+  "do": [
+   "Let each label imply the result of the previous one",
+   "Show the change in scenery (a gate model beside \"Open the river gate\")"
+  ],
+  "avoid": [
+   "Saying a door really unlocks or an item is needed (no inventory)",
+   "Chains longer than 7 links in a short play"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-rescue",
+  "kind": "pattern",
+  "title": "Rescue structure: find each captive, then go home through the portal",
+  "text": "Rescue is the easiest story to read: each checkpoint is someone or something freed (\"Free the first kitten\"), hazards are what holds them (thorns, a curse ring, fire), and the portal is home. Put a still model of each captive beside its checkpoint so the label points at something visible. For kids use animals or toys; for adults use villagers or spirits.",
+  "use_when": "a runner for kids or families, or any brief that says \"help\" or \"save\"",
+  "do": [
+   "Count the captives in the goal line (\"Free 5 kittens, then go home\")",
+   "Show each captive as a scenery model at its checkpoint"
+  ],
+  "avoid": [
+   "Captives that follow you (the engine has no followers)",
+   "Rescue from violence in kids games; use cages, sleep spells, ice"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-escape",
+  "kind": "pattern",
+  "title": "Escape structure: the place is closing, the portal is the only way out",
+  "text": "In an escape the danger is behind you and the portal is the exit. Labels count down places passed (\"Out of the cell\", \"Past the kitchen\", \"Up the stairs\", \"The last door\") and hazards are the closing threat (lava, alarm rings). A time limit fits naturally (\"before the volcano blows\"), so set timeLimit and mention it once in the story. Escape suits challenge, sensation and races.",
+  "use_when": "a runner that should feel urgent, or a race",
+  "do": [
+   "Write labels as places passed, not tasks done",
+   "Name the time limit in story words (\"before sunrise\")"
+  ],
+  "avoid": [
+   "Calm wandering words in an escape",
+   "A threat that is described but never shown; place hazards or scenery for it"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "sensation",
+    "narrative"
+   ],
+   "players": [
+    "teens",
+    "adults",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-delivery",
+  "kind": "pattern",
+  "title": "Delivery structure: you carry something precious from start to finish",
+  "text": "A delivery story gives one object the whole journey: a lantern flame, a letter, a dragon egg. The object exists only in words (the engine has no carrying), so state it on the intro card (\"You carry the last warm ember\") and let labels be the stops on the way (\"Shelter from the snow\", \"Cross the frozen lake\", \"Reach the cold village\"). The portal is the handover.",
+  "use_when": "a runner with a journey feeling, a tour, or a gentle family story",
+  "do": [
+   "Name the carried thing on the intro card",
+   "Make the last label or the goal the handover (\"Bring the ember to the village\")"
+  ],
+  "avoid": [
+   "Rules or labels that say \"do not drop it\" (nothing can be dropped)",
+   "Asking players to hold a real object while walking in MR"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "submission",
+    "fantasy"
+   ],
+   "players": [
+    "families",
+    "kids",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-collection",
+  "kind": "pattern",
+  "title": "Collection structure: a numbered set the player completes",
+  "text": "Collection works when the set has a clear count and a reason: \"5 lost stars to put back in the sky\". Touching a checkpoint is the collecting, so labels can repeat a pattern on purpose (\"Star 1: the well\", \"Star 2: the windmill\"). Give the set a payoff in the last label or goal (\"Light up the sky\"). Kids love counting up, and the HUD already shows checkpoint progress.",
+  "use_when": "a runner for kids, families or first-time VR players, or a submission feeling",
+  "do": [
+   "Use the same noun with a number plus a place",
+   "Say the total on the intro card and in the goal"
+  ],
+  "avoid": [
+   "Collecting with no reason or payoff",
+   "Promising to use the collected things later (no inventory)"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "submission"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-tour",
+  "kind": "pattern",
+  "title": "Tour structure: each checkpoint is one sight with one fact or feeling",
+  "text": "A tour treats checkpoints as stops on a guided walk: \"See the floating market\", \"Visit the spirit house\", \"Watch the elephants bathe\". Each label names the sight and the vignette beside it shows it. Add no threat words; use hazards lightly as natural obstacles (puddles, sleeping dogs). Tours suit tourists, seniors, educators and brands showing a place.",
+  "use_when": "tourists, school visits, brand showcases or a submission or discovery brief",
+  "do": [
+   "One sight per label, named plainly",
+   "Let the intro card say where the tour goes and how many stops"
+  ],
+  "avoid": [
+   "Packing several facts into one label",
+   "Danger words in a relaxing tour"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "submission",
+    "sensation"
+   ],
+   "players": [
+    "seniors",
+    "families",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-mystery-reveal",
+  "kind": "pattern",
+  "title": "Mystery with a reveal at the end: a clue in each label, the answer in the last",
+  "text": "A short mystery plants a question on the intro card (\"Who stole the moon?\") and lets each label add a clue the scenery shows (\"Follow the silver footprints\", \"Check the empty nest\"). The last checkpoint label gives the answer (\"The owl kept it for her chicks\"). The reveal must sit in the last label (or the boss intro in battle), because the engine has no ending screen to write on.",
+  "use_when": "a runner or battle with narrative or discovery, played solo or together (not a race)",
+  "do": [
+   "Ask the question on the intro card",
+   "Make the last label the answer, not one more clue"
+  ],
+  "avoid": [
+   "Clues that need paragraphs",
+   "Reveals that need every label read, in a race where players skim"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": [
+    "solo",
+    "families",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-battle-arc",
+  "kind": "pattern",
+  "title": "Battle arc across chapters: outskirts, defences, heart, boss",
+  "text": "Across 3-6 chapters let the place move inward: chapter 1 at the edge (\"The Frozen Pass\"), middle chapters at the defences (\"The Shield Wall\", \"The Hunting Grounds\"), the last chapter at the boss's door (\"Below the Throne\"), then the boss. Moving through named places makes the fight feel like a journey even though the arena itself does not change.",
+  "use_when": "writing chapter titles for a battle game",
+  "do": [
+   "Read the titles in order: they should move closer to the boss",
+   "Use the theme (ice, lava, forest, neon, desert, dark) in the place names"
+  ],
+  "avoid": [
+   "Titles that are only numbers or difficulty words (\"Hard Wave\")",
+   "Jumping to the boss lair in chapter 1"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-battle-foe-meaning",
+  "kind": "heuristic",
+  "title": "Give each enemy kind a story meaning and name it in its chapter line",
+  "text": "The engine has three foes, so the words decide who they are. Grunts are fast and weak: a swarm (imps, ice sprites, sand rats). Shields block from the front: a wall of guards (stone soldiers, palace guards). Beasts are big chargers: the boss's pet (a lava hound, a forest boar). Rain is a sky threat: hail, falling embers, a curse. Mention the main foe in its chapter line (\"Stone guards lock shields at the gate\") so players know what is coming. Re-check after choosing foes: falling danger only when rain is true, a big creature only when a beast is in that chapter.",
+  "use_when": "writing chapter lines once each chapter's foes are chosen",
+  "do": [
+   "Match the line to the main foe kind in that chapter",
+   "Name rain as weather or a curse when rain is true"
+  ],
+  "avoid": [
+   "Describing archers or flying foes (not in the engine)",
+   "Calling a chapter of grunts \"the giants\""
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "narrative",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-tactics-arc",
+  "kind": "pattern",
+  "title": "Tactics arc across boards: the piece changes because the story does",
+  "text": "Boards should vary the piece, and each change needs a story reason: start as a knight sneaking in (\"Leap the garden walls\"), become a rook in the long halls (\"Charge the straight corridors\"), a bishop in the chapel (\"Slip along the diagonal pews\"), and end as the queen (\"Take back the throne\"). The piece change reads as growth or disguise, not as a rule change.",
+  "use_when": "writing 3-6 board stories for a tactics game",
+  "do": [
+   "Tie each piece to the place of that board",
+   "Save the queen or the king target for the last board"
+  ],
+  "avoid": [
+   "Board stories that ignore which piece the player is",
+   "Changing piece with no word about why"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-boss-payoff",
+  "kind": "principle",
+  "title": "The boss is the story payoff: name it twice before it appears",
+  "text": "A boss lands when players already know it. Name it on the intro card (\"the Ash King sleeps under the mountain\"), hint at it in a middle chapter line (\"His hounds smell you\"), then let boss.intro deliver (\"The Ash King rises. End this.\"). A boss who appears without warning feels like a random big enemy, not an ending.",
+  "use_when": "writing the story card, chapter lines and boss for a battle game",
+  "do": [
+   "Mention the boss name on the intro card",
+   "Hint at it in one chapter line before the last",
+   "Write the boss intro as the climax sentence"
+  ],
+  "avoid": [
+   "A boss name first seen in boss.intro",
+   "A boss unrelated to the chapters' theme"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-label-length-th-en",
+  "kind": "heuristic",
+  "title": "Label length: English 2-5 words, Thai about 6-16 characters",
+  "text": "English labels read best at 2-5 words and under about 24 characters (\"Ring the old bell\"). Thai has no spaces between words, so count characters: aim for about 6-16 Thai characters (\"ตีระฆังเก่า\", \"จุดเทียนดวงแรก\"). Thai labels over about 20 characters blur in a headset while walking. If a label needs a comma, it is two labels.",
+  "use_when": "writing checkpoint labels in either language, especially for MR",
+  "do": [
+   "Read the label aloud in under 2 seconds",
+   "Cut adjectives first, keep the verb and the noun"
+  ],
+  "avoid": [
+   "Thai full sentences with particles and pronouns as labels",
+   "Commas, brackets or two clauses in one label"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-label-verb-first-thai",
+  "kind": "heuristic",
+  "title": "Thai labels start with the verb too, and drop the pronoun",
+  "text": "Thai naturally puts the verb first in commands, so labels should read like a friend telling you what to do: \"ปลุกยักษ์วัด\", \"ข้ามสะพานหมอก\", \"ช่วยลูกเป็ด\". Drop \"คุณ\", \"เรา\" and \"จง\"; they make the label long and stiff. Good: \"จุดตะเกียง\". Bad: \"คุณจะต้องจุดตะเกียงให้สว่าง\".",
+  "use_when": "writing checkpoint labels with lang = th",
+  "do": [
+   "Verb + object, sometimes + one place word",
+   "Everyday verbs: ไป, หา, ช่วย, ปลุก, จุด, ข้าม"
+  ],
+  "avoid": [
+   "\"จง...\" commands (sounds like a textbook)",
+   "Starting every label with \"ด่านที่ 3:\""
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-label-numbered-progress",
+  "kind": "pattern",
+  "title": "Numbered progress in labels when the set repeats: \"Bell 2\", \"Last bell\"",
+  "text": "When checkpoints are a set (bells, stars, lanterns), a number in the label tells players how far they are: \"Bell 1: the gate\", \"Bell 2: the pond\", \"Last bell: the tower\". In Thai: \"ระฆังที่ 1 ประตูวัด\", \"ระฆังสุดท้าย บนหอ\". Use Arabic digits so every player reads them fast, and name the final one \"Last\" or \"สุดท้าย\" to signal the climax.",
+  "use_when": "a collection or chain runner with repeated checkpoint types",
+  "do": [
+   "Number + place for each repeat",
+   "Switch to \"Last\" for the final one"
+  ],
+  "avoid": [
+   "Numbers with no place (players cannot tell the stops apart)",
+   "Thai numerals in labels"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-label-good-bad-examples",
+  "kind": "example",
+  "title": "Checkpoint labels: bad drafts and good rewrites",
+  "text": "Bad \"Checkpoint 2\" becomes \"Cross the rope bridge\". Bad \"Now you must find the very old ancient lantern\" becomes \"Find the old lantern\". Bad \"Talk to the monk\" becomes \"Visit the monk\" (no dialogue). Bad \"Pick up the key\" becomes \"Reach the key stone\" (no carrying). Bad Thai \"ท่านจงเสด็จไปยังศาลา\" becomes \"ไปที่ศาลา\". Bad \"Zone C\" becomes \"Into the bamboo\".",
+  "use_when": "reviewing a draft list of checkpoint labels",
+  "do": [
+   "Rewrite any label that names a number, a zone or an impossible action",
+   "Keep the verb and the visible noun"
+  ],
+  "avoid": [
+   "Labels that only describe geography with no action",
+   "Labels copied from another game"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-label-safe-verbs",
+  "kind": "default",
+  "title": "Safe label verbs: actions done just by arriving",
+  "text": "A checkpoint is touched by walking into it, so the best verbs happen on arrival: reach, enter, cross, visit, light, wake, ring, free, find, greet, bless, see, pass. In Thai: ไปถึง, เข้า, ข้าม, ไปหา, จุด, ปลุก, ตี (ระฆัง), ปล่อย, หา, ไหว้, ดู. Avoid verbs that need hands, buttons or speech: pick up, throw, open with a key, talk, ask, buy, build, shoot.",
+  "use_when": "choosing verbs for checkpoint labels",
+  "do": [
+   "Pick an arrival verb that fits the scenery at that stop",
+   "Vary verbs across the route"
+  ],
+  "avoid": [
+   "Hand verbs (pick up, throw, craft)",
+   "Speech verbs (ask, tell, answer)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-label-vary-verbs",
+  "kind": "pitfall",
+  "title": "Six labels starting with \"Find\" read like a shopping list",
+  "text": "When every label opens with the same verb (\"Find the cat\", \"Find the hat\", \"Find the bat\"), players stop reading after the second. Unless it is a deliberate numbered set, vary the verb so each stop has its own moment: \"Spot the cat\", \"Wake the owl\", \"Cross the creek\", \"Free the fox\". In Thai, rotate between หา, ปลุก, ข้าม, ช่วย, จุด.",
+  "use_when": "a draft label list where most labels share a first word",
+  "do": [
+   "Use at least 3 different verbs in 5-7 labels",
+   "Keep repetition only for numbered sets"
+  ],
+  "avoid": [
+   "The same verb on every label by accident",
+   "Fancy synonyms that are harder to read (\"Procure\")"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-last-label-is-ending",
+  "kind": "principle",
+  "title": "There is no ending screen: land the ending on the last label",
+  "text": "The game card has no finish-message field, and the portal only ends the run with the score. So the story's ending must live in the last checkpoint label (\"Return the moon to the sky\") and in what the goal line promised. Make the last label the resolution, not another errand, and give the portal a meaning on the intro card (\"then the gate takes you home\").",
+  "use_when": "writing the final checkpoint label and the intro card of a runner",
+  "do": [
+   "Write the last label as the payoff",
+   "Name the portal's meaning on the intro card (home, the exit, the next world)"
+  ],
+  "avoid": [
+   "Planning a victory speech or ending text the engine cannot show",
+   "A last label that is a minor errand"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-intro-card-shape",
+  "kind": "pattern",
+  "title": "Intro card in 4 short sentences: world, you, trouble, go",
+  "text": "The story field is 2-4 sentences read once before play. A reliable shape: 1) the world (\"The river spirits lost their lights.\"), 2) who you are (\"You are the lantern child.\"), 3) the trouble and the stake (\"The ghosts wake at midnight.\"), 4) the call to action (\"Light 5 lanterns and get home.\"). With only 2 sentences, merge 1+2 and 3+4. Keep each sentence under about 15 words.",
+  "use_when": "writing game.story in the build step or in a pc_battle or pc_tactics game card",
+  "do": [
+   "Second person \"you\" from sentence 2",
+   "End on an action the player does right away"
+  ],
+  "avoid": [
+   "Opening with history and dates",
+   "A fifth sentence of lore"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-goal-label-agree",
+  "kind": "heuristic",
+  "title": "Goal, story and labels must agree on the numbers and the final thing",
+  "text": "If the goal says \"Light 5 lanterns\" there must be 5 lantern labels, and the story must not say \"6 shrines\". If the boss is \"the Frost Warden\" on the card, boss.name must match exactly. Players trust the card; a mismatch reads as a bug. Check counts and names across goal, story, labels, chapter lines, board stories (against the targets and guards of each board) and boss before submitting.",
+  "use_when": "the last check before submitting a build, pc_battle or pc_tactics answer",
+  "do": [
+   "Count labels against the goal number",
+   "Use the exact same spelling for names everywhere"
+  ],
+  "avoid": [
+   "Vague counts in the story (\"a few lanterns\") while the goal says 5",
+   "A boss with two different names"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-rules-list",
+  "kind": "default",
+  "title": "Rules list: 3-4 items, one plain verb each, in play order",
+  "text": "The schema allows up to 8 rules for a runner and 6 for PC battle and tactics, but players read 3-4. Order them as played: what to do, what to avoid, how to finish. Runner example: \"Walk to the glowing points in order\", \"Red circles send you back\", \"Step into the gate to finish\". Use plain mechanic words, with at most a story word in brackets.",
+  "use_when": "writing game.rules in the build step",
+  "do": [
+   "One rule per line, starting with a verb or the thing to avoid",
+   "Put the finish rule last"
+  ],
+  "avoid": [
+   "Rules that repeat the story",
+   "More than 5 rules for kids or first-time VR players"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "first-time-vr",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-rules-plain-plus-story",
+  "kind": "pattern",
+  "title": "Write rules in plain words with the story word beside them",
+  "text": "Rules must be understood by everyone, so lead with the mechanic and add the fiction once: \"Do not step in red circles (the lava pools)\", \"Capture targets in order (the stolen jewels)\", \"Step out of the red rings (the dragon's fire)\". Thai: \"อย่าเหยียบวงแดง (บ่อลาวา)\". The story word carries the theme; the plain words keep the rule clear.",
+  "use_when": "rules for a themed game where the fiction renames hazards or targets",
+  "do": [
+   "Mechanic first, story word in brackets",
+   "Reuse the story word from the labels"
+  ],
+  "avoid": [
+   "Only the story word (\"Avoid the Ember Wounds\")",
+   "Rules that hide what actually happens"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-rules-mr-safety-line",
+  "kind": "default",
+  "title": "In MR, one rule is always about walking safely",
+  "text": "Walking players in a real room need one safety rule on the card: \"Walk, do not run\", or for battle \"Step, do not jump\". Thai: \"เดินนะ ห้ามวิ่ง\". Put it second or third, not first, so it is read without opening the card like a warning sign. It matters most in races, which make people speed up.",
+  "use_when": "any MR game card, especially races and battle",
+  "do": [
+   "Include a walk-not-run rule in MR",
+   "Word it kindly and short"
+  ],
+  "avoid": [
+   "Leaving safety only to staff",
+   "Long legal-style warnings on the card"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "groups",
+    "first-time-vr"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "st-rules-by-genre",
+  "kind": "example",
+  "title": "Rule lists that work for each genre",
+  "text": "Runner: \"Walk to the points in order\", \"Red circles send you back\", \"Finish at the gate\". Battle on PC: \"Click to swing, 3 hits make a combo\", \"Dash out of red rings\", \"Clear every chapter, then beat the boss\". Battle in MR: \"Swing your right controller like a sword\", \"Step out of red rings\", \"Beat the boss\". Tactics: \"Move like your chess piece\", \"Capture targets in order\", \"Never stop on a square a guard attacks\".",
+  "use_when": "writing rules for battle, tactics or runner",
+  "do": [
+   "Name the input in plain words on PC",
+   "Start from 3 lines and add only what the brief needs"
+  ],
+  "avoid": [
+   "Explaining how every chess piece moves in the list",
+   "Rules about mechanics the genre lacks"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-chapter-title-line",
+  "kind": "heuristic",
+  "title": "Chapter title 1-3 words; chapter line one sentence under 12 words",
+  "text": "Titles are names of places or moments (\"The Ash Road\", \"Ember Storm\", \"ถ้ำลาวา\"); lines are one present-tense sentence about what happens now (\"The road splits and the hounds come running.\"). Thai lines stay under about 30 characters: \"ฝนไฟตกลงมา หลบให้ทัน\". The line shows as a chapter starts, mid-action, so it must read in 2 seconds.",
+  "use_when": "writing the title and line of each battle chapter",
+  "do": [
+   "Present tense, one sentence",
+   "Put the danger word near the start of the line"
+  ],
+  "avoid": [
+   "Lines that explain controls (use the rules list)",
+   "Titles over 3 words"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "narrative",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-boss-name",
+  "kind": "heuristic",
+  "title": "Boss names: a title plus one strong noun, easy to shout",
+  "text": "Good boss names are 2-4 words that say what the boss rules or is made of: \"The Ash King\", \"Frost Warden\", \"Mother of Thorns\", \"ราชาเถ้าถ่าน\", \"เจ้าแม่น้ำแข็ง\". Players and spectators should be able to shout it. Avoid apostrophes, invented syllables and names that only work in one language if the game may be made in the other.",
+  "use_when": "writing boss.name for a battle game",
+  "do": [
+   "Title + element or domain",
+   "Match the theme (lava, ice, forest, neon, desert, dark)"
+  ],
+  "avoid": [
+   "Random syllable names (\"Xyrrthak\")",
+   "Names of real gods, kings or religious figures"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-boss-intro",
+  "kind": "heuristic",
+  "title": "Boss intro: what wakes, then what you must do, in 1-2 short sentences",
+  "text": "boss.intro is the climax line. Write it as an event and a call: \"The Ash King rises from the ember throne. Break his crown.\" Thai: \"ราชาเถ้าถ่านตื่นแล้ว ล้มมันให้ได้\". Use 5-15 words. The boss fight is fixed (ring slams, summoned grunts, faster below half health), so promise a fight, not a special attack.",
+  "use_when": "writing boss.intro for a battle game",
+  "do": [
+   "Short event + imperative",
+   "Reuse the boss name exactly"
+  ],
+  "avoid": [
+   "Describing fire breath, flying or phases the engine does not have",
+   "Long villain speeches (no dialogue)"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "challenge",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-board-story",
+  "kind": "heuristic",
+  "title": "Board story: one line under 12 words naming the targets and the guards",
+  "text": "A tactics board line says what the targets and guards are in story terms: \"Steal the 3 crowns before the night watch turns.\" Thai: \"ขโมยมงกุฎ 3 ชิ้น ก่อนยามหันมา\". Mention a target count only if it matches the board's targets number. Use the piece's nature when it helps (\"Leap the hedges, rider\").",
+  "use_when": "writing the story line of each tactics board",
+  "do": [
+   "Target meaning + guard meaning in one line",
+   "Match any number to the board's targets"
+  ],
+  "avoid": [
+   "Lines about moves the piece cannot make",
+   "Lines that describe the room only"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "narrative",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-tactics-piece-roles",
+  "kind": "pattern",
+  "title": "Give each chess piece a role that matches how it moves",
+  "text": "The piece the player is should feel like a character: knight = a rider or a frog that jumps over things, bishop = a monk or a shadow sliding on diagonals, rook = a battering cart or a castle golem charging in straight lines, queen = the hero, free in every direction. Write the role into the board story (\"As the monk, slip along the diagonal halls\").",
+  "use_when": "tactics boards where the brief wants fantasy or kids need a hook",
+  "do": [
+   "Mention the role once per board",
+   "Pick roles that fit the theme (Thai temple: elephant, naga, temple cat)"
+  ],
+  "avoid": [
+   "Roles whose movement contradicts the piece (a \"flying\" rook)",
+   "Calling the player only \"the knight piece\" with no fiction"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-tactics-king-final",
+  "kind": "pattern",
+  "title": "Save the king for the last board and call it the climax",
+  "text": "Setting king: true on the final board makes the last target a king, a natural climax: \"Corner the Rat King in his hall.\" Earlier boards build toward it (\"His guards are getting nervous\"). Thai: \"ต้อนราชาหนูให้จนมุม\". The intro card can name the king from the start so the last board pays it off.",
+  "use_when": "the final board of a 3-6 board tactics game",
+  "do": [
+   "king: true only on the last board",
+   "Name the king on the intro card"
+  ],
+  "avoid": [
+   "A king on board 1",
+   "A king never mentioned before the final board"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "narrative",
+    "challenge"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-time-limit-in-story",
+  "kind": "pattern",
+  "title": "A time limit needs a story reason: before sunrise, before the tide",
+  "text": "If timeLimit is set, say why in the story (\"Get out before the volcano wakes\", \"ก่อนพระอาทิตย์ขึ้น\") and state the minutes once in the goal or rules (\"You have 3 minutes\"). A clock with a reason feels like tension; a clock without one feels like a test. For submission or young kids, prefer no time limit and no clock words.",
+  "use_when": "a design with a time limit, or deciding whether to add one",
+  "do": [
+   "Tie the timer to a world event",
+   "State the minutes once as a plain number"
+  ],
+  "avoid": [
+   "Hurry words in a relaxing game",
+   "Different times in the story and in timeLimit"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "challenge",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-thai-spoken-register",
+  "kind": "principle",
+  "title": "Thai: write like a friendly person speaking, not a textbook",
+  "text": "Use everyday polite spoken Thai: \"ไปช่วยลูกช้างกัน\", \"ระวังวงแดงนะ\". Avoid formal written words that feel like an exam or a government notice: \"ปฏิบัติภารกิจ\", \"ดำเนินการ\", \"กรุณาหลีกเลี่ยง\". Avoid royal register (ราชาศัพท์) entirely unless the creator asks for a royal story, and even then keep it respectful and short.",
+  "use_when": "any text with lang = th",
+  "do": [
+   "Read the line aloud: would a teacher or an older sibling say it?",
+   "Use ไป, มา, ช่วย, หา, ระวัง, เลย"
+  ],
+  "avoid": [
+   "ราชาศัพท์ and court language",
+   "Bureaucratic words (ดำเนินการ, ปฏิบัติ, ทำการ)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-thai-pronouns",
+  "kind": "heuristic",
+  "title": "Thai pronouns: drop them, or use \"เรา\" for warmth",
+  "text": "Thai sentences work without a subject, so most lines need no pronoun: \"จุดตะเกียงให้ครบ 5 ดวง\". When the intro card needs one, \"คุณ\" is neutral for adults and \"เรา\" makes kids and families feel included (\"เราต้องช่วยลูกเต่ากลับบ้าน\"). Avoid \"ท่าน\" (stiff) and \"เจ้า\" (old period drama, unless the theme is fantasy), and never use rude pronouns.",
+  "use_when": "writing intro cards and lines in Thai",
+  "do": [
+   "No pronoun in labels",
+   "คุณ for adults, เรา for kids and families"
+  ],
+  "avoid": [
+   "ท่าน in game text",
+   "Mixing คุณ and เรา on one card"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-thai-kid-words",
+  "kind": "heuristic",
+  "title": "Thai for kids 6-10: short common words, no heavy Pali or Sanskrit vocabulary",
+  "text": "Children read slowly in a headset. Use words they know: \"ผี\" not \"วิญญาณ\", \"ยักษ์\" not \"อสุรกาย\", \"ช่วย\" not \"กอบกู้\", \"บ้าน\" not \"ที่พำนัก\". Keep lines to about 10-20 characters and add playful sound words sparingly (\"ว้าว\", \"ปุ๊ง!\"). Friendly creature names beat scary ones: \"ผีน้อยขี้เหงา\" works, while a folklore ghost famous for gore may frighten young kids.",
+  "use_when": "lang = th and players are kids or families with young children",
+  "do": [
+   "Swap long formal words for daily words",
+   "Cute or funny names for spirits and monsters"
+  ],
+  "avoid": [
+   "Long compound words",
+   "Folklore ghosts known for gore"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-thai-loanwords",
+  "kind": "heuristic",
+  "title": "Thai loanwords: keep the common ones, avoid long transliterated names",
+  "text": "Some English words are normal Thai: บอส, ด่าน, เกม, ทีม. But transliterated names like \"เดอะ ฟรอสต์ วอร์เดน\" are hard to read and sound awkward; give a Thai name with meaning instead (\"ผู้คุมน้ำแข็ง\"). Prefer \"จุด\" over \"เช็คพอยต์\", \"ภารกิจ\" over \"มิชชั่น\", \"คะแนน\" over \"พอยต์\". Brand and product names stay in their official form.",
+  "use_when": "a Thai game whose ideas came from English, or translating names",
+  "do": [
+   "Make a Thai name with meaning for each boss or place",
+   "Keep official brand spellings as given"
+  ],
+  "avoid": [
+   "Spelling English names in Thai letters",
+   "English words mixed into every line"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-thai-particles",
+  "kind": "heuristic",
+  "title": "Thai particles: none in labels, light ones on the intro card",
+  "text": "ครับ and ค่ะ give the game's voice a gender and add length, so leave them out of labels, chapter lines and rules. On the intro card and goal, a light นะ, เลย or กัน adds warmth: \"ไปช่วยกันเลย!\", \"ระวังวงแดงนะ\". Do not stack them (\"นะคะจ๊ะ\"). Use even fewer for teens and adults.",
+  "use_when": "any Thai text, especially labels and rules",
+  "do": [
+   "Zero particles in labels",
+   "At most one soft particle per sentence on the card"
+  ],
+  "avoid": [
+   "ครับ or ค่ะ at the end of rules",
+   "Baby-talk particles for teens"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "kids",
+    "families",
+    "teens"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-thai-rhythm-rhyme",
+  "kind": "pattern",
+  "title": "Thai lines with a balanced rhythm or internal rhyme stick",
+  "text": "Thai ears love two balanced halves and a sound echo (สัมผัส): \"ข้ามสะพาน ผ่านม่านหมอก\", \"จุดเทียน เวียนรอบเจดีย์\", \"หนีให้ไว ไฟไล่หลัง\". Use it on the intro card, the goal or 1-2 key labels, not everywhere, and only while the line stays short. A rhyme that forces a strange word is worse than no rhyme.",
+  "use_when": "Thai intro cards, goals and key labels for any audience",
+  "do": [
+   "Two halves of 3-5 syllables",
+   "Use the rhyme on the climax label"
+  ],
+  "avoid": [
+   "Forced rhymes with odd words",
+   "A rhyme on every label (sounds like a chant)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "sensation"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-thai-sacred-words",
+  "kind": "pitfall",
+  "title": "Thai sacred places and objects get respectful verbs only",
+  "text": "Temples, Buddha images, spirit houses, monks and the royal family must never be enemies, hazards, tactics targets or things to break, steal or kick. Use respectful verbs: \"ไหว้ศาลพระภูมิ\", \"จุดธูปที่วัด\", \"ไปกราบพระ\". Folk spirits can be playful opponents; sacred objects are places of safety or blessing in the story.",
+  "use_when": "Thai temple, spirit or folklore themes",
+  "do": [
+   "Make sacred places the safe goal or a blessing stop",
+   "Use ไหว้, กราบ, จุดธูป beside temple scenery"
+  ],
+  "avoid": [
+   "A Buddha image as a boss, hazard or tactics target",
+   "Monks as guards to sneak past"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": [
+    "adults",
+    "families",
+    "seniors"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-english-uk",
+  "kind": "default",
+  "title": "English for UK audiences: British spelling and words, plain sentences",
+  "text": "When lang = en and the players are in the UK, use British spelling and words: colour, centre, metre, sweets (not candy), queue, torch (not flashlight), mum. Keep sentences short and literal; UK families respond well to gentle understatement and dry humour (\"The dragon is mildly annoyed.\"). Avoid American sports metaphors and dollar signs.",
+  "use_when": "lang = en and the venue or players are in the UK",
+  "do": [
+   "British spelling on the card and labels",
+   "Light dry humour for families and adults"
+  ],
+  "avoid": [
+   "US terms (candy, flashlight, mom)",
+   "Hype words on every line (\"AWESOME!\")"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [],
+   "players": [
+    "families",
+    "kids",
+    "adults"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-bilingual-rewrite",
+  "kind": "principle",
+  "title": "Switching language: rewrite the line, do not translate word for word",
+  "text": "A label that works in English may be long or flat in Thai, and Thai rhymes vanish in English. When the same game is made in both languages, keep the meaning, the count and the names, then write each line fresh: \"Ring the old bell\" becomes \"ตีระฆังเก่า\", \"Cross the misty bridge\" becomes \"ข้ามสะพานหมอก\". Puns and rhymes are rewritten as new ones or dropped.",
+  "use_when": "a creator wants both th and en versions, or a comment asks to change lang",
+  "do": [
+   "Keep the same number of labels and the same names",
+   "Re-check length limits in the new language"
+  ],
+  "avoid": [
+   "Literal translations that keep English word order in Thai",
+   "An English pun spelled in Thai letters"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative"
+   ],
+   "players": [
+    "adults",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-voice-kids",
+  "kind": "style",
+  "title": "Voice for kids 6-10: warm, playful, clear, one idea per line",
+  "text": "Kids follow concrete, kind tasks: helping animals, finding friends, waking sleepy giants. Use exclamations warmly but sparingly (\"Help the baby turtles home!\"), make villains silly rather than evil (\"the Grumpy Snow Troll\"), and keep every line one idea. Parents often read the card aloud, so it must sound good spoken.",
+  "use_when": "players are kids 6-10",
+  "do": [
+   "Helping and finding verbs",
+   "Silly villains, cute captives"
+  ],
+  "avoid": [
+   "Death, blood or real-world fears (getting lost, strangers)",
+   "Sarcasm and irony"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative",
+    "submission"
+   ],
+   "players": [
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-voice-teens",
+  "kind": "style",
+  "title": "Voice for teens: confident, a little dangerous, never talking down",
+  "text": "Teens switch off at baby words and over-explaining. Write short, cool lines with real stakes: \"Nobody leaves the fog. Except you.\" Labels can be terse (\"Past the hounds\", \"Don't look back\"). Mild menace and dry jokes work; cute mascots and \"Great job!\" do not. Make the challenge explicit: time, rank, the leaderboard.",
+  "use_when": "players are teens 13-17, school groups or youth events",
+  "do": [
+   "Terse labels and a bold boss name",
+   "Mention the leaderboard or time in a race"
+  ],
+  "avoid": [
+   "Childish words and exclamation marks everywhere",
+   "Lectures or morals on the card"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "challenge",
+    "fantasy",
+    "sensation"
+   ],
+   "players": [
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-voice-families",
+  "kind": "style",
+  "title": "Voice for families: sayable aloud, so parents can cheer and hint",
+  "text": "In MR, parents watch from the side and call out. Labels with a clear, shoutable noun let them join in (\"Go to the bell!\", \"The duck, the duck!\"). Keep scares mild, make humour work on two levels (a pun for parents, a silly image for kids) and use \"together\" words when play is together. Avoid anything a parent would have to explain afterwards.",
+  "use_when": "players are families, or parents watch from the side",
+  "do": [
+   "A visible, nameable noun in every label",
+   "Humour that works for both ages"
+  ],
+  "avoid": [
+   "Hidden-meaning labels spectators cannot follow",
+   "Scary content that needs a parental warning"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-voice-adults",
+  "kind": "style",
+  "title": "Voice for adults: atmosphere and wit, still short",
+  "text": "Adults enjoy tone: dread, irony, nostalgia, a mystery. Lines can carry mood words (\"The tide brings back what it took.\") and boss names can be grim (\"The Drowned Abbot\"). They still read in a headset, so length limits do not change. Adults at events are often first-time VR players too, so keep the rules plain even when the story is rich.",
+  "use_when": "players are adults: events, date nights, corporate groups",
+  "do": [
+   "One mood word per line",
+   "Let the mystery or irony sit on the intro card"
+  ],
+  "avoid": [
+   "Long literary sentences",
+   "Assuming adults know game jargon"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "fantasy",
+    "challenge"
+   ],
+   "players": [
+    "adults",
+    "first-time-vr"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-voice-brands",
+  "kind": "style",
+  "title": "Voice for brands: the product is the hero object, not ad copy",
+  "text": "A brand game reads like a story, not a banner. Make the product or mascot a visible hero object (the golden bottle at the summit, the mascot to free) and use the brand name at most in the title and on the intro card. Labels stay story beats (\"Climb to the golden bottle\"), never slogans. Follow the brand's words-to-avoid exactly and make no health or price claims.",
+  "use_when": "a brand, sponsor or product launch brief",
+  "do": [
+   "Brand name in the title or card only",
+   "The product as the final checkpoint or the portal's meaning"
+  ],
+  "avoid": [
+   "Slogans or prices in labels",
+   "Product claims the creator did not give"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "sensation"
+   ],
+   "players": [
+    "adults",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-voice-educators",
+  "kind": "style",
+  "title": "Voice for educators: one true idea per label, the story carries the lesson",
+  "text": "In a school game each checkpoint can teach one simple fact through its label and scenery: \"Visit Mars, the red planet\", \"Find the coral that feeds the fish\". Keep facts short, true and checkable; if unsure, use a story label instead. The intro card frames learning as a mission (\"Your rocket must visit 5 planets\"), not a test.",
+  "use_when": "educators, school trips or learning goals in the brief",
+  "do": [
+   "One short, true fact per label",
+   "Frame learning as a mission"
+  ],
+  "avoid": [
+   "Quiz questions in labels (players cannot answer)",
+   "Facts you are not sure about"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "teens",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-voice-first-time-vr",
+  "kind": "style",
+  "title": "Voice for first-time VR players: reassure, then invite",
+  "text": "Newcomers worry about the headset more than the game. The intro card can open calmly (\"Look around. The floor has changed, the room has not.\") and the rules should say plainly what touching and finishing look like. Keep the first label easy and close (\"Step to the first light\") so the first success comes within seconds.",
+  "use_when": "players are new to VR or MR",
+  "do": [
+   "A calm first sentence on the card",
+   "A first label that is obvious and near"
+  ],
+  "avoid": [
+   "Opening with danger or a countdown",
+   "Jargon like \"spawn\", \"hitbox\", \"HUD\""
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "first-time-vr",
+    "seniors",
+    "families"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "st-feel-fantasy-words",
+  "kind": "style",
+  "title": "Fantasy: name the role and give it a title",
+  "text": "Fantasy (being someone else) lives in the role words. Open the card with a titled role (\"You are the Ember Knight\", \"เราคือผู้ถือตะเกียงคนสุดท้าย\") and let labels be the role's duties (\"Guard the shrine\"). The boss should be the role's natural enemy. A role without a title is just \"the player\".",
+  "use_when": "fantasy is a top feeling in the brief",
+  "do": [
+   "A role with a title in sentence 1 or 2",
+   "Labels that are the role's duties"
+  ],
+  "avoid": [
+   "Calling the player \"user\" or \"player\" in the story",
+   "Roles that need abilities the genre lacks (a wizard who casts spells in a runner)"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+ },
+ {
+  "id": "st-feel-submission-words",
+  "kind": "style",
+  "title": "Submission (relaxing): soft verbs, no threats, no clocks",
+  "text": "A relaxing game uses calm verbs (wander, visit, light, rest) and gentle images (lanterns on water, a sleepy cat, falling petals). Leave out timeLimit, alarm words and villains. Hazards, if any, become gentle things to step around (puddles, sleeping frogs). The intro card can invite rather than command: \"Take a slow walk through the lantern garden.\"",
+  "use_when": "submission is a top feeling, or players are seniors or anxious first-timers",
+  "do": [
+   "Invitation wording on the card",
+   "Calm, sensory nouns in labels"
+  ],
+  "avoid": [
+   "Countdowns, \"hurry\", \"danger\"",
+   "A boss-style climax"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "submission"
+   ],
+   "players": [
+    "seniors",
+    "first-time-vr",
+    "families"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-feel-discovery-words",
+  "kind": "style",
+  "title": "Discovery: hint, do not spoil",
+  "text": "Discovery labels promise without giving away: \"Follow the glow\", \"Behind the waterfall\", \"Peek into the old well\". The scenery beside that checkpoint delivers the surprise. The intro card should say there are secrets to see, not list them. Keep at least one surprise vignette that no label mentions.",
+  "use_when": "discovery is a top feeling",
+  "do": [
+   "Labels as invitations",
+   "One unlabelled surprise in the scenery"
+  ],
+  "avoid": [
+   "Labels that name the surprise (\"See the giant octopus\")",
+   "Hint labels in a race"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-feel-fellowship-words",
+  "kind": "pitfall",
+  "title": "Fellowship words must not promise teamwork the engine lacks",
+  "text": "A shared floor lets players see each other's avatars and a race ranks them; there are no shared tasks, hand-offs or team scores. So write \"together\" as a shared journey (\"Walk the ghost road together\"), not as cooperation (\"Lift the gate together\", \"One player holds the lamp\"). Spectator cheering is real fellowship in MR: invite it on the card.",
+  "use_when": "fellowship is a feeling, or play_mode is together",
+  "do": [
+   "\"Together\" as a shared journey",
+   "Invite spectators to cheer"
+  ],
+  "avoid": [
+   "Tasks that need two players",
+   "Team scores or roles per player"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fellowship"
+   ],
+   "players": [
+    "groups",
+    "families"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-feel-sensation-words",
+  "kind": "style",
+  "title": "Sensation: short punchy lines and sensory nouns",
+  "text": "Sensation games sell the wow, so text should be brief and physical: \"Lava below. Steady steps.\", \"Into the storm!\", \"สะพานลอยฟ้า ค่อยๆ เดิน\". Pair the words with the strongest visual at that checkpoint (void floor, giant models, neon). One exclamation mark per line at most.",
+  "use_when": "sensation is a top feeling, especially with void floor or big hero models",
+  "do": [
+   "Sensory nouns: fire, ice, height, light",
+   "Put the punchiest label at the most dramatic spot"
+  ],
+  "avoid": [
+   "Long explanations",
+   "Wow words with no wow scenery beside them"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation"
+   ],
+   "players": [
+    "teens",
+    "adults",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-you-are-framing",
+  "kind": "principle",
+  "title": "Use second person \"you are\" and keep the player silent",
+  "text": "Story text speaks to the player as \"you\" and gives them a role: \"You are the night ranger.\" The player character never speaks, so never write lines for them (\"I must hurry!\") and never quote other characters as if they talk back. First- or third-person narration (\"The hero walked...\") distances players who are physically walking the route.",
+  "use_when": "writing any intro card, chapter line or board story",
+  "do": [
+   "\"You are...\" early on the card",
+   "Imperatives in labels (\"Free the fox\")"
+  ],
+  "avoid": [
+   "First-person lines for the player",
+   "Narration about \"the hero\" in third person"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-roles-by-genre",
+  "kind": "pattern",
+  "title": "Pick a role that fits the genre's main verb",
+  "text": "Runner roles walk and visit: lantern carrier, ghost hunter on patrol, courier, explorer, pilgrim, rescuer. Battle roles fight with a sword and dodge: knight, temple guardian, ice ranger, monster hunter. Tactics roles are the piece: a jumping rider (knight), a sliding monk (bishop), a charging cart (rook), the queen. A ghost hunter in a runner \"checks the haunted spots\"; in battle she \"cuts down the ghosts\".",
+  "use_when": "choosing the player role for an option or the build",
+  "do": [
+   "Match the role's main verb to the genre engine",
+   "Use the same role across labels, chapters and the card"
+  ],
+  "avoid": [
+   "A sniper or wizard role (no shooting or spells)",
+   "A runner role that fights"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics",
+    "runner"
+   ],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-npc-want-in-label",
+  "kind": "pattern",
+  "title": "Show a character's wish through the label, not through speech",
+  "text": "Characters cannot talk, but the label can carry what they want: \"Bring Grandma her lost cat\", \"Wake the sleepy giant for the harvest\", \"พาลูกช้างไปหาแม่\". Place the character model beside the checkpoint so players connect the want to a face. One clear want per character, and at most 2-3 named characters in a short game.",
+  "use_when": "the brief has characters the player should care about",
+  "do": [
+   "Want + who in one label",
+   "The character model next to their checkpoint"
+  ],
+  "avoid": [
+   "Quoted speech (\"Grandma: Find my cat!\") that reads as dialogue",
+   "More than 3 named characters"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "families"
+   ]
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-env-vignette-aftermath",
+  "kind": "pattern",
+  "title": "Vignettes tell what happened: show the aftermath beside the label",
+  "text": "Scenery tells story without words when it shows a result: a tipped cart and spilled fruit beside \"Follow the thief's trail\", broken lanterns beside \"Relight the path\", a sleeping dragon beside \"Tiptoe past the dragon\". In the layout brief, name the vignette for each labelled checkpoint so the words and the picture say the same thing.",
+  "use_when": "writing the layout brief for a story runner",
+  "do": [
+   "One vignette per key label, described in the layout brief",
+   "Aftermath props (broken, spilled, frozen, sleeping)"
+  ],
+  "avoid": [
+   "Labels with no scenery support",
+   "Vignettes that contradict the label"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "Schell, The Art of Game Design"
+ },
+ {
+  "id": "st-env-landmark-goal",
+  "kind": "pattern",
+  "title": "Make the goal visible from the spawn: a landmark that pulls players in",
+  "text": "Place the story's goal as the tallest or brightest model, seen from the start: the tower with the last bell, the volcano, the moon gate. The intro card names it (\"Reach the moon gate\"), and players see the promise the whole walk. In MR keep it inside the play area and away from real walls so it stays in view.",
+  "use_when": "a runner with a journey or climax, writing the layout brief",
+  "do": [
+   "Name the landmark on the card and in the layout brief",
+   "Put it near the portal or the last checkpoint"
+  ],
+  "avoid": [
+   "A goal hidden until the last second in a narrative walk",
+   "A landmark outside the play area in MR"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "sensation",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-env-lighting-matches-story",
+  "kind": "heuristic",
+  "title": "The lighting preset and the story must say the same time and mood",
+  "text": "A Land has one lighting preset, so the story must fit it: night or spooky with midnight ghosts, morning with a journey starting, evening with lanterns and going home, neon with a future city, noon with bright festivals. Do not write \"the sun sets as you walk\"; the light will not change. In MR daylight, avoid stories that need darkness.",
+  "use_when": "choosing lighting and writing the story card",
+  "do": [
+   "Name the time of day the preset shows",
+   "Pick spooky or night only indoors or after dark in MR"
+  ],
+  "avoid": [
+   "Stories where the light changes during play",
+   "A midnight story on a sunny outdoor MR floor"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "narrative",
+    "sensation"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-env-hazard-fiction",
+  "kind": "heuristic",
+  "title": "Give red circles a red fiction: fire, lava, curse, alarm",
+  "text": "Runner hazards always look like red circles and battle warnings are red rings, so name them as something red or warning: lava pools, fire pits, curse rings, alarm zones, angry ant nests, dragon fire. Water or ice names fight the colour. Use one hazard name across the card, the rules and the layout brief (\"lava pools\" everywhere).",
+  "use_when": "naming hazards or warning rings in a story",
+  "do": [
+   "A red fiction",
+   "The same name in rules and layout brief"
+  ],
+  "avoid": [
+   "Calling red circles \"icy puddles\"",
+   "A different hazard name on every line"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner",
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-env-real-room-story",
+  "kind": "pattern",
+  "title": "In MR, write the real room into the story",
+  "text": "Players see the real walls, windows and people, so the story should explain them: the walls are \"the castle walls\", the crowd is \"the villagers watching\", the window light is \"the moon outside\". One sentence on the intro card is enough: \"The villagers watch from the hall. Show them the ghosts are gone.\" This turns the real room from a distraction into part of the world.",
+  "use_when": "an MR game in a visible real space with spectators",
+  "do": [
+   "One intro sentence that names the real surroundings in story terms",
+   "Treat spectators as an audience in the fiction"
+  ],
+  "avoid": [
+   "A setting the room clearly contradicts (\"deep under the sea\") with no framing",
+   "Giving spectators a story task"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "fellowship",
+    "narrative"
+   ],
+   "players": [
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-env-void-floor-story",
+  "kind": "pattern",
+  "title": "Void floor needs a story reason: a bridge, a sky island, a cliff path",
+  "text": "The void floor turns the real floor into a bottomless drop, which is dramatic and dizzy. Justify it in words so it feels intended: \"The bridge over the abyss\", \"Islands in the clouds\", \"สะพานข้ามเหว\". Keep labels calm and reassuring on void sections (\"Steady steps\"), and never write lines that dare players to jump or look down while walking fast.",
+  "use_when": "a design using void floor",
+  "do": [
+   "Name the height in the story",
+   "Calm wording on void stretches"
+  ],
+  "avoid": [
+   "\"Jump!\" or \"Look down!\" labels",
+   "Void floor for kids or first-time VR without a gentle story"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "fantasy"
+   ],
+   "players": [
+    "teens",
+    "adults"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "st-env-vr-only-decor",
+  "kind": "pitfall",
+  "title": "Story props that a label names cannot be VR-only",
+  "text": "Decor marked \"VR only\" is hidden in MR. If a label points at a prop (\"Wake the dragon\"), that prop must be visible in MR, or the label points at empty floor. Use VR-only decor for background mood (sky, far walls, extra trees) and keep every story prop named by a label as normal scenery.",
+  "use_when": "an MR layout brief with story props and VR-only decor",
+  "do": [
+   "Keep labelled story props visible in MR",
+   "Use VR-only for distant backdrop"
+  ],
+  "avoid": [
+   "A labelled hero prop set to VR only",
+   "Relying on hidden props to tell the story"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-dose-humor",
+  "kind": "heuristic",
+  "title": "Humour: about one joke in every 3-4 lines, carried by the nouns",
+  "text": "Humour lands best in silly nouns and situations, not in wordplay that must be read twice: \"Wake the snoring goat\", \"the Grumpy Cabbage King\", \"ปลุกแพะนอนกรน\". Use about one funny line per 3-4 lines so the story still moves; a joke on every label tires players. Put the biggest laugh on the boss name or the last label.",
+  "use_when": "a light, family or kids game, or a comedy brief",
+  "do": [
+   "Silly creatures and objects in labels",
+   "One running joke across the game"
+  ],
+  "avoid": [
+   "Puns that only work in one language",
+   "Humour that mocks people, accents or cultures"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-dose-wonder",
+  "kind": "heuristic",
+  "title": "Wonder: build up with small sights, end on one big one",
+  "text": "Wonder needs contrast. Let early labels be small and close (\"Follow the fireflies\"), then reveal a big sight with a big word near the end (\"Under the sky whale\"). Pair the wonder label with the largest model or the void floor. If every label says \"amazing\", nothing is.",
+  "use_when": "sensation or discovery games, all ages",
+  "do": [
+   "Small to big across the route",
+   "Save one wonder word for the climax"
+  ],
+  "avoid": [
+   "\"Amazing\" or \"magical\" on every line",
+   "The biggest sight right at the spawn"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "sensation",
+    "discovery"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-dose-mild-scare",
+  "kind": "heuristic",
+  "title": "Mild scare: dread in words and light, never sudden shocks",
+  "text": "In MR, sudden scares make people run into real walls, so scare with mood, not jumps. Words do the work: \"Something follows the lanterns\", \"Do not wake her\". Use spooky or night lighting indoors, slow-reveal ghost models beside labels and a warm, safe ending (\"Back to the light\"). For kids, let the scary thing turn out friendly or silly by the last label.",
+  "use_when": "spooky, ghost or horror themes, especially in MR or for kids",
+  "do": [
+   "Dread words + spooky lighting + a warm ending",
+   "For kids, reveal the ghost is friendly at the end"
+  ],
+  "avoid": [
+   "\"Run!\" labels or chase framing in MR",
+   "Gore, death or jump-scare promises"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "sensation",
+    "narrative"
+   ],
+   "players": [
+    "kids",
+    "families",
+    "teens"
+   ]
+  },
+  "source": "Meta/Oculus VR comfort and MR design guidelines"
+ },
+ {
+  "id": "st-dose-heroism",
+  "kind": "heuristic",
+  "title": "Heroism: raise the stakes one step each chapter or board",
+  "text": "Heroism grows when each step matters more: chapter 1 saves a farm, chapter 3 the town, the boss the kingdom. State the stake in a few words in each line (\"The village is next.\") and give the player the credit in the final line (\"Only you stand at the gate.\"). Do not open at maximum stakes; there is nowhere left to go.",
+  "use_when": "battle or tactics with fantasy or challenge, or a heroic runner",
+  "do": [
+   "Rising stakes across chapters or boards",
+   "The player as the one who decides it at the end"
+  ],
+  "avoid": [
+   "Saving the world in chapter 1",
+   "Ending with someone else saving the day"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle",
+    "tactics"
+   ],
+   "feelings": [
+    "fantasy",
+    "challenge",
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-example-runner-en",
+  "kind": "example",
+  "title": "Worked runner card (English, families): The Lantern River",
+  "text": "Story: \"The river spirits lost their lights. You are the lantern child. Light 5 lanterns before the mist covers the river, then cross home.\" Goal: \"Light 5 lanterns, then step through the moon gate.\" Rules: \"Walk to the lanterns in order\", \"Walk, do not run\", \"Red circles are fire pits: they send you back\", \"Finish at the moon gate\". Labels: \"Lantern 1: the jetty\", \"Lantern 2: the reeds\", \"Past the sleeping frog\", \"Lantern 3: the old boat\", \"Lantern 4: the willow\", \"Last lantern: the bridge\".",
+  "use_when": "a reference shape for a family runner card (do not copy)",
+  "do": [
+   "Match counts across story, goal and labels",
+   "Mix numbered set labels with one moment label"
+  ],
+  "avoid": [
+   "Copying this text for a different brief"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "submission"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-example-runner-th",
+  "kind": "example",
+  "title": "Worked runner card (Thai, school kids): rescue the baby elephants",
+  "text": "Story: \"ลูกช้าง 4 ตัวหลงป่าตอนพายุมา เราคือผู้พิทักษ์ป่าตัวน้อย ไปพาลูกช้างกลับหาแม่กันเลย!\" Goal: \"ช่วยลูกช้างครบ 4 ตัว แล้วเดินเข้าประตูป่า\" Rules: \"เดินไปตามจุดที่เรืองแสงทีละจุด\", \"เดินนะ ห้ามวิ่ง\", \"อย่าเหยียบวงแดง (รังมดแดง)\". Labels: \"ข้ามลำธาร\", \"ช่วยลูกช้างตัวแรก\", \"ลอดใต้ต้นไทร\", \"ช่วยตัวที่ 2\", \"ช่วยตัวที่ 3\", \"ช่วยตัวสุดท้าย\".",
+  "use_when": "a reference shape for a Thai kids runner card (do not copy)",
+  "do": [
+   "Spoken Thai with เรา and one particle",
+   "Digits for counts"
+  ],
+  "avoid": [
+   "Copying this text for a different brief"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative",
+    "fantasy"
+   ],
+   "players": [
+    "kids",
+    "groups"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-example-battle",
+  "kind": "example",
+  "title": "Worked battle text (lava theme, teens): from chapters to boss",
+  "text": "Story: \"The Ash King woke under the mountain and his hounds took the road. You are the last ember knight. Fight up the mountain and end him.\" Chapters: \"The Ash Road\" / \"Imps pour out of the cracks.\" (grunts); \"The Shield Gate\" / \"Stone guards lock shields. Hit them from the side.\" (shields + grunts); \"Ember Storm\" / \"Fire falls from the sky. Keep moving.\" (rain); \"The Hound Pit\" / \"His hounds smell you.\" (beast + grunts). Boss: \"The Ash King\" / \"The Ash King rises from his throne. Break his crown.\"",
+  "use_when": "a reference shape for battle chapters and the boss (do not copy)",
+  "do": [
+   "One foe meaning per chapter line",
+   "The boss named on the card first"
+  ],
+  "avoid": [
+   "Copying this text for a different brief"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "challenge",
+    "narrative"
+   ],
+   "players": [
+    "teens",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-example-tactics",
+  "kind": "example",
+  "title": "Worked tactics text (heist, adults): The Moonstone Job",
+  "text": "Story: \"Five moonstones sit in the duke's palace and his night watch never sleeps. You are the thief who becomes whatever the job needs. Take the stones in order and do not get caught.\" Boards: knight \"Leap the garden hedges and take 2 stones.\"; rook \"Charge down the long hall before the watch turns.\"; bishop \"Slip along the chapel diagonals.\"; queen with king \"The duke himself. Corner him for the last stone.\"",
+  "use_when": "a reference shape for tactics board stories (do not copy)",
+  "do": [
+   "A piece role tied to each place",
+   "The king on the last board"
+  ],
+  "avoid": [
+   "Copying this text for a different brief"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "tactics"
+   ],
+   "feelings": [
+    "narrative",
+    "challenge",
+    "expression"
+   ],
+   "players": [
+    "adults",
+    "gamers"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-example-mr-battle-th",
+  "kind": "example",
+  "title": "Worked MR battle text (Thai, families, forest): the firefly forest",
+  "text": "Story: \"ป่าหิ่งห้อยโดนเงามืดบุก เราคือองครักษ์ป่า ดาบอยู่ในมือขวาแล้ว ปกป้องหิ่งห้อยไว้ให้ได้!\" Chapters (at most 6 foes each in MR): \"ชายป่า\" / \"เงาตัวเล็กวิ่งเข้ามา\"; \"กำแพงโล่\" / \"ทหารเงาถือโล่ ฟันด้านข้างนะ\"; \"ฝนหนาม\" / \"หนามตกจากฟ้า ก้าวหลบให้ทัน\". Boss: \"ราชาเงามืด\" / \"ราชาเงามืดมาแล้ว ไล่มันออกไปจากป่า!\" Rules include \"ก้าวออกจากวงแดง ไม่ต้องวิ่ง\".",
+  "use_when": "a reference shape for MR battle text in Thai (do not copy)",
+  "do": [
+   "Step-not-run wording in MR",
+   "Short Thai lines under about 30 characters"
+  ],
+  "avoid": [
+   "Copying this text for a different brief"
+  ],
+  "tags": {
+   "phase": [
+    "build"
+   ],
+   "platform": [
+    "mr"
+   ],
+   "genre": [
+    "battle"
+   ],
+   "feelings": [
+    "fantasy",
+    "fellowship"
+   ],
+   "players": [
+    "families",
+    "kids"
+   ]
+  },
+  "source": "design practice"
+ },
+ {
+  "id": "st-pitfall-label-promises-mechanic",
+  "kind": "pitfall",
+  "title": "Labels that promise mechanics: open, carry, shoot, choose",
+  "text": "Writers slip in verbs from other games: \"Open the chest\", \"Carry the egg to the nest\", \"Shoot the target\", \"Choose your path\". The engine only knows touching checkpoints in order, so players try the action and nothing happens. Rewrite as arrivals: \"Reach the chest\", \"Visit the nest\", \"Pass the targets\", and give a single route with no choices.",
+  "use_when": "reviewing labels, chapter lines or board stories",
+  "do": [
+   "Rewrite every hand or choice verb as an arrival verb",
+   "Keep branching out of all text"
+  ],
+  "avoid": [
+   "\"Choose\" or \"or\" in labels",
+   "Verbs that need buttons in an MR runner"
+  ],
+  "tags": {
+   "phase": [
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [
+    "runner"
+   ],
+   "feelings": [
+    "narrative"
+   ],
+   "players": []
+  },
+  "source": "FortalLand engine"
+ },
+ {
+  "id": "st-pitfall-generic-names",
+  "kind": "pitfall",
+  "title": "Generic names (\"Dark Lord\", \"Magic Forest\") make the game forgettable",
+  "text": "Names are the cheapest way to make a world feel specific. Replace \"Dark Lord\" with \"the Rust Abbot\", \"Magic Forest\" with \"Whisper Woods\", \"ป่ามหัศจรรย์\" with \"ป่าหิ่งห้อย\". Make each name concrete (a material, an animal, a sound, a local place) and tie it to the theme and palette.",
+  "use_when": "naming places, bosses, the title or the role",
+  "do": [
+   "Concrete noun + theme word",
+   "Local flavour for Thai themes (ตลาดน้ำ, ดอย, ลำธาร)"
+  ],
+  "avoid": [
+   "Fantasy clichés with no detail",
+   "Names copied from famous games or films"
+  ],
+  "tags": {
+   "phase": [
+    "options",
+    "prototype",
+    "build"
+   ],
+   "platform": [
+    "mr",
+    "pc"
+   ],
+   "genre": [],
+   "feelings": [
+    "fantasy"
+   ],
+   "players": []
+  },
+  "source": "design practice"
+ }
+]
