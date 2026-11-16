@@ -2,7 +2,7 @@
 
 A design-knowledge base and retrieval code for an AI game-design assistant. The assistant interviews a creator (a teacher, a parent, a museum, an event organiser), proposes game options, prototypes and builds a game for **Quest mixed reality** or **PC**. At every step it retrieves knowledge cards from this base and cites them.
 
-**Browse it:** https://poomxchapon.github.io/land-builder-rag/ (cards, fact rules, evaluation, knowledge gaps, and a retrieval demo that runs in the browser)
+**Browse it:** https://poomxchapon.github.io/land-builder-rag/ (cards, fact rules, evaluation, full design runs with vs without the knowledge base, knowledge gaps, and a retrieval demo that runs in the browser)
 
 | | |
 |---|---|
@@ -16,6 +16,7 @@ A design-knowledge base and retrieval code for an AI game-design assistant. The 
 | `eval/` | a card-level retrieval test: 36 design steps, 1,295 graded (step, card) pairs, two labellers, `score.mjs` to recompute every number |
 | `pipeline/` | the scripts that built the base (ingest, distil, facts, graph, eval), for reference |
 | `results/RAG-V2-RESULT.md` | the full write-up |
+| `results/ab/ab-rag-on-off.json` | **end-to-end A/B**: 10 briefs designed with and without the knowledge base (options, prototype decisions and their sources, retrieved cards, build goal), scored blind by 4 AI judges: preferred with 17/20, overall 7.35 vs 6.30, AI-guessed decisions 14% vs 26% |
 
 No dependencies. Node 18+.
 
