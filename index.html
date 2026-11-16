@@ -38,12 +38,17 @@ textarea{width:100%;min-height:76px}button.go{background:var(--ink);color:var(--
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
 .hit{border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:6px 0}.hit .why{font-size:12.5px;color:var(--acc2);font-weight:600}
 a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
+.stack{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--soft)}.stack i{display:block;height:100%}.s1{background:var(--good)}.s2{background:var(--acc2);opacity:.75}.s3{background:var(--acc2)}
+.srow{display:grid;grid-template-columns:minmax(120px,200px) 1fr 92px;gap:10px;align-items:center;margin:5px 0;font-size:14px}.srow small{color:var(--dim);text-align:right;font-variant-numeric:tabular-nums}
+.key{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--dim);margin:2px 0 10px}.key span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px;background:var(--c)}
+.theme{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}.theme h3{margin:0 0 4px;font:700 16.5px Inter}.theme summary{cursor:pointer;font-weight:600;font-size:14px;margin-top:8px}.theme ul{margin:6px 0;padding-left:20px}.theme li{margin:3px 0}
+@media (max-width:760px){.srow{grid-template-columns:100px 1fr 74px}}
 @media (max-width:760px){.split{grid-template-columns:1fr}.detail{position:static;max-height:none}.barrow{grid-template-columns:110px 1fr 46px}}
 </style></head><body>
 <header><div class="wrap">
 <h1>Game Design Knowledge Base</h1>
 <p class="sub">The knowledge an AI game-design assistant retrieves while it interviews a creator, proposes options, prototypes and builds an XR game (Quest mixed reality or PC). Everything on this page is read from the files in this repository.</p>
-<nav id="nav"><button data-s="overview" class="on">Overview</button><button data-s="cards">Cards</button><button data-s="rules">Fact rules</button><button data-s="eval">Evaluation</button><button data-s="try">Try it</button></nav>
+<nav id="nav"><button data-s="overview" class="on">Overview</button><button data-s="cards">Cards</button><button data-s="rules">Fact rules</button><button data-s="eval">Evaluation</button><button data-s="gaps">Gaps</button><button data-s="try">Try it</button></nav>
 </div></header>
 <main class="wrap">
 <section id="overview" class="on">
@@ -84,6 +89,21 @@ a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
   <p class="small dim">Reproduce every number: <span class="mono">node eval/score.mjs</span> (or <span class="mono">--claude</span>). Full write-up: <a href="results/RAG-V2-RESULT.md">results/RAG-V2-RESULT.md</a>.</p>
 </section>
 
+<section id="gaps">
+  <p>Is the knowledge base enough? We read the design sessions back and asked, at every moment the design AI needed design knowledge, whether a card covers it. <span id="g-method" class="dim small"></span></p>
+  <div class="tiles" id="g-tiles"></div>
+  <div class="key"><span style="--c:var(--good)">covered: a card answers it</span><span style="--c:color-mix(in srgb,var(--acc2) 75%,var(--bg))">partly: the topic exists, the number or rule for this situation does not</span><span style="--c:var(--acc2)">none: no card</span></div>
+  <div class="grid2">
+    <div><h2>By topic (weakest first)</h2><div id="g-topic"></div></div>
+    <div><h2>By venue</h2><div id="g-venue"></div><h2>By design phase</h2><div id="g-phase"></div></div>
+  </div>
+  <h2>20 themes to write next</h2>
+  <p class="small dim">Uncovered and partly covered needs, clustered by Kimi, each with the cards that would close it and where the knowledge can come from. Example needs are the AI's own wording of what it needed.</p>
+  <div id="g-themes"></div>
+  <div class="note"><b>Caveats.</b> Needs and coverage were judged by an LLM (Kimi K3), not by designers. Most sessions are simulated creators, and some personas ran several times, so their needs are counted more than once. The flag "the AI visibly went wrong here" fired on 70% of needs, which looks too lenient, so it is shown but not relied on. Coverage means the 5 nearest cards contain the knowledge, not that retrieval delivered them.</div>
+  <p class="small dim">Data: <a href="data/gaps.json">data/gaps.json</a> (summary; the raw sessions are not published).</p>
+</section>
+
 <section id="try">
   <p>Describe a design step. The fact rules and BM25 run here in your browser on the published files (dense search needs an embedding API key, see <a href="examples/search.mjs">examples/search.mjs</a>).</p>
   <div class="grid2">
@@ -106,11 +126,11 @@ a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
 import { bm25Index, bm25Rank, routeFacts } from './src/rag2.mjs';
 const $ = s => document.querySelector(s), esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const J = u => fetch(u).then(r => r.json());
-const [IX, F, G, EV, AG] = await Promise.all(['data/index.json', 'data/facts.json', 'data/graph.json', 'eval/eval-cards.json', 'eval/eval-agree.json'].map(J));
+const [IX, F, G, EV, AG, GP] = await Promise.all(['data/index.json', 'data/facts.json', 'data/graph.json', 'eval/eval-cards.json', 'eval/eval-agree.json', 'data/gaps.json'].map(J));
 const cards = IX.cards, byId = new Map(cards.map(c => [c.id, c])), facts = F.facts, factIds = new Set(facts.map(f => f.id)), bm = bm25Index(cards);
 const tab = s => { const b = document.querySelector(`#nav button[data-s="${s}"]`); if (!b) return; document.querySelectorAll('#nav button,section').forEach(x => x.classList.remove('on')); b.classList.add('on'); $('#' + s).classList.add('on'); };
 document.querySelectorAll('#nav button').forEach(b => b.onclick = () => { tab(b.dataset.s); history.replaceState(null, '', '#' + b.dataset.s); });
-if (location.hash) tab(location.hash.slice(1));
+if (location.hash) { tab(location.hash.slice(1)); requestAnimationFrame(() => scrollTo(0, 0)); }
 
 const tile = (n, l) => `<div class="tile"><b>${n}</b><span>${l}</span></div>`;
 $('#tiles').innerHTML = tile(cards.length.toLocaleString(), 'knowledge cards') + tile(new Set(cards.map(c => c.cat)).size, 'categories') + tile(facts.length, 'fact rules') + tile(G.edges.length.toLocaleString(), 'card links in the graph') + tile(EV.steps, 'test design steps') + tile(EV.pool.cards_judged.toLocaleString(), 'graded (step, card) pairs');
@@ -119,6 +139,17 @@ const count = f => Object.entries(cards.reduce((m, c) => (m[f(c)] = (m[f(c)] || 
 bars('#bycat', count(c => c.cat));
 const origin = c => /Land Builder users/.test(c.source) ? 'distilled from design sessions' : /^Fortal Interactive 2026/.test(c.source) ? 'distilled from studio documents' : /FortalLand engine/.test(c.source) ? 'engine facts and limits' : /Meta/.test(c.source) ? 'platform safety and comfort guidelines' : /^design practice$/.test(c.source) ? 'design practice' : 'game design literature';
 bars('#bysrc', count(origin), 'o');
+
+// ---------- gaps ----------
+{ const pc = x => Math.round(x * 100) + '%';
+  $('#g-method').textContent = GP.method;
+  $('#g-tiles').innerHTML = tile(GP.sessions, `design sessions (${GP.sessions_real} real, ${GP.sessions_simulated} simulated)`) + tile(GP.needs, 'knowledge needs found') + tile(pc(GP.overall.covered), 'covered by a card') + tile(pc(GP.overall.partly), 'partly covered') + tile(pc(GP.overall.none), 'no card at all');
+  const srows = (el, obj, sort) => { let rows = Object.entries(obj).filter(([, v]) => v.needs >= 3); if (sort) rows.sort((a, b) => a[1].covered - b[1].covered);
+    $(el).innerHTML = rows.map(([k, v]) => `<div class="srow"><span>${esc(k)}</span><div class="stack" title="covered ${pc(v.covered)}, partly ${pc(v.partly)}, none ${pc(v.none)}"><i class="s1" style="width:${v.covered * 100}%"></i><i class="s2" style="width:${v.partly * 100}%"></i><i class="s3" style="width:${v.none * 100}%"></i></div><small>${pc(v.covered)} · ${v.needs}</small></div>`).join(''); };
+  srows('#g-topic', GP.by_topic, true); srows('#g-venue', GP.by_venue, true); srows('#g-phase', GP.by_phase, false);
+  $('#g-themes').innerHTML = GP.themes.map((t, i) => `<div class="theme"><h3>${i + 1}. ${esc(t.theme)} <span class="dim small">· ${t.needs} needs</span></h3><div>${t.topics.map(x => `<span class="tag">${esc(x)}</span>`).join('')}</div><p class="small">${esc(t.why)}</p>
+    <details><summary>${t.cards.length} cards to write</summary><ul>${t.cards.map(c => `<li><b>${esc(c.title)}</b> <span class="tag c">${esc(c.kind)}</span><br><span class="dim small">from: ${esc(c.source_hint)}</span></li>`).join('')}</ul></details>
+    <details><summary>Example needs</summary><ul>${t.examples.map(e => `<li class="small">${esc(e)}</li>`).join('')}</ul></details></div>`).join(''); }
 
 // ---------- cards ----------
 const cats = [...new Set(cards.map(c => c.cat))].sort();

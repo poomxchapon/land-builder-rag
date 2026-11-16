@@ -2,7 +2,7 @@
 
 A design-knowledge base and retrieval code for an AI game-design assistant. The assistant interviews a creator (a teacher, a parent, a museum, an event organiser), proposes game options, prototypes and builds a game for **Quest mixed reality** or **PC**. At every step it retrieves knowledge cards from this base and cites them.
 
-**Browse it:** https://poomxchapon.github.io/land-builder-rag/ (cards, fact rules, evaluation, and a retrieval demo that runs in the browser)
+**Browse it:** https://poomxchapon.github.io/land-builder-rag/ (cards, fact rules, evaluation, knowledge gaps, and a retrieval demo that runs in the browser)
 
 | | |
 |---|---|
@@ -10,6 +10,7 @@ A design-knowledge base and retrieval code for an AI game-design assistant. The 
 | `data/index.json` | all cards + their embeddings (embeddinggemma-300m, 768-d, int8, base64): what dense retrieval searches |
 | `data/facts.json` | **92 fact rules**: engine limits, defaults and genre rules, with structured triggers |
 | `data/graph.json` | card-to-card links (similar, shared tags) |
+| `data/gaps.json` | **knowledge gaps**: 562 needs found in 54 design sessions, graded against the cards (57% covered, 40% partly, 3% none), by topic, venue and phase, and 20 themes of cards to write next |
 | `src/rag.mjs` | dense retrieval with tag boosts (the live baseline) and the prompt block the AI receives |
 | `src/rag2.mjs` | BM25, reciprocal rank fusion, fact routing by rules, graph expansion, and the cascade that combines them |
 | `eval/` | a card-level retrieval test: 36 design steps, 1,295 graded (step, card) pairs, two labellers, `score.mjs` to recompute every number |
