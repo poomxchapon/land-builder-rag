@@ -1,0 +1,1308 @@
+{
+ "built": "2026-11-15T11:30:24.005Z",
+ "sessions": 54,
+ "sessions_real": 13,
+ "sessions_simulated": 41,
+ "needs": 562,
+ "method": "Kimi K3 read each design session and listed the moments where the design AI needed design knowledge (a need). Each need was embedded, matched to its 5 nearest cards, and Kimi graded whether those cards cover it: covered, partly (the topic exists but not the number or rule for that situation), or none. Uncovered and partly covered needs were clustered into themes with suggested cards.",
+ "overall": {
+  "needs": 562,
+  "covered": 0.57,
+  "partly": 0.4,
+  "none": 0.03
+ },
+ "missed_by_ai": {
+  "needs": 392,
+  "covered": 0.51,
+  "partly": 0.46,
+  "none": 0.04
+ },
+ "by_topic": {
+  "safety": {
+   "needs": 63,
+   "covered": 0.65,
+   "partly": 0.33,
+   "none": 0.02
+  },
+  "difficulty-balance": {
+   "needs": 48,
+   "covered": 0.5,
+   "partly": 0.5,
+   "none": 0
+  },
+  "genre-rules": {
+   "needs": 47,
+   "covered": 0.68,
+   "partly": 0.28,
+   "none": 0.04
+  },
+  "space-venue": {
+   "needs": 46,
+   "covered": 0.7,
+   "partly": 0.3,
+   "none": 0
+  },
+  "spectators": {
+   "needs": 43,
+   "covered": 0.72,
+   "partly": 0.26,
+   "none": 0.02
+  },
+  "operations-throughput": {
+   "needs": 43,
+   "covered": 0.79,
+   "partly": 0.21,
+   "none": 0
+  },
+  "onboarding": {
+   "needs": 40,
+   "covered": 0.47,
+   "partly": 0.53,
+   "none": 0
+  },
+  "scoring-rewards": {
+   "needs": 38,
+   "covered": 0.45,
+   "partly": 0.53,
+   "none": 0.03
+  },
+  "engine-limits": {
+   "needs": 33,
+   "covered": 0.52,
+   "partly": 0.42,
+   "none": 0.06
+  },
+  "comfort": {
+   "needs": 30,
+   "covered": 0.53,
+   "partly": 0.43,
+   "none": 0.03
+  },
+  "multiplayer-social": {
+   "needs": 26,
+   "covered": 0.38,
+   "partly": 0.58,
+   "none": 0.04
+  },
+  "art-lighting": {
+   "needs": 20,
+   "covered": 0.3,
+   "partly": 0.65,
+   "none": 0.05
+  },
+  "story-theme": {
+   "needs": 18,
+   "covered": 0.78,
+   "partly": 0.22,
+   "none": 0
+  },
+  "controls-interaction": {
+   "needs": 16,
+   "covered": 0.38,
+   "partly": 0.44,
+   "none": 0.19
+  },
+  "culture": {
+   "needs": 14,
+   "covered": 0.5,
+   "partly": 0.43,
+   "none": 0.07
+  },
+  "accessibility": {
+   "needs": 12,
+   "covered": 0.42,
+   "partly": 0.58,
+   "none": 0
+  },
+  "learning-goals": {
+   "needs": 12,
+   "covered": 0.33,
+   "partly": 0.67,
+   "none": 0
+  },
+  "audio": {
+   "needs": 10,
+   "covered": 0.3,
+   "partly": 0.5,
+   "none": 0.2
+  },
+  "other": {
+   "needs": 2,
+   "covered": 0.5,
+   "partly": 0.5,
+   "none": 0
+  },
+  "audience": {
+   "needs": 1,
+   "covered": 1,
+   "partly": 0,
+   "none": 0
+  }
+ },
+ "by_venue": {
+  "home": {
+   "needs": 171,
+   "covered": 0.55,
+   "partly": 0.42,
+   "none": 0.04
+  },
+  "any": {
+   "needs": 128,
+   "covered": 0.52,
+   "partly": 0.44,
+   "none": 0.04
+  },
+  "school-hall": {
+   "needs": 76,
+   "covered": 0.61,
+   "partly": 0.38,
+   "none": 0.01
+  },
+  "booth-event": {
+   "needs": 65,
+   "covered": 0.71,
+   "partly": 0.29,
+   "none": 0
+  },
+  "mall": {
+   "needs": 58,
+   "covered": 0.6,
+   "partly": 0.33,
+   "none": 0.07
+  },
+  "classroom": {
+   "needs": 20,
+   "covered": 0.65,
+   "partly": 0.35,
+   "none": 0
+  },
+  "outdoor": {
+   "needs": 17,
+   "covered": 0.41,
+   "partly": 0.59,
+   "none": 0
+  },
+  "museum": {
+   "needs": 12,
+   "covered": 0.67,
+   "partly": 0.33,
+   "none": 0
+  },
+  "arena": {
+   "needs": 9,
+   "covered": 0.33,
+   "partly": 0.67,
+   "none": 0
+  },
+  "office": {
+   "needs": 6,
+   "covered": 0.17,
+   "partly": 0.83,
+   "none": 0
+  }
+ },
+ "by_phase": {
+  "interview": {
+   "needs": 224,
+   "covered": 0.64,
+   "partly": 0.34,
+   "none": 0.02
+  },
+  "prototype": {
+   "needs": 182,
+   "covered": 0.49,
+   "partly": 0.48,
+   "none": 0.03
+  },
+  "options": {
+   "needs": 108,
+   "covered": 0.59,
+   "partly": 0.39,
+   "none": 0.02
+  },
+  "build": {
+   "needs": 48,
+   "covered": 0.5,
+   "partly": 0.42,
+   "none": 0.08
+  }
+ },
+ "themes": [
+  {
+   "theme": "Child Comfort, Session Length & Fatigue Limits",
+   "why": "The design AI repeatedly fails to give age-appropriate session durations, fatigue stop-signals, headset fit for small heads, hygiene between shared child users, and supervision rules. This is the single largest cluster and a safety-critical gap: wrong durations or missed discomfort signs directly harm young players.",
+   "needs": 13,
+   "topics": [
+    "safety",
+    "onboarding",
+    "comfort"
+   ],
+   "examples": [
+    "How should a first-time VR experience for a young child be onboarded: who wears and fits the headset, tutorial length, controller vs hand-tracking, and parent guidance role?",
+    "What session length is recommended for a 6-year-old's first VR experience, especially before bedtime, and what signs of fatigue or discomfort should end the session early?",
+    "What safety and comfort rules should a first-time 6-year-old MR player have: adult supervision, headset fit, session length, movement speed, and stopping signals?"
+   ],
+   "cards": [
+    {
+     "title": "Child VR/MR Session Length & Fatigue Stop-Signals by Age",
+     "kind": "rule",
+     "source_hint": "Meta Quest age guidance (10+ recommendation), pediatric vision/ergonomics literature, venue playtest logs"
+    },
+    {
+     "title": "Headset Fitting for Small Heads: Straps, IPD, Weight Limits",
+     "kind": "rule",
+     "source_hint": "Headset manufacturer fit guides, pediatric ergonomics literature"
+    },
+    {
+     "title": "Shared-Headset Hygiene & Sanitation Between Child Users",
+     "kind": "rule",
+     "source_hint": "Manufacturer safety docs, venue hygiene SOPs"
+    },
+    {
+     "title": "Adult Supervision & Age-Guidance Consolidated Rule Set for Under-12s",
+     "kind": "rule",
+     "source_hint": "Manufacturer age ratings, child-safety standards, school/venue policy"
+    },
+    {
+     "title": "Max Continuous Wear Minutes by Age Band (3-5, 6-8, 9-12)",
+     "kind": "default",
+     "source_hint": "Playtest logs with 3-8 year olds, pediatric ophthalmology guidance"
+    },
+    {
+     "title": "Missing Early-Warning Fatigue Signs in Young Children (eye strain, dizziness, fussiness, balance loss)",
+     "kind": "pitfall",
+     "source_hint": "Playtest logs, parent interviews"
+    },
+    {
+     "title": "Breaks & Rest Intervals Between Repeated MR Rounds for Children",
+     "kind": "rule",
+     "source_hint": "Venue SOPs, pediatric vision literature"
+    }
+   ]
+  },
+  {
+   "theme": "Onboarding & First-Time-User Flow (Children, Novices, Older Adults)",
+   "why": "The AI consistently misses concrete onboarding sequences: passthrough-first entry, one-mechanic-at-a-time teaching, demo-then-copy scripts, sub-minute party onboarding, and fast restart loops. It also lacks input-modality guidance (hand-tracking vs controllers, gaze, pinch) for small hands and for older first-timers. This is the second-largest cluster and gates whether any session succeeds at all.",
+   "needs": 20,
+   "topics": [
+    "onboarding",
+    "controls-interaction"
+   ],
+   "examples": [
+    "What is the right onboarding flow for a young child's very first VR session: starting in passthrough, parent fitting the headset, one mechanic at a time, and an easy exit if she feels overwhelmed?",
+    "What interaction scheme suits a 6-year-old in VR: hand tracking vs controllers, reach distances for short arms, no text-dependent instructions, and forgiving grab/target sizes?",
+    "What onboarding sequence, icon/voice prompts, and minimal-text UI work for a 6-year-old or pre-reader learning MR for the first time?"
+   ],
+   "cards": [
+    {
+     "title": "First-Session Onboarding Script for Pre-Reader Children (voice/icon-led, demo-then-copy, one mechanic at a time)",
+     "kind": "rule",
+     "source_hint": "Developmental psychology literature, playtest logs with pre-readers"
+    },
+    {
+     "title": "Hand Tracking vs Controllers for Small Hands: Reach, Grab Target Size, One-Handed Actions",
+     "kind": "rule",
+     "source_hint": "Engine input docs, child motor-skills literature, playtest logs"
+    },
+    {
+     "title": "Onboarding Time Budgets That Don't Consume Short Timed Turns",
+     "kind": "rule",
+     "source_hint": "Venue operations logs, school playtest logs"
+    },
+    {
+     "title": "Passthrough-First Onboarding & Easy Exit Plan for Overwhelmed Children",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, parent interview data"
+    },
+    {
+     "title": "Input Modality Reliability for Young First-Timers (pinch, gaze, breath, big buttons) and Which to Avoid",
+     "kind": "rule",
+     "source_hint": "Engine input reliability docs, playtest logs"
+    },
+    {
+     "title": "Sub-Minute Onboarding for Drop-In / Party Contexts with No Tutorial Time",
+     "kind": "default",
+     "source_hint": "Public-venue operations logs"
+    },
+    {
+     "title": "Onboarding & Comfort Settings for First-Time Users Aged 40+ and Elderly",
+     "kind": "rule",
+     "source_hint": "Gerontology / UX-for-older-adults literature, playtest logs"
+    },
+    {
+     "title": "Fast Restart Loop & Practice Square for 5-Minute Challenge Formats",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, UX research"
+    }
+   ]
+  },
+  {
+   "theme": "Co-Located Multiplayer Sharing, Turn-Taking & Role Division",
+   "why": "The AI lacks decision criteria for one-headset-passed vs two-headsets vs asymmetric parent-guide setups, turn-taking pacing for small groups, co-located headset linking mechanics, and collision avoidance between players. Family and party contexts dominate the needs, making this a core gap.",
+   "needs": 14,
+   "topics": [
+    "multiplayer-social",
+    "safety"
+   ],
+   "examples": [
+    "How should two players (parent and child) share one physical MR play space safely: one headset passed between them or two headsets, turn-taking structure, and collision avoidance?",
+    "How should two co-located players (one adult, one small child) share a tiny MR floor: one headset passed between them, two headsets, or an asymmetric parent-guide/child-player setup, and how do you avoid collisions?",
+    "For two players in one living room, when should MR be co-located with two headsets, shared one headset, or turn-taking, and what must be confirmed before designing co-play?"
+   ],
+   "cards": [
+    {
+     "title": "Co-Located Multiplayer Space-Sharing: One Headset Passed vs Two Headsets vs Asymmetric Guide Role",
+     "kind": "rule",
+     "source_hint": "Venue safety SOPs, playtest logs, child-supervision standards"
+    },
+    {
+     "title": "Turn-Taking Structure & Pacing for Small Groups (2-4) So Nobody Waits Too Long",
+     "kind": "rule",
+     "source_hint": "Playtest logs, family-dynamics observation"
+    },
+    {
+     "title": "Asymmetric Parent-Guide / Child-Player Role Division with Real Roles for Both",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, family co-play observation"
+    },
+    {
+     "title": "Co-Located Headset Linking Mechanism: Shared Anchors, Session Discovery, Avatar Pose Sync",
+     "kind": "rule",
+     "source_hint": "Engine multiplayer docs, networking/anchor setup guides"
+    },
+    {
+     "title": "Two-Player Collision Avoidance: Lane Separation, Buffers, Non-Wearing Adult Standing Position",
+     "kind": "rule",
+     "source_hint": "Venue safety logs, collision-incident reports"
+    },
+    {
+     "title": "Simultaneous Shared-Keyboard / Single-PC Multiplayer Feasibility Check",
+     "kind": "question",
+     "source_hint": "Engine capability docs"
+    },
+    {
+     "title": "Anti-Conflict Turn-Taking for Mixed-Age Siblings (personal bests, shared goals, no direct comparison)",
+     "kind": "pattern",
+     "source_hint": "Family playtest logs"
+    }
+   ]
+  },
+  {
+   "theme": "Spectator Experience, Casting & View Mirroring",
+   "why": "The AI cannot specify how to cast/mirror the headset view, where spectators stand relative to exits and boundaries, what spectator-view UI to show, or how to let watchers participate (hint tokens, cheer prompts) without startling the player. Public venues and family living rooms both need this.",
+   "needs": 18,
+   "topics": [
+    "spectators",
+    "engine-limits",
+    "safety"
+   ],
+   "examples": [
+    "Where should spectators stand when the only viewing area is the door side, and how should the route, guardian boundary, and finish avoid the exit path?",
+    "What spectator camera, turn indicator, timer and danger highlights let non-players follow and cheer a shared-screen tactics race?",
+    "How can a Quest MR view or game question be mirrored to a school projector or screen so non-wearing students can participate?"
+   ],
+   "cards": [
+    {
+     "title": "Spectator Buffer Distances & Queue-Rope/Barrier Placement Around Play Area",
+     "kind": "rule",
+     "source_hint": "Venue safety SOPs, playtest logs"
+    },
+    {
+     "title": "Casting/Mirroring Headset View to TV/Projector: Method, Latency, Equipment",
+     "kind": "rule",
+     "source_hint": "Engine casting docs, venue AV setup guides"
+    },
+    {
+     "title": "Spectator View UI: Camera Angle, Turn Indicator, Timer, Danger Highlights",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, spectator-engagement observation"
+    },
+    {
+     "title": "Keeping Route, Boundary & Finish Clear of Doorways/Exit Paths",
+     "kind": "rule",
+     "source_hint": "Venue operations logs"
+    },
+    {
+     "title": "Structured Spectator Hint Mechanics (tokens, signals, team answers) Instead of Shouting",
+     "kind": "pattern",
+     "source_hint": "Party/event playtest logs"
+    },
+    {
+     "title": "Therapist/Operator Mirrored-View Setup for Solo Session Supervision",
+     "kind": "rule",
+     "source_hint": "Clinical/therapy supervision protocols"
+    },
+    {
+     "title": "Comment-Driven Audience Play Without API: Voting Structure, Latency, Moderation",
+     "kind": "pitfall",
+     "source_hint": "Playtest logs, livestream production notes"
+    },
+    {
+     "title": "Spectator Encroachment Prevention When Surrounded on All Sides (barriers, spotters)",
+     "kind": "rule",
+     "source_hint": "Venue safety SOPs"
+    }
+   ]
+  },
+  {
+   "theme": "Difficulty, Pacing & Hazard Tuning",
+   "why": "The AI gives only qualitative difficulty advice and lacks concrete numbers: hazard density, dodge timing windows, telegraph lead-in, recovery windows, enemy approach speed, checkpoint spacing, and beat counts scaled to age/experience. This is the largest single functional gap in game-feel terms.",
+   "needs": 18,
+   "topics": [
+    "difficulty-balance",
+    "safety",
+    "onboarding"
+   ],
+   "examples": [
+    "How many distinct activities or story beats realistically fit a 5-minute session for a 6-year-old first-time player, given slow onboarding and young children's pace of interaction?",
+    "What checkpoint spacing, hazard speed, telegraph time, and failure penalty create challenge for experienced VR adults without making a small-room race unfair or frantic?",
+    "How many checkpoints and hazards fit a 5 x 7 m room when one competitive round must complete in about 5 minutes for experienced players?"
+   ],
+   "cards": [
+    {
+     "title": "Child-Adjusted Beat/Checkpoint Counts for Short Sessions (subtracting slow onboarding & transit time)",
+     "kind": "rule",
+     "source_hint": "Playtest logs, child pacing observation"
+    },
+    {
+     "title": "Hazard Density, Dodge Timing Windows & Movement-Demand Limits by Player Experience",
+     "kind": "rule",
+     "source_hint": "Playtest logs, reaction-time literature"
+    },
+    {
+     "title": "Within-Round Escalation Pacing Curve (pressure spikes, climax timing) for ~4-Minute Rounds",
+     "kind": "rule",
+     "source_hint": "Playtest logs, pacing-curve design literature"
+    },
+    {
+     "title": "Telegraph Lead-In & Post-Hit Recovery Windows for Mixed-Experience Players",
+     "kind": "rule",
+     "source_hint": "Playtest logs, combat design literature"
+    },
+    {
+     "title": "Enemy Approach Speed & Wave Pacing for Novice Small-Room Combat",
+     "kind": "rule",
+     "source_hint": "Playtest logs, combat pacing data"
+    },
+    {
+     "title": "Safe Physical Dodge Distances & Comfortable Movement Speed Ranges for Room-Scale MR",
+     "kind": "rule",
+     "source_hint": "Playtest logs, movement-safety data"
+    },
+    {
+     "title": "Age-Based Round Duration for 8-12 Attention Span & Physical Stamina",
+     "kind": "default",
+     "source_hint": "Playtest logs, attention-span literature"
+    },
+    {
+     "title": "Checkpoint/Hazard Count from Target Round Duration (pacing planned, not just room-size)",
+     "kind": "rule",
+     "source_hint": "Playtest logs, operations timing data"
+    }
+   ]
+  },
+  {
+   "theme": "Physical Safety: Boundaries, Buffers, Swing Clearance & Hazardous Spaces",
+   "why": "The AI misses concrete safety margins: swing clearance radius, spectator buffer distances, rooftop/elevated edge setbacks, glass-case no-entry zones, furniture-offset rules, and uneven-floor adaptation. These are safety-critical and venue-specific, and the AI currently only offers generic 'clear the floor' advice.",
+   "needs": 17,
+   "topics": [
+    "safety",
+    "space-venue"
+   ],
+   "examples": [
+    "What safety rules and hazard checks apply when children walk around a real floor (especially an elevated or rooftop-like area) while wearing an MR headset?",
+    "For Quest MR on an open rooftop with under-8 children, what edge setbacks, physical barriers, guardian positions, and no-go zones are required before placing any virtual content?",
+    "What safety rules apply to a sword-swinging MR game in a 3 x 3 m open mall booth where strangers and queue members stand right at the play-area edge?"
+   ],
+   "cards": [
+    {
+     "title": "Elevated/Rooftop MR Safety: Edge Setbacks, Barriers, Guardian Positions, No-Go Zones",
+     "kind": "rule",
+     "source_hint": "Rooftop/elevated-venue safety assessments, venue insurance requirements"
+    },
+    {
+     "title": "Sword-Swing Clearance Radius, Bystander Buffers & Staff-Spotter Positioning",
+     "kind": "rule",
+     "source_hint": "Venue safety SOPs, swing-radius measurement"
+    },
+    {
+     "title": "Guardian Boundary Setup & Adult Spotter Role for Child MR Play",
+     "kind": "rule",
+     "source_hint": "Venue safety SOPs, playtest logs"
+    },
+    {
+     "title": "Route Offset & Clearance Rules Keeping Checkpoints Away from Furniture Hazards (sofa, TV, radiator)",
+     "kind": "rule",
+     "source_hint": "Venue safety SOPs, furniture-hazard checklist"
+    },
+    {
+     "title": "Minimum Clear Floor Area by Player Count & Age (incl. 4-player walking minimum)",
+     "kind": "rule",
+     "source_hint": "Venue safety SOPs, fall-prevention literature"
+    },
+    {
+     "title": "Adapting MR for Uneven/Stone-Paving Floors: Wider Margins, Fewer Hazards, Straight Paths",
+     "kind": "rule",
+     "source_hint": "Venue safety SOPs, uneven-surface risk assessment"
+    },
+    {
+     "title": "Glass-Case Clearance Buffer & In-Game No-Entry Island Enforcement",
+     "kind": "rule",
+     "source_hint": "Venue safety SOPs, museum/gallery operations"
+    },
+    {
+     "title": "Fallback Criteria: When to Switch to Seated/PC Mode Instead of Accepting 'No Constraints'",
+     "kind": "pitfall",
+     "source_hint": "Incident logs, venue safety reviews"
+    }
+   ]
+  },
+  {
+   "theme": "Operations, Throughput, Queue & Staffing",
+   "why": "The AI cannot compute realistic handover/reset times, players-per-hour throughput, turns-per-slot for rotating groups, or staffing/failure-recovery plans for a single operator. Public venues, schools, and parties all depend on these logistics and the AI currently guesses.",
+   "needs": 10,
+   "topics": [
+    "operations-throughput",
+    "scoring-rewards",
+    "comfort"
+   ],
+   "examples": [
+    "For a five-minute party-slot MR race with 2-6 players, how many checkpoints, rounds, and resets fit without rushing or leaving players idle?",
+    "For a five-minute MR session with two to six people taking turns, how many captures or turns fit so everyone participates without rushing or queue collapse?",
+    "What cycle time, reset steps, staffing, queue management, and spectator rules are needed when one family plays at a time in a supervised public indoor court?"
+   ],
+   "cards": [
+    {
+     "title": "Realistic Headset Handover & Refit Time Between First-Time Child Users",
+     "kind": "rule",
+     "source_hint": "Venue operations logs, queue-management SOPs"
+    },
+    {
+     "title": "Players-Per-Hour Throughput Budget: Round + Reset + Onboarding Time",
+     "kind": "rule",
+     "source_hint": "Venue operations logs, throughput calculations"
+    },
+    {
+     "title": "Turns/Captures Per Player in a 5-Minute Slot for 2-6 Rotating Players",
+     "kind": "rule",
+     "source_hint": "Venue operations logs, school playtest logs"
+    },
+    {
+     "title": "Staffing, Setup & Failure-Recovery Plan for One Operator Managing Many Waiting Children",
+     "kind": "rule",
+     "source_hint": "Venue operations logs, single-operator SOPs"
+    },
+    {
+     "title": "Queue, Reset, Hygiene & Handover Procedure for Public Two-Headset Attractions",
+     "kind": "rule",
+     "source_hint": "Venue hygiene SOPs, public-attraction operations"
+    },
+    {
+     "title": "Cycle Time, Reset Steps & Queue Rules for One-Family-at-a-Time Public Venue",
+     "kind": "rule",
+     "source_hint": "Venue operations logs, party-format SOPs"
+    },
+    {
+     "title": "Turn Length, Reset Procedure & Max Queue Size for Preschool One-Headset Rotation",
+     "kind": "rule",
+     "source_hint": "Venue operations logs, preschool party observation"
+    },
+    {
+     "title": "Automatic Team-Score Aggregation Across Shared Headsets Without Manual Entry",
+     "kind": "rule",
+     "source_hint": "Engine multiplayer/scoring docs, event ops logs"
+    }
+   ]
+  },
+  {
+   "theme": "Engine Limits, Tracking Reliability & Lighting Conditions",
+   "why": "The AI lacks concrete numbers for minimum tracking light (lux), daylight/glare effects on Quest tracking, dark-room and outdoor-night minimums, floor-anchor drift, and the MR-vs-PC platform trade-off. These are hard technical constraints the AI must respect before designing.",
+   "needs": 14,
+   "topics": [
+    "engine-limits",
+    "art-lighting",
+    "scoring-rewards"
+   ],
+   "examples": [
+    "How does strong daylight from windows affect Quest 3 inside-out tracking, passthrough quality and display visibility, and what mitigations are needed in a school hall?",
+    "How should an outdoor MR design change for golden-hour sunset: glare direction, fading light for tracking, passthrough exposure, and virtual cue brightness as evening arrives?",
+    "How much ambient light does Quest mixed-reality tracking need at minimum, and how dark can a horror game's room be before tracking fails?"
+   ],
+   "cards": [
+    {
+     "title": "Minimum Ambient Light (lux) for Quest Inside-Out Tracking & Passthrough",
+     "kind": "rule",
+     "source_hint": "Meta Quest tracking documentation, venue AV testing"
+    },
+    {
+     "title": "Daylight/Window Glare Effects on Tracking & Mitigations (blinds, orientation, scheduling)",
+     "kind": "rule",
+     "source_hint": "Quest tracking docs, venue lighting audits"
+    },
+    {
+     "title": "Outdoor Night / Dark-Room Tracking Minimums & Added-Lighting Requirements",
+     "kind": "rule",
+     "source_hint": "Quest tracking docs, outdoor event logs"
+    },
+    {
+     "title": "Tracking Reliability in Bright Crowded Spaces with Passersby Crossing/Occluding the Edge",
+     "kind": "rule",
+     "source_hint": "Engine docs, bright-venue playtest logs"
+    },
+    {
+     "title": "Floor Anchoring & Spatial Stability of Virtual Boards (drift, re-localization, occlusion around tables)",
+     "kind": "rule",
+     "source_hint": "Engine docs, spatial-mapping guides"
+    },
+    {
+     "title": "MR Headset vs PC Decision Criteria (spectacle, cost, throughput, staffing, floor constraints)",
+     "kind": "rule",
+     "source_hint": "Engine docs, platform capability matrix"
+    },
+    {
+     "title": "Preserving Life-Sized Embodiment on PC: Camera Scale, Avatar Proportion, Input Mapping Substitutes",
+     "kind": "pattern",
+     "source_hint": "Engine docs, PC adaptation guides"
+    },
+    {
+     "title": "Tracking-Specific Environmental Checks: Featureless/Glass Surfaces, Sunlight on Sensors, Flicker",
+     "kind": "rule",
+     "source_hint": "Engine docs, environmental audit checklist"
+    }
+   ]
+  },
+  {
+   "theme": "Scoring, Rewards & Competition Structure",
+   "why": "The AI misses age-appropriate reward structures: no-fail guaranteed success for young children, cooperative vs individual scoring decisions, positive-only public scoring, anti-rush scoring for rehab patients, rank-tier ladders, and telemetry logging for therapists. Reward structure is central to whether a game feels safe and motivating.",
+   "needs": 16,
+   "topics": [
+    "scoring-rewards"
+   ],
+   "examples": [
+    "What kinds of content and reward structure sustain a 6-year-old's sense of discovery without time pressure: visible hiding spots, guided hints, and guaranteed success?",
+    "Should a game for 5-year-olds use timers, scores and competition, or avoid them because they provoke quarrels, and what replaces them to still feel like a challenge?",
+    "Should a game for 5-year-olds at a birthday party use comparative scores, or cooperative/no-score rewards so losing children don't get upset?"
+   ],
+   "cards": [
+    {
+     "title": "No-Fail / Guaranteed-Success Reward Structure for Young Children (no lose states, every attempt rewarded)",
+     "kind": "rule",
+     "source_hint": "Child-development literature, family playtest logs"
+    },
+    {
+     "title": "Cooperative / Shared-Score vs Individual-Score Decision Rule for Children & Families",
+     "kind": "rule",
+     "source_hint": "Child-development literature, sibling-conflict observation"
+    },
+    {
+     "title": "Positive-Only Scoring for Public Drop-In Play (no point loss, rewards for attempts)",
+     "kind": "rule",
+     "source_hint": "Playtest logs, casual-game design literature"
+    },
+    {
+     "title": "Named Rank Tiers & Leaderboard Structure for Short Matches Between Friends",
+     "kind": "rule",
+     "source_hint": "Game design literature, RoV-style ladder conventions"
+    },
+    {
+     "title": "Scoring That Doesn't Encourage Rushing for Balance-Impaired Players (hold accuracy, duration shown not ranked)",
+     "kind": "rule",
+     "source_hint": "Clinical rehab protocols, therapy-game literature"
+    },
+    {
+     "title": "Per-Session Telemetry Logging & Week-to-Week Progress Reports for Therapist Review",
+     "kind": "rule",
+     "source_hint": "Clinical rehab protocols, therapy-game literature"
+    },
+    {
+     "title": "Low-Cost Personalization That Reliably Delights (name on cake, photo props)",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, party-game observation"
+    },
+    {
+     "title": "Default Game Feedback Elements to Remove/Hold Constant in Controlled Experiments",
+     "kind": "rule",
+     "source_hint": "Experimental design literature, engine feedback inventory"
+    }
+   ]
+  },
+  {
+   "theme": "Genre Template Selection & Engine-Capability Honesty",
+   "why": "The AI must map briefs to the correct built-in genre template, state engine limits plainly (e.g., enemies can't fly) instead of silently substituting, and reconcile conflicting brief requirements. It currently guesses or sidesteps, producing designs the engine cannot deliver.",
+   "needs": 11,
+   "topics": [
+    "genre-rules"
+   ],
+   "examples": [
+    "Which built-in genre pattern fits a gentle low-violence treasure hunt for under-8s with parents, and what combat, chasing, or failure pressure should be removed?",
+    "When a concept is a calm guided walk with no combat or capture objectives, which supported genre template should be selected, and when should the creator be told that none fits?",
+    "In the battle genre, can foes fly or be tossed toward the player, or must they walk in as grunt/shield/beast enemies — and how should the AI explain this limit instead of silently prototyping whatever fits?"
+   ],
+   "cards": [
+    {
+     "title": "Genre Template Selection & Explicit Statement of Engine Limits (no silent substitution)",
+     "kind": "rule",
+     "source_hint": "Engine genre-template docs, design pattern library"
+    },
+    {
+     "title": "Which Enemy Movement Types the Engine Supports (walking only vs flying/thrown) and How to Say So",
+     "kind": "rule",
+     "source_hint": "Engine capability docs, enemy-behavior specs"
+    },
+    {
+     "title": "Replacing a Rejected Boss with a Climactic Wave Composition Preserving Challenge & Score Pacing",
+     "kind": "pattern",
+     "source_hint": "Engine docs, design pattern library"
+    },
+    {
+     "title": "Airborne Projectile vs Ground-Walking Targets for Instant Non-Gamer Readability",
+     "kind": "rule",
+     "source_hint": "Engine docs, readability playtest logs"
+    },
+    {
+     "title": "Adapting Checkpoint-Runner into Step-onto-Target with Hold-Still Moments Without Breaking Flow",
+     "kind": "pattern",
+     "source_hint": "Engine docs, rehab-game design literature"
+    },
+    {
+     "title": "Genre-by-Suitability Mapping for Unsteady / Dizziness-Prone Players (which genres to never offer)",
+     "kind": "rule",
+     "source_hint": "Engine docs, genre-suitability matrix"
+    },
+    {
+     "title": "Keeping a Hazard-Free, Fail-Free Runner Feeling Like a Game (discovery, collection, scenery interaction)",
+     "kind": "pattern",
+     "source_hint": "Engine docs, design pattern library"
+    },
+    {
+     "title": "Reconciling Conflicting Brief Requirements (race speed vs ordered tactical captures)",
+     "kind": "rule",
+     "source_hint": "Engine docs, design reconciliation patterns"
+    }
+   ]
+  },
+  {
+   "theme": "Calm, Sensory-Safe & Sleep-Friendly Design",
+   "why": "A large cluster covers pre-bedtime arousal arcs, sensory-safe parameters for autistic/overwhelmed children, non-startling creature design, gentle transitions, and calm audio specifications. The AI gives only generic 'keep it calm' advice and lacks concrete parameters.",
+   "needs": 14,
+   "topics": [
+    "comfort",
+    "audio",
+    "story-theme"
+   ],
+   "examples": [
+    "How should a pre-bedtime game structure its arousal arc and ending so a child winds down rather than getting excited before sleep?",
+    "How should objectives, difficulty, and failure states be tuned for a calm 10-minute pre-bed game so it stays forgiving and does not overstimulate the child?",
+    "What evening lighting, brightness, volume, colour palette, and audio choices keep MR readable while staying cosy and sleep-friendly for a child?"
+   ],
+   "cards": [
+    {
+     "title": "Descending Arousal Arc & Calm Conclusive Ending for Pre-Bedtime Play",
+     "kind": "rule",
+     "source_hint": "Sleep hygiene literature, child playtest logs"
+    },
+    {
+     "title": "Sleep-Friendly Evening AV Rules: Warm Dim Palette, Brightness Caps, Low Volume, No Neon/Flashes",
+     "kind": "rule",
+     "source_hint": "Sleep-friendly design literature, evening playtest logs"
+    },
+    {
+     "title": "Sensory Parameters for Easily Overwhelmed / Autistic Children (volume, brightness, animation speed, transitions)",
+     "kind": "rule",
+     "source_hint": "Autism/sensory-sensitivity literature, playtest logs"
+    },
+    {
+     "title": "Audio Specification for Sound-Sensitive Players: Volume Caps, Onset Ramps, When Silence Is Better",
+     "kind": "rule",
+     "source_hint": "Audio engineering docs, sensory-sensitivity literature"
+    },
+    {
+     "title": "Friendly Creature Scale, Approach Distance, Motion & Sound Rules to Avoid Fear",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, child-comfort observation"
+    },
+    {
+     "title": "Comedic Devices That Reliably Make Young Children Laugh Without Tipping into Scary",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, child-humor observation"
+    },
+    {
+     "title": "Softening Transitions & Teleports (no whooshes, flashes, abrupt cuts) for Comfort",
+     "kind": "rule",
+     "source_hint": "Playtest logs, transition-design literature"
+    },
+    {
+     "title": "Calm Ambient Decoration Rules for Dizziness-Prone Players (small, slow, predictable paths)",
+     "kind": "rule",
+     "source_hint": "Playtest logs, rehab/clinical observation"
+    }
+   ]
+  },
+  {
+   "theme": "Accessibility, Ergonomics & Reach for Diverse Bodies",
+   "why": "The AI lacks child reach ergonomics (anchor heights, no under-furniture placement), colorblind/peripheral-vision cue redundancy, pre-build accessibility checklists, input-remap and motion-comfort defaults, and objective-sequence previewing for autistic players. These are inclusion-critical and currently absent.",
+   "needs": 9,
+   "topics": [
+    "accessibility",
+    "comfort",
+    "space-venue"
+   ],
+   "examples": [
+    "At what heights and reach distances should MR anchors, rewards, and interactions be placed for a 6-year-old so they avoid stretching, climbing, or looking under furniture?",
+    "Can children aged 8-12 safely and comfortably bend, crouch and reach floor-level virtual objects in MR, and how should pickup height be placed?",
+    "Under steady indoor light, what color, contrast, size, and non-color cues make red hazards and neon checkpoints readable for colorblind and peripheral-vision players?"
+   ],
+   "cards": [
+    {
+     "title": "Child Reach Ergonomics: Anchor/Reward Heights (waist-to-chest), No High/Low/Under-Furniture Placement",
+     "kind": "rule",
+     "source_hint": "Anthropometric data for children, ergonomics literature"
+    },
+    {
+     "title": "Whether Children 8-12 Can Safely Bend/Crouch/Reach Floor-Level Objects & Pickup Height Placement",
+     "kind": "rule",
+     "source_hint": "Ergonomics literature, playtest logs with 8-12 year olds"
+    },
+    {
+     "title": "Colorblind-Safe & Peripheral-Vision Cues: Redundant Non-Color Encodings, Motion, Size Thresholds",
+     "kind": "rule",
+     "source_hint": "Accessibility standards (WCAG-style), colorblind design literature"
+    },
+    {
+     "title": "Pre-Build Accessibility Checklist (reach, mobility, color vision, hearing, turn-taking alternatives) Even When Constraints Say None",
+     "kind": "rule",
+     "source_hint": "Accessibility standards, inclusive-design checklists"
+    },
+    {
+     "title": "Accessibility & Comfort Defaults to Confirm: Input Remaps, Motion Options (vignette, snap/smooth), Seated Play",
+     "kind": "rule",
+     "source_hint": "Accessibility standards, comfort-options literature"
+    },
+    {
+     "title": "Parent-Child Public MR Fit Checks: Child Headset Fit, Glasses, Subtitles, Simple Language",
+     "kind": "rule",
+     "source_hint": "Accessibility standards, parent-child playtest logs"
+    },
+    {
+     "title": "Ordering, Numbering & Previewing Full Objective Sequence Up Front for Autistic Players",
+     "kind": "pattern",
+     "source_hint": "Autism-design literature, playtest logs"
+    },
+    {
+     "title": "Movement Budget Limits (steps, turning angles) for All-Ages Standing MR Comfort in Small Spaces",
+     "kind": "rule",
+     "source_hint": "Ergonomics literature, all-ages comfort data"
+    }
+   ]
+  },
+  {
+   "theme": "Cultural Grounding, Theme Selection & Sensitive Content",
+   "why": "The AI lacks guidance on grounding themes in local culture (especially Thai ghosts/legends), respectful no-gore depiction of cultural figures, workplace-safe humor, neutral framing for friend pairs, and sensitive topics like mental health. Thai-venue needs recur throughout, making this a distinct gap.",
+   "needs": 10,
+   "topics": [
+    "culture",
+    "story-theme",
+    "learning-goals"
+   ],
+   "examples": [
+    "How should a game's theme be matched to the local culture of the venue and audience rather than using an exotic default?",
+    "Which well-known Thai ghosts fit each battle foe archetype (grunt, shield-bearer, beast, boss), e.g. does a shield suit Phi Pop, and which ghosts work as grunt or boss?",
+    "What recognizable behaviors, silhouettes, sounds, and taboos distinguish common Thai ghosts, and how can they be depicted respectfully under no-gore stylized model limits?"
+   ],
+   "cards": [
+    {
+     "title": "Matching Game Theme to Local Venue Culture & Legends Instead of Exotic Default",
+     "kind": "rule",
+     "source_hint": "Thai cultural sources, local legend databases, venue-audience research"
+    },
+    {
+     "title": "Mapping Well-Known Thai Ghosts to Battle Archetypes (grunt/shield/beast/boss)",
+     "kind": "rule",
+     "source_hint": "Thai ghost folklore sources, cultural consultants"
+    },
+    {
+     "title": "Per-Ghost Identifying Traits (Krasue, Pret): Silhouettes, Sounds, Behaviors & Respectful No-Gore Depiction Taboos",
+     "kind": "rule",
+     "source_hint": "Thai ghost folklore sources, cultural consultants"
+    },
+    {
+     "title": "Culturally Safe Themes & Humor for Workplace Audiences (avoid embarrassment/offense before colleagues)",
+     "kind": "rule",
+     "source_hint": "Workplace-culture research, corporate event logs"
+    },
+    {
+     "title": "Keeping Narration & Flavor Text Neutral/Platonic for Friend Co-op Pairs (no romantic framing)",
+     "kind": "rule",
+     "source_hint": "Cultural-sensitivity literature, co-op design research"
+    },
+    {
+     "title": "Evoking Maritime Feel Virtually on a Rooftop Without Inviting Edge Leaning or Water-Play Expectations",
+     "kind": "rule",
+     "source_hint": "Thai cultural sources, rooftop-safety constraints"
+    },
+    {
+     "title": "Representing Mental-Health Research Themes Lightly & Positively Without Trivialising or Distressing",
+     "kind": "rule",
+     "source_hint": "Mental-health communication guidelines, wellbeing research"
+    },
+    {
+     "title": "Host Name-Asking Scripts with Personal-Data Minimization & Cross-Cultural Embarrassment Management",
+     "kind": "rule",
+     "source_hint": "Privacy/data-minimization standards, cross-cultural host scripts"
+    }
+   ]
+  },
+  {
+   "theme": "Audio Design: Voice, Volume, Spatial Sound & Platform Audio Limits",
+   "why": "The AI lacks audio-specific knowledge: whether pre-recorded voice lines work as ambient audio, volume/mixing amid spectator noise, safe near-ear whisper spatial audio, mascot feedback sounds, and dread-without-gore sound design. Audio is repeatedly its own gap, separate from visual design.",
+   "needs": 7,
+   "topics": [
+    "audio",
+    "art-lighting",
+    "genre-rules"
+   ],
+   "examples": [
+    "Can the engine play pre-recorded character voice lines as ambient audio, and how does that differ from the unsupported interactive dialogue it was lumped with?",
+    "What kind of creature voice and greeting audio suits young children (cute rather than threatening), and at what volume, in a living room where spectators are talking and cheering?",
+    "How can near-ear whisper spatial audio be used for immersion in MR without causing unsafe startle reflexes, hearing discomfort, or disorientation?"
+   ],
+   "cards": [
+    {
+     "title": "Pre-Recorded Voice Lines as Ambient Audio vs Unsupported Interactive Dialogue",
+     "kind": "rule",
+     "source_hint": "Engine audio docs, platform capability matrix"
+    },
+    {
+     "title": "Audio Volume & Mixing Levels So Cues Stay Audible but Comfortable Amid Spectator Noise",
+     "kind": "rule",
+     "source_hint": "Audio engineering docs, public-space noise limits"
+    },
+    {
+     "title": "Near-Ear Whisper Spatial Audio Safety: Volume/Distance Limits, No Startle from Behind",
+     "kind": "rule",
+     "source_hint": "Spatial-audio design literature, startle-reflex research"
+    },
+    {
+     "title": "Non-Verbal Mascot Feedback the Platform Supports (praise barks, cheering animations, finale trigger)",
+     "kind": "pattern",
+     "source_hint": "Engine audio docs, mascot-design playtest logs"
+    },
+    {
+     "title": "Cute Non-Threatening Creature Voice & Greeting Audio for Young Children",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, creature-voice design"
+    },
+    {
+     "title": "Sound Design & Environmental Change for Dread Without Jump Scares, Blood, or Gore",
+     "kind": "rule",
+     "source_hint": "Horror sound-design literature, gore-free design constraints"
+    }
+   ]
+  },
+  {
+   "theme": "Juice, Spectacle & Wow-Moment AV Design",
+   "why": "The AI cannot specify the concrete feedback recipe that makes combat feel juicy, checkpoint arrivals feel spectacular, or casual mall audiences wowed — especially under flat indoor lighting. It also lacks sponsor-logo placement and low-cost ambience budgets. This is about production polish, distinct from safety.",
+   "needs": 9,
+   "topics": [
+    "art-lighting",
+    "engine-limits",
+    "scoring-rewards"
+   ],
+   "examples": [
+    "What audiovisual hit feedback (splashes, particles, sounds, slow-mo) makes melee slicing feel juicy and satisfying in MR, and which effects stay readable under even indoor lighting?",
+    "What audiovisual reveal techniques (scale, sound, particle moments) create a reliable 'wow' moment when a child reaches each checkpoint object in mixed reality, without scary or dizzying effects?",
+    "What concrete art, lighting, and moment-design techniques create a 'wow' factor for casual mall audiences in a short MR battle under constant indoor lighting?"
+   ],
+   "cards": [
+    {
+     "title": "Juicy Melee Hit Feedback Recipe (impact sounds, particles, hit-stop/slow-mo) Readable Under Flat Indoor Light",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, game-feel design literature"
+    },
+    {
+     "title": "Checkpoint-Arrival Reveal Pattern (scale-up, sound cue, particle burst) That Wows Without Scary/Dizzying Effects",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, spectacle design"
+    },
+    {
+     "title": "Wow-Moment Design Techniques for Casual Mall Audiences Under Constant Indoor Lighting",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, casual-audience observation"
+    },
+    {
+     "title": "AV & Gameplay Elements That Create Excitement at Walking Pace Without Encouraging Running",
+     "kind": "rule",
+     "source_hint": "Playtest logs, walking-pace game design"
+    },
+    {
+     "title": "Spectacular-but-Safe Reveal Cues for Hidden-Object Discovery (sparkles, chimes, scale-up)",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, hidden-object design"
+    },
+    {
+     "title": "Sponsor Logo Placement in MR & Spectator Views Without Occluding Foes, Cues, or Safety Warnings",
+     "kind": "rule",
+     "source_hint": "Branding/sponsorship guidelines, venue ops"
+    },
+    {
+     "title": "Low-Cost Ambience Budgets (ambient NPC counts, looping soundscapes, low-poly props) for Mobile MR",
+     "kind": "rule",
+     "source_hint": "Engine performance docs, mobile MR budgets"
+    }
+   ]
+  },
+  {
+   "theme": "Learning Goals, Curriculum Alignment & Educational Content",
+   "why": "The AI misses how to teach memorized sequences, calibrate content to grade level and curriculum, budget seconds-per-question, map fractions to physical actions, give teachers no-code update paths, and prevent answer-memorization across teams. Educational venues are a major recurring context.",
+   "needs": 8,
+   "topics": [
+    "learning-goals",
+    "difficulty-balance",
+    "scoring-rewards"
+   ],
+   "examples": [
+    "What interaction design best teaches a memorised sequence (the order of planets) to 8-9 year olds - recall prompts, repetition, or class call-and-response?",
+    "How much time per question and what difficulty progression is appropriate for grade 4 students answering multiplication facts 6-9 under time pressure?",
+    "How can a non-programmer teacher update learning content (e.g. a weekly vocabulary list) in an educational XR game without writing code?"
+   ],
+   "cards": [
+    {
+     "title": "Which Reinforcement Interaction Best Fixes a Memorised Sequence (recall prompts, repetition, call-and-response)",
+     "kind": "rule",
+     "source_hint": "Learning-science literature, classroom playtest logs"
+    },
+    {
+     "title": "Calibrating Content Difficulty to Grade Level & Sourcing from Current Lesson Unit",
+     "kind": "rule",
+     "source_hint": "Curriculum standards, grade-level vocab lists"
+    },
+    {
+     "title": "Seconds-Per-Question Budget & Difficulty Progression for Times-Table Practice Under Time Pressure",
+     "kind": "rule",
+     "source_hint": "Learning-science literature, math-education research"
+    },
+    {
+     "title": "Physical MR Mechanics Mapping Fraction Concepts (halves, quarters, equivalence) onto Actions",
+     "kind": "pattern",
+     "source_hint": "Math-education research, MR affordance literature"
+    },
+    {
+     "title": "No-Code Content-Update Path for Teachers (editable word lists, config files, teacher editor)",
+     "kind": "rule",
+     "source_hint": "Engine extensibility docs, teacher-tool design"
+    },
+    {
+     "title": "Varying/Re-Generating Round Content So Watching Teams Can't Memorize Answers",
+     "kind": "rule",
+     "source_hint": "Experimental design literature, anti-cheating design"
+    },
+    {
+     "title": "Chess-Literacy Baseline for Teens/Adults: Which Rules to Teach Inline vs Treat as Familiar",
+     "kind": "rule",
+     "source_hint": "Learning-science literature, classroom observation"
+    }
+   ]
+  },
+  {
+   "theme": "Research-Grade Experiment Design & Measurement",
+   "why": "A distinct cluster of needs comes from using MR as a research instrument: event/latency schemas, counterbalancing locked to participant IDs, trial counts, confound control (walking time, feedback, memorization), standardized consent/onboarding, and validated presence manipulations. This is methodologically different from game design.",
+   "needs": 8,
+   "topics": [
+    "learning-goals",
+    "difficulty-balance",
+    "art-lighting"
+   ],
+   "examples": [
+    "Which events and latency definitions must a walking MR reaction-time task record so stimulus onset, movement time, and target touch are not conflated?",
+    "How many target trials per condition are needed for a within-subjects MR reaction-time study, balancing statistical reliability, learning effects, fatigue, and session length?",
+    "How should targets be sequenced and revealed in matched MR conditions to prevent route memorization and anticipation while keeping stimulus order equivalent?"
+   ],
+   "cards": [
+    {
+     "title": "Event Schema & Latency Definitions for MR Reaction-Time Tasks (stimulus onset, RT, movement time, touch)",
+     "kind": "rule",
+     "source_hint": "Experimental psychology methods literature, engine event-logging docs"
+    },
+    {
+     "title": "Condition-Order Counterbalancing Locked to Participant IDs (Latin square, enforced sequence)",
+     "kind": "rule",
+     "source_hint": "Experimental design literature, counterbalancing methods"
+    },
+    {
+     "title": "Trial Counts Per Condition Balancing Reliability, Learning Effects, Fatigue & Session Length",
+     "kind": "rule",
+     "source_hint": "Experimental design literature, statistical power analysis"
+    },
+    {
+     "title": "Equating/Counterbalancing Target Distances So Walking Time Doesn't Confound RT",
+     "kind": "rule",
+     "source_hint": "Experimental design literature, confound-control methods"
+    },
+    {
+     "title": "Randomizing Target Sequences Across Matched Conditions to Prevent Memorization & Anticipation",
+     "kind": "rule",
+     "source_hint": "Experimental design literature, randomization methods"
+    },
+    {
+     "title": "Standardized Consent, Instructions & Practice Sequence for Equivalent Onboarding Across Experience Levels",
+     "kind": "rule",
+     "source_hint": "Research ethics protocols, standardized onboarding literature"
+    },
+    {
+     "title": "Validated Static Environmental Manipulations of Presence with Citable Evidence",
+     "kind": "rule",
+     "source_hint": "Presence research literature, empirical studies"
+    }
+   ]
+  },
+  {
+   "theme": "Therapeutic & Rehab Design for Older / Unsteady Patients",
+   "why": "A distinct clinical cluster covers routing along handrails, challenge-without-fall-risk, per-turn length and rest for frail patients, dignity-preserving encouragement, integrating parallel bars as supports, and therapist-only summaries. This is a specialized domain with its own evidence base.",
+   "needs": 9,
+   "topics": [
+    "difficulty-balance",
+    "space-venue",
+    "safety"
+   ],
+   "examples": [
+    "How should an MR walking route for unsteady older adults be placed so a handrail or parallel bars stay within reach at every checkpoint to prevent falls?",
+    "How should a runner route in a small treatment room be laid out relative to a fixed handrail or wall so unsteady players can hold on while walking?",
+    "What session and round length is appropriate per turn for patients over 70 in a falls clinic, and how should pacing and rest be built into a 5-minute session?"
+   ],
+   "cards": [
+    {
+     "title": "Routing Walking Lines Parallel to Handrails/Walls Within Arm's Reach for Continuous Support",
+     "kind": "rule",
+     "source_hint": "Falls-prevention literature, clinical rehab protocols"
+    },
+    {
+     "title": "Creating Challenge in Slow Therapeutic Walking Without Speed, Surprise, or Fall Risk",
+     "kind": "pattern",
+     "source_hint": "Rehab-game design literature, clinical protocols"
+    },
+    {
+     "title": "Per-Turn Round Length & Built-In Rest Intervals for Frail Over-70 Patients",
+     "kind": "rule",
+     "source_hint": "Clinical rehab protocols, geriatric exercise literature"
+    },
+    {
+     "title": "Dignity-Preserving Encouragement Tone for Low-Confidence Older Patients (non-childish, no pressure)",
+     "kind": "rule",
+     "source_hint": "Dignity-preserving communication literature, clinical observation"
+    },
+    {
+     "title": "Integrating Existing Room Features (parallel bars) as Supports/Guides Instead of Obstacles",
+     "kind": "pattern",
+     "source_hint": "Rehab-engine design, clinical protocols"
+    },
+    {
+     "title": "Therapist-Only End-of-Session Summary: Clinical Metrics Hidden from Patient",
+     "kind": "rule",
+     "source_hint": "Clinical data-management protocols, therapy-game literature"
+    }
+   ]
+  },
+  {
+   "theme": "Small-Space & Route Layout Constraints",
+   "why": "The AI lacks concrete layout rules for very small or awkward floors: whether 2x2 m is viable, ring paths around a central island, lane widths on a 5 m floor, sub-area selection within a large gym, teleport substitution thresholds, and fail-safe reset placement. Space constraints drive many design decisions.",
+   "needs": 9,
+   "topics": [
+    "space-venue"
+   ],
+   "examples": [
+    "Is a 2x2 m walking floor enough for a runner, and how many checkpoints and what route shapes fit it without unsafe turning or reaching beyond the boundary?",
+    "How should a runner route and checkpoint count be laid out in a small room with a central island, e.g. a ring path only ~1.5 m wide?",
+    "How wide should MR lanes and checkpoints be on a 5 m-wide floor so three lanes are legible but do not squeeze players into unsafe passing distances?"
+   ],
+   "cards": [
+    {
+     "title": "Minimum Viable Floor Size for a Runner (is 2x2 m enough?) & Turning-Radius Safety",
+     "kind": "rule",
+     "source_hint": "Playtest logs, small-room design constraints"
+    },
+    {
+     "title": "Route & Checkpoint Layout on Narrow Ring/Corridor Paths Around a Central Island",
+     "kind": "rule",
+     "source_hint": "Playtest logs, small-room layout patterns"
+    },
+    {
+     "title": "Lane Widths & Inter-Lane Gaps for Splitting a ~5 m Floor into Three Safe Parallel Lanes",
+     "kind": "rule",
+     "source_hint": "Playtest logs, lane-design measurement"
+    },
+    {
+     "title": "Choosing a Sub-Area Size Within a Much Larger Gym (reach vs fatigue vs supervision)",
+     "kind": "rule",
+     "source_hint": "Playtest logs, gym/hall layout observation"
+    },
+    {
+     "title": "When to Substitute Teleport/Walk-in-Place for Real Walking on Very Small Floors",
+     "kind": "rule",
+     "source_hint": "Playtest logs, small-room locomotion design"
+    },
+    {
+     "title": "Fail-Safe Reset Placement & Minimum Turning Space in a Furnished Bedroom Route",
+     "kind": "rule",
+     "source_hint": "Playtest logs, furnished-room layout"
+    },
+    {
+     "title": "Extra Clear Area & Inter-Player Separation for Simultaneous Multi-Player in a Shared Room",
+     "kind": "rule",
+     "source_hint": "Playtest logs, multi-player spacing measurement"
+    }
+   ]
+  },
+  {
+   "theme": "Competitive Race Formats, Fairness & Social Play Mechanics",
+   "why": "The AI misses the mechanics that make same-room races fair and fun: synchronized starts, ghosting, lane assignment, tie-breaks, contested vs personal targets, paired physical actions, and leaderboard metrics. These are the social-competition rules that distinguish a race from parallel solo play.",
+   "needs": 8,
+   "topics": [
+    "multiplayer-social",
+    "scoring-rewards",
+    "genre-rules"
+   ],
+   "examples": [
+    "How do you make a parallel 'each player walks their own copy' race fair in MR: identical checkpoint spacing per copy, synchronized start, and a clear first-to-finish win condition?",
+    "For friends racing in one room, what start, ghosting, collision, lane-assignment, and tie-break rules keep the competition fair and socially fun?",
+    "How should competitive scoring work when several players race for the same limited set of targets in one shared space: contested vs personal targets, count-based vs time-based scoring?"
+   ],
+   "cards": [
+    {
+     "title": "Synchronized Start & First-to-Finish Win Condition with Timing/Tie Rules for Parallel Course Copies",
+     "kind": "rule",
+     "source_hint": "Playtest logs, race-format design"
+    },
+    {
+     "title": "Ghosting, Lane-Assignment & Tie-Break Rules for Same-Room Races",
+     "kind": "rule",
+     "source_hint": "Playtest logs, race-format design"
+    },
+    {
+     "title": "Contested vs Personal Target Allocation & Count-Based vs Time-Based Scoring for Shared-Space Races",
+     "kind": "rule",
+     "source_hint": "Playtest logs, scoring design"
+    },
+    {
+     "title": "Paired Physical Actions for Two Players Beyond Walking the Same Route (synchronized steps, mirrored gestures)",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, co-op pair design"
+    },
+    {
+     "title": "Ghost/Translucent Avatar Representation So Inability to Hit Each Other Reads as Fair",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, shared-screen tactics design"
+    },
+    {
+     "title": "What a Shared Leaderboard Should Track in a Short Score-Attack Round (score, time, streaks)",
+     "kind": "rule",
+     "source_hint": "Playtest logs, score-attack design"
+    },
+    {
+     "title": "Physical Comedy & Readable Virtual Gags That Make Watching Coworkers Laugh",
+     "kind": "pattern",
+     "source_hint": "Playtest logs, corporate event observation"
+    }
+   ]
+  }
+ ]
+}
