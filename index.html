@@ -42,13 +42,19 @@ a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
 .srow{display:grid;grid-template-columns:minmax(120px,200px) 1fr 92px;gap:10px;align-items:center;margin:5px 0;font-size:14px}.srow small{color:var(--dim);text-align:right;font-variant-numeric:tabular-nums}
 .key{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--dim);margin:2px 0 10px}.key span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px;background:var(--c)}
 .theme{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}.theme h3{margin:0 0 4px;font:700 16.5px Inter}.theme summary{cursor:pointer;font-weight:600;font-size:14px;margin-top:8px}.theme ul{margin:6px 0;padding-left:20px}.theme li{margin:3px 0}
+.ab2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.abcol{border:1px solid var(--line);border-radius:12px;padding:14px 16px;min-width:0}.abcol.on{border-color:var(--acc)}.abcol h3{margin:0 0 2px;font:700 16px Inter}
+.abcol h4{margin:14px 0 6px;font:700 13px Inter;letter-spacing:.06em;text-transform:uppercase;color:var(--dim)}.opt{padding:6px 0;border-bottom:1px solid var(--line);font-size:14px}.opt.rec b::after{content:" ★ recommended";color:var(--acc2);font:600 11.5px Inter}
+.dec{font-size:13.5px;padding:5px 0;border-bottom:1px dashed var(--line)}.dec .tag{font-size:11px}.src-card{background:var(--accsoft)!important;color:var(--acc)!important}.src-default{background:var(--warnsoft)!important;color:var(--acc2)!important}
+.cardlink{cursor:pointer;color:var(--acc);text-decoration:underline dotted}.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 12px}.chips span{font-size:12.5px;background:var(--soft);border-radius:8px;padding:3px 9px}.chips b{font-weight:600;color:var(--dim)}
+.judge{border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0;font-size:14px}.judge .sc{font:700 15px Inter}
+@media (max-width:760px){.ab2{grid-template-columns:1fr}}
 @media (max-width:760px){.srow{grid-template-columns:100px 1fr 74px}}
 @media (max-width:760px){.split{grid-template-columns:1fr}.detail{position:static;max-height:none}.barrow{grid-template-columns:110px 1fr 46px}}
 </style></head><body>
 <header><div class="wrap">
 <h1>Game Design Knowledge Base</h1>
 <p class="sub">The knowledge an AI game-design assistant retrieves while it interviews a creator, proposes options, prototypes and builds an XR game (Quest mixed reality or PC). Everything on this page is read from the files in this repository.</p>
-<nav id="nav"><button data-s="overview" class="on">Overview</button><button data-s="cards">Cards</button><button data-s="rules">Fact rules</button><button data-s="eval">Evaluation</button><button data-s="gaps">Gaps</button><button data-s="try">Try it</button></nav>
+<nav id="nav"><button data-s="overview" class="on">Overview</button><button data-s="cards">Cards</button><button data-s="rules">Fact rules</button><button data-s="eval">Evaluation</button><button data-s="ab">With vs without</button><button data-s="gaps">Gaps</button><button data-s="try">Try it</button></nav>
 </div></header>
 <main class="wrap">
 <section id="overview" class="on">
@@ -89,6 +95,22 @@ a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
   <p class="small dim">Reproduce every number: <span class="mono">node eval/score.mjs</span> (or <span class="mono">--claude</span>). Full write-up: <a href="results/RAG-V2-RESULT.md">results/RAG-V2-RESULT.md</a>.</p>
 </section>
 
+<section id="ab">
+  <p>The full design run, end to end, <b>with and without the knowledge base</b>. The same 10 complete briefs were run twice on the live system (Kimi K3.1 Pro): 3 options, then a prototype of the option the AI recommends, then a build plan. 20 runs, 60 AI calls. Then 4 AI judges scored each pair blind: card ids and source labels removed, sides shuffled as X/Y, 2 judges per brief.</p>
+  <div class="tiles" id="ab-tiles"></div>
+  <div class="grid2">
+    <div><h2>Judges (1 to 10, blind)</h2><div class="scroll"><table id="ab-judge"></table></div></div>
+    <div><h2>Where each prototype decision came from</h2><div class="scroll"><table id="ab-src"></table></div><p class="small dim">"AI guessed" = a default the AI chose with no source. With the knowledge base it falls from 26% to 14% of decisions, and 28 decisions cite a card.</p></div>
+  </div>
+  <h2>Open one run</h2>
+  <div class="tools"><select id="ab-pick"></select><span class="dim small">Designs are in Thai, as the creators wrote. Click a card id to open the card.</span></div>
+  <div class="chips" id="ab-brief"></div>
+  <div class="ab2"><div class="abcol" id="ab-off"></div><div class="abcol on" id="ab-on"></div></div>
+  <h2>What the judges said about this brief</h2><div id="ab-verdict"></div>
+  <div class="note"><b>Caveats.</b> AI judges, not people, and 10 briefs (per brief 8 wins, 1 loss, 1 split: sign test p &asymp; 0.04). The one loss (b06, a PC chess game) was partly a judging error: both judges applied a mixed-reality speed rule to a PC game. The knowledge base costs 77% more input tokens and about 7% more time at the options step. Both sides still promise some things the engine cannot build and overfill small rooms.</div>
+  <p class="small dim">Data: <a href="results/ab/ab-rag-on-off.json">results/ab/ab-rag-on-off.json</a> (every option, prototype decision, retrieved card, build goal and judge reason for all 20 runs).</p>
+</section>
+
 <section id="gaps">
   <p>Is the knowledge base enough? We read the design sessions back and asked, at every moment the design AI needed design knowledge, whether a card covers it. <span id="g-method" class="dim small"></span></p>
   <div class="tiles" id="g-tiles"></div>
@@ -126,7 +148,7 @@ a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
 import { bm25Index, bm25Rank, routeFacts } from './src/rag2.mjs';
 const $ = s => document.querySelector(s), esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const J = u => fetch(u).then(r => r.json());
-const [IX, F, G, EV, AG, GP] = await Promise.all(['data/index.json', 'data/facts.json', 'data/graph.json', 'eval/eval-cards.json', 'eval/eval-agree.json', 'data/gaps.json'].map(J));
+const [IX, F, G, EV, AG, GP, AB] = await Promise.all(['data/index.json', 'data/facts.json', 'data/graph.json', 'eval/eval-cards.json', 'eval/eval-agree.json', 'data/gaps.json', 'results/ab/ab-rag-on-off.json'].map(J));
 const cards = IX.cards, byId = new Map(cards.map(c => [c.id, c])), facts = F.facts, factIds = new Set(facts.map(f => f.id)), bm = bm25Index(cards);
 const tab = s => { const b = document.querySelector(`#nav button[data-s="${s}"]`); if (!b) return; document.querySelectorAll('#nav button,section').forEach(x => x.classList.remove('on')); b.classList.add('on'); $('#' + s).classList.add('on'); };
 document.querySelectorAll('#nav button').forEach(b => b.onclick = () => { tab(b.dataset.s); history.replaceState(null, '', '#' + b.dataset.s); });
@@ -139,6 +161,31 @@ const count = f => Object.entries(cards.reduce((m, c) => (m[f(c)] = (m[f(c)] || 
 bars('#bycat', count(c => c.cat));
 const origin = c => /Land Builder users/.test(c.source) ? 'distilled from design sessions' : /^Fortal Interactive 2026/.test(c.source) ? 'distilled from studio documents' : /FortalLand engine/.test(c.source) ? 'engine facts and limits' : /Meta/.test(c.source) ? 'platform safety and comfort guidelines' : /^design practice$/.test(c.source) ? 'design practice' : 'game design literature';
 bars('#bysrc', count(origin), 'o');
+
+// ---------- with vs without ----------
+{ const S = AB.summary, on = S.rag_on, off = S.rag_off, pc = x => Math.round(x * 100) + '%';
+  $('#ab-tiles').innerHTML = tile(AB.prefer.on + ' / 20', 'judge verdicts that prefer the run with the knowledge base') + tile(AB.judges.on.overall.toFixed(2) + ' vs ' + AB.judges.off.overall.toFixed(2), 'overall judge score, with vs without') + tile(pc(on.default_share) + ' vs ' + pc(off.default_share), 'prototype decisions the AI guessed') + tile(on.by.card, 'decisions that cite a card') + tile('+' + Math.round((on.input_tokens / off.input_tokens - 1) * 100) + '%', 'input tokens (the cost)');
+  const crit = { fit: 'Fits the brief', buildable: 'Buildable in the engine', safe_mr: 'Safe, right for MR', specific: 'Specific, reasoned', correct: 'Facts and culture correct', overall: 'Overall' };
+  $('#ab-judge').innerHTML = '<tr><th>Criterion</th><th class="r">Without</th><th class="r">With</th><th class="r">Δ</th></tr>' + Object.entries(crit).map(([k, l]) => `<tr${k === 'overall' ? ' class="best"' : ''}><td>${l}</td><td class="r">${AB.judges.off[k].toFixed(2)}</td><td class="r">${AB.judges.on[k].toFixed(2)}</td><td class="r">+${(AB.judges.on[k] - AB.judges.off[k]).toFixed(2)}</td></tr>`).join('');
+  const srcl = { creator: 'the creator said it', option: 'the chosen option', card: 'a knowledge card', engine: 'engine / game rules', default: 'AI guessed' };
+  $('#ab-src').innerHTML = '<tr><th>Source</th><th class="r">Without</th><th class="r">With</th></tr>' + Object.entries(srcl).map(([k, l]) => `<tr><td>${l}</td><td class="r">${off.by[k] || 0}</td><td class="r">${on.by[k] || 0}</td></tr>`).join('') + `<tr><td><b>decisions</b></td><td class="r">${off.decisions}</td><td class="r">${on.decisions}</td></tr>`;
+  const cl = id => `<span class="cardlink" data-card="${esc(id)}" title="${esc(byId.get(id)?.title || '')}">${esc(id)}</span>`;
+  const bl = { platform: 'platform', concept: 'concept', players: 'players', group_size: 'group', vr_experience: 'XR before', venue: 'venue', width_m: 'width m', depth_m: 'depth m', environment: 'room', obstacles: 'obstacles', time_of_day: 'time', session_minutes: 'minutes', play_mode: 'mode', constraints: 'constraints', spectators: 'spectators' };
+  const ph = { options: 'options', prototype: 'prototype', build: 'build plan' };
+  const col = (r, label) => { const P = r.prototype;
+    return `<h3>${label}</h3><div class="small dim">${r.calls.map(c => `${ph[c.phase] || c.phase} ${Math.round(c.elapsed)} s · ${(c.input || 0).toLocaleString()} tokens in`).join(' · ')}</div>
+    <h4>3 options</h4>${r.options.map((o, i) => `<div class="opt${i === r.recommend ? ' rec' : ''}"><b>${esc(o.title)}</b> <span class="tag">${esc(o.genre)}</span><br><span class="small">${esc(o.pitch)}</span>${o.sources?.length ? `<br><span class="small dim">cites ${o.sources.map(cl).join(', ')}</span>` : ''}</div>`).join('')}
+    <h4>Prototype: ${esc(P.title)}</h4><p class="small">${esc(P.logline)}</p>
+    <h4>Decisions and their source</h4>${P.decisions.map(d => `<div class="dec"><span class="tag src-${d.by}">${srcl[d.by] || d.by}</span> <b>${esc(d.what)}</b>: ${esc(d.choice)}${d.card ? ' · ' + cl(d.card) : ''}</div>`).join('')}
+    <h4>Build plan goal</h4><p class="small">${esc(r.build.goal || r.build.description || '')}</p>
+    <h4>Cards retrieved and sent to the AI</h4>${r.calls.some(c => c.cards.length) ? r.calls.map(c => c.cards.length ? `<div class="small" style="margin:4px 0"><b>${ph[c.phase] || c.phase}</b>: ${c.cards.map(cl).join(', ')}</div>` : '').join('') : '<p class="small dim">None: the knowledge base was switched off.</p>'}`; };
+  const sel = id => { const r = AB.runs.find(x => x.id === id), b = r.brief;
+    $('#ab-brief').innerHTML = Object.entries(bl).filter(([k]) => b[k] != null && b[k] !== '').map(([k, l]) => `<span><b>${l}</b> ${esc(Array.isArray(b[k]) ? b[k].join(', ') : b[k])}</span>`).join('');
+    $('#ab-off').innerHTML = col(r.off, 'Without the knowledge base'); $('#ab-on').innerHTML = col(r.on, 'With the knowledge base');
+    $('#ab-verdict').innerHTML = r.judge.map(j => `<div class="judge"><b>Judge ${j.judge}</b> prefers <span class="tag ${j.prefer === 'on' ? 'c' : 'w'}">${j.prefer === 'on' ? 'with' : j.prefer === 'off' ? 'without' : 'tie'}</span> · overall <span class="sc">${j.on.overall}</span> with vs <span class="sc">${j.off.overall}</span> without<p class="small">${esc(j.why)} <span class="dim">(the judge saw blind labels: X = ${j.x === 'on' ? 'with' : 'without'}, Y = ${j.x === 'on' ? 'without' : 'with'})</span></p><details><summary class="small">Full reasons</summary><p class="small"><b>With:</b> ${esc(j.reason_on)}</p><p class="small"><b>Without:</b> ${esc(j.reason_off)}</p></details></div>`).join(''); };
+  $('#ab-pick').innerHTML = AB.runs.map(r => `<option value="${r.id}">${r.id} · ${esc(r.brief.concept)}</option>`).join('');
+  $('#ab-pick').onchange = e => sel(e.target.value); sel(AB.runs[0].id);
+  $('#ab').addEventListener('click', e => { const id = e.target.dataset?.card, c = id && byId.get(id); if (!c) return; tab('cards'); history.replaceState(null, '', '#cards'); show(c); scrollTo(0, 0); }); }
 
 // ---------- gaps ----------
 { const pc = x => Math.round(x * 100) + '%';
