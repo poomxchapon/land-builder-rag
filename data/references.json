@@ -1,0 +1,474 @@
+{
+ "_about": "Published works the cards cite or that support them. Every DOI was checked on Crossref, every ISBN on Open Library, every URL for a live page, on 17 Nov 2026. Works that could not be checked were left out.",
+ "references": [
+  {
+   "id": "hunicke2004mda",
+   "cite": "Hunicke, LeBlanc & Zubek 2004, MDA: A Formal Approach to Game Design and Game Research. AAAI Workshop on Challenges in Game AI",
+   "link": "https://users.cs.northwestern.edu/~hunicke/MDA.pdf",
+   "match": [
+    "MDA"
+   ],
+   "topics": "aesthetics (sensation, fantasy, narrative, challenge, fellowship, discovery, expression, submission), mechanics-dynamics-aesthetics lens",
+   "checked": "URL reachable"
+  },
+  {
+   "id": "schell2008",
+   "cite": "Schell 2008, The Art of Game Design: A Book of Lenses. CRC Press",
+   "link": "https://openlibrary.org/isbn/9780123694966",
+   "isbn": "9780123694966",
+   "match": [
+    "Schell"
+   ],
+   "topics": "lenses for experience, theme, story, players, balance, interest curves, playtesting, venue",
+   "checked": "Open Library"
+  },
+  {
+   "id": "fullerton2008",
+   "cite": "Fullerton 2008, Game Design Workshop (2nd ed.). Morgan Kaufmann",
+   "link": "https://openlibrary.org/isbn/9780240809748",
+   "isbn": "9780240809748",
+   "match": [
+    "Fullerton"
+   ],
+   "topics": "formal elements (players, objectives, procedures, rules, resources, conflict, boundaries, outcome), dramatic elements, prototyping, playtesting, iteration",
+   "checked": "Open Library"
+  },
+  {
+   "id": "koster2004",
+   "cite": "Koster 2004, A Theory of Fun for Game Design. Paraglyph Press",
+   "link": "https://openlibrary.org/isbn/9781932111972",
+   "isbn": "9781932111972",
+   "match": [
+    "Koster"
+   ],
+   "topics": "fun as learning patterns, mastery, boredom when patterns are learned",
+   "checked": "Open Library"
+  },
+  {
+   "id": "swink2008",
+   "cite": "Swink 2008, Game Feel: A Game Designer's Guide to Virtual Sensation. Morgan Kaufmann",
+   "link": "https://openlibrary.org/isbn/9780123743282",
+   "isbn": "9780123743282",
+   "match": [
+    "Swink"
+   ],
+   "topics": "responsiveness, real-time control, polish, juice, feedback effects",
+   "checked": "Open Library"
+  },
+  {
+   "id": "csikszentmihalyi1990",
+   "cite": "Csikszentmihalyi 1990, Flow: The Psychology of Optimal Experience. Harper & Row",
+   "link": "https://openlibrary.org/isbn/9780060162535",
+   "isbn": "9780060162535",
+   "match": [
+    "Csikszentmihalyi"
+   ],
+   "topics": "flow channel, challenge-skill balance, clear goals, immediate feedback",
+   "checked": "Open Library"
+  },
+  {
+   "id": "ryan2006",
+   "cite": "Ryan, Rigby & Przybylski 2006, The Motivational Pull of Video Games: A Self-Determination Theory Approach. Motivation and Emotion 30(4)",
+   "link": "https://doi.org/10.1007/s11031-006-9051-8",
+   "doi": "10.1007/s11031-006-9051-8",
+   "match": [
+    "Ryan, Rigby",
+    "PENS"
+   ],
+   "topics": "competence, autonomy, relatedness, intuitive controls, presence",
+   "checked": "Crossref"
+  },
+  {
+   "id": "caillois1961",
+   "cite": "Caillois 1961, Man, Play and Games. Free Press",
+   "link": "https://openlibrary.org/isbn/9780252070334",
+   "isbn": "9780252070334",
+   "match": [
+    "Caillois"
+   ],
+   "topics": "agon, alea, mimicry, ilinx; paidia and ludus",
+   "checked": "Open Library"
+  },
+  {
+   "id": "salen2004",
+   "cite": "Salen & Zimmerman 2004, Rules of Play: Game Design Fundamentals. MIT Press",
+   "link": "https://openlibrary.org/isbn/9780262240451",
+   "isbn": "9780262240451",
+   "match": [
+    "Salen"
+   ],
+   "topics": "magic circle, meaningful play, rules, emergence, play as culture",
+   "checked": "Open Library"
+  },
+  {
+   "id": "bjork2005",
+   "cite": "Björk & Holopainen 2005, Patterns in Game Design. Charles River Media",
+   "link": "https://openlibrary.org/isbn/9781584503545",
+   "isbn": "9781584503545",
+   "match": [
+    "Bjork",
+    "Björk"
+   ],
+   "topics": "game design patterns catalogue: goals, rewards, turns, time limits, cooperation",
+   "checked": "Open Library"
+  },
+  {
+   "id": "sweetser2005",
+   "cite": "Sweetser & Wyeth 2005, GameFlow: A Model for Evaluating Player Enjoyment in Games. Computers in Entertainment 3(3)",
+   "link": "https://doi.org/10.1145/1077246.1077253",
+   "doi": "10.1145/1077246.1077253",
+   "match": [
+    "GameFlow"
+   ],
+   "topics": "concentration, challenge, player skills, control, clear goals, feedback, immersion, social interaction",
+   "checked": "Crossref"
+  },
+  {
+   "id": "reeves2005",
+   "cite": "Reeves, Benford, O'Malley & Fraser 2005, Designing the Spectator Experience. CHI 2005",
+   "link": "https://doi.org/10.1145/1054972.1055074",
+   "doi": "10.1145/1054972.1055074",
+   "match": [
+    "Reeves"
+   ],
+   "topics": "spectators, visible manipulations and effects, performance in public",
+   "checked": "Crossref"
+  },
+  {
+   "id": "mueller2014",
+   "cite": "Mueller & Isbister 2014, Movement-Based Game Guidelines. CHI 2014",
+   "link": "https://doi.org/10.1145/2556288.2557163",
+   "doi": "10.1145/2556288.2557163",
+   "match": [
+    "Mueller"
+   ],
+   "topics": "movement and body games, fatigue, social movement, ambiguity of movement sensing",
+   "checked": "Crossref"
+  },
+  {
+   "id": "gee2003",
+   "cite": "Gee 2003, What Video Games Have to Teach Us About Learning and Literacy. Computers in Entertainment 1(1)",
+   "link": "https://doi.org/10.1145/950566.950595",
+   "doi": "10.1145/950566.950595",
+   "match": [
+    "Gee 2003"
+   ],
+   "topics": "learning principles in games, just-in-time information, pleasantly frustrating challenge",
+   "checked": "Crossref"
+  },
+  {
+   "id": "kolb1984",
+   "cite": "Kolb 1984, Experiential Learning: Experience as the Source of Learning and Development. Prentice Hall",
+   "link": "https://openlibrary.org/isbn/9780132952613",
+   "isbn": "9780132952613",
+   "match": [
+    "Kolb"
+   ],
+   "topics": "experiential learning cycle: experience, reflection, conceptualisation, experimentation",
+   "checked": "Open Library"
+  },
+  {
+   "id": "kennedy1993",
+   "cite": "Kennedy, Lane, Berbaum & Lilienthal 1993, Simulator Sickness Questionnaire. International Journal of Aviation Psychology 3(3)",
+   "link": "https://doi.org/10.1207/s15327108ijap0303_3",
+   "doi": "10.1207/s15327108ijap0303_3",
+   "match": [
+    "Kennedy"
+   ],
+   "topics": "simulator and cybersickness symptoms: nausea, oculomotor, disorientation",
+   "checked": "Crossref"
+  },
+  {
+   "id": "laviola2000",
+   "cite": "LaViola 2000, A Discussion of Cybersickness in Virtual Environments. ACM SIGCHI Bulletin 32(1)",
+   "link": "https://doi.org/10.1145/333329.333344",
+   "doi": "10.1145/333329.333344",
+   "match": [
+    "LaViola"
+   ],
+   "topics": "causes of cybersickness: vection, latency, field of view, artificial locomotion",
+   "checked": "Crossref"
+  },
+  {
+   "id": "kuhn2023clam",
+   "cite": "Kuhn, Gal & Farquhar 2022, CLAM: Selective Clarification for Ambiguous Questions with Generative Language Models (arXiv:2212.07769)",
+   "link": "https://arxiv.org/abs/2212.07769",
+   "match": [
+    "CLAM"
+   ],
+   "topics": "asking clarifying questions when a request is ambiguous",
+   "checked": "arXiv API (title and authors)"
+  },
+  {
+   "id": "juul2005",
+   "cite": "Juul 2005, Half-Real: Video Games between Real Rules and Fictional Worlds. MIT Press",
+   "link": "https://openlibrary.org/isbn/9780262101103",
+   "isbn": "9780262101103",
+   "match": [
+    "Juul"
+   ],
+   "topics": "rules and fiction, classic game model, failure",
+   "checked": "Open Library"
+  },
+  {
+   "id": "juul2013",
+   "cite": "Juul 2013, The Art of Failure: An Essay on the Pain of Playing Video Games. MIT Press",
+   "link": "https://openlibrary.org/isbn/9780262019057",
+   "isbn": "9780262019057",
+   "match": [],
+   "topics": "failure, retry, why losing can be enjoyable",
+   "checked": "Open Library"
+  },
+  {
+   "id": "isbister2016",
+   "cite": "Isbister 2016, How Games Move Us: Emotion by Design. MIT Press",
+   "link": "https://openlibrary.org/isbn/9780262034265",
+   "isbn": "9780262034265",
+   "match": [
+    "Isbister 2016"
+   ],
+   "topics": "emotion, characters, social play, movement and physical play",
+   "checked": "Open Library"
+  },
+  {
+   "id": "hodent2017",
+   "cite": "Hodent 2017, The Gamer's Brain: How Neuroscience and UX Can Impact Video Game Design. CRC Press",
+   "link": "https://openlibrary.org/isbn/9781498775502",
+   "isbn": "9781498775502",
+   "match": [
+    "Hodent"
+   ],
+   "topics": "perception, attention, memory, onboarding, usability, engage-ability",
+   "checked": "Open Library"
+  },
+  {
+   "id": "norman2013",
+   "cite": "Norman 2013, The Design of Everyday Things (revised ed.). Basic Books",
+   "link": "https://openlibrary.org/isbn/9780465050659",
+   "isbn": "9780465050659",
+   "match": [
+    "Norman"
+   ],
+   "topics": "affordances, signifiers, feedback, mapping, constraints, error",
+   "checked": "Open Library"
+  },
+  {
+   "id": "bartle1996",
+   "cite": "Bartle 1996, Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs. Journal of MUD Research 1(1)",
+   "link": "https://mud.co.uk/richard/hcds.htm",
+   "match": [
+    "Bartle"
+   ],
+   "topics": "player types: achievers, explorers, socialisers, killers",
+   "checked": "URL reachable"
+  },
+  {
+   "id": "campbell1949",
+   "cite": "Campbell 1949, The Hero with a Thousand Faces. Pantheon Books",
+   "link": "https://openlibrary.org/isbn/9780691119243",
+   "isbn": "9780691119243",
+   "match": [
+    "Campbell"
+   ],
+   "topics": "hero's journey: call, trials, return",
+   "checked": "Open Library"
+  },
+  {
+   "id": "freytag1863",
+   "cite": "Freytag 1863, Die Technik des Dramas (Technique of the Drama)",
+   "link": "https://archive.org/details/freytagstechniqu00freyuoft",
+   "match": [
+    "Freytag"
+   ],
+   "topics": "dramatic arc: exposition, rising action, climax, falling action, resolution",
+   "checked": "URL reachable"
+  },
+  {
+   "id": "mcKee1997",
+   "cite": "McKee 1997, Story: Substance, Structure, Style and the Principles of Screenwriting. ReganBooks",
+   "link": "https://openlibrary.org/isbn/9780060391683",
+   "isbn": "9780060391683",
+   "match": [
+    "McKee"
+   ],
+   "topics": "story structure, inciting incident, beats, climax",
+   "checked": "Open Library"
+  },
+  {
+   "id": "jenkins2004",
+   "cite": "Jenkins 2004, Game Design as Narrative Architecture. In First Person, MIT Press",
+   "link": "https://web.mit.edu/~21fms/People/henry3/games&narrative.html",
+   "match": [
+    "Jenkins"
+   ],
+   "topics": "environmental storytelling, evoked, enacted, embedded and emergent narrative",
+   "checked": "URL reachable"
+  },
+  {
+   "id": "gai-guidelines",
+   "cite": "Game Accessibility Guidelines (Ellis et al., ongoing)",
+   "link": "https://gameaccessibilityguidelines.com/",
+   "match": [
+    "Game Accessibility Guidelines"
+   ],
+   "topics": "motor, vision, hearing, cognitive accessibility, subtitles, colour-blind safe palettes, adjustable difficulty",
+   "checked": "URL reachable"
+  },
+  {
+   "id": "xag",
+   "cite": "Microsoft, Xbox Accessibility Guidelines",
+   "link": "https://learn.microsoft.com/en-us/gaming/accessibility/guidelines",
+   "match": [
+    "Xbox Accessibility"
+   ],
+   "topics": "text size, contrast, audio cues, input remapping, difficulty options",
+   "checked": "URL reachable"
+  },
+  {
+   "id": "meta-comfort",
+   "cite": "Meta, VR comfort and usability best practices (Meta Horizon developer docs)",
+   "link": "https://developers.meta.com/horizon/resources/locomotion-comfort-usability/",
+   "match": [
+    "Meta VR comfort",
+    "Meta/Oculus VR comfort"
+   ],
+   "topics": "locomotion comfort, vection, frame rate, user height, seated vs standing",
+   "checked": "URL reachable"
+  },
+  {
+   "id": "meta-mr",
+   "cite": "Meta, Mixed reality design guidelines (Meta Horizon developer docs)",
+   "link": "https://developers.meta.com/horizon/resources/mr-design-guideline/",
+   "match": [
+    "MR design guidelines",
+    "Meta MR"
+   ],
+   "topics": "passthrough, scene understanding, room boundaries, real furniture, safety in MR",
+   "checked": "URL reachable"
+  },
+  {
+   "id": "meta-safety",
+   "cite": "Meta, Health and safety warnings and age guidance for Meta Quest",
+   "link": "https://www.meta.com/legal/quest/health-and-safety-warnings/",
+   "match": [
+    "Meta Quest safety",
+    "age guidance"
+   ],
+   "topics": "age 10+ guidance, play area, breaks, photosensitivity, adult supervision",
+   "checked": "URL reachable"
+  },
+  {
+   "id": "bruckman1999",
+   "cite": "Bruckman 1999, Can Educational Be Fun? Game Developers Conference",
+   "link": "https://faculty.cc.gatech.edu/~asb/papers/conference/bruckman-gdc99.pdf",
+   "match": [
+    "Bruckman"
+   ],
+   "topics": "educational games, chocolate-covered broccoli, integrating learning into play",
+   "checked": "URL reachable"
+  },
+  {
+   "id": "luminate2024",
+   "cite": "Suh, Chen, Min, Li & Xia 2024, Luminate: Structured Generation and Exploration of Design Space with Large Language Models for Human-AI Co-Creation. CHI 2024",
+   "link": "https://doi.org/10.1145/3613904.3642400",
+   "doi": "10.1145/3613904.3642400",
+   "match": [
+    "Luminate"
+   ],
+   "topics": "design fixation, exploring diverse options with LLMs, dimensions of a design space",
+   "checked": "Crossref"
+  },
+  {
+   "id": "jansson1991",
+   "cite": "Jansson & Smith 1991, Design Fixation. Design Studies 12(1)",
+   "link": "https://doi.org/10.1016/0142-694X(91)90003-F",
+   "doi": "10.1016/0142-694X(91)90003-F",
+   "match": [
+    "Jansson"
+   ],
+   "topics": "design fixation on examples, copying features of examples",
+   "checked": "Crossref"
+  },
+  {
+   "id": "hofstede2001",
+   "cite": "Hofstede 2001, Culture's Consequences (2nd ed.). Sage",
+   "link": "https://openlibrary.org/isbn/9780803973237",
+   "isbn": "9780803973237",
+   "match": [
+    "Hofstede"
+   ],
+   "topics": "cultural dimensions: power distance, individualism, uncertainty avoidance",
+   "checked": "Open Library"
+  },
+  {
+   "id": "sanders2008",
+   "cite": "Sanders & Stappers 2008, Co-creation and the New Landscapes of Design. CoDesign 4(1)",
+   "link": "https://doi.org/10.1080/15710880701875068",
+   "doi": "10.1080/15710880701875068",
+   "match": [],
+   "topics": "co-design with non-designers, participatory design",
+   "checked": "Crossref"
+  },
+  {
+   "id": "vygotsky1978",
+   "cite": "Vygotsky 1978, Mind in Society. Harvard University Press",
+   "link": "https://openlibrary.org/isbn/9780674576292",
+   "isbn": "9780674576292",
+   "match": [],
+   "topics": "zone of proximal development, scaffolding learning",
+   "checked": "Open Library"
+  },
+  {
+   "id": "malone1981",
+   "cite": "Malone 1981, Toward a Theory of Intrinsically Motivating Instruction. Cognitive Science 5(4)",
+   "link": "https://doi.org/10.1207/s15516709cog0504_2",
+   "doi": "10.1207/s15516709cog0504_2",
+   "match": [
+    "Malone"
+   ],
+   "topics": "challenge, fantasy, curiosity in learning games",
+   "checked": "Crossref"
+  },
+  {
+   "id": "tuan1977",
+   "cite": "Tuan 1977, Space and Place: The Perspective of Experience. University of Minnesota Press",
+   "link": "https://openlibrary.org/isbn/9780816608089",
+   "isbn": "9780816608089",
+   "match": [],
+   "topics": "how people experience space and place",
+   "checked": "Open Library"
+  },
+  {
+   "id": "lynch1960",
+   "cite": "Lynch 1960, The Image of the City. MIT Press",
+   "link": "https://openlibrary.org/isbn/9780262620017",
+   "isbn": "9780262620017",
+   "match": [
+    "Lynch"
+   ],
+   "topics": "wayfinding: paths, edges, districts, nodes, landmarks",
+   "checked": "Open Library"
+  },
+  {
+   "id": "itten1961",
+   "cite": "Itten 1961, The Art of Color. Reinhold",
+   "link": "https://openlibrary.org/isbn/9780471289289",
+   "isbn": "9780471289289",
+   "match": [
+    "Itten"
+   ],
+   "topics": "colour contrast, complementary colours, warm and cool, colour harmony",
+   "checked": "Open Library"
+  },
+  {
+   "id": "wcag21",
+   "cite": "W3C 2018, Web Content Accessibility Guidelines (WCAG) 2.1",
+   "link": "https://www.w3.org/TR/WCAG21/",
+   "match": [
+    "WCAG"
+   ],
+   "topics": "contrast ratio, text size, flashing thresholds (three flashes), readable text",
+   "checked": "URL reachable"
+  }
+ ]
+}

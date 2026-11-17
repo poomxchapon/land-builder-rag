@@ -39,7 +39,13 @@
     "families"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cu-mae-nak",
@@ -80,7 +86,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-krasue",
@@ -122,7 +131,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-phi-pop",
@@ -161,7 +173,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-nang-tani",
@@ -203,7 +218,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-phi-am",
@@ -244,7 +262,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-pret-hungry-ghost",
@@ -286,7 +307,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-phi-ta-khon",
@@ -328,7 +352,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-khamot-wisps",
@@ -369,7 +396,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-ghosts-sent-home-not-killed",
@@ -411,7 +441,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-himmapan-overview",
@@ -454,7 +487,10 @@
     "kids"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-naga",
@@ -493,7 +529,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-garuda",
@@ -527,7 +566,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-kinnaree",
@@ -568,7 +610,10 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-singha-guardians",
@@ -602,7 +647,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-songkran",
@@ -644,7 +692,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-songkran-no-real-water",
@@ -674,7 +725,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cu-loy-krathong",
@@ -717,7 +774,10 @@
     "solo"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-yi-peng-lanterns",
@@ -759,7 +819,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-chiang-mai-flower-festival",
@@ -801,7 +864,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-vegetarian-festival",
@@ -841,7 +907,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-bun-bang-fai",
@@ -882,7 +951,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-chinese-new-year-thailand",
@@ -923,7 +995,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-festival-after-the-date",
@@ -955,7 +1030,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-night-market",
@@ -997,7 +1075,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-floating-market",
@@ -1038,7 +1119,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-rice-fields",
@@ -1080,7 +1164,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-mountain-mist-doi",
@@ -1122,7 +1209,10 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-old-city-moat-walls",
@@ -1164,7 +1254,15 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "lynch1960",
+    "why": "Lynch's image of the city (paths, edges, nodes, landmarks) directly matches using the moat as an edge, gates as nodes/checkpoints and bastions as landmarks on a loop route."
+   }
+  ]
  },
  {
   "id": "cu-lanna-style",
@@ -1199,7 +1297,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-temple-backdrop-only",
@@ -1230,7 +1331,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-spirit-houses-offerings",
@@ -1263,7 +1367,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-sacred-objects-pickups",
@@ -1296,7 +1403,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-street-food-stall",
@@ -1337,7 +1447,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-mango-sticky-rice",
@@ -1378,7 +1491,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-muay-thai-theme",
@@ -1419,7 +1535,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-krabi-krabong-sword",
@@ -1460,7 +1579,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-elephants-respect",
@@ -1498,7 +1620,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-region-isan",
@@ -1535,7 +1660,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-region-south-islands",
@@ -1575,7 +1703,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-region-central-river",
@@ -1615,7 +1746,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-hill-communities-respect",
@@ -1647,7 +1781,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-buddha-images-never-props",
@@ -1680,7 +1817,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-monks-never-enemies",
@@ -1715,7 +1855,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-royal-symbols-substitute",
@@ -1750,7 +1893,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-head-feet-etiquette",
@@ -1780,7 +1926,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-castles-knights",
@@ -1822,7 +1971,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-halloween-uk",
@@ -1865,7 +2017,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-halloween-thai-events-cutoff",
@@ -1898,7 +2053,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-christmas",
@@ -1939,7 +2097,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-bonfire-night",
@@ -1980,7 +2141,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-seaside-pier",
@@ -2022,7 +2186,10 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-generic-london-city",
@@ -2061,7 +2228,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-egyptian-ruins",
@@ -2103,7 +2273,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-sun-temple-ruins",
@@ -2143,7 +2316,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-norse",
@@ -2185,7 +2361,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-japanese-inspired",
@@ -2229,7 +2408,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-dinosaurs-museum",
@@ -2270,7 +2452,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-space",
@@ -2313,7 +2498,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-pirates",
@@ -2355,7 +2543,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-toys",
@@ -2397,7 +2588,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-candy",
@@ -2438,7 +2632,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-ice-frost",
@@ -2479,7 +2676,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-music",
@@ -2520,7 +2720,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-farm",
@@ -2561,7 +2764,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-jungle",
@@ -2603,7 +2809,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-underwater",
@@ -2645,7 +2854,10 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-robots",
@@ -2687,7 +2899,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-superheroes-generic",
@@ -2726,7 +2941,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-thai-calendar-months",
@@ -2757,7 +2975,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-uk-calendar-months",
@@ -2788,7 +3009,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-thai-seasons-weather",
@@ -2818,7 +3042,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-fit-battle-enemies",
@@ -2855,7 +3082,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-fit-tactics-boards",
@@ -2892,7 +3122,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-fit-runner-routes",
@@ -2929,7 +3162,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-inspired-not-copied",
@@ -2961,7 +3197,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-original-twist-recipe",
@@ -2996,7 +3235,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cu-real-people-likeness",
@@ -3030,6 +3272,9 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  }
 ]

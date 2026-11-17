@@ -11,6 +11,8 @@ A design-knowledge base and retrieval code for an AI game-design assistant. The 
 | `data/facts.json` | **92 fact rules**: engine limits, defaults and genre rules, with structured triggers |
 | `data/graph.json` | card-to-card links (similar, shared tags) |
 | `data/gaps.json` | **knowledge gaps**: 562 needs found in 54 design sessions, graded against the cards (57% covered, 40% partly, 3% none), by topic, venue and phase, and 20 themes of cards to write next |
+| `data/references.json` | **the published works** the cards cite or that support them (44, each DOI checked on Crossref, ISBN on Open Library, URL live) |
+| `data/card-sources.json` + `pipeline/sources.mjs` | **where each card comes from**: provenance (literature, platform guideline, studio document, engine, design sessions, design practice), the works it cites, and for design-practice cards any supporting reading an AI agent matched and a second blind check confirmed |
 | `src/rag.mjs` | dense retrieval with tag boosts (the live baseline) and the prompt block the AI receives |
 | `src/rag2.mjs` | BM25, reciprocal rank fusion, fact routing by rules, graph expansion, and the cascade that combines them |
 | `eval/` | a card-level retrieval test: 36 design steps, 1,295 graded (step, card) pairs, two labellers, `score.mjs` to recompute every number |

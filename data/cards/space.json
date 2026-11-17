@@ -26,7 +26,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-one-to-one-scale",
@@ -55,7 +61,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-walls-as-world-edge",
@@ -86,7 +98,15 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "meta-mr",
+    "why": "Meta's mixed reality guidelines discuss room boundaries and real walls, which the card turns into deliberate world edges."
+   }
+  ]
  },
  {
   "id": "sp-skyline-backdrop",
@@ -117,7 +137,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-crowd-as-audience",
@@ -150,7 +173,15 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "reeves2005",
+    "why": "Designing the Spectator Experience directly addresses how spectators and visible performance shape play in public settings."
+   }
+  ]
  },
  {
   "id": "sp-void-floor-risk",
@@ -185,7 +216,13 @@
     "kids"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-vr-only-decor",
@@ -211,7 +248,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-no-free-locomotion",
@@ -241,7 +281,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-living-room",
@@ -274,7 +317,10 @@
     "solo"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-classroom",
@@ -306,7 +352,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-hall",
@@ -338,7 +387,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-gym",
@@ -369,7 +421,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-garden",
@@ -401,7 +456,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-car-park",
@@ -434,7 +492,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-rooftop",
@@ -466,7 +527,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-mall-atrium",
@@ -499,7 +563,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-event-booth",
@@ -531,7 +598,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-fortal-court",
@@ -563,7 +633,10 @@
     "families"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-size-under-3",
@@ -591,7 +664,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-size-small",
@@ -621,7 +697,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-size-medium",
@@ -649,7 +728,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-size-large",
@@ -680,7 +762,10 @@
     "groups"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-usable-side",
@@ -707,7 +792,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-tiny-room",
@@ -740,7 +828,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-edge-clearance",
@@ -767,7 +858,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-walking-corridor",
@@ -794,7 +891,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-real-obstacles",
@@ -822,7 +922,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-paces-to-metres",
@@ -849,7 +955,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-unknown-size-default",
@@ -877,7 +986,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-size-question-choices",
@@ -904,7 +1016,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-checkpoint-spacing",
@@ -933,7 +1048,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-hazard-placement",
@@ -964,7 +1082,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-spawn-clearance",
@@ -991,7 +1112,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-light-daylight-washout",
@@ -1020,7 +1144,13 @@
    ],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-light-indoor-steady",
@@ -1047,7 +1177,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-light-night",
@@ -1079,7 +1212,13 @@
    ],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-light-preset-by-venue",
@@ -1107,7 +1246,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-light-time-of-day",
@@ -1133,7 +1275,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-light-windows-glare",
@@ -1161,7 +1306,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-safe-no-running",
@@ -1194,7 +1345,13 @@
    ],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-safe-no-sudden-scares",
@@ -1228,7 +1385,13 @@
     "seniors"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-safe-no-looking-up",
@@ -1255,7 +1418,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-seated-alternative",
@@ -1285,7 +1454,13 @@
     "seniors"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-motion-sickness",
@@ -1317,7 +1492,13 @@
     "first-time-vr"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-session-length",
@@ -1345,7 +1526,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-fatigue",
@@ -1375,7 +1562,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-kids-headset-weight",
@@ -1405,7 +1598,13 @@
     "kids"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-hygiene-turnover",
@@ -1434,7 +1633,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-heat-outdoor",
@@ -1462,7 +1664,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-guardian-boundary",
@@ -1488,7 +1696,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-spotter-for-groups",
@@ -1519,7 +1733,15 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "meta-safety",
+    "why": "Meta's safety guidance covers play area supervision and adult oversight, matching the card's spotter role for group play."
+   }
+  ]
  },
  {
   "id": "sp-players-kids-6-9",
@@ -1555,7 +1777,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-players-kids-10-12",
@@ -1588,7 +1813,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-players-teens",
@@ -1620,7 +1848,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-players-adults",
@@ -1653,7 +1884,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-players-seniors",
@@ -1688,7 +1922,13 @@
     "seniors"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-players-families",
@@ -1721,7 +1961,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-players-first-time-vr",
@@ -1751,7 +1994,13 @@
     "first-time-vr"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-players-gamers",
@@ -1785,7 +2034,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-players-school-class",
@@ -1820,7 +2072,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-players-tourists",
@@ -1853,7 +2108,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-players-limited-mobility",
@@ -1882,7 +2140,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-text-amount",
@@ -1913,7 +2177,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-colour-contrast",
@@ -1944,7 +2211,10 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-guard-beat-by-age",
@@ -1980,7 +2250,10 @@
     "first-time-vr"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-time-limit-by-player",
@@ -2010,7 +2283,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-spec-bodies-not-game",
@@ -2041,7 +2317,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-spec-key-moments-side",
@@ -2069,7 +2348,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-spec-leaderboard-screen",
@@ -2101,7 +2383,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-spec-cheering-hints",
@@ -2133,7 +2418,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-spec-never-inside",
@@ -2160,7 +2448,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-spec-queue-entertainment",
@@ -2189,7 +2483,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-group-race-vs-shared",
@@ -2221,7 +2518,10 @@
     "families"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-group-player-count",
@@ -2251,7 +2551,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-group-two-lanes",
@@ -2287,7 +2590,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-group-turn-taking",
@@ -2319,7 +2625,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-group-throughput",
@@ -2349,7 +2658,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-pc-no-room",
@@ -2375,7 +2687,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-pc-friends-watching",
@@ -2406,7 +2721,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-pc-controls",
@@ -2441,7 +2759,10 @@
     "gamers"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-pc-no-mr-safety",
@@ -2473,7 +2794,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-venue-noise",
@@ -2503,7 +2827,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-outdoor-rain-wind",
@@ -2531,7 +2858,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-floor-surfaces",
@@ -2562,7 +2892,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-tracking-loss",
@@ -2591,7 +2924,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-kids-with-parents",
@@ -2624,7 +2963,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-wheelchair-users",
@@ -2655,7 +2997,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-cultural-venues",
@@ -2689,7 +3037,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "sp-nearby-drops",
@@ -2717,7 +3068,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-safety-briefing",
@@ -2747,7 +3104,13 @@
     "kids"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "sp-home-pets-doors",
@@ -2776,6 +3139,9 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  }
 ]

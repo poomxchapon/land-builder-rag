@@ -27,7 +27,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-value-of-information",
@@ -56,7 +59,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-question-budget",
@@ -84,7 +90,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-one-question-per-turn",
@@ -112,7 +121,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-choices-cover-the-space",
@@ -142,7 +154,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-multi-vs-single-select",
@@ -179,7 +194,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-why-line-teaches",
@@ -208,7 +226,12 @@
    "feelings": [],
    "players": []
   },
-  "source": "Fullerton, Game Design Workshop"
+  "source": "Fullerton, Game Design Workshop",
+  "provenance": "literature",
+  "refs": [
+   "fullerton2008"
+  ],
+  "see_also": []
  },
  {
   "id": "un-never-ask-personal-data",
@@ -240,7 +263,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-stop-condition",
@@ -269,7 +295,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-summary-readback",
@@ -298,7 +327,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-vague-goal-make-it-fun",
@@ -336,7 +368,13 @@
    ],
    "players": []
   },
-  "source": "Hunicke, LeBlanc & Zubek 2004, MDA; Koster, A Theory of Fun"
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA; Koster, A Theory of Fun",
+  "provenance": "literature",
+  "refs": [
+   "hunicke2004mda",
+   "koster2004"
+  ],
+  "see_also": []
  },
  {
   "id": "un-missing-fact-group-size",
@@ -368,7 +406,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-missing-fact-floor-size",
@@ -396,7 +437,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-conflict-scary-for-young-kids",
@@ -432,7 +476,13 @@
     "families"
    ]
   },
-  "source": "Meta VR comfort and MR design guidelines; design practice"
+  "source": "Meta VR comfort and MR design guidelines; design practice",
+  "provenance": "literature",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-conflict-relaxing-and-hard",
@@ -465,7 +515,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-conflict-race-in-small-room",
@@ -502,7 +555,12 @@
     "families"
    ]
   },
-  "source": "Meta MR safety guidelines; FortalLand engine"
+  "source": "Meta MR safety guidelines; FortalLand engine",
+  "provenance": "engine",
+  "refs": [
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-impossible-shooting",
@@ -538,7 +596,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-impossible-npc-talk",
@@ -574,7 +635,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-impossible-inventory-crafting",
@@ -609,7 +673,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-impossible-free-locomotion-mr",
@@ -644,7 +711,12 @@
     "kids"
    ]
   },
-  "source": "Meta VR comfort guidelines; FortalLand engine"
+  "source": "Meta VR comfort guidelines; FortalLand engine",
+  "provenance": "engine",
+  "refs": [
+   "meta-comfort"
+  ],
+  "see_also": []
  },
  {
   "id": "un-impossible-voice-chat",
@@ -678,7 +750,10 @@
     "families"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-impossible-player-builds",
@@ -715,7 +790,10 @@
     "teens"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-hidden-assumption-spectators-see",
@@ -747,7 +825,10 @@
     "groups"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-hidden-assumption-dark-outdoors",
@@ -779,7 +860,12 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine; Meta MR design guidelines"
+  "source": "FortalLand engine; Meta MR design guidelines",
+  "provenance": "engine",
+  "refs": [
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-hidden-assumption-empty-floor",
@@ -807,7 +893,12 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta MR safety guidelines; FortalLand engine"
+  "source": "Meta MR safety guidelines; FortalLand engine",
+  "provenance": "engine",
+  "refs": [
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-hidden-assumption-creator-is-player",
@@ -837,7 +928,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-adventure",
@@ -869,7 +963,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-challenge",
@@ -903,7 +1000,12 @@
    ],
    "players": []
   },
-  "source": "Csikszentmihalyi 1990, Flow; design practice"
+  "source": "Csikszentmihalyi 1990, Flow; design practice",
+  "provenance": "literature",
+  "refs": [
+   "csikszentmihalyi1990"
+  ],
+  "see_also": []
  },
  {
   "id": "un-word-cute",
@@ -937,7 +1039,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-epic",
@@ -969,7 +1074,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-exciting",
@@ -1001,7 +1109,12 @@
    ],
    "players": []
   },
-  "source": "Meta MR safety guidelines; design practice"
+  "source": "Meta MR safety guidelines; design practice",
+  "provenance": "literature",
+  "refs": [
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-word-scary",
@@ -1038,7 +1151,12 @@
     "adults"
    ]
   },
-  "source": "Meta MR safety guidelines; design practice"
+  "source": "Meta MR safety guidelines; design practice",
+  "provenance": "literature",
+  "refs": [
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-word-easy",
@@ -1072,7 +1190,10 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-like-famous-game",
@@ -1105,7 +1226,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-educational",
@@ -1145,7 +1269,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-thai-style",
@@ -1178,7 +1305,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-wow",
@@ -1209,7 +1339,12 @@
    ],
    "players": []
   },
-  "source": "Hunicke, LeBlanc & Zubek 2004, MDA; design practice"
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA; design practice",
+  "provenance": "literature",
+  "refs": [
+   "hunicke2004mda"
+  ],
+  "see_also": []
  },
  {
   "id": "un-word-together",
@@ -1241,7 +1376,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-default-session-minutes",
@@ -1273,7 +1411,12 @@
     "families"
    ]
   },
-  "source": "Meta VR comfort guidelines; design practice"
+  "source": "Meta VR comfort guidelines; design practice",
+  "provenance": "literature",
+  "refs": [
+   "meta-comfort"
+  ],
+  "see_also": []
  },
  {
   "id": "un-default-play-mode",
@@ -1307,7 +1450,10 @@
     "solo"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-default-lighting",
@@ -1337,7 +1483,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-default-difficulty",
@@ -1372,7 +1521,12 @@
     "gamers"
    ]
   },
-  "source": "Csikszentmihalyi 1990, Flow"
+  "source": "Csikszentmihalyi 1990, Flow",
+  "provenance": "literature",
+  "refs": [
+   "csikszentmihalyi1990"
+  ],
+  "see_also": []
  },
  {
   "id": "un-default-constraints",
@@ -1402,7 +1556,12 @@
     "first-time-vr"
    ]
   },
-  "source": "Meta MR safety guidelines; FortalLand engine"
+  "source": "Meta MR safety guidelines; FortalLand engine",
+  "provenance": "engine",
+  "refs": [
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-default-vr-experience",
@@ -1433,7 +1592,12 @@
     "kids"
    ]
   },
-  "source": "Meta VR comfort guidelines"
+  "source": "Meta VR comfort guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort"
+  ],
+  "see_also": []
  },
  {
   "id": "un-default-concept-from-feelings",
@@ -1462,7 +1626,15 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "luminate2024",
+    "why": "Luminate discusses structured exploration of a design space with LLMs generating diverse options along dimensions, matching the card's approach of offering distinct theme options to resolve an open brief."
+   }
+  ]
  },
  {
   "id": "un-never-default-platform",
@@ -1490,7 +1662,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-never-default-mr-floor",
@@ -1517,7 +1692,12 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta MR safety guidelines; FortalLand engine"
+  "source": "Meta MR safety guidelines; FortalLand engine",
+  "provenance": "engine",
+  "refs": [
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-state-assumption-format",
@@ -1547,7 +1727,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-decision-provenance",
@@ -1578,7 +1761,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-confidence-levels",
@@ -1607,7 +1793,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-inference-from-clue",
@@ -1638,7 +1827,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-surface-assumptions-in-options",
@@ -1665,7 +1857,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-surface-assumptions-in-prototype",
@@ -1692,7 +1887,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-resolve-via-prototype-comments",
@@ -1721,7 +1919,12 @@
    "feelings": [],
    "players": []
   },
-  "source": "Fullerton, Game Design Workshop; design practice"
+  "source": "Fullerton, Game Design Workshop; design practice",
+  "provenance": "literature",
+  "refs": [
+   "fullerton2008"
+  ],
+  "see_also": []
  },
  {
   "id": "un-creator-decision-is-final",
@@ -1751,7 +1954,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-change-log-between-versions",
@@ -1779,7 +1985,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-closest-buildable-alternative",
@@ -1809,7 +2018,12 @@
    "feelings": [],
    "players": []
   },
-  "source": "Hunicke, LeBlanc & Zubek 2004, MDA; design practice"
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA; design practice",
+  "provenance": "literature",
+  "refs": [
+   "hunicke2004mda"
+  ],
+  "see_also": []
  },
  {
   "id": "un-conflict-priority-order",
@@ -1838,7 +2052,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-conflict-many-players-tiny-space",
@@ -1869,7 +2086,12 @@
     "kids"
    ]
   },
-  "source": "Meta MR safety guidelines"
+  "source": "Meta MR safety guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-conflict-long-story-short-session",
@@ -1902,7 +2124,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-same-option-three-skins",
@@ -1930,7 +2155,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-conflict-brand-vs-audience",
@@ -1959,7 +2187,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-novice-creator",
@@ -1987,7 +2218,12 @@
    "feelings": [],
    "players": []
   },
-  "source": "Fullerton, Game Design Workshop; design practice"
+  "source": "Fullerton, Game Design Workshop; design practice",
+  "provenance": "literature",
+  "refs": [
+   "fullerton2008"
+  ],
+  "see_also": []
  },
  {
   "id": "un-experienced-creator",
@@ -2018,7 +2254,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-kid-creator",
@@ -2049,7 +2288,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-teacher-creator",
@@ -2082,7 +2324,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-event-organiser-creator",
@@ -2114,7 +2359,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-brand-creator",
@@ -2144,7 +2392,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-cultural-thai-ghosts-for-kids",
@@ -2179,7 +2430,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-cultural-temple-respect",
@@ -2212,7 +2466,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-vague-comment-cooler",
@@ -2243,7 +2500,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-vague-comment-not-wow",
@@ -2273,7 +2533,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-vague-comment-boring",
@@ -2304,7 +2567,12 @@
    ],
    "players": []
   },
-  "source": "Koster, A Theory of Fun; design practice"
+  "source": "Koster, A Theory of Fun; design practice",
+  "provenance": "literature",
+  "refs": [
+   "koster2004"
+  ],
+  "see_also": []
  },
  {
   "id": "un-vague-comment-too-hard",
@@ -2338,7 +2606,12 @@
     "kids"
    ]
   },
-  "source": "Csikszentmihalyi 1990, Flow"
+  "source": "Csikszentmihalyi 1990, Flow",
+  "provenance": "literature",
+  "refs": [
+   "csikszentmihalyi1990"
+  ],
+  "see_also": []
  },
  {
   "id": "un-vague-comment-more-thai",
@@ -2369,7 +2642,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-keep-unmentioned",
@@ -2398,7 +2674,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-comment-to-concrete-change",
@@ -2427,7 +2706,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-ask-once-on-ambiguous-comment",
@@ -2455,7 +2737,15 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "kuhn2023clam",
+    "why": "CLAM directly addresses asking a clarifying question only when an ambiguous request has genuinely divergent interpretations."
+   }
+  ]
  },
  {
   "id": "un-playtest-questions-from-uncertainty",
@@ -2483,7 +2773,12 @@
    "feelings": [],
    "players": []
   },
-  "source": "Fullerton, Game Design Workshop; design practice"
+  "source": "Fullerton, Game Design Workshop; design practice",
+  "provenance": "literature",
+  "refs": [
+   "fullerton2008"
+  ],
+  "see_also": []
  },
  {
   "id": "un-question-feelings-plain",
@@ -2520,7 +2815,12 @@
    ],
    "players": []
   },
-  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA",
+  "provenance": "literature",
+  "refs": [
+   "hunicke2004mda"
+  ],
+  "see_also": []
  },
  {
   "id": "un-question-players-age",
@@ -2554,7 +2854,10 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-question-spectators",
@@ -2584,7 +2887,10 @@
     "groups"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-question-not-sure-handling",
@@ -2612,7 +2918,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-question-free-text-answer",
@@ -2640,7 +2949,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-pc-skip-space-questions",
@@ -2667,7 +2979,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-question-order-by-dependency",
@@ -2695,7 +3010,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-example-full-vague-brief",
@@ -2732,7 +3050,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-for-all-ages",
@@ -2769,7 +3090,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-intense-action",
@@ -2807,7 +3131,13 @@
     "gamers"
    ]
   },
-  "source": "Swink, Game Feel; Meta MR safety guidelines"
+  "source": "Swink, Game Feel; Meta MR safety guidelines",
+  "provenance": "literature",
+  "refs": [
+   "swink2008",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-word-relaxing",
@@ -2845,7 +3175,15 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "kuhn2023clam",
+    "why": "CLAM's clarifying-question approach matches asking 'Chill like...?' to disambiguate the word's readings."
+   }
+  ]
  },
  {
   "id": "un-word-competitive",
@@ -2886,7 +3224,12 @@
     "groups"
    ]
   },
-  "source": "Caillois 1961, Man, Play and Games (agon); FortalLand engine"
+  "source": "Caillois 1961, Man, Play and Games (agon); FortalLand engine",
+  "provenance": "engine",
+  "refs": [
+   "caillois1961"
+  ],
+  "see_also": []
  },
  {
   "id": "un-word-story",
@@ -2920,7 +3263,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine; design practice"
+  "source": "FortalLand engine; design practice",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-realistic",
@@ -2953,7 +3299,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-ip-reference",
@@ -2987,7 +3336,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-word-unique",
@@ -3020,7 +3372,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-vague-comment-looks-plain",
@@ -3052,7 +3407,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-vague-comment-scarier",
@@ -3088,7 +3446,12 @@
     "kids"
    ]
   },
-  "source": "Meta MR safety guidelines; FortalLand engine"
+  "source": "Meta MR safety guidelines; FortalLand engine",
+  "provenance": "engine",
+  "refs": [
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "un-vague-comment-colours",
@@ -3118,7 +3481,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-comment-can-kids-play",
@@ -3150,7 +3516,12 @@
     "first-time-vr"
    ]
   },
-  "source": "Meta VR comfort guidelines; design practice"
+  "source": "Meta VR comfort guidelines; design practice",
+  "provenance": "literature",
+  "refs": [
+   "meta-comfort"
+  ],
+  "see_also": []
  },
  {
   "id": "un-vague-comment-too-long",
@@ -3183,7 +3554,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "un-vague-comment-confusing",
@@ -3215,6 +3589,9 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  }
 ]
