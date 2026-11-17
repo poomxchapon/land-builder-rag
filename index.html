@@ -55,7 +55,7 @@ a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
 <header><div class="wrap">
 <h1>Game Design Knowledge Base</h1>
 <p class="sub">The knowledge an AI game-design assistant retrieves while it interviews a creator, proposes options, prototypes and builds an XR game (Quest mixed reality or PC). Everything on this page is read from the files in this repository.</p>
-<nav id="nav"><button data-s="update">Update</button><button data-s="overview" class="on">Overview</button><button data-s="cards">Cards</button><button data-s="rules">Fact rules</button><button data-s="eval">Evaluation</button><button data-s="ab">With vs without</button><button data-s="gaps">Gaps</button><button data-s="try">Try it</button></nav>
+<nav id="nav"><button data-s="update">Update</button><button data-s="overview" class="on">Overview</button><button data-s="cards">Cards</button><button data-s="rules">Fact rules</button><button data-s="eval">Evaluation</button><button data-s="ab">With vs without</button><button data-s="gaps">Gaps</button><button data-s="template">Template</button><button data-s="try">Try it</button></nav>
 </div></header>
 <main class="wrap">
 <section id="update">
@@ -146,6 +146,31 @@ a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
   <p class="small dim">Data: <a href="data/gaps.json">data/gaps.json</a> (summary; the raw sessions are not published).</p>
 </section>
 
+<section id="template">
+  <p>One shared <b>template for describing a whole game</b>. Unity and Unreal store a game in different folders and file types, but both hold the same parts. The template takes that shared skeleton (12 sections, 49 slots), adds the design intent that only a design document holds, and is filled from each design. One filled template = one game; a blank slot is something the builder would have to guess. <a href="template/game-template.json">template/game-template.json</a></p>
+  <div class="tiles" id="t-tiles"></div>
+  <h2>What it shows</h2>
+  <ul class="upd">
+    <li><b>Rules, player, levels and design intent are almost always filled.</b> These are what the interview asks about and what the knowledge base is richest in.</li>
+    <li><b>Audio and animation are mostly blank</b> (music, sound effects and character animation missing in 50 to 90% of designs), and they are also where the knowledge base is thinnest: 1 to 4 cards each. The template shows the same gap from the design side that the Gaps tab shows from the needs side.</li>
+    <li><b>The knowledge base does not make designs more complete.</b> With it, 15.3% of slots are missing; without, 14.7% (fewer blanks in 3 of 10 briefs, sign test p = 0.34). It changes which slots get filled: more opponents, HUD and allies; fewer input devices and player views. It made designs better (With vs without tab), not fuller.</li>
+    <li><b>Next:</b> write cards for the empty slots, ask the interview about them, and retrieve cards by template slot so each blank gets its own knowledge.</li>
+  </ul>
+  <h2>The skeleton: where each part lives in Unity and Unreal</h2>
+  <div class="scroll"><table id="t-skel"></table></div>
+  <h2>How much of each section the designs fill</h2>
+  <div class="key"><span style="--c:var(--good)">stated</span><span style="--c:color-mix(in srgb,var(--acc2) 75%,var(--bg))">implied</span><span style="--c:var(--acc2)">missing (builder must guess)</span></div>
+  <p class="small dim">Top bar of each pair: with the knowledge base. Bottom bar: without. Same 10 briefs, filled blind to which side used the knowledge base.</p>
+  <div id="t-sec"></div>
+  <h2>Every slot</h2>
+  <div class="scroll"><table id="t-slots"></table></div>
+  <h2>Open one filled template</h2>
+  <div class="tools"><select id="t-pick"></select><span class="dim small">Values are the agent's English summary; the quote is from the design (often Thai).</span></div>
+  <div class="ab2"><div class="abcol" id="t-off"></div><div class="abcol on" id="t-on"></div></div>
+  <div class="note"><b>Caveats.</b> Filled by one AI agent (Kimi K3), not by people, from 20 runs of 10 briefs. "Implied" is a judgement call. The knowledge cards were sorted into slots by the same agent, so the card counts show where the knowledge base points, not how good each card is. The engine and design documents of this system shape what a design can say (for example, there is no voice or online play), so some slots stay blank by design.</div>
+  <p class="small dim">Data: <a href="results/template/template-fill.json">results/template/template-fill.json</a> (every filled slot with its evidence, and the template slots of every card). Code: <a href="template/fill.mjs">template/fill.mjs</a>.</p>
+</section>
+
 <section id="try">
   <p>Describe a design step. The fact rules and BM25 run here in your browser on the published files (dense search needs an embedding API key, see <a href="examples/search.mjs">examples/search.mjs</a>).</p>
   <div class="grid2">
@@ -168,7 +193,7 @@ a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
 import { bm25Index, bm25Rank, routeFacts } from './src/rag2.mjs';
 const $ = s => document.querySelector(s), esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const J = u => fetch(u).then(r => r.json());
-const [IX, F, G, EV, AG, GP, AB] = await Promise.all(['data/index.json', 'data/facts.json', 'data/graph.json', 'eval/eval-cards.json', 'eval/eval-agree.json', 'data/gaps.json', 'results/ab/ab-rag-on-off.json'].map(J));
+const [IX, F, G, EV, AG, GP, AB, TP] = await Promise.all(['data/index.json', 'data/facts.json', 'data/graph.json', 'eval/eval-cards.json', 'eval/eval-agree.json', 'data/gaps.json', 'results/ab/ab-rag-on-off.json', 'results/template/template-fill.json'].map(J));
 const cards = IX.cards, byId = new Map(cards.map(c => [c.id, c])), facts = F.facts, factIds = new Set(facts.map(f => f.id)), bm = bm25Index(cards);
 const tab = s => { const b = document.querySelector(`#nav button[data-s="${s}"]`); if (!b) return; document.querySelectorAll('#nav button,section').forEach(x => x.classList.remove('on')); b.classList.add('on'); $('#' + s).classList.add('on'); };
 document.addEventListener('click', e => { const g = e.target.dataset?.go; if (g) { e.preventDefault(); tab(g); history.replaceState(null, '', '#' + g); scrollTo(0, 0); } });
@@ -218,6 +243,21 @@ bars('#bysrc', count(origin), 'o');
   $('#g-themes').innerHTML = GP.themes.map((t, i) => `<div class="theme"><h3>${i + 1}. ${esc(t.theme)} <span class="dim small">· ${t.needs} needs</span></h3><div>${t.topics.map(x => `<span class="tag">${esc(x)}</span>`).join('')}</div><p class="small">${esc(t.why)}</p>
     <details><summary>${t.cards.length} cards to write</summary><ul>${t.cards.map(c => `<li><b>${esc(c.title)}</b> <span class="tag c">${esc(c.kind)}</span><br><span class="dim small">from: ${esc(c.source_hint)}</span></li>`).join('')}</ul></details>
     <details><summary>Example needs</summary><ul>${t.examples.map(e => `<li class="small">${esc(e)}</li>`).join('')}</ul></details></div>`).join(''); }
+
+// ---------- template ----------
+{ const st = r => `<div class="stack" title="stated ${r.stated}%, implied ${r.implied}%, missing ${r.missing}%"><i class="s1" style="width:${r.stated}%"></i><i class="s2" style="width:${r.implied}%"></i><i class="s3" style="width:${r.missing}%"></i></div>`;
+  const O = TP.overall, P = TP.paired, nSlots = TP.sections.reduce((a, s) => a + s.slots.length, 0);
+  $('#t-tiles').innerHTML = tile(`${TP.sections.length} / ${nSlots}`, 'sections / slots') + tile(TP.runs.length, 'designs filled (10 briefs, with and without)')
+    + tile(`${O.on.missing}% vs ${O.off.missing}%`, 'slots missing, with vs without the knowledge base') + tile(`${P.on_fewer_missing} / ${P.off_fewer_missing} / ${P.ties}`, `briefs where with / without leaves fewer blanks / ties (sign p = ${P.sign_p})`)
+    + tile(Object.keys(TP.card_slots).length.toLocaleString(), 'cards sorted into slots');
+  $('#t-skel').innerHTML = '<tr><th>Section</th><th>Unity</th><th>Unreal</th><th>Slots</th><th class="r">Cards</th></tr>' + TP.sections.map(s => `<tr><td><b>${esc(s.label)}</b></td><td class="small">${esc(s.unity)}</td><td class="small">${esc(s.unreal)}</td><td class="small">${s.slots.map(x => esc(x.label)).join(', ')}</td><td class="r">${s.cards}</td></tr>`).join('');
+  $('#t-sec').innerHTML = TP.sections.map(s => `<div class="srow"><span>${esc(s.label)}</span><div>${st(s.on)}<div style="height:3px"></div>${st(s.off)}</div><span class="small dim">${s.on.missing}% / ${s.off.missing}%</span></div>`).join('');
+  $('#t-slots').innerHTML = '<tr><th>Slot</th><th>Section</th><th>Asks for</th><th class="r">Missing, with</th><th class="r">Missing, without</th><th class="r">Cards</th></tr>' + TP.sections.flatMap(s => s.slots.map(x => `<tr><td><b>${esc(x.label)}</b></td><td class="small">${esc(s.label)}</td><td class="small">${esc(x.ask)}</td><td class="r">${x.on.missing}%</td><td class="r">${x.off.missing}%</td><td class="r">${x.cards}</td></tr>`)).join('');
+  const ids = [...new Set(TP.filled.map(r => r.id))]; $('#t-pick').innerHTML = ids.map(i => `<option>${i}</option>`).join('');
+  const col = (r, head) => !r ? '' : `<h3>${head}</h3><div class="dim small">${esc(r.title || '')}</div>` + TP.sections.map(s => `<h4>${esc(s.label)}</h4>` + s.slots.map(x => { const v = r.slots[x.id] || { status: 'missing' };
+    return `<div class="dec"><span class="tag ${v.status === 'stated' ? 'src-card' : v.status === 'missing' ? 'src-default' : ''}">${v.status}</span> <b>${esc(x.label)}</b>${v.value ? ': ' + esc(v.value) : ''}${v.evidence ? `<div class="dim small">"${esc(v.evidence)}"</div>` : ''}</div>`; }).join('')).join('');
+  const showT = () => { const id = $('#t-pick').value; $('#t-off').innerHTML = col(TP.filled.find(r => r.id === id && r.side === 'off'), 'Without the knowledge base'); $('#t-on').innerHTML = col(TP.filled.find(r => r.id === id && r.side === 'on'), 'With the knowledge base'); };
+  $('#t-pick').onchange = showT; showT(); }
 
 // ---------- cards ----------
 const cats = [...new Set(cards.map(c => c.cat))].sort();
