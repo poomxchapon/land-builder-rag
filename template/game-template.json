@@ -1,0 +1,145 @@
+{
+  "name": "Game description template",
+  "version": "0.1",
+  "about": "One shared skeleton for describing a whole game. Unity and Unreal store a game in different folders and file types, but both hold the same parts: project settings, rules, the player, levels, actors, art, animation, audio, UI, camera and networking. Each section below names where that part lives in a Unity project and in an Unreal project, then lists the slots a game description should fill. Section 12 (design intent) has no engine folder; it is the part a design document holds. One filled template = one game.",
+  "status": {
+    "stated": "the design says it directly",
+    "implied": "the design does not say it, but it follows clearly from what is said",
+    "missing": "the design does not say it; a builder would have to guess"
+  },
+  "sections": [
+    {
+      "id": "project", "label": "Project and target",
+      "unity": "ProjectSettings/ (Player, XR Plug-in Management, Quality), Packages/manifest.json, build target",
+      "unreal": "Config/DefaultEngine.ini, DefaultGame.ini, .uproject plugins, target platform",
+      "slots": [
+        { "id": "platform", "label": "Platform", "ask": "Device and mode the game ships to (e.g. Quest mixed reality, VR, PC)." },
+        { "id": "input_devices", "label": "Input devices", "ask": "What the player holds or uses (controllers, hands, mouse and keyboard, gamepad)." },
+        { "id": "play_space", "label": "Play space", "ask": "Physical or screen space the game needs (room size in metres, seated or standing, screen)." },
+        { "id": "session_length", "label": "Session length", "ask": "How long one play session or round lasts." },
+        { "id": "performance", "label": "Performance budget", "ask": "Frame rate, object counts or other limits the build must respect." }
+      ]
+    },
+    {
+      "id": "rules", "label": "Rules and game mode",
+      "unity": "GameManager scripts, ScriptableObject configs",
+      "unreal": "GameMode, GameState",
+      "slots": [
+        { "id": "genre", "label": "Genre", "ask": "Kind of game (e.g. runner, battle, tactics, puzzle)." },
+        { "id": "core_loop", "label": "Core loop", "ask": "The action the player repeats, and what it leads to." },
+        { "id": "objective", "label": "Objective and win", "ask": "What the player must do to finish or win." },
+        { "id": "fail_state", "label": "Lose or fail", "ask": "How the player can fail, and what happens then." },
+        { "id": "scoring", "label": "Scoring", "ask": "How points, stars or rank are earned and lost." },
+        { "id": "flow", "label": "Round flow", "ask": "Order of phases from start to end (intro, stages, climax, ending)." },
+        { "id": "difficulty", "label": "Difficulty", "ask": "How challenge is set and how it changes over the session." }
+      ]
+    },
+    {
+      "id": "player", "label": "Player",
+      "unity": "Player prefab, PlayerInput / Input Actions asset, XR Origin",
+      "unreal": "Pawn or Character, PlayerController, Enhanced Input actions",
+      "slots": [
+        { "id": "role", "label": "Player role", "ask": "Who the player is in the game world." },
+        { "id": "controls", "label": "Controls", "ask": "Which body movement or button does what." },
+        { "id": "abilities", "label": "Abilities", "ask": "Actions the player can take beyond moving (attack, block, capture, collect)." },
+        { "id": "player_count", "label": "Players", "ask": "How many play at once and how turns or teams work." },
+        { "id": "onboarding", "label": "Onboarding", "ask": "How a new player learns to play (tutorial, first safe step, staff help)." }
+      ]
+    },
+    {
+      "id": "world", "label": "Levels and world",
+      "unity": "Assets/Scenes/*.unity, terrain, NavMesh",
+      "unreal": "Content/Maps/*.umap (levels), World Partition, NavMesh",
+      "slots": [
+        { "id": "setting", "label": "Setting", "ask": "Where and when the game takes place (theme world)." },
+        { "id": "layout", "label": "Layout", "ask": "Shape of the level: route, arena, grid, positions in metres." },
+        { "id": "real_space", "label": "Real space fit", "ask": "How the level fits the real room: boundaries, obstacles, safe zones." },
+        { "id": "progression", "label": "Level progression", "ask": "Number of levels, stages or waves and how they connect." },
+        { "id": "spawns", "label": "Spawns and checkpoints", "ask": "Where the player starts, respawns, and key points along the way." }
+      ]
+    },
+    {
+      "id": "entities", "label": "Actors and objects",
+      "unity": "Assets/Prefabs/, MonoBehaviour scripts",
+      "unreal": "Blueprint Actors, AIController, Behavior Trees",
+      "slots": [
+        { "id": "opponents", "label": "Opponents", "ask": "Enemies or rivals, their types and numbers." },
+        { "id": "allies", "label": "Allies and characters", "ask": "Friendly characters, mascots or guides." },
+        { "id": "interactables", "label": "Interactables", "ask": "Objects the player touches, collects or uses." },
+        { "id": "hazards", "label": "Hazards", "ask": "Things that hurt or penalise the player." },
+        { "id": "behaviour", "label": "Behaviour", "ask": "How opponents and objects act (patterns, speed, timing)." }
+      ]
+    },
+    {
+      "id": "art", "label": "Visual assets",
+      "unity": "Assets/Models, Materials, Textures, Shaders, Lighting settings",
+      "unreal": "Static and Skeletal Meshes, Materials, Lighting, Post Process",
+      "slots": [
+        { "id": "art_style", "label": "Art style", "ask": "Overall look (e.g. low-poly, cute, realistic)." },
+        { "id": "character_look", "label": "Character look", "ask": "What the main characters look like." },
+        { "id": "palette", "label": "Colour palette", "ask": "Main colours and mood." },
+        { "id": "lighting", "label": "Lighting", "ask": "Light and time of day in the game, and how it suits the real room." },
+        { "id": "vfx", "label": "Visual effects", "ask": "Particles and effects for hits, rewards, transitions." }
+      ]
+    },
+    {
+      "id": "animation", "label": "Animation",
+      "unity": "Animator Controllers, Animation clips, Timeline",
+      "unreal": "Animation Blueprints, Montages, Sequencer",
+      "slots": [
+        { "id": "character_anim", "label": "Character animation", "ask": "Key moves the characters need (idle, attack, celebrate)." },
+        { "id": "sequences", "label": "Scripted sequences", "ask": "Intro, outro or story moments that play out on their own." }
+      ]
+    },
+    {
+      "id": "audio", "label": "Audio",
+      "unity": "AudioSources, AudioMixer, Assets/Audio",
+      "unreal": "Sound Cues, MetaSounds, Sound Classes",
+      "slots": [
+        { "id": "music", "label": "Music", "ask": "Music style and when it changes." },
+        { "id": "sfx", "label": "Sound effects", "ask": "Key sounds for actions, hits and rewards." },
+        { "id": "voice", "label": "Voice", "ask": "Narration or character voice, and language." }
+      ]
+    },
+    {
+      "id": "ui", "label": "UI and feedback",
+      "unity": "Canvas / UI Toolkit documents",
+      "unreal": "UMG Widgets, HUD class",
+      "slots": [
+        { "id": "hud", "label": "HUD", "ask": "What stays on screen or in view during play (score, time, health)." },
+        { "id": "screens", "label": "Screens", "ask": "Start, result and other screens around play." },
+        { "id": "feedback", "label": "Feedback", "ask": "How the game tells the player they did well or badly (text, haptics, sound)." }
+      ]
+    },
+    {
+      "id": "camera", "label": "Camera and view",
+      "unity": "Camera, Cinemachine virtual cameras",
+      "unreal": "CameraActor, SpringArm, Camera Manager",
+      "slots": [
+        { "id": "view", "label": "Player view", "ask": "First person, third person, top down, or the headset view." },
+        { "id": "spectator_view", "label": "Spectator view", "ask": "What people watching see (cast to a screen, nothing)." }
+      ]
+    },
+    {
+      "id": "multiplayer", "label": "Multiplayer",
+      "unity": "Netcode for GameObjects, Relay / Lobby",
+      "unreal": "Actor replication, GameSession, Online Subsystem",
+      "slots": [
+        { "id": "network", "label": "Network mode", "ask": "Single device, shared room co-location, or online." },
+        { "id": "social", "label": "Social roles", "ask": "How players and watchers interact (turns, teams, cheering)." }
+      ]
+    },
+    {
+      "id": "intent", "label": "Design intent",
+      "unity": "(none: lives in the design document)",
+      "unreal": "(none: lives in the design document)",
+      "slots": [
+        { "id": "audience", "label": "Audience", "ask": "Who the game is for (age, experience with games or VR)." },
+        { "id": "experience", "label": "Experience goal", "ask": "What the player should feel (e.g. MDA aesthetics: discovery, challenge)." },
+        { "id": "pillars", "label": "Pillars", "ask": "Two to four design principles every decision must serve." },
+        { "id": "context", "label": "Context of use", "ask": "Occasion, venue and who runs it (party, classroom, booth, staff)." },
+        { "id": "constraints", "label": "Constraints", "ask": "Must and must-not rules (safety, content limits, budget)." }
+      ]
+    }
+  ]
+}
