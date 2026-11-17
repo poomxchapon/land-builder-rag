@@ -33,7 +33,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-inventory-wish",
@@ -69,7 +72,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-npc-dialogue-wish",
@@ -104,7 +110,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-voice-chat-wish",
@@ -139,7 +148,10 @@
     "teens"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-crafting-wish",
@@ -174,7 +186,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-joystick-movement-mr",
@@ -208,7 +223,13 @@
     "first-time-vr"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-running-in-mr",
@@ -245,7 +266,13 @@
     "first-time-vr"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-reskin-options",
@@ -274,7 +301,12 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice; Luminate and design fixation studies, CHI 2024"
+  "source": "design practice; Luminate and design fixation studies, CHI 2024",
+  "provenance": "literature",
+  "refs": [
+   "luminate2024"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-small-room-genres",
@@ -304,7 +336,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-same-scores",
@@ -333,7 +368,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-too-many-checkpoints-small",
@@ -367,7 +405,10 @@
     "kids"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-hazard-on-spawn",
@@ -399,7 +440,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-dark-theme-daylight",
@@ -430,7 +474,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-scary-young-kids",
@@ -466,7 +513,10 @@
     "families"
    ]
   },
-  "source": "design practice; Yamada-Rice et al. 2017 on children and VR"
+  "source": "design practice; Yamada-Rice et al. 2017 on children and VR",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-text-heavy-hud",
@@ -498,7 +548,13 @@
     "kids"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-boss-chapter-1",
@@ -532,7 +588,12 @@
    ],
    "players": []
   },
-  "source": "design practice; Csikszentmihalyi 1990 Flow"
+  "source": "design practice; Csikszentmihalyi 1990 Flow",
+  "provenance": "literature",
+  "refs": [
+   "csikszentmihalyi1990"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-beast-chapter-1",
@@ -565,7 +626,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-guard-beat-fast-mr",
@@ -598,7 +662,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-unsolvable-board",
@@ -633,7 +700,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-storyboard-no-climax",
@@ -664,7 +734,12 @@
    ],
    "players": []
   },
-  "source": "design practice; Fullerton, Game Design Workshop"
+  "source": "design practice; Fullerton, Game Design Workshop",
+  "provenance": "literature",
+  "refs": [
+   "fullerton2008"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-key-art-ui-text",
@@ -695,7 +770,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-route-crowded-corner",
@@ -725,7 +803,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-spectator-tasks",
@@ -759,7 +840,12 @@
     "groups"
    ]
   },
-  "source": "Reeves et al. 2005, Designing the spectator experience (CHI)"
+  "source": "Reeves et al. 2005, Designing the spectator experience (CHI)",
+  "provenance": "literature",
+  "refs": [
+   "reeves2005"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-thai-sacred-sites",
@@ -794,7 +880,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-thai-royal-symbols",
@@ -827,7 +916,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-brand-ip-copy",
@@ -858,7 +950,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-long-event-sessions",
@@ -892,7 +987,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-ignoring-obstacles",
@@ -921,7 +1019,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-look-up-while-walking",
@@ -951,7 +1055,13 @@
     "kids"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-sudden-scares-run",
@@ -985,7 +1095,13 @@
     "teens"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-void-floor-misuse",
@@ -1022,7 +1138,13 @@
     "kids"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-race-small-room",
@@ -1058,7 +1180,10 @@
     "groups"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-pc-venue-questions",
@@ -1088,7 +1213,10 @@
     "gamers"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-too-many-questions",
@@ -1118,7 +1246,12 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice; Kuhn et al. 2023 CLAM on clarifying questions"
+  "source": "design practice; Kuhn et al. 2023 CLAM on clarifying questions",
+  "provenance": "literature",
+  "refs": [
+   "kuhn2023clam"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-time-limit-range",
@@ -1148,7 +1281,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-living-room-family",
@@ -1187,7 +1323,10 @@
     "kids"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-school-hall-8x8",
@@ -1226,7 +1365,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-songkran-outdoor-booth",
@@ -1263,7 +1405,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-haunted-night-teens",
@@ -1300,7 +1445,13 @@
     "teens"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-kindergarten",
@@ -1337,7 +1488,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice; Yamada-Rice et al. 2017 on children and VR"
+  "source": "design practice; Yamada-Rice et al. 2017 on children and VR",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-seniors-centre",
@@ -1374,7 +1528,13 @@
     "first-time-vr"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-pc-gamers",
@@ -1412,7 +1572,10 @@
     "gamers"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-museum-dinosaurs",
@@ -1450,7 +1613,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-mall-brand-activation",
@@ -1488,7 +1654,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-fortal-court-race-6",
@@ -1525,7 +1694,10 @@
     "teens"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-rooftop-sunset",
@@ -1561,7 +1733,13 @@
     "adults"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-tiny-room-2x2",
@@ -1596,7 +1774,10 @@
     "solo"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-chess-club",
@@ -1633,7 +1814,10 @@
     "adults"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-birthday-party",
@@ -1670,7 +1854,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-office-team-building",
@@ -1708,7 +1895,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-chiang-mai-market",
@@ -1745,7 +1935,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-rainy-season-indoor",
@@ -1784,7 +1977,10 @@
     "teens"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-solo-relaxation",
@@ -1821,7 +2017,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-vague-fun-game",
@@ -1850,7 +2049,12 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice; Kuhn et al. 2023 CLAM on clarifying questions"
+  "source": "design practice; Kuhn et al. 2023 CLAM on clarifying questions",
+  "provenance": "literature",
+  "refs": [
+   "kuhn2023clam"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-vague-space-game",
@@ -1887,7 +2091,10 @@
     "teens"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-pc-classroom-lab",
@@ -1926,7 +2133,10 @@
     "teens"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-pc-fantasy-story",
@@ -1964,7 +2174,10 @@
     "solo"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-first-time-vr-expo",
@@ -2001,7 +2214,13 @@
     "first-time-vr"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-pillar-hall",
@@ -2037,7 +2256,13 @@
     "groups"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-couple-date",
@@ -2074,7 +2299,10 @@
     "adults"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-fitness-challenge",
@@ -2112,7 +2340,12 @@
     "adults"
    ]
   },
-  "source": "Mueller & Isbister 2014, Movement-based game guidelines (CHI)"
+  "source": "Mueller & Isbister 2014, Movement-based game guidelines (CHI)",
+  "provenance": "literature",
+  "refs": [
+   "mueller2014"
+  ],
+  "see_also": []
  },
  {
   "id": "cs-thai-folklore-adults",
@@ -2150,7 +2383,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-car-park-event",
@@ -2189,7 +2425,10 @@
     "groups"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-garden-morning-kids",
@@ -2226,7 +2465,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "cs-combine-options",
@@ -2255,6 +2497,9 @@
    "feelings": [],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  }
 ]

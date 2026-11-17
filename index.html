@@ -47,6 +47,7 @@ a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
 .dec{font-size:13.5px;padding:5px 0;border-bottom:1px dashed var(--line)}.dec .tag{font-size:11px}.src-card{background:var(--accsoft)!important;color:var(--acc)!important}.src-default{background:var(--warnsoft)!important;color:var(--acc2)!important}
 .cardlink{cursor:pointer;color:var(--acc);text-decoration:underline dotted}.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 12px}.chips span{font-size:12.5px;background:var(--soft);border-radius:8px;padding:3px 9px}.chips b{font-weight:600;color:var(--dim)}
 .judge{border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin:10px 0;font-size:14px}.judge .sc{font:700 15px Inter}
+.src{margin-top:10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px}.src div{margin-top:4px}
 .upd{max-width:860px;padding-left:20px}.upd li{margin:8px 0}
 @media (max-width:760px){.ab2{grid-template-columns:1fr}}
 @media (max-width:760px){.srow{grid-template-columns:100px 1fr 74px}}
@@ -89,7 +90,7 @@ a{color:var(--acc)}footer{color:var(--dim);font-size:13px;padding:0 16px 40px}
   </div>
   <div class="grid2">
     <div><h2>Cards by category</h2><div id="bycat"></div></div>
-    <div><h2>Cards by origin</h2><div id="bysrc"></div></div>
+    <div><h2>Cards by origin</h2><div id="bysrc"></div><p class="small dim" id="srcnote"></p></div>
   </div>
 </section>
 
@@ -169,9 +170,12 @@ import { bm25Index, bm25Rank, routeFacts } from './src/rag2.mjs';
 const $ = s => document.querySelector(s), esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const J = u => fetch(u).then(r => r.json());
 const [IX, F, G, EV, AG, GP, AB] = await Promise.all(['data/index.json', 'data/facts.json', 'data/graph.json', 'eval/eval-cards.json', 'eval/eval-agree.json', 'data/gaps.json', 'results/ab/ab-rag-on-off.json'].map(J));
+const RF = await J('data/references.json').catch(() => ({ references: [] })), refById = new Map(RF.references.map(r => [r.id, r]));
+const PROV = { literature: 'published literature', 'platform-guideline': 'platform guideline (Meta)', 'studio-document': 'studio document (not public)', engine: 'engine facts', 'design-sessions': 'distilled from design sessions', 'design-practice': 'design practice: written from experience, no publication behind it' };
+const refLink = id => { const r = refById.get(id); return r ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.cite)}</a>` : esc(id); };
 const cards = IX.cards, byId = new Map(cards.map(c => [c.id, c])), facts = F.facts, factIds = new Set(facts.map(f => f.id)), bm = bm25Index(cards);
 const tab = s => { const b = document.querySelector(`#nav button[data-s="${s}"]`); if (!b) return; document.querySelectorAll('#nav button,section').forEach(x => x.classList.remove('on')); b.classList.add('on'); $('#' + s).classList.add('on'); };
-document.addEventListener('click', e => { const g = e.target.dataset?.go; if (g) { e.preventDefault(); tab(g); history.replaceState(null, '', '#' + g); scrollTo(0, 0); } });
+document.addEventListener('click', e => { const g = e.target.dataset?.go; if (g && document.querySelector(`#nav button[data-s="${g}"]`)) { e.preventDefault(); tab(g); history.replaceState(null, '', '#' + g); scrollTo(0, 0); } });
 document.querySelectorAll('#nav button').forEach(b => b.onclick = () => { tab(b.dataset.s); history.replaceState(null, '', '#' + b.dataset.s); });
 if (location.hash) { tab(location.hash.slice(1)); requestAnimationFrame(() => scrollTo(0, 0)); }
 
@@ -182,6 +186,8 @@ const count = f => Object.entries(cards.reduce((m, c) => (m[f(c)] = (m[f(c)] || 
 bars('#bycat', count(c => c.cat));
 const origin = c => /Land Builder users/.test(c.source) ? 'distilled from design sessions' : /^Fortal Interactive 2026/.test(c.source) ? 'distilled from studio documents' : /FortalLand engine/.test(c.source) ? 'engine facts and limits' : /Meta/.test(c.source) ? 'platform safety and comfort guidelines' : /^design practice$/.test(c.source) ? 'design practice' : 'game design literature';
 bars('#bysrc', count(origin), 'o');
+{ const n = k => cards.filter(c => c.provenance === k).length, dp = n('design-practice'), sa = cards.filter(c => c.provenance === 'design-practice' && c.see_also?.length).length;
+  $('#srcnote').innerHTML = `Every card names where it came from. ${cards.filter(c => c.refs?.length).length} cards cite a published work and link to it (${RF.references.length} works, each DOI, ISBN or URL checked: <a href="data/references.json">data/references.json</a>). ${dp} cards are design practice: written from experience, with no publication behind them. For these an AI agent looked for supporting reading and a second blind check kept only clear matches: ${sa} cards got one, the rest stay labelled as practice.`; }
 
 // ---------- with vs without ----------
 { const S = AB.summary, on = S.rag_on, off = S.rag_off, pc = x => Math.round(x * 100) + '%';
@@ -227,7 +233,7 @@ const show = c => { document.querySelectorAll('.item').forEach(x => x.classList.
   $('#detail').innerHTML = `<h3>${esc(c.title)}</h3><div class="meta"><span class="mono">${c.id}</span> · ${c.cat} · ${esc(c.kind)}${factIds.has(c.id) ? ' · <span class="tag w">fact rule</span>' : ''}</div>
   <p>${esc(c.text)}</p>${c.use_when ? `<p><b>Use when</b> ${esc(c.use_when)}</p>` : ''}${c.do?.length ? `<b>Do</b><ul>${c.do.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}${c.avoid?.length ? `<b>Avoid</b><ul>${c.avoid.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
   <div>${Object.entries(t).map(([k, v]) => (Array.isArray(v) ? v : [v]).map(x => `<span class="tag c">${k}: ${esc(x)}</span>`).join('')).join('')}</div>
-  <p class="small dim">Source: ${esc(c.source)}</p>${nb.length ? `<b class="small">Linked cards</b><div>${nb.map(([id, ty]) => `<span class="tag" style="cursor:pointer" data-go="${id}">${ty}: ${esc(byId.get(id).title)}</span>`).join('')}</div>` : ''}`;
+  <div class="small src"><b>Where it comes from:</b> ${esc(PROV[c.provenance] || c.provenance || '')}<div class="dim">Source line: ${esc(c.source)}</div>${c.refs?.length ? `<div>Cites: ${c.refs.map(refLink).join('; ')}</div>` : ''}${c.see_also?.length ? `<div>Supporting reading <span class="dim">(matched afterwards, checked blind)</span>: ${c.see_also.map(s => refLink(s.ref) + ` <span class="dim">: ${esc(s.why)}</span>`).join('; ')}</div>` : ''}</div>${nb.length ? `<b class="small">Linked cards</b><div>${nb.map(([id, ty]) => `<span class="tag" style="cursor:pointer" data-go="${id}">${ty}: ${esc(byId.get(id).title)}</span>`).join('')}</div>` : ''}`;
   $('#detail').querySelectorAll('[data-go]').forEach(x => x.onclick = () => show(byId.get(x.dataset.go))); };
 const renderList = () => { const q = $('#q').value.trim(), cat = $('#cat').value;
   let list = q ? bm25Rank(bm, q, 200).map(h => cards[h.i]) : cards; if (cat) list = list.filter(c => c.cat === cat);

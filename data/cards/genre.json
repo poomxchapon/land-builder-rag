@@ -33,7 +33,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-chapter1-grunts-only",
@@ -68,7 +71,10 @@
     "kids"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-one-new-thing",
@@ -101,7 +107,12 @@
    ],
    "players": []
   },
-  "source": "Csikszentmihalyi 1990, Flow"
+  "source": "Csikszentmihalyi 1990, Flow",
+  "provenance": "literature",
+  "refs": [
+   "csikszentmihalyi1990"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-battle-chapters-by-session",
@@ -138,7 +149,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-mr-six-cap",
@@ -170,7 +184,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-pc-nine-cap",
@@ -203,7 +220,10 @@
     "gamers"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-rain-usage",
@@ -239,7 +259,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-rain-mr-caution",
@@ -276,7 +299,13 @@
     "seniors"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-battle-boss-fixed",
@@ -313,7 +342,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-boss-wish-pitfall",
@@ -346,7 +378,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-chapter-lines-story",
@@ -380,7 +415,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-line-as-hint",
@@ -417,7 +455,12 @@
     "first-time-vr"
    ]
   },
-  "source": "Schell, The Art of Game Design"
+  "source": "Schell, The Art of Game Design",
+  "provenance": "literature",
+  "refs": [
+   "schell2008"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-battle-theme-by-mood",
@@ -452,7 +495,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-theme-venue-light",
@@ -485,7 +531,13 @@
    ],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-battle-kids-ramp",
@@ -525,7 +577,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-gamers-ramp",
@@ -563,7 +618,12 @@
     "teens"
    ]
   },
-  "source": "Ryan, Rigby & Przybylski 2006, PENS/SDT"
+  "source": "Ryan, Rigby & Przybylski 2006, PENS/SDT",
+  "provenance": "literature",
+  "refs": [
+   "ryan2006"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-battle-mr-space-min",
@@ -593,7 +653,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-mr-no-running",
@@ -628,7 +691,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-pc-controls",
@@ -665,7 +731,10 @@
     "teens"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-what-not-to-promise",
@@ -700,7 +769,10 @@
     "groups"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-scoring",
@@ -733,7 +805,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-mr-spectators",
@@ -769,7 +844,13 @@
     "families"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-battle-shield-chapter",
@@ -802,7 +883,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-health-budget",
@@ -834,7 +918,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-example-forest-kids",
@@ -867,7 +954,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-piece-teaches",
@@ -902,7 +992,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-piece-order",
@@ -937,7 +1030,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-bishop-fewer-targets",
@@ -969,7 +1065,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-board-count",
@@ -1004,7 +1103,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-guard-ramp",
@@ -1040,7 +1142,10 @@
     "first-time-vr"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-guard-kinds-auto",
@@ -1073,7 +1178,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-beat-by-audience",
@@ -1109,7 +1217,12 @@
     "gamers"
    ]
   },
-  "source": "Csikszentmihalyi 1990, Flow"
+  "source": "Csikszentmihalyi 1990, Flow",
+  "provenance": "literature",
+  "refs": [
+   "csikszentmihalyi1990"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-tactics-mr-beat-floor",
@@ -1142,7 +1255,10 @@
     "first-time-vr"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-mr-square-size",
@@ -1173,7 +1289,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-mr-walk-safety",
@@ -1209,7 +1328,13 @@
     "seniors"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-tactics-race-leaderboard",
@@ -1249,7 +1374,10 @@
     "gamers"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-story-wrap",
@@ -1283,7 +1411,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-tables-scene",
@@ -1320,7 +1451,10 @@
     "kids"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-cracked-squares",
@@ -1354,7 +1488,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-targets-count",
@@ -1387,7 +1524,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-king-final",
@@ -1420,7 +1560,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-target-piece-stakes",
@@ -1451,7 +1594,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-code-places",
@@ -1485,7 +1631,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-colour-language",
@@ -1523,7 +1672,10 @@
     "first-time-vr"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-difficulty-knobs",
@@ -1555,7 +1707,12 @@
    ],
    "players": []
   },
-  "source": "Schell, The Art of Game Design"
+  "source": "Schell, The Art of Game Design",
+  "provenance": "literature",
+  "refs": [
+   "schell2008"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-tactics-pvp-pitfall",
@@ -1592,7 +1749,10 @@
     "gamers"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-spectators",
@@ -1627,7 +1787,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-feelings-fit",
@@ -1660,7 +1823,12 @@
    ],
    "players": []
   },
-  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA",
+  "provenance": "literature",
+  "refs": [
+   "hunicke2004mda"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-tactics-example-kids",
@@ -1694,7 +1862,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-route-loop",
@@ -1728,7 +1899,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-route-zigzag",
@@ -1762,7 +1936,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-route-spiral",
@@ -1796,7 +1973,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-route-lanes",
@@ -1832,7 +2012,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-route-hub",
@@ -1866,7 +2049,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-route-out-back",
@@ -1900,7 +2086,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-checkpoint-labels",
@@ -1934,7 +2123,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-label-arc",
@@ -1967,7 +2159,12 @@
    ],
    "players": []
   },
-  "source": "Schell, The Art of Game Design"
+  "source": "Schell, The Art of Game Design",
+  "provenance": "literature",
+  "refs": [
+   "schell2008"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-runner-checkpoints-by-size",
@@ -1998,7 +2195,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-hazard-placement",
@@ -2030,7 +2230,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-hazard-count",
@@ -2069,7 +2272,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-time-limit",
@@ -2107,7 +2313,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-race-vs-together",
@@ -2145,7 +2354,10 @@
     "groups"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-same-room-race",
@@ -2180,7 +2392,13 @@
     "groups"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-runner-void-floor",
@@ -2218,7 +2436,13 @@
     "adults"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-runner-lighting-by-venue",
@@ -2250,7 +2474,13 @@
    ],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-runner-scenery-themes",
@@ -2285,7 +2515,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-vignettes",
@@ -2319,7 +2552,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-spawn-portal",
@@ -2353,7 +2589,10 @@
     "groups"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-scoring",
@@ -2385,7 +2624,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-chase-pitfall",
@@ -2420,7 +2662,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-collect-pitfall",
@@ -2456,7 +2701,10 @@
     "kids"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-real-obstacles",
@@ -2486,7 +2734,13 @@
    "feelings": [],
    "players": []
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-runner-tiny-room",
@@ -2517,7 +2771,10 @@
     "solo"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-pc",
@@ -2550,7 +2807,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-calm-tour",
@@ -2588,7 +2848,12 @@
     "first-time-vr"
    ]
   },
-  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA",
+  "provenance": "literature",
+  "refs": [
+   "hunicke2004mda"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-cross-three-genres-one-brief",
@@ -2621,7 +2886,12 @@
    ],
    "players": []
   },
-  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA",
+  "provenance": "literature",
+  "refs": [
+   "hunicke2004mda"
+  ],
+  "see_also": []
  },
  {
   "id": "gn-cross-example-one-world",
@@ -2655,7 +2925,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-cross-stretch-with-story",
@@ -2687,7 +2960,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-cross-wish-map",
@@ -2715,7 +2991,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-cross-honest-mr-fit",
@@ -2742,7 +3021,10 @@
    "feelings": [],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-cross-no-hybrid",
@@ -2773,7 +3055,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-cross-pc-genres",
@@ -2809,7 +3094,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-knight-board",
@@ -2842,7 +3130,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-bishop-board",
@@ -2877,7 +3168,10 @@
     "first-time-vr"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-rook-board",
@@ -2913,7 +3207,10 @@
     "seniors"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-queen-board",
@@ -2949,7 +3246,10 @@
     "teens"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-read-guard-squares",
@@ -2985,7 +3285,10 @@
     "first-time-vr"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-solo-time-attack",
@@ -3022,7 +3325,10 @@
     "gamers"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-ramp-templates",
@@ -3056,7 +3362,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-tactics-board-mood-ratio",
@@ -3089,7 +3398,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-templates-3-4",
@@ -3120,7 +3432,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-templates-5-6",
@@ -3154,7 +3469,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-templates-mr",
@@ -3186,7 +3504,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-battle-theme-enemy-names",
@@ -3220,7 +3541,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-hazard-gate",
@@ -3253,7 +3577,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-hazard-slalom",
@@ -3290,7 +3617,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "gn-runner-hazard-pinch",
@@ -3322,6 +3652,9 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  }
 ]
