@@ -1,0 +1,42 @@
+{
+ "b06-pc-chess-gamers": {
+  "X": "on",
+  "Y": "off"
+ },
+ "b04-thai-ghost-teens": {
+  "X": "on",
+  "Y": "off"
+ },
+ "b03-mall-brand": {
+  "X": "on",
+  "Y": "off"
+ },
+ "b08-tiny-room-solo": {
+  "X": "on",
+  "Y": "off"
+ },
+ "b02-school-gym-edu": {
+  "X": "on",
+  "Y": "off"
+ },
+ "b09-seniors-centre": {
+  "X": "off",
+  "Y": "on"
+ },
+ "b01-kids-living": {
+  "X": "off",
+  "Y": "on"
+ },
+ "b07-songkran-outdoor": {
+  "X": "off",
+  "Y": "on"
+ },
+ "b10-fortal-court-race": {
+  "X": "off",
+  "Y": "on"
+ },
+ "b05-uk-uni-open-day": {
+  "X": "off",
+  "Y": "on"
+ }
+}

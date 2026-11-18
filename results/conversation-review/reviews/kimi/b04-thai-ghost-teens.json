@@ -1,0 +1,81 @@
+{
+ "confidence": "high",
+ "differences": [
+  {
+   "aspect": "Cultural safety and respect for Thai religious content",
+   "better": "X",
+   "design_x": "Design X uses a secular canal-village setting: wooden stilt houses, a canal, a rowboat, a cradle, a lime tree, and Mae Nak's long arm as a static side spectacle. Its build plan explicitly bans \"sacred objects as targets, monks, Buddha images, or touchable temple scenery\" and states \"no shrine or worship scoring.\"",
+   "design_y": "Design Y sets the game in an abandoned Thai viharn (temple hall) with saffron monk's cloth arches, a prayer-reading checkpoint (\"อ่านคำอธิษฐาน\" / read a prayer), and a spirit-sealing ritual. Its build plan has no guardrail against sacred imagery and actively requires players to walk through saffron drapes and touch a prayer marker as gameplay.",
+   "evidence": "Prototype plan step: Design X's layout_brief lists the exclusions verbatim; Design Y's option 1 mechanics list \"อ่านคำอธิษฐาน\" (read a prayer) and \"ผ่านซุ้มผ้าเหลือง\" (pass through the saffron-cloth arch) as checkpoints 1 and 3, and its key_art prompt features \"aged saffron cloth hangs from virtual wooden arches.\" For a Thai high-school audience in a real venue, making prayer and monk's cloth into race obstacles risks being read as disrespectful; Design X proactively avoids this."
+  },
+  {
+   "aspect": "Handling of Mae Nak's character (fit to the 'release the spirits' concept)",
+   "better": "X",
+   "design_x": "Mae Nak is framed as a loving wife the player helps: checkpoint 5 is \"คืนวิญญาณให้แม่นาค\" (return the spirits to Mae Nak) in a calm, hazard-free clearing, and the build plan says she is \"presented gently as a loving wife, never an enemy.\" The story arc (gather lost spirits, return them, open the dawn gate) directly enacts the brief's \"ปล่อยวิญญาณ\" (release the spirits).",
+   "design_y": "Mae Nak is a sealed entity the player releases by breaking a seal (\"เปิดผนึกแม่นาค\" / open Mae Nak's seal), shown only as a \"calm shadow silhouette\" beyond a portal. The spirits are abstracted into collectible cyan-green flames rather than characters being helped.",
+   "evidence": "Options step: Design X option 3 pitch says the player gathers lost spirits and opens the way for Mae Nak to release them into the dawn; Design Y option 1 pitch frames the goal as opening the seal to release Mae Nak herself. Design X's treatment is closer to the folktale's sympathetic reading and to the brief's wording."
+  },
+  {
+   "aspect": "Physical safety specification around the real pillar and room edges",
+   "better": "same",
+   "design_x": "Build plan requires walking legs at least 1.2 m wide, route elements at least 0.6 m from room edges, nothing virtual on the real pillar, ghost figures at least 1.5 m beside the route, and no hazard gates narrower than 1 m. Prototype test questions ask whether any path segment ever falls below 1.2 m.",
+   "design_y": "Build plan requires routes at least 1.2 m wide, all virtual objects off the pillar with a safe buffer, gameplay at least 0.6 m from edges, and two non-crossing lanes. Test questions ask whether players can read the lanes without getting too close to the pillar or edges.",
+   "evidence": "Both build plans state the same 1.2 m / 0.6 m numbers and pillar exclusion. Design X adds the 1.5 m spectator-side figure distance and the 1 m hazard-gate floor; Design Y adds the explicit non-crossing two-lane requirement. Roughly equivalent rigor."
+  },
+  {
+   "aspect": "Hazard design and pacing within the 5-minute limit",
+   "better": "X",
+   "design_x": "Hazards are static red cursed-ground circles with a deliberate difficulty curve: one forgiving teaching circle between checkpoints 2 and 3, the densest section in the cursed garden (checkpoints 3-5), then a hazard-free calm approach to checkpoint 5, and only one small final choice after checkpoint 6. The flow timeline budgets the densest dodging at 2:00 and a quiet story beat at 3:00 so players recover before the finale.",
+   "design_y": "Hazards are red spirit circles placed after the crying-spirit checkpoint and immediately before the spirit bridge, with players told to \"wait or detour.\" The storyboard describes the bridge section as narrowing (\"เส้นทางแคบลงเล็กน้อย\") near the climax, which concentrates the hardest dodging late in the run when the race pressure is highest.",
+   "evidence": "Prototype plan step: Design X flow at 2:00 marks the garden as the densest hazard section and 3:00 as hazard-free; Design Y storyboard climax beat says the path narrows slightly before the final light with hazard rings crossing in front, and its build plan says to keep the bridge approach \"modestly narrower in appearance.\" Design X's pacing is more forgiving and better matched to the no-running constraint; Design Y's late narrowing plus timed race could tempt hurrying."
+  },
+  {
+   "aspect": "Two-player race implementation clarity",
+   "better": "same",
+   "design_x": "Both players walk separate copies of the same route simultaneously (\"สำเนาพื้นที่ของตัวเอง\"), competing on time and score on a leaderboard; scoring is checkpoint +100, hazard -25, finish +300 plus time bonus.",
+   "design_y": "Identical structure: two separate non-crossing copies, same scoring (+100 / -25 / +300 plus time bonus), 5-minute limit, live standings.",
+   "evidence": "Both options steps and build plans describe mirrored copies with identical scoring numbers and a leaderboard. No meaningful difference."
+  },
+  {
+   "aspect": "Consistency between the three steps (options, prototype, build plan)",
+   "better": "same",
+   "design_x": "Option 3's 6-checkpoint route, dawn portal facing spectators, and scoring carry verbatim into the prototype plan (decisions, flow, HUD) and the build plan (same checkpoint labels, same rules).",
+   "design_y": "Option 1's 7-checkpoint loop, rear portal, and scoring carry verbatim into the prototype plan and build plan (same checkpoint labels, same rules).",
+   "evidence": "Both sessions are internally consistent across all three steps; neither introduces contradictions or dropped elements between steps."
+  },
+  {
+   "aspect": "Specificity and feasibility of the build plan",
+   "better": "X",
+   "design_x": "The build plan specifies exact checkpoint Thai labels, per-section hazard placement (one teaching circle, several garden circles with broad gaps, one final small choice), hero pieces (stilt house, canal banks, rowboat, swinging cradle, lime tree with long-arm vignette), and explicit exclusions.",
+   "design_y": "The build plan also specifies exact checkpoint labels and hero pieces (viharn fragments, saffron drapes, spirit bridge, portal) and hazard placement (after checkpoint 4 and before the bridge), but leaves hazard count and gap sizing unstated beyond \"clearly distinguishable,\" and the \"modestly narrower in appearance\" bridge instruction is vaguer.",
+   "evidence": "Build plan step: Design X gives numeric hazard-gate minimum (1 m) and a placement schedule; Design Y gives placement but no gate-width floor and a cosmetic narrowing instruction that could be misread as permission to tighten the real path."
+  },
+  {
+   "aspect": "Spectator experience",
+   "better": "same",
+   "design_x": "Spectators behind the room watch the cursed-garden dodge section and the dawn-portal finish; the portal is oriented toward them.",
+   "design_y": "Spectators watch the pre-bridge hazard dodges and the rear finish portal; the portal is at the rear facing them.",
+   "evidence": "Both spectator plans name one mid-run dodge moment and the finish portal as the visible beats, with friends outside the play area. Equivalent."
+  }
+ ],
+ "improvements": [
+  "Design Y should add the same cultural-safety exclusions Design X has (no sacred objects as gameplay targets, no prayer or monk's cloth as interactive props) or re-theme checkpoints 1 and 3 to secular equivalents.",
+  "Design Y should state a minimum hazard-gate width and remove or clarify the 'modestly narrower' bridge instruction so the real walking width never drops below the safe minimum.",
+  "Design X could adopt Design Y's explicit 'non-crossing lanes' wording to make the two-player separation guarantee even clearer.",
+  "Both designs could specify how the game handles a player who fails to finish within 5 minutes (partial score vs. DNF) to make race results unambiguous."
+ ],
+ "preferred": "X",
+ "summary": "Both sessions converge on the same genre (a two-player walking race around the central pillar, dodging red hazard rings, ~5 minutes, no jump scares) and are internally consistent across all three steps. The decisive differences are cultural and tonal: Design X sets the game in a secular canal village, casts Mae Nak as a loving wife the player helps, and its build plan explicitly bans monks, Buddha images, sacred objects as targets, and touchable temple scenery. Design Y sets the game in an abandoned viharn (temple hall), makes reading a prayer and passing through saffron monk's cloth into gameplay checkpoints, and contains no cultural-safety guardrails. Design X also has slightly more forgiving hazard pacing (densest dodging mid-run, calm story beat before the finale) and a more numerically specific build plan (1 m hazard-gate minimum, 1.5 m figure offsets), while Design Y concentrates its hardest dodging at a cosmetically narrowed bridge near the climax. Safety specs around the pillar, the two-player race structure, scoring, and spectator planning are essentially equivalent.",
+ "why": "Design X fits the brief's 'release the spirits' concept more faithfully (helping Mae Nak free lost spirits vs. breaking a seal), handles Thai religious material with explicit, verifiable respect (banning sacred imagery from gameplay rather than turning prayer and saffron cloth into race checkpoints), and gives marginally safer, more specific hazard and pacing instructions. Design Y is competent and equally consistent, but its viharn/prayer/saffron-cloth theming is a real cultural-sensitivity risk for a Thai teenage audience that Design X engineered away on purpose.",
+ "x_weaknesses": [
+  "Does not explicitly state that the two lane copies must never cross, relying instead on 'separate copies' phrasing.",
+  "The story-driven checkpoints risk players skipping the narrative in a timed race; the design acknowledges this in risks but only mitigates it via short sign text.",
+  "The long-arm vignette, even static, could startle players in a dark room if placed too close to the route; the 1.5 m offset helps but is not playtest-verified."
+ ],
+ "y_weaknesses": [
+  "Uses a temple (viharn), saffron monk's cloth, and a prayer-reading checkpoint as interactive race elements, with no guardrails against disrespecting sacred Thai Buddhist imagery.",
+  "Concentrates the hardest dodging at a deliberately narrowed bridge near the climax, which works against the no-running constraint under race time pressure.",
+  "Build plan omits numeric hazard-gap minimums and figure offsets that Design X provides, leaving more room for unsafe or unreadable layouts.",
+  "Mae Nak is reduced to a silhouette behind a seal, a weaker fit to the brief's sympathetic 'release the spirits' concept."
+ ]
+}

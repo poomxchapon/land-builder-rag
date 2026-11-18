@@ -1,0 +1,324 @@
+{
+ "caveats": [
+  "Single model, single run per condition per brief: there is no replication, so it is impossible to separate the effect of RAG from run-to-run variance of the same model. Several 'ties' (b01, b02, b05) could flip on a re-roll.",
+  "The same model wrote both variants, so the two conditions share the model's priors, style and blind spots; convergence on nearly identical games in 8 of 10 briefs may reflect the model's defaults more than the knowledge base.",
+  "The retrieved-card lists are truncated excerpts; tracing of advantages to cards is limited to the visible card text. Some 'partly' verdicts might become 'yes' with full card content.",
+  "The reviewer(s) and rubric are not described; all claims rest on one blind review per pair, and the reviewer's own preferences (e.g., valuing specificity) shape the verdicts.",
+  "All evidence is document quality, not built games or player outcomes. No playtesting occurred; claims about safety, learnability or fun are inferred from design text.",
+  "The briefs are heavily skewed toward MR walking runners (9 of 10; b06 is the only PC game), so conclusions may not generalise to other genres, platforms or to briefs where the knowledge base has no close analogue.",
+  "The knowledge base's scoring conventions (100/-25/300, time bonuses) appear in both conditions' outputs, suggesting the baseline model already knew or guessed similar defaults; this makes it hard to attribute shared conventions to RAG and may understate RAG's effect.",
+  "Card advantages and card-induced failures are entangled: the same card (cs-songkran-outdoor-booth) caused b07's biggest win (water safety) and biggest slip (150 s), so 'the cards help' is not a uniform effect even within one brief.",
+  "The review labels were revealed afterwards ('labelled afterwards'); the analysis here trusts that the blind reviews themselves were unaffected, but the summarised differences may have been written with knowledge of the labels.",
+  "Language mixing (Thai labels in English reviews) and the reviewer's translation choices add a small risk of misattributed nuance in quoted evidence."
+ ],
+ "overall_answer": "Across the ten pairs, the two approaches converge far more than they diverge: in 8 of 10 briefs both runs independently produced essentially the same game (same genre, same structure, often identical scoring of 100 per checkpoint / -25 per hazard / 300 at the finish), because the underlying model and pipeline dominate the concept choice. The verdicts reflect this: 6 wins for With RAG (b03, b04, b06, b07, b08, b09 — four of them high or medium-high confidence), 3 ties (b01, b02, b05), and 1 win for Without RAG (b10). RAG's reliable advantage is not creativity but groundedness: where the knowledge base contains a directly relevant card, the With RAG run produces more specific, buildable, internally consistent and safety-aware plans (exact measurements, hazard schedules, cultural guardrails, equipment risks, playtest questions). Where the cards are generic or absent, RAG adds nothing and can even hurt: it imported a 150-second timer into b07 against the 3-minute brief, a loud toy-block palette and 'default' lighting into b01, night lighting into a morning gym in b02, and a busier 9-checkpoint course into b10. Without RAG was sometimes better precisely where unconstrained generation is stronger: thematic richness and emotional beats (b01's hatching surprise), fit of lighting and palette to the venue (b01, b02), and a genuinely better discovery mechanic (b02's clues that withhold the answer). Net: RAG is a worthwhile safety-net and specificity engine for operational briefs, but it needs constraint-checking (so card numbers don't override the brief), and it does not substitute for creative writing.",
+ "q1_differences": [
+  {
+   "briefs": [
+    "b01-kids-living",
+    "b02-school-gym-edu",
+    "b03-mall-brand",
+    "b04-thai-ghost-teens",
+    "b05-uk-uni-open-day",
+    "b07-songkran-outdoor",
+    "b08-tiny-room-solo",
+    "b09-seniors-centre",
+    "b10-fortal-court-race"
+   ],
+   "consistency": "most briefs",
+   "difference": "Convergence on concept: both approaches usually design the same game, so the difference is in execution quality, not imagination.",
+   "evidence": "Reviews repeatedly state the sessions 'converge on nearly the same game' (b01, b03, b04, b07, b09) or 'essentially the same game' (b02, b05, b10), with identical scoring (100/-25/300) appearing in both runs of b01, b03, b04, b07, b09, b10. Differences are in hazard counts, specificity, consistency and safety details — not in what game gets made."
+  },
+  {
+   "briefs": [
+    "b02-school-gym-edu",
+    "b03-mall-brand",
+    "b04-thai-ghost-teens",
+    "b06-pc-chess-gamers",
+    "b07-songkran-outdoor",
+    "b08-tiny-room-solo",
+    "b09-seniors-centre",
+    "b10-fortal-court-race"
+   ],
+   "consistency": "most briefs",
+   "difference": "With RAG is more specific and buildable: numeric layout constraints, exact counts, real-world coordinates.",
+   "evidence": "b02: per-planet normalized coordinates for all 8 stops vs Without RAG's 3 grouped zones. b04: 1 m hazard-gate minimum and 1.5 m figure offsets vs vaguer 'clearly distinguishable'. b06: exact per-board target/guard/table/crack counts plus a solvability-check decision. b07: real metre coordinates with an instruction to verify tree positions vs normalized-only coordinates. b08: hazard radius 0.35 m, 8-20 objects, 0.5-1 m spacing, 0.6 m spawn circle vs no numeric sizes. b09: explicit 2-3 m stop spacing vs unstated spacing implying ~1.2-1.9 m hops. b10: exact checkpoint labels, 2.5-9 m spacing ranges, door-clearance rules vs 'broad placement guidance'."
+  },
+  {
+   "briefs": [
+    "b01-kids-living",
+    "b03-mall-brand",
+    "b06-pc-chess-gamers",
+    "b08-tiny-room-solo",
+    "b09-seniors-centre"
+   ],
+   "consistency": "some briefs",
+   "difference": "With RAG is more internally consistent across the three steps (options -> prototype -> build plan); Without RAG drifts or contradicts itself more often.",
+   "evidence": "b03: Without RAG's sketch merges hazards with checkpoints 2 and 4 while its flow/build plan list five separate checkpoints; With RAG agrees across all steps. b06: Without RAG promises 'guards every 3 seconds or slower' then tightens to 3.0s in the build config; With RAG's 3/3/2.5/1.5 matches its options promise. b08: Without RAG's option 1 says 'no competitive scoring' but later steps add a full scoring system. b09: Without RAG adds a time bonus contradicting its no-pressure pillar, then silently drops scoring in the build plan. b01 and b05: both sides consistent, so this is not universal."
+  },
+  {
+   "briefs": [
+    "b04-thai-ghost-teens",
+    "b07-songkran-outdoor",
+    "b09-seniors-centre"
+   ],
+   "consistency": "some briefs",
+   "difference": "With RAG handles domain-specific safety and cultural constraints that Without RAG misses entirely.",
+   "evidence": "b04: With RAG's build plan bans monks, Buddha images, sacred objects as targets and touchable temple scenery; Without RAG makes a prayer reading and saffron monk's cloth into race checkpoints with no guardrails. b07: only With RAG addresses water exposure to non-waterproof headsets and slippery ground at a real Songkran event. b09: only With RAG plans a seated fallback for unsteady walkers and large high-contrast chest-height signage for elderly eyes."
+  },
+  {
+   "briefs": [
+    "b01-kids-living",
+    "b02-school-gym-edu",
+    "b05-uk-uni-open-day"
+   ],
+   "consistency": "some briefs",
+   "difference": "Without RAG is sometimes stronger on thematic richness, emotional beats and venue-appropriate aesthetics.",
+   "evidence": "b01: Without RAG delivers the requested 'sensation' with a two-egg hunt culminating in a hatching surprise, a pastel palette matched to afternoon light, and firmer safety numbers (1.2 m corridor, hard 0.6 m clearance) where With RAG hedged 'where possible'. b02: Without RAG's clue-without-the-name mechanic is a better discovery design and its morning lighting fits the gym; With RAG labels the planets outright and picks night lighting. b05: Without RAG's build plan pins six checkpoints to more precise corner/edge locations than With RAG's looser language."
+  },
+  {
+   "briefs": [
+    "b01-kids-living",
+    "b02-school-gym-edu",
+    "b07-songkran-outdoor",
+    "b10-fortal-court-race"
+   ],
+   "consistency": "some briefs",
+   "difference": "With RAG occasionally imports card content that conflicts with the brief or the venue — a failure mode Without RAG does not have.",
+   "evidence": "b07: With RAG sets timeLimit 150 s in all three steps against the brief's 3 minutes. b01: With RAG uses a loud primary toy-block palette and 'default' lighting instead of the brief's cute afternoon mood. b02: With RAG picks night lighting for a morning gym with windows. b10: With RAG's 9-checkpoint course risks being too busy for a 5-minute race. Without RAG's failures are different in kind: vagueness and internal contradiction rather than wrong imported specifics."
+  }
+ ],
+ "q2_advantages": [
+  {
+   "advantage": "Cultural-safety guardrails for Thai religious content (b04): secular canal-village setting, explicit ban on monks/Buddha images/sacred objects as gameplay, Mae Nak framed as a loving wife the player helps.",
+   "briefs": [
+    "b04-thai-ghost-teens"
+   ],
+   "evidence": "Review: With RAG's build plan 'explicitly bans sacred objects as targets, monks, Buddha images, or touchable temple scenery' and presents Mae Nak 'gently as a loving wife, never an enemy'; Without RAG turned prayer reading and saffron cloth into race checkpoints. Cards: cs-thai-folklore-adults ('temples only as distant background, never touched or stepped on', brief 'Thai ghosts but not disrespectful') and cu-mae-nak ('a love story first... the strongest hook is love and loyalty, not horror', with stilt house, canal banks, rowboat, cradle, long arm — exactly the props in the With RAG design).",
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Real-world equipment/venue safety at an outdoor Songkran event (b07): dry splash-isolated play area protecting non-waterproof headsets, slippery-ground risk, trees as verified hard exclusion zones.",
+   "briefs": [
+    "b07-songkran-outdoor"
+   ],
+   "evidence": "Review: With RAG 'is the only one that addresses water exposure to headsets and slippery ground (dry play area, isolated booth)' and requires verifying measured tree positions. Cards: cu-songkran-no-real-water ('Quest 3 headsets and controllers are not waterproof, and wet floors make walking players slip. Keep all water in the virtual scene, place the booth away from street water fights, and use a covered, dry floor'). Tree handling echoes cs-birthday-party/sp-venue-garden ('trees inside the floor must be listed as obstacles').",
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Tiny-room build specificity (b08): hazard radius 0.35 m, 0.6 m spawn circle, 0.5-1 m checkpoint spacing, 8-20 objects, 2-4 vignettes.",
+   "briefs": [
+    "b08-tiny-room-solo"
+   ],
+   "evidence": "Review: With RAG's build plan 'carries numeric layout constraints a builder can act on'; Without RAG's has none. Cards: sp-tiny-room specifies exactly 'hazard radius 0.35 m, a 0.6 m spawn circle, 2-4 vignettes and 8-20 objects' and stops 'at least 0.5 m' apart; cs-tiny-room-2x2 repeats the 0.35 m hazard radius and 0.5-1 m spacing. The numbers match verbatim.",
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Honest handling of the impossible shooting request plus differentiated options in a tiny room (b08): three genuinely different runner options (narrative escape, calm tour, dodge) instead of three near-identical timed escape games.",
+   "briefs": [
+    "b08-tiny-room-solo"
+   ],
+   "evidence": "Review: With RAG's options are 'genuinely differentiated' while Without RAG's 'share the same loop, hazards, timer, and structure'. Cards: un-impossible-shooting ('No genre can shoot... offer... a runner where hazards are laser beams to dodge. Say clearly there is no shooting') and gn-runner-tiny-room ('all three options are runners... vary the route (loop vs out-and-back), the loop type (story vs dodge vs tour)') — the With RAG options map one-to-one onto these axes.",
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Elderly-audience design (b09): 2-3 m stop spacing that fills the 6x6 m room, large high-contrast chest-height signage, a seated fallback for unsteady walkers, and playtest questions about balance.",
+   "briefs": [
+    "b09-seniors-centre"
+   ],
+   "evidence": "Review: With RAG 'spaces stops 2-3 m apart', 'specifies large high-contrast chest-height signage', 'plans a seated fallback', and tests whether players 'reach for walls or staff for balance'; Without RAG does none of these. Cards: cs-seniors-centre ('5 checkpoints spaced 2-3 m apart... seated rest chairs'), sp-players-seniors ('large high-contrast labels... Offer the PC version for anyone unsteady on their feet'), sp-seated-alternative, pt-qt-seniors-firsttime ('How many reach for a real wall for balance?').",
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Learning assessment built into the playtest plan (b02): a post-play test of whether students can order the eight planet cards, compared with before playing.",
+   "briefs": [
+    "b02-school-gym-edu"
+   ],
+   "evidence": "Review: With RAG's test questions 'include a direct learning measure'; Without RAG has none. Card: pu-measure-education ('After play, give players the checkpoint facts on paper cards shuffled and ask them to put them in order (2 minutes); compare with... a quick check before play') — the With RAG test question is nearly a paraphrase.",
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Hazard difficulty ramp and shaped pacing beats (b03, b06, b10): staged hazard introduction (teach -> denser -> climax), calm beat before the finale, tightening guard beats.",
+   "briefs": [
+    "b03-mall-brand",
+    "b06-pc-chess-gamers",
+    "b10-fortal-court-race",
+    "b04-thai-ghost-teens"
+   ],
+   "evidence": "b03: With RAG's four hazards follow 'easy straight walk, first hazard pair at 0:30, hardest zigzag at 1:20, paired final dodge at 1:40' — matching pt-flow-runner-2min ('0:10 easy straight, 0:30 first hazard pair, 1:20 tight zig-zag hazard, 1:40 last checkpoint'). b10: the 0:15 teach / 1:15 story twist / 2:00 denser hazards / 3:15 calm pause / 3:45 climax arc matches pt-flow-runner-5min's structure. b06: beats tightening 3->1.5 s echo th-mda-challenge ('faster beat') and gn-tactics-queen-board ('on PC the beat can drop to about 2 s').",
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Tactics feasibility safeguard (b06): the commitment that code places elements and proves every board solvable rather than promising fixed layouts.",
+   "briefs": [
+    "b06-pc-chess-gamers"
+   ],
+   "evidence": "Review: With RAG 'uniquely commits to code-verified solvability for every board'; Without RAG's hardest board (5 targets, 4 guards) has 'no stated verification plan'. Card: gn-tactics-code-places ('The AI chooses numbers; code places the board and proves it solvable... never promise exact square positions').",
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Mall-booth hazard count and prop budget (b03): four hazards with placement logic and an 18-24 piece, small-and-low prop cap protecting the 1.2 m lane.",
+   "briefs": [
+    "b03-mall-brand"
+   ],
+   "evidence": "Review: With RAG specifies four hazards and 'roughly 18-24 scenery pieces, small and low'; Without RAG has two hazards and no prop cap despite 'giant' scenery. Cards: sp-size-medium gives '15-50 objects' for medium floors (same idea, different numbers) and pt-flow-runner-2min supplies the hazard schedule. The prop cap is consistent with the cards' sizing rules but the exact 18-24 figure is not in any visible card.",
+   "traced_to_retrieved_cards": "partly"
+  },
+  {
+   "advantage": "Calm-game measurement (b05): a 1-5 calm-rating test question to verify the 'submission' feeling.",
+   "briefs": [
+    "b05-uk-uni-open-day"
+   ],
+   "evidence": "Review: With RAG 'asks for a 1-5 calm rating' while Without RAG's test questions lack a direct calm measure. Card: pu-measure-calm ('Ask one question after: on 1-5, how calm do you feel now compared to before?').",
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Speedrun/expression layer for PC gamers (b06): total timer, clean-run status and fastest-clean-run leaderboard giving stream spectators a cross-run conversation.",
+   "briefs": [
+    "b06-pc-chess-gamers"
+   ],
+   "evidence": "Review credits With RAG's timer+leaderboard with delivering the brief's 'expression' feeling and stream hooks. Cards: cs-pc-gamers (feelings 'challenge and expression', speedrun runner) and gn-tactics-pvp-pitfall ('Offer turns on the same boards with the leaderboard (fastest clean run)') support the leaderboard; the specific speedrun framing is a reasonable extension but the cards do not spell out 'clean-run status'.",
+   "traced_to_retrieved_cards": "partly"
+  },
+  {
+   "advantage": "In-world onboarding guide and progress feedback (b03): a mascot pointing to the first checkpoint and a river that gains colour as checkpoints are awakened.",
+   "briefs": [
+    "b03-mall-brand"
+   ],
+   "evidence": "Review: With RAG adds a water-drop mascot guide and progressive river colouring; Without RAG has no in-world guide. No retrieved card mentions a mascot guide or world-reactivity feedback; the closest cards concern queue throughput and booth venues, not onboarding characters. This appears to be the model's own invention.",
+   "traced_to_retrieved_cards": "no"
+  },
+  {
+   "advantage": "No-ranking scoring framing for a kindergarten birthday (b01): score as a small reward, explicitly forbidding comparison among the children.",
+   "briefs": [
+    "b01-kids-living"
+   ],
+   "evidence": "Review: With RAG 'explicitly forbids score ranking/comparison'; Without RAG's time bonus 'could invite comparison'. The retrieved cards (pu-party-birthday-star, sp-players-families) cover turn-taking, the birthday child as star, and two-level challenge, but none states a no-ranking/no-comparison rule; the adult-accompaniment width test is also not in any visible card.",
+   "traced_to_retrieved_cards": "no"
+  },
+  {
+   "advantage": "Venue-specific operational detail for the Fortal court race (b10): door clearance for the four real doors, spawn separation for six players, no look-up-while-moving tasks.",
+   "briefs": [
+    "b10-fortal-court-race"
+   ],
+   "evidence": "Review: With RAG 'repeatedly calls out lane separation, no lane-cutting, door clearance, spawn separation'. Cards: cs-fortal-court-race-6 covers the venue (14 x 22 m, 6-player two-lane race, 8-10 checkpoints spaced 2.5-9 m, spectators along the long side — all of which appear in the With RAG design) but the visible excerpt does not mention doors or spawn separation; sp-group-race-vs-shared covers collision risk generally.",
+   "traced_to_retrieved_cards": "partly"
+  }
+ ],
+ "q3_improvements": [
+  {
+   "how_to_test": "Build a checker that extracts hard constraints from the brief (session length, player count, space dimensions, lighting/time of day, forbidden content) and flags any output value that conflicts, with the retrieved card cited as the source. Regression test: replay b07 (expect 180 s, not the card's 150 s), b02 (expect morning lighting, not the card's night), b01 (expect afternoon-matched lighting) and confirm the checker catches all three while producing no false alarms on b03/b06/b09.",
+   "improvement": "Add a brief-constraint validation pass after retrieval so card defaults can never silently override explicit brief requirements.",
+   "priority": 1,
+   "why": "RAG's clearest failures were imported card values contradicting the brief: b07's 150-second timer against the 3-minute brief (copied from cs-songkran-outdoor-booth's 'timeLimit 150 s'), b02's night lighting against a morning gym (from pu-edu-solar-system's 'night lighting indoors'), and b01's 'default' lighting/toy palette against a cute afternoon brief (from pt-pal-toy-room). These are mechanical, checkable conflicts — the cheapest class of error to eliminate, and the same card (cs-songkran-outdoor-booth) both helped (water safety) and hurt (150 s), so retrieval needs override rules, not just better cards."
+  },
+  {
+   "how_to_test": "Add a per-step consistency linter that compares declared entities across options/prototype/build plan (counts of checkpoints, hazards, scoring rules, timer values, route geometry vs sketch coordinates). Replay b03, b06, b08, b09 and measure whether the linter flags the four known contradictions; then run both conditions on 10 fresh briefs and count contradictions per design with and without the linter in the loop.",
+   "improvement": "Add a cross-step consistency checker to the pipeline (both conditions), targeting the contradictions Without RAG showed and RAG only partly avoided.",
+   "priority": 2,
+   "why": "The most common Without RAG failure was internal drift: b03's sketch vs checkpoint list, b06's '3 seconds or slower' promise vs 3.0s config, b08's 'no competitive scoring' vs a full scoring system, b09's time bonus vs no-pressure pillar then silent removal of scoring. With RAG also had smaller versions (b07's 'run to the finish' spectator text vs its no-running rule; b05's 'warm afternoon sun' in one field vs morning elsewhere). Consistency was a stated decision criterion in most reviews, so fixing it moves verdicts directly."
+  },
+  {
+   "how_to_test": "For each retrieved card applied to a design, require the output to name the card and the field it influenced (a lightweight citation trail). Then audit: for every With RAG advantage claimed in a review, is there a cited card containing it? This review found b03's mascot guide and b01's no-ranking rule untraceable — such gaps identify missing cards to author. Success metric: percentage of review-credited advantages with a valid citation rises toward 100%, and hallucinated 'card' content drops to zero on a held-out set.",
+   "improvement": "Instrument retrieval with provenance so advantages can be audited against cards, and extend the knowledge base where the model invents good things the cards lack.",
+   "priority": 3,
+   "why": "Several genuine With RAG advantages could not be traced to any retrieved card (b03's mascot onboarding guide and river-reactivity feedback; b01's no-ranking framing and adult-accompaniment width test), and some traced only partly (b06's clean-run speedrun layer, b10's door clearance). Without provenance you cannot tell whether RAG is earning its keep or the model is; and the untraceable wins are exactly the new cards worth writing."
+  },
+  {
+   "how_to_test": "A/B test on the briefs where Without RAG won on feeling delivery: regenerate b01 and b02 With RAG with an added step instruction ('the climax must deliver each requested feeling explicitly; verify lighting/palette against the venue and time of day before accepting card defaults'). Blind-review the new pairs with the same rubric; success is With RAG matching Without RAG's sensation/discovery scores while keeping its specificity edge.",
+   "improvement": "Protect the emotional and discovery beats from being flattened by card-driven convergence: require an explicit 'feeling delivery' check per requested feeling, and keep aesthetic choices (palette, lighting) subordinate to the venue.",
+   "priority": 4,
+   "why": "Without RAG won the experiential axis in b01 (hatching surprise climax vs a plain 'bring egg to nest'), b02 (clue-without-the-name discovery vs labelled planets, morning vs night lighting) and partly b05 (tighter positional language). Cards pushed useful structure but also generic dressing (pt-pal-toy-room's loud primaries on a 'cute' brief). RAG's gains are operational; its losses are experiential, so the fix belongs in the generation guidance, not the retrieval."
+  },
+  {
+   "how_to_test": "Author cards for the recurring gaps the reviews named: multiplayer physical separation in one real space (b07, b10), DNF/partial-score rules for timed races (b04), maximum standing duration with rest prompts for seniors (b09), and venue obstacle verification beyond trees (b10's doors). Then replay those briefs and check whether the new cards are retrieved and whether the review weaknesses they target disappear, using the same blind-review protocol.",
+   "improvement": "Fill the knowledge-base gaps the reviews exposed, especially real-world operations for simultaneous players and session-edge cases.",
+   "priority": 5,
+   "why": "Neither condition handled some operational questions: how four simultaneous players avoid real-body collisions in one 10x10 m courtyard (b07), what happens to a player who fails to finish in 5 minutes (b04), mandatory rest prompts for 60-75 year olds standing 4 minutes (b09), and slower-player fallbacks in a 6-player race (b10). These are exactly the kind of hard-won operational knowledge a knowledge base is for, and no retrieved card covers them."
+  }
+ ],
+ "rag_weaknesses": [
+  {
+   "briefs": [
+    "b07-songkran-outdoor"
+   ],
+   "evidence": "With RAG set timeLimit 150 in all three steps against the brief's explicit 3-minute session — almost certainly imported from the cs-songkran-outdoor-booth card ('3-minute turns, timeLimit 150 s'). The review calls it 'a one-number fix' but it is a direct brief violation the Without RAG run avoided (180 s everywhere). The same card also likely caused the tight 1:50 climax against the 150 s cutoff.",
+   "weakness": "Imported a card's timer value that contradicts the brief (b07)."
+  },
+  {
+   "briefs": [
+    "b01-kids-living",
+    "b02-school-gym-edu"
+   ],
+   "evidence": "b01: With RAG used the pt-pal-toy-room palette (primary blue #2b6cff, block yellow, play green) and left lighting 'default', which the review judged a worse fit for a cute afternoon birthday than Without RAG's pastel/noon match. b02: With RAG chose 'night' lighting with a deep-navy floor for a morning gym with windows, matching pu-edu-solar-system's 'night lighting indoors' advice but not the venue; Without RAG chose morning lighting explicitly for readability in window light.",
+   "weakness": "Card-driven aesthetic choices that fit the venue worse than the baseline's free choices (b01, b02)."
+  },
+  {
+   "briefs": [
+    "b01-kids-living"
+   ],
+   "evidence": "With RAG's build brief says props stay 'at least 0.6 m from the playable edge where possible' and gives no corridor width, while Without RAG stated a firm 1.2 m corridor, hard 0.6 m clearance and nothing on the sofa. The retrieved cards do contain firm margins (un-conflict-many-players-tiny-space: 'Do not shrink the 1.2 m route or the 0.6 m edge margin'), so the hedge is a generation slip despite retrieval.",
+   "weakness": "Hedged safety language despite cards stating firm numbers (b01)."
+  },
+  {
+   "briefs": [
+    "b01-kids-living",
+    "b02-school-gym-edu"
+   ],
+   "evidence": "b01: With RAG's climax is 'bring the egg to the nest' with no surprise beat, weaker on the brief's 'sensation' feeling than Without RAG's hatching surprise. b02: With RAG hands players the planet names on signs ('players follow named targets, so the sequence is given rather than discovered'), weakening the requested discovery feeling; no card forced this — st-voice-educators actually says 'if unsure, use a story label instead'.",
+   "weakness": "Weaker delivery of the brief's requested feelings (sensation, discovery) (b01, b02)."
+  },
+  {
+   "briefs": [
+    "b07-songkran-outdoor",
+    "b05-uk-uni-open-day"
+   ],
+   "evidence": "b07: With RAG's options-step spectator view says spectators watch players 'run to the finish' while its own build plan forbids running. b05: With RAG's prompt_style mentions 'warm afternoon sun' while every other field says morning lighting (the pt-style-storybook card's ready prompt_style contains exactly 'warm afternoon sun', suggesting a paste without adaptation).",
+   "weakness": "Small internal contradictions of its own (b07, b05)."
+  },
+  {
+   "briefs": [
+    "b10-fortal-court-race"
+   ],
+   "evidence": "With RAG's 9-checkpoint course (matching the cs-fortal-court-race-6 card's '8-10 checkpoints') 'may be a little busier for a 5-minute race', depends on disciplined lane separation, and adds production complexity; the reviewer preferred Without RAG's simpler 7-checkpoint race overall.",
+   "weakness": "More complex, busier design where simplicity was an asset (b10)."
+  },
+  {
+   "briefs": [
+    "b03-mall-brand"
+   ],
+   "evidence": "With RAG's rules say only 'running not required' rather than Without RAG's explicit 'walking only, running forbidden', and its saturated palette plus rainbow river does not reserve red for hazards while Without RAG did — despite pt-pal cards in the knowledge base consistently reserving a hazard red.",
+   "weakness": "Missed explicit safety wording the baseline had (b03)."
+  }
+ ],
+ "where_without_rag_was_better": [
+  {
+   "brief": "b01-kids-living",
+   "why": "Richer delivery of the brief's feelings (two-egg hunt with a hatching surprise climax vs a plain fetch), pastel palette and noon lighting matched to the cute afternoon brief, and firmer safety numbers (1.2 m corridor, hard 0.6 m edge clearance, nothing on the sofa) where With RAG hedged. Verdict: tie, with Without RAG ahead on theme and safety specification."
+  },
+  {
+   "brief": "b02-school-gym-edu",
+   "why": "The clue-without-the-name mechanic is a genuinely better discovery design than With RAG's labelled planet signs, and morning lighting fits the gym better than With RAG's card-influenced night lighting. Verdict: tie, with Without RAG ahead on the learning mechanic and lighting."
+  },
+  {
+   "brief": "b05-uk-uni-open-day",
+   "why": "Marginally more specific final build plan: six checkpoints anchored to corners/edges with a defined fountain climax vs With RAG's looser positional language ('across the far side'). Verdict: tie."
+  },
+  {
+   "brief": "b10-fortal-court-race",
+   "why": "The only outright Without RAG win: a cleaner, simpler 7-checkpoint race that is easier to build and run, while With RAG's card-derived 9-checkpoint structure risks being too busy for 5 minutes and adds production complexity. The reviewer still credited With RAG with better specificity and safety detail, but judged simplicity decisive here."
+  },
+  {
+   "brief": "b03-mall-brand",
+   "why": "Clearer walking-only rule ('walking only, running forbidden' vs With RAG's softer 'running not required') and red reserved exclusively for hazards — two safety/readability points where the baseline was stricter, though With RAG won the brief overall."
+  },
+  {
+   "brief": "b06-pc-chess-gamers",
+   "why": "Fairer, more readable difficulty philosophy: slow readable guard beats, no countdown pressure, a restart-board control, and an explicit test question about whether mistakes feel fair — though it lost overall because its 'hard' claim was unverified and it under-filled the session."
+  },
+  {
+   "brief": "b09-seniors-centre",
+   "why": "Better spectator coverage: audience zones on both sides of the room matching the brief's 'friends seated around the room', where With RAG concentrated everyone on the south side. With RAG still won the brief on spacing, signage, fallback and consistency."
+  }
+ ]
+}

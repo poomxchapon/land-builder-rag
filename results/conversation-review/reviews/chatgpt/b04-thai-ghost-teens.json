@@ -1,0 +1,66 @@
+{
+ "summary": "Design X is the stronger overall design. It stays closer to the Mae Nak haunted-house and spirit-release brief, gives a more coherent five-minute arc, and specifies safer, more buildable hazard pacing. Design Y has a clearer requirement for non-crossing simultaneous lanes, but its temple/seal framing and a few safety contradictions weaken it.",
+ "differences": [
+  {
+   "aspect": "Fit to the Mae Nak spirit-release brief",
+   "design_x": "Design X’s recommended Option 3 and prototype make the player Mae Nak’s helper: collect lost spirits, return them to Mae Nak, then open a dawn exit so they can move on. The final story preserves this goal.",
+   "design_y": "Design Y reframes the premise as entering an abandoned viharn to gather lights and “open the seal to release Mae Nak.” Its final goal is to release Mae Nak, rather than primarily release lost spirits.",
+   "evidence": "Options: Design X Option 3 says “collect lost spirits” and “return spirits to Mae Nak”; Design Y Option 1 says “open the seal to release Mae Nak.” Final build plans retain those respective goals.",
+   "better": "X"
+  },
+  {
+   "aspect": "Narrative and gameplay pacing",
+   "design_x": "Design X lays out a deliberate progression: one early forgiving hazard, the densest dodge section at 2:00, a hazard-free emotional return-to-Mae-Nak scene at 3:00, then a generous final route. This supports both challenge and a legible emotional ending.",
+   "design_y": "Design Y has seven objectives and hazard beats, but the prototype’s main climax is a bridge where the route “narrows slightly,” followed by more objectives. Its pacing is less concretely protected from becoming a rushed obstacle course.",
+   "evidence": "Prototype plan: Design X flow and decisions explicitly describe the garden peak, calm checkpoint 5, and finale. Design Y storyboard says the bridge route narrows; its final plan adds hazards after the crying-spirit checkpoint and immediately before the bridge.",
+   "better": "X"
+  },
+  {
+   "aspect": "Physical safety and spatial consistency",
+   "design_x": "Design X consistently states a 1.2 m minimum route width, a 0.6 m edge buffer, no virtual content on the central pillar, and no hazards on the pillar. Its final plan also forbids hazard gates narrower than 1 m.",
+   "design_y": "Design Y also specifies 1.2 m routes and pillar/edge clearance, but its key-art prompt calls the safe route “narrow,” and its storyboard says it narrows before the bridge. That conflicts with the later promise to preserve the width and can encourage risky interpretation in a dark MR room.",
+   "evidence": "Design X prototype decisions and final layout brief; Design Y key-art prompt, storyboard climax, and final layout brief.",
+   "better": "X"
+  },
+  {
+   "aspect": "Two-player collision planning",
+   "design_x": "Design X says both players use separate copies of the space, but its sketch depicts one route and does not state that the physical routes are non-crossing or how two players are separated.",
+   "design_y": "Design Y explicitly requires “two separate, non-crossing race copies” in the final layout brief, with players spawning into their own lanes. This is a meaningful added constraint for simultaneous physical play.",
+   "evidence": "Design X prototype sketch has one path and final brief says each player walks a separate copy. Design Y final layout brief explicitly says “two separate, non-crossing race copies” and its prototype labels a two-lane start.",
+   "better": "Y"
+  },
+  {
+   "aspect": "Cultural/theme treatment",
+   "design_x": "Design X uses an abandoned canal village, stilt house, cradle, canal, lime tree, and Mae Nak as a gentle side presence. It explicitly excludes monks, Buddha images, sacred objects as targets, and touchable temple scenery.",
+   "design_y": "Design Y moves into a viharn/temple setting with prayer, saffron cloth, a spirit bridge, and a seal. It does not provide Design X’s explicit boundary against turning sacred or temple imagery into playable scenery.",
+   "evidence": "Design X final layout brief’s hero pieces and exclusions; Design Y prototype art, seven-checkpoint list beginning with “read the prayer,” and final layout brief.",
+   "better": "X"
+  },
+  {
+   "aspect": "Specificity and build feasibility",
+   "design_x": "Design X provides exact checkpoint labels, scores, timing, hazard placement, visibility rules, spacing rules, spectator orientation, and a clear five-minute flow. The final plan directly implements the prototype’s decisions.",
+   "design_y": "Design Y is also concrete about seven checkpoints, scoring, route order, and spectator placement. However, its prototype sketch shows fewer named story zones than its seven-objective route, and the narrow-bridge language creates an implementation ambiguity.",
+   "evidence": "Design X prototype flow/sketch and final layout brief; Design Y prototype sketch versus its seven-checkpoint final brief, plus bridge wording.",
+   "better": "X"
+  }
+ ],
+ "preferred": "X",
+ "confidence": "high",
+ "why": "Design X better preserves the requested Thai Mae Nak haunted-house premise and “release spirits” purpose while turning the race into a readable, non-jump-scare walking challenge. Its safety and pacing rules remain consistent from option through build plan. Design Y’s explicit non-crossing-lane requirement is better for simultaneous players, but it does not outweigh its thematic drift and conflicting route-width language.",
+ "x_weaknesses": [
+  "It does not adequately show how two simultaneous players’ physically separate routes fit in the same 6 x 8 m room; the sketch shows only one route.",
+  "Its scoring can reward checkpoint completion even after repeated resets, so a clearer tie-break and anti-farming rule would help."
+ ],
+ "y_weaknesses": [
+  "It shifts the central objective from releasing spirits to releasing Mae Nak.",
+  "Its viharn/prayer/saffron-cloth framing is less aligned with a Mae Nak haunted house and lacks explicit sacred-space safeguards.",
+  "“Narrow” route language conflicts with the stated 1.2 m physical clearance requirement.",
+  "Seven objectives may be dense for a five-minute course with resets."
+ ],
+ "improvements": [
+  "For Design X, draw two actual non-crossing physical lanes with measured pillar buffers, start positions, and spectator exclusion zones.",
+  "For Design X, state whether the winner is lowest time, highest score, or a defined combined formula.",
+  "For Design Y, restore the core story to helping Mae Nak release lost spirits in a village/home setting.",
+  "For Design Y, remove all narrow-route language and specify measured bridge clearance and hazard-free recovery areas."
+ ]
+}

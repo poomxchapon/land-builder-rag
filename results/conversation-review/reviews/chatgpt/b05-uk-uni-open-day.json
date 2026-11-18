@@ -1,0 +1,63 @@
+{
+ "summary": "Both selected concepts fit the calm, shared, first-time-user brief well. Design Y is slightly stronger overall because its five spacious stops better support a three-minute, no-pressure walk for two people; Design X is more internally consistent in its lighting direction.",
+ "differences": [
+  {
+   "aspect": "Pacing and number of interactions",
+   "design_x": "Design X’s selected option and final build plan require six ordered markers, including Gate, Ferns, Sunflower, Lily Bridge, Fountain, and Last Seed.",
+   "design_y": "Design Y’s selected option and final build plan use five ordered, explicitly spacious stops, including the pond, blue flowers, windmill, and blossom arch.",
+   "evidence": "Options step: Design X says “6 checkpoints in order”; Design Y says “5 checkpoints.” Prototype flow: Design X allocates six stops between 0:20 and 2:20, while Design Y has five stops and reaches its portal at 2:35. Build plan: Design Y specifies “Keep the stops spacious so two people can stand side by side.”",
+   "better": "Y"
+  },
+  {
+   "aspect": "Core garden moments",
+   "design_x": "Design X emphasizes a botanical sequence with a sunflower, decorative lily crossing, fountain, and a final seed-planting moment.",
+   "design_y": "Design Y emphasizes larger, calmer scenic pauses: lily pond, blue flower drift, slowly turning windmill, and blossom arch.",
+   "evidence": "Prototype storyboard: Design X’s climax is “Listen by the Fountain”; Design Y’s climax is the “little windmill slowly turns” reveal. Both are translated directly from their English session text.",
+   "better": "same"
+  },
+  {
+   "aspect": "Physical-safety specification",
+   "design_x": "Design X specifies a 1.2 m clear walking width and places scenery and route markings at least 0.6 m from the glass.",
+   "design_y": "Design Y specifies an approximately 1.2 m clear route, scenery at least 0.6 m inside floor edges, props outside the walking line, and no dense prop clusters.",
+   "evidence": "Final build plans: both give the same key route width and edge margin. Design Y additionally says its lily pond is outside the walking line and prohibits dense prop clusters; Design X also explicitly keeps the route away from glass throughout its prototype.",
+   "better": "same"
+  },
+  {
+   "aspect": "Lighting and art-direction consistency",
+   "design_x": "Design X consistently calls for morning lighting in its option, prototype mood, key-art prompt, decisions, and final build plan.",
+   "design_y": "Design Y repeatedly calls for morning lighting, but its prototype art `prompt_style` says “warm afternoon sun.”",
+   "evidence": "Prototype plan: Design X art mood says “soft morning light” and its key-art prompt says “daytime.” Design Y’s art prompt style conflicts with its own lighting field, key-art prompt, decisions, and final build plan, all of which say morning.",
+   "better": "X"
+  },
+  {
+   "aspect": "Onboarding and inclusivity",
+   "design_x": "Design X begins with host assistance and a verbal statement that visitors “simply walk and cannot fail.”",
+   "design_y": "Design Y begins with a short welcome card inviting a slow walk, with no explicit host-assisted headset setup in its flow.",
+   "evidence": "Prototype flow at 0:00: Design X says “A host helps both visitors put on their headsets”; Design Y says “A short welcome card invites the pair.” Both final plans retain no timer, hazards, or failure.",
+   "better": "X"
+  },
+  {
+   "aspect": "Spectator integration",
+   "design_x": "Design X orients the fountain pause and portal toward a public-facing side, so viewers can see the visual centrepiece and finale.",
+   "design_y": "Design Y orients the windmill pause and arch-to-portal finish to spectators beyond the glass-side/right edge.",
+   "evidence": "Final build plans explicitly define spectators as observers outside the play area and give them no in-game task. The concrete visible moments differ, but both satisfy the open-day spectator need.",
+   "better": "same"
+  }
+ ],
+ "preferred": "Y",
+ "confidence": "high",
+ "why": "Design Y reduces the required sequence from six to five and repeatedly protects space for a pair to pause together, which is the more convincing match for mostly first-time users in a three-minute, pressure-free open-day experience. Design X has the clearer host-led onboarding and cleaner lighting consistency, but its additional required marker makes the walk slightly more structured and potentially rushed.",
+ "x_weaknesses": [
+  "Six ordered markers leave less slack for genuine pauses, headset adjustment, or conversation within three minutes.",
+  "Its 1.2 m route is specified for two side-by-side walkers but gives little stated buffer beyond that width."
+ ],
+ "y_weaknesses": [
+  "Its prototype art prompt says “warm afternoon sun,” contradicting the otherwise consistent morning-light direction.",
+  "Its onboarding relies on a welcome card rather than explicitly planning host assistance for mostly first-time headset users."
+ ],
+ "improvements": [
+  "For Design X, reduce to five stops or make one of the six markers optional, preserving a true unhurried pause at the fountain.",
+  "For Design Y, replace “warm afternoon sun” with morning daylight in the prototype art prompt and add a host-assisted headset and boundary briefing.",
+  "For both, validate the 1.2 m route with two adults in headsets; widen it where possible or explicitly define staggered pause bays if side-by-side comfort is insufficient."
+ ]
+}
