@@ -1,0 +1,635 @@
+[
+ {
+  "brief": "b01-kids-living",
+  "summary": "Before guards is preferable overall: both select a strong, age-appropriate exploration game, but Before guards is more safety-specific and avoids adding a potentially startling climax. Both retain an avoidable scoring/time inconsistency.",
+  "preferred": "before_guards",
+  "confidence": "high",
+  "why": "Before guards preserves the brief's gentle discovery loop while providing more actionable physical-space constraints and a calmer ending for first-time 5–6-year-old headset users.",
+  "differences": [
+   {
+    "aspect": "Real-space safety detail",
+    "with_rag": "The final build plan says to keep edge margins and props beside the line, but gives no measurable clearance. Its battle option also omits Before guards's explicit warning about a controller swing hitting people or furniture.",
+    "without_rag": "The final build plan requires props to stay at least 0.6 m from the playable edge where possible, says dinosaurs are beside—not on—the walking line, and places a comfortable bypass around the single hazard.",
+    "evidence": "Before guards final build plan: “props at least 0.6 m from the playable edge”; With guards final build plan: “maintain the clear route and edge margins.”",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Fit to the ‘not scary’ constraint",
+    "with_rag": "Adds a climax in which a giant friendly T-rex appears and gives a gentle roar. The prototype itself asks whether this could startle a child.",
+    "without_rag": "Uses static, smiling dinosaur vignettes and explicitly excludes chases, surprises, scary scenery, and void floors.",
+    "evidence": "Before guards final build plan: “no chases, surprises, scary scenery”; With guards prototype decisions/storyboard: “giant friendly T-rex… gentle roar,” and test question asks whether it frightens children.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Spatial safety validation",
+    "with_rag": "Tests route clearance from edges and sofa, but does not test whether the supervising adult can physically accompany the child on the route.",
+    "without_rag": "Prototype tests whether an adult can walk alongside the child without blocking sofa spectators, matching the stated close adult supervision.",
+    "evidence": "Before guards prototype test question: whether the path is wide/far enough from the edge for an adult to accompany the child; With guards prototype test question covers only route clearance from edges and sofa.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Selected game structure and audience fit",
+    "with_rag": "The same essential four-stop, untimed solo egg hunt with one soft mud hazard, adult supervision, and a cake portal facing the sofa.",
+    "without_rag": "A four-stop, untimed solo egg hunt with one soft mud hazard, adult supervision, and a cake portal facing the sofa.",
+    "evidence": "Both recommended Option 1 and both final build plans specify four ordered checkpoints, no timer/ranking, a single mud hazard after checkpoint 2, and a spectator-facing finish.",
+    "better": "same"
+   },
+   {
+    "aspect": "Internal consistency of rewards",
+    "with_rag": "Also says there is no timer, but awards a “bonus time” at the cake portal.",
+    "without_rag": "Says there is no timer, but awards a “time bonus” at the cake portal.",
+    "evidence": "Both final build plans set timeLimit to null/no timer while their rules award a time bonus.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The T-rex reveal and roar introduce a startle risk under a strict ‘not scary’ brief.",
+   "Clearance guidance is less measurable, and adult accompaniment is not explicitly tested.",
+   "It shares the no-timer/time-bonus contradiction."
+  ],
+  "without_rag_weaknesses": [
+   "The final rules promise a time bonus despite having no timer.",
+   "Its prototype describes the mud hazard as being on a narrow route, which should be clarified to ensure the bypass is genuinely spacious."
+  ],
+  "improvements": [
+   "For both designs, remove the time bonus or add a clearly child-safe, non-competitive timer rule.",
+   "For With guards, make the T-rex visible from the start or replace the roar/reveal with a quiet wave or confetti moment.",
+   "For With guards, specify a minimum route/edge clearance and test adult accompaniment during play."
+  ]
+ },
+ {
+  "brief": "b02-school-gym-edu",
+  "summary": "Before guards is stronger overall: it is more spatially specified and more consistent from prototype to build. With guards has a simpler hazard setup, but its prototype sketch conflicts with its eight-checkpoint design and its 2 m spacing requirement is harder to reconcile with the route width.",
+  "preferred": "before_guards",
+  "confidence": "high",
+  "why": "Before guards gives the builder a coherent, measurable route and retains that structure across options, prototype, and final plan. With guards is simpler at the hazard, but its grouped prototype map and spacing-versus-width requirements create avoidable ambiguity.",
+  "differences": [
+   {
+    "aspect": "Spatial feasibility and build readiness",
+    "with_rag": "The final build plan specifies a broad spiral but gives no checkpoint coordinates or segment distances. It also requires four players to keep 2 m apart while using a route only 1.2 m wide.",
+    "without_rag": "The final build plan gives normalized positions for every stop, 1.5–3 m stop spacing, a 1.2 m route width, 0.6 m edge clearance, and a separate finish location.",
+    "evidence": "Final build plan: Before guards lists coordinates from Sun (0.16, 0.82) through Neptune (0.17, 0.22); With guards says “at least 1.2 m clear walking width” and “players remain 2 m apart.”",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Consistency between prototype map and final plan",
+    "with_rag": "The prototype sketch combines Mercury–Venus–Earth into one story zone, Jupiter–Saturn into another, and Uranus–Neptune into another, despite the flow, storyboard, and final plan all requiring eight separate checkpoints.",
+    "without_rag": "The prototype sketch contains separate zones for all eight planets, and the final build plan preserves the same ordered individual checkpoints and route.",
+    "evidence": "Playable prototype sketch: With guards labels zones “Mercury Venus Earth,” “Jupiter and Saturn,” and “Uranus and Neptune”; final build plan says “exactly 8 ordered checkpoints.”",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Fit to the space theme and MR venue",
+    "with_rag": "Uses morning light effectively, but specifies a “chalk-green floor” with pencil/ink palette. This can be readable, but feels more classroom-board-like than space.",
+    "without_rag": "Keeps the real morning gym visible while using a deep-navy space floor and low-poly planets, making the virtual layer clearly read as a solar-system journey.",
+    "evidence": "Playable prototype art: Before guards specifies a “deep navy space floor”; With guards specifies “chalk-green ground” and palette names translated as chalkboard green, paper white, pencil yellow, and ink blue.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Hazard simplicity",
+    "with_rag": "Uses one red circular hazard, which is simpler to explain, build, and supervise for first-time MR players.",
+    "without_rag": "Uses exactly two red asteroid-belt patches, creating a more substantial climax but adding placement and testing work.",
+    "evidence": "Final build plans: Before guards requires “exactly two” hazard patches; With guards requires “one and only one” patch.",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Safety instructions",
+    "with_rag": "Adds an explicit 2 m separation rule, which is a valuable safety goal, but makes the operational arrangement less clear given the 1.2 m route and simultaneous four-player premise.",
+    "without_rag": "Provides practical behavioral rules: walk normally, make room, do not run, and do not collide; it also places models beside the route and preserves circulation/exits.",
+    "evidence": "Final build plan: Before guards says “do not run or collide” and keep exits unobstructed; With guards requires “at least 2 m” between players and a 1.2 m walking width.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Educational accuracy and direct learning loop",
+    "with_rag": "Uses the same correct order, one short fact per planet, non-scale warning, and correct asteroid-belt placement.",
+    "without_rag": "Uses the correct order, one short fact per planet, an explicitly non-scale layout warning, and places the asteroid belt between Mars and Jupiter.",
+    "evidence": "Prototype and final plans in both designs list Mercury through Neptune in order and locate the hazard between Mars and Jupiter.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The prototype sketch does not represent the eight individual stops promised elsewhere.",
+   "The 2 m player-spacing requirement needs a clearer staging solution or wider zones.",
+   "The chalkboard-green floor weakens the stated space setting relative to Before guards."
+  ],
+  "without_rag_weaknesses": [
+   "Two hazard patches are slightly more complex than necessary for a four-minute first-time MR activity.",
+   "A 1.2 m route still needs a clear single-file or staggered movement rule for four players."
+  ],
+  "improvements": [
+   "For Before guards, state whether the team moves single-file or in staggered pairs at narrow sections.",
+   "For With guards, redraw the prototype sketch with all eight separate checkpoints and specify wider waiting bays or a staggered movement protocol.",
+   "For both designs, test actual child movement and reading time before locking the four-minute pacing."
+  ]
+ },
+ {
+  "brief": "b03-mall-brand",
+  "summary": "With guards is preferred overall. Both choose an accessible solo walking game suited to a loud, bright 4 × 4 m mall booth, but With guards is substantially more consistent from option through prototype to build plan. Before guards has a stronger final placement brief, yet its changing hazard count makes its approved prototype unreliable to build from.",
+  "preferred": "with_guards",
+  "confidence": "high",
+  "why": "With guards better protects the creator from build rework: its recommendation, approved prototype, and final specification describe the same game. Before guards is more spatially detailed in the final plan, but it needs reconciliation of the four intended hazards with the approved prototype before it is safe to treat as a reliable build specification.",
+  "differences": [
+   {
+    "aspect": "Consistency between prototype and build plan",
+    "with_rag": "With guards consistently specifies 5 checkpoints and 2 red hazards: Option 1 says “2 hazards,” the prototype sketch contains two danger zones, and the final build plan requires “exactly 2.”",
+    "without_rag": "Before guards’s Option 3 and prototype decisions say 4 hazards, but the prototype sketch contains only 2 danger zones. Its storyboard calls the final obstacle a “pair,” while the sketch has one final danger zone; the final build plan then mandates exactly 4 hazards.",
+    "evidence": "Prototype-plan sketch and decisions; final build plan, in each session.",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Prototype-to-final feasibility",
+    "with_rag": "The final plan preserves the approved prototype’s route, two hazards, climax before checkpoint 4, clear final approach, scoring, and spectator-facing finish.",
+    "without_rag": "The final plan adds two hazards that are absent from the playable sketch. That changes route difficulty and the required safety testing after approval, especially because the brief targets all ages and first-time MR players.",
+    "evidence": "With guards prototype flow/sketch/decisions versus final layout brief; Before guards prototype sketch versus final layout brief.",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Final build specificity",
+    "with_rag": "With guards gives ordered Thai checkpoint labels, exact hazard count and placement, route width, boundary clearance, and spectator orientation.",
+    "without_rag": "Before guards gives all of those plus a clockwise loop, cardinal placements, a hazard distribution for every route segment, an explicit scenery budget of roughly 18–24 pieces, and a visual progression for the river.",
+    "evidence": "Final build-plan layout briefs.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Safety and physical-space fit",
+    "with_rag": "With guards explicitly says not to run, reserves a hazard-free approach to the portal, keeps the route at least 1.2 m wide, and keeps gameplay 0.6 m inside the boundary. Its prototype sketch, however, places the portal at y=0.14 of a 4 m space—about 0.56 m from the edge, narrowly below its later 0.6 m rule.",
+    "without_rag": "Before guards also specifies normal walking, a 1.2 m route, 0.6 m boundary clearance, low scenery outside the lane, and no void floor. Its listed sketch coordinates respect the 0.6 m clearance, but the missing two prototype hazards mean their safe clearance was not actually prototyped.",
+    "evidence": "Prototype sketch and safety decisions; final layout briefs.",
+    "better": "same"
+   },
+   {
+    "aspect": "Fit to queue-building goal",
+    "with_rag": "With guards makes the second dodge and purple portal spectator-facing, providing a simple visible climax; the scoreboard supplies replay motivation.",
+    "without_rag": "Before guards makes the final dodge and portal audience-facing too, while its loop returns the finish close to spawn, which can support quick handoff and public visibility.",
+    "evidence": "Prototype storyboard and spectator plan; final layout briefs.",
+    "better": "same"
+   },
+   {
+    "aspect": "Gameplay clarity for mixed-experience mall visitors",
+    "with_rag": "Its chosen option has one simple sequence—touch 5 ordered points, avoid 2 red puddles, finish—and stages the first hazard after the initial learning checkpoint.",
+    "without_rag": "It retains the same approachable core rule, but the approved prototype describes four hazards and a narrow zigzag while showing only two. That makes the intended difficulty curve unclear before implementation.",
+    "evidence": "Options, prototype flow, sketch, and decisions.",
+    "better": "with_guards"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The prototype portal coordinate is about 0.56 m from one boundary, slightly conflicting with the stated 0.6 m clearance.",
+   "Its final layout brief is less spatially prescriptive than Before guards’s."
+  ],
+  "without_rag_weaknesses": [
+   "The prototype claims four hazards but its sketch depicts two, and later prose gives conflicting counts/arrangements.",
+   "The final plan materially changes the approved prototype’s difficulty and safety-test target."
+  ],
+  "improvements": [
+   "For With guards, move the portal and any associated approach slightly inward so the prototype itself meets the 0.6 m clearance rule.",
+   "For Before guards, first choose and draw one definitive four-hazard layout, then update the storyboard, flow, sketch, and test questions to match it before build approval."
+  ]
+ },
+ {
+  "brief": "b04-thai-ghost-teens",
+  "summary": "Before guards is stronger overall: it keeps the release-of-spirits premise, specifies a safer workable route around the known central pillar, and carries its prototype decisions consistently into the build plan. With guards has a serious physical-layout contradiction for two simultaneous players.",
+  "preferred": "before_guards",
+  "confidence": "high",
+  "why": "Before guards is more faithful to “release spirits” and gives implementable safety constraints around the known obstacle. With guards’s proposed pair of simultaneous physical cells does not fit the stated room, so its race format needs redesign before it can be safely built.",
+  "differences": [
+   {
+    "aspect": "Fit to the core premise",
+    "with_rag": "With guards shifts the goal toward helping Mae Nak return to her beloved by collecting love tokens and breaking her binding curse.",
+    "without_rag": "Before guards makes releasing lost spirits the player’s direct goal: the prototype says the player gathers lost spirits, returns them to Mae Nak, and opens a path to dawn.",
+    "evidence": "Prototype storyboard: Before guards’s climax is “return the spirits to Mae Nak”; With guards’s end says “Mae Nak returns to her beloved.”",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Two-player spatial feasibility",
+    "with_rag": "With guards requires two 4.8 x 2.9 m cells, separated by 1 m, inside a 6 x 8 m room. Either side-by-side or end-to-end arrangement exceeds one room dimension before edge clearances.",
+    "without_rag": "Before guards uses separate virtual copies but designs one route around the actual central pillar, with explicit route and obstacle exclusions.",
+    "evidence": "Final build plan: With guards specifies a “1 x 2 arrangement,” 1 m between cells, and 0.6 m edge clearance. Two 2.9 m sides plus 1 m equal 6.8 m; two 4.8 m sides plus 1 m equal 10.6 m.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Pillar safety",
+    "with_rag": "With guards says the central pillar is unmeasured and defers verification and checkpoint relocation to the editor, despite the brief already identifying a central pillar.",
+    "without_rag": "Before guards treats the centred pillar as a fixed constraint: it prohibits checkpoints, hazards, and virtual models on it, routes around it, and sets 1.2 m path width and 0.6 m edge clearance.",
+    "evidence": "Final build plan: Before guards says “never place a checkpoint, hazard, or virtual model on the real pillar.” With guards says “pillar has not been measured: verify… before play.”",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Specificity of safe movement",
+    "with_rag": "With guards identifies four hazard locations and calls the last one walkable, but its compact-cell proposal is already infeasible and gives less practical recovery from that conflict.",
+    "without_rag": "Before guards specifies a tutorial hazard, dense-but-readable garden hazards, a hazard-free story pause, a generous final route, and no hazard gates narrower than 1 m.",
+    "evidence": "Final build plan: Before guards defines hazards by phase and minimum gate width; With guards concentrates its plan on a 4.8 x 2.9 m cell that cannot be duplicated as specified.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Consistency between prototype and build",
+    "with_rag": "With guards also consistently retains seven checkpoints, four hazards, scoring, and its story structure.",
+    "without_rag": "Before guards consistently retains six checkpoints, the 25-point penalty, 100 points per checkpoint, 300-point finish reward, and a calm release sequence.",
+    "evidence": "Each final build plan matches the checkpoint count, hazard count, scoring, and ending stated in its respective prototype.",
+    "better": "same"
+   },
+   {
+    "aspect": "Spectator experience",
+    "with_rag": "With guards likewise orients the final dodge and dawn portal to the back-room audience and includes a live leaderboard.",
+    "without_rag": "Before guards focuses the visible dodge garden and dawn finish toward spectators.",
+    "evidence": "Both final build plans explicitly place spectators outside play and orient a key dodge moment plus the finish toward them.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "Its two-cell layout is geometrically incompatible with the 6 x 8 m room.",
+   "It postpones resolution of the central-pillar constraint instead of designing around the stated condition.",
+   "Its story goal is less directly about releasing spirits than the creator brief."
+  ],
+  "without_rag_weaknesses": [
+   "Its simultaneous separate-copy concept still needs an explicit real-world staging rule so two players do not occupy the same physical route.",
+   "The timed story checkpoints should be tested to ensure players absorb the narrative rather than rush past it."
+  ],
+  "improvements": [
+   "For Before guards, specify whether players use time-separated turns, separated physical lanes, or a shared-space collision-safe mode.",
+   "For With guards, replace simultaneous dual cells with alternating timed runs, or redesign the race for one shared safe route with controlled starts.",
+   "For With guards, make the player’s primary objective freeing wandering spirits, with Mae Nak as the compassionate guide rather than the person being returned."
+  ]
+ },
+ {
+  "brief": "b05-uk-uni-open-day",
+  "summary": "Before guards is the stronger overall submission: it preserves the calm, pressure-free brief more consistently and gives a clearer buildable route. With guards adds nicer optional shared observations, but its safety and progression instructions conflict.",
+  "preferred": "before_guards",
+  "confidence": "high",
+  "why": "Before guards has the cleaner through-line from option to prototype to build: five scenic stops, then a clearly separate portal finish, with no scoring system. With guards’s optional shared observation moments are a real improvement to social discovery, but its quiet point recording, ambiguous portal structure, and incompatible 2 m separation requirement weaken a first-time, two-person MR build.",
+  "differences": [
+   {
+    "aspect": "Pressure-free fit",
+    "with_rag": "With guards’s prototype decision says standard checkpoint and finish points are awarded, and its final rules say points are “recorded quietly.”",
+    "without_rag": "Before guards’s prototype HUD explicitly has “No timer, health display, hazard warning or live score,” and its final rules say there is “nothing to chase.”",
+    "evidence": "Prototype plan → HUD/decisions; final build plan → rules.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Two-player safety specification",
+    "with_rag": "With guards requires both a 1.2 m clear path and that players “keep 2 m between” themselves while walking together and finishing side by side. Those requirements cannot all be met on the same narrow route.",
+    "without_rag": "Before guards specifies a 1.2 m clear walking route and spacious stops where two people can stand side by side, but does not impose an exact separation distance.",
+    "evidence": "Final build plan → layout brief and rules. With guards repeats the 2 m requirement in its prototype decision and test question.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Finish/progression clarity",
+    "with_rag": "With guards labels “Meet at the welcome portal” as checkpoint five, but also says that after checkpoint five players enter a portal, and the build plan places the finish portal beside checkpoint five. It is unclear whether the portal is the fifth stop or a separate post-stop finish.",
+    "without_rag": "Before guards consistently defines five ordered garden checkpoints, with the blossom arch as checkpoint five and the portal immediately afterwards as the finish.",
+    "evidence": "Prototype plan → tour structure/sketch; final build plan → rules and layout brief.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Shared discovery activity",
+    "with_rag": "With guards gives pairs optional, non-scored shared actions: pointing out the same butterfly and finding the same lily.",
+    "without_rag": "Before guards’s stops are primarily scenic pauses: pond, blue flowers, windmill, and arch.",
+    "evidence": "Prototype plan → flow, storyboard, and decision “A shared activity beyond walking.”",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Use of the three-minute session",
+    "with_rag": "With guards similarly reaches the portal at 2:35 and ends at 3:00, while adding optional butterfly and lily pauses.",
+    "without_rag": "Before guards has a timed flow with a windmill reveal at 1:25, arch at 2:00, portal at 2:35, and headset removal/talking time at 3:00.",
+    "evidence": "Prototype plan → flow.",
+    "better": "same"
+   },
+   {
+    "aspect": "Brief and venue fit",
+    "with_rag": "With guards likewise keeps the atrium visible, uses daylight-readable scenery, requires no controllers or hazards, and keeps spectators outside the route.",
+    "without_rag": "Before guards uses real glass walls and daylight as part of a conservatory, avoids controllers, hazards, timers, scares, and keeps spectators outside the route.",
+    "evidence": "Three game options → recommended option; prototype and final build plans.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The mandatory 2 m separation conflicts with walking together on a 1.2 m path and finishing side by side.",
+   "Quietly awarded points weaken the stated “nothing to win” and no-pressure intent.",
+   "The fifth checkpoint and portal are described inconsistently."
+  ],
+  "without_rag_weaknesses": [
+   "The 1.2 m route is still tight for two people standing side by side; Before guards should state stop-zone dimensions or a passing/pausing arrangement.",
+   "Its discovery is mostly passive looking rather than a shared optional action."
+  ],
+  "improvements": [
+   "Keep Before guards’s route and score-free progression, but borrow With guards’s optional shared butterfly/lily-style observation at two stops.",
+   "For either design, specify sufficiently wide pause bays for both people, instead of relying on a 1.2 m route for side-by-side use.",
+   "For With guards, remove recorded points and define the portal either as checkpoint five or as a separate finish after checkpoint five."
+  ]
+ },
+ {
+  "brief": "b06-pc-chess-gamers",
+  "summary": "Both are strong fits, but With guards is more rigorously specified and better calibrated as a hard escalating tactics puzzle. Before guards is clearer about failure/reset behavior and the replay goal.",
+  "preferred": "with_guards",
+  "confidence": "high",
+  "why": "With guards most directly delivers a hard chess-piece puzzle with a stronger board-by-board ramp and more concrete solvability safeguards. Before guards’s reset rule and cleaner replay framing are worth carrying into With guards before production.",
+  "differences": [
+   {
+    "aspect": "Difficulty progression",
+    "with_rag": "With guards’s prototype specifies 2, then 3, then 4 and 4 guards; its final build plan tightens beats from 3 to 2 to 1.8 to 1.5 seconds and increases targets from 2 to 3 to 4 to 6.",
+    "without_rag": "Before guards’s final build plan keeps 2 guards and a 3-second beat for both knight and bishop boards, then uses 2 guards at 2.5 seconds for rook and 3 guards at 1.5 seconds for queen.",
+    "evidence": "Prototype plan / final build plan: With guards explicitly ramps guard count, route blockers, capture order, and timing on every board. Before guards postpones most guard pressure until the final board.",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Failure-state clarity",
+    "with_rag": "With guards says players must never finish on an attacked square, but its final rules do not state the consequence of doing so.",
+    "without_rag": "Before guards explicitly states that entering a red attacked square resets the attempt, and frames the leaderboard as a fastest clean run.",
+    "evidence": "Final build plan, rules: Before guards says “entering one resets the attempt”; With guards only says “Never finish a move on a square attacked.”",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Puzzle fairness and implementation specificity",
+    "with_rag": "With guards commits to search-checking every board for an ordered safe solution and rejecting layouts where the starting square is attacked. It also gives exact board-by-board values for guards, blockers, targets, and beats.",
+    "without_rag": "Before guards says code will place elements and prove boards solvable, but does not add With guards’s opening-state safeguard.",
+    "evidence": "Prototype decisions: With guards says “Generate and search-check every board” and reject attacked starts. Before guards says code “proves every board solvable.”",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Support for expression through route optimization",
+    "with_rag": "With guards emphasizes best total and per-board times, letting players improve a particular movement puzzle or the whole sequence.",
+    "without_rag": "Before guards emphasizes a fastest-clean-run leaderboard and explicitly tests whether skilled players can find meaningfully different routes rather than one obvious solution.",
+    "evidence": "Prototype plan: With guards HUD includes total, per-board times, and personal bests. Before guards test questions explicitly ask about meaningfully different routes and its HUD includes a clean-run leaderboard.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Ten-minute-session fit",
+    "with_rag": "With guards’s schedule reaches results at 9:30, leaving a little room before ten minutes, but its final queen board has 6 targets, 4 guards, 4 cracks, 4 tables, and a 1.5-second beat.",
+    "without_rag": "Before guards schedules payoff at 9:15 and restart at 10:00; its queen board has 4 targets, 3 guards, 2 cracks, and 2 tables on a 1.5-second beat.",
+    "evidence": "Prototype flow and final config in both designs. With guards is harder, but its finale risks consuming the remaining session through retries; Before guards has more explicit timing headroom.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Consistency across stages",
+    "with_rag": "With guards consistently presents the Hollow King as the final target/story identity rather than a separate boss, and preserves its four-piece progression, visible threats, no-time-limit count-up clock, and exact escalation into the build plan.",
+    "without_rag": "Before guards is also largely consistent, but its option says the final queen faces 3 guards while its prototype calls this the court closing in; its build plan preserves that count. No material contradiction results.",
+    "evidence": "Option, prototype, and final build-plan comparisons for both sessions.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The consequence of ending on an attacked square is unspecified in the final rules.",
+   "Its final board may be too dense for a first ten-minute run, despite the otherwise good count-up timer approach."
+  ],
+  "without_rag_weaknesses": [
+   "Its early boards stay comparatively flat: two guards and a 3-second beat persist through the bishop board.",
+   "The final build plan offers a gentler overall challenge than the requested hard puzzle may warrant."
+  ],
+  "improvements": [
+   "Use Before guards’s explicit “attacked square resets the current attempt” rule in With guards.",
+   "Playtest With guards’s queen board; if first-run completion routinely exceeds the session, reduce its targets or blockers while keeping its four-guard timing challenge.",
+   "Retain With guards’s per-board personal bests alongside Before guards’s clean-run leaderboard."
+  ]
+ },
+ {
+  "brief": "b07-songkran-outdoor",
+  "summary": "With guards is preferable overall. Its chosen game is more internally consistent and has a plausible four-player spatial allocation; Before guards offers more precise-looking coordinates but assigns a near-full-courtyard route to each of four simultaneous players, which is not feasible in the stated 10 x 10 m space.",
+  "preferred": "with_guards",
+  "confidence": "high",
+  "why": "With guards has a real feasibility caveat—its compact 3.9 m cells still need on-site tree measurement and route testing—but it identifies and manages that uncertainty. Before guards’s coordinate detail creates false precision because the route consumes most of the only courtyard while also claiming four simultaneous separate copies. That is a decisive player-safety and buildability problem.",
+  "differences": [
+   {
+    "aspect": "Fit to the 3-minute brief",
+    "with_rag": "The recommended option, prototype, and build plan consistently use a 180-second round.",
+    "without_rag": "The recommended option calls the experience a 3-minute round, but specifies 150 seconds in the option, prototype, and build plan.",
+    "evidence": "With guards final build plan: \"timeLimit: 180\". Before guards three-options mechanics and final build plan: 150 seconds.",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Four-player spatial feasibility",
+    "with_rag": "Allocates four separate 3.9 x 3.9 m cells in a 2 x 2 grid, with 1 m between cells, and explicitly requires checking tree obstruction before play.",
+    "without_rag": "Says four players use separate copies, but its final build plan gives one route coordinates spanning approximately x=1.0–8.4 m and y=1.4–8.8 m—effectively the whole 10 x 10 m courtyard. Four such copies cannot coexist there.",
+    "evidence": "With guards prototype decision: \"2 x 2\" cells, each 3.9 x 3.9 m. Before guards final layout: four simultaneous separate copies, while listing a single route across almost the entire floor.",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Tree handling",
+    "with_rag": "Does not pretend unmeasured trees are already solved: it requires measuring both trees and moving affected cells or routes in the editor.",
+    "without_rag": "Provides approximate tree coordinates and exclusion zones, which is more actionable, but applies them to an otherwise infeasible full-courtyard-per-player layout.",
+    "evidence": "With guards final layout: trees \"not yet measured\" and must be checked in all four cells. Before guards final layout: trees approximately at (4.0,4.2) and (6.0,6.2), with measurement verification required.",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Build-layout specificity",
+    "with_rag": "Defines the compact per-player cell and route requirements, but does not provide metre coordinates within that cell.",
+    "without_rag": "Provides an explicit coordinate sequence for spawn, six checkpoints, finish, hazards, spectator edge, and tree exclusions.",
+    "evidence": "With guards final layout describes a \"compact route for one cell.\" Before guards final layout specifies coordinates such as spawn (1.0,8.2) and CP4 (8.4,4.0).",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Safety consistency",
+    "with_rag": "Repeatedly says not to run; its storyboard’s climax explicitly says to walk around the final hazard.",
+    "without_rag": "Rules say not to run, but the option-stage spectator description says players \"run into the finish.\"",
+    "evidence": "With guards prototype climax: \"walk around... without running.\" Before guards option 1 spectator view: \"run into the finish,\" while final rules say \"do not run.\"",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Consistency from option to build",
+    "with_rag": "Keeps the six-stop sequence, three hazards, 180 seconds, respectful elder-blessing finish, and per-player-cell model through all stages.",
+    "without_rag": "Keeps the theme and basic loop, but changes from broadly described tree-routing to an incompatible full-floor coordinate route for each player; it also shortens the initially promised three-minute round.",
+    "evidence": "With guards option, prototype, and final plan preserve six ordered destinations and 180 seconds. Before guards option claims a 3-minute family race, while subsequent materials use 150 seconds and full-floor coordinates.",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Respect for the temple setting",
+    "with_rag": "Uses a calm, respectful water-pouring-to-elder ending; excludes Buddha images and sacred objects from walkable props.",
+    "without_rag": "Likewise excludes Buddha images, monks, and sacred ceremonies from comic or game use, and frames the final blessing calmly.",
+    "evidence": "Both final layout briefs explicitly prohibit sacred figures or objects as play props and preserve a respectful blessing ending.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The compact six-stop route inside a 3.9 x 3.9 m cell may feel crowded and needs physical validation around the two trees.",
+   "The prototype sketch is normalized rather than metre-placed, making installation less direct than Before guards’s coordinate format."
+  ],
+  "without_rag_weaknesses": [
+   "Four simultaneous copies of a near-full 10 x 10 m route cannot fit in the stated venue.",
+   "The 150-second duration conflicts with the stated 3-minute session framing.",
+   "The option-stage phrase that players run to the finish conflicts with later no-running safety rules."
+  ],
+  "improvements": [
+   "Keep With guards’s per-player-cell model, but provide metre coordinates and a tree-adjustment fallback for each cell.",
+   "Reserve setup, result display, and headset handoff outside the 180-second gameplay time if the creator wants a three-minute total station cycle.",
+   "For Before guards, redesign around four physically bounded cells before retaining any coordinate-level route detail."
+  ]
+ },
+ {
+  "brief": "b08-tiny-room-solo",
+  "summary": "Before guards is the stronger overall design because it better delivers the brief’s requested challenge and zombie tension while remaining build-specific. With guards is safer and more conservative for the very small bedroom.",
+  "preferred": "before_guards",
+  "confidence": "high",
+  "why": "Before guards makes the non-shooting substitute more legible and skill-based, with a teach-then-climax hazard sequence and a highly actionable layout brief. With guards better protects against unsafe movement and uses the full session more naturally, but its single late pool produces a less distinctive challenge loop.",
+  "differences": [
+   {
+    "aspect": "Fit to requested challenge and zombie premise",
+    "with_rag": "With guards’s recommended Option 1 turns the premise into a four-stop escape route with one contamination pool; its final rules explicitly say there is “no shooting or combat” and zombies are static scenery.",
+    "without_rag": "Before guards’s recommended Option 3 also honestly removes shooting, but makes the central play action dodging two stationary zombie-hand hazards on the route to the vaccine and evacuation point.",
+    "evidence": "Three options: With guards recommends “Escape Zombies from the Safe Room,” while Before guards recommends “Dodge Zombie Hands to the Vaccine.” Prototype and build plans preserve those respective choices.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Real-space safety",
+    "with_rag": "With guards uses one 0.35 m hazard only, specifies no jumpscares or running, and places it on the return leg away from the bed and walls.",
+    "without_rag": "Before guards uses two 0.35 m hazards in a compact zigzag. It gives strong safety instructions—walk only, no jumping, detour away from the bed—but adds a second forced detour in the same 2.2 × 2.5 m room.",
+    "evidence": "Prototype decisions/build plan: With guards specifies one red pool; Before guards specifies exactly two red-circle hazards. Both plans retain the real bed and walls.",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Challenge structure and replay value",
+    "with_rag": "With guards’s challenge is primarily the 300-second limit plus one late detour; its prototype timeline reaches the finish at 3:45 and results at 4:30.",
+    "without_rag": "Before guards teaches the mechanic through a first hazard between checkpoints 1 and 2, then uses a second hazard between checkpoints 3 and 4 as a climax. Its end explicitly invites replay to improve time and score.",
+    "evidence": "Prototype storyboard/flow: Before guards labels the first dodge as teaching and the final dodge as the climax; its final rules include replay for better time and score.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Spatial implementation specificity",
+    "with_rag": "With guards provides a route sketch and checkpoint ordering, but the final brief describes a “narrow unobstructed walking line” without giving an equally explicit detour geometry.",
+    "without_rag": "Before guards provides a zigzag coordinate sketch, hazard placement by checkpoint interval, a 0.6 m spawn circle, checkpoint spacing, object-count guidance, and a requirement that hazards be readable before stepping.",
+    "evidence": "Final build plan: Before guards specifies first hazard between checkpoints 1–2 and second between 3–4, plus 8–20 small objects; With guards gives one return-leg hazard and 2–4 vignettes.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Consistency from option through final build",
+    "with_rag": "With guards consistently carries Option 1’s ordered radio, supplies, bunker door, signal, one hazard, and return portal into its prototype and final build.",
+    "without_rag": "Before guards consistently carries Option 3’s first-aid point, wrecked car, vaccine cabinet, evacuation marker, two hazards, and finish portal into its prototype and final build.",
+    "evidence": "In both sessions, the picked recommended option is preserved in the prototype’s decisions/storyboard and final build rules/layout.",
+    "better": "same"
+   },
+   {
+    "aspect": "Five-minute session pacing",
+    "with_rag": "With guards’s flow intentionally reserves time for its four objectives, return dodge, score review, and rest before the five-minute end.",
+    "without_rag": "Before guards’s first completion is planned at 2:20, then offers replay at 2:40. This supports score-chasing but may leave a player who does not replay with a short first run.",
+    "evidence": "Prototype flow: With guards reaches results at 4:30; Before guards reaches exit at 2:20 and replay selection at 2:40.",
+    "better": "with_guards"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The recommended game is only loosely connected to the requested shooting fantasy: static zombies and one contamination pool do not create much direct zombie interaction.",
+   "Its challenge arrives mainly at the end, so much of the route is simple checkpoint collection.",
+   "The final layout is less explicit about the physical width of the safe detour around its hazard."
+  ],
+  "without_rag_weaknesses": [
+   "Two forced detours may be aggressive for a 2.2 × 2.5 m bedroom with a bed against a wall, despite the safety wording.",
+   "The planned first completion at 2:20 underuses a five-minute session unless replay is compelling.",
+   "Zombie hands rising from hazards are more thematically vivid but should remain clearly stationary and visually calm to avoid prompting sudden movement."
+  ],
+  "improvements": [
+   "For Before guards, validate the two detours in the scanned room and automatically reduce to one hazard if the safe clearance cannot be maintained.",
+   "For Before guards, add a second-round variation or a brief escalating score objective so the five-minute duration is purposeful.",
+   "For With guards, introduce a more active but stationary zombie-pressure mechanic, such as sightline zones or timed barricade interactions, without requiring shooting or running."
+  ]
+ },
+ {
+  "brief": "b09-seniors-centre",
+  "summary": "Before guards is preferable overall: it preserves the gentle, no-pressure walk more consistently and gives staff a more actionable safety layout. With guards has a clearer point-reward implementation, but that is not a benefit for this brief.",
+  "preferred": "before_guards",
+  "confidence": "high",
+  "why": "Both selected concepts fit the brief well, but Before guards avoids adding visible performance rewards, makes the staff/route arrangement slightly more operational, and keeps the start and exit distinct. With guards’s score system and co-located start/exit introduce avoidable pressure and ambiguity for first-time older MR users.",
+  "differences": [
+   {
+    "aspect": "Safety and pressure",
+    "with_rag": "Adds visible scoring despite the brief’s emphasis on safety and no pressure: Prototype Plan decisions award 100 points per checkpoint and 300 at exit; its HUD includes “large cumulative score”; the Build Plan repeats those rewards. Its prototype also frames the climax as sitting at a market bench, which is less clear and potentially riskier in an otherwise walking-only MR setup.",
+    "without_rag": "Keeps the experience score-free for the player: the prototype HUD says “no timer, no score, no health bar,” and the build says “no in-play score or timer display.” Its radio climax is a standing pause.",
+    "evidence": "Prototype Plan → HUD and decisions; Final Build Plan → game rules/layout brief. Thai text translated to English.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Spatial specificity and staff safety",
+    "with_rag": "Also specifies a 1.2 m corridor and objects 0.6 m inside the edge, but says staff should stand without blocking the path rather than assigning a clear supervision position.",
+    "without_rag": "The Build Plan specifies a 1.2 m walking corridor, virtual scenery outside it, checkpoints/portal at least 0.6 m from the boundary, staff beside spawn, and rest chairs outside the route.",
+    "evidence": "Final Build Plan → layout_brief in both designs.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Start/finish clarity",
+    "with_rag": "The Prototype Plan sketch puts both “open market gate” start and “return-to-friends gate” goal at exactly (0.45, 0.78), while the build describes a short walk from checkpoint 5 to an exit beside the starting area. This could make the two gates or their state unclear.",
+    "without_rag": "The Prototype Plan sketch places the start at (0.28, 0.78) and the finish at (0.36, 0.80): close enough for a social return, but distinct. The build reinforces a finish portal near south-side seating.",
+    "evidence": "Playable Prototype Plan → sketch; Final Build Plan → layout_brief.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Narrative climax",
+    "with_rag": "Uses a market bench and a prompt to remember a past morning. It supports reminiscence, but the instruction to sit is ambiguous because the real-space arrangement only guarantees chairs outside the play area.",
+    "without_rag": "Uses an old radio as a final hero vignette, with a quiet audio pause and no surprise sounds; this is a concrete nostalgia cue that does not interrupt walking.",
+    "evidence": "Playable Prototype Plan → decisions, flow, storyboard; Final Build Plan → layout_brief.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Consistency of the non-selected alternatives",
+    "with_rag": "Option 2 labels itself narrative/story/hub, although its mechanics are a rook movement, collection, guard-avoidance puzzle; it does not state that boards are solvable. Option 3 calls its theme a warm forest while also saying it is adapted into an old market.",
+    "without_rag": "Option 2’s stated tactics/collect/zigzag framing matches its rook-like puzzle mechanics. It also says boards are generated and checked to be solvable.",
+    "evidence": "Three Game Options → axes, mechanics, theme.",
+    "better": "before_guards"
+   },
+   {
+    "aspect": "Core selected walking-tour fit",
+    "with_rag": "Offers the same essential structure: five ordered stops, a broad loop, no hazards or timer, large chest-height signs, and a return near friends.",
+    "without_rag": "Offers a five-stop, broad circular morning-market tour with no hazards or timer, large readable signs, and a return near friends.",
+    "evidence": "Three Game Options → recommended Option 1; Final Build Plan → layout_brief.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "Visible point totals and exit bonus conflict with the otherwise no-pressure, non-competitive experience.",
+   "The start and goal share the same plotted coordinate.",
+   "The bench climax is ambiguous about whether the player should physically sit.",
+   "Its alternative-option labels/themes are less internally consistent."
+  ],
+  "without_rag_weaknesses": [
+   "Prototype Plan decisions say the system scores points and time, while its HUD/build say there is no score or timer display; the hidden time scoring should be removed or explicitly justified.",
+   "The first flow beat combines greeting the vendor and grocery viewing, making the five-stop pacing slightly less explicit."
+  ],
+  "improvements": [
+   "For Before guards, remove hidden time scoring and state that completion is the only progress measure.",
+   "For With guards, remove the score HUD and reward rules; separate the exit portal physically and visually from the entrance; make the bench a standing memory vignette unless a real, staff-verified seat is explicitly part of the route."
+  ]
+ },
+ {
+  "brief": "b10-fortal-court-race",
+  "summary": "With guards is stronger overall because its six-player spatial plan is physically coherent and its final build specification is more testable. Both preserve the requested neon sci-fi, five-minute MR race and replace actual running with fast walking for safety.",
+  "preferred": "with_guards",
+  "confidence": "high",
+  "why": "With guards is the safer and more feasible production plan. Its private-cell layout makes six simultaneous MR racers plausible, while Before guards’s strongest visual idea—the full-court two-lane course—conflicts with its promise of six separate simultaneous routes.",
+  "differences": [
+   {
+    "aspect": "Six-player space and safety",
+    "with_rag": "With guards consistently gives every player a 5.9 x 6.27 m private route cell, arranged 2 x 3. Its final build plan adds 1 m between cells, a 1.2 m clear walking route, 0.6 m edge clearance, and unobstructed doors.",
+    "without_rag": "Before guards says each of six players has their own route copy, but its prototype and final build plan also specify only two long lanes spanning the single 22 m court. Six simultaneous full-court route copies cannot be accommodated by those two shared lanes.",
+    "evidence": "With guards prototype decision: “six cells arranged 2 x 3”; With guards build plan: “one route for a 5.9 x 6.27 m cell” and “six separate cells.” Before guards prototype decision: “everyone plays their own copy,” while its final layout says “Use two long... lanes spanning the full 22 m court.”",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Build specificity",
+    "with_rag": "With guards fixes the full route content: eight named checkpoints, exactly six hazards, their placements relative to checkpoints, and a defined easy-to-hard-to-recovery pacing sequence.",
+    "without_rag": "Before guards defines nine named checkpoints and useful hazard phases, but does not state an exact total or placement list for hazards beyond broad groups and density instructions.",
+    "evidence": "With guards final build plan says “exactly 8 ordered checkpoints” and “Place exactly 6 hazards... No additional hazards.” Before guards final build plan says to use a sparse set, a denser group, and two climax groups without a total hazard count.",
+    "better": "with_guards"
+   },
+   {
+    "aspect": "Player experience and brief fit",
+    "with_rag": "With guards offers a compact personal zigzag race, focused on route reading, precise avoidance, and a leaderboard. Its final recovery stretch before the finish can prevent the race ending at peak visual clutter.",
+    "without_rag": "Before guards uses the court’s full length to create a more cinematic journey, including a city-scale energy abyss, scenic pause, and final bridge. This is potentially more spectacular, but depends on resolving its six-player lane contradiction first.",
+    "evidence": "With guards prototype flow puts its hardest section at checkpoints 6–7, then has checkpoint 8 on an open stretch. Before guards prototype flow uses checkpoint 7 as a scenic, hazard-free pause, followed by a final bridge at checkpoints 8–9.",
+    "better": "same"
+   },
+   {
+    "aspect": "Consistency from option to final plan",
+    "with_rag": "With guards maintains its selected option’s six private cells, eight checkpoints, six hazards, scoring, safe fast-walk rule, and spectator-side finale through prototype and build plan.",
+    "without_rag": "Before guards preserves its theme, nine checkpoints, scoring, and fast-walk rule, but changes from “each player’s own copy” to a shared two-lane, full-court layout without explaining how six simultaneous players remain separated.",
+    "evidence": "With guards option 1, prototype decisions, and build plan all describe individual cells/copies. Before guards option 1 says six players use shared real space and need lane control; its prototype says private copies; its build plan then gives two full-court lanes.",
+    "better": "with_guards"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The compact-cell course may feel less like crossing a large sports court than Before guards’s long-route fantasy.",
+   "Its option text initially calls the experience an online race, which is imprecise for co-located players in the same venue."
+  ],
+  "without_rag_weaknesses": [
+   "The final spatial layout does not reconcile six individual route copies with two full-court lanes.",
+   "Its visually narrow abyss bridge may create unnecessary perceived-risk discomfort, even though the plan preserves a 1.2 m physical corridor."
+  ],
+  "improvements": [
+   "For Before guards, choose one coherent model: six separate compact cells, or fewer simultaneous players on the two full-court lanes.",
+   "For With guards, clarify that players are co-located competitors with separate MR route instances rather than an “online” race.",
+   "For either design, mark the real spectator boundary and staff intervention/stop procedure explicitly."
+  ]
+ }
+]

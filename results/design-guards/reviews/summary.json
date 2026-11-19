@@ -1,0 +1,318 @@
+{
+ "made": "2026-11-19T21:32:59.567Z",
+ "what": "Blind pair reviews: the original RAG design (dev/ab, RAG on) against the same brief re-run with the design guards. Reviewers: Kimi K3 and ChatGPT (gpt-5.6-terra via codex exec). Both designs pruned to their schema, guard-only fields (plan, counts, sources, feelings, followed) and all card ids removed, labelled X and Y at random (5 and 5).",
+ "rounds": {
+  "guards v1": {
+   "runs": "dev/ab5",
+   "verdicts": {
+    "with_guards": 7,
+    "before_guards": 11,
+    "tie": 2
+   },
+   "by_model": {
+    "kimi": {
+     "verdicts": {
+      "with_guards": 3,
+      "before_guards": 5,
+      "tie": 2
+     },
+     "aspects": {
+      "with_guards": 21,
+      "before_guards": 25,
+      "same": 37
+     }
+    },
+    "chatgpt": {
+     "verdicts": {
+      "with_guards": 4,
+      "before_guards": 6,
+      "tie": 0
+     },
+     "aspects": {
+      "with_guards": 17,
+      "before_guards": 27,
+      "same": 14
+     }
+    }
+   },
+   "briefs": {
+    "b01-kids-living": {
+     "kimi": {
+      "preferred": "tie",
+      "confidence": "medium",
+      "why": "The two designs are near-identical in concept, structure, and fit to the brief. Before guards wins on build specificity and slightly safer spatial layout; With guards wins on step-to-step scoring consistency and on delivering the brief's \\\"sensation\\\" feeling through the T-rex finale. Neither advantage is decisive: Before guards's dropped scoring rules are easy to restore, and With guards's edge-heavy spectator layout is easy to nudge inward. On balance neither is clearly better for the creator or the players."
+     },
+     "chatgpt": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards preserves the brief's gentle discovery loop while providing more actionable physical-space constraints and a calmer ending for first-time 5–6-year-old headset users."
+     }
+    },
+    "b02-school-gym-edu": {
+     "kimi": {
+      "preferred": "tie",
+      "confidence": "medium",
+      "why": "The two sessions produce the same game concept with equal fidelity to the brief, so the verdict rests on secondary qualities that cut in opposite directions. With guards's morning lighting and explicit 2 m spacing rule are meaningful wins for an MR session with first-time Grade 5 players in a sunlit gym — lighting mismatch and child collisions are real failure modes. Before guards's coordinate-exact, per-planet layout carried consistently from sketch to build plan is a meaningful win for actually building the thing without ambiguity, and its two-patch belt is a slightly richer climax. Neither advantage clearly outweighs the other: Before guards's flaws are fixable with one lighting flag and one rule line, and With guards's flaws are fixable by copying its own sketch coordinates into the build plan. Hence a tie."
+     },
+     "chatgpt": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards gives the builder a coherent, measurable route and retains that structure across options, prototype, and final plan. With guards is simpler at the hazard, but its grouped prototype map and spacing-versus-width requirements create avoidable ambiguity."
+     }
+    },
+    "b03-mall-brand": {
+     "kimi": {
+      "preferred": "before_guards",
+      "confidence": "medium",
+      "why": "Before guards wins on the two differences that matter most to actually building and operating this booth: its layout brief is buildable without guesswork (compass positions for every checkpoint, hazard placement per segment, prop count), and its loop geometry puts the start, finish, final dodge, and portal all on the queue side — directly serving the brief's stated goal of attracting and turning over a queue, and making player handoff natural. With guards's only clear win is hazard-count consistency (2 everywhere vs Before guards's sketch showing 2 while text says 4). That inconsistency is a genuine documentation flaw in Before guards, but it is localized and easily corrected, whereas With guards's thinner layout brief would require the builder to invent positions. On safety, scoring, pacing, and theme fit the two are equivalent."
+     },
+     "chatgpt": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards better protects the creator from build rework: its recommendation, approved prototype, and final specification describe the same game. Before guards is more spatially detailed in the final plan, but it needs reconciliation of the four intended hazards with the approved prototype before it is safe to treat as a reliable build specification."
+     }
+    },
+    "b04-thai-ghost-teens": {
+     "kimi": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards wins on the aspects that most affect whether this game can actually be played safely in the specified room: it resolves the central pillar with a concrete loop-around layout and explicit clearance rules that survive unchanged from the options step through the build plan, while With guards leaves the pillar unmeasured and ships a two-cell layout whose stated dimensions exceed the room. On theme, gameplay structure, scoring, and spectator value the two are essentially equal, so the verdict rests on feasibility, safety specificity, and cross-step consistency — all of which favor Before guards."
+     },
+     "chatgpt": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards is more faithful to “release spirits” and gives implementable safety constraints around the known obstacle. With guards’s proposed pair of simultaneous physical cells does not fit the stated room, so its race format needs redesign before it can be safely built."
+     }
+    },
+    "b05-uk-uni-open-day": {
+     "kimi": {
+      "preferred": "before_guards",
+      "confidence": "medium",
+      "why": "Before guards wins on the aspects that matter most for this brief: it is more faithful to 'no scares, no pressure' (no scoring of any kind), its safety guidance is feasible in the real space, and its build plan is more specific and internally consistent. With guards's shared butterfly/lily moment is a genuine strength, but it does not outweigh the contradiction of recording points in a 'nothing to win' experience and a 2 m separation rule that its own floor dimensions make impractical. The margin is modest because the core concept, structure, and spectator handling are nearly identical."
+     },
+     "chatgpt": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards has the cleaner through-line from option to prototype to build: five scenic stops, then a clearly separate portal finish, with no scoring system. With guards’s optional shared observation moments are a real improvement to social discovery, but its quiet point recording, ambiguous portal structure, and incompatible 2 m separation requirement weaken a first-time, two-person MR build."
+     }
+    },
+    "b06-pc-chess-gamers": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards better fulfills the 'hard chess-piece puzzle' brief through superior difficulty curve design. The escalation across multiple dimensions (guard count, target count, beat speed, obstacle density) creates a more satisfying arc that culminates in a mechanically dense final board. Before guards's decision to keep guards at 2 for three boards and plateau target count at 4 undermines the sense of progression and makes the final board feel less climactic despite the faster timing. Both designs are otherwise equivalent in execution quality, thematic integration, and feasibility, but With guards's difficulty curve is more carefully tuned to deliver the promised challenge."
+     },
+     "chatgpt": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards most directly delivers a hard chess-piece puzzle with a stronger board-by-board ramp and more concrete solvability safeguards. Before guards’s reset rule and cleaner replay framing are worth carrying into With guards before production."
+     }
+    },
+    "b07-songkran-outdoor": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "medium",
+      "why": "The two designs are the same game at the concept level, so the verdict rests on execution safety and fidelity to the brief. With guards's 2×2 grid of private 3.9×3.9 m cells is the single most consequential difference: it physically prevents collisions between four simultaneous first-time VR players, whereas Before guards sends all four through one shared courtyard-wide zigzag, names the resulting jostling risk itself, and then never resolves it. With guards also keeps the brief's full 3-minute round (Before guards silently cuts it to 150 s while still claiming 3 minutes) and treats the unmeasured trees as a pre-play verification task instead of baking guessed coordinates into a load-bearing route. Before guards is genuinely better in two ways — its build brief is far more actionable (exact metre coordinates for every element) and its route makes richer, more memorable use of the real courtyard and trees — but its coordinates are partly built on unverified tree positions, and the unresolved four-player crowding issue is a real safety and throughput problem for a noon-time festival booth with VR newcomers. On balance With guards is the safer, more faithful, and more internally consistent plan; Before guards is the more vivid but riskier one."
+     },
+     "chatgpt": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards has a real feasibility caveat—its compact 3.9 m cells still need on-site tree measurement and route testing—but it identifies and manages that uncertainty. Before guards’s coordinate detail creates false precision because the route consumes most of the only courtyard while also claiming four simultaneous separate copies. That is a decisive player-safety and buildability problem."
+     }
+    },
+    "b08-tiny-room-solo": {
+     "kimi": {
+      "preferred": "before_guards",
+      "confidence": "medium",
+      "why": "The creator is a 30-year-old regular VR player who explicitly asked for challenge and sensation, and Before guards's recommended-and-built game is the one that actually delivers those feelings through a learnable dodge skill, while still encoding walking-only rules, bed-aware hazard placement, and a test question verifying safe detours. Before guards's build plan is also substantially more buildable as written: exact hazard placement logic, spawn size, object budget, hex palette, and sightline requirements versus With guards's single looser paragraph. With guards's advantages are real — one hazard is objectively safer in a 2.2 × 2.5 m room, its pacing fills the 5 minutes more naturally, and its story chain is tighter — but its chosen design is the more conservative option that its own scoring ranked lower on fun and player fit, making it a weaker answer to this particular brief. The verdict is medium confidence because the safety trade-off in a very small room is genuine: for a more risk-averse creator, With guards would be the better call."
+     },
+     "chatgpt": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards makes the non-shooting substitute more legible and skill-based, with a teach-then-climax hazard sequence and a highly actionable layout brief. With guards better protects against unsafe movement and uses the full session more naturally, but its single late pool produces a less distinctive challenge loop."
+     }
+    },
+    "b09-seniors-centre": {
+     "kimi": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards is more faithful to the brief's core emotional requirement (calm, unhurried, nothing to fear) because it actively removes score pressure rather than adding it, and it is slightly stronger on real-space safety for unsteady seniors (explicit non-VR fallback, discomfort/balance test questions). With guards is not unsafe or off-brief overall — its layout engineering is equally rigorous — but its visible big-number score works against the very feeling the creator asked for, and its own pitch promised the opposite."
+     },
+     "chatgpt": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Both selected concepts fit the brief well, but Before guards avoids adding visible performance rewards, makes the staff/route arrangement slightly more operational, and keeps the start and exit distinct. With guards’s score system and co-located start/exit introduce avoidable pressure and ambiguity for first-time older MR users."
+     }
+    },
+    "b10-fortal-court-race": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards is preferred because it solves the core MR safety and feasibility challenge of 6 simultaneous players in a shared physical space through a concrete cell-based layout (2x3 grid, 5.9 x 6.27 m per cell, 1 m gaps), while Before guards leaves this ambiguous with 'two long lanes' and 'six separated spawn positions' that do not add up for 6 players. With guards also provides more specific hazard placement and route geometry. Both are otherwise equivalent in brief fit, consistency, and spectator design."
+     },
+     "chatgpt": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards is the safer and more feasible production plan. Its private-cell layout makes six simultaneous MR racers plausible, while Before guards’s strongest visual idea—the full-court two-lane course—conflicts with its promise of six separate simultaneous routes."
+     }
+    }
+   }
+  },
+  "guards v2": {
+   "runs": "dev/ab6",
+   "verdicts": {
+    "with_guards": 15,
+    "before_guards": 4,
+    "tie": 1
+   },
+   "by_model": {
+    "kimi": {
+     "verdicts": {
+      "with_guards": 9,
+      "before_guards": 0,
+      "tie": 1
+     },
+     "aspects": {
+      "with_guards": 31,
+      "before_guards": 10,
+      "same": 33
+     }
+    },
+    "chatgpt": {
+     "verdicts": {
+      "with_guards": 6,
+      "before_guards": 4,
+      "tie": 0
+     },
+     "aspects": {
+      "with_guards": 25,
+      "before_guards": 19,
+      "same": 14
+     }
+    }
+   },
+   "briefs": {
+    "b01-kids-living": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "medium",
+      "why": "The deciding factors are build-plan specificity and safety treatment. With guards's final plan can be executed directly against the measured room (coordinates, route width, edge clearance, explicit counts), while Before guards's plan describes the layout only in relative terms and gives no route-width guarantee. With guards also explicitly flags the under-10 VR guidance as a creator decision with a safer alternative, which is the most consequential real-world issue in this brief. With guards's minor inconsistency about score comparison is resolved by its final plan and does not outweigh these advantages."
+     },
+     "chatgpt": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards better protects the stated non-scary constraint and reduces cognitive load for novice preschool players in a small real room. With guards’s coordinate-level layout is materially more buildable, but its giant roaring T-rex and contradictory score-comparison language are meaningful drawbacks for this brief."
+     }
+    },
+    "b02-school-gym-edu": {
+     "kimi": {
+      "preferred": "tie",
+      "confidence": "high",
+      "why": "With guards wins on safety design and venue-lighting fit, which matter for first-time VR Grade 5 students in a morning gym. Before guards wins on step-to-step consistency and build-plan correctness, which matter for actually building the approved prototype without confusion. With guards's coordinate collision (Earth and Mars at the same point) and self-crossing route are real defects a builder would hit immediately; Before guards's missing player-spacing protocol is a real safety gap a teacher would hit on day one. Neither defect is clearly worse than the other, and on concept fit, educational accuracy, spectator experience, and scope the two are equivalent — so the honest verdict is a tie."
+     },
+     "chatgpt": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards better preserves the brief’s core activity—four children learning the planet order by walking it together—and gives a buildable ordered route. With guards has better player-spacing instructions, but the Earth/Mars coordinate collision is a material implementation failure in the final plan."
+     }
+    },
+    "b03-mall-brand": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "medium",
+      "why": "The two designs are so similar in concept that the verdict rests on execution quality of the documents. With guards wins on the things that matter most for actually building and operating this booth game: (1) it is numerically consistent across all three steps (3 hazards everywhere, coordinates carried verbatim from sketch to build plan), whereas Before guards contradicts itself on hazard count (4 in options, 2 in the prototype sketch, 4 again in the build plan) and silently drops its own sketch coordinates; (2) With guards's build plan is directly actionable — a builder can place every element from numbers alone, while Before guards's builder must re-derive positions from prose; (3) With guards keeps decorative scope tighter (one hero arch vs mascot + color-changing river + 18–24 props), which matters for a 2-minute mall activation. Before guards's advantages — the loop route that returns the player to the start for faster queue turnover, and the more charming waking-garden narrative — are real but smaller, and the narrative could be grafted onto With guards without changing its structure. The mascot in Before guards also sits uncomfortably close to the brief's no-advertising constraint for a brand booth, though it is declared original."
+     },
+     "chatgpt": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards offers the more implementation-ready and internally coherent plan for a constrained public MR floor. Its route gives spectators a readable finish without putting them in play, and it more directly controls unsafe speed incentives. Before guards’s explicit under-10 guidance is a meaningful advantage, but its approved prototype has an unresolved hazard-count mismatch that the final build silently corrects."
+     }
+    },
+    "b04-thai-ghost-teens": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards wins on the aspects that most affect whether this game can be built and played safely in the real room: it proves the floor plan fits with explicit arithmetic, keeps players in fixed cells away from the unmeasured central pillar with a mandatory editor inspection, pins every checkpoint and hazard to coordinates, and caps hazards at three static circles with guaranteed walk-arounds — all while matching Before guards on theme, tone, scoring, and spectator value. Before guards's loop-around-the-pillar concept is atmospherically appealing but geometrically unverified, coordinate-free, and slightly inconsistent with its own sketch, making it riskier and less ready to build."
+     },
+     "chatgpt": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards turns the brief into a constrained, testable MR layout without losing the intended gentle horror or competitive challenge. Before guards is evocative and largely safe in intent, but its unresolved use of one central pillar for two supposedly separate simultaneous play spaces is a material feasibility gap."
+     }
+    },
+    "b05-uk-uni-open-day": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards is better where it counts for this brief: real-space safety for two first-time headset users (staggered start plus an explicit 1.2 m spacing rule carried consistently from the options step through the prototype decisions into the build-plan rules) and build feasibility (a measured usable floor, spawn coordinates and facing, and exact checkpoint coordinates a builder can use directly). On brief fit, tone, HUD restraint, spectator handling and step-to-step consistency the two designs are equivalent, so the verdict rests on With guards's concrete safety and layout specificity."
+     },
+     "chatgpt": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards gives the builder more actionable safety, staffing, pacing, and spatial instructions for a public MR open-day installation. Its flower-arch coordinate should be moved inward or the local corridor geometry revised before production. Before guards remains preferable if judging the three exploratory options themselves, because it protects the calm, pressure-free brief more consistently."
+     }
+    },
+    "b06-pc-chess-gamers": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "medium",
+      "why": "With guards is preferred because its five-board structure with a more gradual guard and beat escalation better serves the 'hard but fair' promise for teen and adult gamers, and its steps are slightly more consistent with each other. Before guards is very close in brief fit and has a marginally richer story wrapper, but its steeper ramp and small polish issues make it marginally less strong overall."
+     },
+     "chatgpt": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards preserves the literal chess-piece puzzle while reducing workload and pressure enough to better support a first 10-minute run. With guards has stronger explicit spectator UI planning, but its acknowledged 1.5-second timing conflict and heavier final board make its challenge less safely tuned."
+     }
+    },
+    "b07-songkran-outdoor": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "The decisive factors are safety and brief compliance. With guards's 2×2 grid of 3.9×3.9m cells with verified arithmetic ensures four players can race simultaneously without physical collision risk — critical for an outdoor MR experience with trees and spectators. Before guards's overlapping route design, while more precisely specified, creates an unsafe condition where four players share the same physical space. Additionally, Before guards's 150-second time limit contradicts the brief's explicit 3-minute requirement, while With guards correctly uses 180 seconds. Before guards's coordinate specificity is valuable but cannot overcome these fundamental flaws."
+     },
+     "chatgpt": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards provides a buildable solution for the decisive constraint: four novice players simultaneously in a 10×10 m courtyard with two unknown tree locations. Before guards has appealing timing and equally respectful thematic treatment, but its final spatial specification cannot support the four simultaneous routes it promises."
+     }
+    },
+    "b08-tiny-room-solo": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "medium",
+      "why": "With guards is preferred because its final build plan offers superior specificity and safety engineering. The inclusion of exact local coordinates and a mandatory 0.6m safety inset directly addresses the constraints of the small bedroom (2.2x2.5m) and the bed obstacle, reducing the risk of implementation errors and player collisions. While Before guards offers slightly more gameplay variety with two hazards, the lack of concrete spatial data makes it riskier to build safely in the confined space compared to With guards's precise, safety-first approach."
+     },
+     "chatgpt": {
+      "preferred": "before_guards",
+      "confidence": "high",
+      "why": "Before guards makes the strongest playable translation of a solo zombie shooter into safe walking-only MR: zombie hazards remain part of the mechanics rather than decoration, and the two-dodge progression supports challenge and replay. With guards is clearer for implementation, but its coordinate specification violates its own 0.6 m safety inset, a material issue in a 2.2 × 2.5 m bedroom."
+     }
+    },
+    "b09-seniors-centre": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "medium",
+      "why": "With guards is modestly better for this specific brief. The brief's core asks are gentle exercise, nostalgia, narrative, very safe, and no rush for first-time elderly players with staff support. With guards turns those into concrete designed moments: a tea-stall pause with a real chair offered by staff (directly serving the no-rush, safety-first constraint and giving the helper a defined role), an interactive memory action (oranges for grandma), and a canal climax that invites personal storytelling — stronger on the 'narrative' feeling than Before guards's look-and-read stops. Its build plan is also more directly executable, with per-checkpoint coordinates and explicit furniture/look-up safety rules, and it avoids Before guards's small contradiction of silently scoring by time in a no-rush experience. Before guards is not worse overall — its playtest questions and the seated-PC fallback are genuinely better safety thinking — but those are validation and contingency details, while With guards's advantages live in the core experience and the buildable plan the creator would actually hand to a builder."
+     },
+     "chatgpt": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards is more buildable from the page because the approved prototype already resolves each stop’s location and carries a concrete, supervised rest procedure into the final plan. Before guards is still a strong fit and better at testing early signs of discomfort or instability, but its prototype-to-layout handoff is less consistent."
+     }
+    },
+    "b10-fortal-court-race": {
+     "kimi": {
+      "preferred": "with_guards",
+      "confidence": "medium",
+      "why": "With guards wins on the things most likely to make or break the actual build: it resolves the 6-player physical layout with exact, verifiable arithmetic, explicitly states there is no shared-floor play (removing the collision ambiguity Before guards leaves open), gives per-hazard placement guidance that a builder can execute without further design decisions, and maintains tighter step-to-step consistency (8 checkpoints, 4 hazards, and scoring match exactly from options through prototype to build brief, including the sketch). Before guards is the more evocative design — full-court lanes better match the 'race through a course' fantasy and its pacing arc (mid-run twist, scenic pause, bridge climax) is richer — but its build brief never reconciles how 6 real bodies share 2 lanes across a 22 m court, which its own options step flagged as the top risk. Since the brief is for a real venue with real families watching, the safer, more buildable plan carries more weight, and With guards delivers that without sacrificing the core fun. The margin is modest because Before guards is genuinely stronger on concept fit and drama."
+     },
+     "chatgpt": {
+      "preferred": "with_guards",
+      "confidence": "high",
+      "why": "With guards makes the necessary safety adaptation from running to walking without leaving six-player movement ambiguous. Before guards better evokes a long-course race, but its two-lane layout does not convincingly support six simultaneous physical players."
+     }
+    }
+   }
+  }
+ }
+}
