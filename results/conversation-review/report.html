@@ -1,0 +1,173 @@
+<title>Land Builder RAG Comparison</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500&display=swap">
+<style>
+/* Layout: a single reading column; the verdict table and the aspect bars carry the evidence. */
+:root{--bg:#f6f8f8;--surface:#fff;--fg:#17272b;--muted:#566a6f;--line:#d5dfe0;--rag:#0b6f73;--rag-soft:#d7eeee;--base:#a2501f;--base-soft:#f8e4d6;--same:#7b8a8e;--same-soft:#e6ebec;
+--display:"Newsreader",Georgia,serif;--body:"IBM Plex Sans",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101a1c;--surface:#172427;--fg:#e4eded;--muted:#9fb1b4;--line:#2f4145;--rag:#6fd0d0;--rag-soft:#143d40;--base:#f0a877;--base-soft:#4a2c1a;--same:#9aa9ac;--same-soft:#2a383b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#101a1c;--surface:#172427;--fg:#e4eded;--muted:#9fb1b4;--line:#2f4145;--rag:#6fd0d0;--rag-soft:#143d40;--base:#f0a877;--base-soft:#4a2c1a;--same:#9aa9ac;--same-soft:#2a383b;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.6 var(--body)}
+main{max-width:860px;margin:0 auto;padding-block:48px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:44px}
+main>*{min-width:0}
+h1,h2{font-family:var(--display);font-weight:500;text-wrap:balance;margin:0}
+h1{font-size:clamp(2rem,5vw,2.9rem);line-height:1.12}
+h2{font-size:1.6rem;line-height:1.25}
+h3{font-size:1rem;margin:0;font-weight:600}
+p{margin:0;max-width:68ch}
+section,header{display:grid;gap:16px}
+.kicker{font:500 .78rem var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.lead{font-size:1.14rem;line-height:1.55}
+.muted{color:var(--muted);font-size:.92rem}
+a{color:var(--rag);text-underline-offset:2px}
+a:focus-visible{outline:2px solid var(--rag);outline-offset:2px}
+.tally{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.tally div{background:var(--surface);padding:14px 16px;display:grid;gap:2px}
+.tally b{font:500 2rem/1.1 var(--display);font-variant-numeric:tabular-nums}
+.tally .r b{color:var(--rag)}.tally .b b{color:var(--base)}.tally .s b{color:var(--same)}
+.tally span{font-size:.86rem;color:var(--muted)}
+.wrap{overflow-x:auto;border:1px solid var(--line);background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font:500 .74rem var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+td.n{white-space:nowrap}
+.v{display:inline-block;padding:1px 8px;border-radius:3px;font-size:.82rem;font-weight:500;white-space:nowrap}
+.v.r{background:var(--rag-soft);color:var(--rag)}.v.b{background:var(--base-soft);color:var(--base)}.v.s{background:var(--same-soft);color:var(--muted)}
+.bars{display:grid;gap:14px}
+.bar{display:grid;gap:5px}
+.bar .lab{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.88rem}
+.track{display:flex;height:16px;gap:2px}
+.track i{display:block}
+.track .r{background:var(--rag)}.track .b{background:var(--base)}.track .s{background:var(--same-soft);outline:1px solid var(--line);outline-offset:-1px}
+.list{display:grid;gap:18px;margin:0;padding:0;list-style:none}
+.list li{display:grid;gap:4px}
+ol.pri{display:grid;gap:18px;margin:0;padding-left:1.5em}
+ol.pri li{padding-left:.2em}
+ol.pri li>*+*{margin-top:4px}
+.tag{font:500 .74rem var(--mono);color:var(--muted)}
+ul.plain{margin:0;padding-left:1.2em;display:grid;gap:8px;max-width:68ch}
+@media (max-width:520px){.tally b{font-size:1.6rem}.tally div{padding:10px}main{padding-block:32px 56px}}
+</style>
+
+<main>
+<header>
+  <div class="kicker">Land Builder · with and without RAG</div>
+  <h1>RAG made the game plans more specific and safer, but it did not change what game got designed</h1>
+  <p class="lead">Ten game briefs were each designed twice, once with the knowledge base and once without. Kimi K3 and ChatGPT compared each pair without being told which design used RAG. RAG was preferred in 15 of their 20 verdicts.</p>
+</header>
+
+<section aria-label="Verdict totals">
+  <div class="tally">
+    <div class="r"><b>15</b><span>verdicts prefer With RAG</span></div>
+    <div class="b"><b>2</b><span>verdicts prefer Without RAG</span></div>
+    <div class="s"><b>3</b><span>verdicts are ties</span></div>
+  </div>
+  <p class="muted">Two reviewers across ten briefs make 20 verdicts. Neither reviewer's tally is a statistical test: each brief was run once per condition.</p>
+</section>
+
+<section>
+  <h2>How the comparison was run</h2>
+  <ul class="plain">
+    <li><b>Keep each conversation.</b> Each of the 20 design sessions is saved as its own file: creator brief, three options, prototype plan, build plan.</li>
+    <li><b>Hide the approach.</b> Card IDs, citations and other RAG markers were removed. The two designs were labelled X and Y in a random order, balanced 5 and 5.</li>
+    <li><b>Compare each pair.</b> Kimi K3 and ChatGPT (gpt-5.6-terra) each reviewed all ten pairs separately and had to give evidence from the sessions.</li>
+    <li><b>Answer your three questions.</b> After the labels were revealed, each model read its own reviews and the retrieved cards, then answered the questions below.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Verdict for each brief</h2>
+  <div class="wrap"><table>
+    <thead><tr><th>Brief</th><th>Kimi K3</th><th>ChatGPT</th><th>Conversations</th></tr></thead>
+    <tbody>
+      <tr><td>Kids' birthday, living room</td><td class="n"><span class="v s">Tie</span></td><td class="n"><span class="v r">With RAG</span></td><td class="n"><a href="conversations/b01-kids-living-with-rag.md">with</a> · <a href="conversations/b01-kids-living-without-rag.md">without</a></td></tr>
+      <tr><td>School gym, solar system</td><td class="n"><span class="v s">Tie</span></td><td class="n"><span class="v r">With RAG</span></td><td class="n"><a href="conversations/b02-school-gym-edu-with-rag.md">with</a> · <a href="conversations/b02-school-gym-edu-without-rag.md">without</a></td></tr>
+      <tr><td>Mall brand booth</td><td class="n"><span class="v r">With RAG</span></td><td class="n"><span class="v r">With RAG</span></td><td class="n"><a href="conversations/b03-mall-brand-with-rag.md">with</a> · <a href="conversations/b03-mall-brand-without-rag.md">without</a></td></tr>
+      <tr><td>Thai ghost story, teens</td><td class="n"><span class="v r">With RAG</span></td><td class="n"><span class="v r">With RAG</span></td><td class="n"><a href="conversations/b04-thai-ghost-teens-with-rag.md">with</a> · <a href="conversations/b04-thai-ghost-teens-without-rag.md">without</a></td></tr>
+      <tr><td>UK university open day</td><td class="n"><span class="v s">Tie</span></td><td class="n"><span class="v r">With RAG</span></td><td class="n"><a href="conversations/b05-uk-uni-open-day-with-rag.md">with</a> · <a href="conversations/b05-uk-uni-open-day-without-rag.md">without</a></td></tr>
+      <tr><td>PC chess puzzle</td><td class="n"><span class="v r">With RAG</span></td><td class="n"><span class="v b">Without RAG</span></td><td class="n"><a href="conversations/b06-pc-chess-gamers-with-rag.md">with</a> · <a href="conversations/b06-pc-chess-gamers-without-rag.md">without</a></td></tr>
+      <tr><td>Songkran outdoor booth</td><td class="n"><span class="v r">With RAG</span></td><td class="n"><span class="v b">Without RAG</span></td><td class="n"><a href="conversations/b07-songkran-outdoor-with-rag.md">with</a> · <a href="conversations/b07-songkran-outdoor-without-rag.md">without</a></td></tr>
+      <tr><td>Tiny room, solo player</td><td class="n"><span class="v r">With RAG</span></td><td class="n"><span class="v r">With RAG</span></td><td class="n"><a href="conversations/b08-tiny-room-solo-with-rag.md">with</a> · <a href="conversations/b08-tiny-room-solo-without-rag.md">without</a></td></tr>
+      <tr><td>Seniors' centre</td><td class="n"><span class="v r">With RAG</span></td><td class="n"><span class="v r">With RAG</span></td><td class="n"><a href="conversations/b09-seniors-centre-with-rag.md">with</a> · <a href="conversations/b09-seniors-centre-without-rag.md">without</a></td></tr>
+      <tr><td>Six-player court race</td><td class="n"><span class="v r">With RAG</span></td><td class="n"><span class="v r">With RAG</span></td><td class="n"><a href="conversations/b10-fortal-court-race-with-rag.md">with</a> · <a href="conversations/b10-fortal-court-race-without-rag.md">without</a></td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">The reviewers agree on five briefs and never both prefer Without RAG. They split on the chess puzzle and the Songkran booth.</p>
+</section>
+
+<section>
+  <h2>1. What is the difference between the two approaches?</h2>
+  <p>Both approaches usually produce the same kind of game. The difference is in how well the plan is worked out for the real audience and space.</p>
+  <ul class="list">
+    <li><h3>With RAG gives builders measurable instructions</h3><p>In the tiny room, the RAG plan sets a 0.35 m hazard radius, a 0.6 m spawn circle and 0.5 to 1 m between stops. The plan without RAG gives no such sizes.</p></li>
+    <li><h3>With RAG covers risks specific to the audience or venue</h3><p>The Songkran plan keeps headsets away from real water. The Thai ghost plan bans monks, Buddha images and sacred objects as game targets. The version without RAG uses aged saffron cloth and prayer markers as scenery.</p></li>
+    <li><h3>Without RAG is sometimes more inventive</h3><p>It produced an egg-hatching climax for the birthday game and a clue-based planet hunt for the school. With RAG, the planets were simply labelled.</p></li>
+  </ul>
+  <div class="bars" role="img" aria-label="Which design was better on each compared aspect. Kimi K3: With RAG 38, Without RAG 12, same 31. ChatGPT: With RAG 27, Without RAG 19, same 13.">
+    <h3>Which design was better on each aspect compared</h3>
+    <div class="bar"><div class="lab"><span>Kimi K3, 81 aspects</span><span class="muted">38 with · 12 without · 31 same</span></div><div class="track"><i class="r" style="flex:38"></i><i class="b" style="flex:12"></i><i class="s" style="flex:31"></i></div></div>
+    <div class="bar"><div class="lab"><span>ChatGPT, 59 aspects</span><span class="muted">27 with · 19 without · 13 same</span></div><div class="track"><i class="r" style="flex:27"></i><i class="b" style="flex:19"></i><i class="s" style="flex:13"></i></div></div>
+  </div>
+</section>
+
+<section>
+  <h2>2. What is the advantage of the approach with RAG?</h2>
+  <p>The reviewers listed 24 advantages and checked each against the cards that were retrieved. 14 trace directly to a card, 8 trace partly and 2 do not trace to any card.</p>
+  <div class="wrap"><table>
+    <thead><tr><th>Advantage</th><th>Example</th><th>Card behind it</th></tr></thead>
+    <tbody>
+      <tr><td>Real-space safety</td><td>Songkran booth keeps headsets dry, away from street water</td><td><code>cu-songkran-no-real-water</code></td></tr>
+      <tr><td>Cultural respect</td><td>Mae Nak is told as a love story and sacred objects stay out of play</td><td><code>cu-mae-nak</code>, <code>cs-thai-folklore-adults</code></td></tr>
+      <tr><td>Fit to the audience</td><td>Seniors get wider stop spacing and a seated alternative</td><td><code>cs-seniors-centre</code>, <code>sp-seated-alternative</code></td></tr>
+      <tr><td>Buildable numbers</td><td>Tiny-room sizes match the card's values exactly</td><td><code>sp-tiny-room</code>, <code>cs-tiny-room-2x2</code></td></tr>
+      <tr><td>Ways to test the design</td><td>Students put planet cards in order to measure learning</td><td><code>pu-measure-education</code></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <h2>Where RAG did not help</h2>
+  <ul class="list">
+    <li><h3>Card defaults can override the brief</h3><p>The school gym is used in the morning, but the RAG plan chose night lighting, which the solar-system card suggests. The Songkran plan took a 150-second limit from its card although the brief says 3 minutes.</p></li>
+    <li><h3>A card can pull the game away from the request</h3><p>ChatGPT preferred the chess puzzle without RAG. The RAG version tightens the last board to a 1.5-second beat, which rewards reflexes in a game meant to be about planning. The version without RAG stays at 3 seconds or more.</p></li>
+    <li><h3>RAG does not stop contradictions between steps</h3><p>In the mall booth, the prototype sketch marks two hazard zones while the final plan asks for four hazard circles. Plans without RAG also contradict themselves, so this needs its own check.</p></li>
+    <li><h3>Multiplayer layouts remain unproven</h3><p>Neither approach shows that several players fit safely in a shared real space, for example four players in the 10 by 10 m Songkran courtyard.</p></li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. What is the further improvement?</h2>
+  <p>This order merges the two models' recommendations. Each item comes with a test that can be run on these same briefs.</p>
+  <ol class="pri">
+    <li><h3>Let the brief overrule the cards</h3><p>Check session length, lighting, player count and space against the brief after retrieval.</p><p class="muted">Test: replay the Songkran and school gym briefs and confirm both conflicts are caught.</p><p class="tag">Kimi 1 · ChatGPT 3</p></li>
+    <li><h3>Check consistency across steps</h3><p>Compare counts, timers, scoring and lighting across the options, prototype and build plan.</p><p class="muted">Test: count contradictions per design on ten new briefs, with and without the checker.</p><p class="tag">Kimi 2 · ChatGPT 1</p></li>
+    <li><h3>Prove multiplayer layouts with a solver</h3><p>Generate measured lanes from the room, obstacles, doors and player count, and reduce the player count when no safe layout exists.</p><p class="muted">Test: walk the generated layouts with the intended number of players.</p><p class="tag">ChatGPT 2</p></li>
+    <li><h3>Record which card shaped each decision</h3><p>Each important field names its card or is marked as the model's own idea. Good ideas with no card show which cards to write next.</p><p class="muted">Test: audit a sample of citations against the card text.</p><p class="tag">Kimi 3 · ChatGPT 4</p></li>
+    <li><h3>Protect the feeling the creator asked for</h3><p>Check that the climax delivers each requested feeling before the plan is accepted.</p><p class="muted">Test: regenerate the birthday and school briefs and repeat the blind review.</p><p class="tag">Kimi 4</p></li>
+    <li><h3>Test with real players</h3><p>Build the games and run them with 5 to 8 people from each audience. Add cards for the gaps found so far, such as rest prompts for seniors and players who do not finish a timed race.</p><p class="muted">Test: set pass marks from each brief, such as no contact with walls or boundaries.</p><p class="tag">Kimi 5 · ChatGPT 5</p></li>
+  </ol>
+</section>
+
+<section>
+  <h2>Limits of this evidence</h2>
+  <ul class="plain">
+    <li>These are design documents. The games were not built or played for this comparison, so fun, safety and learning are judged from text.</li>
+    <li>Each brief ran once per condition, so some differences may be ordinary variation between runs.</li>
+    <li>Nine of the ten briefs are mixed reality walking games, so the result may not carry over to other genres.</li>
+    <li>The system prompts were not saved. The files hold every creator input and AI output, in order. The option pick and prototype approval were automatic.</li>
+    <li>Kimi K3.1 Pro wrote the designs and a Kimi model also reviewed them, so ChatGPT is the more independent reviewer.</li>
+    <li>Kimi's written summary called the court race a win for Without RAG, but its blind review chose With RAG. The verdicts on this page are counted directly from the blind reviews.</li>
+    <li>The 150-second finding may be less serious than the reviewers said, because the source card pairs a 3-minute turn with a 150-second limit. The extra time could be for handing over the headset.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Files</h2>
+  <p>The 20 conversations are linked in the verdict table. The reviews are available as data:</p>
+  <ul class="plain">
+    <li>Kimi K3: <a href="reviews/kimi/unblinded.json">ten pair reviews</a> and <a href="reviews/kimi/synthesis.json">answers to the three questions</a></li>
+    <li>ChatGPT: <a href="reviews/chatgpt/unblinded.json">ten pair reviews</a> and <a href="reviews/chatgpt/synthesis.json">answers to the three questions</a></li>
+  </ul>
+</section>
+</main>

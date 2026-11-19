@@ -1,0 +1,70 @@
+{
+ "summary": "Design X is preferred: it is more build-ready and spatially specific while preserving the brief’s direct learning goal. Design Y adds a stronger discovery mechanic through clues, but leaves important placement details less resolved and has a small spawn-direction inconsistency.",
+ "differences": [
+  {
+   "aspect": "Spatial specificity and feasibility",
+   "design_x": "The final build plan gives exact normalized positions for every planet, finish portal, two hazards, spectator side, 1.5–3 m stop spacing, 1.2 m route width, and a 0.6 m edge clearance.",
+   "design_y": "The final build plan specifies a wide spiral, 1.2 m lanes, and 0.6 m boundary clearance, but does not give placements, dimensions, or orientation for the checkpoints, hazards, bleachers, and portal.",
+   "evidence": "Final build plan: Design X lists coordinates from Sun (0.16,0.82) through Neptune (0.17,0.22) and the portal (0.09,0.50); Design Y only says to position key moments toward “one outer side.”",
+   "better": "X"
+  },
+  {
+   "aspect": "Learning interaction",
+   "design_x": "Players read each planet’s name and a fact, then state the next planet; this makes the sequence explicit and accessible.",
+   "design_y": "Players receive a short scientifically correct clue for the next planet without its name, requiring them to infer it before moving.",
+   "evidence": "Prototype decisions: Design X uses one short fact at each of eight named checkpoints; Design Y says clues do not reveal the next planet’s name.",
+   "better": "Y"
+  },
+  {
+   "aspect": "Suitability for first-time VR users under a four-minute limit",
+   "design_x": "The simple explicit-label route minimizes reasoning delay, but risks becoming follow-the-sign play rather than recall.",
+   "design_y": "Clues deepen engagement, yet add a reading-and-inference task at every checkpoint in the same four-minute session.",
+   "evidence": "Design Y’s option risks explicitly note that clues must be read quickly or beginners may not finish eight planets in four minutes; Design X’s flow allocates time for reading short facts and movement.",
+   "better": "X"
+  },
+  {
+   "aspect": "Real-space safety communication",
+   "design_x": "It clearly preserves real circulation and exits, keeps models beside rather than on the route, prohibits running, and specifies hazards as exactly two patches with an obvious bypass.",
+   "design_y": "It has comparable lane and edge-clearance targets and stationary gaps, but does not explicitly protect exits/circulation or state that props stay off the walking lane.",
+   "evidence": "Final build plan: Design X says “all real circulation and exits unobstructed” and “planet models beside, never on, the walking route”; Design Y says surroundings and approaches remain unobstructed but gives less prop-placement detail.",
+   "better": "X"
+  },
+  {
+   "aspect": "Spectator integration",
+   "design_x": "It locates the finish and asteroid dodge on the bleacher side and includes visible score review and sequence recap after play.",
+   "design_y": "It asks for the hazard crossing and portal to face the bleachers, but the unspecified bleacher side makes that harder to implement from the plan alone.",
+   "evidence": "Final build plan: Design X ties the portal and hazards to explicit coordinates and the spectator/bleacher side; Design Y identifies only “one outer side of the gym.”",
+   "better": "X"
+  },
+  {
+   "aspect": "Consistency across prototype and final plan",
+   "design_x": "The zigzag route, two hazards between Mars and Jupiter, explicit facts, scoring, and finish near spectators remain consistent through all stages.",
+   "design_y": "The broad spiral, clue mechanic, asteroid climax, and portal carry through, but its final plan says the route starts at the Sun while also saying players should see the Sun behind them from spawn.",
+   "evidence": "Design Y final layout brief: “starting at a large ... Sun near the centre,” then “From the spawn, players should immediately see the Sun behind them.”",
+   "better": "X"
+  },
+  {
+   "aspect": "Scientific framing",
+   "design_x": "It uses specific, correct short facts for all eight planets and explicitly states that gameplay distances are not to scale.",
+   "design_y": "It requires accurate clues and says sizes/distances are not to scale, but does not yet supply the actual clues for validation.",
+   "evidence": "Design X’s final build plan provides eight Thai labels with facts; Design Y’s final plan requests a short accurate clue at each checkpoint without specifying the text.",
+   "better": "X"
+  }
+ ],
+ "preferred": "X",
+ "confidence": "high",
+ "why": "Design X better converts the approved prototype into an implementable, safe MR layout without losing the brief’s educational and cooperative focus. Design Y’s clue-based discovery is a worthwhile idea, but its unprovided clue content and less concrete spatial specification make it less ready to build.",
+ "x_weaknesses": [
+  "Explicit facts can make progression too guided; add occasional recall prompts if the learning goal is retention rather than recognition.",
+  "The long zigzag may feel less like orbital exploration than Design Y’s spiral."
+ ],
+ "y_weaknesses": [
+  "The actual clue text is absent, so scientific accuracy, reading level, and pacing cannot be verified.",
+  "The final layout lacks enough positional detail for a builder to reliably place spectator-facing moments.",
+  "The Sun-at-start versus Sun-behind-spawn wording should be resolved."
+ ],
+ "improvements": [
+  "For Design X, add a lightweight recall check after a few checkpoints without turning the experience into a quiz.",
+  "For Design Y, provide all eight Thai checkpoint labels and next-planet clues, exact route/hazard/portal coordinates, and a defined bleacher wall before building."
+ ]
+}

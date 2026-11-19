@@ -1,0 +1,65 @@
+{
+ "summary": "Design X is preferred overall: it fits the full three-minute brief, is more consistently specified, and keeps the Songkran/temple treatment safer and clearer. Design Y has a strong dry-zone safety callout and more concrete tree coordinates, but its route/timing details conflict more often.",
+ "differences": [
+  {
+   "aspect": "Fit to the stated duration",
+   "design_x": "Design X uses a 180-second limit in Option 3, the prototype flow ends at 3:00, and the final build plan sets timeLimit to 180.",
+   "design_y": "Design Y repeatedly calls the experience three minutes, but Option 1 and the final build plan use 150 seconds; the prototype has scoring at 2:15 and waiting/summary at 2:30.",
+   "evidence": "Three game options and final build plan in both sessions.",
+   "better": "X"
+  },
+  {
+   "aspect": "Cultural and venue sensitivity",
+   "design_x": "Design X uses flowers, water bowls, sand pagodas, and flower flags, explicitly avoiding sacred figures as targets or obstacles. Its final layout contains no ritual reenactment as a playable station.",
+   "design_y": "Design Y also rejects Buddha images and monks as toys, but makes “calmly pouring water to request blessings” its sixth required checkpoint and calls for an “elder-blessing vignette” in the final build plan. That creates more risk of reducing a living blessing practice to a race objective.",
+   "evidence": "Prototype decisions and final layout briefs.",
+   "better": "X"
+  },
+  {
+   "aspect": "Real-space operational safety",
+   "design_x": "Design X specifies a 1.2 m route width, 0.6 m interior boundary margin, tree buffers, walk-only play, and spectator separation. It identifies virtual water hazards rather than actual water.",
+   "design_y": "Design Y includes the same route-width and edge-margin requirements, plus an explicit dry booth isolated from real splashing water—a particularly important headset safety requirement at Songkran. It also makes the trees hard exclusion zones with metre coordinates that must be verified onsite.",
+   "evidence": "Prototype safety decisions/test questions and final layout briefs.",
+   "better": "Y"
+  },
+  {
+   "aspect": "Route and hazard consistency across steps",
+   "design_x": "The recommended option, prototype, and build plan consistently use six checkpoints, a compact zigzag, a flower finish, 180 seconds, scoring of 100/-25/300, and a visible final dodge. The final plan makes the three hazards more concrete: one before the bowl and two near the climax.",
+   "design_y": "Design Y consistently retains the six stops, three puddles, scoring, and final portal, but the prototype flow says the first puddle occurs while rounding the first tree before the garland arch. Its sketch and final plan place that puddle between spawn and CP1, before either the first tree or garland. This makes the intended player sequence less dependable.",
+   "evidence": "Prototype flow, sketch coordinates, and final layout briefs.",
+   "better": "X"
+  },
+  {
+   "aspect": "Four-player physical layout feasibility",
+   "design_x": "Design X says four people play separate copies, but its final plan also specifies a “compact paired-lane zigzag,” without explaining how four independent courses fit into 10 × 10 m while preserving 1.2 m corridors.",
+   "design_y": "Design Y likewise says four simultaneous players use separate course copies but only lays out one 10 × 10 m route. It does not define physical separation between those copies either.",
+   "evidence": "Prototype player-format decisions and final layout briefs.",
+   "better": "same"
+  },
+  {
+   "aspect": "Spectator-friendly race gameplay",
+   "design_x": "Design X puts its two-hazard climax and finish by the south-side audience, with players visibly slowing, dodging, and finishing. Its play loop is very simple for first-time users.",
+   "design_y": "Design Y similarly puts the final puddle, blessing stop, and finish along the south edge, with a straightforward walking race. The calm blessing beat is a distinct tonal feature, but does not materially improve spectator readability.",
+   "evidence": "Prototype storyboard/spectator plan and final build plan.",
+   "better": "same"
+  }
+ ],
+ "preferred": "X",
+ "confidence": "high",
+ "why": "Design X provides the cleaner buildable through-line: its duration matches the brief exactly, its route details mostly carry through, and its theme avoids turning a blessing practice into a scored checkpoint. Design Y is better on explicitly separating headsets from real water, but its 150-second contradiction and route-sequence mismatch are meaningful implementation problems.",
+ "x_weaknesses": [
+  "It does not resolve how four separate 1.2 m-wide courses fit within the shared 10 × 10 m courtyard.",
+  "Its phrase “paired-lane zigzag” conflicts with four independent player copies and needs a physical staging diagram."
+ ],
+ "y_weaknesses": [
+  "The 150-second game limit conflicts with the three-minute brief and its own repeated three-minute framing.",
+  "The first-hazard/tree sequence differs between its prototype flow and coordinate layout.",
+  "Using a blessing activity as a compulsory competitive checkpoint may be culturally awkward at a temple."
+ ],
+ "improvements": [
+  "For either design, specify whether players are time-staggered, assigned four marked micro-lanes, or see shared virtual copies while physically occupying fixed bays; validate this against the 10 × 10 m footprint.",
+  "For Design X, add the dry-zone and real-water exclusion requirements from Design Y.",
+  "For Design Y, restore a 180-second playable limit or explicitly define a 150-second race plus 30-second onboarding/exit, then align every flow timestamp.",
+  "For Design Y, replace the scored blessing interaction with a neutral respectful farewell/flower-offering visual, or obtain venue approval for its exact depiction."
+ ]
+}

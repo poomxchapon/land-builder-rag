@@ -1,0 +1,79 @@
+{
+ "summary": "Design Y is the stronger overall design. It keeps difficulty centered on chess planning and presents a more consistent, fair escalation; Design X has the better replay/stream-performance layer but shifts its finale toward reflex timing.",
+ "differences": [
+  {
+   "aspect": "Fit to the hard chess-puzzle brief",
+   "design_x": "The prototype and build plan make the final queen board run on a 1.5-second guard beat; its own test question asks whether this is \"demanding but fair.\" This risks making the climax reaction-speed driven.",
+   "design_y": "The prototype defines danger as \"difficult but readable,\" uses visible beats of at least 3 seconds, and the build plan keeps beats at 3.5, 3.5, 3.2, and 3 seconds. Difficulty instead grows through pieces, targets, guards, and obstacles.",
+   "evidence": "Prototype plan and final build plan in both sessions.",
+   "better": "Y"
+  },
+  {
+   "aspect": "Difficulty curve and feasibility",
+   "design_x": "The build plan raises board complexity unevenly: guards stay at 2 for the first three boards, then rise to 3; targets jump from 2 to 4 immediately on the bishop board and remain 4 thereafter.",
+   "design_y": "The build plan has a clearer, testable ramp: targets 2→3→4→5, guards 1→2→3→4, and obstacles rise toward the queen board while timing only modestly tightens.",
+   "evidence": "Final build-plan board configurations.",
+   "better": "Y"
+  },
+  {
+   "aspect": "Expression, replayability, and streaming",
+   "design_x": "It explicitly adds a total timer, clean-run status, fastest-clean-run leaderboard, and a restart at 10:00 to improve routes. The option and prototype both frame solutions as speedrun performances for stream viewers.",
+   "design_y": "It shows elapsed time but deliberately has no countdown and only offers a current-board restart. Its ending is a completed-board moment rather than a replay-performance loop.",
+   "evidence": "Design X prototype HUD/flow and Design Y prototype HUD/decisions.",
+   "better": "X"
+  },
+  {
+   "aspect": "Session pacing",
+   "design_x": "It budgets the four boards at 0:30, 2:30, 4:45, and 7:00, resolves at 9:15, then reserves the remainder for restarting. That is concrete, but the final board’s 1.5-second beat makes the short-session promise riskier.",
+   "design_y": "It gives a complete first-run arc through a final resolution at 9:30 without a fail timer, which better protects the ten-minute session from repeated timing failures.",
+   "evidence": "Prototype flow in each design.",
+   "better": "Y"
+  },
+  {
+   "aspect": "Fairness and onboarding",
+   "design_x": "It displays threatened squares and guard beats, but begins with two guards on Board 1 and provides no explicit movement reminder or teaching support.",
+   "design_y": "The prototype HUD includes a short piece-movement reminder; Board 1 has one guard and the flow explicitly says it teaches the knight. Its test questions also directly test whether knight and bishop routes are understandable.",
+   "evidence": "Prototype HUD, flow, test questions, and final Board 1 configuration.",
+   "better": "Y"
+  },
+  {
+   "aspect": "Internal consistency",
+   "design_x": "The option says the bishop has a \"longer capture order\" and the prototype describes a 6×8-board sequence, but the final build plan omits board dimensions and fixed layouts; its decisions say code will generate/prove solvability rather than specify layouts. This leaves the actual puzzle quality underspecified.",
+   "design_y": "It is also underspecified on actual square layouts and solvability, but it consistently carries the four-board 6×8 structure, slow readable beats, obstacles, and no-countdown policy from option through prototype to build plan.",
+   "evidence": "Design X prototype decision \"Puzzle construction\" and build config; Design Y option mechanics, prototype decisions, and build rules/config.",
+   "better": "Y"
+  },
+  {
+   "aspect": "Real-space safety",
+   "design_x": "It is a PC-screen design and explicitly says no physical venue or walking space is needed.",
+   "design_y": "It is likewise a PC-screen design with no physical movement or venue dependency.",
+   "evidence": "Options' environment-fit sections.",
+   "better": "same"
+  },
+  {
+   "aspect": "Final-objective clarity",
+   "design_x": "The final board says the queen captures the Hollow King, but its build configuration labels the target piece as \"rook\" while also setting \"king\": true.",
+   "design_y": "The final board says to take the Black King, but likewise labels the target piece as \"rook\" while setting \"king\": true.",
+   "evidence": "Final build-plan Board 4 in both designs.",
+   "better": "same"
+  }
+ ],
+ "preferred": "Y",
+ "confidence": "high",
+ "why": "Design Y better preserves the creator’s requested hard chess-piece puzzle as a readable planning challenge and provides the more credible progression for a ten-minute solo session. Design X is preferable only if competitive reruns and stream-friendly speedrunning are more important than keeping the climax primarily cerebral.",
+ "x_weaknesses": [
+  "The 1.5-second final guard beat can undermine the puzzle focus with reflex pressure.",
+  "Board progression is less systematic and the actual solvable layouts are not specified.",
+  "The final target configuration is ambiguous: king versus rook."
+ ],
+ "y_weaknesses": [
+  "It lacks Design X’s leaderboard and clean-run loop, reducing long-term performance expression.",
+  "Actual board layouts and solvability validation are still absent.",
+  "The final target configuration is ambiguous: king versus rook."
+ ],
+ "improvements": [
+  "For Design Y, add an optional clean-run timer, route replay, and leaderboard after a first completion, without imposing a failure countdown.",
+  "For both designs, specify or generate and validate concrete 6×8 layouts, including target order, guard paths, attack timing, and at least two viable routes where expression is claimed.",
+  "For both designs, resolve the final target data so the Black/Hollow King is unambiguously the final capturable target."
+ ]
+}
