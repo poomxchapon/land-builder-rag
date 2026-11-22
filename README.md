@@ -9,6 +9,8 @@ A design-knowledge base and retrieval code for an AI game-design assistant. The 
 | `data/cards/*.json` | **1,025 knowledge cards** in 9 categories (genre, space, theory, uncertainty, prototype, purpose, story, culture, cases) |
 | `data/index.json` | all cards + their embeddings (embeddinggemma-300m, 768-d, int8, base64): what dense retrieval searches |
 | `data/facts.json` | **92 fact rules**: engine limits, defaults and genre rules, with structured triggers |
+| `data/references.json` | **the published works** the cards cite or that support them (44, each DOI checked on Crossref, ISBN on Open Library, URL live) |
+| `data/card-sources.json` + `pipeline/sources.mjs` | **where each card comes from**: provenance (literature, platform guideline, studio document, engine, design sessions, design practice), the works it cites, and for design-practice cards any supporting reading an AI agent matched and a second blind check confirmed |
 | `data/graph.json` | card-to-card links (similar, shared tags) |
 | `data/gaps.json` | **knowledge gaps**: 562 needs found in 54 design sessions, graded against the cards (57% covered, 40% partly, 3% none), by topic, venue and phase, and 20 themes of cards to write next |
 | `template/game-template.json` | **game description template**: one shared skeleton for describing a whole game (12 sections, 49 slots), each section mapped to where it lives in a Unity and an Unreal project |

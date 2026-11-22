@@ -31,7 +31,12 @@
    ],
    "players": []
   },
-  "source": "Schell, The Art of Game Design"
+  "source": "Schell, The Art of Game Design",
+  "provenance": "literature",
+  "refs": [
+   "schell2008"
+  ],
+  "see_also": []
  },
  {
   "id": "st-three-act-checkpoints",
@@ -65,7 +70,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-quest-chain",
@@ -99,7 +107,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-rescue",
@@ -137,7 +148,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-escape",
@@ -177,7 +191,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-delivery",
@@ -217,7 +234,10 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-collection",
@@ -256,7 +276,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-tour",
@@ -296,7 +319,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-mystery-reveal",
@@ -336,7 +362,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-battle-arc",
@@ -370,7 +399,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-battle-foe-meaning",
@@ -405,7 +437,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-tactics-arc",
@@ -440,7 +475,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-boss-payoff",
@@ -476,7 +514,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-label-length-th-en",
@@ -509,7 +550,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-label-verb-first-thai",
@@ -542,7 +586,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-label-numbered-progress",
@@ -579,7 +626,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-label-good-bad-examples",
@@ -612,7 +662,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-label-safe-verbs",
@@ -645,7 +698,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-label-vary-verbs",
@@ -678,7 +734,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-last-label-is-ending",
@@ -711,7 +770,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-intro-card-shape",
@@ -742,7 +804,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-goal-label-agree",
@@ -772,7 +837,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-rules-list",
@@ -804,7 +872,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-rules-plain-plus-story",
@@ -834,7 +905,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-rules-mr-safety-line",
@@ -865,7 +939,13 @@
     "first-time-vr"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "st-rules-by-genre",
@@ -899,7 +979,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-chapter-title-line",
@@ -932,7 +1015,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-boss-name",
@@ -964,7 +1050,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-boss-intro",
@@ -998,7 +1087,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-board-story",
@@ -1031,7 +1123,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-tactics-piece-roles",
@@ -1068,7 +1163,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-tactics-king-final",
@@ -1101,7 +1199,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-time-limit-in-story",
@@ -1135,7 +1236,15 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "juul2005",
+    "why": "Juul's Half-Real argues rules gain meaning through fiction, supporting the idea that a time limit (rule) needs a story reason (fiction) to feel like tension rather than a test."
+   }
+  ]
  },
  {
   "id": "st-thai-spoken-register",
@@ -1166,7 +1275,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-thai-pronouns",
@@ -1200,7 +1312,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-thai-kid-words",
@@ -1235,7 +1350,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-thai-loanwords",
@@ -1266,7 +1384,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-thai-particles",
@@ -1298,7 +1419,10 @@
     "teens"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-thai-rhythm-rhyme",
@@ -1334,7 +1458,10 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-thai-sacred-words",
@@ -1371,7 +1498,10 @@
     "seniors"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-english-uk",
@@ -1404,7 +1534,10 @@
     "adults"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-bilingual-rewrite",
@@ -1437,7 +1570,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-voice-kids",
@@ -1473,7 +1609,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-voice-teens",
@@ -1510,7 +1649,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-voice-families",
@@ -1546,7 +1688,15 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "reeves2005",
+    "why": "Reeves et al. on designing the spectator experience directly covers making manipulations and effects visible so onlookers (here, parents watching and calling out) can join the play."
+   }
+  ]
  },
  {
   "id": "st-voice-adults",
@@ -1583,7 +1733,10 @@
     "first-time-vr"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-voice-brands",
@@ -1619,7 +1772,10 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-voice-educators",
@@ -1658,7 +1814,19 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "bruckman1999",
+    "why": "Bruckman's 'chocolate-covered broccoli' argument says learning must be integrated into play rather than bolted on, matching the card's rule that the story carries the lesson as a mission, not a test."
+   },
+   {
+    "ref": "malone1981",
+    "why": "Malone's theory of intrinsically motivating instruction grounds the card's use of fantasy missions and curiosity to carry short true facts in learning games."
+   }
+  ]
  },
  {
   "id": "st-voice-first-time-vr",
@@ -1692,7 +1860,13 @@
     "families"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "st-feel-fantasy-words",
@@ -1723,7 +1897,12 @@
    ],
    "players": []
   },
-  "source": "Hunicke, LeBlanc & Zubek 2004, MDA"
+  "source": "Hunicke, LeBlanc & Zubek 2004, MDA",
+  "provenance": "literature",
+  "refs": [
+   "hunicke2004mda"
+  ],
+  "see_also": []
  },
  {
   "id": "st-feel-submission-words",
@@ -1760,7 +1939,15 @@
     "families"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "hunicke2004mda",
+    "why": "The MDA framework names 'submission' as an aesthetic, and the card is about writing text that supports exactly that aesthetic (calm verbs, no threats or clocks)."
+   }
+  ]
  },
  {
   "id": "st-feel-discovery-words",
@@ -1793,7 +1980,15 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "hunicke2004mda",
+    "why": "MDA lists 'discovery' as an aesthetic, and the card's hint-don't-spoil labeling is a technique for delivering that aesthetic without spoiling surprises."
+   }
+  ]
  },
  {
   "id": "st-feel-fellowship-words",
@@ -1828,7 +2023,10 @@
     "families"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-feel-sensation-words",
@@ -1863,7 +2061,15 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "hunicke2004mda",
+    "why": "MDA names 'sensation' as an aesthetic, and the card prescribes punchy sensory text paired with strong visuals to serve it."
+   }
+  ]
  },
  {
   "id": "st-you-are-framing",
@@ -1895,7 +2101,10 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-roles-by-genre",
@@ -1931,7 +2140,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-npc-want-in-label",
@@ -1968,7 +2180,10 @@
     "families"
    ]
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-env-vignette-aftermath",
@@ -2001,7 +2216,12 @@
    ],
    "players": []
   },
-  "source": "Schell, The Art of Game Design"
+  "source": "Schell, The Art of Game Design",
+  "provenance": "literature",
+  "refs": [
+   "schell2008"
+  ],
+  "see_also": []
  },
  {
   "id": "st-env-landmark-goal",
@@ -2036,7 +2256,15 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "lynch1960",
+    "why": "Lynch's Image of the City defines landmarks as orienting elements that pull navigation, exactly the card's visible-goal-from-spawn technique."
+   }
+  ]
  },
  {
   "id": "st-env-lighting-matches-story",
@@ -2069,7 +2297,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-env-hazard-fiction",
@@ -2104,7 +2335,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-env-real-room-story",
@@ -2140,7 +2374,15 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "jenkins2004",
+    "why": "Jenkins' narrative architecture describes environmental storytelling where the space itself evokes narrative, which is what mapping the real room into the fiction accomplishes."
+   }
+  ]
  },
  {
   "id": "st-env-void-floor-story",
@@ -2177,7 +2419,13 @@
     "adults"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "st-env-vr-only-decor",
@@ -2208,7 +2456,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-dose-humor",
@@ -2244,7 +2495,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-dose-wonder",
@@ -2278,7 +2532,15 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "schell2008",
+    "why": "Schell's interest curves lens describes building experience toward peaks, matching the card's small-sights-then-one-big-reveal structure for wonder."
+   }
+  ]
  },
  {
   "id": "st-dose-mild-scare",
@@ -2315,7 +2577,13 @@
     "teens"
    ]
   },
-  "source": "Meta/Oculus VR comfort and MR design guidelines"
+  "source": "Meta/Oculus VR comfort and MR design guidelines",
+  "provenance": "platform-guideline",
+  "refs": [
+   "meta-comfort",
+   "meta-mr"
+  ],
+  "see_also": []
  },
  {
   "id": "st-dose-heroism",
@@ -2351,7 +2619,15 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": [
+   {
+    "ref": "freytag1863",
+    "why": "Freytag's dramatic arc of rising action to climax underpins the card's rule of raising stakes one step per chapter rather than opening at maximum."
+   }
+  ]
  },
  {
   "id": "st-example-runner-en",
@@ -2386,7 +2662,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-example-runner-th",
@@ -2421,7 +2700,10 @@
     "groups"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-example-battle",
@@ -2457,7 +2739,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-example-tactics",
@@ -2493,7 +2778,10 @@
     "gamers"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-example-mr-battle-th",
@@ -2527,7 +2815,10 @@
     "kids"
    ]
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-pitfall-label-promises-mechanic",
@@ -2560,7 +2851,10 @@
    ],
    "players": []
   },
-  "source": "FortalLand engine"
+  "source": "FortalLand engine",
+  "provenance": "engine",
+  "refs": [],
+  "see_also": []
  },
  {
   "id": "st-pitfall-generic-names",
@@ -2592,6 +2886,9 @@
    ],
    "players": []
   },
-  "source": "design practice"
+  "source": "design practice",
+  "provenance": "design-practice",
+  "refs": [],
+  "see_also": []
  }
 ]
