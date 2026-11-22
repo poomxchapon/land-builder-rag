@@ -1,0 +1,523 @@
+# b02-school-gym-edu · WITH the knowledge base (RAG)
+
+Model: Kimi K3.1 Pro. Same brief and same steps in both runs. The system prompts were not saved; this is the creator input and every AI output, in order.
+
+## Creator: the game brief
+
+```json
+{
+ "platform": "mr",
+ "concept": "เกมสอนระบบสุริยะ เดินไปดาวเคราะห์ตามลำดับ",
+ "players": "นักเรียน ป.5 ทั้งห้อง 30 คน",
+ "group_size": "ทีละ 4 คน",
+ "vr_experience": "ไม่เคย",
+ "feelings": [
+  "discovery",
+  "fellowship"
+ ],
+ "venue": "space",
+ "width_m": 12,
+ "depth_m": 14,
+ "indoor": true,
+ "obstacles": "none",
+ "environment": "โรงยิมโรงเรียน มีหน้าต่าง",
+ "time_of_day": "เช้า",
+ "session_minutes": 4,
+ "play_mode": "together",
+ "constraints": "ข้อมูลต้องถูกต้อง",
+ "spectators": "เพื่อนนั่งอัฒจันทร์"
+}
+```
+
+## AI designer: three game options
+
+Knowledge cards retrieved for this step (9):
+- cs-school-hall-8x8: School class in an 8 x 8 m hall: three genres for 30 students
+- pu-edu-solar-system: Solar system walk: planets in order from the Sun
+- un-conflict-many-players-tiny-space: Many players, small floor: rotate players, never shrink safety margins
+- cs-vague-space-game: 'A space adventure' in a 10 x 10 m hall
+- st-voice-educators: Voice for educators: one true idea per label, the story carries the lesson
+- cs-kindergarten: Kindergarten 5 x 5 m playroom: one tiny adventure
+- sp-players-school-class: School classes: many turns, everyone watches
+- sp-venue-classroom: Classroom: desks to move, a class watching
+- sp-size-question-choices: Ask for the empty floor, not the room
+
+```json
+{
+ "options": [
+  {
+   "title": "ภารกิจแปดดาวเคราะห์",
+   "pitch": "ออกจากดวงอาทิตย์แล้วเดินไปเยือนดาวเคราะห์ทั้งแปดตามลำบับ พร้อมข้ามแถบดาวเคราะห์น้อยก่อนไปถึงดาวพฤหัสบดี ทีมสี่คนช่วยกันจำเส้นทางและอ่านเรื่องสั้น ๆ ของแต่ละดาว",
+   "core_loop": "เดินไปดาวเคราะห์ดวงถัดไปตามลำดับ อ่านข้อมูลสั้นหนึ่งข้อ แล้วหลบอันตรายระหว่างทาง",
+   "mechanics": "เส้นทางเดินร่วมกัน 4 คน มี 8 จุด ได้แก่ “พุธ: ใกล้ดวงอาทิตย์ที่สุด”, “ศุกร์: ร้อนที่สุด”, “โลก: มีน้ำเหลวบนผิว”, “อังคาร: ฝุ่นสีแดง”, “พฤหัสบดี: ใหญ่ที่สุด”, “เสาร์: มีวงแหวนที่เห็นได้ชัด”, “ยูเรนัส: เอียงแกนมาก”, “เนปจูน: ไกลดวงอาทิตย์ที่สุด” วงอันตรายเป็นแถบดาวเคราะห์น้อย 2 แพตช์ระหว่างอังคารกับพฤหัสบดี เหยียบแล้วกลับจุดล่าสุด เวลา 240 วินาที การ์ดเริ่มต้นบอกชัดว่าระยะห่างในพื้นที่เล่นไม่ได้เป็นไปตามมาตราส่วนจริง",
+   "feelings": [
+    "discovery",
+    "fellowship"
+   ],
+   "feelings_how": "ลำดับดาวเคราะห์ถูกเรียนรู้ด้วยการเดินจริง และเพื่อนในทีมช่วยกันดูจุดต่อไปกับเตือนแถบดาวเคราะห์น้อย",
+   "environment_fit": "ใช้พื้นที่โล่ง 12 × 14 เมตรวางเส้นทางซิกแซกกว้าง โดยเว้นขอบอย่างน้อย 0.6 เมตร แสงเช้าจากหน้าต่างทำให้มองเห็นเพื่อนและสภาพแวดล้อมจริงชัดเจน ส่วนพื้นและดาวเคราะห์เสมือนใช้โทนกลางคืนในร่ม จุดจบอยู่ฝั่งอัฒจันทร์เพื่อให้เพื่อนเห็นช่วงเข้าเส้นชัย",
+   "players_fit": "นักเรียนที่ไม่เคยใช้วีอาร์เดินตามดาวขนาดใหญ่ทีละดวง ไม่ต้องจำปุ่มหรือการต่อสู้ และรอบสี่นาทีเหมาะกับการสลับกลุ่มของนักเรียน 30 คน",
+   "theme": "ระบบสุริยะโลว์โพลี ดาวเคราะห์สีสดใส ดวงอาทิตย์ที่จุดเริ่ม และฉากดาวไกลใต้พื้น",
+   "lighting": "night",
+   "route": "ซิกแซกจากดวงอาทิตย์ไปเนปจูน แล้วโค้งไปประตูจบฝั่งอัฒจันทร์",
+   "risks": [
+    "ชื่อดาวและข้อมูลแปดจุดอาจมากสำหรับผู้เล่นรอบแรก จึงควรให้เพื่อนช่วยอ่านและไม่ใช้ข้อความยาว",
+    "ระยะห่างที่จัดเท่า ๆ กันเพื่อให้เดินได้อาจทำให้เข้าใจระยะจริงผิด หากไม่ย้ำเรื่องมาตราส่วน"
+   ],
+   "axes": {
+    "aesthetic": "discovery",
+    "loop": "explore",
+    "social": "together",
+    "route": "zigzag"
+   },
+   "spectator_view": "เพื่อนบนอัฒจันทร์เห็นผู้เล่นเดินเป็นซิกแซก หลบแถบดาวเคราะห์น้อยและเข้าประตูจบใกล้ตน สามารถเชียร์ บอกลำดับดาวถัดไป และดูคะแนนทีมบนจอ",
+   "scores": {
+    "fun": 5,
+    "mr_fit": 5,
+    "players_fit": 5,
+    "buildability": 4
+   },
+   "scores_why": {
+    "fun": "การได้เดินตามลำดับดาวและข้ามแถบดาวเคราะห์น้อยตรงกับแนวคิดที่ผู้สร้างต้องการโดยตรง",
+    "mr_fit": "พื้นที่ 12 × 14 เมตรรองรับแปดจุด เส้นทางกว้าง และผู้เล่นสี่คนโดยไม่ลดระยะปลอดภัย",
+    "players_fit": "การเดินและอ่านข้อความสั้นเหมาะกับ ป.5 ที่ไม่เคยใช้วีอาร์ และเพื่อนมีส่วนร่วมได้ทั้งในและนอกพื้นที่",
+    "buildability": "ใช้จุดตรวจและอันตรายมาตรฐานทั้งหมด แต่ต้องจัดดาวแปดดวงและข้อความให้อ่านง่ายในเวลาสี่นาที"
+   },
+   "confidence": "high",
+   "why": "แนวนี้เปลี่ยนบทเรียนลำดับดาวเคราะห์ให้เป็นเส้นทางที่ร่างกายช่วยจำได้โดยตรง แถบดาวเคราะห์น้อยยังอยู่ในตำแหน่งที่สอดคล้องกับความรู้จริง ระหว่างดาวอังคารกับดาวพฤหัสบดี การเดินร่วมกันและจุดจบฝั่งอัฒจันทร์ทำให้ทั้งผู้เล่นและเพื่อนที่รอมีส่วนร่วม",
+   "sources": [
+    "pu-edu-solar-system",
+    "st-voice-educators",
+    "cs-school-hall-8x8"
+   ],
+   "genre": "runner"
+  },
+  {
+   "title": "หมากระบบสุริยะ",
+   "pitch": "นักเรียนกลายเป็นตัวหมากบนกระดานอวกาศขนาดยักษ์ วางแผนเดินเก็บดาวเคราะห์ตามลำดับโดยไม่ยืนในช่องที่ยามอวกาศกำลังจะโจมตี เพื่อนบนอัฒจันทร์ช่วยมองจังหวะและบอกทาง",
+   "core_loop": "ดูจังหวะยาม เลือกช่องปลอดภัย แล้วเดินไปเก็บดาวเคราะห์ดวงถัดไปตามลำดับ",
+   "mechanics": "กระดานพื้นร่วมกัน 4 กระดาน กระดานละดาวเคราะห์สองดวง เรียงพุธถึงเนปจูน ใช้ม้า เรือ บิชอป และราชินีทีละกระดาน ผู้เล่นสี่คนเดินบนช่องจริงและเก็บเป้าหมายตามลำดับ ยามเคลื่อนที่ช้าทุก 4 วินาที มีช่องแตกและโต๊ะเป็นแนวกั้น ไม่มีการจับเวลานับถอยหลัง แต่กำหนดรอบรวมประมาณ 4 นาที แต่ละดาวมีชื่อกับข้อมูลจริงสั้นหนึ่งข้อ และการ์ดเริ่มต้นบอกว่าเส้นทางไม่ได้แทนระยะห่างจริง",
+   "feelings": [
+    "discovery",
+    "fellowship"
+   ],
+   "feelings_how": "ผู้เล่นค้นหาเส้นทางที่ใช้ได้ด้วยตนเอง และคุยกับเพื่อนเพื่อจำลำดับดาวกับหลบช่องอันตราย",
+   "environment_fit": "กระดานขนาดประมาณ 8 × 10 เมตรอยู่กลางพื้นที่ 12 × 14 เมตร เหลือทางเดินและระยะจากขอบ แสงจากหน้าต่างช่วยให้ผู้เล่นเห็นเพื่อนจริง ขณะที่กระดานนีออนแยกช่องปลอดภัยและช่องโดนโจมตีชัดเจน ด้านยาวฝั่งอัฒจันทร์เปิดให้เพื่อนเห็นการตัดสินใจทั้งกระดาน",
+   "players_fit": "กติกาทีละกระดานและยามที่เคลื่อนที่ช้าให้เวลาผู้ใช้วีอาร์ครั้งแรกคิด นักเรียนที่ยังไม่กล้าเดินสามารถช่วยวางแผนจากข้างสนาม",
+   "theme": "กระดานหมากบนสถานีอวกาศ ดาวเคราะห์ลอยเหนือช่องเป้าหมาย และยามเป็นหุ่นยนต์นีออน",
+   "lighting": "neon",
+   "route": "กระดานตรงกลางเป็นแกน เป้าหมายกระจายรอบตัวและเปลี่ยนรูปการเดินในแต่ละกระดาน",
+   "risks": [
+    "กติกาการเดินของหมากสี่แบบอาจทำให้รอบแรกช้าและมีคำอธิบายมากกว่าเกมเดินตามเส้นทาง",
+    "ผู้เล่นสี่คนบนกระดานเดียวต้องได้รับการสอนให้เว้นระยะและไม่แย่งช่องเดียวกัน"
+   ],
+   "axes": {
+    "aesthetic": "discovery",
+    "loop": "collect",
+    "social": "together",
+    "route": "hub"
+   },
+   "spectator_view": "เพื่อนบนอัฒจันทร์เห็นผู้เล่นหยุดคิด เดินเป็นทแยงหรือเลี้ยวตามหมาก และรีบออกจากช่องอันตราย พวกเขาบอกจังหวะยามและช่วยทบทวนลำดับดาวได้โดยไม่เข้าพื้นที่",
+   "scores": {
+    "fun": 4,
+    "mr_fit": 4,
+    "players_fit": 4,
+    "buildability": 3
+   },
+   "scores_why": {
+    "fun": "การไขเส้นทางและรอจังหวะสร้างความตื่นเต้น แต่ลำดับดาวเป็นเพียงเป้าหมายแปดชิ้น ไม่ใช่การเดินทางต่อเนื่อง",
+    "mr_fit": "กระดานพื้นใช้ประโยชน์จากโรงยิมได้ดี แต่ต้องจัดผู้เล่นสี่คนและระยะรอบกระดานอย่างระมัดระวัง",
+    "players_fit": "จังหวะยามช้าและคำใบ้จากเพื่อนช่วยมือใหม่ แต่ต้องเรียนรู้การเดินของหมากเพิ่มจากแนวคิดเดิม",
+    "buildability": "เครื่องมือสร้างและพิสูจน์กระดานช่วยได้ แต่ต้องออกแบบสี่กระดานและทดสอบการเล่นพร้อมกันของสี่คน"
+   },
+   "confidence": "medium",
+   "why": "แนวนี้ตอบความต้องการเรื่องการค้นพบและการช่วยกันผ่านการวางแผน มากกว่าการเดินตามเส้นทางสำเร็จ ผู้ชมมีบทบาทชัดเจนเพราะมองเห็นภาพรวมและช่วยบอกจังหวะได้ เหมาะถ้าต้องการบทเรียนที่มีการคิดและสนทนามากขึ้น",
+   "sources": [
+    "cs-school-hall-8x8",
+    "st-voice-educators",
+    "pu-edu-solar-system"
+   ],
+   "genre": "tactics"
+  },
+  {
+   "title": "ดาบพิทักษ์วงโคจร",
+   "pitch": "ทีมสี่คนถือดาบพลังงานปกป้องเส้นทางจากดวงอาทิตย์สู่ดาวเคราะห์ทั้งแปด ผ่านสี่บทที่เล่าเรื่องดาวทีละคู่ก่อนเผชิญผู้พิทักษ์พายุยักษ์",
+   "core_loop": "ก้าวออกจากวงเตือน ฟันศัตรูที่เข้ามาช้า ๆ และผ่านบทดาวเคราะห์ไปจนถึงบอส",
+   "mechanics": "การต่อสู้บนพื้นร่วมกัน 4 คน คอนโทรลเลอร์ขวาคือดาบ ฟันเป็นคอมโบ 3 ครั้ง ผู้เล่นก้าวหลบวงแดงโดยไม่วิ่ง มี 4 บท ได้แก่พุธ–ศุกร์ โลก–อังคาร พฤหัสบดี–เสาร์ และยูเรนัส–เนปจูน แต่ละบทแสดงชื่อกับข้อมูลจริงสั้นของดาวทั้งคู่ บทแรกใช้ศัตรูตัวเล็ก บทต่อมาเพิ่มศัตรูถือโล่และเจ้าตัวใหญ่ บทสุดท้ายมีฝนวงเตือนจากฟ้าก่อนบอสผู้พิทักษ์พายุ ใช้เวลารวมประมาณ 4 นาที การ์ดเริ่มต้นบอกว่าการจัดฉากไม่ได้เป็นไปตามระยะจริง",
+   "feelings": [
+    "discovery",
+    "fellowship"
+   ],
+   "feelings_how": "ดาวเคราะห์ค่อย ๆ เปิดเผยทีละคู่ และเพื่อนช่วยกันเตือนวงอันตรายกับจัดการศัตรูจากหลายด้าน",
+   "environment_fit": "ใช้โรงยิมเป็นอารีนากว้าง ผู้เล่นอยู่กลางพื้นที่และศัตรูเข้าจากขอบโดยเว้นเขตปลอดภัย แสงเช้าช่วยให้เห็นเพื่อนจริง ส่วนพื้นกลางคืนและดาบนีออนสร้างบรรยากาศอวกาศ ฝั่งอัฒจันทร์เห็นทั้งการก้าวหลบและช่วงบอส",
+   "players_fit": "การควบคุมมีเพียงการฟันและก้าวหลบ แต่ความเร็วของหลายบทและบอสต้องออกแบบให้อ่อนสำหรับมือใหม่ นักเรียนที่ชอบแอ็กชันจะมีแรงจูงใจสูง",
+   "theme": "อารีนาอวกาศสีเข้ม ดาวเคราะห์เป็นฉากหลัก ศัตรูเป็นสิ่งมีชีวิตพลังงานในจินตนาการ",
+   "lighting": "night",
+   "route": "วงเดินรอบอารีนาเพื่อหลบวงเตือน โดยมีดาวเคราะห์เป็นจุดเล่าเรื่องรอบนอก",
+   "risks": [
+    "ความตื่นเต้นของการต่อสู้อาจกลบเนื้อหาระบบสุริยะ และผู้เล่นอ่านข้อมูลยากขึ้นระหว่างหลบ",
+    "ผู้เล่นมือใหม่สี่คนต้องได้รับคำเตือนไม่ให้แกว่งดาบหรือถอยชนเพื่อน"
+   ],
+   "axes": {
+    "aesthetic": "fantasy",
+    "loop": "dodge",
+    "social": "together",
+    "route": "loop"
+   },
+   "spectator_view": "เพื่อนบนอัฒจันทร์เห็นผู้เล่นฟันอากาศ ก้าวออกจากจุดเตือนและรวมตัวช่วงบอส สามารถเชียร์และเรียกชื่อดาวของบทถัดไป โดยไม่มีหน้าที่ภายในสนาม",
+   "scores": {
+    "fun": 4,
+    "mr_fit": 5,
+    "players_fit": 3,
+    "buildability": 4
+   },
+   "scores_why": {
+    "fun": "ดาบและบอสสร้างช่วงไคลแมกซ์ชัดเจน แต่เนื้อหาดาวเคราะห์เชื่อมกับการกระทำได้อ้อมกว่า",
+    "mr_fit": "พื้นที่โล่งขนาดใหญ่เหมาะกับการก้าวหลบและศัตรูจากขอบ และผู้ชมเห็นภาษากายชัด",
+    "players_fit": "ควบคุมไม่ซับซ้อนแต่ ป.5 มือใหม่ต้องฝึกระยะห่างและความเร็ว จึงเหมาะน้อยกว่าแนวเดิน",
+    "buildability": "ใช้บท ศัตรู วงเตือน และบอสที่เครื่องยนต์มีอยู่ แต่ต้องปรับความยากสี่บทให้จบในสี่นาที"
+   },
+   "confidence": "medium",
+   "why": "แนวนี้เปลี่ยนบทเรียนเดิมให้เป็นแฟนตาซีแอ็กชันที่เล่นร่วมกันได้ตรงพื้นที่โรงยิม มันตอบความสนิทสนมของทีมและสร้างการแสดงต่อเพื่อนได้ดี แต่ต้องยอมรับว่าลำดับดาวเคราะห์กลายเป็นโครงเรื่องประกอบการต่อสู้ ไม่ใช่กิจกรรมหลัก",
+   "sources": [
+    "cs-vague-space-game",
+    "cs-school-hall-8x8",
+    "st-voice-educators"
+   ],
+   "genre": "battle"
+  }
+ ],
+ "recommend": 0,
+ "recommend_why": "ภารกิจแปดดาวเคราะห์ทำให้นักเรียนเรียนลำดับด้วยการเดินโดยตรง เล่นร่วมกันได้ง่ายสำหรับมือใหม่ และยังมีช่วงแถบดาวเคราะห์น้อยกับจุดจบให้เพื่อนบนอัฒจันทร์ร่วมลุ้น"
+}
+```
+
+## Creator: picks an option
+
+Option 1 (the option the AI recommended; this step was automatic so both runs are treated the same).
+
+## AI designer: playable prototype plan
+
+Knowledge cards retrieved for this step (9):
+- pu-edu-solar-system: Solar system walk: planets in order from the Sun
+- cs-school-hall-8x8: School class in an 8 x 8 m hall: three genres for 30 students
+- st-voice-educators: Voice for educators: one true idea per label, the story carries the lesson
+- cu-space: Space: stations, planets and warp portals
+- cs-museum-dinosaurs: Museum education about dinosaurs: a timeline walk
+- cs-vague-space-game: 'A space adventure' in a 10 x 10 m hall
+- pt-pal-classroom-learning: Classroom learning: chalk green, paper white, pencil yellow, ink blue
+- pu-measure-education: Playtest a learning game: can they do the objective after?
+- pt-flow-runner-5min: Runner flow, 5 minutes, 8 checkpoints with a twist
+
+```json
+{
+ "title": "ภารกิจแปดดาวเคราะห์",
+ "logline": "คุณคือทีมนักสำรวจสี่คนที่เดินจากดวงอาทิตย์ไปยังดาวเคราะห์ทั้งแปดตามลำดับ ข้ามแถบดาวเคราะห์น้อย และช่วยกันจำเส้นทางให้จบภารกิจใน 4 นาที",
+ "pillars": [
+  "จำลำดับดาวเคราะห์ด้วยการเดินจริง",
+  "ทีมสี่คนช่วยกันอ่าน ดูทาง และเตือนอันตราย",
+  "ข้อมูลสั้น ถูกต้อง และเข้าใจง่ายสำหรับ ป.5"
+ ],
+ "art": {
+  "style": "โลว์โพลี 3 มิติผิวเรียบ ดาวเคราะห์ขนาดใหญ่สีสันชัดเจนและสัญลักษณ์เส้นทางเรียบง่าย",
+  "mood": "อบอวลด้วยความอยากรู้ เป็นมิตร และรู้สึกเหมือนออกผจญภัยในอวกาศร่วมกับเพื่อน",
+  "prompt_style": "Stylized low-poly flat-shaded 3D solar system adventure, friendly sense of wonder, colorful readable planets, deep navy space floor, cooperative school-trip mood.",
+  "palette": [
+   "#101936",
+   "#F4F1DE",
+   "#FFCF33",
+   "#2D5BD1",
+   "#E5262F"
+  ],
+  "palette_names": [
+   "กรมท่าอวกาศ",
+   "ขาวแสงดาว",
+   "เหลืองดวงอาทิตย์",
+   "น้ำเงินดาวเคราะห์",
+   "แดงเตือนอันตราย"
+  ]
+ },
+ "key_art": {
+  "caption": "ทีมนักสำรวจกำลังข้ามแถบดาวเคราะห์น้อยระหว่างดาวอังคารกับดาวพฤหัสบดี ขณะที่เพื่อนบนอัฒจันทร์ช่วยเชียร์",
+  "prompt": "First-person mixed-reality view through a Quest 3 headset inside a real school gym in the morning, with real walls, windows and classmates on side bleachers clearly visible; only the real floor is replaced by a deep navy stylized low-poly space surface. Four Grade 5 students wearing headsets walk together along a wide zigzag route among large flat-shaded planet models. Ahead are two clearly marked red circular asteroid-belt hazard patches between a red dusty Mars model and a huge Jupiter model, with one student safely stepping around them while teammates gesture toward the open path. A golden Sun glows far behind near the start, Saturn and distant planets appear farther along the route, and the real morning room remains naturally lit and fully recognizable. One dramatic gameplay frame, 1:1 real-world scale, friendly educational mood, no text, no logos, no UI words."
+ },
+ "storyboard": [
+  {
+   "beat": "start",
+   "title": "ออกจากดวงอาทิตย์",
+   "caption": "การ์ดภารกิจบอกให้ไปเยือนดาวเคราะห์ทั้งแปดจากใกล้ดวงอาทิตย์ไปไกลที่สุด และย้ำว่าระยะห่างในสนามไม่ได้เป็นไปตามมาตราส่วนจริง",
+   "player_does": "ทีมสี่คนยืนที่ดวงอาทิตย์ ฟังกติกา แล้วมองหาดาวพุธซึ่งเป็นจุดแรก"
+  },
+  {
+   "beat": "middle",
+   "title": "สี่ดาวชั้นใน",
+   "caption": "ป้ายสั้นที่แต่ละจุดเล่าข้อเท็จจริงหนึ่งข้อ: พุธใกล้ดวงอาทิตย์ที่สุด ศุกร์ร้อนที่สุด โลกมีน้ำเหลวบนผิว และอังคารมีฝุ่นสีแดง",
+   "player_does": "เดินแตะจุดตามลำดับ ช่วยกันอ่านป้ายออกเสียง และบอกเพื่อนว่าดวงถัดไปคือดวงไหน"
+  },
+  {
+   "beat": "climax",
+   "title": "ข้ามแถบดาวเคราะห์น้อย",
+   "caption": "วงสีแดงสองแพตช์ขวางช่วงระหว่างอังคารกับพฤหัสบดี ทำให้ตำแหน่งของแถบดาวเคราะห์น้อยเป็นจุดที่ทีมต้องช่วยกันผ่าน",
+   "player_does": "ชะลอการเดิน เตือนเพื่อน และอ้อมวงอันตรายไปยังดาวพฤหัสบดีโดยไม่เหยียบวงแดง"
+  },
+  {
+   "beat": "end",
+   "title": "ถึงเนปจูนและเข้าประตู",
+   "caption": "ทีมเดินช่วงสงบผ่านเสาร์ ยูเรนัส และเนปจูน ก่อนเข้าประตูใกล้อัฒจันทร์เพื่อรับคะแนนภารกิจ",
+   "player_does": "เดินให้ครบสามจุดสุดท้าย เข้าประตูพร้อมกัน และดูคะแนนกับเวลาของทีม"
+  }
+ ],
+ "hud": [
+  "ชื่อดาวเคราะห์ดวงถัดไปพร้อมข้อเท็จจริงสั้นหนึ่งข้อ",
+  "แถบลำดับ 8 จุดที่แสดงว่าผ่านดาวใดแล้ว",
+  "คะแนนรวมของรอบเล่น",
+  "เวลาที่เหลือจาก 4:00"
+ ],
+ "flow": [
+  {
+   "t": "0:00",
+   "what": "การ์ดเริ่มต้นแนะนำภารกิจ ความปลอดภัย ลำดับเป้าหมาย และบอกว่าระยะห่างไม่เป็นไปตามมาตราส่วนจริง"
+  },
+  {
+   "t": "0:20",
+   "what": "ทีมออกจากดวงอาทิตย์ เดินถึงดาวพุธและดาวศุกร์ เพื่อเรียนรู้การแตะจุดตามลำดับ"
+  },
+  {
+   "t": "1:00",
+   "what": "เดินต่อไปโลกและดาวอังคาร โดยให้เพื่อนช่วยอ่านข้อเท็จจริงสั้น ๆ และมองหาจุดถัดไป"
+  },
+  {
+   "t": "1:45",
+   "what": "ช่วงไคลแมกซ์: ทีมอ้อมแพตช์วงแดงสองจุดในแถบดาวเคราะห์น้อย แล้วไปถึงดาวพฤหัสบดี"
+  },
+  {
+   "t": "2:25",
+   "what": "ช่วงเดินสงบผ่านดาวเสาร์และดาวยูเรนัส ทีมทบทวนลำดับและดูวงแหวนของดาวเสาร์"
+  },
+  {
+   "t": "3:10",
+   "what": "ไปถึงดาวเนปจูน ดาวเคราะห์ที่ไกลดวงอาทิตย์ที่สุด แล้วเลี้ยวไปประตูจบฝั่งอัฒจันทร์"
+  },
+  {
+   "t": "3:35",
+   "what": "ทีมเข้าประตูจบ ได้คะแนนสำเร็จภารกิจและโบนัสเวลา"
+  },
+  {
+   "t": "3:50",
+   "what": "ดูคะแนนรวม ส่งชุดแว่นให้กลุ่มถัดไป และเพื่อนบนอัฒจันทร์ช่วยทบทวนลำดับดาวเคราะห์"
+  }
+ ],
+ "sketch": {
+  "shape": "route",
+  "path": [
+   [
+    0.16,
+    0.82
+   ],
+   [
+    0.28,
+    0.68
+   ],
+   [
+    0.43,
+    0.8
+   ],
+   [
+    0.58,
+    0.64
+   ],
+   [
+    0.78,
+    0.76
+   ],
+   [
+    0.75,
+    0.42
+   ],
+   [
+    0.53,
+    0.54
+   ],
+   [
+    0.36,
+    0.34
+   ],
+   [
+    0.17,
+    0.22
+   ],
+   [
+    0.09,
+    0.5
+   ]
+  ],
+  "zones": [
+   {
+    "name": "ดวงอาทิตย์และจุดเริ่ม",
+    "x": 0.16,
+    "y": 0.82,
+    "kind": "start",
+    "r": 0.08
+   },
+   {
+    "name": "พุธ",
+    "x": 0.28,
+    "y": 0.68,
+    "kind": "story",
+    "r": 0.05
+   },
+   {
+    "name": "ศุกร์",
+    "x": 0.43,
+    "y": 0.8,
+    "kind": "story",
+    "r": 0.05
+   },
+   {
+    "name": "โลก",
+    "x": 0.58,
+    "y": 0.64,
+    "kind": "story",
+    "r": 0.055
+   },
+   {
+    "name": "อังคาร",
+    "x": 0.78,
+    "y": 0.76,
+    "kind": "story",
+    "r": 0.055
+   },
+   {
+    "name": "แถบดาวเคราะห์น้อย",
+    "x": 0.79,
+    "y": 0.58,
+    "kind": "danger",
+    "r": 0.075
+   },
+   {
+    "name": "พฤหัสบดี",
+    "x": 0.75,
+    "y": 0.42,
+    "kind": "story",
+    "r": 0.1
+   },
+   {
+    "name": "เสาร์",
+    "x": 0.53,
+    "y": 0.54,
+    "kind": "story",
+    "r": 0.09
+   },
+   {
+    "name": "ยูเรนัส",
+    "x": 0.36,
+    "y": 0.34,
+    "kind": "story",
+    "r": 0.07
+   },
+   {
+    "name": "เนปจูนและประตูจบใกล้อัฒจันทร์",
+    "x": 0.12,
+    "y": 0.3,
+    "kind": "goal",
+    "r": 0.09
+   }
+  ]
+ },
+ "test_questions": [
+  "หลังเล่น นักเรียนสามารถเรียงการ์ดดาวเคราะห์ทั้งแปดจากใกล้ดวงอาทิตย์ไปไกลที่สุดได้ถูกต้องหรือไม่ และดีขึ้นเมื่อเทียบกับก่อนเล่นหรือไม่",
+  "นักเรียนอ่านป้ายสั้นออกเสียงและช่วยกันบอกดาวดวงถัดไปจริงหรือไม่ หรือเดินผ่านโดยไม่อ่าน",
+  "ผู้ที่ไม่เคยใช้วีอาร์เห็นวงแดงของแถบดาวเคราะห์น้อยทันและอ้อมได้โดยไม่เร่งวิ่งหรือชนเพื่อนหรือไม่",
+  "สีดาวเคราะห์ ป้าย และวงเตือนยังอ่านง่ายในโรงยิมที่มีแสงเช้าจากหน้าต่างหรือไม่"
+ ],
+ "decisions": [
+  {
+   "what": "เป้าหมายการเรียนรู้และกิจกรรมหลัก",
+   "choice": "สอนระบบสุริยะโดยให้ผู้เล่นเดินไปดาวเคราะห์ตามลำดับ",
+   "by": "creator",
+   "quote": "เกมสอนระบบสุริยะ เดินไปดาวเคราะห์ตามลำดับ"
+  },
+  {
+   "what": "ผู้เล่นและรูปแบบกลุ่ม",
+   "choice": "ออกแบบสำหรับนักเรียน ป.5 ทั้งห้อง โดยเล่นพร้อมกันทีละ 4 คนและให้เพื่อนดูจากอัฒจันทร์",
+   "by": "creator",
+   "quote": "นักเรียน ป.5 ทั้งห้อง 30 คน"
+  },
+  {
+   "what": "โครงสร้างเส้นทาง",
+   "choice": "มี 8 จุดตรวจ ได้แก่พุธ ศุกร์ โลก อังคาร พฤหัสบดี เสาร์ ยูเรนัส และเนปจูน จุดละข้อเท็จจริงสั้นหนึ่งข้อ",
+   "by": "option"
+  },
+  {
+   "what": "ระยะเวลาและการเล่นร่วมกัน",
+   "choice": "เดินบนพื้นร่วมกัน 4 คน รอบละ 240 วินาที ไม่แข่งกัน",
+   "by": "option"
+  },
+  {
+   "what": "ตำแหน่งและบทบาทของอันตราย",
+   "choice": "ใช้วงแดง 2 แพตช์เป็นแถบดาวเคราะห์น้อยระหว่างอังคารกับพฤหัสบดี และให้เป็นจุดไคลแมกซ์ที่ทีมต้องชะลอและช่วยกัน",
+   "by": "card",
+   "card": "pu-edu-solar-system"
+  },
+  {
+   "what": "ระยะห่างของดาวเคราะห์",
+   "choice": "จัดจุดห่างกันใกล้เคียงกันเพื่อให้เดินครบในพื้นที่ และแจ้งบนการ์ดเริ่มต้นชัดเจนว่าไม่เป็นไปตามมาตราส่วนจริง",
+   "by": "card",
+   "card": "pu-edu-solar-system"
+  },
+  {
+   "what": "แสงและฉาก",
+   "choice": "ใช้แสงแบบ night กับพื้นอวกาศและดาวเคราะห์โลว์โพลีในโรงยิม โดยไม่ใช้พื้นหลุมลึกเพราะผู้เล่นไม่เคยใช้วีอาร์",
+   "by": "card",
+   "card": "cu-space"
+  },
+  {
+   "what": "ชุดสี",
+   "choice": "ใช้กรมท่าเป็นพื้น เหลืองสำหรับดวงอาทิตย์ น้ำเงินและขาวสำหรับดาวกับป้าย และสงวนสีแดงไว้เตือนอันตรายเท่านั้น",
+   "by": "default"
+  },
+  {
+   "what": "การลงโทษและคะแนน",
+   "choice": "เหยียบวงอันตรายแล้วกลับจุดล่าสุด จุดตรวจ +100 อันตราย −25 และจบ +300 พร้อมโบนัสเวลา",
+   "by": "engine"
+  }
+ ]
+}
+```
+
+## Creator: approves the prototype
+
+Approved without changes (automatic).
+
+## AI designer: final build plan
+
+Knowledge cards retrieved for this step (6):
+- pu-edu-solar-system: Solar system walk: planets in order from the Sun
+- cs-school-hall-8x8: School class in an 8 x 8 m hall: three genres for 30 students
+- st-voice-educators: Voice for educators: one true idea per label, the story carries the lesson
+- cs-museum-dinosaurs: Museum education about dinosaurs: a timeline walk
+- cu-space: Space: stations, planets and warp portals
+- cs-birthday-party: Birthday party in a garden: treasure walk race by turns
+
+```json
+{
+ "name": "ภารกิจแปดดาวเคราะห์",
+ "description": "เดินสำรวจดาวเคราะห์ทั้งแปดตามลำดับ ข้ามแถบดาวเคราะห์น้อย และเข้าประตูจบพร้อมเพื่อนในทีม",
+ "game": {
+  "title": "ภารกิจแปดดาวเคราะห์",
+  "goal": "เดินแตะดาวเคราะห์ทั้งแปดจากดาวพุธถึงดาวเนปจูนตามลำดับ แล้วเข้าประตูจบให้ทันภายใน 4 นาที",
+  "story": "ทีมนักสำรวจสี่คนกำลังออกเดินทางจากดวงอาทิตย์เพื่อเยือนดาวเคราะห์ทั้งแปดจากใกล้ไปไกล อ่านข้อเท็จจริงสั้น ๆ ที่แต่ละดวง และช่วยกันอ้อมแถบดาวเคราะห์น้อยระหว่างดาวอังคารกับดาวพฤหัสบดี เมื่อถึงดาวเนปจูนแล้ว ให้เข้าประตูจบเพื่อปิดภารกิจ ระยะห่างของดาวเคราะห์ในสนามนี้จัดให้เดินได้จึงไม่เป็นไปตามมาตราส่วนจริง",
+  "rules": [
+   "เดินแตะจุดดาวเคราะห์ให้ครบ 8 จุดตามลำดับจากดาวพุธถึงดาวเนปจูน",
+   "อ่านชื่อดาวและข้อเท็จจริงสั้น ๆ แล้วช่วยกันบอกเพื่อนว่าจุดถัดไปคือดวงไหน",
+   "อย่าเหยียบวงสีแดงในแถบดาวเคราะห์น้อย หากเหยียบจะกลับไปจุดล่าสุด",
+   "เดินด้วยความเร็วปกติ เว้นทางให้เพื่อน และไม่วิ่งหรือชนกัน",
+   "หลังแตะดาวเนปจูนให้เข้าประตูจบก่อนหมดเวลา 4 นาที"
+  ],
+  "timeLimit": 240
+ },
+ "lighting": "night",
+ "spectator_plan": "เพื่อนนั่งดูจากอัฒจันทร์ด้านข้าง โดยไม่เข้าไปในพื้นที่เล่น และสามารถเชียร์หรือบอกลำดับดาวดวงถัดไปได้ ช่วงที่เห็นชัดที่สุดคือทีมอ้อมแถบดาวเคราะห์น้อยและเดินเข้าประตูจบใกล้อัฒจันทร์ หลังจบรอบให้เพื่อนดูคะแนนและช่วยทบทวนลำดับดาวเคราะห์",
+ "layout_brief": "MR runner for four first-time VR Grade 5 players on a shared floor in a clear 12 x 14 m school gym with windows and real morning surroundings visible through Quest 3 passthrough. Replace only the floor with a deep-navy, non-void starfield; use friendly flat-shaded low-poly planets, warm yellow for the Sun, readable blue and white accents, and red exclusively for hazards. Build the approved wide zigzag from the Sun at normalized position (0.16,0.82), through Mercury (0.28,0.68), Venus (0.43,0.80), Earth (0.58,0.64), Mars (0.78,0.76), Jupiter (0.75,0.42), Saturn (0.53,0.54), Uranus (0.36,0.34), and Neptune (0.17,0.22), then curve to the finish portal near (0.09,0.50) on the spectator/bleacher side. Space stops approximately 1.5–3 m apart and keep every route segment at least 1.2 m wide, all gameplay at least 0.6 m from the floor edge, and all real circulation and exits unobstructed. Use exactly 8 ordered checkpoints with these short Thai labels: 1) “พุธ: ใกล้ดวงอาทิตย์ที่สุด”; 2) “ศุกร์: ร้อนที่สุด”; 3) “โลก: มีน้ำเหลวบนผิว”; 4) “อังคาร: ฝุ่นสีแดง”; 5) “พฤหัสบดี: ใหญ่ที่สุด”; 6) “เสาร์: มีวงแหวนที่เห็นได้ชัด”; 7) “ยูเรนัส: เอียงแกนมาก”; 8) “เนปจูน: ไกลดวงอาทิตย์ที่สุด”. Put exactly two red circular asteroid-belt hazard patches between Mars and Jupiter, with an obvious safe walking gap around them; this is the visible climax and must face the bleachers. Place large planet models beside, never on, the walking route, with Jupiter as the biggest planet and Saturn's rings especially prominent. Add a welcoming Sun vignette at spawn, subtle hologram arrows toward the next planet, small asteroid scenery around the belt, and a bright neon warp portal at the finish; no real space-agency logos, combat, quizzes, extra enemies, extra hazards, or dizzying void floor. From spawn, players should immediately recognize Mercury as the first target and see a readable zigzag of colorful planets ahead. Spectators remain seated on the bleacher side, with both the asteroid dodge and finish portal clearly visible to them."
+}
+```

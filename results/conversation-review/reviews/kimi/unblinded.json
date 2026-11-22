@@ -1,0 +1,833 @@
+[
+ {
+  "brief": "b01-kids-living",
+  "summary": "Both sessions converge on nearly the same game: a slow, no-timer walking egg hunt on a small loop in the 3 x 3.5 m living room, ending at a birthday cake/portal facing the sofa, with identical scoring (100 per checkpoint, -25 for mud, 300 at the finish) and identical adult-supervision framing for under-age Quest users. Without RAG offers a richer birthday fantasy (two eggs, a hatching surprise as the climax, pastel palette matched to afternoon light) and measurably firmer spatial safety numbers (1.2 m corridor, hard 0.6 m edge clearance, nothing on the sofa). With RAG is simpler and slightly safer in play (one mud puddle instead of two, explicit adult-accompaniment width test, no-ranking celebration) but its safety clearances are hedged ('where possible'), its palette and lighting are less tailored to the brief, and its sensation beat is weaker. These strengths and weaknesses roughly balance out.",
+  "preferred": "tie",
+  "confidence": "medium",
+  "why": "The two designs are structurally near-identical, so the verdict rests on trade-offs rather than a clear winner. Without RAG is better on thematic richness and concrete spatial safety specification; With RAG is better on hazard simplicity for first-time 5-6 year old players and on party-appropriate scoring framing. Neither advantage is decisive: Without RAG's extra hazard is a minor risk it mitigates with offsets and a wide corridor, and With RAG's weaker sensation beat and hedged clearances are fixable wording issues. On balance they serve the creator and players about equally well.",
+  "differences": [
+   {
+    "aspect": "Fit to the brief (cute dinosaur birthday, discovery + sensation)",
+    "with_rag": "Option 1 'Little Dino Hunts the Birthday Egg' has a single green egg carried to a nest; the sensation pillar is thinner and the prototype's climax is simply 'bring the egg to the nest' with no surprise beat.",
+    "without_rag": "Option 1 'Dinosaur Egg Party' builds a two-egg hunt culminating in a hatching surprise in front of a mother dinosaur; the prototype plan names the egg-hatching moment as the climax with 'subtle golden sparkles', directly serving both requested feelings.",
+    "evidence": "Three options step: Without RAG mechanics list 5 points including two eggs plus a hatching moment; With RAG mechanics list 4 points with one egg and no hatch. Prototype step: Without RAG storyboard climax 'Surprise Egg Hatching' vs With RAG climax 'Bring the Egg Back to the Nest'.",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Specificity of space and safety layout",
+    "with_rag": "Build plan layout_brief says only 'keep the route clear' and 'props at least 0.6 m from the playable edge where possible' — the 'where possible' hedge weakens the safety guarantee, and no corridor width is given anywhere.",
+    "without_rag": "Prototype decisions and build plan layout_brief specify a 1.2 m walking corridor, all checkpoints and hazards at least 0.6 m from the play-area edge, decorations kept low and off the route, and nothing virtual on the real sofa; two mud puddles are offset so children can walk around without leaving the corridor.",
+    "evidence": "Prototype step decisions: Without RAG 'walkway 1.2 m wide... at least 0.6 m from the edge... nothing virtual on the sofa'. Build plan step: With RAG 'props at least 0.6 m from the playable edge where possible'.",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Real-space safety for 5-6 year olds (hazard placement)",
+    "with_rag": "Exactly one small mud puddle between checkpoints 2 and 3 'with an obvious, comfortable walking bypass', and the test questions explicitly check that the walkway is wide enough for an adult to walk alongside without blocking spectators.",
+    "without_rag": "Two soft-mud hazards sit on the route (between checkpoints 1-2 and 3-4), doubling the dodge moments for a first-time headset user in a 3 x 3.5 m room.",
+    "evidence": "Build plan step: Without RAG 'Add exactly two small red-circle soft mud puddle hazards'; With RAG 'Place one small soft red mud-puddle hazard... no other hazards'. Prototype test questions: With RAG asks whether the path is wide enough for the adult to accompany.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Audience fit and birthday atmosphere for spectators",
+    "with_rag": "Orients the cake portal toward the sofa, celebrates every finisher, and explicitly forbids score ranking/comparison among the children.",
+    "without_rag": "Angles the second puddle, hatching, cake and portal toward the sofa; spectators sing the birthday song at the finish.",
+    "evidence": "Build plan spectator_plan in both sessions; With RAG adds 'without comparing rankings', Without RAG adds the shared birthday-song moment. Both serve the sofa audience well in different ways.",
+    "better": "same"
+   },
+   {
+    "aspect": "Consistency between steps (options -> prototype -> build plan)",
+    "with_rag": "4 checkpoints, 1 hazard, identical scoring rules carry through all three steps; the build plan layout_brief explicitly says it matches the approved sketch and repeats the exact Thai checkpoint labels.",
+    "without_rag": "5 checkpoints, 2 hazards, scoring (100 per point, -25 mud, 300 finish + time bonus) carry through all three steps; the sketch zones match the layout_brief positions.",
+    "evidence": "Prototype decisions vs build plan rules in both sessions: hazard penalty -25, 100 per checkpoint, 300 at the portal appear in both steps of both designs with no contradictions found.",
+    "better": "same"
+   },
+   {
+    "aspect": "Feasibility within 3 minutes and 8 children rotating",
+    "with_rag": "Flow timeline runs 0:00-3:00 across 4 points; no timer, adult helps the child exit and prepares the next turn at 3:00.",
+    "without_rag": "Flow timeline runs 0:00-3:00 across 5 points plus hatching and cake beats; no timer, adult assists headset on/off at 3:00 for the next child.",
+    "evidence": "Prototype flow arrays: both end at t=3:00 with handover to the next child; both state no time limit, matching the 3-minute session and 8-child rotation in the brief.",
+    "better": "same"
+   },
+   {
+    "aspect": "Art direction fit (bright living room, not scary)",
+    "with_rag": "Saturated toy-block palette (blue #2b6cff, yellow, green, cream) with red reserved for the hazard — a nice clarity trick, but the loud primary palette fits 'cute birthday' slightly less than pastel, and lighting is left as 'default' rather than matched to the afternoon setting.",
+    "without_rag": "Pastel palette (mint, peach, pink, cream, lavender) with brown reserved only for mud, described as readable in bright afternoon light; matches the 'cute' brief and the afternoon time of day.",
+    "evidence": "Prototype art palettes and build plan lighting field: Without RAG lighting 'noon' with pastel names; With RAG lighting 'default' with toy-block colours.",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Scoring design for a kindergarten birthday",
+    "with_rag": "Same point values but explicitly frames score as a small reward with no ranking — 'celebrate everyone who finishes without comparing scores or rankings' — better suited to a 5-6 year old birthday party.",
+    "without_rag": "Awards points and a time bonus, which sits oddly with the no-timer, no-pressure design and could invite comparison between the 8 children.",
+    "evidence": "Prototype decisions: With RAG 'score as small reward, no ranking' and build plan rules 'no timer and no ranking'; Without RAG decisions include 'finish with 300 points plus time bonus' with no anti-comparison note.",
+    "better": "with_rag"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "Safety clearance is hedged — 'props at least 0.6 m from the playable edge where possible' — and no corridor width is specified anywhere, unlike Without RAG's firm 1.2 m / 0.6 m numbers.",
+   "Weaker delivery of the brief's 'sensation' feeling: single egg, no hatching surprise; the climax is just tapping the nest point (storyboard beat 'Bring the Egg Back to the Nest').",
+   "Lighting left as 'default' and a loud primary toy-block palette, less tailored to the bright afternoon living room and 'cute' brief than Without RAG's pastel/noon match."
+  ],
+  "without_rag_weaknesses": [
+   "Two mud hazards on the route instead of one adds dodge moments for children who have never worn a headset (build plan: 'exactly two small red-circle soft mud puddle hazards').",
+   "Score includes a time bonus and no explicit no-comparison framing, which can invite ranking among the 8 children at a birthday party (prototype decisions: '300 points plus time bonus').",
+   "No explicit check that the accompanying adult fits the corridor without blocking spectators, which With RAG tests for."
+  ],
+  "improvements": [
+   "Without RAG should reduce to one mud hazard or shrink the second, and adopt With RAG's explicit no-ranking framing for the score.",
+   "Without RAG should state that decorations stay clear of the adult supervisor's accompanying path, as With RAG's test questions do.",
+   "With RAG should add a genuine surprise/sensation beat (e.g., the egg wiggling or hatching at the nest) to deliver the brief's 'sensation' feeling as strongly as Without RAG's hatching climax.",
+   "With RAG should remove the 'where possible' hedge on the 0.6 m edge clearance and specify a corridor width, matching Without RAG's firmer safety numbers.",
+   "Both could state how the adult supervisor's position is kept out of the spectators' line of sight during the hatching/cake beats."
+  ]
+ },
+ {
+  "brief": "b02-school-gym-edu",
+  "summary": "Both sessions converge on the same recommended concept — a four-player walk through the eight planets in order with an asteroid-belt hazard between Mars and Jupiter and a finish portal near the bleachers — and both carry it through prototype and build plans with matching scoring, timing, and safety margins. They differ in execution quality on different axes: With RAG is more spatially specific (per-planet normalized coordinates), more internally consistent (zigzag route identical across all three steps), includes a real learning assessment question, and grounds the spectator sightline concretely, but it hands players the planet names directly (weaker discovery) and picks night lighting for a morning gym. Without RAG has the stronger learning mechanic (clues that do not reveal the next planet's name), morning-appropriate lighting, and an explicit audience zone, but its sketch collapses eight planets into three grouped zones, its spiral geometry is not verifiably consistent with the bleacher-side finish, and it never writes the actual clue text needed to satisfy the accuracy constraint. These strengths and weaknesses roughly balance out.",
+  "preferred": "tie",
+  "confidence": "medium",
+  "why": "With RAG wins on specificity, cross-step consistency, spectator grounding, and learning assessment; Without RAG wins on the discovery mechanic, lighting fit, and explicit audience zoning. Neither set of advantages clearly outweighs the other for this brief: With RAG's weaknesses (labels that give away the answers, night lighting) are experiential, while Without RAG's weaknesses (grouped zones, unwritten clue content, unresolved geometry) are executional but fixable at build time. With both sessions recommending and detailing essentially the same game with identical scoring, timing, and safety numbers, a tie is the honest verdict.",
+  "differences": [
+   {
+    "aspect": "Fit to the brief's learning mechanic",
+    "with_rag": "The checkpoint signs directly label the next planet with its name plus a fact (options step: \"พุธ: ใกล้ดวงอาทิตย์ที่สุด\" etc.; build plan: \"Use exactly 8 ordered checkpoints with these short Thai labels\"). Players follow named targets, so the sequence is given rather than discovered.",
+    "without_rag": "Each checkpoint gives a short clue about the next planet \"without printing that next planet's name in the clue\" (prototype decisions; build plan), so students must recall/apply knowledge to find the next planet — a stronger match to the brief's \"discovery\" feeling, at some risk of confusion.",
+    "evidence": "With RAG prototype decisions: \"มี 8 จุดตรวจ... จุดละข้อเท็จจริงสั้นหนึ่งข้อ\" (8 checkpoints, one short fact each). Without RAG prototype decisions: \"ใช้คำใบ้สั้นเรื่องลักษณะเด่นหรือตำแหน่งของดวงถัดไป โดยไม่เขียนชื่อเฉลยไว้บนป้าย\" (short clue about the next planet without revealing its name).",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Accuracy constraint (ข้อมูลต้องถูกต้อง)",
+    "with_rag": "Gives eight concrete, correct planet facts at the options step and repeats them verbatim in the build plan labels; the start card states distances are not to scale.",
+    "without_rag": "States the not-to-scale disclaimer as a decision and a rule, but never writes out the actual clue text, so correctness of the delivered content cannot be verified from the session.",
+    "evidence": "With RAG options step lists all 8 facts (e.g., \"เสาร์: มีวงแหวนที่เห็นได้ชัด\"). Without RAG build plan only instructs \"a short, scientifically correct clue about the next planet\" without the text itself.",
+    "better": "same"
+   },
+   {
+    "aspect": "Real-space safety for first-time VR players",
+    "with_rag": "Build plan: route segments at least 1.2 m wide, gameplay at least 0.6 m from the floor edge, planets placed beside never on the route, no void floor \"เพราะผู้เล่นไม่เคยใช้วีอาร์\" (because players have never used VR), rules say walk at normal speed and do not run.",
+    "without_rag": "Prototype decisions and build plan: few static red hazards, walking gaps at least 1.2 m wide, route and props at least 0.6 m inside the boundary, \"โดยไม่เร่งวิ่ง\" (without rushing), morning lighting chosen for visibility of the real floor.",
+    "evidence": "With RAG prototype decisions: \"ไม่ใช้พื้นหลุมลึกเพราะผู้เล่นไม่เคยใช้วีอาร์\". Without RAG prototype decisions: \"ใช้วงแดงนิ่งจำนวนน้อย กระจายให้มีช่องเดินหลบกว้างอย่างน้อย 1.2 เมตร\".",
+    "better": "same"
+   },
+   {
+    "aspect": "Spatial specificity and buildability of the layout",
+    "with_rag": "The sketch and build plan give normalized coordinates for all 8 planet stops plus the start and finish portal (e.g., Sun (0.16,0.82), Neptune (0.17,0.22), portal (0.09,0.50)), with stops \"approximately 1.5–3 m apart\" — a builder can lay this out directly.",
+    "without_rag": "The sketch collapses planets into three grouped zones (e.g., \"ดาวพุธ ดาวศุกร์ โลก และดาวอังคาร\" as one zone at (0.53,0.31)), so per-planet placement is undefined; the build plan describes the spiral only qualitatively.",
+    "evidence": "With RAG build plan lists nine normalized positions; Without RAG prototype sketch has only 3 story zones covering 8 planets.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Internal consistency between steps",
+    "with_rag": "Option 1's zigzag route, two asteroid patches between Mars and Jupiter, and bleacher-side finish all carry through the prototype (storyboard climax, flow at 1:45, sketch danger zone) into the build plan unchanged.",
+    "without_rag": "The option promises a \"วงเวียนแบบเกลียวกว้างจากดวงอาทิตย์ตรงกลาง\" (wide spiral from the Sun at the centre) and the prototype decisions repeat this, but the sketch path starts at (0.5,0.5) yet places the Mars–Jupiter hazard at (0.28,0.39) before Jupiter/Saturn at (0.28,0.59), and the build plan gives no coordinates to resolve whether the geometry actually spirals outward in order.",
+    "evidence": "Without RAG options step route field vs. prototype sketch zone positions; With RAG option route field \"ซิกแซกจากดวงอาทิตย์ไปเนปจูน แล้วโค้งไปประตูจบฝั่งอัฒจันทร์\" matches the sketch path and build plan exactly.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Spectator experience",
+    "with_rag": "The finish portal is explicitly placed \"ฝั่งอัฒจันทร์\" (on the bleacher side) at (0.09,0.50) and the asteroid climax \"must face the bleachers\"; the option's spectator_view mentions cheering, calling the next planet, and a team score screen.",
+    "without_rag": "The build plan also asks for the Mars–Jupiter crossing and portal to face the bleachers, and the sketch includes an audience zone at (0.5,0.93), but the portal at (0.82,0.43) is on a different side of the sketch from the audience zone, leaving the sightline promise less grounded.",
+    "evidence": "With RAG sketch goal zone name: \"เนปจูนและประตูจบใกล้อัฒจันทร์\" (Neptune and finish portal near the bleachers). Without RAG sketch: audience zone at y=0.93, goal at (0.82,0.43).",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Lighting fit to a morning gym with windows",
+    "with_rag": "Chooses \"night\" lighting with a deep-navy floor in both the option and build plan; it argues morning window light keeps the real room visible, but a dark space floor plus night mood works against the naturally bright room it must blend with.",
+    "without_rag": "Chooses \"morning\" lighting and vivid accents \"เพื่อให้อ่านง่ายท่ามกลางแสงเช้าจากหน้าต่าง\" (for readability amid morning window light), explicitly avoiding reliance on intense glow — better matched to the venue's actual conditions.",
+    "evidence": "With RAG option lighting: \"night\"; Without RAG prototype decisions: \"ใช้แสงแบบเช้าและสีสดเพื่อให้เห็นชัดในโรงยิม\" and build plan: \"avoid reliance on intense glow\".",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Assessment of learning",
+    "with_rag": "Test questions include a direct learning measure: whether students can order all eight planet cards correctly after playing, compared with before playing.",
+    "without_rag": "Test questions cover onboarding speed, clue readability, crowding, and completion rate, but none checks whether the solar-system order was actually learned.",
+    "evidence": "With RAG prototype test_questions: \"นักเรียนสามารถเรียงการ์ดดาวเคราะห์ทั้งแปด...ได้ถูกต้องหรือไม่ และดีขึ้นเมื่อเทียบกับก่อนเล่นหรือไม่\"; Without RAG test_questions have no equivalent item.",
+    "better": "with_rag"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "Checkpoint labels name each planet outright (build plan: 8 labels like \"พุธ: ใกล้ดวงอาทิตย์ที่สุด\"), so players follow signs rather than discover the order — weaker fit to the \"discovery\" feeling.",
+   "Lighting is set to \"night\" with a deep-navy floor in both the option and build plan, a questionable match for a morning gym with windows where the real room stays visible.",
+   "The prototype flow ends meaningful play at 3:50 with the last 10 seconds unspecified, and the 4-minute budget for 8 stops plus reading is asserted rather than stress-tested (buildability self-score of 4 at the options step)."
+  ],
+  "without_rag_weaknesses": [
+   "The sketch groups eight planets into three story zones (e.g., one zone for Mercury–Mars at (0.53,0.31)), so the build plan lacks per-planet positions a builder could directly use.",
+   "The promised spiral from a central Sun is not verifiable against the sketch, and the portal (0.82,0.43) sits on a different side from the audience zone (0.5,0.93), leaving the spectator sightline claim weakly supported.",
+   "The actual clue text is never written anywhere in the session, so the brief's hard constraint that information must be correct cannot be checked, and no test question verifies that students learned the planet order."
+  ],
+  "improvements": [
+   "With RAG should switch from night to morning-appropriate lighting (or justify the dark floor against window glare) and could adopt Without RAG's clue-without-the-name mechanic to make discovery active rather than labelled.",
+   "Without RAG should give per-planet coordinates in the sketch/build plan instead of grouped zones, write out the actual clue text so scientific accuracy can be verified, reconcile the spiral geometry with the bleacher-side portal placement, and add a post-play ordering assessment like With RAG's."
+  ]
+ },
+ {
+  "brief": "b03-mall-brand",
+  "summary": "Both sessions converge on nearly the same game: a solo, no-running, five-checkpoint walking loop in a 4x4 m mall atrium with red hazard circles, a 120-second timer, the same scoring scheme (100/checkpoint, -25/hazard, 300 finish + time bonus), a leaderboard, and no in-game advertising. Both pick the recommended option 3 and carry it consistently through prototype and build plan. The meaningful differences are in hazard design and internal consistency: With RAG specifies four hazards with a deliberate difficulty ramp and explicit placement logic in the build brief, while Without RAG specifies only two hazards and contains a contradiction between its prototype sketch (hazards merged with checkpoints 2 and 4, so they are not separate stops) and its flow/build-plan text (which treats the stream crossing and light-gathering as standalone checkpoints). With RAG also adds a mascot guide and a river that gains color as progress feedback; Without RAG states a clearer no-running rule and reserves red exclusively for hazards. Overall With RAG is slightly stronger on gameplay depth and step-to-step consistency; Without RAG is slightly clearer on the walking-only rule but thinner and internally inconsistent on the route.",
+  "preferred": "with_rag",
+  "confidence": "medium",
+  "why": "The two sessions produce almost the same game, so the verdict rests on execution quality rather than concept. With RAG wins on the aspects that most affect the actual build: it specifies four hazards with a deliberate ramp (easy straight walk, first hazard pair at 0:30, hardest zigzag at 1:20, paired final dodge at 1:40) and its sketch, flow, and build layout_brief all agree on the same five checkpoints and hazard segments. Without RAG's prototype sketch merges two checkpoints with its two hazards (so the drawn route has only three pure stops) while its own flow and build plan describe five distinct checkpoints plus separate hazards, and its 'dodge two rings before the final checkpoint' climax contradicts the sketch's hazard placement — an implementer would have to resolve which version is real. Without RAG is genuinely better on two safety/readability points (an explicit 'walking only, no running' rule in the final rules and red reserved exclusively for hazards), but With RAG still covers walking-pace play, lane width, and boundary margins, and adds a mascot guide plus a capped, small-prop scope that make the build more predictable. The gap is modest, hence medium confidence.",
+  "differences": [
+   {
+    "aspect": "Hazard count and difficulty progression",
+    "with_rag": "Options step: 'วงอันตรายเป็นกระเซ็นน้ำผลไม้ 4 จุดกระจายช่วงกลางและก่อนจบ' (four splash hazards spread mid-route and before the finish). Build plan layout_brief: 'Use exactly four red juice-splash hazard circles', two creating a slalom between checkpoints 2-3, one on the inner bend 3-4, one before the portal, with the flow step escalating difficulty at 1:20 ('เดินซิกแซกผ่านกระเซ็นช่วงแคบ') and a paired final dodge at 1:40.",
+    "without_rag": "Prototype decisions: 'วางวงอันตรายสองจุดที่ลำธานและช่วงรวบรวมแสง' (two hazard points, at the stream and at the light-gathering). Build plan layout_brief: 'Use exactly two hazard zones: a red rotten-fruit power ring beside the orange juice stream before checkpoint 2, and a final red power-ring cluster around the approach from checkpoint 4 to checkpoint 5.'",
+    "evidence": "With RAG options mechanics and build layout_brief specify four hazards with staged placement; Without RAG prototype decisions and build layout_brief specify two hazards.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Consistency between prototype sketch and text/build plan",
+    "with_rag": "Prototype sketch has 5 story zones, 2 danger zones, 1 goal zone matching the five named checkpoints, and the build layout_brief repeats the same five checkpoints in the same order with the same hazard segments; flow timestamps (0:10 first checkpoint ... 1:50 portal) align with the sketch route.",
+    "without_rag": "Prototype sketch lists only 5 story/danger zones total: 'ลำธานและวงพลังแดง' (stream + hazard merged) and 'รวบรวมแสงท่ามกลางวงพลัง' (light-gathering + hazard merged) are single zones, so the sketch shows 3 pure checkpoints plus 2 merged hazard-checkpoints. But the flow step and build layout_brief list five distinct ordered checkpoints ('ข้ามลำธานน้ำผลไม้' on the west, 'รวบรวมแสงผลไม้' near north-centre) separate from the hazards, and the climax decision says 'หลบวงพลังสองวงก่อนแตะด่านเปิดประตูสวน' (dodge two rings before the final checkpoint), which does not match the sketch's single final hazard zone at 0.55,0.2 far from checkpoint 5 at 0.75,0.35.",
+    "evidence": "Without RAG sketch zones vs its own flow/build-plan checkpoint list; With RAG sketch zones vs its build layout_brief checkpoint list.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Explicit no-running safety rule",
+    "with_rag": "Title and rules imply walking ('วิ่งไม่ได้ก็สนุกได้', 'ไม่จำเป็นต้องวิ่ง' in build rules), and environment_fit says players move at their own pace, but no rule explicitly forbids running; the risk list only warns about players getting overexcited in option 1.",
+    "without_rag": "Build rules state plainly 'เดินเท่านั้น ห้ามวิ่ง' (walking only, running forbidden); prototype flow 0:00 includes 'ห้ามวิ่ง' in the intro instructions; option 3 risks flag that the timer 'อาจกระตุ้นให้บางคนเดินเร็วเกินไป จึงต้องบอกให้เดินเท่านั้น' (timer may push people to move too fast, so they must be told to walk only).",
+    "evidence": "Without RAG build rules and prototype flow; With RAG build rules list only 'ไม่จำเป็นต้องวิ่ง' without a prohibition.",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Onboarding and in-world guidance",
+    "with_rag": "Prototype storyboard start beat: 'มาสคอตหยดน้ำชี้ทางไปยังเมล็ดแสงจุดแรก' (water-drop mascot points the way to the first checkpoint); build layout_brief: 'the player should immediately see the mascot indicating checkpoint 1'. Test question asks whether VR-first-timers start walking within ten seconds.",
+    "without_rag": "Prototype flow 0:00 gives 'คำแนะนำสั้น' (short instructions) and the route colors point to the next checkpoint, but there is no mascot or in-world guide character; test question allows 15 seconds for first-timers to start.",
+    "evidence": "With RAG prototype storyboard and build layout_brief mascot; Without RAG prototype flow and test_questions.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Progress feedback / world reactivity",
+    "with_rag": "Prototype storyboard middle beat: 'หยดส้มและกลิ่นเบอร์รีทำให้แม่น้ำค่อย ๆ มีสี' (the river gradually gains color as checkpoints are awakened); build layout_brief: 'Make the river appear increasingly colorful as the ordered garden stops are awakened'.",
+    "without_rag": "Storyboard middle beat: 'ดอกสีรุ้งและแสงผลไม้ค่อย ๆ ปลุกสวน' (flowers and fruit lights gradually wake the garden) and flow 0:15 'ใบไม้และผลไม้โลว์โพลีผลิขึ้นรอบเส้นทาง' (leaves and fruit sprout around the route).",
+    "evidence": "Both prototype storyboards and With RAG build layout_brief describe progressive world awakening; comparable mechanisms.",
+    "better": "same"
+   },
+   {
+    "aspect": "Color semantics and readability under mall lighting",
+    "with_rag": "Palette includes a berry-red '#F94F6D' named 'แดงเบอร์รีเตือน' used for hazards, but the palette also includes bright orange/yellow/green/cyan/violet for scenery; no explicit statement that red is reserved for danger, and the rainbow river/portal use many saturated colors including warm tones near the hazard red.",
+    "without_rag": "Prototype decisions: 'ใช้เขียว ส้ม และทองเป็นสีหลัก ส่วนแดงสงวนไว้สำหรับอันตรายเพื่อให้แยกออกทันทีใต้ไฟห้าง' (green/orange/gold as mains, red reserved exclusively for danger so it reads instantly under mall lights); build layout_brief: '#F0445E hazards only'.",
+    "evidence": "Without RAG prototype decisions and build layout_brief; With RAG prototype palette without a red-reservation rule.",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Fit to brief (queue draw, 2-minute solo round, leaderboard, no ads, all ages)",
+    "with_rag": "Option 3 scores mr_fit 5, players_fit 5, buildability 5; recommend_why cites fastest learning, 2-minute round, queue-facing finish and leaderboard. All steps keep solo play, 120 s, leaderboard, 'ไม่มีโฆษณา โลโก้ หรือข้อความขายสินค้าในโลกเกม' in decisions and build brief.",
+    "without_rag": "Option 3 scores mr_fit 5, players_fit 5, buildability 5; recommend_why cites fastest learning, reliable 2-minute finish, leaderboard link without ads. All steps keep solo play, 120 s, leaderboard, 'ไม่มีภาพหรือข้อความโฆษณาในเกม' in decisions and build brief.",
+    "evidence": "Both options steps' scores and recommend_why; both prototype decisions and build layout_briefs state the no-advertising constraint.",
+    "better": "same"
+   },
+   {
+    "aspect": "Spectator placement and climactic view",
+    "with_rag": "Sketch places 'คนต่อคิวด้านบูธ' at south (y 0.95) with goal 'ประตูรุ้ง' at 0.28,0.75 near the audience side; build layout_brief: 'Spectators stand outside the south/booth side; position the last dodge and portal there as the public climax.'",
+    "without_rag": "Sketch places 'คนต่อคิวและจอคะแนนข้างบูธ' at east (x 0.94) with goal 'ประตูทองเส้นชัย' at 0.78,0.65 on the east; build layout_brief: 'Spectators and the leaderboard screen stand outside the east side... position the final dodge and golden-portal finish as the clearest spectator moments.'",
+    "evidence": "Both sketches and build layout_briefs place the finish and final dodge facing the queue; only the side differs (south vs east), and the brief does not fix a side.",
+    "better": "same"
+   },
+   {
+    "aspect": "Feasibility / prop scope",
+    "with_rag": "Build layout_brief caps scenery at 'roughly 18-24 scenery pieces', keeps props 'small and low', hero scenery outside the walking lane, route >=1.2 m wide, points >=0.6 m inside boundary, no void floor.",
+    "without_rag": "Build layout_brief lists asset types (giant leaves, fruit, trunks, stream, flowers, portal) with the same 1.2 m width and 0.6 m boundary margins and no void floor, but gives no prop count or size cap, and 'giant' fruit/leaf props near a 1.2 m lane in a 4x4 m space are less constrained.",
+    "evidence": "With RAG build layout_brief prop count and 'small and low' constraint vs Without RAG build layout_brief asset list without counts.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Theme distinctiveness between the two designs",
+    "with_rag": "Rainbow juice river, water-drop mascot, five named stops (seed of light, orange drops, berry scent, grape flower, rainbow dam) with a 'wake the garden' story.",
+    "without_rag": "Giant toy-like garden, golden portal, five named checkpoints (giant tree, juice stream, rainbow flower, fruit light, garden gate) with a 'wake the garden' story.",
+    "evidence": "Both prototype plans' storyboards and build stories; themes are near-identical in structure and differ only in dressing.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "No explicit 'no running' prohibition in the final rules — only 'ไม่จำเป็นต้องวิ่ง' (running not required), weaker than Without RAG's clear 'ห้ามวิ่ง' for a timed game in a public mall.",
+   "Red is not reserved for hazards; the saturated palette (orange #FF6B35, berry-red #F94F6D) plus a rainbow river and portal could dilute the danger signal under bright mall lighting, with no stated color-semantic rule.",
+   "Checkpoint names are more whimsical than descriptive ('ตามกลิ่นเบอร์รี' / follow the berry scent implies a scent cue that MR cannot deliver, and the build brief translates it only as 'scent-like decorative swirls').",
+   "The route sketch places the final checkpoint 'เปิดเขื่อนรุ้ง' (0.52,0.77) and the portal (0.28,0.75) very close together with the 'กระเซ็นคู่สุดท้าย' at (0.39,0.72) between them, which may crowd the southwest corner near the audience boundary."
+  ],
+  "without_rag_weaknesses": [
+   "Internal inconsistency: the prototype sketch merges hazards with checkpoints 2 and 4 (only 3 pure story zones), while the flow step, decisions, and build layout_brief describe five distinct checkpoints plus separate hazard zones — the route geometry is ambiguous for an implementer.",
+   "Climax description 'หลบวงพลังสองวงก่อนแตะด่านเปิดประตูสวน' (dodge two rings before the final checkpoint) conflicts with the sketch's single final hazard zone located at the north (0.55,0.2), far from checkpoint 5 on the east.",
+   "Only two hazards total, so the mid-route (checkpoints 2-4) has long unchallenged walking segments; the 'challenge' feeling rests almost entirely on the time bonus.",
+   "No prop count or size cap in the build brief despite 'giant' toy-like scenery in a 4x4 m space with a 1.2 m lane, leaving visual clutter and lane encroachment risk unresolved.",
+   "No in-world guide (mascot or equivalent); onboarding relies on a short verbal/text instruction at 0:00 in a noisy mall where the design itself says not to rely on audio."
+  ],
+  "improvements": [
+   "Adopt Without RAG's explicit 'walking only, no running' rule and its red-reserved-for-danger color rule in With RAG's final rules and palette decisions.",
+   "Reconcile Without RAG's sketch with its checkpoint list: either make hazards separate zones on the path segments (as its build brief describes) or relabel the merged zones, and fix the climax text to match the actual hazard placement.",
+   "Add a prop budget and size cap to Without RAG's build brief (With RAG's 18-24 small, low props is a good template) to protect the 1.2 m lane from the 'giant' scenery.",
+   "Give Without RAG an in-world directional guide (e.g., a mascot or animated trail like With RAG's) so first-time VR users can start without relying on spoken instruction in a loud atrium.",
+   "In With RAG, rename or visually clarify the 'berry scent' checkpoint so the interaction cue is purely visual, and double-check spacing of the final checkpoint, last hazard pair, and portal so the southwest corner near the queue does not become crowded."
+  ]
+ },
+ {
+  "brief": "b04-thai-ghost-teens",
+  "summary": "Both sessions converge on the same genre (a two-player walking race around the central pillar, dodging red hazard rings, ~5 minutes, no jump scares) and are internally consistent across all three steps. The decisive differences are cultural and tonal: With RAG sets the game in a secular canal village, casts Mae Nak as a loving wife the player helps, and its build plan explicitly bans monks, Buddha images, sacred objects as targets, and touchable temple scenery. Without RAG sets the game in an abandoned viharn (temple hall), makes reading a prayer and passing through saffron monk's cloth into gameplay checkpoints, and contains no cultural-safety guardrails. With RAG also has slightly more forgiving hazard pacing (densest dodging mid-run, calm story beat before the finale) and a more numerically specific build plan (1 m hazard-gate minimum, 1.5 m figure offsets), while Without RAG concentrates its hardest dodging at a cosmetically narrowed bridge near the climax. Safety specs around the pillar, the two-player race structure, scoring, and spectator planning are essentially equivalent.",
+  "preferred": "with_rag",
+  "confidence": "high",
+  "why": "With RAG fits the brief's 'release the spirits' concept more faithfully (helping Mae Nak free lost spirits vs. breaking a seal), handles Thai religious material with explicit, verifiable respect (banning sacred imagery from gameplay rather than turning prayer and saffron cloth into race checkpoints), and gives marginally safer, more specific hazard and pacing instructions. Without RAG is competent and equally consistent, but its viharn/prayer/saffron-cloth theming is a real cultural-sensitivity risk for a Thai teenage audience that With RAG engineered away on purpose.",
+  "differences": [
+   {
+    "aspect": "Cultural safety and respect for Thai religious content",
+    "with_rag": "With RAG uses a secular canal-village setting: wooden stilt houses, a canal, a rowboat, a cradle, a lime tree, and Mae Nak's long arm as a static side spectacle. Its build plan explicitly bans \"sacred objects as targets, monks, Buddha images, or touchable temple scenery\" and states \"no shrine or worship scoring.\"",
+    "without_rag": "Without RAG sets the game in an abandoned Thai viharn (temple hall) with saffron monk's cloth arches, a prayer-reading checkpoint (\"อ่านคำอธิษฐาน\" / read a prayer), and a spirit-sealing ritual. Its build plan has no guardrail against sacred imagery and actively requires players to walk through saffron drapes and touch a prayer marker as gameplay.",
+    "evidence": "Prototype plan step: With RAG's layout_brief lists the exclusions verbatim; Without RAG's option 1 mechanics list \"อ่านคำอธิษฐาน\" (read a prayer) and \"ผ่านซุ้มผ้าเหลือง\" (pass through the saffron-cloth arch) as checkpoints 1 and 3, and its key_art prompt features \"aged saffron cloth hangs from virtual wooden arches.\" For a Thai high-school audience in a real venue, making prayer and monk's cloth into race obstacles risks being read as disrespectful; With RAG proactively avoids this.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Handling of Mae Nak's character (fit to the 'release the spirits' concept)",
+    "with_rag": "Mae Nak is framed as a loving wife the player helps: checkpoint 5 is \"คืนวิญญาณให้แม่นาค\" (return the spirits to Mae Nak) in a calm, hazard-free clearing, and the build plan says she is \"presented gently as a loving wife, never an enemy.\" The story arc (gather lost spirits, return them, open the dawn gate) directly enacts the brief's \"ปล่อยวิญญาณ\" (release the spirits).",
+    "without_rag": "Mae Nak is a sealed entity the player releases by breaking a seal (\"เปิดผนึกแม่นาค\" / open Mae Nak's seal), shown only as a \"calm shadow silhouette\" beyond a portal. The spirits are abstracted into collectible cyan-green flames rather than characters being helped.",
+    "evidence": "Options step: With RAG option 3 pitch says the player gathers lost spirits and opens the way for Mae Nak to release them into the dawn; Without RAG option 1 pitch frames the goal as opening the seal to release Mae Nak herself. With RAG's treatment is closer to the folktale's sympathetic reading and to the brief's wording.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Physical safety specification around the real pillar and room edges",
+    "with_rag": "Build plan requires walking legs at least 1.2 m wide, route elements at least 0.6 m from room edges, nothing virtual on the real pillar, ghost figures at least 1.5 m beside the route, and no hazard gates narrower than 1 m. Prototype test questions ask whether any path segment ever falls below 1.2 m.",
+    "without_rag": "Build plan requires routes at least 1.2 m wide, all virtual objects off the pillar with a safe buffer, gameplay at least 0.6 m from edges, and two non-crossing lanes. Test questions ask whether players can read the lanes without getting too close to the pillar or edges.",
+    "evidence": "Both build plans state the same 1.2 m / 0.6 m numbers and pillar exclusion. With RAG adds the 1.5 m spectator-side figure distance and the 1 m hazard-gate floor; Without RAG adds the explicit non-crossing two-lane requirement. Roughly equivalent rigor.",
+    "better": "same"
+   },
+   {
+    "aspect": "Hazard design and pacing within the 5-minute limit",
+    "with_rag": "Hazards are static red cursed-ground circles with a deliberate difficulty curve: one forgiving teaching circle between checkpoints 2 and 3, the densest section in the cursed garden (checkpoints 3-5), then a hazard-free calm approach to checkpoint 5, and only one small final choice after checkpoint 6. The flow timeline budgets the densest dodging at 2:00 and a quiet story beat at 3:00 so players recover before the finale.",
+    "without_rag": "Hazards are red spirit circles placed after the crying-spirit checkpoint and immediately before the spirit bridge, with players told to \"wait or detour.\" The storyboard describes the bridge section as narrowing (\"เส้นทางแคบลงเล็กน้อย\") near the climax, which concentrates the hardest dodging late in the run when the race pressure is highest.",
+    "evidence": "Prototype plan step: With RAG flow at 2:00 marks the garden as the densest hazard section and 3:00 as hazard-free; Without RAG storyboard climax beat says the path narrows slightly before the final light with hazard rings crossing in front, and its build plan says to keep the bridge approach \"modestly narrower in appearance.\" With RAG's pacing is more forgiving and better matched to the no-running constraint; Without RAG's late narrowing plus timed race could tempt hurrying.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Two-player race implementation clarity",
+    "with_rag": "Both players walk separate copies of the same route simultaneously (\"สำเนาพื้นที่ของตัวเอง\"), competing on time and score on a leaderboard; scoring is checkpoint +100, hazard -25, finish +300 plus time bonus.",
+    "without_rag": "Identical structure: two separate non-crossing copies, same scoring (+100 / -25 / +300 plus time bonus), 5-minute limit, live standings.",
+    "evidence": "Both options steps and build plans describe mirrored copies with identical scoring numbers and a leaderboard. No meaningful difference.",
+    "better": "same"
+   },
+   {
+    "aspect": "Consistency between the three steps (options, prototype, build plan)",
+    "with_rag": "Option 3's 6-checkpoint route, dawn portal facing spectators, and scoring carry verbatim into the prototype plan (decisions, flow, HUD) and the build plan (same checkpoint labels, same rules).",
+    "without_rag": "Option 1's 7-checkpoint loop, rear portal, and scoring carry verbatim into the prototype plan and build plan (same checkpoint labels, same rules).",
+    "evidence": "Both sessions are internally consistent across all three steps; neither introduces contradictions or dropped elements between steps.",
+    "better": "same"
+   },
+   {
+    "aspect": "Specificity and feasibility of the build plan",
+    "with_rag": "The build plan specifies exact checkpoint Thai labels, per-section hazard placement (one teaching circle, several garden circles with broad gaps, one final small choice), hero pieces (stilt house, canal banks, rowboat, swinging cradle, lime tree with long-arm vignette), and explicit exclusions.",
+    "without_rag": "The build plan also specifies exact checkpoint labels and hero pieces (viharn fragments, saffron drapes, spirit bridge, portal) and hazard placement (after checkpoint 4 and before the bridge), but leaves hazard count and gap sizing unstated beyond \"clearly distinguishable,\" and the \"modestly narrower in appearance\" bridge instruction is vaguer.",
+    "evidence": "Build plan step: With RAG gives numeric hazard-gate minimum (1 m) and a placement schedule; Without RAG gives placement but no gate-width floor and a cosmetic narrowing instruction that could be misread as permission to tighten the real path.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Spectator experience",
+    "with_rag": "Spectators behind the room watch the cursed-garden dodge section and the dawn-portal finish; the portal is oriented toward them.",
+    "without_rag": "Spectators watch the pre-bridge hazard dodges and the rear finish portal; the portal is at the rear facing them.",
+    "evidence": "Both spectator plans name one mid-run dodge moment and the finish portal as the visible beats, with friends outside the play area. Equivalent.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "Does not explicitly state that the two lane copies must never cross, relying instead on 'separate copies' phrasing.",
+   "The story-driven checkpoints risk players skipping the narrative in a timed race; the design acknowledges this in risks but only mitigates it via short sign text.",
+   "The long-arm vignette, even static, could startle players in a dark room if placed too close to the route; the 1.5 m offset helps but is not playtest-verified."
+  ],
+  "without_rag_weaknesses": [
+   "Uses a temple (viharn), saffron monk's cloth, and a prayer-reading checkpoint as interactive race elements, with no guardrails against disrespecting sacred Thai Buddhist imagery.",
+   "Concentrates the hardest dodging at a deliberately narrowed bridge near the climax, which works against the no-running constraint under race time pressure.",
+   "Build plan omits numeric hazard-gap minimums and figure offsets that With RAG provides, leaving more room for unsafe or unreadable layouts.",
+   "Mae Nak is reduced to a silhouette behind a seal, a weaker fit to the brief's sympathetic 'release the spirits' concept."
+  ],
+  "improvements": [
+   "Without RAG should add the same cultural-safety exclusions With RAG has (no sacred objects as gameplay targets, no prayer or monk's cloth as interactive props) or re-theme checkpoints 1 and 3 to secular equivalents.",
+   "Without RAG should state a minimum hazard-gate width and remove or clarify the 'modestly narrower' bridge instruction so the real walking width never drops below the safe minimum.",
+   "With RAG could adopt Without RAG's explicit 'non-crossing lanes' wording to make the two-player separation guarantee even clearer.",
+   "Both designs could specify how the game handles a player who fails to finish within 5 minutes (partial score vs. DNF) to make race results unambiguous."
+  ]
+ },
+ {
+  "brief": "b05-uk-uni-open-day",
+  "summary": "Both sessions recommend and develop essentially the same game: a calm, shared, five-to-six-stop botanical loop walk in the bright atrium with no timer, no hazards and no failure, ending at a portal near the start. They match on brief fit, safety margins, spectator handling, feasibility and step-to-step consistency. Without RAG's final build plan is marginally more specific about checkpoint placement and per-stop content (six stops tied to corners/edges with a defined fountain climax), while With RAG is equally coherent but a touch looser in positional language. The difference is small and does not change what players experience, so this is a tie.",
+  "preferred": "tie",
+  "confidence": "medium",
+  "why": "On every aspect that matters to the creator or players - fit to the calm/no-pressure brief, safety margins in the glass atrium, consistency between options, prototype and build, feasibility in three minutes, and spectator handling - the two sessions are equivalent. The only real difference is that Without RAG's build plan pins its six checkpoints to slightly more precise locations and content than With RAG's five, which is a minor specificity edge but not enough to prefer one design overall.",
+  "differences": [
+   {
+    "aspect": "Fit to the brief (calm, no pressure, discovery)",
+    "with_rag": "With RAG's recommended option, 'Glasshouse Garden Stroll', is a five-checkpoint shared-floor walk with no hazards, no timer and no leaderboard; its prototype pillars are 'Calm before spectacle', 'Discover together' and 'Belong in the atrium', and its flow likewise ends gently at 3:00 with time to talk about a favourite stop.",
+    "without_rag": "Without RAG's recommended option, 'The Glasshouse Stroll', is a six-checkpoint shared-floor walk with no hazards, no time limit and no failure state; its prototype pillars are 'Always calm', 'Discover together' and 'Welcome everyone', and its flow ends gently at about 3:00.",
+    "evidence": "Options step: both recommend a calm loop walk with submission + discovery as the listed feelings and explicitly no timer/failure. Prototype step: both carry the same pillars and a ~3 minute gentle flow. Build step: both set timeLimit to null and repeat 'no hazards and no way to fail' in the rules.",
+    "better": "same"
+   },
+   {
+    "aspect": "Safety in the real space",
+    "with_rag": "With RAG's build plan layout_brief requires one wide gentle loop, an approximately 1.2 m clear walking route, all scenery at least 0.6 m inside the floor edges, no hazards and no dense prop clusters; its prototype decisions include 'Keep a wide unobstructed route, small props outside the walking line and all scenery clear of the real floor edges'.",
+    "without_rag": "Without RAG's build plan layout_brief requires a broad single loop around the perimeter, all scenery and route markings at least 0.6 m from the glass, and a clear 1.2 m walking width; its prototype test questions ask whether both players can pass every marker 'without crowding or approaching the glass walls'.",
+    "evidence": "Build step: both layout_briefs state the same 0.6 m scenery margin and ~1.2 m walking width for the same 5 x 6 m glass atrium. Prototype step: both include decisions/test questions about two people pausing without crowding and keeping clear of edges.",
+    "better": "same"
+   },
+   {
+    "aspect": "Specificity and buildability of the final plan",
+    "with_rag": "With RAG's build plan gives five ordered checkpoints with named positions (near-left corner, far-left side, far side, far-right side, near-right side) and describes each vignette (lily pond outside the walking line, low drift of blue blossoms, modest wooden windmill with slow turning sails).",
+    "without_rag": "Without RAG's build plan gives six concrete, ordered checkpoints with placement tied to the route (gate at spawn, ferns along the first edge, sunflower at the first corner, lily bridge at the next short edge, fountain at the next side, last seed near the public-facing corner) and describes each stop's content (one readable gold flower cluster, a cool blue fountain vignette with butterflies).",
+    "evidence": "Build step: Without RAG specifies six stops with corner/side placement and per-stop content; With RAG specifies five stops with side placement and per-stop content. Without RAG's checkpoint set is slightly more granular (six stops with a defined visual climax at the fountain plus a final seed and portal), while With RAG's is a little looser ('across the far side', 'on the far-right side').",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Internal consistency between steps",
+    "with_rag": "With RAG keeps the same title, five named stops, loop route, morning lighting and portal-near-entrance finish across all three steps; its sketch zones and path match the five stops plus portal, and the build layout_brief repeats them in order.",
+    "without_rag": "Without RAG keeps the same title, six named checkpoints, loop route, morning lighting and portal finish from options through prototype to build; the prototype's sketch zones and path match the six stops plus portal, and the build layout_brief repeats them in the same order.",
+    "evidence": "Options -> prototype -> build: in both sessions the checkpoint names, count, route shape, lighting and finish behaviour carry through unchanged, and each prototype sketch's zones/path correspond to the same stops later restated in the build plan.",
+    "better": "same"
+   },
+   {
+    "aspect": "Feasibility within 3 minutes for two first-time users",
+    "with_rag": "With RAG's prototype flow spaces five stops across 0:20-2:35 and ends at 3:00 with time to remove headsets; its options step also scores buildability 5 and players_fit 5 for needing no controls beyond walking.",
+    "without_rag": "Without RAG's prototype flow spaces six stops across 0:20-2:40 with short pauses and ends by about 3:00; its options step scores buildability 5 and players_fit 5 for needing no prior VR skill.",
+    "evidence": "Prototype step: both flows reach the portal around 2:35-2:40 and close at ~3:00. Options step: both give the recommended walk buildability 5 and players_fit 5 with the same reasoning (simple ordered checkpoints, no hazards or timer).",
+    "better": "same"
+   },
+   {
+    "aspect": "Spectator handling",
+    "with_rag": "With RAG orients the windmill pause and arch-to-portal finish toward the glass-side edge so spectators can see the pair's reactions, and its spectator_plan keeps them beyond the edge with no guiding task.",
+    "without_rag": "Without RAG places the finish portal facing the main passing route so onlookers can cheer or ask to try next, and its spectator_plan keeps passing visitors outside the walking area with no in-game task.",
+    "evidence": "Options step: both describe spectators watching the pair stroll and finish without entering the floor. Build step: both spectator_plans state spectators stay outside the play floor and have no task, while the finale is visible to them.",
+    "better": "same"
+   },
+   {
+    "aspect": "Range and honesty of the three options",
+    "with_rag": "With RAG offers a walk (high confidence), a chess-garden tactics idea (medium) and a gentle battle idea (medium), and notes the battle 'cannot match the pure relaxation of the walking tour' and is 'the least comfortable choice for people who have never held VR controllers'.",
+    "without_rag": "Without RAG offers a walk (high confidence), a chess-garden tactics idea (medium) and a gentle battle idea (low), and flags that the battle 'only partly meets the request for a calm experience with no pressure'.",
+    "evidence": "Options step: both sessions present the same three genres with the walk recommended and both explicitly warn that the battle option conflicts with the no-pressure, first-time brief.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "With RAG's build plan uses looser positional language for some checkpoints ('across the far side', 'on the far-right side') compared with Without RAG's corner/edge-anchored placement.",
+   "With RAG's prototype prompt_style mentions 'warm afternoon sun' while everywhere else it specifies morning lighting, a small internal inconsistency."
+  ],
+  "without_rag_weaknesses": [
+   "Without RAG's test questions focus on comprehension, crowding and readability but do not include a direct measure of whether players actually feel calmer, whereas With RAG asks for a 1-5 calm rating.",
+   "Without RAG's six stops in three minutes leaves slightly less unhurried time per stop than With RAG's five, which could matter for the 'submission' feeling."
+  ],
+  "improvements": [
+   "Without RAG could add an explicit comfort measure like With RAG's 1-5 calm rating test question to verify the 'submission' feeling, not just readability and crowding.",
+   "With RAG could tighten positional language in the build plan (for example replace 'across the far side' with corner/edge references) to match Without RAG's more precise checkpoint placement.",
+   "Both could state the exact real-world anchor for the spawn/entrance relative to the atrium doors so a builder can place the loop without guessing which side is 'public-facing'."
+  ]
+ },
+ {
+  "brief": "b06-pc-chess-gamers",
+  "summary": "Both sessions converge on nearly the same game: a four-board solo chess-piece tactics puzzle (knight, bishop, rook, queen) in a haunted castle with ordered captures, patrolling spectral guards, cracked squares and tables. The real differences are in difficulty philosophy and consistency. With RAG builds a speedrun-flavored game: guard beats tighten from 3s to 1.5s, a total timer and fastest-clean-run leaderboard drive replay, and the final board is explicitly framed as a fast-beat climax. Without RAG builds a pure planning game: guards stay slow (3.5s down to 3s), the HUD explicitly shows elapsed time \"with no countdown pressure\", and a board-restart control replaces leaderboard competition. With RAG is more specific in its build config (exact target/guard/table/crack counts per board, plus a stated solvability-check decision in the prototype step) and more internally consistent between its options step and its build plan. Without RAG is more consistent between its prototype and build steps (both promise slow, readable, no-pressure play) but its options step promised \"guards that move every 3 seconds or slower\" while its build plan quietly tightens to 3.0s on the final board, and it never explains how the \"hard\" in the brief survives the removal of all time pressure. Both fit the PC/solo/stream brief equally well; neither has real-world safety concerns since both are screen games.",
+  "preferred": "with_rag",
+  "confidence": "medium",
+  "why": "The two designs are close cousins, but the brief asks for a 'hard' chess-piece puzzle with 'challenge' and 'expression' as target feelings, and With RAG delivers both more concretely. Its difficulty escalation (3s beats tightening to 1.5s) is promised in the options step and honored exactly in the build config, whereas Without RAG promises '3 seconds or slower' and then quietly tightens to 3.0s while removing all time pressure — leaving its claim to 'hard' resting only on board complexity that no step verifies. With RAG's total timer, clean-run status and fastest-clean-run leaderboard give the requested 'expression' a concrete form (personal speedrun lines and comparable performances) and give stream spectators an ongoing conversation, directly serving the 'friends on stream' brief. With RAG also uniquely commits to code-verified solvability for every board, a real feasibility safeguard for a puzzle game whose entire value depends on fair, solvable layouts. Without RAG's strengths are genuine — its slow, readable, restart-friendly design is fairer to learn and its per-board ramp is smoother — but it under-fills the 10-minute session (flow ends at 9:30 with no replay hook), offers no persistent mastery artifact, and leaves its central fairness risk (no move preview) raised in the options step but unresolved in the build plan. The margin is modest: a creator who values relaxed, cerebral puzzling over speedrunning could reasonably prefer Without RAG.",
+  "differences": [
+   {
+    "aspect": "Difficulty model and fit to 'hard' in the brief",
+    "with_rag": "Challenge escalates through tightening guard beats: options step states guards start at a visible 3-second beat and tighten to 1.5–2 seconds on the final board; build plan config sets beats of 3, 3, 2.5, 1.5 across the four boards, with the queen board facing 3 guards.",
+    "without_rag": "Challenge comes only from position complexity: options step promises guards moving 'every 3 seconds or slower'; build plan config uses beats of 3.5, 3.5, 3.2, 3.0 and compensates with more targets (up to 5) and guards (up to 4).",
+    "evidence": "Options step, With RAG mechanics: 'Guards move on visible 3-second beats at first, tightening to 1.5–2 seconds later'. Build plan, With RAG config: beat values 3/3/2.5/1.5. Options step, Without RAG mechanics: 'guards that move every 3 seconds or slower'. Build plan, Without RAG config: beat values 3.5/3.5/3.2/3.0, queen board with 5 targets and 4 guards.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Time pressure, replay structure and expression",
+    "with_rag": "A total run timer, clean-run status and fastest-clean-run leaderboard are core: options step mechanics include 'a total timer and fastest-clean-run leaderboard support streaming and repeat attempts'; prototype HUD lists 'Total run timer and clean-run status' and 'Fastest-clean-run leaderboard'; flow ends at 10:00 with 'Restart from the first board to refine routes and chase a faster clean run.'",
+    "without_rag": "Explicitly removes time pressure: prototype HUD lists 'Elapsed session time, with no countdown pressure' and 'Clear restart-board control'; decisions state 'The ten-minute session is a pacing target rather than a fail timer; elapsed time is shown and a board can be restarted.' There is no leaderboard or score in any step.",
+    "evidence": "Prototype step, With RAG hud array and flow t=10:00; decisions 'Session and competition: A roughly 10-minute solo run with a total timer and fastest-clean-run leaderboard.' Prototype step, Without RAG hud array and decisions 'Pressure and accessibility'.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Internal consistency between options step and build plan",
+    "with_rag": "The build plan matches the options step's escalation promise: options said 3s tightening to 1.5–2s, and the config delivers 3/3/2.5/1.5. Guard counts (2,2,2,3) and the four-piece progression also match the options description.",
+    "without_rag": "The build plan slightly contradicts the options step: options promised guards 'every 3 seconds or slower', but the config tightens to 3.2 and 3.0 on later boards. Also the options step said 'Board 1 teaches the knight', while the prototype's own test question asks whether players can learn knight and bishop 'without a separate tutorial board', leaving the teaching approach unresolved.",
+    "evidence": "Without RAG options mechanics: 'guards that move every 3 seconds or slower' vs Without RAG build config beats 3.2 and 3.0. Without RAG options: 'Board 1 teaches the knight' vs Without RAG prototype test_questions: 'Can players correctly predict the knight and bishop routes without a separate tutorial board?'",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Specificity and feasibility of the build configuration",
+    "with_rag": "Build config gives exact per-board numbers (targets 2/4/4/4, guards 2/2/2/3, tables 0/1/3/2, cracks 0/0/4/2) and the prototype decisions commit to 'code places the elements and proves every board solvable rather than promising fixed square layouts', an explicit feasibility safeguard. Total targets across boards: 14.",
+    "without_rag": "Build config also gives exact per-board numbers (targets 2/3/4/5, guards 1/2/3/4, tables 0/2/2/3, cracks 0/1/2/3) with a smoother ramp, but no step mentions solvability checking, and the final board (5 targets, 4 guards, queen) is the most complex configuration in either session with no stated verification plan.",
+    "evidence": "With RAG prototype decisions: 'Puzzle construction: ... code places the elements and proves every board solvable.' With RAG and Without RAG build plan config board arrays. Without RAG final board: targets 5, guards 4, beat 3.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Fairness and readability of danger",
+    "with_rag": "Threatened squares are shown and a guard-beat indicator is in the HUD, but the 1.5s final beat risks feeling reflex-based; With RAG's own options-step risk admits 'The faster final board may cause repeated failures within a 10-minute session.'",
+    "without_rag": "Readability is a stated pillar ('Danger is difficult but readable') and a test question asks 'Are guarded squares and the next patrol beat readable early enough that mistakes feel fair?'; the options step also flags 'Without a visible move preview, incorrect moves could feel unfair' — though the build plan never confirms a move preview was added.",
+    "evidence": "With RAG options risks; With RAG prototype hud 'Visible guard-beat indicator and attacked squares'. Without RAG prototype pillars and test_questions; Without RAG options risks.",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Spectator experience on stream",
+    "with_rag": "Spectators get comparison hooks: options spectator_view says friends 'can call out patterns, debate routes, and compare clean-run times', and the leaderboard gives an ongoing cross-run conversation.",
+    "without_rag": "Spectators can follow the position and discuss routes ('react to near misses and suggest routes'), and a test question explicitly checks 'Can stream viewers follow the target order and understand why a capture was clever?', but there is no persistent score or time to compare across runs.",
+    "evidence": "With RAG options spectator_view; Without RAG options spectator_view and Without RAG prototype test_questions.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Fit to platform, players and session length",
+    "with_rag": "PC-only screen game, solo, teen/adult gamers, ~10-minute four-board run; explicitly scores mr_fit 1 as a deliberate non-goal, same as Without RAG. Flow timeline sums to exactly 10:00 with a restart prompt.",
+    "without_rag": "Same PC/solo/teen-adult fit; flow timeline ends at 9:30 with no explicit use of the final 30 seconds and no replay hook, so the 10-minute session is slightly under-filled.",
+    "evidence": "Both briefs identical; With RAG prototype flow t=9:15 and t=10:00 entries; Without RAG prototype flow last entry t=9:30 with no 10:00 entry.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Safety in the real space",
+    "with_rag": "No physical-space risk: PC screen game, no VR, no real-room movement; environment_fit says 'no physical venue is needed'.",
+    "without_rag": "Identical situation: 'Fixed arena combat avoids any dependence on a physical venue' for the battle option and the chosen option is a full-screen board game.",
+    "evidence": "With RAG options environment_fit: 'This is a PC game, so no physical venue is needed.' Without RAG options environment_fit: 'A full-screen 3D castle interior suits PC play... without requiring VR space or physical movement.'",
+    "better": "same"
+   },
+   {
+    "aspect": "Thematic and narrative flavor",
+    "with_rag": "Pieces are characterized (spectral rider, sliding shadow, castle golem, crowned queen) and each board has a story string in the config; the finale captures the Hollow King.",
+    "without_rag": "Equivalent haunted-castle flavor (pawn graves, candlelit chapel, moonlit gallery, throne board) with per-board story strings; finale takes the Black King. Neither is meaningfully richer.",
+    "evidence": "With RAG prototype decisions 'Piece characterization' and build config story fields; Without RAG build config story fields and storyboard beats.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The 1.5-second final guard beat pushes the climax toward reflex execution rather than pure chess reasoning, and With RAG's own options step flags the risk of repeated failures eating the 10-minute session.",
+   "No move preview or teaching accommodation is mentioned; players must parse knight/bishop geometry under time pressure from the first board.",
+   "The leaderboard and total timer add pressure that may undercut the 'study the haunting' pillar for players who prefer deliberate planning.",
+   "Board 2 (bishop) jumps from 2 targets to 4 while also adding a table, a steeper spike than Without RAG's smoother 2/3/4/5 target ramp."
+  ],
+  "without_rag_weaknesses": [
+   "Options step promises guards moving 'every 3 seconds or slower' but the build config tightens to 3.2s and 3.0s, an unacknowledged contradiction.",
+   "With no countdown, no leaderboard and no score, the 'hard' and 'challenge' requirements rest entirely on board complexity that is never verified; the final board (5 targets, 4 guards) is the hardest config in either session with no solvability-check plan.",
+   "The flow timeline ends at 9:30 and offers no replay or mastery hook, under-filling the 10-minute session and weakening the 'expression' feeling compared to a speedrun layer.",
+   "The options step raises the need for a move preview ('incorrect moves could feel unfair') but neither the prototype HUD nor the build rules confirm one exists.",
+   "Teaching is unresolved: options say 'Board 1 teaches the knight' while the prototype's test question wonders whether players can learn knight and bishop 'without a separate tutorial board'."
+  ],
+  "improvements": [
+   "For With RAG: add an optional move preview showing legal squares and projected guard attacks, so the 1.5s final beat tests planning recall rather than raw reaction time.",
+   "For With RAG: soften the board 1→2 spike (e.g., 3 targets on the bishop board) or add a 10-second pre-board preview of the capture order.",
+   "For Without RAG: restore a concrete mastery artifact — a clean-run badge, fewest-moves rating, or optional timer — so 'expression' and replay value survive the no-countdown philosophy.",
+   "For Without RAG: reconcile the guard-beat promise with the config (either keep all beats at 3.0s+ as advertised or state the tightening openly) and resolve the tutorial question before build.",
+   "For both: adopt With RAG's solvability-check decision explicitly in the build plan, and specify how guards' patrol paths are shown to the player (trail markers or next-square indicators) so fairness does not depend on memorization."
+  ]
+ },
+ {
+  "brief": "b07-songkran-outdoor",
+  "summary": "Both sessions converge on nearly the same game: a four-player walking race through six Songkran-themed checkpoints with red hazard circles, identical scoring, and a flower-portal finish facing the spectators. Without RAG is more internally consistent and matches the brief's 3-minute session exactly (180 s everywhere). With RAG is more specific and safer: it gives real metre coordinates, treats the trees as verified hard exclusion zones, adds a dry-area requirement to protect non-waterproof headsets at a real water festival, and weaves the 'respect the temple' constraint into the play arc with a calm water-pouring blessing finale. With RAG's main flaw is shortening the round to 150 seconds against the 3-minute brief, plus a minor contradiction about running in its options step. On balance With RAG's safety and specificity advantages outweigh its timing slip, which is trivially fixable.",
+  "preferred": "with_rag",
+  "confidence": "high",
+  "why": "With RAG wins on the aspects that most affect a real deployment at an actual Songkran event: it is the only one that addresses water exposure to headsets and slippery ground (dry play area, isolated booth), it specifies the build in real metres with tree positions to be verified on site, and it turns the 'respect the temple' constraint into an actual gameplay beat (the calm blessing at CP6) rather than only an art restriction. Without RAG is cleaner on consistency and hits the 3-minute brief exactly, but its normalized coordinates and missing water-safety handling leave more work and more risk for the operator. With RAG's 150-second timing contradicts the brief but is a one-number fix, whereas Without RAG's omissions are structural.",
+  "differences": [
+   {
+    "aspect": "Fit to the brief (3-minute session)",
+    "with_rag": "Options step states 150 seconds, prototype flow ends at 2:30, and build plan sets timeLimit 150 — the game only fills 2.5 of the 3 minutes the creator specified.",
+    "without_rag": "Keeps the brief's 3-minute session everywhere: options step says 180 seconds, prototype flow runs 0:00–3:00, build plan sets timeLimit 180.",
+    "evidence": "Without RAG build plan: timeLimit 180 with rules 'walk only, no running'. With RAG build plan: timeLimit 150 and flow ending 'wait for others or the 150 seconds run out'. The brief says session_minutes 3.",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Real-space safety (trees, spectators, equipment)",
+    "with_rag": "Does all of the same (trees as 'hard exclusion zones', 1.2 m corridor, 0.6 m margin, spectators outside the south edge) and additionally requires a dry play area isolated from real splashing water, raised from the options-step risk that VR kits are not waterproof, and repeated in the build plan ('the booth isolated from real splashing water').",
+    "without_rag": "Build plan buffers the two trees at normalized (0.46,0.18) and (0.73,0.16), keeps 1.2 m corridors and 0.6 m boundary margin, and keeps spectators outside the course — but never addresses real Songkran water near headsets.",
+    "evidence": "With RAG options step risk: 'outdoor Songkran risks splashing water and slippery floors; VR sets are not waterproof, need a dry area separate from real water play'; build plan: 'on a dry 10 x 10 m outdoor temple forecourt'. Without RAG has no equivalent in any step.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Cultural respect (เคารพวัด constraint)",
+    "with_rag": "Same exclusions (no Buddha images or monks as props) plus makes respect part of the play arc: the final checkpoint is a calm water-pouring blessing ('รดน้ำขอพรอย่างสงบ') before the portal, and the test questions ask whether the blessing scene 'feels calm and respectful'.",
+    "without_rag": "Avoids sacred symbols as targets/obstacles and uses jasmine, water bowls, sand pagodas and flags — respectful but purely decorative.",
+    "evidence": "With RAG prototype decision: 'end with a calm water-pouring blessing'; build plan: 'Preserve... the calm visual change at CP6 before the celebratory finish'. Without RAG prototype decisions only list respectful motifs.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Specificity and buildability of the final plan",
+    "with_rag": "Layout brief gives actual metre coordinates 'measured in metres from the north-west corner with x east and y south' for spawn, all six checkpoints, the portal, all three hazards, and both trees, and instructs to 'verify their measured positions before placement'.",
+    "without_rag": "Layout brief uses normalized coordinates ('x right and y down') for spawn, 6 checkpoints, portal and trees — usable, but requires an extra conversion step and never states the real-world metre positions.",
+    "evidence": "With RAG build plan: 'spawn (1.0,8.2); CP1 ... at (1.8,5.2) ... trees at approximately (4.0,4.2) and (6.0,6.2)'. Without RAG build plan: 'spawn (0.12,0.78), checkpoint 1 ... (0.24,0.60)' with no metre mapping.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Internal consistency between steps",
+    "with_rag": "Mostly consistent, but the options step promises 'สายน้ำมงคล' ends 'ด้วยภาพรดน้ำขอพร' and the spectator view in the options step says spectators see players 'วิ่งเข้าเส้นชัย' (run to the finish) while later steps forbid running; also the flow says the last dodge is at 1:50 yet the limit is 150 s, leaving the climax timing tight against the cutoff.",
+    "without_rag": "180-second limit, six checkpoints, scoring (100/-25/300) and the climax of two slippery hazards are identical in options, prototype and build plan.",
+    "evidence": "With RAG options spectator_view: 'วิ่งเข้าเส้นชัยด้วยท่าทางชัดเจน' vs build plan rule 'เดินด้วยจังหวะปลอดภัยและไม่วิ่ง'. Without RAG has no such contradiction.",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Spectator experience (fellowship)",
+    "with_rag": "Same arrangement: south-side spectators outside the play area watch the final puddle dodge, the blessing scene and the portal finish, with a live leaderboard.",
+    "without_rag": "Spectators stand on the south side near start and finish, watch the climax dodge and portal finish, and can call directions; stated in options, prototype and build plan.",
+    "evidence": "Both build plans place the climax and finish portal facing the south-side audience and keep spectators outside the course.",
+    "better": "same"
+   },
+   {
+    "aspect": "Gameplay depth and replay value",
+    "with_rag": "Essentially the same loop (six ordered checkpoints, three puddle hazards, identical 100/-25/300 scoring) with a different skin and a calm ending beat.",
+    "without_rag": "Simple walk-and-dodge race with six ordered checkpoints, three hazard circles, scoring and time bonus — shallow but instantly readable for first-time VR tourists.",
+    "evidence": "Both build plans: touch 6 points in order, stepping on a red circle costs 25 points and returns you to the last checkpoint, portal gives 300 plus time bonus.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "Cuts the session to 150 seconds in all three steps, contradicting the brief's 3-minute session length.",
+   "Options-step spectator view says spectators watch players 'run to the finish', contradicting the no-running safety rule in its own build plan.",
+   "The climax dodge is scheduled at 1:50 of a 150-second round, leaving almost no buffer before the time cutoff.",
+   "Slightly lower self-scored buildability (4 vs Without RAG's 5 in the options step) due to needing on-site tree measurement."
+  ],
+  "without_rag_weaknesses": [
+   "No mention anywhere of protecting players or headsets from real splashing water at an outdoor Songkran venue, despite the brief's outdoor temple-fair setting.",
+   "Layout brief uses normalized coordinates only, with no metre conversion, making on-site placement less direct.",
+   "Cultural respect is handled only as an art restriction (avoid sacred symbols); it is not expressed as part of the experience.",
+   "Tree positions are given as fixed normalized points with no instruction to verify them against the real trees before building."
+  ],
+  "improvements": [
+   "Without RAG should add a real-world safety note about water: the venue is an outdoor Songkran event, so the plan should require a dry, splash-isolated play area and headset protection, as With RAG does.",
+   "Without RAG should convert its normalized coordinates into real metres (or state the mapping) in the layout brief so builders can place content without an extra calculation.",
+   "With RAG should extend the time limit to the full 180 seconds from the brief (or justify the shorter round) and use the remaining time for the calm blessing beat it advertises.",
+   "With RAG should fix the options-step spectator description that says players 'run to the finish', which contradicts its own no-running safety rule.",
+   "Both designs could state how the four simultaneous players are physically separated in one 10 x 10 m courtyard (staggered starts or quadrant assignment), since both rely on 'separate copies' without addressing real-body collisions."
+  ]
+ },
+ {
+  "brief": "b08-tiny-room-solo",
+  "summary": "Both sessions honestly convert the unfulfillable 'zombie shooting' brief into a walking/dodging MR game in the same 2.2×2.5 m bedroom, with comparable safety handling. With RAG is stronger overall: its three options are genuinely differentiated (narrative escape, calm diorama tour, skill dodge), its recommended option best matches the requested challenge+sensation pair (players_fit 5), its build plan is measurably more specific (hazard radius 0.35 m, 8–20 objects, 0.5–1 m checkpoint spacing, 0.6 m spawn circle), and it is fully consistent from options through prototype to build plan. Without RAG's three options are near-identical timed escape-dodge games, and it drifts between steps: option 1 promises 'no competitive scoring' yet the prototype and build plan introduce a full scoring system. Without RAG is still coherent and safe, but less decisive and less buildable as written.",
+  "preferred": "with_rag",
+  "confidence": "high",
+  "why": "With RAG wins on three concrete, page-visible grounds: (1) option quality — With RAG offers a real spread of experiences while Without RAG's three options share the same loop, hazards, timer, and structure; (2) specificity — With RAG's build plan carries numeric layout constraints a builder can act on, Without RAG's does not; (3) consistency — Without RAG contradicts itself on scoring between the options step and later steps, while With RAG carries identical mechanics, checkpoint names, and scoring through all steps. On the brief's core fantasy, safety, and narrative coherence the two are equivalent, so the verdict rests on differentiation, specificity, and consistency.",
+  "differences": [
+   {
+    "aspect": "Fit to the brief's core fantasy (solo zombie shooting in a bedroom)",
+    "with_rag": "Three options step down the shooting fantasy into walking/dodging; the recommended option 3 'หลบมือซอมบี้ถึงวัคซีน' (Dodge the zombie hands to the vaccine) explicitly says 'ไม่ได้ยิง แต่ต้องอ่านพื้น หลบมือซอมบี้' (no shooting, but read the floor and dodge zombie hands).",
+    "without_rag": "Same trade-off: option 1 'ห้องปิดตาย: หลบก่อนรุ่ง' states 'เครื่องนี้ยิงไม่ได้ จึงให้ความตื่นเต้นจากการอ่านวงเตือนและหลบให้ทันแทน' (this device can't shoot, so excitement comes from reading warning rings and dodging).",
+    "evidence": "Both sessions honestly convert the shooting request into a dodge/walk mechanic and keep the zombie theme and solo bedroom setting; neither preserves any shooting.",
+    "better": "same"
+   },
+   {
+    "aspect": "Fit to requested feelings (challenge + sensation)",
+    "with_rag": "Recommended option 3 scores players_fit 5 and is justified as answering 'ทั้ง challenge และ sensation' (both challenge and sensation); the dodge of two zombie-hand rings with a time bonus directly trains a skill.",
+    "without_rag": "Recommended option 1 also targets challenge+sensation, but its mechanics describe a 'เส้นทางวงเล็ก 4 ด่าน' (small loop route) with 'ไม่มีคะแนนแข่ง' (no competitive scoring) and 'ใช้ก้าวสั้นและไม่เร่งให้วิ่ง' (short steps, no rushing), which softens the challenge; its own risk list admits the space is below the 3×3 m minimum so exploration feel is limited.",
+    "evidence": "Options step: With RAG option 3 scores_why.players_fit = 'ตอบทั้ง challenge และ sensation' with score 5; Without RAG option 1 mechanics = 'ไม่มีคะแนนแข่ง' and risks note the cramped space limits the experience.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Quality and differentiation of the three options",
+    "with_rag": "Three clearly distinct axes: out-and-back narrative escape (option 1), calm looping diorama tour with no hazards or timer (option 2), zigzag dodge with time bonus (option 3). Option 2 is a genuinely different low-challenge alternative, giving the creator a real choice.",
+    "without_rag": "Three options are all timed escape/dodge games with 4–5 sequential checkpoints, red hazard rings, and a 5-minute timer; they differ mainly in theme dressing (locked room, ruined city tour, fire-escape story). Option 2 still includes hazards and a timer ('จับเวลา 5 นาทีแบบผ่อนคลาย'), so it overlaps heavily with options 1 and 3.",
+    "evidence": "Options step: With RAG option 2 mechanics = 'ไม่มีวงอันตรายและไม่จับเวลา' (no danger rings, no timer) versus Without RAG option 2 mechanics = 'วงแดงคือซากตึกถล่ม... จับเวลา 5 นาทีแบบผ่อนคลาย' (red rings are rubble... relaxed 5-minute timer).",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Safety in the real space (bed against wall, 2.2×2.5 m, night)",
+    "with_rag": "Prototype pillars require the route to be safe and clear of the bed; build plan says hazards must be positioned so the player can detour 'without moving toward the bed', walking-only, no jump scares, spawn circle 0.6 m, hazards 0.35 m radius.",
+    "without_rag": "Prototype test questions ask whether the player avoids turning their back to the bed while dodging; build plan says place nothing on the bed, leave 'obvious safe gaps' around both hazards, zombies only around the perimeter, no jump scares, nothing overhead.",
+    "evidence": "Both sessions address the bed, enforce walking-only, ban jump scares, and keep props small; the level of safety specificity is comparable (Without RAG's hazard sizes are slightly smaller, ~0.09–0.10 normalized r in the sketch, With RAG's 0.35 m radius, but both leave detour room).",
+    "better": "same"
+   },
+   {
+    "aspect": "Specificity and feasibility of the build plan",
+    "with_rag": "Build plan gives exact counts and measurements: exactly two hazards of ~0.35 m radius, 2–4 vignettes, 8–20 small objects total, checkpoints 0.5–1 m apart, 0.6 m spawn circle, palette hex codes, and explicit placement of each hazard between named checkpoints.",
+    "without_rag": "Build plan gives exact checkpoint order and Thai labels, two hazards (one 'broad central', one 'slightly smaller' before checkpoint 3), perimeter zombies and palette, but no object counts, no hazard radius in metres, and no spacing measurements.",
+    "evidence": "Build plan step: With RAG layout_brief contains '0.35 m radius', '8–20 small low-poly objects', '0.5–1 m apart', '0.6 m spawn circle'; Without RAG layout_brief contains no numeric sizes or counts beyond 'exactly two red floor hazards'.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Internal consistency between steps (options → prototype → build plan)",
+    "with_rag": "The chosen option 3's mechanics (4 checkpoints, 2 hazard rings, 5-minute limit, time bonus) carry through the prototype (same checkpoint names, same two hazards, scoring −25/+100/+300) into the build plan unchanged.",
+    "without_rag": "Mostly consistent, but the option 1 mechanics say 'ไม่มีคะแนนแข่ง' (no competitive scoring) while the prototype decisions and build-plan rules introduce a full scoring system (−25 per grab, +100 per checkpoint, +300 finish plus time bonus); also the flow timeline places the final door crossing at 4:35 and auto-end at 5:00, which is fine, but the scoring contradiction between steps is a real drift.",
+    "evidence": "Without RAG options step option 1 mechanics: 'จับเวลา 5 นาที เล่นคนเดียว ไม่มีคะแนนแข่ง' vs prototype decisions: 'เหยียบวงแดงลบ 25 คะแนน... จบให้ 300 คะแนนบวกโบนัสเวลา' and build plan rules with the same scoring. With RAG shows no such contradiction.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Gameplay depth and replayability",
+    "with_rag": "Dodge design has a defined skill (read the ring, choose step timing), a time bonus for mastery, and an explicit replay loop ('เล่นซ้ำได้เพื่อทำเวลาและคะแนนให้ดีขึ้น'); flow ends main path at 2:20 leaving buffer in the 5-minute session.",
+    "without_rag": "Similar checkpoint+dodge structure with scoring and a retry invitation, but the loop route with short steps and the option-level statement of no competitive scoring frame it more as a one-shot atmospheric escape; flow uses the full 5 minutes with the climax at 3:20.",
+    "evidence": "Prototype step: With RAG flow t=2:40 'เลือกเล่นซ้ำได้เพื่อทำเวลาและคะแนนให้ดีขึ้น' and option 3 mechanics include 'ให้โบนัสตามเวลา' (time bonus); Without RAG option 1 mechanics 'ไม่มีคะแนนแข่ง' and flow t=5:00 auto-end.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Narrative coherence and theme",
+    "with_rag": "Vaccine-evacuation fantasy: first-aid point, wrecked car, vaccine cabinet, evacuation point; story in build plan ties the props together.",
+    "without_rag": "Last-stand-before-dawn fantasy: radio signal, emergency light, unlock escape, safety door; equally coherent mini-story with a hopeful teal exit.",
+    "evidence": "Both prototype storyboards and build-plan stories are internally consistent and match their checkpoint labels; neither is clearly stronger.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The recommended dodge game finishes its main path around 2:20–2:40 of the 5-minute session, leaving the time budget underused unless the player replays.",
+   "Like Without RAG, it drops the requested shooting entirely; the conversion is honest but the creator's original fantasy is only partially served.",
+   "Option 2's 5-minute duration is self-flagged as potentially too long if the player finishes the four checkpoints quickly."
+  ],
+  "without_rag_weaknesses": [
+   "Internal inconsistency: option 1 mechanics state 'ไม่มีคะแนนแข่ง' (no competitive scoring), but the prototype decisions and build-plan rules add a full scoring system (−25/+100/+300 plus time bonus).",
+   "The three options are weakly differentiated — all are timed 4–5 checkpoint escape/dodge routes with red hazard rings, differing mostly in theme skin.",
+   "Build plan lacks measurable layout data (no hazard radius in metres, no checkpoint spacing, no object counts), making it harder to build and safety-verify than With RAG's plan.",
+   "Option 1's own risk list notes the space is below a 3×3 m minimum, highlighting limited movement feel, and the 'no competitive scoring, short calm steps' framing undercuts the requested challenge feeling."
+  ],
+  "improvements": [
+   "Without RAG: resolve the scoring contradiction — either keep the option's 'no competitive scoring' promise in the build plan or update the option text so the creator isn't surprised by a points system.",
+   "Without RAG: add concrete measurements to the build plan (hazard radius in metres, checkpoint spacing, object counts) as With RAG does, so the layout can be built and safety-checked without guessing.",
+   "With RAG: the main path finishes around 2:20 of the 5-minute budget; consider whether the unused time is intentional buffer or whether a third hazard or optional bonus objective would use the session length better.",
+   "Both: the brief asked for a shooting game; both sessions could more explicitly acknowledge the gap and offer the creator a clear note on why shooting was dropped and what would be needed to restore it.",
+   "With RAG: option 2 (calm diorama tour) is a good differentiator but its 5-minute estimate versus a fast walkthrough is flagged as a risk; a rough per-checkpoint dwell time would make it more convincing."
+  ]
+ },
+ {
+  "brief": "b09-seniors-centre",
+  "summary": "Both sessions converge on the same correct concept — a gentle 5-stop nostalgic market walk in a loop with no timer and no hazards — and both carry it consistently through prototype and build plan with the same core safety numbers (1.2 m corridor, 0.6 m edge margin). With RAG is stronger where it matters most for this audience: it spaces stops 2-3 m apart so the walk actually fills the 6 x 6 m room (Without RAG's sketch implies ~1.2-1.9 m hops), specifies large high-contrast chest-height signage, plans a seated fallback for unsteady walkers, keeps scoring invisible so it cannot create time pressure (Without RAG introduces a time bonus in the prototype and then drops scoring silently in the build plan), and ends the session beside the friends with an old-radio memory trigger. Without RAG is slightly better at distributing spectator sightlines around the room and marginally richer in palette detail, but these do not offset With RAG's gameplay, readability, and consistency advantages.",
+  "preferred": "with_rag",
+  "confidence": "high",
+  "why": "With RAG wins on the aspects that most affect these specific players: walk distances that match the room and the 'light exercise' goal, readable signage for ageing eyes, a concrete fallback for unsteady gait, internally consistent no-pressure scoring across all three steps, and a socially warm ending. Without RAG's advantages (two-sided spectator coverage, slightly richer palette) are real but secondary, and its time-bonus scoring contradicts its own safety pillar before disappearing from the build plan.",
+  "differences": [
+   {
+    "aspect": "Checkpoint spacing vs. the actual room size",
+    "with_rag": "With RAG states in the options step that the 5 stops are about 2-3 m apart, repeats this in the prototype decisions, and carries 'about 2-3 m apart' into the final layout brief.",
+    "without_rag": "Without RAG's prototype sketch places checkpoints at normalized coordinates like (0.25, 0.56) and (0.45, 0.7), which in a 6 x 6 m room works out to roughly 1.2-1.9 m between stops, and the build plan only says to keep a 1.2 m corridor and 0.6 m edge margin.",
+    "evidence": "Options step: With RAG mechanics says 'เส้นทางเดินวงกลม 5 จุด ห่างกันประมาณ 2–3 เมตร' (a 5-stop circular route with stops about 2-3 m apart); Without RAG mechanics lists the 5 stops with no spacing. Prototype step: With RAG decisions include 'จุดแวะห่างกันประมาณ 2–3 เมตร'; Without RAG sketch coordinates imply shorter hops. Build step: With RAG layout brief says 'about 2-3 m apart'; Without RAG layout brief has no spacing figure.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Signage readability for elderly players",
+    "with_rag": "With RAG specifies large cream-on-dark-wood signboards at chest-to-eye height in the prototype decisions and HUD, and repeats 'large cream-on-dark-wood signboards at chest to eye height' in the build plan; it also playtests whether players can read signs without bending.",
+    "without_rag": "Without RAG promises story text of no more than two lines in the HUD but never specifies sign size, colour contrast, or mounting height.",
+    "evidence": "Prototype step: With RAG decisions include 'ใช้ป้ายสั้นตัวใหญ่สีครีมบนพื้นไม้สีเข้ม ตัดสีชัด' (short signs, large letters, cream on dark wood, high contrast) and HUD lists 'ป้ายชื่อจุดแวะตัวใหญ่ตัดสีชัด' and text 'ที่ระดับสายตาถึงระดับอก' (at eye-to-chest level); test question 3 asks whether signs are readable 'โดยไม่ต้องก้มหรืองอตัวมาก' (without much bending). Without RAG HUD only says 'เรื่องสั้นไม่เกินสองบรรทัด' (story of at most two lines).",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Fallback for players with unsteady gait",
+    "with_rag": "With RAG's options risks flag that unsteady players may need a seated computer-based alternative, the prototype decisions commit to offering that alternative and keeping rest chairs outside the route, and the test questions watch for players reaching for walls or staff for balance.",
+    "without_rag": "Without RAG acknowledges in the options risks that walking a loop in a small space may cause dizziness and offers only 'หยุดพักได้ทุกจุด' (can rest at every stop).",
+    "evidence": "Options step: With RAG risk 'ผู้ที่เดินไม่มั่นคงอาจยังต้องการทางเลือกเล่นบนคอมพิวเตอร์แบบนั่งเล่น' (unsteady players may need a seated computer option). Prototype step: With RAG decision 'เสนอทางเลือกเล่นบนคอมพิวเตอร์สำหรับผู้ที่เดินไม่มั่นคง' and test question 'มีใครเอื้อมหากำแพงหรือเจ้าหน้าที่เพื่อทรงตัวหรือไม่' (does anyone reach for walls or staff to balance). Without RAG has no equivalent in any step.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Scoring and time-pressure consistency",
+    "with_rag": "With RAG's prototype decisions state points are computed from stops and time but never displayed during the walk, the HUD explicitly lists 'ไม่มีนาฬิกาจับเวลา ไม่มีคะแนน' (no timer, no score), and the build plan repeats 'no in-play score or timer display'.",
+    "without_rag": "Without RAG's prototype decisions award 100 points per checkpoint plus a 300-point finish bonus 'บวกโบนัสเวลา' (plus a time bonus), which conflicts with its own no-time-pressure pillar, and the final build plan silently drops scoring entirely, leaving the rules inconsistent between steps.",
+    "evidence": "Prototype step: Without RAG decision 'แตะจุดได้จุดละ 100 คะแนน จบได้ 300 คะแนนบวกโบนัสเวลา' vs. its pillar 'ไม่มีเวลาจำกัด'; With RAG decision 'ระบบให้คะแนนตามจุดกับเวลา แต่ไม่แสดงคะแนนระหว่างเดินเพื่อไม่ให้รู้สึกถูกกดดัน'. Build step: Without RAG rules contain no scoring at all; With RAG layout brief says 'no in-play score or timer display'.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Spectator placement vs. the brief",
+    "with_rag": "With RAG concentrates spectators on the south side near the finish in the sketch and build plan, which serves the warm ending but covers the 'around the room' seating less evenly.",
+    "without_rag": "Without RAG places audience zones on both left and right sides of the room in the prototype sketch and orients the dessert-stall stop toward the right-side audience with the final portal visible to both sides, matching the brief's 'friends seated on chairs around the room'.",
+    "evidence": "Prototype step: Without RAG sketch has 'เพื่อนๆ นั่งชมด้านซ้าย' (x 0.08) and 'เพื่อนๆ นั่งชมด้านขวา' (x 0.92); With RAG sketch has a single audience zone at (0.5, 0.94). Build step: Without RAG 'orient the dessert-stall stop toward the right-side audience and keep the final portal visible to both sides'; With RAG 'Friends sit outside the play area around the room, especially along the south side'. The brief says 'เพื่อนๆ นั่งเก้าอี้รอบห้อง' (friends on chairs around the room).",
+    "better": "without_rag"
+   },
+   {
+    "aspect": "Nostalgic climax and social ending",
+    "with_rag": "With RAG builds to an old-radio corner (music/news from the past is a strong memory trigger for 60-75 year olds) and places the finish portal beside the friends' seating so the session ends in shared storytelling, which the storyboard and spectator plan both reinforce.",
+    "without_rag": "Without RAG's climax is the Thai dessert stall followed by a wooden bridge over a canal vignette; evocative, but the ending is a private walk through the exit portal.",
+    "evidence": "Prototype step: With RAG storyboard climax 'เสียงจากวันวาน' (sounds from the past) at the 'มุมวิทยุเก่า' (old radio corner) and end beat 'เล่าสิ่งที่นึกถึงให้เพื่อนฟัง' (tell friends what you remembered); pillar 3 'จบแล้วอยากเล่าและฟังเรื่องราวร่วมกับเพื่อนๆ'. Without RAG storyboard climax is 'ขนมหวานในความทรงจำ' (dessert stall) and the end is 'รับข้อความจบเรื่อง แล้วถอดแว่น' (receive ending text, remove headset).",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Physical safety numbers",
+    "with_rag": "With RAG specifies the same 1.2 m corridor and 0.6 m boundary margin in the build plan and adds 'never a void' floor and chest-height signs to avoid bending.",
+    "without_rag": "Without RAG specifies a 1.2 m minimum corridor and 0.6 m edge margin in the options step and repeats both in the build plan, plus 'no objects requiring the player to look up while walking'.",
+    "evidence": "Build step: Without RAG 'at least 1.2 m wide... at least 0.6 m from the play-area edge'; With RAG 'at least 1.2 m wide... at least 0.6 m from the play-area boundary'. Options step: Without RAG environment_fit states the same 1.2 m / 0.6 m figures.",
+    "better": "same"
+   },
+   {
+    "aspect": "Feasibility of the 4-minute session",
+    "with_rag": "With RAG's flow covers five stops across 0:20-3:30 ending at 4:00; slightly tighter per-stop time but with longer walks between stops, roughly equivalent overall.",
+    "without_rag": "Without RAG's flow spaces five stops across 0:30-3:40 with a 4:00 headset-off, a comfortable pace for short hops.",
+    "evidence": "Prototype step flows: Without RAG 0:00/0:30/1:10/1:50/2:30/3:10/3:40/4:00; With RAG 0:00/0:20/1:20/2:10/3:00/3:30/4:00.",
+    "better": "same"
+   },
+   {
+    "aspect": "Quality and honesty of the alternative options",
+    "with_rag": "With RAG's battle option is deliberately de-escalated (slow weak enemies only, no shield units, no giant boss, no hazard rain) and its tactics option simplifies to rook-only movement with a slower 3.5 s guard cadence and verified solvable boards, showing more disciplined adaptation to the brief even in the rejected options.",
+    "without_rag": "Without RAG's battle option ('ผู้พิทักษ์ร้านไม้เก่า') includes sword combos, shielded enemies and a boss for first-time elderly VR users, and its own risk note admits it conflicts with the safety constraint; its tactics option uses three chess piece movements (rook, knight, bishop).",
+    "evidence": "Options step: Without RAG battle mechanics 'การฟันเป็นชุดสามครั้ง... เพิ่มศัตรูถือโล่... เจ้าตัวใหญ่' and risk 'ขัดกับความต้องการปลอดภัยมากและไม่ต้องรีบ'; With RAG battle mechanics 'ใช้เฉพาะศัตรูตัวเล็กที่เดินช้าและอ่อนแอ ไม่มีศัตรูถือโล่ ไม่มีเจ้าตัวใหญ่'. Without RAG tactics uses 'เรือ... ม้าและบิชอป' with guards every 5 s; With RAG tactics uses 'หมากเรือเดินแนวตรง' with guards every 3.5 s and 'ทุกกระดานถูกสร้างและตรวจสอบว่าแก้ได้'.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Art direction specificity",
+    "with_rag": "With RAG gives a five-colour palette and a comparably detailed key-art prompt that additionally encodes the signboard and route requirements.",
+    "without_rag": "Without RAG gives a six-colour palette with evocative Thai names and a detailed key-art prompt naming the dessert stall and canal.",
+    "evidence": "Prototype step: both provide palette hex codes, prompt_style strings, and first-person Quest 3 key-art prompts of similar specificity.",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "Spectator coverage is concentrated on the south side near the finish, under-serving friends seated elsewhere 'around the room' as the brief describes.",
+   "Flow timing is slightly tighter per stop (first two stops within the first ~1:20) which could feel rushed if a player lingers, though there is no enforced timer.",
+   "The seated computer alternative is mentioned in options and prototype decisions but is not carried into the final build plan or spectator/staff plan."
+  ],
+  "without_rag_weaknesses": [
+   "Checkpoint spacing never stated; sketch coordinates imply stops only ~1.2-1.9 m apart in a 6 x 6 m room, weakening the light-exercise goal.",
+   "Prototype introduces a time bonus ('บวกโบนัสเวลา') that contradicts the no-time-pressure pillar, and the build plan then drops scoring entirely — an unresolved inconsistency between steps.",
+   "No signage readability specification (size, contrast, height) for elderly players.",
+   "No fallback for players with unsteady balance beyond 'rest at any stop'.",
+   "Rejected options are less adapted to the brief (sword combos, boss, three chess piece types) and the battle option's own risk text admits the mismatch."
+  ],
+  "improvements": [
+   "For Without RAG: resolve the scoring contradiction — either drop the time bonus or state explicitly that scores are never shown during play, and keep the build plan consistent with whichever choice is made.",
+   "For Without RAG: add explicit stop spacing (2-3 m) so the 5-stop loop fills the 6 x 6 m room instead of clustering stops ~1.5 m apart.",
+   "For Without RAG: specify sign size, contrast, and mounting height, and add a seated/desktop fallback for unsteady walkers.",
+   "For With RAG: distribute spectator sightlines beyond the south side so friends seated on the north and side chairs also get a clear view of at least one stop, matching the 'around the room' seating in the brief.",
+   "For both: state a maximum continuous standing/walking duration before a mandatory rest prompt, since 4 minutes of standing can still be long for some 60-75 year olds."
+  ]
+ },
+ {
+  "brief": "b10-fortal-court-race",
+  "summary": "Both designs fit the brief well and stay consistent from options to prototype to build plan. Without RAG is a clean, straightforward neon race with solid safety rules and a simple 7-checkpoint structure. With RAG is stronger overall because it is more specific, more safety-aware in the real venue, and better paced for a 5-minute group race, while also giving spectators a clearer show.",
+  "preferred": "with_rag",
+  "confidence": "medium",
+  "why": "With RAG wins on the aspects that most affect the creator and players: build specificity, real-space safety, and pacing. It gives the builder exact checkpoint labels, spacing ranges, door-clearance rules, and a hazard progression that is easier to implement and test. It also designs the 5-minute session more deliberately, with an onboarding stretch, a mid-race escalation, a short recovery beat, and a climax near the spectators. Without RAG is still a good answer to the brief, but it is more generic in its middle game and less explicit about venue-specific safety details.",
+  "differences": [
+   {
+    "aspect": "Fit to the brief's core concept",
+    "with_rag": "With RAG option 1 is also a direct race through a neon sci-fi city course, with 9 ordered checkpoints, two long lanes, and a finish portal; the later steps preserve that same concept.",
+    "without_rag": "Without RAG option 1 is a direct race through a neon sci-fi city course with 7 ordered checkpoints, two lanes, and a finish portal; the prototype and build plan keep that same runner structure.",
+    "evidence": "Both sessions recommend option 1 and keep a walking race through a neon sci-fi course. Without RAG prototype: 'แข่งเดินเร็วผ่านเมืองไซไฟเรืองแสง เก็บ 7 เช็กพอยต์ หลบกระแสไฟ และเข้าโพรทัลให้เร็วกว่าเพื่อน' (race-walk through a glowing neon sci-fi city, collect 7 checkpoints, dodge electric hazards, enter the portal before friends). With RAG prototype: 'เกมเส้นทางเดินแข่งขันธีมนีออนไซไฟ ปรับจังหวะเป็นเดินเร็วเพื่อความปลอดภัย' (a neon sci-fi walking-race game adjusted to fast walking for safety).",
+    "better": "same"
+   },
+   {
+    "aspect": "Specificity and build readiness",
+    "with_rag": "With RAG gives more buildable detail: exact checkpoint labels, approximate spacing, hazard density progression, door clearance, spawn sightlines, and a more explicit spectator-facing finish.",
+    "without_rag": "Without RAG is clear and coherent, but its build brief stays at the level of route shape, named beats, and broad placement guidance.",
+    "evidence": "In the final build plan, Without RAG says to use 'a long two-lane-style zigzag route' with 'exactly 7 ordered checkpoints' and hazards 'at least 0.6 m from the play-area edge'. With RAG specifies 'exactly 9 ordered checkpoints, spaced approximately 2.5–9 m apart', names all 9 checkpoint labels, says the four real doors must remain completely clear, and describes hazard placement between specific checkpoint ranges (1–2, 4–6, 8–9).",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Safety in the real space",
+    "with_rag": "With RAG is more operationally safety-conscious: it repeatedly calls out lane separation, no lane-cutting, door clearance, spawn separation, and avoiding tasks that make players look up while moving.",
+    "without_rag": "Without RAG addresses safety with wide lanes, no running, and hazard offsets, but it is less explicit about the venue's real doors and player separation details.",
+    "evidence": "Without RAG prototype decisions include 'เดินเร็วอย่างปลอดภัย ไม่วิ่งจริง' (walk fast safely, no real running), 'เว้นทาง 1.2 เมตร' (leave 1.2 m path width), and hazards at least 0.6 m from edges. With RAG goes further in the prototype and build plan: 'แยกจุดเริ่ม 6 คน ห้ามตัดเลนหรือวิ่ง' (separate starts for 6 players, no lane cutting or running), 'ไม่วางอะไรบนประตูทั้ง 4 บาน' (do not place anything on the four doors), and 'ไม่มีภารกิจที่ต้องเงยหน้าขณะเดินเร็ว' (no tasks requiring looking up while moving fast).",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Gameplay clarity and pacing",
+    "with_rag": "With RAG has a more shaped player experience with a teach-in, a mid-race twist, a calm beat, and a climax, which better supports a 5-minute session.",
+    "without_rag": "Without RAG has a clean, simple race arc and is easy to understand, but its middle section is more generic: checkpoints, hazards, then finish.",
+    "evidence": "Without RAG flow: 0:30 learn gates and red rings, 1:30 collect core and cross connection, 3:00 charge gate and final route, 4:15 head to city core. With RAG flow adds a clearer difficulty curve: 0:15 checkpoints 1–2 teach dodging, 1:15 checkpoint 3 story twist, 2:00 checkpoints 4–6 denser hazards, 3:15 checkpoint 7 calm scenic pause, 3:45 checkpoints 8–9 climax bridge. That is a more deliberate pacing design.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Spectator experience",
+    "with_rag": "With RAG designs more explicitly for the family audience by placing the climax and finish near the long spectator side and tying the leaderboard wall screen into the experience.",
+    "without_rag": "Without RAG includes spectators and orients key moments toward them, but the plan is comparatively general.",
+    "evidence": "Without RAG spectator plan says families stand along the long side to see the mid-route dodge and final portal approach and follow the live leaderboard. With RAG build plan says the final two hazard groups, checkpoint 9, and the finish portal are placed near the long spectator side, and the prototype storyboard ends with the leaderboard visible to friends and family together.",
+    "better": "with_rag"
+   },
+   {
+    "aspect": "Consistency between steps",
+    "with_rag": "With RAG also stays internally consistent across all three steps: same title, same 9-checkpoint structure, same scoring, same safety constraints, same spectator emphasis.",
+    "without_rag": "Without RAG stays consistent from option 1 to prototype to build plan: same title, same 7-checkpoint race, same scoring, same safety posture, same spectator framing.",
+    "evidence": "For Without RAG, option 1 already names 7 checkpoints, two lanes, 6 players, 5 minutes; the prototype and build plan repeat those details. For With RAG, option 1 names 9 checkpoints, two lanes, 6 players, 5 minutes; the prototype and build plan repeat those details and even preserve the same scoring rules (100 per checkpoint, -25 hazard penalty, 300 finish plus time bonus).",
+    "better": "same"
+   }
+  ],
+  "with_rag_weaknesses": [
+   "The 9-checkpoint structure may be a little busier for a 5-minute race, especially for players who need time to read hazards.",
+   "The design depends on disciplined lane separation and spawn management; if that fails in practice, the experience could feel crowded.",
+   "The added narrative beats and scenic pause are strong, but they create slightly more production complexity than Without RAG."
+  ],
+  "without_rag_weaknesses": [
+   "Less specific build guidance than With RAG, especially around exact spacing, door clearance, and hazard density by segment.",
+   "The race structure is simpler and a bit more generic, with fewer distinct pacing beats across the 5 minutes.",
+   "Spectator staging is good but less precisely designed than With RAG's finish-near-the-crowd approach."
+  ],
+  "improvements": [
+   "For Without RAG: add more concrete build constraints such as exact checkpoint spacing, door clearance, and hazard density by segment so the layout team has less ambiguity.",
+   "For Without RAG: consider adding a clearer mid-run pacing beat or scenic pause so the 5-minute race has more texture than a steady sequence of hazards.",
+   "For With RAG: simplify the course slightly if needed; 9 checkpoints in 5 minutes may feel busy for some players, especially with denser late hazards.",
+   "For With RAG: watch crowding risk from six separated spawns and strict lane discipline; a quick staff briefing or visual spawn markers may be needed in practice.",
+   "For both: include an explicit fallback for slower players so they still get a satisfying finish even if they are far behind near the time limit."
+  ]
+ }
+]

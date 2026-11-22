@@ -1,0 +1,253 @@
+{
+ "overall_answer": "Across the ten briefs, With RAG was preferred in eight reviews (b01–b05, b08–b10); Without RAG was preferred in two (b06–b07). RAG generally made designs more constraint-led, spatially specified, and tailored to audience/venue. Its gains were uneven: some came directly from retrieved cards, some were original elaboration, and RAG also imported unsuitable defaults and did not reliably prevent internal contradictions.",
+ "q1_differences": [
+  {
+   "difference": "With RAG more often translated the brief into explicit build and safety constraints; Without RAG more often supplied imaginative mechanics or cleaner, simpler concepts.",
+   "evidence": "With RAG was more spatially/build specific in b02 (coordinates, clearance, exit protection), b03 (hazard/prop counts), b08 (hazard radii and spacing), and b10 (doors, starts, no-lane-cutting). Without RAG was stronger on egg-hatching spectacle in b01, clue discovery in b02, and compact race scope in b10.",
+   "briefs": [
+    "b01-kids-living",
+    "b02-school-gym-edu",
+    "b03-mall-brand",
+    "b08-tiny-room-solo",
+    "b10-fortal-court-race"
+   ],
+   "consistency": "most briefs"
+  },
+  {
+   "difference": "RAG more frequently calibrated complexity to vulnerable or novice players, usually reducing hazards, pressure, or required stops.",
+   "evidence": "b01 reduced the preschool route to four checkpoints and one hazard; b05 used five spacious shared stops; b09 added balance/readability observation and a seated alternative. In contrast, Without RAG was preferred where RAG added inappropriate pressure or complexity: b06’s 1.5-second queen timing and b07’s culturally awkward scored blessing stop.",
+   "briefs": [
+    "b01-kids-living",
+    "b05-uk-uni-open-day",
+    "b06-pc-chess-gamers",
+    "b07-songkran-outdoor",
+    "b09-seniors-centre"
+   ],
+   "consistency": "most briefs"
+  },
+  {
+   "difference": "RAG more often produced explicit thematic and cultural guardrails, but did not consistently apply them appropriately.",
+   "evidence": "b04 preserved Mae Nak as a village/love-story spirit-release premise and excluded sacred objects as gameplay; b07 included virtual-water/dry-booth safety. Yet b07 turned elder blessing into a mandatory scored checkpoint, while b04 still failed to diagram two non-crossing physical routes.",
+   "briefs": [
+    "b04-thai-ghost-teens",
+    "b07-songkran-outdoor"
+   ],
+   "consistency": "some briefs"
+  },
+  {
+   "difference": "Without RAG sometimes had better coherence, pacing, or core-game focus; RAG documents still contained cross-stage contradictions.",
+   "evidence": "Without RAG won b06 through a readable chess-planning ramp and b07 through duration/route consistency. RAG weaknesses include b03’s two-versus-four hazard mismatch, b05’s morning-versus-afternoon art conflict, b07’s 150-second versus three-minute conflict, and b08’s nominal five-minute session ending near 2:20.",
+   "briefs": [
+    "b03-mall-brand",
+    "b05-uk-uni-open-day",
+    "b06-pc-chess-gamers",
+    "b07-songkran-outdoor",
+    "b08-tiny-room-solo"
+   ],
+   "consistency": "most briefs"
+  }
+ ],
+ "q2_advantages": [
+  {
+   "advantage": "Age-appropriate preschool pacing in a constrained living room.",
+   "evidence": "b01’s four-stop, one-hazard structure was preferred over five stops and two hazards for first-time 5–6-year-olds. Retrieved living-room/family cards recommend a short 4–5-stop loop and designing for the youngest; the family card also supports 1–2 hazards.",
+   "briefs": [
+    "b01-kids-living"
+   ],
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Build-ready educational route, factual labels, and safe circulation in the gym.",
+   "evidence": "b02’s explicit planet facts, 1.5–3 m spacing, eight ordered planets, and not-to-scale framing closely match the solar-system and educator cards. Exact normalized coordinates, spectator orientation, and exit-protection language are valuable but are not supplied by those cards.",
+   "briefs": [
+    "b02-school-gym-edu"
+   ],
+   "traced_to_retrieved_cards": "partly"
+  },
+  {
+   "advantage": "More actionable mall production specification.",
+   "evidence": "b03’s 1.2 m route, 0.6 m margin, fast 2-minute booth framing, and public-activation fit align with venue/size cards. The claimed four hazards and 18–24 props are not directly established by the retrieved cards, and the prototype map contradicts the four-hazard build plan.",
+   "briefs": [
+    "b03-mall-brand"
+   ],
+   "traced_to_retrieved_cards": "partly"
+  },
+  {
+   "advantage": "Closer Mae Nak story, respectful cultural treatment, and paced emotional arc.",
+   "evidence": "b04’s village, stilt-house, canal, cradle, Mae Nak helper role, and exclusion of playable sacred objects are strongly supported by the Mae Nak and respectful-Thai-folklore cards. The early-forgiving / dense-middle / calm-return pacing resembles the retrieved runner-flow guidance, though the final five-minute structure is an adaptation rather than a direct template.",
+   "briefs": [
+    "b04-thai-ghost-teens"
+   ],
+   "traced_to_retrieved_cards": "partly"
+  },
+  {
+   "advantage": "Calm five-stop shared open-day walk.",
+   "evidence": "b05’s five spacious stops, no pressure, calm garden treatment, and slow scenic moments are directly supported by the seniors/calm-tour cards, which recommend five stops, no time limit, wide spacing, and pauses such as pond or windmill moments.",
+   "briefs": [
+    "b05-uk-uni-open-day"
+   ],
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Replay and stream-performance layer for the PC chess game.",
+   "evidence": "b06’s clean-run timer, restart loop, and leaderboard fit the retrieved PC-gamers card’s speedrun option and challenge/expression framing. This is a real RAG-derived advantage, but it did not outweigh the damage to the requested cerebral puzzle focus from the 1.5-second final beat.",
+   "briefs": [
+    "b06-pc-chess-gamers"
+   ],
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Explicit dry-zone and no-real-water headset safety for Songkran.",
+   "evidence": "b07’s separation from real splashing water and dry-booth rule directly follows the retrieved Songkran no-real-water card.",
+   "briefs": [
+    "b07-songkran-outdoor"
+   ],
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "Tiny-room dimensions that are concrete enough to implement and test.",
+   "evidence": "b08’s four checkpoints, approximately 0.35 m stationary hazards, 0.6 m spawn circle, and 0.5–1 m spacing directly match the tiny-room cards.",
+   "briefs": [
+    "b08-tiny-room-solo"
+   ],
+   "traced_to_retrieved_cards": "yes"
+  },
+  {
+   "advantage": "More concrete senior accessibility checks and alternative access path.",
+   "evidence": "b09’s observations of shuffling, reaching for walls/staff, readability, and a seated computer alternative closely match the seniors, seated-alternative, and senior-first-time playtest cards. The return-to-friends/memory-sharing ending is a useful addition but is only loosely related to the retrieved cross-generational social card.",
+   "briefs": [
+    "b09-seniors-centre"
+   ],
+   "traced_to_retrieved_cards": "partly"
+  },
+  {
+   "advantage": "Operational six-player safety and authored difficulty ramp.",
+   "evidence": "b10’s 8–10-checkpoint two-lane race, walking pace, leaderboard, and spectator side are supported by the Fortal-court card. Separated starts, door clearance, no upward-looking tasks, and its particular nine-checkpoint pacing are useful elaborations, not directly contained in the retrieved cards.",
+   "briefs": [
+    "b10-fortal-court-race"
+   ],
+   "traced_to_retrieved_cards": "partly"
+  }
+ ],
+ "rag_weaknesses": [
+  {
+   "weakness": "RAG retrieved or reinforced defaults that conflicted with the brief or the chosen design.",
+   "evidence": "b07 inherited a 150-second Songkran-booth convention despite a three-minute brief; b05’s retrieved storybook style contains “warm afternoon sun,” producing its morning/afternoon conflict; b01 and b09 retained time-bonus/time-scoring ideas despite calm or untimed positioning.",
+   "briefs": [
+    "b01-kids-living",
+    "b05-uk-uni-open-day",
+    "b07-songkran-outdoor",
+    "b09-seniors-centre"
+   ]
+  },
+  {
+   "weakness": "RAG did not provide a reliable consistency check across option, prototype, and build-plan stages.",
+   "evidence": "b03 shows two hazards in the sketch but four in decisions/final plan; b07 has incompatible duration and first-hazard sequencing; b08 promises five minutes but scripts completion at 2:20; b04 promises separate player copies without a two-lane physical diagram.",
+   "briefs": [
+    "b03-mall-brand",
+    "b04-thai-ghost-teens",
+    "b07-songkran-outdoor",
+    "b08-tiny-room-solo"
+   ]
+  },
+  {
+   "weakness": "Retrieved guidance can be overly generic or mismatched when used without hierarchy and contextual review.",
+   "evidence": "b06’s RAG replay/speedrun layer was useful but the resulting reflex finale weakened a hard chess-planning brief. b07 used a culturally accurate blessing reference in a competitively scored checkpoint, which the review judged culturally risky.",
+   "briefs": [
+    "b06-pc-chess-gamers",
+    "b07-songkran-outdoor"
+   ]
+  },
+  {
+   "weakness": "RAG did not solve the hardest shared-space feasibility questions.",
+   "evidence": "b04 lacks measured non-crossing two-player routes; b07 cannot show how four independent 1.2 m courses fit in 10 x 10 m; b10’s prototype sketch still fails to visibly show both lanes.",
+   "briefs": [
+    "b04-thai-ghost-teens",
+    "b07-songkran-outdoor",
+    "b10-fortal-court-race"
+   ]
+  }
+ ],
+ "where_without_rag_was_better": [
+  {
+   "brief": "b01-kids-living",
+   "why": "It specified a firmer 1.2 m corridor and 0.6 m edge clearance, and had a more vivid egg-hatching climax."
+  },
+  {
+   "brief": "b02-school-gym-edu",
+   "why": "Its clue-based planet discovery was more cognitively engaging, although the actual clue text was missing."
+  },
+  {
+   "brief": "b03-mall-brand",
+   "why": "Its two-hazard prototype, sketch, and final plan were internally consistent."
+  },
+  {
+   "brief": "b04-thai-ghost-teens",
+   "why": "It explicitly required two separate non-crossing lanes for simultaneous players."
+  },
+  {
+   "brief": "b05-uk-uni-open-day",
+   "why": "It had consistent morning lighting and explicit host-assisted first-time onboarding."
+  },
+  {
+   "brief": "b06-pc-chess-gamers",
+   "why": "It was the overall winner: clearer chess-planning focus, fairer 3–3.5-second readable beats, a systematic difficulty ramp, and better first-board teaching."
+  },
+  {
+   "brief": "b07-songkran-outdoor",
+   "why": "It was the overall winner: correct 180-second duration, more consistent route/hazard specification, and avoided scoring a blessing practice."
+  },
+  {
+   "brief": "b08-tiny-room-solo",
+   "why": "Its authored flow occupied nearly the whole intended five-minute session and better conveyed the requested zombie-siege atmosphere."
+  },
+  {
+   "brief": "b09-seniors-centre",
+   "why": "Its prototype supplied the more exact route coordinates, audience zones, radii, and return loop."
+  },
+  {
+   "brief": "b10-fortal-court-race",
+   "why": "Its seven-checkpoint race was more compact, feasible, and naturally replayable than RAG’s busy nine-checkpoint version."
+  }
+ ],
+ "q3_improvements": [
+  {
+   "priority": 1,
+   "improvement": "Add a cross-stage constraint and consistency validator before finalizing any design.",
+   "why": "Contradictions are the most recurrent RAG failure and can invalidate otherwise strong ideas: b01/b09 time scoring, b03 hazard counts, b05 lighting, b07 duration/route order, b08 session length, and b10 lane depiction.",
+   "how_to_test": "For each brief, automatically compare option, prototype, sketch, flow, HUD, and build plan for duration, checkpoint/hazard counts, scoring, lighting, route width, and player count. Require zero unresolved conflicts before human review."
+  },
+  {
+   "priority": 2,
+   "improvement": "Add a feasibility/layout solver for multi-player MR, producing a measured diagram rather than prose promises.",
+   "why": "The reviews repeatedly flag unproven simultaneous-play layouts in b04, b07, and b10; this is a safety issue, not merely documentation quality.",
+   "how_to_test": "Given room boundary, obstacles, doors, spectators, player count, 1.2 m paths, and 0.6 m margins, generate lanes and collision envelopes. Reject or reduce simultaneous-player count when no valid placement exists; validate with walking-speed trials using the intended number of participants."
+  },
+  {
+   "priority": 3,
+   "improvement": "Rank retrieved cards by brief fit and enforce negative constraints, rather than blending all retrieved defaults.",
+   "why": "RAG imported 150-second Songkran timing into b07, afternoon lighting into b05, speedrun pressure into b06, and time bonuses into calm/untimed b01 and b09 experiences.",
+   "how_to_test": "Create counterfactual prompt sets: baseline retrieval versus ranked retrieval with explicit exclusions such as “no timer,” “not a competitive ritual,” or “cerebral rather than reflex challenge.” Blind-review resulting designs for brief fit and contradiction rate."
+  },
+  {
+   "priority": 4,
+   "improvement": "Make retrieval provenance claim-level and distinguish card-derived instructions from model-created elaboration.",
+   "why": "Exact coordinates in b02, prop/hazard counts in b03, and operational controls in b10 were valuable but not directly present in cards. Attribution otherwise overstates what RAG caused.",
+   "how_to_test": "Require each material final-plan field to cite a card ID or “model elaboration.” Independently audit a sample of fields against card text and measure precision of the citations."
+  },
+  {
+   "priority": 5,
+   "improvement": "Add audience-specific playtests as mandatory gates, with outcome thresholds tied to the brief.",
+   "why": "The reviews identify unresolved fit risks: b01 child movement load, b05 pair-width/onboarding, b06 puzzle fairness, b08 five-minute pacing, and b09 senior balance/readability.",
+   "how_to_test": "Run 5–8 representative users per affected segment. Example thresholds: zero boundary contacts for b01/b05/b09; at least 80% complete b06 without reflex-timing complaints; median b08 first-session engagement near five minutes; no b09 participant reaches for a wall without staff intervention."
+  }
+ ],
+ "caveats": [
+  "This is a comparison of ten paired outputs from one model and one workflow, not a randomized evaluation across models, prompts, designers, or real players.",
+  "The evidence consists of expert blind reviews of documents, not usability studies, implementation results, injury data, learning outcomes, or cultural consultation.",
+  "The reviewers’ preferences are high-confidence but qualitative; “preferred” does not establish effect size or statistical significance.",
+  "Cards were supplied only for With RAG runs, so a traceable match shows plausible influence, not proof that retrieval caused the feature or that Without RAG could not independently produce it.",
+  "Some retrieved cards themselves contain defaults that conflict with individual briefs; a card match is not automatically evidence of good design.",
+  "Several conclusions rely on documentation completeness. A missing coordinate, clue, or layout in a brief may have existed in an unstated implementation rather than being absent from the actual game."
+ ]
+}
